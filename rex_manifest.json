@@ -1,0 +1,346 @@
+{
+  "_meta": {
+    "description": "REX System Manifest — source of truth for all components. Edit this file when you intentionally change the system. REX_AUDIT.command validates reality against this spec.",
+    "version": "1.0",
+    "created": "2026-04-13",
+    "owner": "Kato / GOJ (Garden of Joy)"
+  },
+
+  "directories": {
+    "rex_root":       "~/Desktop/REX",
+    "goj_dashboard":  "~/Documents/goj files/dashboard",
+    "logs":           "~/Desktop/REX/logs",
+    "signins":        "~/Desktop/REX/signins",
+    "backups":        "~/Desktop/REX/backups",
+    "backend":        "~/Desktop/REX/backend"
+  },
+
+  "files": [
+    {
+      "label":    "Rexxie Telegram bot",
+      "path":     "~/Desktop/REX/rex_rexxie_telegram_bot.py",
+      "min_kb":   100,
+      "required": true
+    },
+    {
+      "label":    "REX Telegram bot",
+      "path":     "~/Desktop/REX/rex_telegram_bot.py",
+      "min_kb":   10,
+      "required": true
+    },
+    {
+      "label":    "GOJ Daily Scheduler",
+      "path":     "~/Desktop/REX/goj_daily_scheduler.py",
+      "min_kb":   30,
+      "required": true
+    },
+    {
+      "label":    "REX Backend (main.py)",
+      "path":     "~/Desktop/REX/backend/main.py",
+      "min_kb":   100,
+      "required": true
+    },
+    {
+      "label":    "GOJ Dashboard (app.py)",
+      "path":     "~/Documents/goj files/dashboard/app.py",
+      "min_kb":   100,
+      "required": true
+    },
+    {
+      "label":    "REX bot config",
+      "path":     "~/Desktop/REX/rex_telegram_config.json",
+      "min_kb":   1,
+      "required": true
+    },
+    {
+      "label":    "Rexxie bot config",
+      "path":     "~/Desktop/REX/rex_rexxie_telegram_config.json",
+      "min_kb":   1,
+      "required": true
+    },
+    {
+      "label":    "Environment / API keys (.env)",
+      "path":     "~/Desktop/REX/.env",
+      "min_kb":   1,
+      "required": true
+    },
+    {
+      "label":    "GOJ Auth database",
+      "path":     "~/Documents/goj files/dashboard/auth_tracker.db",
+      "min_kb":   100,
+      "required": true
+    },
+    {
+      "label":    "Rexxie memory database",
+      "path":     "~/Desktop/REX/rexxie_memory.db",
+      "min_kb":   10,
+      "required": true
+    },
+    {
+      "label":    "REX Policy Rules",
+      "path":     "~/Desktop/REX/rex_policy_rules.json",
+      "min_kb":   1,
+      "required": true
+    },
+    {
+      "label":    "FIX_REXXIE launcher",
+      "path":     "~/Desktop/REX/FIX_REXXIE.command",
+      "min_kb":   1,
+      "required": true
+    },
+    {
+      "label":    "Health check script",
+      "path":     "~/Desktop/REX/REX_HEALTH_CHECK.command",
+      "min_kb":   1,
+      "required": true
+    },
+    {
+      "label":    "Handoff document (Word)",
+      "path":     "~/Desktop/REX/REX_REXXIE_HANDOFF.docx",
+      "min_kb":   20,
+      "required": false,
+      "note":     "Reference document — not required for system operation"
+    }
+  ],
+
+  "python_environments": [
+    {
+      "label":  "Main venv (debate-chamber)",
+      "path":   "~/debate-chamber/.venv/bin/python3",
+      "use_for": ["rexxie_bot", "rex_bot", "goj_dashboard"]
+    },
+    {
+      "label":  "REX backend venv",
+      "path":   "~/Desktop/REX/.venv/bin/python3",
+      "use_for": ["rex_backend"]
+    }
+  ],
+
+  "python_packages": [
+    { "name": "anthropic",    "min_version": "0.80.0", "required": true,  "note": "Claude API — core AI engine" },
+    { "name": "telegram",     "min_version": "20.0",   "required": true,  "note": "python-telegram-bot v20+" },
+    { "name": "flask",        "min_version": "3.0.0",  "required": true,  "note": "GOJ Dashboard server" },
+    { "name": "uvicorn",      "min_version": "0.30.0", "required": true,  "note": "REX backend ASGI server" },
+    { "name": "pdfplumber",   "min_version": "0.9.0",  "required": true,  "note": "OCR Engine 1 — text layer extraction" },
+    { "name": "pdf2image",    "min_version": "1.16.0", "required": true,  "note": "OCR Engines 2+3 — PDF to image conversion" },
+    { "name": "pytesseract",  "min_version": "0.3.10", "required": true,  "note": "OCR Engine 2 — Tesseract Python wrapper" },
+    { "name": "Pillow",       "min_version": "9.0.0",  "required": true,  "note": "Image processing for OCR" },
+    { "name": "pymupdf",      "min_version": "1.22.0", "required": false, "note": "OCR Engine 1 fallback — fitz" },
+    { "name": "openai",       "min_version": "1.0.0",  "required": false, "note": "Not currently used" }
+  ],
+
+  "system_tools": [
+    {
+      "binary":   "tesseract",
+      "required": true,
+      "check":    "tesseract --version",
+      "note":     "OCR Engine 2. Install: brew install tesseract tesseract-lang"
+    },
+    {
+      "binary":   "pdfimages",
+      "required": true,
+      "check":    "which pdfimages",
+      "note":     "Poppler suite — required for pdf2image. Install: brew install poppler"
+    },
+    {
+      "binary":   "sqlite3",
+      "required": true,
+      "check":    "which sqlite3",
+      "note":     "DB inspection — usually pre-installed on macOS"
+    }
+  ],
+
+  "env_keys": [
+    { "key": "ANTHROPIC_API_KEY", "required": true,  "prefix": "sk-ant-", "note": "Claude API access" },
+    { "key": "OPENAI_API_KEY",    "required": false, "note": "Not currently used — OK if missing" }
+  ],
+
+  "telegram_bots": [
+    {
+      "label":       "Rexxie (personal confidant)",
+      "config_file": "~/Desktop/REX/rex_rexxie_telegram_config.json",
+      "token_key":   "bot_token",
+      "script":      "rex_rexxie_telegram_bot.py",
+      "must_differ_from": "rex_telegram_config.json",
+      "note":        "Kato's personal AI companion — emotional support, reminders, language learning"
+    },
+    {
+      "label":       "REX (occupational)",
+      "config_file": "~/Desktop/REX/rex_telegram_config.json",
+      "token_key":   "bot_token",
+      "script":      "rex_telegram_bot.py",
+      "must_differ_from": "rex_rexxie_telegram_config.json",
+      "note":        "GOJ operational assistant — scheduling, attendance, menus, staff"
+    }
+  ],
+
+  "services": [
+    {
+      "label":       "REX Backend",
+      "port":        8000,
+      "check_url":   "http://localhost:8000/",
+      "expect_code": 200,
+      "process":     "uvicorn",
+      "required":    true
+    },
+    {
+      "label":       "GOJ Dashboard",
+      "port":        8080,
+      "check_url":   "http://localhost:8080/login",
+      "expect_code": 200,
+      "process":     "app.py",
+      "required":    true,
+      "login":       { "url": "http://localhost:8080/login", "user": "KChairman", "pass_env": "GOJ_DASHBOARD_PASSWORD" }
+    }
+  ],
+
+  "api_endpoints": [
+    { "url": "http://localhost:8000/",         "expect": 200, "label": "REX root" },
+    { "url": "http://localhost:8000/docs",     "expect": 200, "label": "REX Swagger docs" },
+    { "url": "http://localhost:8000/api/memory","expect": 200, "label": "REX memory API" },
+    { "url": "http://localhost:8080/",         "expect": [200, 302, 307], "label": "GOJ Dashboard root" },
+    { "url": "http://localhost:8080/login",    "expect": 200, "label": "GOJ Dashboard login" }
+  ],
+
+  "databases": {
+    "auth_tracker": {
+      "path": "~/Documents/goj files/dashboard/auth_tracker.db",
+      "tables": [
+        { "name": "users",                    "min_rows": 1, "note": "GOJ staff accounts" },
+        { "name": "sessions",                 "min_rows": 0 },
+        { "name": "pending_schedule_changes", "min_rows": 0 }
+      ]
+    },
+    "rexxie_memory": {
+      "path": "~/Desktop/REX/rexxie_memory.db",
+      "tables": [
+        { "name": "rex_user_model", "min_rows": 5,  "note": "Rexxie's long-term facts about Kato — must not be empty" },
+        { "name": "rex_exchanges",  "min_rows": 1,  "note": "Conversation history" }
+      ]
+    }
+  },
+
+  "launchd": {
+    "forbidden": [
+      {
+        "label":  "Rexxie auto-respawn agent",
+        "plist":  "com.rex.rexxie-bot",
+        "reason": "Causes Telegram 409 conflicts by restarting Rexxie alongside manual starts"
+      }
+    ],
+    "allowed": [
+      {
+        "label": "Paperless Tailscale tunnel",
+        "plist": "com.rex.paperless-tunnel",
+        "note":  "Keeps Paperless-NGX accessible over Tailscale for OCR Engine 3"
+      }
+    ]
+  },
+
+  "ocr_pipeline": {
+    "description": "4-engine waterfall. First engine to succeed wins. Order matters.",
+    "drop_folder": "~/Desktop/REX/signins/",
+    "phi_rule":    "Sign-in sheets contain client names (PHI). Use Engine 1, 2, or 3 ONLY. Never Engine 4 (Claude Vision) for sign-in sheets.",
+    "engines": [
+      {
+        "order":    1,
+        "name":     "pdfplumber / pymupdf",
+        "type":     "text-layer",
+        "offline":  true,
+        "phi_safe": true,
+        "languages": ["any"],
+        "requires": ["pdfplumber"],
+        "when":     "Digitally-created PDFs (not scanned)"
+      },
+      {
+        "order":    2,
+        "name":     "Tesseract",
+        "type":     "offline-ocr",
+        "offline":  true,
+        "phi_safe": true,
+        "languages": ["eng", "rus"],
+        "requires": ["tesseract", "poppler", "pdf2image", "pytesseract"],
+        "when":     "Scanned PDFs, printed text, typed forms"
+      },
+      {
+        "order":    3,
+        "name":     "Paperless-NGX",
+        "type":     "network-ocr",
+        "offline":  false,
+        "phi_safe": true,
+        "languages": ["eng", "rus", "deu", "fra"],
+        "requires": ["Tailscale connected", "Paperless running on network"],
+        "when":     "Multi-page complex documents, Tesseract fails"
+      },
+      {
+        "order":    4,
+        "name":     "Claude Vision",
+        "type":     "ai-vision",
+        "offline":  false,
+        "phi_safe": false,
+        "languages": ["any — including handwriting"],
+        "requires": ["anthropic", "ANTHROPIC_API_KEY", "internet"],
+        "when":     "Handwritten documents ONLY. NOT for sign-in sheets with client names.",
+        "phi_warning": "External API call — never use for documents with client names"
+      }
+    ]
+  },
+
+  "document_types": [
+    {
+      "type":       "Sign-in sheet",
+      "phi":        true,
+      "ocr_engines": [1, 2, 3],
+      "naming":     "GOJ_{DayCode}_S{Shift}_{Weekday}_signin.pdf",
+      "drop_to":    "~/Desktop/REX/signins/",
+      "day_codes":  ["M", "T", "W", "TH", "F", "Sa"],
+      "shifts":     ["S1 = morning", "S2 = afternoon"],
+      "example":    "GOJ_M_S1_Monday_signin.pdf"
+    },
+    {
+      "type":       "Weekly menu",
+      "phi":        false,
+      "ocr_engines": [1, 2, 3, 4],
+      "drop_to":    "~/Desktop/REX/signins/",
+      "naming":     "menu_{week_date}.pdf"
+    },
+    {
+      "type":       "Activities calendar",
+      "phi":        false,
+      "ocr_engines": [1, 2, 3, 4],
+      "drop_to":    "~/Desktop/REX/signins/"
+    },
+    {
+      "type":       "Driver list / transport manifest",
+      "phi":        true,
+      "ocr_engines": [1, 2, 3],
+      "drop_to":    "~/Desktop/REX/signins/"
+    },
+    {
+      "type":       "Medicare / Medicaid forms",
+      "phi":        true,
+      "ocr_engines": [1, 2, 3],
+      "drop_to":    "~/Desktop/REX/signins/"
+    }
+  ],
+
+  "backup": {
+    "max_age_hours": 24,
+    "rex_backup_dir":     "~/Desktop/REX/backups",
+    "rex_backup_prefix":  "REX_",
+    "goj_backup_prefix":  "GOJ_"
+  },
+
+  "disk": {
+    "warn_percent_used": 85,
+    "fail_percent_used": 95
+  },
+
+  "quick_fixes": {
+    "409_conflict":      "fix_telegram_conflict.command",
+    "all_services_down": "FIX_REXXIE.command",
+    "ocr_broken":        "install_ocr_deps.command",
+    "rexxie_forgets":    "teach_rexxie.command (then restart Rexxie)",
+    "rex_needs_training":"teach_rex.command (backend must be running)"
+  }
+}

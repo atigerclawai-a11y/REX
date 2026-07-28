@@ -1,0 +1,72 @@
+{
+  "TEMPLATE_kitchen.pdf": {
+    "status": "success",
+    "path": "/sessions/upbeat-vigilant-faraday/mnt/dashboard/templates/TEMPLATE_kitchen.pdf",
+    "pages": 2,
+    "text_chars": 429,
+    "has_tables": true,
+    "table_count": 2,
+    "text_preview": "Garden of Joy \u2014 KITCHEN PREP ORDER\nDate: _______________ Shift: ___ Total Clients: ___ Prepared by: _______________ Time: _______\n# Dish / Description QTY \u2713 Prepped \u2713 Served\nSALADS\n1\n2\n3\n4\n5\n6\nSECTION",
+    "columns_detected": [
+      "SALADS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "rows_estimate": 19
+  },
+  "TEMPLATE_distribution.pdf": {
+    "status": "success",
+    "path": "/sessions/upbeat-vigilant-faraday/mnt/dashboard/templates/TEMPLATE_distribution.pdf",
+    "pages": 2,
+    "text_chars": 287,
+    "has_tables": true,
+    "table_count": 1,
+    "text_preview": "Garden of Joy \u2014 FOOD DISTRIBUTION SHEET\nDate: _______________ Shift: ___ Total Clients: ___ Page 1/2 \u2605 Check box after each delivery\nNo Client Name Salad Soup Main + Side \u2713\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n",
+    "columns_detected": [
+      "No",
+      "Client Name",
+      "Salad",
+      "Soup",
+      "Main + Side",
+      "\u2713"
+    ],
+    "rows_estimate": 48
+  },
+  "TEMPLATE_signin.pdf": {
+    "status": "success",
+    "path": "/sessions/upbeat-vigilant-faraday/mnt/dashboard/templates/TEMPLATE_signin.pdf",
+    "pages": 2,
+    "text_chars": 249,
+    "has_tables": true,
+    "table_count": 1,
+    "text_preview": "GARDEN OF JOY ADULT DAY CARE CENTER \u2014 SIGN-IN SHEET\nDate: _______________ Shift: ___ Total: ___ Page 1/2\nNo Name Insurance Plan CH TR Signature\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13 3152 Brighton 6 St, Brookl",
+    "columns_detected": [
+      "No",
+      "Name",
+      "Insurance Plan",
+      "CH",
+      "TR",
+      "Signature"
+    ],
+    "rows_estimate": 13
+  },
+  "TEMPLATE_driver.pdf": {
+    "status": "success",
+    "path": "/sessions/upbeat-vigilant-faraday/mnt/dashboard/templates/TEMPLATE_driver.pdf",
+    "pages": 1,
+    "text_chars": 323,
+    "has_tables": true,
+    "table_count": 1,
+    "text_preview": "ROUTE \u2014 ____________________\nDate: _______________ Shift: ___ Total clients: ___\nNo Client Name Address Phone Notes\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\nDriver: ___________________",
+    "columns_detected": [
+      "No",
+      "Client Name",
+      "Address",
+      "Phone",
+      "Notes"
+    ],
+    "rows_estimate": 22
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "_comment": "GOJ/GHS Local Agent Registry — all local, never cloud",
+  "_version": "1.2.0",
+  "_updated": "2026-04-11",
+
+  "agents": [
+
+    {
+      "id": "rexxie_goj",
+      "name": "Rexxie GOJ",
+      "subtitle": "GOJ Telegram bot — PDF intake, menus, attendance, auth",
+      "category": "assistant",
+      "script": "rex_rexxie_telegram_bot.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "nohup_bg",
+      "venv": "/Users/mainsobhelper/Desktop/REX/.venv/bin/python",
+      "env": {},
+      "detect_process": "rex_rexxie_telegram_bot.py",
+      "conflicts": ["private_confidant_gold.py", "rex_telegram_bot.py", "goj_telegram_bot_v12.py"],
+      "log": "/Users/mainsobhelper/Desktop/REX/logs/rexxie_bot.log",
+      "db": "/Users/mainsobhelper/Documents/goj files/dashboard/auth_tracker.db",
+      "description": "Primary GOJ bot. Accepts PDF uploads via Telegram, routes sign-in sheets, menus, and auth letters. Handles attendance, menu orders, and reports. Must be the ONLY bot running on this Telegram token.",
+      "tags": ["goj", "telegram", "pdf", "menus", "attendance", "24/7", "critical"],
+      "required": true,
+      "backup_on_switch": false
+    },
+
+    {
+      "id": "rexxie_private",
+      "name": "Rexxie Gold Health (GHS)",
+      "subtitle": "Private confidant — personal mode (NOT for GOJ)",
+      "category": "assistant",
+      "script": "private_confidant_gold.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/Gold_Health_Systems",
+      "launch_mode": "nohup_bg",
+      "env": {
+        "TELEGRAM_TOKEN": "__from_env__",
+        "OWNER_TELEGRAM_ID": "5587703834",
+        "OWNER_NAME": "Kato",
+        "OLLAMA_MODEL": "qwen3.5:9b",
+        "DEFAULT_MODE": "private"
+      },
+      "detect_process": "private_confidant_gold.py",
+      "conflicts": ["rex_rexxie_telegram_bot.py"],
+      "log": "/Users/mainsobhelper/Desktop/REX/logs/rexxie_startup.log",
+      "db": "/Users/mainsobhelper/Desktop/Gold_Health_Systems/rexxie_private.db",
+      "description": "GHS personal bot. Uses same Telegram token — CANNOT run at same time as Rexxie GOJ. Switch only when needed.",
+      "tags": ["personal", "ghs", "qwen3.5:9b"],
+      "required": false,
+      "backup_on_switch": true
+    },
+
+    {
+      "id": "rexxie_employee",
+      "name": "REX — Employee Mode",
+      "subtitle": "Staff-facing business assistant",
+      "category": "assistant",
+      "script": "private_confidant_gold.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/Gold_Health_Systems",
+      "launch_mode": "nohup_bg",
+      "env": {
+        "TELEGRAM_TOKEN": "__from_env__",
+        "OWNER_TELEGRAM_ID": "5587703834",
+        "OWNER_NAME": "Kato",
+        "OLLAMA_MODEL": "qwen3.5:9b",
+        "DEFAULT_MODE": "employee"
+      },
+      "detect_process": "private_confidant_gold.py",
+      "log": "/Users/mainsobhelper/Desktop/REX/logs/rexxie_startup.log",
+      "db": "/Users/mainsobhelper/Desktop/Gold_Health_Systems/rex_business.db",
+      "description": "REX employee lane — answers staff questions about schedules, routes, policies. Same bot, different lane.",
+      "tags": ["business", "staff", "qwen3.5:9b", "ollama"],
+      "backup_on_switch": true
+    },
+
+    {
+      "id": "rexxie_admin",
+      "name": "REX — Admin Mode",
+      "subtitle": "Owner-only admin lane",
+      "category": "assistant",
+      "script": "private_confidant_gold.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/Gold_Health_Systems",
+      "launch_mode": "nohup_bg",
+      "env": {
+        "TELEGRAM_TOKEN": "__from_env__",
+        "OWNER_TELEGRAM_ID": "5587703834",
+        "OWNER_NAME": "Kato",
+        "OLLAMA_MODEL": "qwen3.5:9b",
+        "DEFAULT_MODE": "admin"
+      },
+      "detect_process": "private_confidant_gold.py",
+      "log": "/Users/mainsobhelper/Desktop/REX/logs/rexxie_startup.log",
+      "db": "/Users/mainsobhelper/Desktop/Gold_Health_Systems/rex_business.db",
+      "description": "REX admin lane — billing, sensitive ops, board-level data. Owner only.",
+      "tags": ["admin", "billing", "qwen3.5:9b", "sensitive"],
+      "backup_on_switch": true
+    },
+
+    {
+      "id": "goj_dashboard",
+      "name": "GOJ Dashboard",
+      "subtitle": "Web dashboard — port 8080",
+      "category": "service",
+      "script": "app.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/dashboard",
+      "launch_mode": "nohup_bg",
+      "env": {},
+      "detect_process": "app.py",
+      "detect_port": 8080,
+      "log": "/Users/mainsobhelper/Desktop/REX/logs/dashboard.log",
+      "db": "/Users/mainsobhelper/Documents/goj files/auth_tracker.db",
+      "description": "Flask dashboard — client profiles, authorizations, menus, schedules. Open http://localhost:8080.",
+      "tags": ["web", "flask", "clients", "port:8080"],
+      "backup_on_switch": false
+    },
+
+    {
+      "id": "rex_backend",
+      "name": "REX Backend + Nemobot",
+      "subtitle": "FastAPI + LiteLLM multi-AI router — port 8000",
+      "category": "service",
+      "script": "rex_app.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "nohup_bg",
+      "env": {},
+      "detect_process": "rex_app.py",
+      "detect_port": 8000,
+      "log": "/Users/mainsobhelper/Desktop/REX/logs/rex_startup.log",
+      "description": "REX FastAPI backend. Powers nemobot (/api/chat) — routes to Claude, Grok, ChatGPT, Gemini, Perplexity, Ollama via LiteLLM. Also serves OCR hooks, client API, and phone unlock on port 8765.",
+      "tags": ["fastapi", "nemobot", "litellm", "port:8000"],
+      "backup_on_switch": false
+    },
+
+    {
+      "id": "ollama_qwen",
+      "name": "Ollama — qwen3.5:9b",
+      "subtitle": "Local LLM server — port 11434",
+      "category": "llm",
+      "script": "__ollama__",
+      "script_dir": "/usr/local/bin",
+      "launch_mode": "ollama",
+      "ollama_model": "qwen3.5:9b",
+      "detect_process": "ollama",
+      "detect_port": 11434,
+      "log": "/Users/mainsobhelper/Desktop/REX/logs/ollama.log",
+      "description": "Primary local LLM. Powers all Rexxie lanes. Must be running before starting any Rexxie agent. 100% local — zero cloud.",
+      "tags": ["ollama", "qwen3.5:9b", "local-llm", "required"],
+      "backup_on_switch": false
+    },
+
+    {
+      "id": "goj_scheduler",
+      "name": "GOJ Daily Scheduler",
+      "subtitle": "7:30am / 10am / 3pm / 9pm jobs",
+      "category": "service",
+      "script": "goj_daily_scheduler.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "launchd",
+      "launchd_plist": "com.goj.scheduler.morning_report",
+      "detect_process": "goj_daily_scheduler.py",
+      "log": "/Users/mainsobhelper/Desktop/REX/logs/goj_scheduler.log",
+      "description": "Sends morning report, kitchen sheets, driver sheets, nightly summary to Rexxie on schedule.",
+      "tags": ["scheduler", "automation", "daily", "launchd"],
+      "backup_on_switch": false
+    },
+
+    {
+      "id": "queue_processor",
+      "name": "REX Queue Processor",
+      "subtitle": "AI curriculum runner — fires every 15 min",
+      "category": "service",
+      "script": "rex_queue_processor.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "launchd",
+      "launchd_plist": "com.rex.queue_processor",
+      "detect_process": "rex_queue_processor.py",
+      "log": "/Users/mainsobhelper/Desktop/REX/rex_queue.log",
+      "description": "Reads prompt files from ai_queue/, sends to nemobot (/api/chat via LiteLLM), saves training reports, notifies via Telegram.",
+      "tags": ["queue", "curriculum", "training", "launchd"],
+      "backup_on_switch": false
+    },
+
+    {
+      "id": "phone_unlock",
+      "name": "Proximity Unlock Daemon",
+      "subtitle": "Phone near = Mac unlocked — port 8765",
+      "category": "daemon",
+      "script": "rex_proximity_daemon.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "nohup_bg",
+      "detect_process": "rex_proximity_daemon.py",
+      "detect_port": 8765,
+      "log": "/Users/mainsobhelper/Desktop/REX/logs/rex_backend.log",
+      "description": "Listens for iPhone heartbeat over UDP. Phone unlocked + nearby → Mac unlocked. Phone gone → Mac locks after 60s. All local.",
+      "tags": ["daemon", "security", "proximity", "port:8765"],
+      "backup_on_switch": false
+    },
+
+    {
+      "id": "reminder_daemon",
+      "name": "Chairman Reminder Daemon",
+      "subtitle": "Fires Telegram reminders for Kato",
+      "category": "daemon",
+      "script": "rex_reminder_daemon.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "launchd",
+      "detect_process": "rex_reminder_daemon.py",
+      "log": "/Users/mainsobhelper/Desktop/REX/logs/rex_reminders.log",
+      "description": "Checks reminder DB every 5 min, fires Telegram messages to Kato for upcoming personal events. Chairman-only.",
+      "tags": ["daemon", "reminders", "telegram", "personal"],
+      "backup_on_switch": false
+    },
+
+    {
+      "id": "email_watcher",
+      "name": "Email / PDF Watcher",
+      "subtitle": "Auto-ingest new scans from Gmail",
+      "category": "daemon",
+      "script": "rex_email_pdf_watcher.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "nohup_bg",
+      "detect_process": "rex_email_pdf_watcher.py",
+      "log": "/Users/mainsobhelper/Desktop/REX/logs/email_watcher.log",
+      "description": "Watches atigerclawai@gmail.com for new PDF attachments from Allen/scanner. Auto-downloads to menus or auth folder.",
+      "tags": ["daemon", "gmail", "auto-ingest", "pdf"],
+      "backup_on_switch": false
+    },
+
+    {
+      "id": "cowork_dispatch",
+      "name": "Local Cowork Dispatch",
+      "subtitle": "Local task dispatch queue for Cowork sessions",
+      "category": "service",
+      "script": "local_cowork_dispatch.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/Gold_Health_Systems",
+      "launch_mode": "nohup_bg",
+      "detect_process": "local_cowork_dispatch.py",
+      "log": "/Users/mainsobhelper/Desktop/REX/logs/cowork_dispatch.log",
+      "description": "Local dispatcher that routes Cowork tasks to the right agent. Manages dispatch_queue/, dispatch_done/, dispatch_failed/.",
+      "tags": ["dispatch", "cowork", "local", "queue"],
+      "backup_on_switch": false
+    }
+  ],
+
+  "ollama_models": [
+    {
+      "id": "qwen3.5:9b",
+      "name": "Qwen 3.5 9B",
+      "subtitle": "Primary model — all Rexxie lanes",
+      "local": true,
+      "recommended": true,
+      "description": "Default model for all Rexxie agents. Best balance of speed and quality for GOJ/GHS tasks."
+    },
+    {
+      "id": "qwen2.5:7b",
+      "name": "Qwen 2.5 7B",
+      "subtitle": "Lighter fallback model",
+      "local": true,
+      "recommended": false,
+      "description": "Lighter/faster. Use if qwen3.5 is slow or unavailable."
+    }
+  ],
+
+  "tools": [
+
+    {
+      "id": "menu_ocr",
+      "name": "Menu OCR Runner",
+      "subtitle": "Process new menu PDFs → client_menus table",
+      "script": "run_menu_ocr_new.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "foreground",
+      "description": "Skips already-processed PDFs. Runs 4-engine OCR on new scans. Flags low-confidence results for Rexxie review.",
+      "tags": ["ocr", "menus", "one-shot"]
+    },
+
+    {
+      "id": "auth_linker",
+      "name": "Auth Document Linker",
+      "subtitle": "OCR auth PDFs → create authorization records",
+      "script": "run_auth_linker.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "foreground",
+      "description": "Scans authorization folder, OCRs unlinked PDFs, creates authorization records, links docs to clients.",
+      "tags": ["auth", "ocr", "one-shot"]
+    },
+
+    {
+      "id": "download_scans",
+      "name": "Download All Scans",
+      "subtitle": "Pull new scans from Gmail → menus folder",
+      "script": "DOWNLOAD_ALL_SCANS.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "foreground",
+      "description": "Fetches PDF attachments from atigerclawai@gmail.com (forwarded from Allen) and saves to dashboard/documents/menus/.",
+      "tags": ["gmail", "download", "one-shot"]
+    },
+
+    {
+      "id": "daily_sheets",
+      "name": "Generate Daily Sheets",
+      "subtitle": "Kitchen + distribution + driver sheets",
+      "script": "generate_daily_sheets.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "foreground",
+      "description": "Generates PDF sheets for kitchen counts, meal distribution, and driver routes for today or a specified date.",
+      "tags": ["sheets", "pdf", "one-shot"]
+    },
+
+    {
+      "id": "attendance_report",
+      "name": "Attendance Report",
+      "subtitle": "Generate client attendance summary",
+      "script": "goj_attendance_report.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "foreground",
+      "description": "Pulls attendance log from auth_tracker.db and produces a weekly or monthly summary report.",
+      "tags": ["attendance", "report", "one-shot"]
+    },
+
+    {
+      "id": "paperless_sync",
+      "name": "Paperless Sync",
+      "subtitle": "Push documents to Paperless archive (needs Tailscale)",
+      "script": "paperless_sync_impl.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "foreground",
+      "description": "Uploads pending documents to Paperless-ngx at 100.99.86.60:8000 via Tailscale. Requires Tailscale active.",
+      "tags": ["paperless", "archive", "tailscale", "one-shot"]
+    },
+
+    {
+      "id": "ingest_all",
+      "name": "Full Ingest Pipeline",
+      "subtitle": "Download → OCR → auth link → Paperless",
+      "script": "goj_ingest_all.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "foreground",
+      "description": "Runs download → OCR → auth link → paperless sync in one pass. Use for weekly catch-up.",
+      "tags": ["ingest", "pipeline", "one-shot"]
+    },
+
+    {
+      "id": "saturday_review",
+      "name": "Saturday Review",
+      "subtitle": "Weekly ops summary + curriculum review",
+      "script": "rex_saturday_review.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "foreground",
+      "description": "Weekly review: checks training reports, surfaces what was learned, suggests next week's curriculum.",
+      "tags": ["review", "weekly", "curriculum", "one-shot"]
+    },
+
+    {
+      "id": "red_team",
+      "name": "Red Team Audit",
+      "subtitle": "Security + adversarial test run",
+      "script": "rex_red_team.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "foreground",
+      "description": "Runs adversarial prompts against Rexxie to test policy enforcement boundaries.",
+      "tags": ["security", "audit", "adversarial", "one-shot"]
+    },
+
+    {
+      "id": "blue_team",
+      "name": "Blue Team Defense Check",
+      "subtitle": "Validate policy enforcer + response filters",
+      "script": "rex_blue_team.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "foreground",
+      "description": "Validates that all Rexxie policy gates are working correctly and no sensitive data leaks.",
+      "tags": ["security", "defense", "validation", "one-shot"]
+    },
+
+    {
+      "id": "daily_curriculum",
+      "name": "Daily Curriculum Runner",
+      "subtitle": "Feed today's training prompts to nemobot",
+      "script": "rex_daily_curriculum.py",
+      "script_dir": "/Users/mainsobhelper/Desktop/REX",
+      "launch_mode": "foreground",
+      "description": "Runs daily AI curriculum prompts through nemobot (REX backend /api/chat), saves results to training_reports/.",
+      "tags": ["curriculum", "training", "nemobot", "one-shot"]
+    }
+  ],
+
+  "settings": {
+    "venv_python": "/Users/mainsobhelper/debate-chamber/.venv/bin/python3",
+    "backup_dir": "/Users/mainsobhelper/Desktop/REX/session_backups",
+    "logs_dir": "/Users/mainsobhelper/Desktop/REX/logs",
+    "ollama_host": "http://localhost:11434",
+    "ollama_default_model": "qwen3.5:9b",
+    "ollama_fallback_model": "qwen2.5:7b",
+    "telegram_token_env_var": "TELEGRAM_TOKEN",
+    "telegram_token": "8657319466:AAGqWut7BHTTNIEYJvnXIDlNSDCOiML7tic",
+    "owner_chat_id": 5587703834
+  }
+}

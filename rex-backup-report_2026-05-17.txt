@@ -1,0 +1,47 @@
+REX Daily Backup — Scheduled Run Report
+========================================
+Run timestamp:    2026-05-17 (Sunday)
+Last successful:  2026-04-20_07-42  (from .last_backup — ~27 days ago)
+Outcome:          NOT RUN — see explanation below
+
+What I tried
+------------
+The scheduled task asked me to execute:
+    bash ~/Desktop/REX/rex-backup.command
+
+This is a macOS .command script that:
+  • Reads from ~/Desktop/REX (your Mac's Desktop)
+  • Writes snapshots to /Volumes/Cartoons/REX_Backups/ (external drive)
+  • Hard-fails if the Cartoons drive is not mounted (by design — no fallback)
+
+The scheduled-task runner only gives me a Linux sandbox shell. That shell:
+  • Has REX mounted read/write at a sandbox path, but
+  • Has no $HOME/Desktop, no /Volumes/Cartoons, and no way to invoke macOS rsync against your external drive
+
+To actually run the script on your Mac, I requested computer-use access to
+Terminal + Finder so I could launch the .command file. The approval dialog
+timed out (180s) because the run is unattended — no one was at the keyboard
+to click Allow.
+
+Note on the task description
+----------------------------
+The scheduled-task notes say backups go to "~/Desktop/REX_Backups/" and that
+the script writes "~/Desktop/REX/.last_backup" on success. Both are stale:
+  • The script actually targets /Volumes/Cartoons/REX_Backups/
+  • The .last_backup marker on disk is from 2026-04-20 and matches the
+    older Desktop-based behavior — it has not been updated since, which
+    suggests the script may not have been completing successfully even
+    when run, OR a newer version of the script stopped touching it.
+Worth a manual check next time you're at the machine.
+
+Recommended next steps (for Kato)
+---------------------------------
+1. Plug in the Cartoons external drive.
+2. Double-click ~/Desktop/REX/rex-backup.command in Finder, OR run it in
+   Terminal:  bash ~/Desktop/REX/rex-backup.command
+3. If you want this to run unattended on a schedule, the .command script
+   needs to be triggered by a system-level scheduler on your Mac (launchd
+   / cron / a Shortcut), not from a Cowork scheduled task — the Cowork
+   runner cannot reach your Mac's filesystem or external drives.
+4. Alternatively, run this scheduled task only when you're at the computer
+   so the Terminal access prompt can be approved.

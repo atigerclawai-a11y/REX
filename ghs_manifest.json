@@ -1,0 +1,164 @@
+{
+  "_meta": {
+    "description": "GHS (Gold Health Systems) Manifest — source of truth for the landing page and web presence. GHS_AUDIT.command validates reality against this spec.",
+    "version": "1.0",
+    "created": "2026-04-13",
+    "owner": "Kato / Gold Health Systems, Brooklyn NYC"
+  },
+
+  "organization": {
+    "legal_name":  "Gold Health Systems",
+    "short_name":  "GHS",
+    "type":        "Medicaid home health care agency",
+    "location":    "Brooklyn, NYC",
+    "subsidiaries": [
+      {
+        "name": "Garden of Joy (GOJ)",
+        "type": "Adult Day Care Center",
+        "ops_system": "REX — see rex_manifest.json"
+      }
+    ],
+    "colors": {
+      "navy": "#1a2742",
+      "gold": "#C9A84C"
+    }
+  },
+
+  "directories": {
+    "ghs_root":         "~/Desktop/REX/GoldHealthSystems",
+    "website_nextjs":   "~/Desktop/REX/website",
+    "website_components": "~/Desktop/REX/website/components",
+    "website_app":      "~/Desktop/REX/website/app",
+    "context_docs":     "~/Desktop/REX"
+  },
+
+  "landing_page_versions": {
+    "active": "nextjs",
+    "versions": [
+      {
+        "id":       "static_html",
+        "label":    "Static HTML site (legacy)",
+        "status":   "archived — keep as backup",
+        "path":     "~/Desktop/REX/GoldHealthSystems/index.html",
+        "notes":    "Self-contained single file. No build step. Can be dragged to Netlify drop or uploaded via FTP. Navy/gold color scheme.",
+        "deploy_options": [
+          "Netlify Drop: netlify.com/drop — drag GoldHealthSystems folder",
+          "Namecheap: upload index.html to public_html via FTP or File Manager",
+          "Any web host: upload index.html to web root"
+        ]
+      },
+      {
+        "id":       "nextjs",
+        "label":    "Next.js app (current)",
+        "status":   "active",
+        "path":     "~/Desktop/REX/website",
+        "framework": "Next.js",
+        "runtime":   "Node.js",
+        "styling":   "Tailwind CSS",
+        "scripts": {
+          "dev":   "npm run dev — local dev server",
+          "build": "npm run build — production build",
+          "start": "npm run start — serve production build",
+          "lint":  "npm run lint"
+        }
+      }
+    ]
+  },
+
+  "files": [
+    {
+      "label":    "GHS static HTML landing page",
+      "path":     "~/Desktop/REX/GoldHealthSystems/index.html",
+      "min_kb":   10,
+      "required": true,
+      "note":     "Legacy static version — keep as backup/reference"
+    },
+    {
+      "label":    "Next.js app entry (page.jsx)",
+      "path":     "~/Desktop/REX/website/app/page.jsx",
+      "min_kb":   1,
+      "required": true
+    },
+    {
+      "label":    "Next.js layout",
+      "path":     "~/Desktop/REX/website/app/layout.jsx",
+      "min_kb":   1,
+      "required": true
+    },
+    {
+      "label":    "Global styles",
+      "path":     "~/Desktop/REX/website/app/globals.css",
+      "min_kb":   1,
+      "required": true
+    },
+    {
+      "label":    "Next.js config",
+      "path":     "~/Desktop/REX/website/next.config.mjs",
+      "min_kb":   1,
+      "required": true
+    },
+    {
+      "label":    "Tailwind config",
+      "path":     "~/Desktop/REX/website/tailwind.config.js",
+      "min_kb":   1,
+      "required": true
+    },
+    {
+      "label":    "package.json",
+      "path":     "~/Desktop/REX/website/package.json",
+      "min_kb":   1,
+      "required": true
+    },
+    {
+      "label":    "GHS Master Context Prompt",
+      "path":     "~/Desktop/REX/GHS_MASTER_PROMPT.md",
+      "min_kb":   1,
+      "required": true,
+      "note":     "Master context document — load into new AI conversations to preserve full operational context"
+    },
+    {
+      "label":    "GHS Pitch Deck (Word)",
+      "path":     "~/Desktop/REX/GoldHealthSystems_Pitch_v4.docx",
+      "min_kb":   10,
+      "required": false
+    }
+  ],
+
+  "components": [
+    { "file": "Nav.jsx",       "purpose": "Sticky header with scroll-spy navigation" },
+    { "file": "Hero.jsx",      "purpose": "Above-the-fold hero section" },
+    { "file": "About.jsx",     "purpose": "About GHS section" },
+    { "file": "Features.jsx",  "purpose": "Services / feature highlights" },
+    { "file": "Process.jsx",   "purpose": "How it works / process flow" },
+    { "file": "Proof.jsx",     "purpose": "Social proof / testimonials" },
+    { "file": "OSVision.jsx",  "purpose": "OS / platform vision section" },
+    { "file": "GoldEgg.jsx",   "purpose": "Gold Egg visual / branding component" },
+    { "file": "FinalCTA.jsx",  "purpose": "Final call to action" },
+    { "file": "Footer.jsx",    "purpose": "Footer" }
+  ],
+
+  "node_dependencies": {
+    "check": "~/Desktop/REX/website/node_modules exists",
+    "install_cmd": "cd ~/Desktop/REX/website && npm install",
+    "key_packages": ["next", "react", "react-dom", "tailwindcss"]
+  },
+
+  "local_dev": {
+    "start_cmd":  "cd ~/Desktop/REX/website && npm run dev",
+    "default_port": 3000,
+    "check_url":  "http://localhost:3000"
+  },
+
+  "deployment": {
+    "current_status": "not yet deployed — confirm with Kato",
+    "recommended":    "Netlify (drag-to-deploy or Git integration)",
+    "domain_registrar": "Namecheap",
+    "static_fallback": "GoldHealthSystems/index.html can be deployed independently with no build step"
+  },
+
+  "quick_fixes": {
+    "node_modules_missing": "cd ~/Desktop/REX/website && npm install",
+    "site_not_loading":     "cd ~/Desktop/REX/website && npm run dev",
+    "need_static_backup":   "Open GoldHealthSystems/index.html directly in browser"
+  }
+}

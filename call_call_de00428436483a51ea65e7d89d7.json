@@ -1,0 +1,2786 @@
+{
+  "call_id": "call_de00428436483a51ea65e7d89d7",
+  "call_type": "phone_call",
+  "agent_id": "agent_8a326510567e7dc3e2dc5221df",
+  "agent_version": 0,
+  "agent_name": "Victoria-GOJ-v2",
+  "contact_dynamic_variables": {},
+  "custom_sip_headers": {
+    "X-RetellAI-Direction": "Outbound",
+    "X-RetellAI-OrgId": "org_VkEKS9JwA8t95xZW",
+    "X-RetellAI-CallId": "call_de00428436483a51ea65e7d89d7",
+    "X-RetellAI-SipTraceId": "call_de00428436483a51ea65e7d89d7",
+    "Route": "<sip:18.98.16.123;lr>"
+  },
+  "call_status": "ended",
+  "start_timestamp": 1782397677474,
+  "end_timestamp": 1782397780392,
+  "duration_ms": 102918,
+  "transcript": "Agent: \u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, {client_name}!  \nUser: Welcome \nAgent: \n\u042d\u0442\u043e \u0415\u043b\u0435\u043d\u0430 \nUser: to \"Boardwalk Beer Garden.\" My name is Lana. Let me know if you need to speak to management and would like to be transferred. What's your name and how can I help you?\nAgent: \u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, \u044f \u043c\u043e\u0433\u0443 \u0433\u043e\u0432\u043e\u0440\u0438\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e-\u0440\u0443\u0441\u0441\u043a\u0438.  \n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!\u041c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 \u0415\u043b\u0435\u043d\u0430. \u0427\u0435\u043c \u044f \u043c\u043e\u0433\u0443 \u0432\u0430\u043c \u043f\u043e\u043c\u043e\u0447\u044c? \u0415\u0441\u043b\u0438 \nUser:  Sorry, I didn't\u2014 Sorry, I didn't catch that. Could you please repeat what you said?\nAgent: \u041a\u043e\u043d\u0435\u0447\u043d\u043e, \u044f \u043f\u043e\u0432\u0442\u043e\u0440\u044e.  \n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!\u041c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 \u0415\u043b\u0435\u043d\u0430. \u0427\u0435\u043c \u044f \u043c\u043e\u0433\u0443 \u0432\u0430\u043c \nUser:  I'm having a \nAgent: \u043f\u043e\u043c\u043e\u0447\u044c?  \n\u0415\u0441\u043b\u0438 \nUser: little trouble hearing\u2014\nUser:  I'm having a hard time understanding you. Could you please repeat that a bit more clearly?\nAgent: \u041a\u043e\u043d\u0435\u0447\u043d\u043e, \u044f \u043f\u043e\u0432\u0442\u043e\u0440\u044e \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e \u0438 \u0447\u0451\u0442\u043a\u043e.\nUser:  I'm \nAgent: \n\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!\nUser: really sorry.\nAgent: \u0412\u0441\u0451 \u0432 \u043f\u043e\u0440\u044f\u0434\u043a\u0435, \u043d\u0435 \nUser:  I'm still having\u2014\nUser:  I'm still having trouble understanding you. If you can, please try speaking a little louder or more clearly. If you'd like, I can connect you to someone at the front desk for further help.\nAgent: \u041a\u043e\u043d\u0435\u0447\u043d\u043e, \u044f \u0433\u043e\u0432\u043e\u0440\u044e \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e \u0438 \u0447\u0451\u0442\u043a\u043e.\nUser:  I heard \nAgent: \n\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!\nUser: you say if\u2014 I'm still having trouble understanding. If you'd like, I can connect you to someone at the front desk who can help you further. Would you like me to transfer you now?\nAgent: \u041e\u0434\u043d\u0443 \u043c\u0438\u043d\u0443\u0442\u0443, \u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430. \u042f \u0441\u043e\u0435\u0434\u0438\u043d\u044e \u0432\u0430\u0441 \u0441 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u043c.\nUser:  Okay, I'm transferring you right away.\nAgent: \u0421\u043f\u0430\u0441\u0438\u0431\u043e \u0431\u043e\u043b\u044c\u0448\u043e\u0435! \u0425\u043e\u0440\u043e\u0448\u0435\u0433\u043e \u0434\u043d\u044f!\n",
+  "transcript_object": [
+    {
+      "role": "agent",
+      "content": "\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, {client_name}!  ",
+      "words": [
+        {
+          "word": "\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, ",
+          "start": 1.20677685546875,
+          "end": 1.911
+        },
+        {
+          "word": "{client_name}! ",
+          "start": 2.07495458984375,
+          "end": 2.951
+        },
+        {
+          "word": " ",
+          "start": 3.212998779296875,
+          "end": 3.431
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "Welcome ",
+      "words": [
+        {
+          "word": "Welcome ",
+          "start": 3.7889999999999997,
+          "end": 4.109
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\n\u042d\u0442\u043e \u0415\u043b\u0435\u043d\u0430 ",
+      "words": [
+        {
+          "word": "\n\u042d\u0442\u043e ",
+          "start": 3.43425048828125,
+          "end": 3.911
+        },
+        {
+          "word": "\u0415\u043b\u0435\u043d\u0430 ",
+          "start": 3.99382958984375,
+          "end": 4.151
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "to \"Boardwalk Beer Garden.\" My name is Lana. Let me know if you need to speak to management and would like to be transferred. What's your name and how can I help you?",
+      "words": [
+        {
+          "word": "to ",
+          "start": 4.109,
+          "end": 4.469
+        },
+        {
+          "word": "\"Boardwalk ",
+          "start": 4.469,
+          "end": 5.069
+        },
+        {
+          "word": "Beer ",
+          "start": 5.069,
+          "end": 5.301
+        },
+        {
+          "word": "Garden.",
+          "start": 5.301,
+          "end": 5.589
+        },
+        {
+          "word": "\" ",
+          "start": 5.7090000000000005,
+          "end": 5.849
+        },
+        {
+          "word": "My ",
+          "start": 5.849,
+          "end": 5.961
+        },
+        {
+          "word": "name ",
+          "start": 5.961,
+          "end": 6.089
+        },
+        {
+          "word": "is ",
+          "start": 6.089,
+          "end": 6.5040000000000004
+        },
+        {
+          "word": "Lana. ",
+          "start": 6.5040000000000004,
+          "end": 7.0440000000000005
+        },
+        {
+          "word": "Let ",
+          "start": 7.0440000000000005,
+          "end": 7.1690000000000005
+        },
+        {
+          "word": "me ",
+          "start": 7.1690000000000005,
+          "end": 7.229
+        },
+        {
+          "word": "know ",
+          "start": 7.229,
+          "end": 7.409000000000001
+        },
+        {
+          "word": "if ",
+          "start": 7.409000000000001,
+          "end": 7.539000000000001
+        },
+        {
+          "word": "you ",
+          "start": 7.539000000000001,
+          "end": 7.7090000000000005
+        },
+        {
+          "word": "need ",
+          "start": 7.7090000000000005,
+          "end": 7.829000000000001
+        },
+        {
+          "word": "to ",
+          "start": 7.829000000000001,
+          "end": 7.944
+        },
+        {
+          "word": "speak ",
+          "start": 7.944,
+          "end": 8.129
+        },
+        {
+          "word": "to ",
+          "start": 8.129,
+          "end": 8.364
+        },
+        {
+          "word": "management ",
+          "start": 8.364,
+          "end": 8.844000000000001
+        },
+        {
+          "word": "and ",
+          "start": 8.844000000000001,
+          "end": 8.959
+        },
+        {
+          "word": "would ",
+          "start": 8.959,
+          "end": 9.099
+        },
+        {
+          "word": "like ",
+          "start": 9.099,
+          "end": 9.269
+        },
+        {
+          "word": "to ",
+          "start": 9.269,
+          "end": 9.329
+        },
+        {
+          "word": "be ",
+          "start": 9.329,
+          "end": 9.795666666666666
+        },
+        {
+          "word": "transferred.",
+          "start": 9.795666666666666,
+          "end": 9.969000000000001
+        },
+        {
+          "word": " What's ",
+          "start": 10.389000000000001,
+          "end": 10.659
+        },
+        {
+          "word": "your ",
+          "start": 10.659,
+          "end": 10.821
+        },
+        {
+          "word": "name ",
+          "start": 10.821,
+          "end": 10.944
+        },
+        {
+          "word": "and ",
+          "start": 10.944,
+          "end": 11.064
+        },
+        {
+          "word": "how ",
+          "start": 11.064,
+          "end": 11.184000000000001
+        },
+        {
+          "word": "can ",
+          "start": 11.184000000000001,
+          "end": 11.259
+        },
+        {
+          "word": "I ",
+          "start": 11.259,
+          "end": 11.364
+        },
+        {
+          "word": "help ",
+          "start": 11.364,
+          "end": 11.559000000000001
+        },
+        {
+          "word": "you?",
+          "start": 11.559000000000001,
+          "end": 11.769
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, \u044f \u043c\u043e\u0433\u0443 \u0433\u043e\u0432\u043e\u0440\u0438\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e-\u0440\u0443\u0441\u0441\u043a\u0438.  \n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!\u041c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 \u0415\u043b\u0435\u043d\u0430. \u0427\u0435\u043c \u044f \u043c\u043e\u0433\u0443 \u0432\u0430\u043c \u043f\u043e\u043c\u043e\u0447\u044c? \u0415\u0441\u043b\u0438 ",
+      "words": [
+        {
+          "word": "\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, ",
+          "start": 13.393312255859374,
+          "end": 14.1
+        },
+        {
+          "word": "\u044f ",
+          "start": 14.324850830078125,
+          "end": 14.5
+        },
+        {
+          "word": "\u043c\u043e\u0433\u0443 ",
+          "start": 14.580150146484375,
+          "end": 14.74
+        },
+        {
+          "word": "\u0433\u043e\u0432\u043e\u0440\u0438\u0442\u044c ",
+          "start": 14.74130908203125,
+          "end": 15.22
+        },
+        {
+          "word": "\u0442\u043e\u043b\u044c\u043a\u043e ",
+          "start": 15.3314814453125,
+          "end": 15.54
+        },
+        {
+          "word": "\u043f\u043e-\u0440\u0443\u0441\u0441\u043a\u0438. ",
+          "start": 15.540861328125,
+          "end": 16.18
+        },
+        {
+          "word": " ",
+          "start": 16.453488037109373,
+          "end": 17.22
+        },
+        {
+          "word": "\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!",
+          "start": 17.43410498046875,
+          "end": 17.78
+        },
+        {
+          "word": "\u041c\u0435\u043d\u044f ",
+          "start": 17.8607314453125,
+          "end": 18.1
+        },
+        {
+          "word": "\u0437\u043e\u0432\u0443\u0442 ",
+          "start": 18.102919189453125,
+          "end": 18.66
+        },
+        {
+          "word": "\u0415\u043b\u0435\u043d\u0430. ",
+          "start": 18.852280029296875,
+          "end": 19.06
+        },
+        {
+          "word": "\u0427\u0435\u043c ",
+          "start": 19.14005810546875,
+          "end": 19.22
+        },
+        {
+          "word": "\u044f ",
+          "start": 19.300181640625,
+          "end": 19.46
+        },
+        {
+          "word": "\u043c\u043e\u0433\u0443 ",
+          "start": 19.460052978515623,
+          "end": 19.62
+        },
+        {
+          "word": "\u0432\u0430\u043c ",
+          "start": 19.701053466796875,
+          "end": 20.1
+        },
+        {
+          "word": "\u043f\u043e\u043c\u043e\u0447\u044c? ",
+          "start": 20.2981005859375,
+          "end": 20.58
+        },
+        {
+          "word": "\u0415\u0441\u043b\u0438 ",
+          "start": 20.65998193359375,
+          "end": 20.66
+        }
+      ],
+      "metadata": {
+        "response_id": 7
+      }
+    },
+    {
+      "role": "user",
+      "content": " Sorry, I didn't\u2014 Sorry, I didn't catch that. Could you please repeat what you said?",
+      "words": [
+        {
+          "word": " Sorry, ",
+          "start": 20.409,
+          "end": 20.739
+        },
+        {
+          "word": "I ",
+          "start": 20.739,
+          "end": 20.844
+        },
+        {
+          "word": "didn't\u2014",
+          "start": 20.844,
+          "end": 21.009
+        },
+        {
+          "word": " Sorry, ",
+          "start": 24.129,
+          "end": 24.459
+        },
+        {
+          "word": "I ",
+          "start": 24.459,
+          "end": 24.504
+        },
+        {
+          "word": "didn't ",
+          "start": 24.504,
+          "end": 24.804000000000002
+        },
+        {
+          "word": "catch ",
+          "start": 24.804000000000002,
+          "end": 24.981
+        },
+        {
+          "word": "that.",
+          "start": 24.981,
+          "end": 25.209
+        },
+        {
+          "word": " Could ",
+          "start": 25.569,
+          "end": 25.719
+        },
+        {
+          "word": "you ",
+          "start": 25.719,
+          "end": 25.824
+        },
+        {
+          "word": "please ",
+          "start": 25.824,
+          "end": 26.009
+        },
+        {
+          "word": "repeat ",
+          "start": 26.009,
+          "end": 26.309
+        },
+        {
+          "word": "what ",
+          "start": 26.309,
+          "end": 26.439
+        },
+        {
+          "word": "you ",
+          "start": 26.439,
+          "end": 26.609
+        },
+        {
+          "word": "said?",
+          "start": 26.609,
+          "end": 26.769000000000002
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e, \u044f \u043f\u043e\u0432\u0442\u043e\u0440\u044e.  \n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!\u041c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 \u0415\u043b\u0435\u043d\u0430. \u0427\u0435\u043c \u044f \u043c\u043e\u0433\u0443 \u0432\u0430\u043c ",
+      "words": [
+        {
+          "word": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e, ",
+          "start": 28.428511474609376,
+          "end": 29.058
+        },
+        {
+          "word": "\u044f ",
+          "start": 29.29611572265625,
+          "end": 29.458
+        },
+        {
+          "word": "\u043f\u043e\u0432\u0442\u043e\u0440\u044e. ",
+          "start": 29.461065185546875,
+          "end": 30.018
+        },
+        {
+          "word": " ",
+          "start": 30.264993896484373,
+          "end": 30.978
+        },
+        {
+          "word": "\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!",
+          "start": 31.246951904296875,
+          "end": 31.618
+        },
+        {
+          "word": "\u041c\u0435\u043d\u044f ",
+          "start": 31.618722900390626,
+          "end": 31.938
+        },
+        {
+          "word": "\u0437\u043e\u0432\u0443\u0442 ",
+          "start": 32.0203505859375,
+          "end": 32.498
+        },
+        {
+          "word": "\u0415\u043b\u0435\u043d\u0430. ",
+          "start": 32.681760009765625,
+          "end": 32.898
+        },
+        {
+          "word": "\u0427\u0435\u043c ",
+          "start": 32.9780712890625,
+          "end": 33.058
+        },
+        {
+          "word": "\u044f ",
+          "start": 33.1381748046875,
+          "end": 33.298
+        },
+        {
+          "word": "\u043c\u043e\u0433\u0443 ",
+          "start": 33.298080078125,
+          "end": 33.458
+        },
+        {
+          "word": "\u0432\u0430\u043c ",
+          "start": 33.53898901367187,
+          "end": 33.938
+        }
+      ],
+      "metadata": {
+        "response_id": 13
+      }
+    },
+    {
+      "role": "user",
+      "content": " I'm having a ",
+      "words": [
+        {
+          "word": " I'm ",
+          "start": 33.969,
+          "end": 34.224000000000004
+        },
+        {
+          "word": "having ",
+          "start": 34.224000000000004,
+          "end": 34.359
+        },
+        {
+          "word": "a ",
+          "start": 34.359,
+          "end": 34.479
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u043f\u043e\u043c\u043e\u0447\u044c?  \n\u0415\u0441\u043b\u0438 ",
+      "words": [
+        {
+          "word": "\u043f\u043e\u043c\u043e\u0447\u044c?",
+          "start": 34.13167700195312,
+          "end": 34.418
+        },
+        {
+          "word": "  \n\u0415\u0441\u043b\u0438 ",
+          "start": 34.49802465820313,
+          "end": 34.578
+        }
+      ],
+      "metadata": {
+        "response_id": 13
+      }
+    },
+    {
+      "role": "user",
+      "content": "little trouble hearing\u2014",
+      "words": [
+        {
+          "word": "little ",
+          "start": 34.479,
+          "end": 34.644
+        },
+        {
+          "word": "trouble ",
+          "start": 34.644,
+          "end": 35.069
+        },
+        {
+          "word": "hearing\u2014",
+          "start": 35.069,
+          "end": 35.169
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": " I'm having a hard time understanding you. Could you please repeat that a bit more clearly?",
+      "words": [
+        {
+          "word": " I'm ",
+          "start": 38.049,
+          "end": 38.244
+        },
+        {
+          "word": "having ",
+          "start": 38.244,
+          "end": 38.439
+        },
+        {
+          "word": "a ",
+          "start": 38.439,
+          "end": 38.541
+        },
+        {
+          "word": "hard ",
+          "start": 38.541,
+          "end": 38.781
+        },
+        {
+          "word": "time ",
+          "start": 38.781,
+          "end": 39.019
+        },
+        {
+          "word": "understanding ",
+          "start": 39.019,
+          "end": 39.579
+        },
+        {
+          "word": "you.",
+          "start": 39.579,
+          "end": 39.729
+        },
+        {
+          "word": " Could ",
+          "start": 40.149,
+          "end": 40.359
+        },
+        {
+          "word": "you ",
+          "start": 40.359,
+          "end": 40.464
+        },
+        {
+          "word": "please ",
+          "start": 40.464,
+          "end": 40.709
+        },
+        {
+          "word": "repeat ",
+          "start": 40.709,
+          "end": 40.941
+        },
+        {
+          "word": "that ",
+          "start": 40.941,
+          "end": 41.199
+        },
+        {
+          "word": "a ",
+          "start": 41.199,
+          "end": 41.304
+        },
+        {
+          "word": "bit ",
+          "start": 41.304,
+          "end": 41.421
+        },
+        {
+          "word": "more ",
+          "start": 41.421,
+          "end": 41.619
+        },
+        {
+          "word": "clearly?",
+          "start": 41.619,
+          "end": 42.009
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e, \u044f \u043f\u043e\u0432\u0442\u043e\u0440\u044e \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e \u0438 \u0447\u0451\u0442\u043a\u043e.",
+      "words": [
+        {
+          "word": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e, ",
+          "start": 43.618477294921874,
+          "end": 44.177
+        },
+        {
+          "word": "\u044f ",
+          "start": 44.34144775390625,
+          "end": 44.577
+        },
+        {
+          "word": "\u043f\u043e\u0432\u0442\u043e\u0440\u044e ",
+          "start": 44.65791162109375,
+          "end": 44.977
+        },
+        {
+          "word": "\u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e ",
+          "start": 44.97968969726563,
+          "end": 45.537
+        },
+        {
+          "word": "\u0438 ",
+          "start": 45.61720654296875,
+          "end": 45.697
+        },
+        {
+          "word": "\u0447\u0451\u0442\u043a\u043e.",
+          "start": 45.7056787109375,
+          "end": 46.257
+        }
+      ],
+      "metadata": {
+        "response_id": 19
+      }
+    },
+    {
+      "role": "user",
+      "content": " I'm ",
+      "words": [
+        {
+          "word": " I'm ",
+          "start": 46.929,
+          "end": 47.189
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\n\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!",
+      "words": [
+        {
+          "word": "\n\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!",
+          "start": 46.55284130859375,
+          "end": 47.297
+        }
+      ],
+      "metadata": {
+        "response_id": 19
+      }
+    },
+    {
+      "role": "user",
+      "content": "really sorry.",
+      "words": [
+        {
+          "word": "really ",
+          "start": 47.189,
+          "end": 47.484
+        },
+        {
+          "word": "sorry.",
+          "start": 47.484,
+          "end": 47.769
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0412\u0441\u0451 \u0432 \u043f\u043e\u0440\u044f\u0434\u043a\u0435, \u043d\u0435 ",
+      "words": [
+        {
+          "word": "\u0412\u0441\u0451 ",
+          "start": 50.54340698242188,
+          "end": 50.795
+        },
+        {
+          "word": "\u0432 ",
+          "start": 50.8749677734375,
+          "end": 50.875
+        },
+        {
+          "word": "\u043f\u043e\u0440\u044f\u0434\u043a\u0435, ",
+          "start": 50.8797744140625,
+          "end": 51.515
+        },
+        {
+          "word": "\u043d\u0435 ",
+          "start": 51.71252783203125,
+          "end": 51.915
+        }
+      ],
+      "metadata": {
+        "response_id": 21
+      }
+    },
+    {
+      "role": "user",
+      "content": " I'm still having\u2014",
+      "words": [
+        {
+          "word": " I'm ",
+          "start": 52.149,
+          "end": 52.339
+        },
+        {
+          "word": "still ",
+          "start": 52.339,
+          "end": 52.524
+        },
+        {
+          "word": "having\u2014",
+          "start": 52.524,
+          "end": 52.689
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": " I'm still having trouble understanding you. If you can, please try speaking a little louder or more clearly. If you'd like, I can connect you to someone at the front desk for further help.",
+      "words": [
+        {
+          "word": " I'm ",
+          "start": 56.649,
+          "end": 56.839
+        },
+        {
+          "word": "still ",
+          "start": 56.839,
+          "end": 57.024
+        },
+        {
+          "word": "having ",
+          "start": 57.024,
+          "end": 57.264
+        },
+        {
+          "word": "trouble ",
+          "start": 57.264,
+          "end": 57.619
+        },
+        {
+          "word": "understanding ",
+          "start": 57.619,
+          "end": 58.179
+        },
+        {
+          "word": "you.",
+          "start": 58.179,
+          "end": 58.329
+        },
+        {
+          "word": " If ",
+          "start": 58.629,
+          "end": 58.779
+        },
+        {
+          "word": "you ",
+          "start": 58.779,
+          "end": 59.079
+        },
+        {
+          "word": "can, ",
+          "start": 59.079,
+          "end": 59.424
+        },
+        {
+          "word": "please ",
+          "start": 59.424,
+          "end": 59.669
+        },
+        {
+          "word": "try ",
+          "start": 59.669,
+          "end": 59.904
+        },
+        {
+          "word": "speaking ",
+          "start": 59.904,
+          "end": 60.219
+        },
+        {
+          "word": "a ",
+          "start": 60.219,
+          "end": 60.339
+        },
+        {
+          "word": "little ",
+          "start": 60.339,
+          "end": 60.629
+        },
+        {
+          "word": "louder ",
+          "start": 60.629,
+          "end": 61.109
+        },
+        {
+          "word": "or ",
+          "start": 61.109,
+          "end": 61.281
+        },
+        {
+          "word": "more ",
+          "start": 61.281,
+          "end": 61.539
+        },
+        {
+          "word": "clearly.",
+          "start": 61.539,
+          "end": 61.929
+        },
+        {
+          "word": " If ",
+          "start": 62.289,
+          "end": 62.439
+        },
+        {
+          "word": "you'd ",
+          "start": 62.439,
+          "end": 62.724000000000004
+        },
+        {
+          "word": "like, ",
+          "start": 62.724000000000004,
+          "end": 62.979
+        },
+        {
+          "word": "I ",
+          "start": 62.979,
+          "end": 63.024
+        },
+        {
+          "word": "can ",
+          "start": 63.024,
+          "end": 63.199
+        },
+        {
+          "word": "connect ",
+          "start": 63.199,
+          "end": 63.459
+        },
+        {
+          "word": "you ",
+          "start": 63.459,
+          "end": 63.629
+        },
+        {
+          "word": "to ",
+          "start": 63.629,
+          "end": 63.801
+        },
+        {
+          "word": "someone ",
+          "start": 63.801,
+          "end": 63.989
+        },
+        {
+          "word": "at ",
+          "start": 63.989,
+          "end": 64.104
+        },
+        {
+          "word": "the ",
+          "start": 64.104,
+          "end": 64.219
+        },
+        {
+          "word": "front ",
+          "start": 64.219,
+          "end": 64.644
+        },
+        {
+          "word": "desk ",
+          "start": 64.644,
+          "end": 64.884
+        },
+        {
+          "word": "for ",
+          "start": 64.884,
+          "end": 65.004
+        },
+        {
+          "word": "further ",
+          "start": 65.004,
+          "end": 65.364
+        },
+        {
+          "word": "help.",
+          "start": 65.364,
+          "end": 65.409
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e, \u044f \u0433\u043e\u0432\u043e\u0440\u044e \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e \u0438 \u0447\u0451\u0442\u043a\u043e.",
+      "words": [
+        {
+          "word": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e, ",
+          "start": 67.09892211914062,
+          "end": 67.73
+        },
+        {
+          "word": "\u044f ",
+          "start": 67.95443017578125,
+          "end": 68.13
+        },
+        {
+          "word": "\u0433\u043e\u0432\u043e\u0440\u044e ",
+          "start": 68.21067993164063,
+          "end": 68.45
+        },
+        {
+          "word": "\u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e ",
+          "start": 68.453533203125,
+          "end": 69.09
+        },
+        {
+          "word": "\u0438 ",
+          "start": 69.16993627929688,
+          "end": 69.17
+        },
+        {
+          "word": "\u0447\u0451\u0442\u043a\u043e.",
+          "start": 69.17963671875,
+          "end": 69.73
+        }
+      ],
+      "metadata": {
+        "response_id": 26
+      }
+    },
+    {
+      "role": "user",
+      "content": " I heard ",
+      "words": [
+        {
+          "word": " I ",
+          "start": 70.509,
+          "end": 70.709
+        },
+        {
+          "word": "heard ",
+          "start": 70.709,
+          "end": 70.839
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\n\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!",
+      "words": [
+        {
+          "word": "\n\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!",
+          "start": 70.02472729492187,
+          "end": 70.85
+        }
+      ],
+      "metadata": {
+        "response_id": 26
+      }
+    },
+    {
+      "role": "user",
+      "content": "you say if\u2014 I'm still having trouble understanding. If you'd like, I can connect you to someone at the front desk who can help you further. Would you like me to transfer you now?",
+      "words": [
+        {
+          "word": "you ",
+          "start": 70.839,
+          "end": 71.06400000000001
+        },
+        {
+          "word": "say ",
+          "start": 71.06400000000001,
+          "end": 71.369
+        },
+        {
+          "word": "if\u2014",
+          "start": 71.369,
+          "end": 71.529
+        },
+        {
+          "word": " I'm ",
+          "start": 73.389,
+          "end": 73.579
+        },
+        {
+          "word": "still ",
+          "start": 73.579,
+          "end": 73.704
+        },
+        {
+          "word": "having ",
+          "start": 73.704,
+          "end": 73.944
+        },
+        {
+          "word": "trouble ",
+          "start": 73.944,
+          "end": 74.299
+        },
+        {
+          "word": "understanding.",
+          "start": 74.299,
+          "end": 74.889
+        },
+        {
+          "word": " If ",
+          "start": 75.18900000000001,
+          "end": 75.339
+        },
+        {
+          "word": "you'd ",
+          "start": 75.339,
+          "end": 75.624
+        },
+        {
+          "word": "like, ",
+          "start": 75.624,
+          "end": 75.879
+        },
+        {
+          "word": "I ",
+          "start": 75.879,
+          "end": 75.924
+        },
+        {
+          "word": "can ",
+          "start": 75.924,
+          "end": 76.099
+        },
+        {
+          "word": "connect ",
+          "start": 76.099,
+          "end": 76.359
+        },
+        {
+          "word": "you ",
+          "start": 76.359,
+          "end": 76.529
+        },
+        {
+          "word": "to ",
+          "start": 76.529,
+          "end": 76.641
+        },
+        {
+          "word": "someone ",
+          "start": 76.641,
+          "end": 76.889
+        },
+        {
+          "word": "at ",
+          "start": 76.889,
+          "end": 77.004
+        },
+        {
+          "word": "the ",
+          "start": 77.004,
+          "end": 77.119
+        },
+        {
+          "word": "front ",
+          "start": 77.119,
+          "end": 77.484
+        },
+        {
+          "word": "desk ",
+          "start": 77.484,
+          "end": 77.784
+        },
+        {
+          "word": "who ",
+          "start": 77.784,
+          "end": 77.904
+        },
+        {
+          "word": "can ",
+          "start": 77.904,
+          "end": 77.964
+        },
+        {
+          "word": "help ",
+          "start": 77.964,
+          "end": 78.159
+        },
+        {
+          "word": "you ",
+          "start": 78.159,
+          "end": 78.384
+        },
+        {
+          "word": "further. ",
+          "start": 78.384,
+          "end": 79.109
+        },
+        {
+          "word": "Would ",
+          "start": 79.109,
+          "end": 79.239
+        },
+        {
+          "word": "you ",
+          "start": 79.239,
+          "end": 79.359
+        },
+        {
+          "word": "like ",
+          "start": 79.359,
+          "end": 79.529
+        },
+        {
+          "word": "me ",
+          "start": 79.529,
+          "end": 79.589
+        },
+        {
+          "word": "to ",
+          "start": 79.589,
+          "end": 79.93566666666668
+        },
+        {
+          "word": "transfer ",
+          "start": 79.93566666666668,
+          "end": 80.079
+        },
+        {
+          "word": "you ",
+          "start": 80.079,
+          "end": 80.304
+        },
+        {
+          "word": "now?",
+          "start": 80.304,
+          "end": 80.409
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u041e\u0434\u043d\u0443 \u043c\u0438\u043d\u0443\u0442\u0443, \u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430. \u042f \u0441\u043e\u0435\u0434\u0438\u043d\u044e \u0432\u0430\u0441 \u0441 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u043c.",
+      "words": [
+        {
+          "word": "\u041e\u0434\u043d\u0443 ",
+          "start": 82.25081518554687,
+          "end": 82.497
+        },
+        {
+          "word": "\u043c\u0438\u043d\u0443\u0442\u0443, ",
+          "start": 82.49833081054688,
+          "end": 83.057
+        },
+        {
+          "word": "\u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430. ",
+          "start": 83.26953393554687,
+          "end": 83.937
+        },
+        {
+          "word": "\u042f ",
+          "start": 84.13337280273437,
+          "end": 84.337
+        },
+        {
+          "word": "\u0441\u043e\u0435\u0434\u0438\u043d\u044e ",
+          "start": 84.33986791992187,
+          "end": 84.897
+        },
+        {
+          "word": "\u0432\u0430\u0441 ",
+          "start": 84.9770947265625,
+          "end": 85.057
+        },
+        {
+          "word": "\u0441 ",
+          "start": 85.13696240234376,
+          "end": 85.137
+        },
+        {
+          "word": "\u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u043c.",
+          "start": 85.140734375,
+          "end": 85.777
+        }
+      ],
+      "metadata": {
+        "response_id": 31
+      }
+    },
+    {
+      "role": "user",
+      "content": " Okay, I'm transferring you right away.",
+      "words": [
+        {
+          "word": " Okay, ",
+          "start": 87.249,
+          "end": 87.579
+        },
+        {
+          "word": "I'm ",
+          "start": 87.579,
+          "end": 87.97566666666667
+        },
+        {
+          "word": "transferring ",
+          "start": 87.97566666666667,
+          "end": 88.239
+        },
+        {
+          "word": "you ",
+          "start": 88.239,
+          "end": 88.509
+        },
+        {
+          "word": "right ",
+          "start": 88.509,
+          "end": 88.659
+        },
+        {
+          "word": "away.",
+          "start": 88.659,
+          "end": 88.929
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e \u0431\u043e\u043b\u044c\u0448\u043e\u0435! \u0425\u043e\u0440\u043e\u0448\u0435\u0433\u043e \u0434\u043d\u044f!",
+      "words": [
+        {
+          "word": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e ",
+          "start": 90.54428247070312,
+          "end": 91.022
+        },
+        {
+          "word": "\u0431\u043e\u043b\u044c\u0448\u043e\u0435! ",
+          "start": 91.02480615234376,
+          "end": 91.662
+        },
+        {
+          "word": "\u0425\u043e\u0440\u043e\u0448\u0435\u0433\u043e ",
+          "start": 91.9072841796875,
+          "end": 92.462
+        },
+        {
+          "word": "\u0434\u043d\u044f!",
+          "start": 92.46280078125,
+          "end": 92.782
+        }
+      ],
+      "metadata": {
+        "response_id": 33
+      }
+    }
+  ],
+  "transcript_with_tool_calls": [
+    {
+      "role": "agent",
+      "content": "\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, {client_name}!  ",
+      "words": [
+        {
+          "word": "\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, ",
+          "start": 1.20677685546875,
+          "end": 1.911
+        },
+        {
+          "word": "{client_name}! ",
+          "start": 2.07495458984375,
+          "end": 2.951
+        },
+        {
+          "word": " ",
+          "start": 3.212998779296875,
+          "end": 3.431
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "Welcome ",
+      "words": [
+        {
+          "word": "Welcome ",
+          "start": 3.7889999999999997,
+          "end": 4.109
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\n\u042d\u0442\u043e \u0415\u043b\u0435\u043d\u0430 ",
+      "words": [
+        {
+          "word": "\n\u042d\u0442\u043e ",
+          "start": 3.43425048828125,
+          "end": 3.911
+        },
+        {
+          "word": "\u0415\u043b\u0435\u043d\u0430 ",
+          "start": 3.99382958984375,
+          "end": 4.151
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "to \"Boardwalk Beer Garden.\" My name is Lana. Let me know if you need to speak to management and would like to be transferred. What's your name and how can I help you?",
+      "words": [
+        {
+          "word": "to ",
+          "start": 4.109,
+          "end": 4.469
+        },
+        {
+          "word": "\"Boardwalk ",
+          "start": 4.469,
+          "end": 5.069
+        },
+        {
+          "word": "Beer ",
+          "start": 5.069,
+          "end": 5.301
+        },
+        {
+          "word": "Garden.",
+          "start": 5.301,
+          "end": 5.589
+        },
+        {
+          "word": "\" ",
+          "start": 5.7090000000000005,
+          "end": 5.849
+        },
+        {
+          "word": "My ",
+          "start": 5.849,
+          "end": 5.961
+        },
+        {
+          "word": "name ",
+          "start": 5.961,
+          "end": 6.089
+        },
+        {
+          "word": "is ",
+          "start": 6.089,
+          "end": 6.5040000000000004
+        },
+        {
+          "word": "Lana. ",
+          "start": 6.5040000000000004,
+          "end": 7.0440000000000005
+        },
+        {
+          "word": "Let ",
+          "start": 7.0440000000000005,
+          "end": 7.1690000000000005
+        },
+        {
+          "word": "me ",
+          "start": 7.1690000000000005,
+          "end": 7.229
+        },
+        {
+          "word": "know ",
+          "start": 7.229,
+          "end": 7.409000000000001
+        },
+        {
+          "word": "if ",
+          "start": 7.409000000000001,
+          "end": 7.539000000000001
+        },
+        {
+          "word": "you ",
+          "start": 7.539000000000001,
+          "end": 7.7090000000000005
+        },
+        {
+          "word": "need ",
+          "start": 7.7090000000000005,
+          "end": 7.829000000000001
+        },
+        {
+          "word": "to ",
+          "start": 7.829000000000001,
+          "end": 7.944
+        },
+        {
+          "word": "speak ",
+          "start": 7.944,
+          "end": 8.129
+        },
+        {
+          "word": "to ",
+          "start": 8.129,
+          "end": 8.364
+        },
+        {
+          "word": "management ",
+          "start": 8.364,
+          "end": 8.844000000000001
+        },
+        {
+          "word": "and ",
+          "start": 8.844000000000001,
+          "end": 8.959
+        },
+        {
+          "word": "would ",
+          "start": 8.959,
+          "end": 9.099
+        },
+        {
+          "word": "like ",
+          "start": 9.099,
+          "end": 9.269
+        },
+        {
+          "word": "to ",
+          "start": 9.269,
+          "end": 9.329
+        },
+        {
+          "word": "be ",
+          "start": 9.329,
+          "end": 9.795666666666666
+        },
+        {
+          "word": "transferred.",
+          "start": 9.795666666666666,
+          "end": 9.969000000000001
+        },
+        {
+          "word": " What's ",
+          "start": 10.389000000000001,
+          "end": 10.659
+        },
+        {
+          "word": "your ",
+          "start": 10.659,
+          "end": 10.821
+        },
+        {
+          "word": "name ",
+          "start": 10.821,
+          "end": 10.944
+        },
+        {
+          "word": "and ",
+          "start": 10.944,
+          "end": 11.064
+        },
+        {
+          "word": "how ",
+          "start": 11.064,
+          "end": 11.184000000000001
+        },
+        {
+          "word": "can ",
+          "start": 11.184000000000001,
+          "end": 11.259
+        },
+        {
+          "word": "I ",
+          "start": 11.259,
+          "end": 11.364
+        },
+        {
+          "word": "help ",
+          "start": 11.364,
+          "end": 11.559000000000001
+        },
+        {
+          "word": "you?",
+          "start": 11.559000000000001,
+          "end": 11.769
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, \u044f \u043c\u043e\u0433\u0443 \u0433\u043e\u0432\u043e\u0440\u0438\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e-\u0440\u0443\u0441\u0441\u043a\u0438.  \n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!\u041c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 \u0415\u043b\u0435\u043d\u0430. \u0427\u0435\u043c \u044f \u043c\u043e\u0433\u0443 \u0432\u0430\u043c \u043f\u043e\u043c\u043e\u0447\u044c? \u0415\u0441\u043b\u0438 ",
+      "words": [
+        {
+          "word": "\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, ",
+          "start": 13.393312255859374,
+          "end": 14.1
+        },
+        {
+          "word": "\u044f ",
+          "start": 14.324850830078125,
+          "end": 14.5
+        },
+        {
+          "word": "\u043c\u043e\u0433\u0443 ",
+          "start": 14.580150146484375,
+          "end": 14.74
+        },
+        {
+          "word": "\u0433\u043e\u0432\u043e\u0440\u0438\u0442\u044c ",
+          "start": 14.74130908203125,
+          "end": 15.22
+        },
+        {
+          "word": "\u0442\u043e\u043b\u044c\u043a\u043e ",
+          "start": 15.3314814453125,
+          "end": 15.54
+        },
+        {
+          "word": "\u043f\u043e-\u0440\u0443\u0441\u0441\u043a\u0438. ",
+          "start": 15.540861328125,
+          "end": 16.18
+        },
+        {
+          "word": " ",
+          "start": 16.453488037109373,
+          "end": 17.22
+        },
+        {
+          "word": "\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!",
+          "start": 17.43410498046875,
+          "end": 17.78
+        },
+        {
+          "word": "\u041c\u0435\u043d\u044f ",
+          "start": 17.8607314453125,
+          "end": 18.1
+        },
+        {
+          "word": "\u0437\u043e\u0432\u0443\u0442 ",
+          "start": 18.102919189453125,
+          "end": 18.66
+        },
+        {
+          "word": "\u0415\u043b\u0435\u043d\u0430. ",
+          "start": 18.852280029296875,
+          "end": 19.06
+        },
+        {
+          "word": "\u0427\u0435\u043c ",
+          "start": 19.14005810546875,
+          "end": 19.22
+        },
+        {
+          "word": "\u044f ",
+          "start": 19.300181640625,
+          "end": 19.46
+        },
+        {
+          "word": "\u043c\u043e\u0433\u0443 ",
+          "start": 19.460052978515623,
+          "end": 19.62
+        },
+        {
+          "word": "\u0432\u0430\u043c ",
+          "start": 19.701053466796875,
+          "end": 20.1
+        },
+        {
+          "word": "\u043f\u043e\u043c\u043e\u0447\u044c? ",
+          "start": 20.2981005859375,
+          "end": 20.58
+        },
+        {
+          "word": "\u0415\u0441\u043b\u0438 ",
+          "start": 20.65998193359375,
+          "end": 20.66
+        }
+      ],
+      "metadata": {
+        "response_id": 7
+      }
+    },
+    {
+      "role": "user",
+      "content": " Sorry, I didn't\u2014 Sorry, I didn't catch that. Could you please repeat what you said?",
+      "words": [
+        {
+          "word": " Sorry, ",
+          "start": 20.409,
+          "end": 20.739
+        },
+        {
+          "word": "I ",
+          "start": 20.739,
+          "end": 20.844
+        },
+        {
+          "word": "didn't\u2014",
+          "start": 20.844,
+          "end": 21.009
+        },
+        {
+          "word": " Sorry, ",
+          "start": 24.129,
+          "end": 24.459
+        },
+        {
+          "word": "I ",
+          "start": 24.459,
+          "end": 24.504
+        },
+        {
+          "word": "didn't ",
+          "start": 24.504,
+          "end": 24.804000000000002
+        },
+        {
+          "word": "catch ",
+          "start": 24.804000000000002,
+          "end": 24.981
+        },
+        {
+          "word": "that.",
+          "start": 24.981,
+          "end": 25.209
+        },
+        {
+          "word": " Could ",
+          "start": 25.569,
+          "end": 25.719
+        },
+        {
+          "word": "you ",
+          "start": 25.719,
+          "end": 25.824
+        },
+        {
+          "word": "please ",
+          "start": 25.824,
+          "end": 26.009
+        },
+        {
+          "word": "repeat ",
+          "start": 26.009,
+          "end": 26.309
+        },
+        {
+          "word": "what ",
+          "start": 26.309,
+          "end": 26.439
+        },
+        {
+          "word": "you ",
+          "start": 26.439,
+          "end": 26.609
+        },
+        {
+          "word": "said?",
+          "start": 26.609,
+          "end": 26.769000000000002
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e, \u044f \u043f\u043e\u0432\u0442\u043e\u0440\u044e.  \n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!\u041c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 \u0415\u043b\u0435\u043d\u0430. \u0427\u0435\u043c \u044f \u043c\u043e\u0433\u0443 \u0432\u0430\u043c ",
+      "words": [
+        {
+          "word": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e, ",
+          "start": 28.428511474609376,
+          "end": 29.058
+        },
+        {
+          "word": "\u044f ",
+          "start": 29.29611572265625,
+          "end": 29.458
+        },
+        {
+          "word": "\u043f\u043e\u0432\u0442\u043e\u0440\u044e. ",
+          "start": 29.461065185546875,
+          "end": 30.018
+        },
+        {
+          "word": " ",
+          "start": 30.264993896484373,
+          "end": 30.978
+        },
+        {
+          "word": "\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!",
+          "start": 31.246951904296875,
+          "end": 31.618
+        },
+        {
+          "word": "\u041c\u0435\u043d\u044f ",
+          "start": 31.618722900390626,
+          "end": 31.938
+        },
+        {
+          "word": "\u0437\u043e\u0432\u0443\u0442 ",
+          "start": 32.0203505859375,
+          "end": 32.498
+        },
+        {
+          "word": "\u0415\u043b\u0435\u043d\u0430. ",
+          "start": 32.681760009765625,
+          "end": 32.898
+        },
+        {
+          "word": "\u0427\u0435\u043c ",
+          "start": 32.9780712890625,
+          "end": 33.058
+        },
+        {
+          "word": "\u044f ",
+          "start": 33.1381748046875,
+          "end": 33.298
+        },
+        {
+          "word": "\u043c\u043e\u0433\u0443 ",
+          "start": 33.298080078125,
+          "end": 33.458
+        },
+        {
+          "word": "\u0432\u0430\u043c ",
+          "start": 33.53898901367187,
+          "end": 33.938
+        }
+      ],
+      "metadata": {
+        "response_id": 13
+      }
+    },
+    {
+      "role": "user",
+      "content": " I'm having a ",
+      "words": [
+        {
+          "word": " I'm ",
+          "start": 33.969,
+          "end": 34.224000000000004
+        },
+        {
+          "word": "having ",
+          "start": 34.224000000000004,
+          "end": 34.359
+        },
+        {
+          "word": "a ",
+          "start": 34.359,
+          "end": 34.479
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u043f\u043e\u043c\u043e\u0447\u044c?  \n\u0415\u0441\u043b\u0438 ",
+      "words": [
+        {
+          "word": "\u043f\u043e\u043c\u043e\u0447\u044c?",
+          "start": 34.13167700195312,
+          "end": 34.418
+        },
+        {
+          "word": "  \n\u0415\u0441\u043b\u0438 ",
+          "start": 34.49802465820313,
+          "end": 34.578
+        }
+      ],
+      "metadata": {
+        "response_id": 13
+      }
+    },
+    {
+      "role": "user",
+      "content": "little trouble hearing\u2014",
+      "words": [
+        {
+          "word": "little ",
+          "start": 34.479,
+          "end": 34.644
+        },
+        {
+          "word": "trouble ",
+          "start": 34.644,
+          "end": 35.069
+        },
+        {
+          "word": "hearing\u2014",
+          "start": 35.069,
+          "end": 35.169
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": " I'm having a hard time understanding you. Could you please repeat that a bit more clearly?",
+      "words": [
+        {
+          "word": " I'm ",
+          "start": 38.049,
+          "end": 38.244
+        },
+        {
+          "word": "having ",
+          "start": 38.244,
+          "end": 38.439
+        },
+        {
+          "word": "a ",
+          "start": 38.439,
+          "end": 38.541
+        },
+        {
+          "word": "hard ",
+          "start": 38.541,
+          "end": 38.781
+        },
+        {
+          "word": "time ",
+          "start": 38.781,
+          "end": 39.019
+        },
+        {
+          "word": "understanding ",
+          "start": 39.019,
+          "end": 39.579
+        },
+        {
+          "word": "you.",
+          "start": 39.579,
+          "end": 39.729
+        },
+        {
+          "word": " Could ",
+          "start": 40.149,
+          "end": 40.359
+        },
+        {
+          "word": "you ",
+          "start": 40.359,
+          "end": 40.464
+        },
+        {
+          "word": "please ",
+          "start": 40.464,
+          "end": 40.709
+        },
+        {
+          "word": "repeat ",
+          "start": 40.709,
+          "end": 40.941
+        },
+        {
+          "word": "that ",
+          "start": 40.941,
+          "end": 41.199
+        },
+        {
+          "word": "a ",
+          "start": 41.199,
+          "end": 41.304
+        },
+        {
+          "word": "bit ",
+          "start": 41.304,
+          "end": 41.421
+        },
+        {
+          "word": "more ",
+          "start": 41.421,
+          "end": 41.619
+        },
+        {
+          "word": "clearly?",
+          "start": 41.619,
+          "end": 42.009
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e, \u044f \u043f\u043e\u0432\u0442\u043e\u0440\u044e \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e \u0438 \u0447\u0451\u0442\u043a\u043e.",
+      "words": [
+        {
+          "word": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e, ",
+          "start": 43.618477294921874,
+          "end": 44.177
+        },
+        {
+          "word": "\u044f ",
+          "start": 44.34144775390625,
+          "end": 44.577
+        },
+        {
+          "word": "\u043f\u043e\u0432\u0442\u043e\u0440\u044e ",
+          "start": 44.65791162109375,
+          "end": 44.977
+        },
+        {
+          "word": "\u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e ",
+          "start": 44.97968969726563,
+          "end": 45.537
+        },
+        {
+          "word": "\u0438 ",
+          "start": 45.61720654296875,
+          "end": 45.697
+        },
+        {
+          "word": "\u0447\u0451\u0442\u043a\u043e.",
+          "start": 45.7056787109375,
+          "end": 46.257
+        }
+      ],
+      "metadata": {
+        "response_id": 19
+      }
+    },
+    {
+      "role": "user",
+      "content": " I'm ",
+      "words": [
+        {
+          "word": " I'm ",
+          "start": 46.929,
+          "end": 47.189
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\n\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!",
+      "words": [
+        {
+          "word": "\n\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!",
+          "start": 46.55284130859375,
+          "end": 47.297
+        }
+      ],
+      "metadata": {
+        "response_id": 19
+      }
+    },
+    {
+      "role": "user",
+      "content": "really sorry.",
+      "words": [
+        {
+          "word": "really ",
+          "start": 47.189,
+          "end": 47.484
+        },
+        {
+          "word": "sorry.",
+          "start": 47.484,
+          "end": 47.769
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0412\u0441\u0451 \u0432 \u043f\u043e\u0440\u044f\u0434\u043a\u0435, \u043d\u0435 ",
+      "words": [
+        {
+          "word": "\u0412\u0441\u0451 ",
+          "start": 50.54340698242188,
+          "end": 50.795
+        },
+        {
+          "word": "\u0432 ",
+          "start": 50.8749677734375,
+          "end": 50.875
+        },
+        {
+          "word": "\u043f\u043e\u0440\u044f\u0434\u043a\u0435, ",
+          "start": 50.8797744140625,
+          "end": 51.515
+        },
+        {
+          "word": "\u043d\u0435 ",
+          "start": 51.71252783203125,
+          "end": 51.915
+        }
+      ],
+      "metadata": {
+        "response_id": 21
+      }
+    },
+    {
+      "role": "user",
+      "content": " I'm still having\u2014",
+      "words": [
+        {
+          "word": " I'm ",
+          "start": 52.149,
+          "end": 52.339
+        },
+        {
+          "word": "still ",
+          "start": 52.339,
+          "end": 52.524
+        },
+        {
+          "word": "having\u2014",
+          "start": 52.524,
+          "end": 52.689
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": " I'm still having trouble understanding you. If you can, please try speaking a little louder or more clearly. If you'd like, I can connect you to someone at the front desk for further help.",
+      "words": [
+        {
+          "word": " I'm ",
+          "start": 56.649,
+          "end": 56.839
+        },
+        {
+          "word": "still ",
+          "start": 56.839,
+          "end": 57.024
+        },
+        {
+          "word": "having ",
+          "start": 57.024,
+          "end": 57.264
+        },
+        {
+          "word": "trouble ",
+          "start": 57.264,
+          "end": 57.619
+        },
+        {
+          "word": "understanding ",
+          "start": 57.619,
+          "end": 58.179
+        },
+        {
+          "word": "you.",
+          "start": 58.179,
+          "end": 58.329
+        },
+        {
+          "word": " If ",
+          "start": 58.629,
+          "end": 58.779
+        },
+        {
+          "word": "you ",
+          "start": 58.779,
+          "end": 59.079
+        },
+        {
+          "word": "can, ",
+          "start": 59.079,
+          "end": 59.424
+        },
+        {
+          "word": "please ",
+          "start": 59.424,
+          "end": 59.669
+        },
+        {
+          "word": "try ",
+          "start": 59.669,
+          "end": 59.904
+        },
+        {
+          "word": "speaking ",
+          "start": 59.904,
+          "end": 60.219
+        },
+        {
+          "word": "a ",
+          "start": 60.219,
+          "end": 60.339
+        },
+        {
+          "word": "little ",
+          "start": 60.339,
+          "end": 60.629
+        },
+        {
+          "word": "louder ",
+          "start": 60.629,
+          "end": 61.109
+        },
+        {
+          "word": "or ",
+          "start": 61.109,
+          "end": 61.281
+        },
+        {
+          "word": "more ",
+          "start": 61.281,
+          "end": 61.539
+        },
+        {
+          "word": "clearly.",
+          "start": 61.539,
+          "end": 61.929
+        },
+        {
+          "word": " If ",
+          "start": 62.289,
+          "end": 62.439
+        },
+        {
+          "word": "you'd ",
+          "start": 62.439,
+          "end": 62.724000000000004
+        },
+        {
+          "word": "like, ",
+          "start": 62.724000000000004,
+          "end": 62.979
+        },
+        {
+          "word": "I ",
+          "start": 62.979,
+          "end": 63.024
+        },
+        {
+          "word": "can ",
+          "start": 63.024,
+          "end": 63.199
+        },
+        {
+          "word": "connect ",
+          "start": 63.199,
+          "end": 63.459
+        },
+        {
+          "word": "you ",
+          "start": 63.459,
+          "end": 63.629
+        },
+        {
+          "word": "to ",
+          "start": 63.629,
+          "end": 63.801
+        },
+        {
+          "word": "someone ",
+          "start": 63.801,
+          "end": 63.989
+        },
+        {
+          "word": "at ",
+          "start": 63.989,
+          "end": 64.104
+        },
+        {
+          "word": "the ",
+          "start": 64.104,
+          "end": 64.219
+        },
+        {
+          "word": "front ",
+          "start": 64.219,
+          "end": 64.644
+        },
+        {
+          "word": "desk ",
+          "start": 64.644,
+          "end": 64.884
+        },
+        {
+          "word": "for ",
+          "start": 64.884,
+          "end": 65.004
+        },
+        {
+          "word": "further ",
+          "start": 65.004,
+          "end": 65.364
+        },
+        {
+          "word": "help.",
+          "start": 65.364,
+          "end": 65.409
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e, \u044f \u0433\u043e\u0432\u043e\u0440\u044e \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e \u0438 \u0447\u0451\u0442\u043a\u043e.",
+      "words": [
+        {
+          "word": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e, ",
+          "start": 67.09892211914062,
+          "end": 67.73
+        },
+        {
+          "word": "\u044f ",
+          "start": 67.95443017578125,
+          "end": 68.13
+        },
+        {
+          "word": "\u0433\u043e\u0432\u043e\u0440\u044e ",
+          "start": 68.21067993164063,
+          "end": 68.45
+        },
+        {
+          "word": "\u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e ",
+          "start": 68.453533203125,
+          "end": 69.09
+        },
+        {
+          "word": "\u0438 ",
+          "start": 69.16993627929688,
+          "end": 69.17
+        },
+        {
+          "word": "\u0447\u0451\u0442\u043a\u043e.",
+          "start": 69.17963671875,
+          "end": 69.73
+        }
+      ],
+      "metadata": {
+        "response_id": 26
+      }
+    },
+    {
+      "role": "user",
+      "content": " I heard ",
+      "words": [
+        {
+          "word": " I ",
+          "start": 70.509,
+          "end": 70.709
+        },
+        {
+          "word": "heard ",
+          "start": 70.709,
+          "end": 70.839
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\n\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!",
+      "words": [
+        {
+          "word": "\n\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!",
+          "start": 70.02472729492187,
+          "end": 70.85
+        }
+      ],
+      "metadata": {
+        "response_id": 26
+      }
+    },
+    {
+      "role": "user",
+      "content": "you say if\u2014 I'm still having trouble understanding. If you'd like, I can connect you to someone at the front desk who can help you further. Would you like me to transfer you now?",
+      "words": [
+        {
+          "word": "you ",
+          "start": 70.839,
+          "end": 71.06400000000001
+        },
+        {
+          "word": "say ",
+          "start": 71.06400000000001,
+          "end": 71.369
+        },
+        {
+          "word": "if\u2014",
+          "start": 71.369,
+          "end": 71.529
+        },
+        {
+          "word": " I'm ",
+          "start": 73.389,
+          "end": 73.579
+        },
+        {
+          "word": "still ",
+          "start": 73.579,
+          "end": 73.704
+        },
+        {
+          "word": "having ",
+          "start": 73.704,
+          "end": 73.944
+        },
+        {
+          "word": "trouble ",
+          "start": 73.944,
+          "end": 74.299
+        },
+        {
+          "word": "understanding.",
+          "start": 74.299,
+          "end": 74.889
+        },
+        {
+          "word": " If ",
+          "start": 75.18900000000001,
+          "end": 75.339
+        },
+        {
+          "word": "you'd ",
+          "start": 75.339,
+          "end": 75.624
+        },
+        {
+          "word": "like, ",
+          "start": 75.624,
+          "end": 75.879
+        },
+        {
+          "word": "I ",
+          "start": 75.879,
+          "end": 75.924
+        },
+        {
+          "word": "can ",
+          "start": 75.924,
+          "end": 76.099
+        },
+        {
+          "word": "connect ",
+          "start": 76.099,
+          "end": 76.359
+        },
+        {
+          "word": "you ",
+          "start": 76.359,
+          "end": 76.529
+        },
+        {
+          "word": "to ",
+          "start": 76.529,
+          "end": 76.641
+        },
+        {
+          "word": "someone ",
+          "start": 76.641,
+          "end": 76.889
+        },
+        {
+          "word": "at ",
+          "start": 76.889,
+          "end": 77.004
+        },
+        {
+          "word": "the ",
+          "start": 77.004,
+          "end": 77.119
+        },
+        {
+          "word": "front ",
+          "start": 77.119,
+          "end": 77.484
+        },
+        {
+          "word": "desk ",
+          "start": 77.484,
+          "end": 77.784
+        },
+        {
+          "word": "who ",
+          "start": 77.784,
+          "end": 77.904
+        },
+        {
+          "word": "can ",
+          "start": 77.904,
+          "end": 77.964
+        },
+        {
+          "word": "help ",
+          "start": 77.964,
+          "end": 78.159
+        },
+        {
+          "word": "you ",
+          "start": 78.159,
+          "end": 78.384
+        },
+        {
+          "word": "further. ",
+          "start": 78.384,
+          "end": 79.109
+        },
+        {
+          "word": "Would ",
+          "start": 79.109,
+          "end": 79.239
+        },
+        {
+          "word": "you ",
+          "start": 79.239,
+          "end": 79.359
+        },
+        {
+          "word": "like ",
+          "start": 79.359,
+          "end": 79.529
+        },
+        {
+          "word": "me ",
+          "start": 79.529,
+          "end": 79.589
+        },
+        {
+          "word": "to ",
+          "start": 79.589,
+          "end": 79.93566666666668
+        },
+        {
+          "word": "transfer ",
+          "start": 79.93566666666668,
+          "end": 80.079
+        },
+        {
+          "word": "you ",
+          "start": 80.079,
+          "end": 80.304
+        },
+        {
+          "word": "now?",
+          "start": 80.304,
+          "end": 80.409
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u041e\u0434\u043d\u0443 \u043c\u0438\u043d\u0443\u0442\u0443, \u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430. \u042f \u0441\u043e\u0435\u0434\u0438\u043d\u044e \u0432\u0430\u0441 \u0441 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u043c.",
+      "words": [
+        {
+          "word": "\u041e\u0434\u043d\u0443 ",
+          "start": 82.25081518554687,
+          "end": 82.497
+        },
+        {
+          "word": "\u043c\u0438\u043d\u0443\u0442\u0443, ",
+          "start": 82.49833081054688,
+          "end": 83.057
+        },
+        {
+          "word": "\u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430. ",
+          "start": 83.26953393554687,
+          "end": 83.937
+        },
+        {
+          "word": "\u042f ",
+          "start": 84.13337280273437,
+          "end": 84.337
+        },
+        {
+          "word": "\u0441\u043e\u0435\u0434\u0438\u043d\u044e ",
+          "start": 84.33986791992187,
+          "end": 84.897
+        },
+        {
+          "word": "\u0432\u0430\u0441 ",
+          "start": 84.9770947265625,
+          "end": 85.057
+        },
+        {
+          "word": "\u0441 ",
+          "start": 85.13696240234376,
+          "end": 85.137
+        },
+        {
+          "word": "\u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u043c.",
+          "start": 85.140734375,
+          "end": 85.777
+        }
+      ],
+      "metadata": {
+        "response_id": 31
+      }
+    },
+    {
+      "role": "user",
+      "content": " Okay, I'm transferring you right away.",
+      "words": [
+        {
+          "word": " Okay, ",
+          "start": 87.249,
+          "end": 87.579
+        },
+        {
+          "word": "I'm ",
+          "start": 87.579,
+          "end": 87.97566666666667
+        },
+        {
+          "word": "transferring ",
+          "start": 87.97566666666667,
+          "end": 88.239
+        },
+        {
+          "word": "you ",
+          "start": 88.239,
+          "end": 88.509
+        },
+        {
+          "word": "right ",
+          "start": 88.509,
+          "end": 88.659
+        },
+        {
+          "word": "away.",
+          "start": 88.659,
+          "end": 88.929
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e \u0431\u043e\u043b\u044c\u0448\u043e\u0435! \u0425\u043e\u0440\u043e\u0448\u0435\u0433\u043e \u0434\u043d\u044f!",
+      "words": [
+        {
+          "word": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e ",
+          "start": 90.54428247070312,
+          "end": 91.022
+        },
+        {
+          "word": "\u0431\u043e\u043b\u044c\u0448\u043e\u0435! ",
+          "start": 91.02480615234376,
+          "end": 91.662
+        },
+        {
+          "word": "\u0425\u043e\u0440\u043e\u0448\u0435\u0433\u043e ",
+          "start": 91.9072841796875,
+          "end": 92.462
+        },
+        {
+          "word": "\u0434\u043d\u044f!",
+          "start": 92.46280078125,
+          "end": 92.782
+        }
+      ],
+      "metadata": {
+        "response_id": 33
+      }
+    }
+  ],
+  "recording_url": "https://dxc03zgurdly9.cloudfront.net/88f44010eab78f15548a7276b9a36a55fde3ed47a957d4c8753947ab8c987eb1/recording.wav",
+  "recording_multi_channel_url": "https://dxc03zgurdly9.cloudfront.net/88f44010eab78f15548a7276b9a36a55fde3ed47a957d4c8753947ab8c987eb1/recording_multichannel.wav",
+  "public_log_url": "https://dxc03zgurdly9.cloudfront.net/88f44010eab78f15548a7276b9a36a55fde3ed47a957d4c8753947ab8c987eb1/public.log",
+  "disconnection_reason": "inactivity",
+  "latency": {
+    "llm": {
+      "p99": 1017.1999999999999,
+      "min": 579,
+      "max": 1025,
+      "p90": 956,
+      "num": 13,
+      "values": [
+        960,
+        589,
+        800,
+        712,
+        856,
+        617,
+        579,
+        738,
+        940,
+        593,
+        862,
+        1025,
+        770
+      ],
+      "p50": 770,
+      "sum": 10041,
+      "p95": 985.9999999999999
+    },
+    "e2e": {
+      "p99": 3911.48,
+      "min": 1488,
+      "max": 3955,
+      "p90": 3519.7999999999997,
+      "num": 9,
+      "values": [
+        1491,
+        1529,
+        3411,
+        1488,
+        2666,
+        3955,
+        1561,
+        1728,
+        1493
+      ],
+      "p50": 1561,
+      "sum": 19322,
+      "p95": 3737.3999999999996
+    },
+    "tts": {
+      "p99": 114.75999999999999,
+      "min": 110,
+      "max": 115,
+      "p90": 113,
+      "num": 13,
+      "values": [
+        111,
+        112,
+        112,
+        111,
+        111,
+        111,
+        113,
+        110,
+        113,
+        115,
+        112,
+        111,
+        110
+      ],
+      "p50": 111,
+      "sum": 1452,
+      "p95": 113.8
+    },
+    "asr": {
+      "p99": 799.6,
+      "min": 540,
+      "max": 808,
+      "p90": 723.9999999999999,
+      "num": 9,
+      "values": [
+        556,
+        552,
+        703,
+        562,
+        566,
+        808,
+        571,
+        591,
+        540
+      ],
+      "p50": 566,
+      "sum": 5449,
+      "p95": 766
+    }
+  },
+  "metadata": {
+    "scenario": "lana_study_complaint"
+  },
+  "call_cost": {
+    "total_duration_unit_price": 0.2166667,
+    "product_costs": [
+      {
+        "unit_price": 0.0916667,
+        "product": "retell_voice_engine",
+        "cost": 9.4416701
+      },
+      {
+        "unit_price": 0.025,
+        "product": "cartesia_tts_new",
+        "cost": 2.575
+      },
+      {
+        "unit_price": 0.075,
+        "product": "gpt_4_1",
+        "cost": 7.725
+      },
+      {
+        "unit_price": 0.025,
+        "product": "us_twilio_telephony",
+        "cost": 2.575
+      },
+      {
+        "unit_price": 1.5,
+        "product": "gpt_4_1_text_testing",
+        "cost": 1.5
+      }
+    ],
+    "combined_cost": 23.8166701,
+    "total_duration_seconds": 103
+  },
+  "call_analysis": {
+    "in_voicemail": false,
+    "call_summary": "The agent, speaking Russian, attempted to communicate with the user, who responded in English and had difficulty understanding the agent. After several attempts to clarify, the user offered to transfer the agent to someone at the front desk, and the agent agreed. The call ended with the user initiating the transfer.",
+    "user_sentiment": "Neutral",
+    "custom_analysis_data": {},
+    "call_successful": false
+  },
+  "data_storage_setting": "everything",
+  "opt_in_signed_url": false,
+  "llm_token_usage": {
+    "values": [
+      304,
+      301,
+      302,
+      313,
+      329,
+      330,
+      338,
+      346,
+      379,
+      378,
+      390,
+      389,
+      393,
+      405,
+      429,
+      431,
+      446,
+      447,
+      452,
+      468,
+      480,
+      495,
+      514,
+      525,
+      519,
+      523,
+      557,
+      563,
+      591,
+      594,
+      601,
+      621,
+      626,
+      652
+    ],
+    "average": 453.8529411764706,
+    "num_requests": 34
+  },
+  "tool_calls": [],
+  "from_number": "+16467603781",
+  "to_number": "+19292056408",
+  "direction": "outbound",
+  "telephony_identifier": {
+    "twilio_call_sid": "CA3aea342b04b767201f91da2f45338144"
+  },
+  "pcap_url": "https://dxc03zgurdly9.cloudfront.net/88f44010eab78f15548a7276b9a36a55fde3ed47a957d4c8753947ab8c987eb1/call_de00428436483a51ea65e7d89d7.pcap"
+}

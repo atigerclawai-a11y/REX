@@ -1,0 +1,579 @@
+{
+  "call_id": "call_787e975c71263868c5decac9eda",
+  "call_type": "phone_call",
+  "agent_id": "agent_01dd3c97a1d84bfc030007e641",
+  "agent_version": 0,
+  "agent_name": "Scout-Reservations",
+  "contact_dynamic_variables": {},
+  "custom_sip_headers": {
+    "X-RetellAI-Direction": "Outbound",
+    "X-RetellAI-OrgId": "org_VkEKS9JwA8t95xZW",
+    "X-RetellAI-CallId": "call_787e975c71263868c5decac9eda",
+    "X-RetellAI-SipTraceId": "call_787e975c71263868c5decac9eda",
+    "Route": "<sip:18.98.16.123;lr>"
+  },
+  "call_status": "ended",
+  "start_timestamp": 1782568987108,
+  "end_timestamp": 1782569000343,
+  "duration_ms": 13235,
+  "transcript": "User: one \nAgent: Hey, how’s it going? \nUser: eight five one seven zero three. Zero zero is not available. \nAgent: Oh, \nUser: The mailbox is full \nAgent: got it—no worries. \nUser: and cannot accept any messages at this time. Goodbye. \n",
+  "transcript_object": [
+    {
+      "role": "user",
+      "content": "one ",
+      "words": [
+        {
+          "word": "one ",
+          "start": 0.491,
+          "end": 0.81099995
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Hey, how’s it going? ",
+      "words": [
+        {
+          "word": "Hey, ",
+          "start": 1.055,
+          "end": 1.476052734375
+        },
+        {
+          "word": "how’s ",
+          "start": 1.476052734375,
+          "end": 1.897105224609375
+        },
+        {
+          "word": "it ",
+          "start": 1.897105224609375,
+          "end": 2.318157958984375
+        },
+        {
+          "word": "going? ",
+          "start": 2.22453076171875,
+          "end": 2.645583251953125
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "eight five one seven zero three. Zero zero is not available. ",
+      "words": [
+        {
+          "word": "eight ",
+          "start": 0.81099995,
+          "end": 1.2109998999999998
+        },
+        {
+          "word": "five ",
+          "start": 1.6609999999999998,
+          "end": 2.221
+        },
+        {
+          "word": "one ",
+          "start": 2.221,
+          "end": 2.701
+        },
+        {
+          "word": "seven ",
+          "start": 2.701,
+          "end": 3.261
+        },
+        {
+          "word": "zero ",
+          "start": 3.261,
+          "end": 3.741
+        },
+        {
+          "word": "three. ",
+          "start": 4.041,
+          "end": 4.4410003
+        },
+        {
+          "word": "Zero ",
+          "start": 4.8709997000000005,
+          "end": 5.3509997
+        },
+        {
+          "word": "zero ",
+          "start": 5.3509997,
+          "end": 5.9109996
+        },
+        {
+          "word": "is ",
+          "start": 5.9109996,
+          "end": 6.3109997
+        },
+        {
+          "word": "not ",
+          "start": 6.3109997,
+          "end": 6.471
+        },
+        {
+          "word": "available. ",
+          "start": 6.471,
+          "end": 6.7909997
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Oh, ",
+      "words": [
+        {
+          "word": "Oh, ",
+          "start": 8.747,
+          "end": 9.168052734375
+        }
+      ],
+      "metadata": {
+        "response_id": 2
+      }
+    },
+    {
+      "role": "user",
+      "content": "The mailbox is full ",
+      "words": [
+        {
+          "word": "The ",
+          "start": 9.230998999999999,
+          "end": 9.471
+        },
+        {
+          "word": "mailbox ",
+          "start": 9.471,
+          "end": 9.870999999999999
+        },
+        {
+          "word": "is ",
+          "start": 9.870999999999999,
+          "end": 10.110999
+        },
+        {
+          "word": "full ",
+          "start": 10.110999,
+          "end": 10.350999999999999
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "got it—no worries. ",
+      "words": [
+        {
+          "word": "got ",
+          "start": 9.168052734375,
+          "end": 9.589105224609375
+        },
+        {
+          "word": "it—no ",
+          "start": 9.589105224609375,
+          "end": 10.010157958984376
+        },
+        {
+          "word": "worries. ",
+          "start": 10.010157958984376,
+          "end": 10.43121044921875
+        }
+      ],
+      "metadata": {
+        "response_id": 2
+      }
+    },
+    {
+      "role": "user",
+      "content": "and cannot accept any messages at this time. Goodbye. ",
+      "words": [
+        {
+          "word": "and ",
+          "start": 10.350999999999999,
+          "end": 10.511
+        },
+        {
+          "word": "cannot ",
+          "start": 10.511,
+          "end": 10.831
+        },
+        {
+          "word": "accept ",
+          "start": 10.831,
+          "end": 11.070998999999999
+        },
+        {
+          "word": "any ",
+          "start": 11.070998999999999,
+          "end": 11.310998999999999
+        },
+        {
+          "word": "messages ",
+          "start": 11.310998999999999,
+          "end": 11.710999999999999
+        },
+        {
+          "word": "at ",
+          "start": 11.710999999999999,
+          "end": 11.870999999999999
+        },
+        {
+          "word": "this ",
+          "start": 11.870999999999999,
+          "end": 11.950999999999999
+        },
+        {
+          "word": "time. ",
+          "start": 12.020999999999999,
+          "end": 12.501
+        },
+        {
+          "word": "Goodbye. ",
+          "start": 12.501,
+          "end": 12.821
+        }
+      ]
+    }
+  ],
+  "transcript_with_tool_calls": [
+    {
+      "role": "user",
+      "content": "one ",
+      "words": [
+        {
+          "word": "one ",
+          "start": 0.491,
+          "end": 0.81099995
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Hey, how’s it going? ",
+      "words": [
+        {
+          "word": "Hey, ",
+          "start": 1.055,
+          "end": 1.476052734375
+        },
+        {
+          "word": "how’s ",
+          "start": 1.476052734375,
+          "end": 1.897105224609375
+        },
+        {
+          "word": "it ",
+          "start": 1.897105224609375,
+          "end": 2.318157958984375
+        },
+        {
+          "word": "going? ",
+          "start": 2.22453076171875,
+          "end": 2.645583251953125
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "eight five one seven zero three. Zero zero is not available. ",
+      "words": [
+        {
+          "word": "eight ",
+          "start": 0.81099995,
+          "end": 1.2109998999999998
+        },
+        {
+          "word": "five ",
+          "start": 1.6609999999999998,
+          "end": 2.221
+        },
+        {
+          "word": "one ",
+          "start": 2.221,
+          "end": 2.701
+        },
+        {
+          "word": "seven ",
+          "start": 2.701,
+          "end": 3.261
+        },
+        {
+          "word": "zero ",
+          "start": 3.261,
+          "end": 3.741
+        },
+        {
+          "word": "three. ",
+          "start": 4.041,
+          "end": 4.4410003
+        },
+        {
+          "word": "Zero ",
+          "start": 4.8709997000000005,
+          "end": 5.3509997
+        },
+        {
+          "word": "zero ",
+          "start": 5.3509997,
+          "end": 5.9109996
+        },
+        {
+          "word": "is ",
+          "start": 5.9109996,
+          "end": 6.3109997
+        },
+        {
+          "word": "not ",
+          "start": 6.3109997,
+          "end": 6.471
+        },
+        {
+          "word": "available. ",
+          "start": 6.471,
+          "end": 6.7909997
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Oh, ",
+      "words": [
+        {
+          "word": "Oh, ",
+          "start": 8.747,
+          "end": 9.168052734375
+        }
+      ],
+      "metadata": {
+        "response_id": 2
+      }
+    },
+    {
+      "role": "user",
+      "content": "The mailbox is full ",
+      "words": [
+        {
+          "word": "The ",
+          "start": 9.230998999999999,
+          "end": 9.471
+        },
+        {
+          "word": "mailbox ",
+          "start": 9.471,
+          "end": 9.870999999999999
+        },
+        {
+          "word": "is ",
+          "start": 9.870999999999999,
+          "end": 10.110999
+        },
+        {
+          "word": "full ",
+          "start": 10.110999,
+          "end": 10.350999999999999
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "got it—no worries. ",
+      "words": [
+        {
+          "word": "got ",
+          "start": 9.168052734375,
+          "end": 9.589105224609375
+        },
+        {
+          "word": "it—no ",
+          "start": 9.589105224609375,
+          "end": 10.010157958984376
+        },
+        {
+          "word": "worries. ",
+          "start": 10.010157958984376,
+          "end": 10.43121044921875
+        }
+      ],
+      "metadata": {
+        "response_id": 2
+      }
+    },
+    {
+      "role": "user",
+      "content": "and cannot accept any messages at this time. Goodbye. ",
+      "words": [
+        {
+          "word": "and ",
+          "start": 10.350999999999999,
+          "end": 10.511
+        },
+        {
+          "word": "cannot ",
+          "start": 10.511,
+          "end": 10.831
+        },
+        {
+          "word": "accept ",
+          "start": 10.831,
+          "end": 11.070998999999999
+        },
+        {
+          "word": "any ",
+          "start": 11.070998999999999,
+          "end": 11.310998999999999
+        },
+        {
+          "word": "messages ",
+          "start": 11.310998999999999,
+          "end": 11.710999999999999
+        },
+        {
+          "word": "at ",
+          "start": 11.710999999999999,
+          "end": 11.870999999999999
+        },
+        {
+          "word": "this ",
+          "start": 11.870999999999999,
+          "end": 11.950999999999999
+        },
+        {
+          "word": "time. ",
+          "start": 12.020999999999999,
+          "end": 12.501
+        },
+        {
+          "word": "Goodbye. ",
+          "start": 12.501,
+          "end": 12.821
+        }
+      ]
+    }
+  ],
+  "recording_url": "https://dxc03zgurdly9.cloudfront.net/543ff1e7ff646ee4405168c221b13bb7b93744d7a2778a1037a5abf0e67c3863/recording.wav",
+  "recording_multi_channel_url": "https://dxc03zgurdly9.cloudfront.net/543ff1e7ff646ee4405168c221b13bb7b93744d7a2778a1037a5abf0e67c3863/recording_multichannel.wav",
+  "public_log_url": "https://dxc03zgurdly9.cloudfront.net/543ff1e7ff646ee4405168c221b13bb7b93744d7a2778a1037a5abf0e67c3863/public.log",
+  "disconnection_reason": "user_hangup",
+  "latency": {
+    "llm": {
+      "p99": 843.66,
+      "min": 810,
+      "max": 844,
+      "p90": 840.6,
+      "num": 2,
+      "values": [
+        810,
+        844
+      ],
+      "p50": 827,
+      "sum": 1654,
+      "p95": 842.3
+    },
+    "e2e": {
+      "p99": 1956.000244140625,
+      "min": 1956.000244140625,
+      "max": 1956.000244140625,
+      "p90": 1956.000244140625,
+      "num": 1,
+      "values": [
+        1956.000244140625
+      ],
+      "p50": 1956.000244140625,
+      "sum": 1956.000244140625,
+      "p95": 1956.000244140625
+    },
+    "tts": {
+      "p99": 244.77,
+      "min": 222,
+      "max": 245,
+      "p90": 242.7,
+      "num": 2,
+      "values": [
+        245,
+        222
+      ],
+      "p50": 233.5,
+      "sum": 467,
+      "p95": 243.85
+    },
+    "asr": {
+      "p99": 179,
+      "min": 179,
+      "max": 179,
+      "p90": 179,
+      "num": 1,
+      "values": [
+        179
+      ],
+      "p50": 179,
+      "sum": 179,
+      "p95": 179
+    }
+  },
+  "metadata": {
+    "scenario": "private_event_birthday",
+    "study": "competitive_intelligence",
+    "target": "lana_bbg"
+  },
+  "call_cost": {
+    "total_duration_unit_price": 0.2166667,
+    "product_costs": [
+      {
+        "unit_price": 0.0916667,
+        "product": "retell_voice_engine",
+        "cost": 1.2833338
+      },
+      {
+        "unit_price": 0.025,
+        "product": "platform_tts",
+        "cost": 0.35
+      },
+      {
+        "unit_price": 0.075,
+        "product": "gpt_4_1",
+        "cost": 1.05
+      },
+      {
+        "unit_price": 0.025,
+        "product": "us_twilio_telephony",
+        "cost": 0.35
+      },
+      {
+        "unit_price": 1.5,
+        "product": "gpt_4_1_text_testing",
+        "cost": 1.5
+      }
+    ],
+    "combined_cost": 4.5333338,
+    "total_duration_seconds": 14
+  },
+  "call_analysis": {
+    "in_voicemail": true,
+    "call_summary": "The call reached a voicemail system indicating the mailbox is full and cannot accept messages. No conversation with the intended recipient took place.",
+    "user_sentiment": "Neutral",
+    "custom_analysis_data": {},
+    "call_successful": false
+  },
+  "data_storage_setting": "everything",
+  "opt_in_signed_url": false,
+  "llm_token_usage": {
+    "values": [
+      389,
+      389,
+      403
+    ],
+    "average": 393.6666666666667,
+    "num_requests": 3
+  },
+  "tool_calls": [],
+  "from_number": "+16467603781",
+  "to_number": "+17185170300",
+  "direction": "outbound",
+  "telephony_identifier": {
+    "twilio_call_sid": "CA9b16528832f7cb5505cc8f9486904888"
+  },
+  "pcap_url": "https://dxc03zgurdly9.cloudfront.net/543ff1e7ff646ee4405168c221b13bb7b93744d7a2778a1037a5abf0e67c3863/call_787e975c71263868c5decac9eda.pcap"
+}

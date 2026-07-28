@@ -1,0 +1,36 @@
+{
+  "Sovereign Prompt Integrity": {
+    "ok": true,
+    "detail": "Sovereign prompt contains all required rule blocks"
+  },
+  "Security Gaps (All 5)": {
+    "ok": true,
+    "detail": "All 5 security gaps confirmed closed"
+  },
+  "Vault Encryption": {
+    "ok": true,
+    "detail": "Vault encryption: standard + triple \u2014 both verified"
+  },
+  "Agent Bus + Sanitizer": {
+    "ok": true,
+    "detail": "Agent bus: 48 BLOCKED_FIELDS present, sanitize verified"
+  },
+  "Anti-Tamper Detection": {
+    "ok": true,
+    "detail": "Anti-tamper: 3 attack patterns still blocked"
+  },
+  "Memory Visibility Rules": {
+    "ok": true,
+    "detail": "Memory visibility: all 4 roles correctly filtered"
+  },
+  "Role-Based Commands": {
+    "ok": true,
+    "detail": "Role-based commands: chairman-only commands blocked for staff"
+  },
+  "_summary": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7,
+    "timestamp": "2026-05-26T12:10:42.222803"
+  }
+}

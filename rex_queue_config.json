@@ -1,0 +1,42 @@
+{
+  "_comment": "REX Queue Processor Configuration \u2014 edit as needed",
+  "nemobot": {
+    "url": "http://localhost:8000/api/chat",
+    "_url_note": "Points to the REX FastAPI backend \u2014 always running. Uses /api/chat which routes through LiteLLM to ChatGPT, Gemini, Grok etc.",
+    "method": "POST",
+    "prompt_key": "message",
+    "model_key": "model",
+    "response_key": "response",
+    "timeout_seconds": 120,
+    "api_key": "",
+    "api_key_header": "Authorization",
+    "api_key_prefix": "Bearer ",
+    "_note": "REX backend at port 8000 accepts {message, model} and returns {response}. No external auth needed \u2014 it's local."
+  },
+  "telegram": {
+    "token": "8702536335:AAHlGlEpLVuq9RAaqNq4kugv1MqJRg4IJQY",
+    "chat_id": 5587703834
+  },
+  "email": {
+    "enabled": false,
+    "method": "smtp",
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "username": "atigerclawai@gmail.com",
+    "app_password": "",
+    "_note": "To enable email: create a Gmail App Password at myaccount.google.com/apppasswords, paste it in app_password, set enabled=true"
+  },
+  "paths": {
+    "queue_dir": "~/Desktop/REX/ai_queue",
+    "reports_dir": "~/Desktop/REX/training_reports",
+    "log_file": "~/Desktop/REX/rex_queue.log"
+  },
+  "ai_models": {
+    "_note": "Model strings passed to REX /api/chat \u2014 must match litellm_proxy.py ALL_MODELS keys.",
+    "grok": "xai/grok-2-latest",
+    "chatgpt": "openai/gpt-4o",
+    "gemini": "google/gemini-1.5-pro",
+    "claude": "anthropic/claude-sonnet-4-6",
+    "perplexity": "perplexity/sonar-pro"
+  }
+}

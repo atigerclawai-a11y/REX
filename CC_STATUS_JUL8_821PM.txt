@@ -1,0 +1,38 @@
+SESSION STATUS — Jul 8, 2026 8:21 PM
+=====================================
+
+✅ COMPLETED THIS SESSION:
+
+1. TigerClaw-app KILLED
+   - Electron Helper (PID 2263) — force-quit via Activity Monitor
+   - Parent Electron (PID 2072) — exited automatically after child was killed
+   - 130% CPU + 56% GPU drain = CLEARED
+
+2. MCP TRIM APPLIED (17 → 8 MCPs)
+   - Backup: ~/Desktop/REX/CC_backups/claude_desktop_config.json.bak_20260708_195503
+   - Removed: openrouter (RULES VIOLATION), comfyui, retell, elevenlabs, twilio, perplexity, groq, mistral, openai
+   - Kept: hermes, telegram, n8n, instagram, antigravity, claude, grok, tavily
+   - ⚠️  ACTION REQUIRED: Quit and reopen Claude Desktop to activate
+
+🔴 STILL NEEDS ATTENTION:
+
+3. Hermes Gateway (port 3002) — DOWN
+   - Restart script ran but gateway didn't bind
+   - Check: tail -50 ~/.hermes/profiles/cloud/logs/gateway.log
+   - Likely cause: DeepSeek 402 (credits) or provider config issue
+   - Fix: verify provider=deepseek in ~/.hermes/profiles/cloud/config.yaml
+
+4. Telegram Bot Token — 401 REVOKED
+   - Get fresh token from @BotFather
+   - Update telegram MCP entry in claude_desktop_config.json
+
+5. Instagram Meta Token — EXPIRED (June 22)
+   - Renew from Meta developer console
+
+6. Grok — OUT OF CREDITS
+   - Recharge at console.x.ai
+
+SYSTEM STATE:
+- Swap: 19.5 GB (will drain now that TigerClaw is gone)
+- VMs: Claude VM 4.05 GB + Docker VM 4.04 GB (normal)
+- iOS Cowork rendering: BROKEN this session — read this file on Mac

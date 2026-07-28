@@ -1,0 +1,9 @@
+{
+  "bot_token": "8657319466:AAE5jNl0ZJUFqiAN7d7cIzLe5aYwcINgxDk",
+  "owner_chat_id": 5587703834,
+  "_comment_chat_ids": "Add Telegram user IDs below. Ask each person to message @userinfobot to get their chat ID.",
+  "vlad_chat_id": null,
+  "allen_chat_id": null,
+  "misha_chat_id": null,
+  "ollama_enabled": true
+}

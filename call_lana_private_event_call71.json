@@ -1,0 +1,25 @@
+{
+  "call_id": "call_e4fc55527efd6308154fb0efef1",
+  "call_type": "phone_call",
+  "agent_id": "agent_2e730566c0ce88c1688916a635",
+  "agent_version": 0,
+  "agent_name": "Scout-Hours-Night",
+  "contact_dynamic_variables": {},
+  "custom_sip_headers": {},
+  "call_status": "registered",
+  "latency": {},
+  "metadata": {
+    "scenario": "lana_study_new_customer"
+  },
+  "call_cost": {
+    "product_costs": [],
+    "total_duration_seconds": 0,
+    "total_duration_unit_price": 0,
+    "combined_cost": 0
+  },
+  "data_storage_setting": "everything",
+  "opt_in_signed_url": false,
+  "from_number": "+19293685460",
+  "to_number": "+19292056408",
+  "direction": "outbound"
+}

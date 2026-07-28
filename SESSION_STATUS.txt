@@ -1,0 +1,29 @@
+SESSION STATUS — 2026-07-05
+============================
+
+iOS rendering is broken in this Cowork session.
+Two Telegram messages have been sent to you via @RexOfGold_bot.
+
+WHAT WAS COMPLETED THIS SESSION:
+---------------------------------
+1. Watchdog - FIXED. Plist reloaded, fires every 5 min, exit 0.
+2. Pruner - FIXED. chmod+x applied, plist reloaded, exit 0. Runs Sundays 3am.
+3. Attendance bot plist - BUILT. com.ghs.attendance-bot.plist created, loaded, PID 92780.
+
+WHAT STILL NEEDS DONE:
+-----------------------
+- Set GOJ_ATTENDANCE_TOKEN in ~/.hermes-cloud/.env
+- This is the Telegram bot token for @GojAttendance_bot
+- Once set, the attendance bot goes live automatically
+
+SYSTEM HEALTH:
+--------------
+- Gateway 3002: HEALTHY (PID 27257)
+- Staff-bot: HEALTHY (exit 0, ThrottleInterval=10)
+- Rexxie: HEALTHY
+- All zombie plists: DISABLED
+
+TO CONTINUE:
+------------
+Reply to the Telegram message from @RexOfGold_bot with the attendance bot token,
+OR start a fresh Cowork session on desktop.

@@ -1,0 +1,73 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║         iPhone "Unlock My Mac" Shortcut Setup                ║
+╚══════════════════════════════════════════════════════════════╝
+
+Your Mac hostname: Mains-Mac-mini.local   ← use this (works even if IP changes)
+Your Mac IP:       192.168.1.249
+Unlock URL:  http://Mains-Mac-mini.local:8765/unlock
+
+─────────────────────────────────────────────────────────────
+STEP 1 — Open Shortcuts app on iPhone
+─────────────────────────────────────────────────────────────
+Tap the + button to create a new shortcut.
+Name it: "Unlock My Mac"
+
+─────────────────────────────────────────────────────────────
+STEP 2 — Add these actions IN ORDER:
+─────────────────────────────────────────────────────────────
+
+Action 1: "Authenticate"
+  → This is the Face ID gate. Without Face ID, nothing else runs.
+  → Search for "Authenticate" in the actions list
+  → Set prompt: "Unlock Mac + Rexxie vault"
+
+Action 2: "Get Contents of URL"
+  → URL: http://Mains-Mac-mini.local:8765/challenge
+  → Method: GET
+  → This fetches a fresh token from your Mac
+
+Action 3: "Get Dictionary Value"
+  → Dictionary: [Shortcut Result from Action 2]
+  → Key: token
+
+Action 4: "Get Contents of URL"
+  → URL: http://Mains-Mac-mini.local:8765/unlock
+  → Method: POST
+  → Request Body: JSON
+  → Add key: token   → Value: [Dictionary Value from Action 3]
+
+Action 5: "Show Result"
+  → Input: [Result from Action 4]
+  → (Shows "Mac unlocked 🦖" on success)
+
+─────────────────────────────────────────────────────────────
+STEP 3 — Add to Home Screen
+─────────────────────────────────────────────────────────────
+Tap Share → Add to Home Screen
+Choose an icon (🦖 works great)
+Name it "Unlock" or "REX"
+
+─────────────────────────────────────────────────────────────
+STEP 4 — Test it
+─────────────────────────────────────────────────────────────
+1. Let your Mac go to screensaver
+2. Pick up your iPhone, open the shortcut
+3. Face ID prompt appears → look at phone
+4. Mac screen wakes up and unlocks ✅
+5. Rexxie vault is pre-authorized for 15 minutes ✅
+
+─────────────────────────────────────────────────────────────
+FALLBACK (phone broken or camera fails):
+─────────────────────────────────────────────────────────────
+Tell Rexxie: "backup phrase: [your 10 words in order]"
+This bypasses Face ID and unlocks the vault manually.
+Magic Keyboard Touch ID handles the Mac login screen.
+
+─────────────────────────────────────────────────────────────
+SECURITY NOTES:
+─────────────────────────────────────────────────────────────
+• Works only when iPhone and Mac are on the same WiFi
+• Token expires every 30 seconds — replaying it doesn't work
+• Face ID must pass before any network request is made
+• All unlock attempts are logged to: /Users/mainsobhelper/Desktop/REX/logs/phone_unlock.log

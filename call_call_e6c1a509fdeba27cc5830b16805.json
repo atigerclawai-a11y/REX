@@ -1,0 +1,1093 @@
+{
+  "call_id": "call_e6c1a509fdeba27cc5830b16805",
+  "call_type": "phone_call",
+  "agent_id": "agent_8a326510567e7dc3e2dc5221df",
+  "agent_version": 0,
+  "agent_name": "Victoria-GOJ-v2",
+  "contact_dynamic_variables": {},
+  "custom_sip_headers": {
+    "X-RetellAI-Direction": "Outbound",
+    "X-RetellAI-OrgId": "org_VkEKS9JwA8t95xZW",
+    "X-RetellAI-CallId": "call_e6c1a509fdeba27cc5830b16805",
+    "X-RetellAI-SipTraceId": "call_e6c1a509fdeba27cc5830b16805",
+    "Route": "<sip:18.98.16.123;lr>"
+  },
+  "call_status": "ended",
+  "start_timestamp": 1782386487504,
+  "end_timestamp": 1782386516474,
+  "duration_ms": 28970,
+  "transcript": "Agent: \u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, {client_name}!  \nUser: Welcome to Boardwalk, Beer Garden. My name is Lana. Let me know if you need to speak to management and would like to be transferred. What's your name and how can I help you?\nAgent: \u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, \u044f \u0433\u043e\u0432\u043e\u0440\u044e \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e-\u0440\u0443\u0441\u0441\u043a\u0438.  \n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!\u041c\u0435\u043d\u044f \nUser:  All right.\nAgent: \u0437\u043e\u0432\u0443\u0442 \u0415\u043b\u0435\u043d\u0430. \nAgent: \u0421\u043f\u0430\u0441\u0438\u0431\u043e! \u0415\u0441\u043b\u0438 \nUser:  All \nAgent: \u0432\u0430\u043c \u043d\u0443\u0436\u043d\u0430 \nUser: right. I have your name.\nAgent: \u0421\u043f\u0430\u0441\u0438\u0431\u043e, \nUser:  Thank \nAgent: \u0447\u0442\u043e \nUser: you so much for all the info, Vanita. See you soon.\n",
+  "transcript_object": [
+    {
+      "role": "agent",
+      "content": "\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, {client_name}!  ",
+      "words": [
+        {
+          "word": "\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, ",
+          "start": 1.83421484375,
+          "end": 2.607
+        },
+        {
+          "word": "{client_name}! ",
+          "start": 2.777263427734375,
+          "end": 3.647
+        },
+        {
+          "word": " ",
+          "start": 3.865076416015625,
+          "end": 4.047
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "Welcome to Boardwalk, Beer Garden. My name is Lana. Let me know if you need to speak to management and would like to be transferred. What's your name and how can I help you?",
+      "words": [
+        {
+          "word": "Welcome ",
+          "start": 3.8129999999999997,
+          "end": 4.133
+        },
+        {
+          "word": "to ",
+          "start": 4.133,
+          "end": 4.433000000000001
+        },
+        {
+          "word": "Boardwalk, ",
+          "start": 4.433000000000001,
+          "end": 5.093
+        },
+        {
+          "word": "Beer ",
+          "start": 5.093,
+          "end": 5.385000000000001
+        },
+        {
+          "word": "Garden.",
+          "start": 5.385000000000001,
+          "end": 5.673
+        },
+        {
+          "word": " My ",
+          "start": 5.853000000000001,
+          "end": 5.985
+        },
+        {
+          "word": "name ",
+          "start": 5.985,
+          "end": 6.113
+        },
+        {
+          "word": "is ",
+          "start": 6.113,
+          "end": 6.468
+        },
+        {
+          "word": "Lana. ",
+          "start": 6.468,
+          "end": 6.948
+        },
+        {
+          "word": "Let ",
+          "start": 6.948,
+          "end": 7.073
+        },
+        {
+          "word": "me ",
+          "start": 7.073,
+          "end": 7.133
+        },
+        {
+          "word": "know ",
+          "start": 7.133,
+          "end": 7.373
+        },
+        {
+          "word": "if ",
+          "start": 7.373,
+          "end": 7.4430000000000005
+        },
+        {
+          "word": "you ",
+          "start": 7.4430000000000005,
+          "end": 7.613
+        },
+        {
+          "word": "need ",
+          "start": 7.613,
+          "end": 7.793
+        },
+        {
+          "word": "to ",
+          "start": 7.793,
+          "end": 7.908
+        },
+        {
+          "word": "speak ",
+          "start": 7.908,
+          "end": 8.093
+        },
+        {
+          "word": "to ",
+          "start": 8.093,
+          "end": 8.328
+        },
+        {
+          "word": "management ",
+          "start": 8.328,
+          "end": 8.808
+        },
+        {
+          "word": "and ",
+          "start": 8.808,
+          "end": 8.923
+        },
+        {
+          "word": "would ",
+          "start": 8.923,
+          "end": 9.062999999999999
+        },
+        {
+          "word": "like ",
+          "start": 9.062999999999999,
+          "end": 9.173
+        },
+        {
+          "word": "to ",
+          "start": 9.173,
+          "end": 9.293
+        },
+        {
+          "word": "be ",
+          "start": 9.293,
+          "end": 9.759666666666666
+        },
+        {
+          "word": "transferred. ",
+          "start": 9.759666666666666,
+          "end": 10.373
+        },
+        {
+          "word": "What's ",
+          "start": 10.373,
+          "end": 10.623
+        },
+        {
+          "word": "your ",
+          "start": 10.623,
+          "end": 10.785
+        },
+        {
+          "word": "name ",
+          "start": 10.785,
+          "end": 10.908
+        },
+        {
+          "word": "and ",
+          "start": 10.908,
+          "end": 11.027999999999999
+        },
+        {
+          "word": "how ",
+          "start": 11.027999999999999,
+          "end": 11.148
+        },
+        {
+          "word": "can ",
+          "start": 11.148,
+          "end": 11.222999999999999
+        },
+        {
+          "word": "I ",
+          "start": 11.222999999999999,
+          "end": 11.328
+        },
+        {
+          "word": "help ",
+          "start": 11.328,
+          "end": 11.463
+        },
+        {
+          "word": "you?",
+          "start": 11.463,
+          "end": 11.673
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, \u044f \u0433\u043e\u0432\u043e\u0440\u044e \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e-\u0440\u0443\u0441\u0441\u043a\u0438.  \n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!\u041c\u0435\u043d\u044f ",
+      "words": [
+        {
+          "word": "\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, ",
+          "start": 13.260877685546875,
+          "end": 13.967
+        },
+        {
+          "word": "\u044f ",
+          "start": 14.194418212890625,
+          "end": 14.367
+        },
+        {
+          "word": "\u0433\u043e\u0432\u043e\u0440\u044e ",
+          "start": 14.44744091796875,
+          "end": 14.687
+        },
+        {
+          "word": "\u0442\u043e\u043b\u044c\u043a\u043e ",
+          "start": 14.69125390625,
+          "end": 15.007
+        },
+        {
+          "word": "\u043f\u043e-\u0440\u0443\u0441\u0441\u043a\u0438. ",
+          "start": 15.08727294921875,
+          "end": 15.647
+        },
+        {
+          "word": " ",
+          "start": 15.933751220703124,
+          "end": 16.767
+        },
+        {
+          "word": "\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!",
+          "start": 16.95038818359375,
+          "end": 17.167
+        },
+        {
+          "word": "\u041c\u0435\u043d\u044f ",
+          "start": 17.24870263671875,
+          "end": 17.487
+        }
+      ],
+      "metadata": {
+        "response_id": 5
+      }
+    },
+    {
+      "role": "user",
+      "content": " All right.",
+      "words": [
+        {
+          "word": " All ",
+          "start": 17.913,
+          "end": 18.093
+        },
+        {
+          "word": "right.",
+          "start": 18.093,
+          "end": 18.153000000000002
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0437\u043e\u0432\u0443\u0442 \u0415\u043b\u0435\u043d\u0430. ",
+      "words": [
+        {
+          "word": "\u0437\u043e\u0432\u0443\u0442 ",
+          "start": 17.49201904296875,
+          "end": 18.047
+        },
+        {
+          "word": "\u0415\u043b\u0435\u043d\u0430. ",
+          "start": 18.26803369140625,
+          "end": 18.527
+        }
+      ],
+      "metadata": {
+        "response_id": 5
+      }
+    },
+    {
+      "role": "agent",
+      "content": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e! \u0415\u0441\u043b\u0438 ",
+      "words": [
+        {
+          "word": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e! ",
+          "start": 19.871903076171876,
+          "end": 20.495
+        },
+        {
+          "word": "\u0415\u0441\u043b\u0438 ",
+          "start": 20.769773193359374,
+          "end": 21.135
+        }
+      ],
+      "metadata": {
+        "response_id": 7
+      }
+    },
+    {
+      "role": "user",
+      "content": " All ",
+      "words": [
+        {
+          "word": " All ",
+          "start": 21.333000000000002,
+          "end": 21.513
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0432\u0430\u043c \u043d\u0443\u0436\u043d\u0430 ",
+      "words": [
+        {
+          "word": "\u0432\u0430\u043c ",
+          "start": 21.2154296875,
+          "end": 21.375
+        },
+        {
+          "word": "\u043d\u0443\u0436\u043d\u0430 ",
+          "start": 21.37540283203125,
+          "end": 21.695
+        }
+      ],
+      "metadata": {
+        "response_id": 7
+      }
+    },
+    {
+      "role": "user",
+      "content": "right. I have your name.",
+      "words": [
+        {
+          "word": "right. ",
+          "start": 21.513,
+          "end": 21.783
+        },
+        {
+          "word": "I ",
+          "start": 21.783,
+          "end": 21.825000000000003
+        },
+        {
+          "word": "have ",
+          "start": 21.825000000000003,
+          "end": 21.963
+        },
+        {
+          "word": "your ",
+          "start": 21.963,
+          "end": 22.188000000000002
+        },
+        {
+          "word": "name.",
+          "start": 22.188000000000002,
+          "end": 22.233
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e, ",
+      "words": [
+        {
+          "word": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e, ",
+          "start": 24.784162841796874,
+          "end": 25.418
+        }
+      ],
+      "metadata": {
+        "response_id": 10
+      }
+    },
+    {
+      "role": "user",
+      "content": " Thank ",
+      "words": [
+        {
+          "word": " Thank ",
+          "start": 25.593,
+          "end": 25.743000000000002
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0447\u0442\u043e ",
+      "words": [
+        {
+          "word": "\u0447\u0442\u043e ",
+          "start": 25.6431787109375,
+          "end": 25.818
+        }
+      ],
+      "metadata": {
+        "response_id": 10
+      }
+    },
+    {
+      "role": "user",
+      "content": "you so much for all the info, Vanita. See you soon.",
+      "words": [
+        {
+          "word": "you ",
+          "start": 25.743000000000002,
+          "end": 25.973000000000003
+        },
+        {
+          "word": "so ",
+          "start": 25.973000000000003,
+          "end": 26.145
+        },
+        {
+          "word": "much ",
+          "start": 26.145,
+          "end": 26.328000000000003
+        },
+        {
+          "word": "for ",
+          "start": 26.328000000000003,
+          "end": 26.448
+        },
+        {
+          "word": "all ",
+          "start": 26.448,
+          "end": 26.568
+        },
+        {
+          "word": "the ",
+          "start": 26.568,
+          "end": 26.808
+        },
+        {
+          "word": "info, ",
+          "start": 26.808,
+          "end": 27.228
+        },
+        {
+          "word": "Vanita. ",
+          "start": 27.228,
+          "end": 27.948
+        },
+        {
+          "word": "See ",
+          "start": 27.948,
+          "end": 28.083000000000002
+        },
+        {
+          "word": "you ",
+          "start": 28.083000000000002,
+          "end": 28.313000000000002
+        },
+        {
+          "word": "soon.",
+          "start": 28.313000000000002,
+          "end": 28.353
+        }
+      ]
+    }
+  ],
+  "transcript_with_tool_calls": [
+    {
+      "role": "agent",
+      "content": "\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, {client_name}!  ",
+      "words": [
+        {
+          "word": "\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, ",
+          "start": 1.83421484375,
+          "end": 2.607
+        },
+        {
+          "word": "{client_name}! ",
+          "start": 2.777263427734375,
+          "end": 3.647
+        },
+        {
+          "word": " ",
+          "start": 3.865076416015625,
+          "end": 4.047
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "Welcome to Boardwalk, Beer Garden. My name is Lana. Let me know if you need to speak to management and would like to be transferred. What's your name and how can I help you?",
+      "words": [
+        {
+          "word": "Welcome ",
+          "start": 3.8129999999999997,
+          "end": 4.133
+        },
+        {
+          "word": "to ",
+          "start": 4.133,
+          "end": 4.433000000000001
+        },
+        {
+          "word": "Boardwalk, ",
+          "start": 4.433000000000001,
+          "end": 5.093
+        },
+        {
+          "word": "Beer ",
+          "start": 5.093,
+          "end": 5.385000000000001
+        },
+        {
+          "word": "Garden.",
+          "start": 5.385000000000001,
+          "end": 5.673
+        },
+        {
+          "word": " My ",
+          "start": 5.853000000000001,
+          "end": 5.985
+        },
+        {
+          "word": "name ",
+          "start": 5.985,
+          "end": 6.113
+        },
+        {
+          "word": "is ",
+          "start": 6.113,
+          "end": 6.468
+        },
+        {
+          "word": "Lana. ",
+          "start": 6.468,
+          "end": 6.948
+        },
+        {
+          "word": "Let ",
+          "start": 6.948,
+          "end": 7.073
+        },
+        {
+          "word": "me ",
+          "start": 7.073,
+          "end": 7.133
+        },
+        {
+          "word": "know ",
+          "start": 7.133,
+          "end": 7.373
+        },
+        {
+          "word": "if ",
+          "start": 7.373,
+          "end": 7.4430000000000005
+        },
+        {
+          "word": "you ",
+          "start": 7.4430000000000005,
+          "end": 7.613
+        },
+        {
+          "word": "need ",
+          "start": 7.613,
+          "end": 7.793
+        },
+        {
+          "word": "to ",
+          "start": 7.793,
+          "end": 7.908
+        },
+        {
+          "word": "speak ",
+          "start": 7.908,
+          "end": 8.093
+        },
+        {
+          "word": "to ",
+          "start": 8.093,
+          "end": 8.328
+        },
+        {
+          "word": "management ",
+          "start": 8.328,
+          "end": 8.808
+        },
+        {
+          "word": "and ",
+          "start": 8.808,
+          "end": 8.923
+        },
+        {
+          "word": "would ",
+          "start": 8.923,
+          "end": 9.062999999999999
+        },
+        {
+          "word": "like ",
+          "start": 9.062999999999999,
+          "end": 9.173
+        },
+        {
+          "word": "to ",
+          "start": 9.173,
+          "end": 9.293
+        },
+        {
+          "word": "be ",
+          "start": 9.293,
+          "end": 9.759666666666666
+        },
+        {
+          "word": "transferred. ",
+          "start": 9.759666666666666,
+          "end": 10.373
+        },
+        {
+          "word": "What's ",
+          "start": 10.373,
+          "end": 10.623
+        },
+        {
+          "word": "your ",
+          "start": 10.623,
+          "end": 10.785
+        },
+        {
+          "word": "name ",
+          "start": 10.785,
+          "end": 10.908
+        },
+        {
+          "word": "and ",
+          "start": 10.908,
+          "end": 11.027999999999999
+        },
+        {
+          "word": "how ",
+          "start": 11.027999999999999,
+          "end": 11.148
+        },
+        {
+          "word": "can ",
+          "start": 11.148,
+          "end": 11.222999999999999
+        },
+        {
+          "word": "I ",
+          "start": 11.222999999999999,
+          "end": 11.328
+        },
+        {
+          "word": "help ",
+          "start": 11.328,
+          "end": 11.463
+        },
+        {
+          "word": "you?",
+          "start": 11.463,
+          "end": 11.673
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, \u044f \u0433\u043e\u0432\u043e\u0440\u044e \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e-\u0440\u0443\u0441\u0441\u043a\u0438.  \n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!\u041c\u0435\u043d\u044f ",
+      "words": [
+        {
+          "word": "\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, ",
+          "start": 13.260877685546875,
+          "end": 13.967
+        },
+        {
+          "word": "\u044f ",
+          "start": 14.194418212890625,
+          "end": 14.367
+        },
+        {
+          "word": "\u0433\u043e\u0432\u043e\u0440\u044e ",
+          "start": 14.44744091796875,
+          "end": 14.687
+        },
+        {
+          "word": "\u0442\u043e\u043b\u044c\u043a\u043e ",
+          "start": 14.69125390625,
+          "end": 15.007
+        },
+        {
+          "word": "\u043f\u043e-\u0440\u0443\u0441\u0441\u043a\u0438. ",
+          "start": 15.08727294921875,
+          "end": 15.647
+        },
+        {
+          "word": " ",
+          "start": 15.933751220703124,
+          "end": 16.767
+        },
+        {
+          "word": "\n\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!",
+          "start": 16.95038818359375,
+          "end": 17.167
+        },
+        {
+          "word": "\u041c\u0435\u043d\u044f ",
+          "start": 17.24870263671875,
+          "end": 17.487
+        }
+      ],
+      "metadata": {
+        "response_id": 5
+      }
+    },
+    {
+      "role": "user",
+      "content": " All right.",
+      "words": [
+        {
+          "word": " All ",
+          "start": 17.913,
+          "end": 18.093
+        },
+        {
+          "word": "right.",
+          "start": 18.093,
+          "end": 18.153000000000002
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0437\u043e\u0432\u0443\u0442 \u0415\u043b\u0435\u043d\u0430. ",
+      "words": [
+        {
+          "word": "\u0437\u043e\u0432\u0443\u0442 ",
+          "start": 17.49201904296875,
+          "end": 18.047
+        },
+        {
+          "word": "\u0415\u043b\u0435\u043d\u0430. ",
+          "start": 18.26803369140625,
+          "end": 18.527
+        }
+      ],
+      "metadata": {
+        "response_id": 5
+      }
+    },
+    {
+      "role": "agent",
+      "content": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e! \u0415\u0441\u043b\u0438 ",
+      "words": [
+        {
+          "word": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e! ",
+          "start": 19.871903076171876,
+          "end": 20.495
+        },
+        {
+          "word": "\u0415\u0441\u043b\u0438 ",
+          "start": 20.769773193359374,
+          "end": 21.135
+        }
+      ],
+      "metadata": {
+        "response_id": 7
+      }
+    },
+    {
+      "role": "user",
+      "content": " All ",
+      "words": [
+        {
+          "word": " All ",
+          "start": 21.333000000000002,
+          "end": 21.513
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0432\u0430\u043c \u043d\u0443\u0436\u043d\u0430 ",
+      "words": [
+        {
+          "word": "\u0432\u0430\u043c ",
+          "start": 21.2154296875,
+          "end": 21.375
+        },
+        {
+          "word": "\u043d\u0443\u0436\u043d\u0430 ",
+          "start": 21.37540283203125,
+          "end": 21.695
+        }
+      ],
+      "metadata": {
+        "response_id": 7
+      }
+    },
+    {
+      "role": "user",
+      "content": "right. I have your name.",
+      "words": [
+        {
+          "word": "right. ",
+          "start": 21.513,
+          "end": 21.783
+        },
+        {
+          "word": "I ",
+          "start": 21.783,
+          "end": 21.825000000000003
+        },
+        {
+          "word": "have ",
+          "start": 21.825000000000003,
+          "end": 21.963
+        },
+        {
+          "word": "your ",
+          "start": 21.963,
+          "end": 22.188000000000002
+        },
+        {
+          "word": "name.",
+          "start": 22.188000000000002,
+          "end": 22.233
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e, ",
+      "words": [
+        {
+          "word": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e, ",
+          "start": 24.784162841796874,
+          "end": 25.418
+        }
+      ],
+      "metadata": {
+        "response_id": 10
+      }
+    },
+    {
+      "role": "user",
+      "content": " Thank ",
+      "words": [
+        {
+          "word": " Thank ",
+          "start": 25.593,
+          "end": 25.743000000000002
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "\u0447\u0442\u043e ",
+      "words": [
+        {
+          "word": "\u0447\u0442\u043e ",
+          "start": 25.6431787109375,
+          "end": 25.818
+        }
+      ],
+      "metadata": {
+        "response_id": 10
+      }
+    },
+    {
+      "role": "user",
+      "content": "you so much for all the info, Vanita. See you soon.",
+      "words": [
+        {
+          "word": "you ",
+          "start": 25.743000000000002,
+          "end": 25.973000000000003
+        },
+        {
+          "word": "so ",
+          "start": 25.973000000000003,
+          "end": 26.145
+        },
+        {
+          "word": "much ",
+          "start": 26.145,
+          "end": 26.328000000000003
+        },
+        {
+          "word": "for ",
+          "start": 26.328000000000003,
+          "end": 26.448
+        },
+        {
+          "word": "all ",
+          "start": 26.448,
+          "end": 26.568
+        },
+        {
+          "word": "the ",
+          "start": 26.568,
+          "end": 26.808
+        },
+        {
+          "word": "info, ",
+          "start": 26.808,
+          "end": 27.228
+        },
+        {
+          "word": "Vanita. ",
+          "start": 27.228,
+          "end": 27.948
+        },
+        {
+          "word": "See ",
+          "start": 27.948,
+          "end": 28.083000000000002
+        },
+        {
+          "word": "you ",
+          "start": 28.083000000000002,
+          "end": 28.313000000000002
+        },
+        {
+          "word": "soon.",
+          "start": 28.313000000000002,
+          "end": 28.353
+        }
+      ]
+    }
+  ],
+  "recording_url": "https://dxc03zgurdly9.cloudfront.net/cce5d46f4b2bde12abb2fb046b14b0eebe6fbcd77213eb49e8b37e8ae14bd1a6/recording.wav",
+  "recording_multi_channel_url": "https://dxc03zgurdly9.cloudfront.net/cce5d46f4b2bde12abb2fb046b14b0eebe6fbcd77213eb49e8b37e8ae14bd1a6/recording_multichannel.wav",
+  "public_log_url": "https://dxc03zgurdly9.cloudfront.net/cce5d46f4b2bde12abb2fb046b14b0eebe6fbcd77213eb49e8b37e8ae14bd1a6/public.log",
+  "disconnection_reason": "user_hangup",
+  "latency": {
+    "llm": {
+      "p99": 1556.76,
+      "min": 475,
+      "max": 1557,
+      "p90": 1554.6,
+      "num": 4,
+      "values": [
+        1557,
+        789,
+        475,
+        1549
+      ],
+      "p50": 1169,
+      "sum": 4370,
+      "p95": 1555.8
+    },
+    "e2e": {
+      "p99": 2408.14,
+      "min": 1454,
+      "max": 2425,
+      "p90": 2256.3999999999996,
+      "num": 3,
+      "values": [
+        1454,
+        1582,
+        2425
+      ],
+      "p50": 1582,
+      "sum": 5461,
+      "p95": 2340.7
+    },
+    "tts": {
+      "p99": 132,
+      "min": 130,
+      "max": 132,
+      "p90": 132,
+      "num": 4,
+      "values": [
+        130,
+        131,
+        132,
+        132
+      ],
+      "p50": 131.5,
+      "sum": 525,
+      "p95": 132
+    },
+    "asr": {
+      "p99": 577.98,
+      "min": 558,
+      "max": 578,
+      "p90": 577.8,
+      "num": 3,
+      "values": [
+        558,
+        577,
+        578
+      ],
+      "p50": 577,
+      "sum": 1713,
+      "p95": 577.9
+    }
+  },
+  "metadata": {
+    "scenario": "lana_study_menu"
+  },
+  "call_cost": {
+    "total_duration_unit_price": 0.2166667,
+    "product_costs": [
+      {
+        "unit_price": 0.0916667,
+        "product": "retell_voice_engine",
+        "cost": 2.6583343
+      },
+      {
+        "unit_price": 0.025,
+        "product": "cartesia_tts_new",
+        "cost": 0.725
+      },
+      {
+        "unit_price": 0.075,
+        "product": "gpt_4_1",
+        "cost": 2.175
+      },
+      {
+        "unit_price": 0.025,
+        "product": "us_twilio_telephony",
+        "cost": 0.725
+      },
+      {
+        "unit_price": 1.5,
+        "product": "gpt_4_1_text_testing",
+        "cost": 1.5
+      }
+    ],
+    "combined_cost": 7.7833343,
+    "total_duration_seconds": 29
+  },
+  "call_analysis": {
+    "in_voicemail": false,
+    "call_summary": "The agent attempted to communicate in Russian with the user, who responded in English and offered assistance. The conversation was brief, with the user acknowledging the agent's name and ending the call politely. No specific task was completed during the call.",
+    "user_sentiment": "Neutral",
+    "custom_analysis_data": {},
+    "call_successful": false
+  },
+  "data_storage_setting": "everything",
+  "opt_in_signed_url": false,
+  "llm_token_usage": {
+    "values": [
+      304,
+      297,
+      309,
+      319,
+      326,
+      342,
+      367,
+      377,
+      383,
+      384,
+      399,
+      401,
+      401,
+      403,
+      409
+    ],
+    "average": 361.4,
+    "num_requests": 15
+  },
+  "tool_calls": [],
+  "from_number": "+16467603781",
+  "to_number": "+19292056408",
+  "direction": "outbound",
+  "telephony_identifier": {
+    "twilio_call_sid": "CAf67c74b33773fe72b81607acc828e3ea"
+  },
+  "pcap_url": "https://dxc03zgurdly9.cloudfront.net/cce5d46f4b2bde12abb2fb046b14b0eebe6fbcd77213eb49e8b37e8ae14bd1a6/call_e6c1a509fdeba27cc5830b16805.pcap"
+}

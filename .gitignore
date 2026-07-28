@@ -1,0 +1,58 @@
+# DB files — PHI and business data, never push
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Secrets
+.env
+.env.*
+*.json  # includes service account keys, tokens
+!package.json
+!tsconfig.json
+!CC_*.json  # CC_ prefixed JSON configs are safe
+!build_deck.py
+
+# Output artifacts
+output/
+logs/
+*.csv
+*.pdf
+*.log
+
+# OS
+.DS_Store
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+
+# Large data dirs
+signin_lists/
+backups_db/
+QUARANTINE_CONTRADICTORY_LEGACY_2026_04_14/
+training_reports/
+
+# Virtual environments
+.rag_venv/
+.venv-ocr/
+.venv/
+venv/
+
+# Cloud storage symlinks
+~/Library/
+
+# Quarantine/backup/snapshot dirs
+QUARANTINE_*/
+RECOVERY_SNAPSHOT*/
+CC_session_snapshots/
+_training_tmp/

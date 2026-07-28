@@ -1,0 +1,18 @@
+🏖️ Boardwalk Beer Garden — Reservation Confirmation
+
+Hi [NAME],
+
+Thank you for your reservation at Boardwalk Beer Garden for [DATE] at [TIME] ([SIZE] guests).
+
+To secure your table, a deposit of $45 per person is required. This deposit will be applied toward your bill on the day of your visit.
+
+Please complete your deposit at your earliest convenience. Tables without a confirmed deposit will be released on a first-come, first-served basis.
+
+You can complete your deposit here:
+https://checkout.stripe.com/c/pay/bbg-reservations
+
+We look forward to hosting you!
+
+Warm regards,
+Boardwalk Beer Garden
+📍 Brighton Beach, Brooklyn

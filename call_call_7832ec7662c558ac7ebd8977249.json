@@ -1,0 +1,5858 @@
+{
+  "call_id": "call_7832ec7662c558ac7ebd8977249",
+  "call_type": "phone_call",
+  "agent_id": "agent_01dd3c97a1d84bfc030007e641",
+  "agent_version": 0,
+  "agent_name": "Scout-Reservations",
+  "contact_dynamic_variables": {},
+  "custom_sip_headers": {
+    "X-RetellAI-Direction": "Outbound",
+    "X-RetellAI-OrgId": "org_VkEKS9JwA8t95xZW",
+    "X-RetellAI-CallId": "call_7832ec7662c558ac7ebd8977249",
+    "X-RetellAI-SipTraceId": "call_7832ec7662c558ac7ebd8977249",
+    "Route": "<sip:18.98.16.123;lr>"
+  },
+  "call_status": "ended",
+  "start_timestamp": 1782613244404,
+  "end_timestamp": 1782613419012,
+  "duration_ms": 174608,
+  "transcript": "Agent: Hey, how\u2019s it going? I\u2019m trying \nUser: Welcome to board \nAgent: to book a table for Saturday night \u2014 do you guys take reservations?\nUser: Sure thing. I will send you our reservation link now. Please check your phone. Alright. I just sent you the reservation link. Please check your phone. If you need any help with the booking or have questions about Saturday night, just let me know. \nAgent: Awesome, thanks! I just got the link. Quick question \u2014 is it possible to request a specific table, like something outside or with a view? My wife\u2019s birthday is Saturday, so I\u2019m hoping to make it a little special for her.\nUser: That sounds wonderful, and happy early birthday to your wife. For special requests like a specific table outside or with a view, a team member from Boardwalk Beer Garden will reach out to you directly to help with those details. Go ahead and complete your reservation through the link, and someone will follow-up to make sure everything's just right for your celebration. Thank you so much for all the info. See you soon. \nAgent: Perfect, that sounds great. Just so I know \u2014 is there any kind of minimum spend or deposit for a group of six? And do you guys usually have enough space for bigger groups like that, or should I book as early as possible?\nUser: A team member from Boardwalk Beer Garden will reach out to you directly with details about minimum spend or deposits for groups as well as availability for larger parties. I recommend booking as early as possible, especially for Saturday nights. Since we fill up quickly, especially for bigger groups. Thank you so much for all the info. See you soon. \nAgent: Got it, thanks for the heads up. One more thing\u2014do you guys do anything special for birthdays? Like, is there a dessert or something you can bring out, or should I plan to bring my own cake? Just wanna make sure Anna feels a little extra special, you know?\nUser: Totally understand. You want Anna's birthday to feel extra special. A team member from Boardwalk Beer Garden will reach out to you directly about birthday celebrations, desserts, or bringing your own cake. They'll make sure you have all the details to make it a great night for her. Thank you so much for all the info, and happy birthday again to Anna. See you soon. \nAgent: Thanks so much, I really appreciate it.Last quick thing\u2014do you guys have a time limit on tables, or can we hang out for a while if we\u2019re having a good time? Just wanna make sure we don\u2019t have to rush through dinner.\nUser: Great question. A team member from Boardwalk Garden will reach out to you directly about any time limits on tables, so you'll have all the info you need. They'll make sure your group can relax and enjoy Anna's birthday without feeling rushed. Thank you so much for all the info, and see you soon. \nAgent: Awesome, thanks for being so helpful. I\u2019ll go ahead and book through the link and keep an eye out for that follow-up. Appreciate you making it easy\u2014looking forward to Saturday! Have a good one.\nUser: Thank you so much for all the info, and have a great night. See you soon. \n",
+  "transcript_object": [
+    {
+      "role": "agent",
+      "content": "Hey, how\u2019s it going? I\u2019m trying ",
+      "words": [
+        {
+          "word": "Hey, ",
+          "start": 1.203,
+          "end": 1.624052734375
+        },
+        {
+          "word": "how\u2019s ",
+          "start": 1.624052734375,
+          "end": 2.045105224609375
+        },
+        {
+          "word": "it ",
+          "start": 2.045105224609375,
+          "end": 2.466157958984375
+        },
+        {
+          "word": "going? ",
+          "start": 2.37253076171875,
+          "end": 2.793583251953125
+        },
+        {
+          "word": "I\u2019m ",
+          "start": 2.793583251953125,
+          "end": 3.214635986328125
+        },
+        {
+          "word": "trying ",
+          "start": 3.214635986328125,
+          "end": 3.6356884765625
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "Welcome to board ",
+      "words": [
+        {
+          "word": "Welcome ",
+          "start": 3.9399998,
+          "end": 4.26
+        },
+        {
+          "word": "to ",
+          "start": 4.26,
+          "end": 4.5
+        },
+        {
+          "word": "board ",
+          "start": 4.5,
+          "end": 4.819999999999999
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "to book a table for Saturday night \u2014 do you guys take reservations?",
+      "words": [
+        {
+          "word": "to ",
+          "start": 3.6356884765625,
+          "end": 4.0567412109375
+        },
+        {
+          "word": "book ",
+          "start": 4.0567412109375,
+          "end": 4.4777939453125
+        },
+        {
+          "word": "a ",
+          "start": 4.4777939453125,
+          "end": 4.898846435546875
+        },
+        {
+          "word": "table ",
+          "start": 4.898846435546875,
+          "end": 5.319899169921875
+        },
+        {
+          "word": "for ",
+          "start": 5.319899169921875,
+          "end": 5.74095166015625
+        },
+        {
+          "word": "Saturday ",
+          "start": 5.74095166015625,
+          "end": 6.16200439453125
+        },
+        {
+          "word": "night ",
+          "start": 6.16200439453125,
+          "end": 6.58305712890625
+        },
+        {
+          "word": "\u2014 ",
+          "start": 6.273489013671875,
+          "end": 6.694541748046875
+        },
+        {
+          "word": "do ",
+          "start": 6.273489013671875,
+          "end": 6.694541748046875
+        },
+        {
+          "word": "you ",
+          "start": 6.273489013671875,
+          "end": 6.694541748046875
+        },
+        {
+          "word": "guys ",
+          "start": 6.273489013671875,
+          "end": 6.694541748046875
+        },
+        {
+          "word": "take ",
+          "start": 6.273489013671875,
+          "end": 6.694541748046875
+        },
+        {
+          "word": "reservations?",
+          "start": 6.273489013671875,
+          "end": 6.694541748046875
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "Sure thing. I will send you our reservation link now. Please check your phone. Alright. I just sent you the reservation link. Please check your phone. If you need any help with the booking or have questions about Saturday night, just let me know. ",
+      "words": [
+        {
+          "word": "Sure ",
+          "start": 7.55,
+          "end": 7.87
+        },
+        {
+          "word": "thing. ",
+          "start": 7.87,
+          "end": 8.19
+        },
+        {
+          "word": "I ",
+          "start": 8.19,
+          "end": 8.35
+        },
+        {
+          "word": "will ",
+          "start": 8.35,
+          "end": 8.51
+        },
+        {
+          "word": "send ",
+          "start": 8.51,
+          "end": 8.67
+        },
+        {
+          "word": "you ",
+          "start": 8.67,
+          "end": 8.83
+        },
+        {
+          "word": "our ",
+          "start": 8.83,
+          "end": 8.99
+        },
+        {
+          "word": "reservation ",
+          "start": 8.99,
+          "end": 9.39
+        },
+        {
+          "word": "link ",
+          "start": 9.39,
+          "end": 9.709999999999999
+        },
+        {
+          "word": "now. ",
+          "start": 9.709999999999999,
+          "end": 9.950001
+        },
+        {
+          "word": "Please ",
+          "start": 10.25,
+          "end": 10.649999
+        },
+        {
+          "word": "check ",
+          "start": 10.649999,
+          "end": 10.89
+        },
+        {
+          "word": "your ",
+          "start": 10.89,
+          "end": 11.049999999999999
+        },
+        {
+          "word": "phone. ",
+          "start": 11.049999999999999,
+          "end": 11.209999999999999
+        },
+        {
+          "word": "Alright. ",
+          "start": 11.569999,
+          "end": 12.129999999999999
+        },
+        {
+          "word": "I ",
+          "start": 12.129999999999999,
+          "end": 12.29
+        },
+        {
+          "word": "just ",
+          "start": 12.29,
+          "end": 12.5299995
+        },
+        {
+          "word": "sent ",
+          "start": 12.5299995,
+          "end": 12.689999
+        },
+        {
+          "word": "you ",
+          "start": 12.689999,
+          "end": 12.849999
+        },
+        {
+          "word": "the ",
+          "start": 12.849999,
+          "end": 13.01
+        },
+        {
+          "word": "reservation ",
+          "start": 13.01,
+          "end": 13.49
+        },
+        {
+          "word": "link. ",
+          "start": 13.49,
+          "end": 13.969999
+        },
+        {
+          "word": "Please ",
+          "start": 13.969999,
+          "end": 14.29
+        },
+        {
+          "word": "check ",
+          "start": 14.29,
+          "end": 14.5299995
+        },
+        {
+          "word": "your ",
+          "start": 14.5299995,
+          "end": 14.689999
+        },
+        {
+          "word": "phone. ",
+          "start": 14.689999,
+          "end": 14.849999
+        },
+        {
+          "word": "If ",
+          "start": 15.24,
+          "end": 15.479999
+        },
+        {
+          "word": "you ",
+          "start": 15.479999,
+          "end": 15.559999
+        },
+        {
+          "word": "need ",
+          "start": 15.559999,
+          "end": 15.799999999999999
+        },
+        {
+          "word": "any ",
+          "start": 15.799999999999999,
+          "end": 16.039999
+        },
+        {
+          "word": "help ",
+          "start": 16.039999,
+          "end": 16.28
+        },
+        {
+          "word": "with ",
+          "start": 16.28,
+          "end": 16.44
+        },
+        {
+          "word": "the ",
+          "start": 16.44,
+          "end": 16.6
+        },
+        {
+          "word": "booking ",
+          "start": 16.6,
+          "end": 16.92
+        },
+        {
+          "word": "or ",
+          "start": 16.92,
+          "end": 17.16
+        },
+        {
+          "word": "have ",
+          "start": 17.16,
+          "end": 17.400000000000002
+        },
+        {
+          "word": "questions ",
+          "start": 17.400000000000002,
+          "end": 17.720000000000002
+        },
+        {
+          "word": "about ",
+          "start": 17.720000000000002,
+          "end": 17.959999
+        },
+        {
+          "word": "Saturday ",
+          "start": 17.959999,
+          "end": 18.44
+        },
+        {
+          "word": "night, ",
+          "start": 18.44,
+          "end": 18.84
+        },
+        {
+          "word": "just ",
+          "start": 18.84,
+          "end": 19
+        },
+        {
+          "word": "let ",
+          "start": 19,
+          "end": 19.16
+        },
+        {
+          "word": "me ",
+          "start": 19.16,
+          "end": 19.240000000000002
+        },
+        {
+          "word": "know. ",
+          "start": 19.240000000000002,
+          "end": 19.400000000000002
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Awesome, thanks! I just got the link. Quick question \u2014 is it possible to request a specific table, like something outside or with a view? My wife\u2019s birthday is Saturday, so I\u2019m hoping to make it a little special for her.",
+      "words": [
+        {
+          "word": "Awesome, ",
+          "start": 21.201,
+          "end": 21.622052734375
+        },
+        {
+          "word": "thanks! ",
+          "start": 21.622052734375,
+          "end": 22.043105224609373
+        },
+        {
+          "word": "I ",
+          "start": 22.617416748046875,
+          "end": 23.03846923828125
+        },
+        {
+          "word": "just ",
+          "start": 23.03846923828125,
+          "end": 23.45952197265625
+        },
+        {
+          "word": "got ",
+          "start": 23.45952197265625,
+          "end": 23.880574462890625
+        },
+        {
+          "word": "the ",
+          "start": 23.61278076171875,
+          "end": 24.033833251953126
+        },
+        {
+          "word": "link.",
+          "start": 23.61278076171875,
+          "end": 24.033833251953126
+        },
+        {
+          "word": " Quick ",
+          "start": 24.033833251953126,
+          "end": 24.454885986328126
+        },
+        {
+          "word": "question ",
+          "start": 24.454885986328126,
+          "end": 24.8759384765625
+        },
+        {
+          "word": "\u2014 ",
+          "start": 24.8759384765625,
+          "end": 25.2969912109375
+        },
+        {
+          "word": "is ",
+          "start": 25.2969912109375,
+          "end": 25.7180439453125
+        },
+        {
+          "word": "it ",
+          "start": 25.7180439453125,
+          "end": 26.139096435546875
+        },
+        {
+          "word": "possible ",
+          "start": 26.139096435546875,
+          "end": 26.560149169921875
+        },
+        {
+          "word": "to ",
+          "start": 26.560149169921875,
+          "end": 26.98120166015625
+        },
+        {
+          "word": "request ",
+          "start": 26.98120166015625,
+          "end": 27.40225439453125
+        },
+        {
+          "word": "a ",
+          "start": 27.40225439453125,
+          "end": 27.82330712890625
+        },
+        {
+          "word": "specific ",
+          "start": 27.82330712890625,
+          "end": 28.244359619140624
+        },
+        {
+          "word": "table, ",
+          "start": 28.244359619140624,
+          "end": 28.665412353515624
+        },
+        {
+          "word": "like ",
+          "start": 28.665412353515624,
+          "end": 29.08646484375
+        },
+        {
+          "word": "something ",
+          "start": 29.08646484375,
+          "end": 29.507517578125
+        },
+        {
+          "word": "outside ",
+          "start": 29.507517578125,
+          "end": 29.928570068359374
+        },
+        {
+          "word": "or ",
+          "start": 29.928570068359374,
+          "end": 30.349622802734373
+        },
+        {
+          "word": "with ",
+          "start": 30.056322265625,
+          "end": 30.477375
+        },
+        {
+          "word": "a ",
+          "start": 30.056322265625,
+          "end": 30.477375
+        },
+        {
+          "word": "view? ",
+          "start": 30.056322265625,
+          "end": 30.477375
+        },
+        {
+          "word": "My ",
+          "start": 30.477375,
+          "end": 30.898427734375
+        },
+        {
+          "word": "wife\u2019s ",
+          "start": 30.898427734375,
+          "end": 31.319480224609375
+        },
+        {
+          "word": "birthday ",
+          "start": 31.319480224609375,
+          "end": 31.740532958984375
+        },
+        {
+          "word": "is ",
+          "start": 31.740532958984375,
+          "end": 32.16158544921875
+        },
+        {
+          "word": "Saturday, ",
+          "start": 32.16158544921875,
+          "end": 32.58263818359375
+        },
+        {
+          "word": "so ",
+          "start": 32.58263818359375,
+          "end": 33.003690673828125
+        },
+        {
+          "word": "I\u2019m ",
+          "start": 33.003690673828125,
+          "end": 33.42474340820313
+        },
+        {
+          "word": "hoping ",
+          "start": 33.42474340820313,
+          "end": 33.84579614257812
+        },
+        {
+          "word": "to ",
+          "start": 33.84579614257812,
+          "end": 34.2668486328125
+        },
+        {
+          "word": "make ",
+          "start": 34.2668486328125,
+          "end": 34.6879013671875
+        },
+        {
+          "word": "it ",
+          "start": 34.6879013671875,
+          "end": 35.108953857421874
+        },
+        {
+          "word": "a ",
+          "start": 35.108953857421874,
+          "end": 35.53000659179688
+        },
+        {
+          "word": "little ",
+          "start": 35.42015576171875,
+          "end": 35.84120825195313
+        },
+        {
+          "word": "special ",
+          "start": 35.42015576171875,
+          "end": 35.84120825195313
+        },
+        {
+          "word": "for ",
+          "start": 35.42015576171875,
+          "end": 35.84120825195313
+        },
+        {
+          "word": "her.",
+          "start": 35.42015576171875,
+          "end": 35.84120825195313
+        }
+      ],
+      "metadata": {
+        "response_id": 6
+      }
+    },
+    {
+      "role": "user",
+      "content": "That sounds wonderful, and happy early birthday to your wife. For special requests like a specific table outside or with a view, a team member from Boardwalk Beer Garden will reach out to you directly to help with those details. Go ahead and complete your reservation through the link, and someone will follow-up to make sure everything's just right for your celebration. Thank you so much for all the info. See you soon. ",
+      "words": [
+        {
+          "word": "That ",
+          "start": 37.159997999999995,
+          "end": 37.48
+        },
+        {
+          "word": "sounds ",
+          "start": 37.48,
+          "end": 37.72
+        },
+        {
+          "word": "wonderful, ",
+          "start": 37.72,
+          "end": 38.44
+        },
+        {
+          "word": "and ",
+          "start": 38.44,
+          "end": 38.519999999999996
+        },
+        {
+          "word": "happy ",
+          "start": 38.519999999999996,
+          "end": 38.839998
+        },
+        {
+          "word": "early ",
+          "start": 38.839998,
+          "end": 39.08
+        },
+        {
+          "word": "birthday ",
+          "start": 39.08,
+          "end": 39.319998
+        },
+        {
+          "word": "to ",
+          "start": 39.319998,
+          "end": 39.559999999999995
+        },
+        {
+          "word": "your ",
+          "start": 39.559999999999995,
+          "end": 39.72
+        },
+        {
+          "word": "wife. ",
+          "start": 39.72,
+          "end": 39.879999999999995
+        },
+        {
+          "word": "For ",
+          "start": 40.200002,
+          "end": 40.44
+        },
+        {
+          "word": "special ",
+          "start": 40.44,
+          "end": 40.839999999999996
+        },
+        {
+          "word": "requests ",
+          "start": 40.839999999999996,
+          "end": 41.239999999999995
+        },
+        {
+          "word": "like ",
+          "start": 41.239999999999995,
+          "end": 41.559999999999995
+        },
+        {
+          "word": "a ",
+          "start": 41.559999999999995,
+          "end": 41.72
+        },
+        {
+          "word": "specific ",
+          "start": 41.72,
+          "end": 42.12
+        },
+        {
+          "word": "table ",
+          "start": 42.12,
+          "end": 42.520002
+        },
+        {
+          "word": "outside ",
+          "start": 42.520002,
+          "end": 43.16
+        },
+        {
+          "word": "or ",
+          "start": 43.16,
+          "end": 43.48
+        },
+        {
+          "word": "with ",
+          "start": 43.48,
+          "end": 43.72
+        },
+        {
+          "word": "a ",
+          "start": 43.72,
+          "end": 43.8
+        },
+        {
+          "word": "view, ",
+          "start": 43.8,
+          "end": 44.04
+        },
+        {
+          "word": "a ",
+          "start": 44.55,
+          "end": 44.79
+        },
+        {
+          "word": "team ",
+          "start": 44.79,
+          "end": 45.03
+        },
+        {
+          "word": "member ",
+          "start": 45.03,
+          "end": 45.35
+        },
+        {
+          "word": "from ",
+          "start": 45.35,
+          "end": 45.51
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 45.51,
+          "end": 45.989999999999995
+        },
+        {
+          "word": "Beer ",
+          "start": 45.989999999999995,
+          "end": 46.389997
+        },
+        {
+          "word": "Garden ",
+          "start": 46.389997,
+          "end": 46.629999999999995
+        },
+        {
+          "word": "will ",
+          "start": 46.629999999999995,
+          "end": 46.87
+        },
+        {
+          "word": "reach ",
+          "start": 46.87,
+          "end": 47.11
+        },
+        {
+          "word": "out ",
+          "start": 47.11,
+          "end": 47.269999999999996
+        },
+        {
+          "word": "to ",
+          "start": 47.269999999999996,
+          "end": 47.35
+        },
+        {
+          "word": "you ",
+          "start": 47.35,
+          "end": 47.589998
+        },
+        {
+          "word": "directly ",
+          "start": 47.589998,
+          "end": 47.989999999999995
+        },
+        {
+          "word": "to ",
+          "start": 47.989999999999995,
+          "end": 48.15
+        },
+        {
+          "word": "help ",
+          "start": 48.15,
+          "end": 48.389997
+        },
+        {
+          "word": "with ",
+          "start": 48.389997,
+          "end": 48.55
+        },
+        {
+          "word": "those ",
+          "start": 48.55,
+          "end": 48.71
+        },
+        {
+          "word": "details. ",
+          "start": 48.71,
+          "end": 49.03
+        },
+        {
+          "word": "Go ",
+          "start": 49.520002,
+          "end": 49.839999999999996
+        },
+        {
+          "word": "ahead ",
+          "start": 49.839999999999996,
+          "end": 50
+        },
+        {
+          "word": "and ",
+          "start": 50,
+          "end": 50.16
+        },
+        {
+          "word": "complete ",
+          "start": 50.16,
+          "end": 50.48
+        },
+        {
+          "word": "your ",
+          "start": 50.48,
+          "end": 50.64
+        },
+        {
+          "word": "reservation ",
+          "start": 50.64,
+          "end": 51.199999999999996
+        },
+        {
+          "word": "through ",
+          "start": 51.199999999999996,
+          "end": 51.36
+        },
+        {
+          "word": "the ",
+          "start": 51.36,
+          "end": 51.520002
+        },
+        {
+          "word": "link, ",
+          "start": 51.520002,
+          "end": 52.08
+        },
+        {
+          "word": "and ",
+          "start": 52.16,
+          "end": 52.32
+        },
+        {
+          "word": "someone ",
+          "start": 52.32,
+          "end": 52.64
+        },
+        {
+          "word": "will ",
+          "start": 52.64,
+          "end": 52.8
+        },
+        {
+          "word": "follow-up ",
+          "start": 52.8,
+          "end": 53.199999999999996
+        },
+        {
+          "word": "to ",
+          "start": 53.29,
+          "end": 53.53
+        },
+        {
+          "word": "make ",
+          "start": 53.53,
+          "end": 53.61
+        },
+        {
+          "word": "sure ",
+          "start": 53.61,
+          "end": 53.85
+        },
+        {
+          "word": "everything's ",
+          "start": 53.85,
+          "end": 54.489999999999995
+        },
+        {
+          "word": "just ",
+          "start": 54.489999999999995,
+          "end": 54.65
+        },
+        {
+          "word": "right ",
+          "start": 54.65,
+          "end": 54.889997
+        },
+        {
+          "word": "for ",
+          "start": 54.889997,
+          "end": 55.049997
+        },
+        {
+          "word": "your ",
+          "start": 55.049997,
+          "end": 55.29
+        },
+        {
+          "word": "celebration. ",
+          "start": 55.29,
+          "end": 55.69
+        },
+        {
+          "word": "Thank ",
+          "start": 56.21,
+          "end": 56.450002
+        },
+        {
+          "word": "you ",
+          "start": 56.450002,
+          "end": 56.610002
+        },
+        {
+          "word": "so ",
+          "start": 56.610002,
+          "end": 56.85
+        },
+        {
+          "word": "much ",
+          "start": 56.85,
+          "end": 57.01
+        },
+        {
+          "word": "for ",
+          "start": 57.01,
+          "end": 57.169999999999995
+        },
+        {
+          "word": "all ",
+          "start": 57.169999999999995,
+          "end": 57.33
+        },
+        {
+          "word": "the ",
+          "start": 57.33,
+          "end": 57.489999999999995
+        },
+        {
+          "word": "info. ",
+          "start": 57.489999999999995,
+          "end": 58.05
+        },
+        {
+          "word": "See ",
+          "start": 58.130002999999995,
+          "end": 58.290003
+        },
+        {
+          "word": "you ",
+          "start": 58.290003,
+          "end": 58.37
+        },
+        {
+          "word": "soon. ",
+          "start": 58.37,
+          "end": 58.53
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Perfect, that sounds great. Just so I know \u2014 is there any kind of minimum spend or deposit for a group of six? And do you guys usually have enough space for bigger groups like that, or should I book as early as possible?",
+      "words": [
+        {
+          "word": "Perfect, ",
+          "start": 60.252,
+          "end": 60.673052734375
+        },
+        {
+          "word": "that ",
+          "start": 60.673052734375,
+          "end": 61.09410522460937
+        },
+        {
+          "word": "sounds ",
+          "start": 61.09410522460937,
+          "end": 61.515157958984375
+        },
+        {
+          "word": "great.",
+          "start": 61.515157958984375,
+          "end": 61.93621044921875
+        },
+        {
+          "word": " Just ",
+          "start": 62.156041748046874,
+          "end": 62.57709423828125
+        },
+        {
+          "word": "so ",
+          "start": 62.57709423828125,
+          "end": 62.99814697265625
+        },
+        {
+          "word": "I ",
+          "start": 62.99814697265625,
+          "end": 63.419199462890624
+        },
+        {
+          "word": "know ",
+          "start": 63.419199462890624,
+          "end": 63.84025219726563
+        },
+        {
+          "word": "\u2014 ",
+          "start": 63.84025219726563,
+          "end": 64.26130493164062
+        },
+        {
+          "word": "is ",
+          "start": 64.26130493164062,
+          "end": 64.682357421875
+        },
+        {
+          "word": "there ",
+          "start": 64.682357421875,
+          "end": 65.10341015625
+        },
+        {
+          "word": "any ",
+          "start": 65.10341015625,
+          "end": 65.52446264648438
+        },
+        {
+          "word": "kind ",
+          "start": 65.52446264648438,
+          "end": 65.94551538085938
+        },
+        {
+          "word": "of ",
+          "start": 65.94551538085938,
+          "end": 66.36656787109375
+        },
+        {
+          "word": "minimum ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "spend ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "or ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "deposit ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "for ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "a ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "group ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "of ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "six? ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "And ",
+          "start": 66.544625,
+          "end": 66.965677734375
+        },
+        {
+          "word": "do ",
+          "start": 66.965677734375,
+          "end": 67.38673022460938
+        },
+        {
+          "word": "you ",
+          "start": 67.38673022460938,
+          "end": 67.80778295898438
+        },
+        {
+          "word": "guys ",
+          "start": 67.80778295898438,
+          "end": 68.22883544921875
+        },
+        {
+          "word": "usually ",
+          "start": 68.22883544921875,
+          "end": 68.64988818359375
+        },
+        {
+          "word": "have ",
+          "start": 68.64988818359375,
+          "end": 69.07094067382812
+        },
+        {
+          "word": "enough ",
+          "start": 69.07094067382812,
+          "end": 69.49199340820313
+        },
+        {
+          "word": "space ",
+          "start": 69.49199340820313,
+          "end": 69.91304614257812
+        },
+        {
+          "word": "for ",
+          "start": 69.91304614257812,
+          "end": 70.3340986328125
+        },
+        {
+          "word": "bigger ",
+          "start": 70.3340986328125,
+          "end": 70.7551513671875
+        },
+        {
+          "word": "groups ",
+          "start": 70.7551513671875,
+          "end": 71.17620385742188
+        },
+        {
+          "word": "like ",
+          "start": 71.17620385742188,
+          "end": 71.59725659179688
+        },
+        {
+          "word": "that, ",
+          "start": 71.59725659179688,
+          "end": 72.01830932617187
+        },
+        {
+          "word": "or ",
+          "start": 71.940197265625,
+          "end": 72.36125
+        },
+        {
+          "word": "should ",
+          "start": 71.940197265625,
+          "end": 72.36125
+        },
+        {
+          "word": "I ",
+          "start": 71.940197265625,
+          "end": 72.36125
+        },
+        {
+          "word": "book ",
+          "start": 71.940197265625,
+          "end": 72.36125
+        },
+        {
+          "word": "as ",
+          "start": 71.940197265625,
+          "end": 72.36125
+        },
+        {
+          "word": "early ",
+          "start": 71.940197265625,
+          "end": 72.36125
+        },
+        {
+          "word": "as ",
+          "start": 71.940197265625,
+          "end": 72.36125
+        },
+        {
+          "word": "possible?",
+          "start": 71.940197265625,
+          "end": 72.36125
+        }
+      ],
+      "metadata": {
+        "response_id": 11
+      }
+    },
+    {
+      "role": "user",
+      "content": "A team member from Boardwalk Beer Garden will reach out to you directly with details about minimum spend or deposits for groups as well as availability for larger parties. I recommend booking as early as possible, especially for Saturday nights. Since we fill up quickly, especially for bigger groups. Thank you so much for all the info. See you soon. ",
+      "words": [
+        {
+          "word": "A ",
+          "start": 73.54001000000001,
+          "end": 73.780004
+        },
+        {
+          "word": "team ",
+          "start": 73.780004,
+          "end": 74.02000000000001
+        },
+        {
+          "word": "member ",
+          "start": 74.02000000000001,
+          "end": 74.34
+        },
+        {
+          "word": "from ",
+          "start": 74.34,
+          "end": 74.500005
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 74.500005,
+          "end": 74.98
+        },
+        {
+          "word": "Beer ",
+          "start": 75.11,
+          "end": 75.43
+        },
+        {
+          "word": "Garden ",
+          "start": 75.43,
+          "end": 75.75
+        },
+        {
+          "word": "will ",
+          "start": 75.75,
+          "end": 75.989996
+        },
+        {
+          "word": "reach ",
+          "start": 75.989996,
+          "end": 76.15
+        },
+        {
+          "word": "out ",
+          "start": 76.15,
+          "end": 76.309995
+        },
+        {
+          "word": "to ",
+          "start": 76.309995,
+          "end": 76.47
+        },
+        {
+          "word": "you ",
+          "start": 76.47,
+          "end": 76.62999500000001
+        },
+        {
+          "word": "directly ",
+          "start": 76.62999500000001,
+          "end": 77.35000000000001
+        },
+        {
+          "word": "with ",
+          "start": 77.35000000000001,
+          "end": 77.66999600000001
+        },
+        {
+          "word": "details ",
+          "start": 77.66999600000001,
+          "end": 78.15
+        },
+        {
+          "word": "about ",
+          "start": 78.15,
+          "end": 78.39
+        },
+        {
+          "word": "minimum ",
+          "start": 78.39,
+          "end": 78.87
+        },
+        {
+          "word": "spend ",
+          "start": 78.87,
+          "end": 79.19000000000001
+        },
+        {
+          "word": "or ",
+          "start": 79.19000000000001,
+          "end": 79.51
+        },
+        {
+          "word": "deposits ",
+          "start": 79.51,
+          "end": 79.91000000000001
+        },
+        {
+          "word": "for ",
+          "start": 80.05000000000001,
+          "end": 80.21000500000001
+        },
+        {
+          "word": "groups ",
+          "start": 80.21000500000001,
+          "end": 80.850004
+        },
+        {
+          "word": "as ",
+          "start": 80.93,
+          "end": 81.17
+        },
+        {
+          "word": "well ",
+          "start": 81.17,
+          "end": 81.33
+        },
+        {
+          "word": "as ",
+          "start": 81.33,
+          "end": 81.49000000000001
+        },
+        {
+          "word": "availability ",
+          "start": 81.49000000000001,
+          "end": 82.13000000000001
+        },
+        {
+          "word": "for ",
+          "start": 82.13000000000001,
+          "end": 82.37
+        },
+        {
+          "word": "larger ",
+          "start": 82.37,
+          "end": 82.69000000000001
+        },
+        {
+          "word": "parties. ",
+          "start": 82.69000000000001,
+          "end": 82.93
+        },
+        {
+          "word": "I ",
+          "start": 83.41999600000001,
+          "end": 83.65999400000001
+        },
+        {
+          "word": "recommend ",
+          "start": 83.65999400000001,
+          "end": 84.059995
+        },
+        {
+          "word": "booking ",
+          "start": 84.059995,
+          "end": 84.37999500000001
+        },
+        {
+          "word": "as ",
+          "start": 84.37999500000001,
+          "end": 84.61999
+        },
+        {
+          "word": "early ",
+          "start": 84.61999,
+          "end": 84.93999000000001
+        },
+        {
+          "word": "as ",
+          "start": 84.93999000000001,
+          "end": 85.10000000000001
+        },
+        {
+          "word": "possible, ",
+          "start": 85.10000000000001,
+          "end": 85.739996
+        },
+        {
+          "word": "especially ",
+          "start": 85.739996,
+          "end": 86.14
+        },
+        {
+          "word": "for ",
+          "start": 86.22,
+          "end": 86.46000000000001
+        },
+        {
+          "word": "Saturday ",
+          "start": 86.46000000000001,
+          "end": 86.78
+        },
+        {
+          "word": "nights. ",
+          "start": 86.78,
+          "end": 87.10000000000001
+        },
+        {
+          "word": "Since ",
+          "start": 87.390005,
+          "end": 87.63000000000001
+        },
+        {
+          "word": "we ",
+          "start": 87.63000000000001,
+          "end": 87.79
+        },
+        {
+          "word": "fill ",
+          "start": 87.79,
+          "end": 88.030004
+        },
+        {
+          "word": "up ",
+          "start": 88.030004,
+          "end": 88.19000000000001
+        },
+        {
+          "word": "quickly, ",
+          "start": 88.19000000000001,
+          "end": 88.83
+        },
+        {
+          "word": "especially ",
+          "start": 89.07000000000001,
+          "end": 89.47
+        },
+        {
+          "word": "for ",
+          "start": 89.47,
+          "end": 89.71000500000001
+        },
+        {
+          "word": "bigger ",
+          "start": 89.71000500000001,
+          "end": 90.030004
+        },
+        {
+          "word": "groups. ",
+          "start": 90.030004,
+          "end": 90.27000000000001
+        },
+        {
+          "word": "Thank ",
+          "start": 90.809995,
+          "end": 91.05000000000001
+        },
+        {
+          "word": "you ",
+          "start": 91.05000000000001,
+          "end": 91.29
+        },
+        {
+          "word": "so ",
+          "start": 91.29,
+          "end": 91.449995
+        },
+        {
+          "word": "much ",
+          "start": 91.449995,
+          "end": 91.61
+        },
+        {
+          "word": "for ",
+          "start": 91.61,
+          "end": 91.85000000000001
+        },
+        {
+          "word": "all ",
+          "start": 91.85000000000001,
+          "end": 92.01
+        },
+        {
+          "word": "the ",
+          "start": 92.01,
+          "end": 92.16999600000001
+        },
+        {
+          "word": "info. ",
+          "start": 92.16999600000001,
+          "end": 92.72999
+        },
+        {
+          "word": "See ",
+          "start": 92.73,
+          "end": 92.97
+        },
+        {
+          "word": "you ",
+          "start": 92.97,
+          "end": 93.05000000000001
+        },
+        {
+          "word": "soon. ",
+          "start": 93.05000000000001,
+          "end": 93.29
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Got it, thanks for the heads up. One more thing\u2014do you guys do anything special for birthdays? Like, is there a dessert or something you can bring out, or should I plan to bring my own cake? Just wanna make sure Anna feels a little extra special, you know?",
+      "words": [
+        {
+          "word": "Got ",
+          "start": 95.071,
+          "end": 95.492052734375
+        },
+        {
+          "word": "it, ",
+          "start": 95.492052734375,
+          "end": 95.91310522460938
+        },
+        {
+          "word": "thanks ",
+          "start": 95.91310522460938,
+          "end": 96.33415795898438
+        },
+        {
+          "word": "for ",
+          "start": 96.33415795898438,
+          "end": 96.75521044921875
+        },
+        {
+          "word": "the ",
+          "start": 96.64686401367187,
+          "end": 97.06791674804687
+        },
+        {
+          "word": "heads ",
+          "start": 96.64686401367187,
+          "end": 97.06791674804687
+        },
+        {
+          "word": "up. ",
+          "start": 96.64686401367187,
+          "end": 97.06791674804687
+        },
+        {
+          "word": "One ",
+          "start": 97.06791674804687,
+          "end": 97.48896923828126
+        },
+        {
+          "word": "more ",
+          "start": 97.48896923828126,
+          "end": 97.91002197265625
+        },
+        {
+          "word": "thing\u2014do ",
+          "start": 97.91002197265625,
+          "end": 98.33107446289063
+        },
+        {
+          "word": "you ",
+          "start": 98.33107446289063,
+          "end": 98.75212719726562
+        },
+        {
+          "word": "guys ",
+          "start": 98.75212719726562,
+          "end": 99.17317993164062
+        },
+        {
+          "word": "do ",
+          "start": 99.17317993164062,
+          "end": 99.594232421875
+        },
+        {
+          "word": "anything ",
+          "start": 99.594232421875,
+          "end": 100.01528515625
+        },
+        {
+          "word": "special ",
+          "start": 99.93248901367187,
+          "end": 100.35354174804688
+        },
+        {
+          "word": "for ",
+          "start": 99.93248901367187,
+          "end": 100.35354174804688
+        },
+        {
+          "word": "birthdays?",
+          "start": 99.93248901367187,
+          "end": 100.35354174804688
+        },
+        {
+          "word": " Like, ",
+          "start": 100.35354174804688,
+          "end": 100.77459423828125
+        },
+        {
+          "word": "is ",
+          "start": 100.77459423828125,
+          "end": 101.19564697265625
+        },
+        {
+          "word": "there ",
+          "start": 101.19564697265625,
+          "end": 101.61669946289062
+        },
+        {
+          "word": "a ",
+          "start": 101.61669946289062,
+          "end": 102.03775219726562
+        },
+        {
+          "word": "dessert ",
+          "start": 102.03775219726562,
+          "end": 102.45880493164063
+        },
+        {
+          "word": "or ",
+          "start": 102.45880493164063,
+          "end": 102.879857421875
+        },
+        {
+          "word": "something ",
+          "start": 102.879857421875,
+          "end": 103.30091015625
+        },
+        {
+          "word": "you ",
+          "start": 103.30091015625,
+          "end": 103.72196264648437
+        },
+        {
+          "word": "can ",
+          "start": 103.72196264648437,
+          "end": 104.14301538085938
+        },
+        {
+          "word": "bring ",
+          "start": 104.14301538085938,
+          "end": 104.56406787109376
+        },
+        {
+          "word": "out, ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "or ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "should ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "I ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "plan ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "to ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "bring ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "my ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "own ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "cake? ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "Just ",
+          "start": 104.78854174804688,
+          "end": 105.20959423828126
+        },
+        {
+          "word": "wanna ",
+          "start": 105.20959423828126,
+          "end": 105.63064697265625
+        },
+        {
+          "word": "make ",
+          "start": 105.63064697265625,
+          "end": 106.05169946289062
+        },
+        {
+          "word": "sure ",
+          "start": 106.05169946289062,
+          "end": 106.47275219726562
+        },
+        {
+          "word": "Anna ",
+          "start": 106.47275219726562,
+          "end": 106.89380493164063
+        },
+        {
+          "word": "feels ",
+          "start": 106.89380493164063,
+          "end": 107.314857421875
+        },
+        {
+          "word": "a ",
+          "start": 107.314857421875,
+          "end": 107.73591015625
+        },
+        {
+          "word": "little ",
+          "start": 107.73440576171875,
+          "end": 108.15545825195312
+        },
+        {
+          "word": "extra ",
+          "start": 107.73440576171875,
+          "end": 108.15545825195312
+        },
+        {
+          "word": "special, ",
+          "start": 107.73440576171875,
+          "end": 108.15545825195312
+        },
+        {
+          "word": "you ",
+          "start": 107.73440576171875,
+          "end": 108.15545825195312
+        },
+        {
+          "word": "know?",
+          "start": 107.73440576171875,
+          "end": 108.15545825195312
+        }
+      ],
+      "metadata": {
+        "response_id": 16
+      }
+    },
+    {
+      "role": "user",
+      "content": "Totally understand. You want Anna's birthday to feel extra special. A team member from Boardwalk Beer Garden will reach out to you directly about birthday celebrations, desserts, or bringing your own cake. They'll make sure you have all the details to make it a great night for her. Thank you so much for all the info, and happy birthday again to Anna. See you soon. ",
+      "words": [
+        {
+          "word": "Totally ",
+          "start": 109.5,
+          "end": 109.82000000000001
+        },
+        {
+          "word": "understand. ",
+          "start": 110.14,
+          "end": 110.46000000000001
+        },
+        {
+          "word": "You ",
+          "start": 110.46000000000001,
+          "end": 110.62
+        },
+        {
+          "word": "want ",
+          "start": 110.62,
+          "end": 110.86
+        },
+        {
+          "word": "Anna's ",
+          "start": 110.86,
+          "end": 111.26
+        },
+        {
+          "word": "birthday ",
+          "start": 111.26,
+          "end": 111.5
+        },
+        {
+          "word": "to ",
+          "start": 111.5,
+          "end": 111.65999400000001
+        },
+        {
+          "word": "feel ",
+          "start": 111.65999400000001,
+          "end": 111.9
+        },
+        {
+          "word": "extra ",
+          "start": 111.9,
+          "end": 112.37999500000001
+        },
+        {
+          "word": "special. ",
+          "start": 112.37999500000001,
+          "end": 113.01999500000001
+        },
+        {
+          "word": "A ",
+          "start": 113.10000000000001,
+          "end": 113.26
+        },
+        {
+          "word": "team ",
+          "start": 113.26,
+          "end": 113.5
+        },
+        {
+          "word": "member ",
+          "start": 113.5,
+          "end": 113.739996
+        },
+        {
+          "word": "from ",
+          "start": 113.739996,
+          "end": 113.97999
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 113.97999,
+          "end": 114.46000000000001
+        },
+        {
+          "word": "Beer ",
+          "start": 114.51,
+          "end": 114.83
+        },
+        {
+          "word": "Garden ",
+          "start": 114.83,
+          "end": 115.15
+        },
+        {
+          "word": "will ",
+          "start": 115.15,
+          "end": 115.39
+        },
+        {
+          "word": "reach ",
+          "start": 115.39,
+          "end": 115.63000000000001
+        },
+        {
+          "word": "out ",
+          "start": 115.63000000000001,
+          "end": 115.79
+        },
+        {
+          "word": "to ",
+          "start": 115.79,
+          "end": 115.87
+        },
+        {
+          "word": "you ",
+          "start": 115.87,
+          "end": 116.11
+        },
+        {
+          "word": "directly ",
+          "start": 116.11,
+          "end": 116.59
+        },
+        {
+          "word": "about ",
+          "start": 116.59,
+          "end": 116.91000000000001
+        },
+        {
+          "word": "birthday ",
+          "start": 116.91000000000001,
+          "end": 117.31
+        },
+        {
+          "word": "celebrations, ",
+          "start": 117.53,
+          "end": 118.25
+        },
+        {
+          "word": "desserts, ",
+          "start": 118.25,
+          "end": 118.809995
+        },
+        {
+          "word": "or ",
+          "start": 118.809995,
+          "end": 118.97
+        },
+        {
+          "word": "bringing ",
+          "start": 118.97,
+          "end": 119.29
+        },
+        {
+          "word": "your ",
+          "start": 119.29,
+          "end": 119.36999
+        },
+        {
+          "word": "own ",
+          "start": 119.36999,
+          "end": 119.61
+        },
+        {
+          "word": "cake. ",
+          "start": 119.61,
+          "end": 119.76999500000001
+        },
+        {
+          "word": "They'll ",
+          "start": 119.98,
+          "end": 120.86
+        },
+        {
+          "word": "make ",
+          "start": 120.86,
+          "end": 121.02000000000001
+        },
+        {
+          "word": "sure ",
+          "start": 121.02000000000001,
+          "end": 121.18
+        },
+        {
+          "word": "you ",
+          "start": 121.18,
+          "end": 121.34
+        },
+        {
+          "word": "have ",
+          "start": 121.34,
+          "end": 121.58
+        },
+        {
+          "word": "all ",
+          "start": 121.58,
+          "end": 121.74000000000001
+        },
+        {
+          "word": "the ",
+          "start": 121.74000000000001,
+          "end": 121.98
+        },
+        {
+          "word": "details ",
+          "start": 121.98,
+          "end": 122.38000000000001
+        },
+        {
+          "word": "to ",
+          "start": 122.38000000000001,
+          "end": 122.46000500000001
+        },
+        {
+          "word": "make ",
+          "start": 122.46000500000001,
+          "end": 122.62
+        },
+        {
+          "word": "it ",
+          "start": 122.62,
+          "end": 122.780004
+        },
+        {
+          "word": "a ",
+          "start": 122.780004,
+          "end": 122.86
+        },
+        {
+          "word": "great ",
+          "start": 122.86,
+          "end": 123.02000000000001
+        },
+        {
+          "word": "night ",
+          "start": 123.02000000000001,
+          "end": 123.26
+        },
+        {
+          "word": "for ",
+          "start": 123.26,
+          "end": 123.34
+        },
+        {
+          "word": "her. ",
+          "start": 123.34,
+          "end": 123.5
+        },
+        {
+          "word": "Thank ",
+          "start": 123.850004,
+          "end": 124.09
+        },
+        {
+          "word": "you ",
+          "start": 124.09,
+          "end": 124.33
+        },
+        {
+          "word": "so ",
+          "start": 124.33,
+          "end": 124.57000000000001
+        },
+        {
+          "word": "much ",
+          "start": 124.57000000000001,
+          "end": 124.73
+        },
+        {
+          "word": "for ",
+          "start": 124.73,
+          "end": 124.89
+        },
+        {
+          "word": "all ",
+          "start": 124.89,
+          "end": 125.05000000000001
+        },
+        {
+          "word": "the ",
+          "start": 125.05000000000001,
+          "end": 125.21000000000001
+        },
+        {
+          "word": "info, ",
+          "start": 125.21000000000001,
+          "end": 125.77000000000001
+        },
+        {
+          "word": "and ",
+          "start": 125.77000000000001,
+          "end": 125.93
+        },
+        {
+          "word": "happy ",
+          "start": 125.93,
+          "end": 126.25
+        },
+        {
+          "word": "birthday ",
+          "start": 126.25,
+          "end": 126.65
+        },
+        {
+          "word": "again ",
+          "start": 126.65,
+          "end": 126.89
+        },
+        {
+          "word": "to ",
+          "start": 126.89,
+          "end": 127.05000000000001
+        },
+        {
+          "word": "Anna. ",
+          "start": 127.05000000000001,
+          "end": 127.29
+        },
+        {
+          "word": "See ",
+          "start": 127.65,
+          "end": 127.89
+        },
+        {
+          "word": "you ",
+          "start": 127.89,
+          "end": 128.04999999999998
+        },
+        {
+          "word": "soon. ",
+          "start": 128.04999999999998,
+          "end": 128.20999999999998
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Thanks so much, I really appreciate it.Last quick thing\u2014do you guys have a time limit on tables, or can we hang out for a while if we\u2019re having a good time? Just wanna make sure we don\u2019t have to rush through dinner.",
+      "words": [
+        {
+          "word": "Thanks ",
+          "start": 130.052,
+          "end": 130.473052734375
+        },
+        {
+          "word": "so ",
+          "start": 130.473052734375,
+          "end": 130.89410522460938
+        },
+        {
+          "word": "much, ",
+          "start": 130.89410522460938,
+          "end": 131.31515795898437
+        },
+        {
+          "word": "I ",
+          "start": 131.31515795898437,
+          "end": 131.73621044921876
+        },
+        {
+          "word": "really ",
+          "start": 131.360822265625,
+          "end": 131.781875
+        },
+        {
+          "word": "appreciate ",
+          "start": 131.360822265625,
+          "end": 131.781875
+        },
+        {
+          "word": "it.",
+          "start": 131.360822265625,
+          "end": 131.781875
+        },
+        {
+          "word": "Last ",
+          "start": 131.781875,
+          "end": 132.202927734375
+        },
+        {
+          "word": "quick ",
+          "start": 132.202927734375,
+          "end": 132.62398022460937
+        },
+        {
+          "word": "thing\u2014do ",
+          "start": 132.62398022460937,
+          "end": 133.04503295898436
+        },
+        {
+          "word": "you ",
+          "start": 133.04503295898436,
+          "end": 133.46608544921875
+        },
+        {
+          "word": "guys ",
+          "start": 133.46608544921875,
+          "end": 133.88713818359375
+        },
+        {
+          "word": "have ",
+          "start": 133.88713818359375,
+          "end": 134.30819067382814
+        },
+        {
+          "word": "a ",
+          "start": 134.30819067382814,
+          "end": 134.72924340820313
+        },
+        {
+          "word": "time ",
+          "start": 134.72924340820313,
+          "end": 135.15029614257813
+        },
+        {
+          "word": "limit ",
+          "start": 135.15029614257813,
+          "end": 135.5713486328125
+        },
+        {
+          "word": "on ",
+          "start": 135.5713486328125,
+          "end": 135.9924013671875
+        },
+        {
+          "word": "tables, ",
+          "start": 135.9924013671875,
+          "end": 136.41345385742187
+        },
+        {
+          "word": "or ",
+          "start": 136.41345385742187,
+          "end": 136.83450659179687
+        },
+        {
+          "word": "can ",
+          "start": 136.83450659179687,
+          "end": 137.25555932617186
+        },
+        {
+          "word": "we ",
+          "start": 137.25555932617186,
+          "end": 137.67661181640625
+        },
+        {
+          "word": "hang ",
+          "start": 137.67661181640625,
+          "end": 138.09766455078125
+        },
+        {
+          "word": "out ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "for ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "a ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "while ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "if ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "we\u2019re ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "having ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "a ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "good ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "time? ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "Just ",
+          "start": 138.22541674804688,
+          "end": 138.64646923828124
+        },
+        {
+          "word": "wanna ",
+          "start": 138.64646923828124,
+          "end": 139.06752197265624
+        },
+        {
+          "word": "make ",
+          "start": 139.06752197265624,
+          "end": 139.48857446289063
+        },
+        {
+          "word": "sure ",
+          "start": 139.48857446289063,
+          "end": 139.90962719726562
+        },
+        {
+          "word": "we ",
+          "start": 139.90962719726562,
+          "end": 140.33067993164062
+        },
+        {
+          "word": "don\u2019t ",
+          "start": 140.33067993164062,
+          "end": 140.751732421875
+        },
+        {
+          "word": "have ",
+          "start": 140.41661401367188,
+          "end": 140.83766674804687
+        },
+        {
+          "word": "to ",
+          "start": 140.41661401367188,
+          "end": 140.83766674804687
+        },
+        {
+          "word": "rush ",
+          "start": 140.41661401367188,
+          "end": 140.83766674804687
+        },
+        {
+          "word": "through ",
+          "start": 140.41661401367188,
+          "end": 140.83766674804687
+        },
+        {
+          "word": "dinner.",
+          "start": 140.41661401367188,
+          "end": 140.83766674804687
+        }
+      ],
+      "metadata": {
+        "response_id": 19
+      }
+    },
+    {
+      "role": "user",
+      "content": "Great question. A team member from Boardwalk Garden will reach out to you directly about any time limits on tables, so you'll have all the info you need. They'll make sure your group can relax and enjoy Anna's birthday without feeling rushed. Thank you so much for all the info, and see you soon. ",
+      "words": [
+        {
+          "word": "Great ",
+          "start": 142.07998999999998,
+          "end": 142.32
+        },
+        {
+          "word": "question. ",
+          "start": 142.32,
+          "end": 142.95999999999998
+        },
+        {
+          "word": "A ",
+          "start": 142.95999999999998,
+          "end": 143.28
+        },
+        {
+          "word": "team ",
+          "start": 143.28,
+          "end": 143.44
+        },
+        {
+          "word": "member ",
+          "start": 143.44,
+          "end": 143.67999999999998
+        },
+        {
+          "word": "from ",
+          "start": 143.67999999999998,
+          "end": 143.92
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 143.92,
+          "end": 144.32
+        },
+        {
+          "word": "Garden ",
+          "start": 144.67999999999998,
+          "end": 145
+        },
+        {
+          "word": "will ",
+          "start": 145,
+          "end": 145.24000999999998
+        },
+        {
+          "word": "reach ",
+          "start": 145.24000999999998,
+          "end": 145.39999999999998
+        },
+        {
+          "word": "out ",
+          "start": 145.39999999999998,
+          "end": 145.64
+        },
+        {
+          "word": "to ",
+          "start": 145.64,
+          "end": 145.72
+        },
+        {
+          "word": "you ",
+          "start": 145.72,
+          "end": 145.88001
+        },
+        {
+          "word": "directly ",
+          "start": 145.88001,
+          "end": 146.28
+        },
+        {
+          "word": "about ",
+          "start": 146.28,
+          "end": 146.60001
+        },
+        {
+          "word": "any ",
+          "start": 146.60001,
+          "end": 146.84
+        },
+        {
+          "word": "time ",
+          "start": 146.84,
+          "end": 147.07999999999998
+        },
+        {
+          "word": "limits ",
+          "start": 147.07999999999998,
+          "end": 147.39999999999998
+        },
+        {
+          "word": "on ",
+          "start": 147.39999999999998,
+          "end": 147.56
+        },
+        {
+          "word": "tables, ",
+          "start": 147.56,
+          "end": 147.95999999999998
+        },
+        {
+          "word": "so ",
+          "start": 148.30001,
+          "end": 148.54
+        },
+        {
+          "word": "you'll ",
+          "start": 148.54,
+          "end": 148.78
+        },
+        {
+          "word": "have ",
+          "start": 148.78,
+          "end": 149.02000999999998
+        },
+        {
+          "word": "all ",
+          "start": 149.02000999999998,
+          "end": 149.26
+        },
+        {
+          "word": "the ",
+          "start": 149.26,
+          "end": 149.42
+        },
+        {
+          "word": "info ",
+          "start": 149.42,
+          "end": 149.66001
+        },
+        {
+          "word": "you ",
+          "start": 149.66001,
+          "end": 149.82
+        },
+        {
+          "word": "need. ",
+          "start": 149.82,
+          "end": 149.98
+        },
+        {
+          "word": "They'll ",
+          "start": 150.39999999999998,
+          "end": 150.79999999999998
+        },
+        {
+          "word": "make ",
+          "start": 150.79999999999998,
+          "end": 150.95999999999998
+        },
+        {
+          "word": "sure ",
+          "start": 150.95999999999998,
+          "end": 151.12
+        },
+        {
+          "word": "your ",
+          "start": 151.12,
+          "end": 151.28
+        },
+        {
+          "word": "group ",
+          "start": 151.28,
+          "end": 151.6
+        },
+        {
+          "word": "can ",
+          "start": 151.6,
+          "end": 151.76
+        },
+        {
+          "word": "relax ",
+          "start": 151.76,
+          "end": 152.16
+        },
+        {
+          "word": "and ",
+          "start": 152.16,
+          "end": 152.32
+        },
+        {
+          "word": "enjoy ",
+          "start": 152.32,
+          "end": 152.64
+        },
+        {
+          "word": "Anna's ",
+          "start": 152.64,
+          "end": 153.12
+        },
+        {
+          "word": "birthday ",
+          "start": 153.12,
+          "end": 153.44
+        },
+        {
+          "word": "without ",
+          "start": 153.44,
+          "end": 153.76
+        },
+        {
+          "word": "feeling ",
+          "start": 153.76,
+          "end": 153.99999
+        },
+        {
+          "word": "rushed. ",
+          "start": 153.99999,
+          "end": 154.32
+        },
+        {
+          "word": "Thank ",
+          "start": 154.70999999999998,
+          "end": 154.94998999999999
+        },
+        {
+          "word": "you ",
+          "start": 154.94998999999999,
+          "end": 155.10998999999998
+        },
+        {
+          "word": "so ",
+          "start": 155.10998999999998,
+          "end": 155.26999999999998
+        },
+        {
+          "word": "much ",
+          "start": 155.26999999999998,
+          "end": 155.51
+        },
+        {
+          "word": "for ",
+          "start": 155.51,
+          "end": 155.58999
+        },
+        {
+          "word": "all ",
+          "start": 155.58999,
+          "end": 155.74999
+        },
+        {
+          "word": "the ",
+          "start": 155.74999,
+          "end": 155.82998999999998
+        },
+        {
+          "word": "info, ",
+          "start": 155.82998999999998,
+          "end": 156.30999
+        },
+        {
+          "word": "and ",
+          "start": 156.30999,
+          "end": 156.38998999999998
+        },
+        {
+          "word": "see ",
+          "start": 156.38998999999998,
+          "end": 156.63
+        },
+        {
+          "word": "you ",
+          "start": 156.63,
+          "end": 156.70999999999998
+        },
+        {
+          "word": "soon. ",
+          "start": 156.70999999999998,
+          "end": 156.94998999999999
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Awesome, thanks for being so helpful. I\u2019ll go ahead and book through the link and keep an eye out for that follow-up. Appreciate you making it easy\u2014looking forward to Saturday! Have a good one.",
+      "words": [
+        {
+          "word": "Awesome, ",
+          "start": 158.668,
+          "end": 159.089052734375
+        },
+        {
+          "word": "thanks ",
+          "start": 159.089052734375,
+          "end": 159.51010522460936
+        },
+        {
+          "word": "for ",
+          "start": 159.51010522460936,
+          "end": 159.9311579589844
+        },
+        {
+          "word": "being ",
+          "start": 159.9311579589844,
+          "end": 160.35221044921875
+        },
+        {
+          "word": "so ",
+          "start": 160.35221044921875,
+          "end": 160.77326318359374
+        },
+        {
+          "word": "helpful. ",
+          "start": 160.766322265625,
+          "end": 161.187375
+        },
+        {
+          "word": "I\u2019ll ",
+          "start": 161.187375,
+          "end": 161.608427734375
+        },
+        {
+          "word": "go ",
+          "start": 161.608427734375,
+          "end": 162.0294802246094
+        },
+        {
+          "word": "ahead ",
+          "start": 162.0294802246094,
+          "end": 162.45053295898438
+        },
+        {
+          "word": "and ",
+          "start": 162.45053295898438,
+          "end": 162.87158544921874
+        },
+        {
+          "word": "book ",
+          "start": 162.87158544921874,
+          "end": 163.29263818359374
+        },
+        {
+          "word": "through ",
+          "start": 163.29263818359374,
+          "end": 163.71369067382813
+        },
+        {
+          "word": "the ",
+          "start": 163.71369067382813,
+          "end": 164.13474340820312
+        },
+        {
+          "word": "link ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "and ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "keep ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "an ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "eye ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "out ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "for ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "that ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "follow-up. ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "Appreciate ",
+          "start": 164.33366674804688,
+          "end": 164.75471923828124
+        },
+        {
+          "word": "you ",
+          "start": 164.75471923828124,
+          "end": 165.17577197265626
+        },
+        {
+          "word": "making ",
+          "start": 165.17577197265626,
+          "end": 165.59682446289062
+        },
+        {
+          "word": "it ",
+          "start": 165.59682446289062,
+          "end": 166.01787719726562
+        },
+        {
+          "word": "easy\u2014looking ",
+          "start": 166.01787719726562,
+          "end": 166.43892993164062
+        },
+        {
+          "word": "forward ",
+          "start": 166.43892993164062,
+          "end": 166.859982421875
+        },
+        {
+          "word": "to ",
+          "start": 166.859982421875,
+          "end": 167.28103515625
+        },
+        {
+          "word": "Saturday!",
+          "start": 167.19823901367187,
+          "end": 167.61929174804686
+        },
+        {
+          "word": " Have ",
+          "start": 167.61929174804686,
+          "end": 168.04034423828125
+        },
+        {
+          "word": "a ",
+          "start": 168.04034423828125,
+          "end": 168.46139697265625
+        },
+        {
+          "word": "good ",
+          "start": 168.17348901367188,
+          "end": 168.59454174804688
+        },
+        {
+          "word": "one.",
+          "start": 168.17348901367188,
+          "end": 168.59454174804688
+        }
+      ],
+      "metadata": {
+        "response_id": 20
+      }
+    },
+    {
+      "role": "user",
+      "content": "Thank you so much for all the info, and have a great night. See you soon. ",
+      "words": [
+        {
+          "word": "Thank ",
+          "start": 170.17,
+          "end": 170.41
+        },
+        {
+          "word": "you ",
+          "start": 170.41,
+          "end": 170.57
+        },
+        {
+          "word": "so ",
+          "start": 170.57,
+          "end": 170.81
+        },
+        {
+          "word": "much ",
+          "start": 170.81,
+          "end": 170.97
+        },
+        {
+          "word": "for ",
+          "start": 170.97,
+          "end": 171.20999999999998
+        },
+        {
+          "word": "all ",
+          "start": 171.20999999999998,
+          "end": 171.37
+        },
+        {
+          "word": "the ",
+          "start": 171.37,
+          "end": 171.53
+        },
+        {
+          "word": "info, ",
+          "start": 171.53,
+          "end": 172.01
+        },
+        {
+          "word": "and ",
+          "start": 172.01,
+          "end": 172.09
+        },
+        {
+          "word": "have ",
+          "start": 172.09,
+          "end": 172.32999999999998
+        },
+        {
+          "word": "a ",
+          "start": 172.32999999999998,
+          "end": 172.48999999999998
+        },
+        {
+          "word": "great ",
+          "start": 172.48999999999998,
+          "end": 172.64999999999998
+        },
+        {
+          "word": "night. ",
+          "start": 172.64999999999998,
+          "end": 172.89
+        },
+        {
+          "word": "See ",
+          "start": 173.17999999999998,
+          "end": 173.49999
+        },
+        {
+          "word": "you ",
+          "start": 173.49999,
+          "end": 173.66
+        },
+        {
+          "word": "soon. ",
+          "start": 173.66,
+          "end": 173.89999999999998
+        }
+      ]
+    }
+  ],
+  "transcript_with_tool_calls": [
+    {
+      "role": "agent",
+      "content": "Hey, how\u2019s it going? I\u2019m trying ",
+      "words": [
+        {
+          "word": "Hey, ",
+          "start": 1.203,
+          "end": 1.624052734375
+        },
+        {
+          "word": "how\u2019s ",
+          "start": 1.624052734375,
+          "end": 2.045105224609375
+        },
+        {
+          "word": "it ",
+          "start": 2.045105224609375,
+          "end": 2.466157958984375
+        },
+        {
+          "word": "going? ",
+          "start": 2.37253076171875,
+          "end": 2.793583251953125
+        },
+        {
+          "word": "I\u2019m ",
+          "start": 2.793583251953125,
+          "end": 3.214635986328125
+        },
+        {
+          "word": "trying ",
+          "start": 3.214635986328125,
+          "end": 3.6356884765625
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "Welcome to board ",
+      "words": [
+        {
+          "word": "Welcome ",
+          "start": 3.9399998,
+          "end": 4.26
+        },
+        {
+          "word": "to ",
+          "start": 4.26,
+          "end": 4.5
+        },
+        {
+          "word": "board ",
+          "start": 4.5,
+          "end": 4.819999999999999
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "to book a table for Saturday night \u2014 do you guys take reservations?",
+      "words": [
+        {
+          "word": "to ",
+          "start": 3.6356884765625,
+          "end": 4.0567412109375
+        },
+        {
+          "word": "book ",
+          "start": 4.0567412109375,
+          "end": 4.4777939453125
+        },
+        {
+          "word": "a ",
+          "start": 4.4777939453125,
+          "end": 4.898846435546875
+        },
+        {
+          "word": "table ",
+          "start": 4.898846435546875,
+          "end": 5.319899169921875
+        },
+        {
+          "word": "for ",
+          "start": 5.319899169921875,
+          "end": 5.74095166015625
+        },
+        {
+          "word": "Saturday ",
+          "start": 5.74095166015625,
+          "end": 6.16200439453125
+        },
+        {
+          "word": "night ",
+          "start": 6.16200439453125,
+          "end": 6.58305712890625
+        },
+        {
+          "word": "\u2014 ",
+          "start": 6.273489013671875,
+          "end": 6.694541748046875
+        },
+        {
+          "word": "do ",
+          "start": 6.273489013671875,
+          "end": 6.694541748046875
+        },
+        {
+          "word": "you ",
+          "start": 6.273489013671875,
+          "end": 6.694541748046875
+        },
+        {
+          "word": "guys ",
+          "start": 6.273489013671875,
+          "end": 6.694541748046875
+        },
+        {
+          "word": "take ",
+          "start": 6.273489013671875,
+          "end": 6.694541748046875
+        },
+        {
+          "word": "reservations?",
+          "start": 6.273489013671875,
+          "end": 6.694541748046875
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "Sure thing. I will send you our reservation link now. Please check your phone. Alright. I just sent you the reservation link. Please check your phone. If you need any help with the booking or have questions about Saturday night, just let me know. ",
+      "words": [
+        {
+          "word": "Sure ",
+          "start": 7.55,
+          "end": 7.87
+        },
+        {
+          "word": "thing. ",
+          "start": 7.87,
+          "end": 8.19
+        },
+        {
+          "word": "I ",
+          "start": 8.19,
+          "end": 8.35
+        },
+        {
+          "word": "will ",
+          "start": 8.35,
+          "end": 8.51
+        },
+        {
+          "word": "send ",
+          "start": 8.51,
+          "end": 8.67
+        },
+        {
+          "word": "you ",
+          "start": 8.67,
+          "end": 8.83
+        },
+        {
+          "word": "our ",
+          "start": 8.83,
+          "end": 8.99
+        },
+        {
+          "word": "reservation ",
+          "start": 8.99,
+          "end": 9.39
+        },
+        {
+          "word": "link ",
+          "start": 9.39,
+          "end": 9.709999999999999
+        },
+        {
+          "word": "now. ",
+          "start": 9.709999999999999,
+          "end": 9.950001
+        },
+        {
+          "word": "Please ",
+          "start": 10.25,
+          "end": 10.649999
+        },
+        {
+          "word": "check ",
+          "start": 10.649999,
+          "end": 10.89
+        },
+        {
+          "word": "your ",
+          "start": 10.89,
+          "end": 11.049999999999999
+        },
+        {
+          "word": "phone. ",
+          "start": 11.049999999999999,
+          "end": 11.209999999999999
+        },
+        {
+          "word": "Alright. ",
+          "start": 11.569999,
+          "end": 12.129999999999999
+        },
+        {
+          "word": "I ",
+          "start": 12.129999999999999,
+          "end": 12.29
+        },
+        {
+          "word": "just ",
+          "start": 12.29,
+          "end": 12.5299995
+        },
+        {
+          "word": "sent ",
+          "start": 12.5299995,
+          "end": 12.689999
+        },
+        {
+          "word": "you ",
+          "start": 12.689999,
+          "end": 12.849999
+        },
+        {
+          "word": "the ",
+          "start": 12.849999,
+          "end": 13.01
+        },
+        {
+          "word": "reservation ",
+          "start": 13.01,
+          "end": 13.49
+        },
+        {
+          "word": "link. ",
+          "start": 13.49,
+          "end": 13.969999
+        },
+        {
+          "word": "Please ",
+          "start": 13.969999,
+          "end": 14.29
+        },
+        {
+          "word": "check ",
+          "start": 14.29,
+          "end": 14.5299995
+        },
+        {
+          "word": "your ",
+          "start": 14.5299995,
+          "end": 14.689999
+        },
+        {
+          "word": "phone. ",
+          "start": 14.689999,
+          "end": 14.849999
+        },
+        {
+          "word": "If ",
+          "start": 15.24,
+          "end": 15.479999
+        },
+        {
+          "word": "you ",
+          "start": 15.479999,
+          "end": 15.559999
+        },
+        {
+          "word": "need ",
+          "start": 15.559999,
+          "end": 15.799999999999999
+        },
+        {
+          "word": "any ",
+          "start": 15.799999999999999,
+          "end": 16.039999
+        },
+        {
+          "word": "help ",
+          "start": 16.039999,
+          "end": 16.28
+        },
+        {
+          "word": "with ",
+          "start": 16.28,
+          "end": 16.44
+        },
+        {
+          "word": "the ",
+          "start": 16.44,
+          "end": 16.6
+        },
+        {
+          "word": "booking ",
+          "start": 16.6,
+          "end": 16.92
+        },
+        {
+          "word": "or ",
+          "start": 16.92,
+          "end": 17.16
+        },
+        {
+          "word": "have ",
+          "start": 17.16,
+          "end": 17.400000000000002
+        },
+        {
+          "word": "questions ",
+          "start": 17.400000000000002,
+          "end": 17.720000000000002
+        },
+        {
+          "word": "about ",
+          "start": 17.720000000000002,
+          "end": 17.959999
+        },
+        {
+          "word": "Saturday ",
+          "start": 17.959999,
+          "end": 18.44
+        },
+        {
+          "word": "night, ",
+          "start": 18.44,
+          "end": 18.84
+        },
+        {
+          "word": "just ",
+          "start": 18.84,
+          "end": 19
+        },
+        {
+          "word": "let ",
+          "start": 19,
+          "end": 19.16
+        },
+        {
+          "word": "me ",
+          "start": 19.16,
+          "end": 19.240000000000002
+        },
+        {
+          "word": "know. ",
+          "start": 19.240000000000002,
+          "end": 19.400000000000002
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Awesome, thanks! I just got the link. Quick question \u2014 is it possible to request a specific table, like something outside or with a view? My wife\u2019s birthday is Saturday, so I\u2019m hoping to make it a little special for her.",
+      "words": [
+        {
+          "word": "Awesome, ",
+          "start": 21.201,
+          "end": 21.622052734375
+        },
+        {
+          "word": "thanks! ",
+          "start": 21.622052734375,
+          "end": 22.043105224609373
+        },
+        {
+          "word": "I ",
+          "start": 22.617416748046875,
+          "end": 23.03846923828125
+        },
+        {
+          "word": "just ",
+          "start": 23.03846923828125,
+          "end": 23.45952197265625
+        },
+        {
+          "word": "got ",
+          "start": 23.45952197265625,
+          "end": 23.880574462890625
+        },
+        {
+          "word": "the ",
+          "start": 23.61278076171875,
+          "end": 24.033833251953126
+        },
+        {
+          "word": "link.",
+          "start": 23.61278076171875,
+          "end": 24.033833251953126
+        },
+        {
+          "word": " Quick ",
+          "start": 24.033833251953126,
+          "end": 24.454885986328126
+        },
+        {
+          "word": "question ",
+          "start": 24.454885986328126,
+          "end": 24.8759384765625
+        },
+        {
+          "word": "\u2014 ",
+          "start": 24.8759384765625,
+          "end": 25.2969912109375
+        },
+        {
+          "word": "is ",
+          "start": 25.2969912109375,
+          "end": 25.7180439453125
+        },
+        {
+          "word": "it ",
+          "start": 25.7180439453125,
+          "end": 26.139096435546875
+        },
+        {
+          "word": "possible ",
+          "start": 26.139096435546875,
+          "end": 26.560149169921875
+        },
+        {
+          "word": "to ",
+          "start": 26.560149169921875,
+          "end": 26.98120166015625
+        },
+        {
+          "word": "request ",
+          "start": 26.98120166015625,
+          "end": 27.40225439453125
+        },
+        {
+          "word": "a ",
+          "start": 27.40225439453125,
+          "end": 27.82330712890625
+        },
+        {
+          "word": "specific ",
+          "start": 27.82330712890625,
+          "end": 28.244359619140624
+        },
+        {
+          "word": "table, ",
+          "start": 28.244359619140624,
+          "end": 28.665412353515624
+        },
+        {
+          "word": "like ",
+          "start": 28.665412353515624,
+          "end": 29.08646484375
+        },
+        {
+          "word": "something ",
+          "start": 29.08646484375,
+          "end": 29.507517578125
+        },
+        {
+          "word": "outside ",
+          "start": 29.507517578125,
+          "end": 29.928570068359374
+        },
+        {
+          "word": "or ",
+          "start": 29.928570068359374,
+          "end": 30.349622802734373
+        },
+        {
+          "word": "with ",
+          "start": 30.056322265625,
+          "end": 30.477375
+        },
+        {
+          "word": "a ",
+          "start": 30.056322265625,
+          "end": 30.477375
+        },
+        {
+          "word": "view? ",
+          "start": 30.056322265625,
+          "end": 30.477375
+        },
+        {
+          "word": "My ",
+          "start": 30.477375,
+          "end": 30.898427734375
+        },
+        {
+          "word": "wife\u2019s ",
+          "start": 30.898427734375,
+          "end": 31.319480224609375
+        },
+        {
+          "word": "birthday ",
+          "start": 31.319480224609375,
+          "end": 31.740532958984375
+        },
+        {
+          "word": "is ",
+          "start": 31.740532958984375,
+          "end": 32.16158544921875
+        },
+        {
+          "word": "Saturday, ",
+          "start": 32.16158544921875,
+          "end": 32.58263818359375
+        },
+        {
+          "word": "so ",
+          "start": 32.58263818359375,
+          "end": 33.003690673828125
+        },
+        {
+          "word": "I\u2019m ",
+          "start": 33.003690673828125,
+          "end": 33.42474340820313
+        },
+        {
+          "word": "hoping ",
+          "start": 33.42474340820313,
+          "end": 33.84579614257812
+        },
+        {
+          "word": "to ",
+          "start": 33.84579614257812,
+          "end": 34.2668486328125
+        },
+        {
+          "word": "make ",
+          "start": 34.2668486328125,
+          "end": 34.6879013671875
+        },
+        {
+          "word": "it ",
+          "start": 34.6879013671875,
+          "end": 35.108953857421874
+        },
+        {
+          "word": "a ",
+          "start": 35.108953857421874,
+          "end": 35.53000659179688
+        },
+        {
+          "word": "little ",
+          "start": 35.42015576171875,
+          "end": 35.84120825195313
+        },
+        {
+          "word": "special ",
+          "start": 35.42015576171875,
+          "end": 35.84120825195313
+        },
+        {
+          "word": "for ",
+          "start": 35.42015576171875,
+          "end": 35.84120825195313
+        },
+        {
+          "word": "her.",
+          "start": 35.42015576171875,
+          "end": 35.84120825195313
+        }
+      ],
+      "metadata": {
+        "response_id": 6
+      }
+    },
+    {
+      "role": "user",
+      "content": "That sounds wonderful, and happy early birthday to your wife. For special requests like a specific table outside or with a view, a team member from Boardwalk Beer Garden will reach out to you directly to help with those details. Go ahead and complete your reservation through the link, and someone will follow-up to make sure everything's just right for your celebration. Thank you so much for all the info. See you soon. ",
+      "words": [
+        {
+          "word": "That ",
+          "start": 37.159997999999995,
+          "end": 37.48
+        },
+        {
+          "word": "sounds ",
+          "start": 37.48,
+          "end": 37.72
+        },
+        {
+          "word": "wonderful, ",
+          "start": 37.72,
+          "end": 38.44
+        },
+        {
+          "word": "and ",
+          "start": 38.44,
+          "end": 38.519999999999996
+        },
+        {
+          "word": "happy ",
+          "start": 38.519999999999996,
+          "end": 38.839998
+        },
+        {
+          "word": "early ",
+          "start": 38.839998,
+          "end": 39.08
+        },
+        {
+          "word": "birthday ",
+          "start": 39.08,
+          "end": 39.319998
+        },
+        {
+          "word": "to ",
+          "start": 39.319998,
+          "end": 39.559999999999995
+        },
+        {
+          "word": "your ",
+          "start": 39.559999999999995,
+          "end": 39.72
+        },
+        {
+          "word": "wife. ",
+          "start": 39.72,
+          "end": 39.879999999999995
+        },
+        {
+          "word": "For ",
+          "start": 40.200002,
+          "end": 40.44
+        },
+        {
+          "word": "special ",
+          "start": 40.44,
+          "end": 40.839999999999996
+        },
+        {
+          "word": "requests ",
+          "start": 40.839999999999996,
+          "end": 41.239999999999995
+        },
+        {
+          "word": "like ",
+          "start": 41.239999999999995,
+          "end": 41.559999999999995
+        },
+        {
+          "word": "a ",
+          "start": 41.559999999999995,
+          "end": 41.72
+        },
+        {
+          "word": "specific ",
+          "start": 41.72,
+          "end": 42.12
+        },
+        {
+          "word": "table ",
+          "start": 42.12,
+          "end": 42.520002
+        },
+        {
+          "word": "outside ",
+          "start": 42.520002,
+          "end": 43.16
+        },
+        {
+          "word": "or ",
+          "start": 43.16,
+          "end": 43.48
+        },
+        {
+          "word": "with ",
+          "start": 43.48,
+          "end": 43.72
+        },
+        {
+          "word": "a ",
+          "start": 43.72,
+          "end": 43.8
+        },
+        {
+          "word": "view, ",
+          "start": 43.8,
+          "end": 44.04
+        },
+        {
+          "word": "a ",
+          "start": 44.55,
+          "end": 44.79
+        },
+        {
+          "word": "team ",
+          "start": 44.79,
+          "end": 45.03
+        },
+        {
+          "word": "member ",
+          "start": 45.03,
+          "end": 45.35
+        },
+        {
+          "word": "from ",
+          "start": 45.35,
+          "end": 45.51
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 45.51,
+          "end": 45.989999999999995
+        },
+        {
+          "word": "Beer ",
+          "start": 45.989999999999995,
+          "end": 46.389997
+        },
+        {
+          "word": "Garden ",
+          "start": 46.389997,
+          "end": 46.629999999999995
+        },
+        {
+          "word": "will ",
+          "start": 46.629999999999995,
+          "end": 46.87
+        },
+        {
+          "word": "reach ",
+          "start": 46.87,
+          "end": 47.11
+        },
+        {
+          "word": "out ",
+          "start": 47.11,
+          "end": 47.269999999999996
+        },
+        {
+          "word": "to ",
+          "start": 47.269999999999996,
+          "end": 47.35
+        },
+        {
+          "word": "you ",
+          "start": 47.35,
+          "end": 47.589998
+        },
+        {
+          "word": "directly ",
+          "start": 47.589998,
+          "end": 47.989999999999995
+        },
+        {
+          "word": "to ",
+          "start": 47.989999999999995,
+          "end": 48.15
+        },
+        {
+          "word": "help ",
+          "start": 48.15,
+          "end": 48.389997
+        },
+        {
+          "word": "with ",
+          "start": 48.389997,
+          "end": 48.55
+        },
+        {
+          "word": "those ",
+          "start": 48.55,
+          "end": 48.71
+        },
+        {
+          "word": "details. ",
+          "start": 48.71,
+          "end": 49.03
+        },
+        {
+          "word": "Go ",
+          "start": 49.520002,
+          "end": 49.839999999999996
+        },
+        {
+          "word": "ahead ",
+          "start": 49.839999999999996,
+          "end": 50
+        },
+        {
+          "word": "and ",
+          "start": 50,
+          "end": 50.16
+        },
+        {
+          "word": "complete ",
+          "start": 50.16,
+          "end": 50.48
+        },
+        {
+          "word": "your ",
+          "start": 50.48,
+          "end": 50.64
+        },
+        {
+          "word": "reservation ",
+          "start": 50.64,
+          "end": 51.199999999999996
+        },
+        {
+          "word": "through ",
+          "start": 51.199999999999996,
+          "end": 51.36
+        },
+        {
+          "word": "the ",
+          "start": 51.36,
+          "end": 51.520002
+        },
+        {
+          "word": "link, ",
+          "start": 51.520002,
+          "end": 52.08
+        },
+        {
+          "word": "and ",
+          "start": 52.16,
+          "end": 52.32
+        },
+        {
+          "word": "someone ",
+          "start": 52.32,
+          "end": 52.64
+        },
+        {
+          "word": "will ",
+          "start": 52.64,
+          "end": 52.8
+        },
+        {
+          "word": "follow-up ",
+          "start": 52.8,
+          "end": 53.199999999999996
+        },
+        {
+          "word": "to ",
+          "start": 53.29,
+          "end": 53.53
+        },
+        {
+          "word": "make ",
+          "start": 53.53,
+          "end": 53.61
+        },
+        {
+          "word": "sure ",
+          "start": 53.61,
+          "end": 53.85
+        },
+        {
+          "word": "everything's ",
+          "start": 53.85,
+          "end": 54.489999999999995
+        },
+        {
+          "word": "just ",
+          "start": 54.489999999999995,
+          "end": 54.65
+        },
+        {
+          "word": "right ",
+          "start": 54.65,
+          "end": 54.889997
+        },
+        {
+          "word": "for ",
+          "start": 54.889997,
+          "end": 55.049997
+        },
+        {
+          "word": "your ",
+          "start": 55.049997,
+          "end": 55.29
+        },
+        {
+          "word": "celebration. ",
+          "start": 55.29,
+          "end": 55.69
+        },
+        {
+          "word": "Thank ",
+          "start": 56.21,
+          "end": 56.450002
+        },
+        {
+          "word": "you ",
+          "start": 56.450002,
+          "end": 56.610002
+        },
+        {
+          "word": "so ",
+          "start": 56.610002,
+          "end": 56.85
+        },
+        {
+          "word": "much ",
+          "start": 56.85,
+          "end": 57.01
+        },
+        {
+          "word": "for ",
+          "start": 57.01,
+          "end": 57.169999999999995
+        },
+        {
+          "word": "all ",
+          "start": 57.169999999999995,
+          "end": 57.33
+        },
+        {
+          "word": "the ",
+          "start": 57.33,
+          "end": 57.489999999999995
+        },
+        {
+          "word": "info. ",
+          "start": 57.489999999999995,
+          "end": 58.05
+        },
+        {
+          "word": "See ",
+          "start": 58.130002999999995,
+          "end": 58.290003
+        },
+        {
+          "word": "you ",
+          "start": 58.290003,
+          "end": 58.37
+        },
+        {
+          "word": "soon. ",
+          "start": 58.37,
+          "end": 58.53
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Perfect, that sounds great. Just so I know \u2014 is there any kind of minimum spend or deposit for a group of six? And do you guys usually have enough space for bigger groups like that, or should I book as early as possible?",
+      "words": [
+        {
+          "word": "Perfect, ",
+          "start": 60.252,
+          "end": 60.673052734375
+        },
+        {
+          "word": "that ",
+          "start": 60.673052734375,
+          "end": 61.09410522460937
+        },
+        {
+          "word": "sounds ",
+          "start": 61.09410522460937,
+          "end": 61.515157958984375
+        },
+        {
+          "word": "great.",
+          "start": 61.515157958984375,
+          "end": 61.93621044921875
+        },
+        {
+          "word": " Just ",
+          "start": 62.156041748046874,
+          "end": 62.57709423828125
+        },
+        {
+          "word": "so ",
+          "start": 62.57709423828125,
+          "end": 62.99814697265625
+        },
+        {
+          "word": "I ",
+          "start": 62.99814697265625,
+          "end": 63.419199462890624
+        },
+        {
+          "word": "know ",
+          "start": 63.419199462890624,
+          "end": 63.84025219726563
+        },
+        {
+          "word": "\u2014 ",
+          "start": 63.84025219726563,
+          "end": 64.26130493164062
+        },
+        {
+          "word": "is ",
+          "start": 64.26130493164062,
+          "end": 64.682357421875
+        },
+        {
+          "word": "there ",
+          "start": 64.682357421875,
+          "end": 65.10341015625
+        },
+        {
+          "word": "any ",
+          "start": 65.10341015625,
+          "end": 65.52446264648438
+        },
+        {
+          "word": "kind ",
+          "start": 65.52446264648438,
+          "end": 65.94551538085938
+        },
+        {
+          "word": "of ",
+          "start": 65.94551538085938,
+          "end": 66.36656787109375
+        },
+        {
+          "word": "minimum ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "spend ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "or ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "deposit ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "for ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "a ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "group ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "of ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "six? ",
+          "start": 66.123572265625,
+          "end": 66.544625
+        },
+        {
+          "word": "And ",
+          "start": 66.544625,
+          "end": 66.965677734375
+        },
+        {
+          "word": "do ",
+          "start": 66.965677734375,
+          "end": 67.38673022460938
+        },
+        {
+          "word": "you ",
+          "start": 67.38673022460938,
+          "end": 67.80778295898438
+        },
+        {
+          "word": "guys ",
+          "start": 67.80778295898438,
+          "end": 68.22883544921875
+        },
+        {
+          "word": "usually ",
+          "start": 68.22883544921875,
+          "end": 68.64988818359375
+        },
+        {
+          "word": "have ",
+          "start": 68.64988818359375,
+          "end": 69.07094067382812
+        },
+        {
+          "word": "enough ",
+          "start": 69.07094067382812,
+          "end": 69.49199340820313
+        },
+        {
+          "word": "space ",
+          "start": 69.49199340820313,
+          "end": 69.91304614257812
+        },
+        {
+          "word": "for ",
+          "start": 69.91304614257812,
+          "end": 70.3340986328125
+        },
+        {
+          "word": "bigger ",
+          "start": 70.3340986328125,
+          "end": 70.7551513671875
+        },
+        {
+          "word": "groups ",
+          "start": 70.7551513671875,
+          "end": 71.17620385742188
+        },
+        {
+          "word": "like ",
+          "start": 71.17620385742188,
+          "end": 71.59725659179688
+        },
+        {
+          "word": "that, ",
+          "start": 71.59725659179688,
+          "end": 72.01830932617187
+        },
+        {
+          "word": "or ",
+          "start": 71.940197265625,
+          "end": 72.36125
+        },
+        {
+          "word": "should ",
+          "start": 71.940197265625,
+          "end": 72.36125
+        },
+        {
+          "word": "I ",
+          "start": 71.940197265625,
+          "end": 72.36125
+        },
+        {
+          "word": "book ",
+          "start": 71.940197265625,
+          "end": 72.36125
+        },
+        {
+          "word": "as ",
+          "start": 71.940197265625,
+          "end": 72.36125
+        },
+        {
+          "word": "early ",
+          "start": 71.940197265625,
+          "end": 72.36125
+        },
+        {
+          "word": "as ",
+          "start": 71.940197265625,
+          "end": 72.36125
+        },
+        {
+          "word": "possible?",
+          "start": 71.940197265625,
+          "end": 72.36125
+        }
+      ],
+      "metadata": {
+        "response_id": 11
+      }
+    },
+    {
+      "role": "user",
+      "content": "A team member from Boardwalk Beer Garden will reach out to you directly with details about minimum spend or deposits for groups as well as availability for larger parties. I recommend booking as early as possible, especially for Saturday nights. Since we fill up quickly, especially for bigger groups. Thank you so much for all the info. See you soon. ",
+      "words": [
+        {
+          "word": "A ",
+          "start": 73.54001000000001,
+          "end": 73.780004
+        },
+        {
+          "word": "team ",
+          "start": 73.780004,
+          "end": 74.02000000000001
+        },
+        {
+          "word": "member ",
+          "start": 74.02000000000001,
+          "end": 74.34
+        },
+        {
+          "word": "from ",
+          "start": 74.34,
+          "end": 74.500005
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 74.500005,
+          "end": 74.98
+        },
+        {
+          "word": "Beer ",
+          "start": 75.11,
+          "end": 75.43
+        },
+        {
+          "word": "Garden ",
+          "start": 75.43,
+          "end": 75.75
+        },
+        {
+          "word": "will ",
+          "start": 75.75,
+          "end": 75.989996
+        },
+        {
+          "word": "reach ",
+          "start": 75.989996,
+          "end": 76.15
+        },
+        {
+          "word": "out ",
+          "start": 76.15,
+          "end": 76.309995
+        },
+        {
+          "word": "to ",
+          "start": 76.309995,
+          "end": 76.47
+        },
+        {
+          "word": "you ",
+          "start": 76.47,
+          "end": 76.62999500000001
+        },
+        {
+          "word": "directly ",
+          "start": 76.62999500000001,
+          "end": 77.35000000000001
+        },
+        {
+          "word": "with ",
+          "start": 77.35000000000001,
+          "end": 77.66999600000001
+        },
+        {
+          "word": "details ",
+          "start": 77.66999600000001,
+          "end": 78.15
+        },
+        {
+          "word": "about ",
+          "start": 78.15,
+          "end": 78.39
+        },
+        {
+          "word": "minimum ",
+          "start": 78.39,
+          "end": 78.87
+        },
+        {
+          "word": "spend ",
+          "start": 78.87,
+          "end": 79.19000000000001
+        },
+        {
+          "word": "or ",
+          "start": 79.19000000000001,
+          "end": 79.51
+        },
+        {
+          "word": "deposits ",
+          "start": 79.51,
+          "end": 79.91000000000001
+        },
+        {
+          "word": "for ",
+          "start": 80.05000000000001,
+          "end": 80.21000500000001
+        },
+        {
+          "word": "groups ",
+          "start": 80.21000500000001,
+          "end": 80.850004
+        },
+        {
+          "word": "as ",
+          "start": 80.93,
+          "end": 81.17
+        },
+        {
+          "word": "well ",
+          "start": 81.17,
+          "end": 81.33
+        },
+        {
+          "word": "as ",
+          "start": 81.33,
+          "end": 81.49000000000001
+        },
+        {
+          "word": "availability ",
+          "start": 81.49000000000001,
+          "end": 82.13000000000001
+        },
+        {
+          "word": "for ",
+          "start": 82.13000000000001,
+          "end": 82.37
+        },
+        {
+          "word": "larger ",
+          "start": 82.37,
+          "end": 82.69000000000001
+        },
+        {
+          "word": "parties. ",
+          "start": 82.69000000000001,
+          "end": 82.93
+        },
+        {
+          "word": "I ",
+          "start": 83.41999600000001,
+          "end": 83.65999400000001
+        },
+        {
+          "word": "recommend ",
+          "start": 83.65999400000001,
+          "end": 84.059995
+        },
+        {
+          "word": "booking ",
+          "start": 84.059995,
+          "end": 84.37999500000001
+        },
+        {
+          "word": "as ",
+          "start": 84.37999500000001,
+          "end": 84.61999
+        },
+        {
+          "word": "early ",
+          "start": 84.61999,
+          "end": 84.93999000000001
+        },
+        {
+          "word": "as ",
+          "start": 84.93999000000001,
+          "end": 85.10000000000001
+        },
+        {
+          "word": "possible, ",
+          "start": 85.10000000000001,
+          "end": 85.739996
+        },
+        {
+          "word": "especially ",
+          "start": 85.739996,
+          "end": 86.14
+        },
+        {
+          "word": "for ",
+          "start": 86.22,
+          "end": 86.46000000000001
+        },
+        {
+          "word": "Saturday ",
+          "start": 86.46000000000001,
+          "end": 86.78
+        },
+        {
+          "word": "nights. ",
+          "start": 86.78,
+          "end": 87.10000000000001
+        },
+        {
+          "word": "Since ",
+          "start": 87.390005,
+          "end": 87.63000000000001
+        },
+        {
+          "word": "we ",
+          "start": 87.63000000000001,
+          "end": 87.79
+        },
+        {
+          "word": "fill ",
+          "start": 87.79,
+          "end": 88.030004
+        },
+        {
+          "word": "up ",
+          "start": 88.030004,
+          "end": 88.19000000000001
+        },
+        {
+          "word": "quickly, ",
+          "start": 88.19000000000001,
+          "end": 88.83
+        },
+        {
+          "word": "especially ",
+          "start": 89.07000000000001,
+          "end": 89.47
+        },
+        {
+          "word": "for ",
+          "start": 89.47,
+          "end": 89.71000500000001
+        },
+        {
+          "word": "bigger ",
+          "start": 89.71000500000001,
+          "end": 90.030004
+        },
+        {
+          "word": "groups. ",
+          "start": 90.030004,
+          "end": 90.27000000000001
+        },
+        {
+          "word": "Thank ",
+          "start": 90.809995,
+          "end": 91.05000000000001
+        },
+        {
+          "word": "you ",
+          "start": 91.05000000000001,
+          "end": 91.29
+        },
+        {
+          "word": "so ",
+          "start": 91.29,
+          "end": 91.449995
+        },
+        {
+          "word": "much ",
+          "start": 91.449995,
+          "end": 91.61
+        },
+        {
+          "word": "for ",
+          "start": 91.61,
+          "end": 91.85000000000001
+        },
+        {
+          "word": "all ",
+          "start": 91.85000000000001,
+          "end": 92.01
+        },
+        {
+          "word": "the ",
+          "start": 92.01,
+          "end": 92.16999600000001
+        },
+        {
+          "word": "info. ",
+          "start": 92.16999600000001,
+          "end": 92.72999
+        },
+        {
+          "word": "See ",
+          "start": 92.73,
+          "end": 92.97
+        },
+        {
+          "word": "you ",
+          "start": 92.97,
+          "end": 93.05000000000001
+        },
+        {
+          "word": "soon. ",
+          "start": 93.05000000000001,
+          "end": 93.29
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Got it, thanks for the heads up. One more thing\u2014do you guys do anything special for birthdays? Like, is there a dessert or something you can bring out, or should I plan to bring my own cake? Just wanna make sure Anna feels a little extra special, you know?",
+      "words": [
+        {
+          "word": "Got ",
+          "start": 95.071,
+          "end": 95.492052734375
+        },
+        {
+          "word": "it, ",
+          "start": 95.492052734375,
+          "end": 95.91310522460938
+        },
+        {
+          "word": "thanks ",
+          "start": 95.91310522460938,
+          "end": 96.33415795898438
+        },
+        {
+          "word": "for ",
+          "start": 96.33415795898438,
+          "end": 96.75521044921875
+        },
+        {
+          "word": "the ",
+          "start": 96.64686401367187,
+          "end": 97.06791674804687
+        },
+        {
+          "word": "heads ",
+          "start": 96.64686401367187,
+          "end": 97.06791674804687
+        },
+        {
+          "word": "up. ",
+          "start": 96.64686401367187,
+          "end": 97.06791674804687
+        },
+        {
+          "word": "One ",
+          "start": 97.06791674804687,
+          "end": 97.48896923828126
+        },
+        {
+          "word": "more ",
+          "start": 97.48896923828126,
+          "end": 97.91002197265625
+        },
+        {
+          "word": "thing\u2014do ",
+          "start": 97.91002197265625,
+          "end": 98.33107446289063
+        },
+        {
+          "word": "you ",
+          "start": 98.33107446289063,
+          "end": 98.75212719726562
+        },
+        {
+          "word": "guys ",
+          "start": 98.75212719726562,
+          "end": 99.17317993164062
+        },
+        {
+          "word": "do ",
+          "start": 99.17317993164062,
+          "end": 99.594232421875
+        },
+        {
+          "word": "anything ",
+          "start": 99.594232421875,
+          "end": 100.01528515625
+        },
+        {
+          "word": "special ",
+          "start": 99.93248901367187,
+          "end": 100.35354174804688
+        },
+        {
+          "word": "for ",
+          "start": 99.93248901367187,
+          "end": 100.35354174804688
+        },
+        {
+          "word": "birthdays?",
+          "start": 99.93248901367187,
+          "end": 100.35354174804688
+        },
+        {
+          "word": " Like, ",
+          "start": 100.35354174804688,
+          "end": 100.77459423828125
+        },
+        {
+          "word": "is ",
+          "start": 100.77459423828125,
+          "end": 101.19564697265625
+        },
+        {
+          "word": "there ",
+          "start": 101.19564697265625,
+          "end": 101.61669946289062
+        },
+        {
+          "word": "a ",
+          "start": 101.61669946289062,
+          "end": 102.03775219726562
+        },
+        {
+          "word": "dessert ",
+          "start": 102.03775219726562,
+          "end": 102.45880493164063
+        },
+        {
+          "word": "or ",
+          "start": 102.45880493164063,
+          "end": 102.879857421875
+        },
+        {
+          "word": "something ",
+          "start": 102.879857421875,
+          "end": 103.30091015625
+        },
+        {
+          "word": "you ",
+          "start": 103.30091015625,
+          "end": 103.72196264648437
+        },
+        {
+          "word": "can ",
+          "start": 103.72196264648437,
+          "end": 104.14301538085938
+        },
+        {
+          "word": "bring ",
+          "start": 104.14301538085938,
+          "end": 104.56406787109376
+        },
+        {
+          "word": "out, ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "or ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "should ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "I ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "plan ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "to ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "bring ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "my ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "own ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "cake? ",
+          "start": 104.36748901367187,
+          "end": 104.78854174804688
+        },
+        {
+          "word": "Just ",
+          "start": 104.78854174804688,
+          "end": 105.20959423828126
+        },
+        {
+          "word": "wanna ",
+          "start": 105.20959423828126,
+          "end": 105.63064697265625
+        },
+        {
+          "word": "make ",
+          "start": 105.63064697265625,
+          "end": 106.05169946289062
+        },
+        {
+          "word": "sure ",
+          "start": 106.05169946289062,
+          "end": 106.47275219726562
+        },
+        {
+          "word": "Anna ",
+          "start": 106.47275219726562,
+          "end": 106.89380493164063
+        },
+        {
+          "word": "feels ",
+          "start": 106.89380493164063,
+          "end": 107.314857421875
+        },
+        {
+          "word": "a ",
+          "start": 107.314857421875,
+          "end": 107.73591015625
+        },
+        {
+          "word": "little ",
+          "start": 107.73440576171875,
+          "end": 108.15545825195312
+        },
+        {
+          "word": "extra ",
+          "start": 107.73440576171875,
+          "end": 108.15545825195312
+        },
+        {
+          "word": "special, ",
+          "start": 107.73440576171875,
+          "end": 108.15545825195312
+        },
+        {
+          "word": "you ",
+          "start": 107.73440576171875,
+          "end": 108.15545825195312
+        },
+        {
+          "word": "know?",
+          "start": 107.73440576171875,
+          "end": 108.15545825195312
+        }
+      ],
+      "metadata": {
+        "response_id": 16
+      }
+    },
+    {
+      "role": "user",
+      "content": "Totally understand. You want Anna's birthday to feel extra special. A team member from Boardwalk Beer Garden will reach out to you directly about birthday celebrations, desserts, or bringing your own cake. They'll make sure you have all the details to make it a great night for her. Thank you so much for all the info, and happy birthday again to Anna. See you soon. ",
+      "words": [
+        {
+          "word": "Totally ",
+          "start": 109.5,
+          "end": 109.82000000000001
+        },
+        {
+          "word": "understand. ",
+          "start": 110.14,
+          "end": 110.46000000000001
+        },
+        {
+          "word": "You ",
+          "start": 110.46000000000001,
+          "end": 110.62
+        },
+        {
+          "word": "want ",
+          "start": 110.62,
+          "end": 110.86
+        },
+        {
+          "word": "Anna's ",
+          "start": 110.86,
+          "end": 111.26
+        },
+        {
+          "word": "birthday ",
+          "start": 111.26,
+          "end": 111.5
+        },
+        {
+          "word": "to ",
+          "start": 111.5,
+          "end": 111.65999400000001
+        },
+        {
+          "word": "feel ",
+          "start": 111.65999400000001,
+          "end": 111.9
+        },
+        {
+          "word": "extra ",
+          "start": 111.9,
+          "end": 112.37999500000001
+        },
+        {
+          "word": "special. ",
+          "start": 112.37999500000001,
+          "end": 113.01999500000001
+        },
+        {
+          "word": "A ",
+          "start": 113.10000000000001,
+          "end": 113.26
+        },
+        {
+          "word": "team ",
+          "start": 113.26,
+          "end": 113.5
+        },
+        {
+          "word": "member ",
+          "start": 113.5,
+          "end": 113.739996
+        },
+        {
+          "word": "from ",
+          "start": 113.739996,
+          "end": 113.97999
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 113.97999,
+          "end": 114.46000000000001
+        },
+        {
+          "word": "Beer ",
+          "start": 114.51,
+          "end": 114.83
+        },
+        {
+          "word": "Garden ",
+          "start": 114.83,
+          "end": 115.15
+        },
+        {
+          "word": "will ",
+          "start": 115.15,
+          "end": 115.39
+        },
+        {
+          "word": "reach ",
+          "start": 115.39,
+          "end": 115.63000000000001
+        },
+        {
+          "word": "out ",
+          "start": 115.63000000000001,
+          "end": 115.79
+        },
+        {
+          "word": "to ",
+          "start": 115.79,
+          "end": 115.87
+        },
+        {
+          "word": "you ",
+          "start": 115.87,
+          "end": 116.11
+        },
+        {
+          "word": "directly ",
+          "start": 116.11,
+          "end": 116.59
+        },
+        {
+          "word": "about ",
+          "start": 116.59,
+          "end": 116.91000000000001
+        },
+        {
+          "word": "birthday ",
+          "start": 116.91000000000001,
+          "end": 117.31
+        },
+        {
+          "word": "celebrations, ",
+          "start": 117.53,
+          "end": 118.25
+        },
+        {
+          "word": "desserts, ",
+          "start": 118.25,
+          "end": 118.809995
+        },
+        {
+          "word": "or ",
+          "start": 118.809995,
+          "end": 118.97
+        },
+        {
+          "word": "bringing ",
+          "start": 118.97,
+          "end": 119.29
+        },
+        {
+          "word": "your ",
+          "start": 119.29,
+          "end": 119.36999
+        },
+        {
+          "word": "own ",
+          "start": 119.36999,
+          "end": 119.61
+        },
+        {
+          "word": "cake. ",
+          "start": 119.61,
+          "end": 119.76999500000001
+        },
+        {
+          "word": "They'll ",
+          "start": 119.98,
+          "end": 120.86
+        },
+        {
+          "word": "make ",
+          "start": 120.86,
+          "end": 121.02000000000001
+        },
+        {
+          "word": "sure ",
+          "start": 121.02000000000001,
+          "end": 121.18
+        },
+        {
+          "word": "you ",
+          "start": 121.18,
+          "end": 121.34
+        },
+        {
+          "word": "have ",
+          "start": 121.34,
+          "end": 121.58
+        },
+        {
+          "word": "all ",
+          "start": 121.58,
+          "end": 121.74000000000001
+        },
+        {
+          "word": "the ",
+          "start": 121.74000000000001,
+          "end": 121.98
+        },
+        {
+          "word": "details ",
+          "start": 121.98,
+          "end": 122.38000000000001
+        },
+        {
+          "word": "to ",
+          "start": 122.38000000000001,
+          "end": 122.46000500000001
+        },
+        {
+          "word": "make ",
+          "start": 122.46000500000001,
+          "end": 122.62
+        },
+        {
+          "word": "it ",
+          "start": 122.62,
+          "end": 122.780004
+        },
+        {
+          "word": "a ",
+          "start": 122.780004,
+          "end": 122.86
+        },
+        {
+          "word": "great ",
+          "start": 122.86,
+          "end": 123.02000000000001
+        },
+        {
+          "word": "night ",
+          "start": 123.02000000000001,
+          "end": 123.26
+        },
+        {
+          "word": "for ",
+          "start": 123.26,
+          "end": 123.34
+        },
+        {
+          "word": "her. ",
+          "start": 123.34,
+          "end": 123.5
+        },
+        {
+          "word": "Thank ",
+          "start": 123.850004,
+          "end": 124.09
+        },
+        {
+          "word": "you ",
+          "start": 124.09,
+          "end": 124.33
+        },
+        {
+          "word": "so ",
+          "start": 124.33,
+          "end": 124.57000000000001
+        },
+        {
+          "word": "much ",
+          "start": 124.57000000000001,
+          "end": 124.73
+        },
+        {
+          "word": "for ",
+          "start": 124.73,
+          "end": 124.89
+        },
+        {
+          "word": "all ",
+          "start": 124.89,
+          "end": 125.05000000000001
+        },
+        {
+          "word": "the ",
+          "start": 125.05000000000001,
+          "end": 125.21000000000001
+        },
+        {
+          "word": "info, ",
+          "start": 125.21000000000001,
+          "end": 125.77000000000001
+        },
+        {
+          "word": "and ",
+          "start": 125.77000000000001,
+          "end": 125.93
+        },
+        {
+          "word": "happy ",
+          "start": 125.93,
+          "end": 126.25
+        },
+        {
+          "word": "birthday ",
+          "start": 126.25,
+          "end": 126.65
+        },
+        {
+          "word": "again ",
+          "start": 126.65,
+          "end": 126.89
+        },
+        {
+          "word": "to ",
+          "start": 126.89,
+          "end": 127.05000000000001
+        },
+        {
+          "word": "Anna. ",
+          "start": 127.05000000000001,
+          "end": 127.29
+        },
+        {
+          "word": "See ",
+          "start": 127.65,
+          "end": 127.89
+        },
+        {
+          "word": "you ",
+          "start": 127.89,
+          "end": 128.04999999999998
+        },
+        {
+          "word": "soon. ",
+          "start": 128.04999999999998,
+          "end": 128.20999999999998
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Thanks so much, I really appreciate it.Last quick thing\u2014do you guys have a time limit on tables, or can we hang out for a while if we\u2019re having a good time? Just wanna make sure we don\u2019t have to rush through dinner.",
+      "words": [
+        {
+          "word": "Thanks ",
+          "start": 130.052,
+          "end": 130.473052734375
+        },
+        {
+          "word": "so ",
+          "start": 130.473052734375,
+          "end": 130.89410522460938
+        },
+        {
+          "word": "much, ",
+          "start": 130.89410522460938,
+          "end": 131.31515795898437
+        },
+        {
+          "word": "I ",
+          "start": 131.31515795898437,
+          "end": 131.73621044921876
+        },
+        {
+          "word": "really ",
+          "start": 131.360822265625,
+          "end": 131.781875
+        },
+        {
+          "word": "appreciate ",
+          "start": 131.360822265625,
+          "end": 131.781875
+        },
+        {
+          "word": "it.",
+          "start": 131.360822265625,
+          "end": 131.781875
+        },
+        {
+          "word": "Last ",
+          "start": 131.781875,
+          "end": 132.202927734375
+        },
+        {
+          "word": "quick ",
+          "start": 132.202927734375,
+          "end": 132.62398022460937
+        },
+        {
+          "word": "thing\u2014do ",
+          "start": 132.62398022460937,
+          "end": 133.04503295898436
+        },
+        {
+          "word": "you ",
+          "start": 133.04503295898436,
+          "end": 133.46608544921875
+        },
+        {
+          "word": "guys ",
+          "start": 133.46608544921875,
+          "end": 133.88713818359375
+        },
+        {
+          "word": "have ",
+          "start": 133.88713818359375,
+          "end": 134.30819067382814
+        },
+        {
+          "word": "a ",
+          "start": 134.30819067382814,
+          "end": 134.72924340820313
+        },
+        {
+          "word": "time ",
+          "start": 134.72924340820313,
+          "end": 135.15029614257813
+        },
+        {
+          "word": "limit ",
+          "start": 135.15029614257813,
+          "end": 135.5713486328125
+        },
+        {
+          "word": "on ",
+          "start": 135.5713486328125,
+          "end": 135.9924013671875
+        },
+        {
+          "word": "tables, ",
+          "start": 135.9924013671875,
+          "end": 136.41345385742187
+        },
+        {
+          "word": "or ",
+          "start": 136.41345385742187,
+          "end": 136.83450659179687
+        },
+        {
+          "word": "can ",
+          "start": 136.83450659179687,
+          "end": 137.25555932617186
+        },
+        {
+          "word": "we ",
+          "start": 137.25555932617186,
+          "end": 137.67661181640625
+        },
+        {
+          "word": "hang ",
+          "start": 137.67661181640625,
+          "end": 138.09766455078125
+        },
+        {
+          "word": "out ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "for ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "a ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "while ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "if ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "we\u2019re ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "having ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "a ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "good ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "time? ",
+          "start": 137.8043640136719,
+          "end": 138.22541674804688
+        },
+        {
+          "word": "Just ",
+          "start": 138.22541674804688,
+          "end": 138.64646923828124
+        },
+        {
+          "word": "wanna ",
+          "start": 138.64646923828124,
+          "end": 139.06752197265624
+        },
+        {
+          "word": "make ",
+          "start": 139.06752197265624,
+          "end": 139.48857446289063
+        },
+        {
+          "word": "sure ",
+          "start": 139.48857446289063,
+          "end": 139.90962719726562
+        },
+        {
+          "word": "we ",
+          "start": 139.90962719726562,
+          "end": 140.33067993164062
+        },
+        {
+          "word": "don\u2019t ",
+          "start": 140.33067993164062,
+          "end": 140.751732421875
+        },
+        {
+          "word": "have ",
+          "start": 140.41661401367188,
+          "end": 140.83766674804687
+        },
+        {
+          "word": "to ",
+          "start": 140.41661401367188,
+          "end": 140.83766674804687
+        },
+        {
+          "word": "rush ",
+          "start": 140.41661401367188,
+          "end": 140.83766674804687
+        },
+        {
+          "word": "through ",
+          "start": 140.41661401367188,
+          "end": 140.83766674804687
+        },
+        {
+          "word": "dinner.",
+          "start": 140.41661401367188,
+          "end": 140.83766674804687
+        }
+      ],
+      "metadata": {
+        "response_id": 19
+      }
+    },
+    {
+      "role": "user",
+      "content": "Great question. A team member from Boardwalk Garden will reach out to you directly about any time limits on tables, so you'll have all the info you need. They'll make sure your group can relax and enjoy Anna's birthday without feeling rushed. Thank you so much for all the info, and see you soon. ",
+      "words": [
+        {
+          "word": "Great ",
+          "start": 142.07998999999998,
+          "end": 142.32
+        },
+        {
+          "word": "question. ",
+          "start": 142.32,
+          "end": 142.95999999999998
+        },
+        {
+          "word": "A ",
+          "start": 142.95999999999998,
+          "end": 143.28
+        },
+        {
+          "word": "team ",
+          "start": 143.28,
+          "end": 143.44
+        },
+        {
+          "word": "member ",
+          "start": 143.44,
+          "end": 143.67999999999998
+        },
+        {
+          "word": "from ",
+          "start": 143.67999999999998,
+          "end": 143.92
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 143.92,
+          "end": 144.32
+        },
+        {
+          "word": "Garden ",
+          "start": 144.67999999999998,
+          "end": 145
+        },
+        {
+          "word": "will ",
+          "start": 145,
+          "end": 145.24000999999998
+        },
+        {
+          "word": "reach ",
+          "start": 145.24000999999998,
+          "end": 145.39999999999998
+        },
+        {
+          "word": "out ",
+          "start": 145.39999999999998,
+          "end": 145.64
+        },
+        {
+          "word": "to ",
+          "start": 145.64,
+          "end": 145.72
+        },
+        {
+          "word": "you ",
+          "start": 145.72,
+          "end": 145.88001
+        },
+        {
+          "word": "directly ",
+          "start": 145.88001,
+          "end": 146.28
+        },
+        {
+          "word": "about ",
+          "start": 146.28,
+          "end": 146.60001
+        },
+        {
+          "word": "any ",
+          "start": 146.60001,
+          "end": 146.84
+        },
+        {
+          "word": "time ",
+          "start": 146.84,
+          "end": 147.07999999999998
+        },
+        {
+          "word": "limits ",
+          "start": 147.07999999999998,
+          "end": 147.39999999999998
+        },
+        {
+          "word": "on ",
+          "start": 147.39999999999998,
+          "end": 147.56
+        },
+        {
+          "word": "tables, ",
+          "start": 147.56,
+          "end": 147.95999999999998
+        },
+        {
+          "word": "so ",
+          "start": 148.30001,
+          "end": 148.54
+        },
+        {
+          "word": "you'll ",
+          "start": 148.54,
+          "end": 148.78
+        },
+        {
+          "word": "have ",
+          "start": 148.78,
+          "end": 149.02000999999998
+        },
+        {
+          "word": "all ",
+          "start": 149.02000999999998,
+          "end": 149.26
+        },
+        {
+          "word": "the ",
+          "start": 149.26,
+          "end": 149.42
+        },
+        {
+          "word": "info ",
+          "start": 149.42,
+          "end": 149.66001
+        },
+        {
+          "word": "you ",
+          "start": 149.66001,
+          "end": 149.82
+        },
+        {
+          "word": "need. ",
+          "start": 149.82,
+          "end": 149.98
+        },
+        {
+          "word": "They'll ",
+          "start": 150.39999999999998,
+          "end": 150.79999999999998
+        },
+        {
+          "word": "make ",
+          "start": 150.79999999999998,
+          "end": 150.95999999999998
+        },
+        {
+          "word": "sure ",
+          "start": 150.95999999999998,
+          "end": 151.12
+        },
+        {
+          "word": "your ",
+          "start": 151.12,
+          "end": 151.28
+        },
+        {
+          "word": "group ",
+          "start": 151.28,
+          "end": 151.6
+        },
+        {
+          "word": "can ",
+          "start": 151.6,
+          "end": 151.76
+        },
+        {
+          "word": "relax ",
+          "start": 151.76,
+          "end": 152.16
+        },
+        {
+          "word": "and ",
+          "start": 152.16,
+          "end": 152.32
+        },
+        {
+          "word": "enjoy ",
+          "start": 152.32,
+          "end": 152.64
+        },
+        {
+          "word": "Anna's ",
+          "start": 152.64,
+          "end": 153.12
+        },
+        {
+          "word": "birthday ",
+          "start": 153.12,
+          "end": 153.44
+        },
+        {
+          "word": "without ",
+          "start": 153.44,
+          "end": 153.76
+        },
+        {
+          "word": "feeling ",
+          "start": 153.76,
+          "end": 153.99999
+        },
+        {
+          "word": "rushed. ",
+          "start": 153.99999,
+          "end": 154.32
+        },
+        {
+          "word": "Thank ",
+          "start": 154.70999999999998,
+          "end": 154.94998999999999
+        },
+        {
+          "word": "you ",
+          "start": 154.94998999999999,
+          "end": 155.10998999999998
+        },
+        {
+          "word": "so ",
+          "start": 155.10998999999998,
+          "end": 155.26999999999998
+        },
+        {
+          "word": "much ",
+          "start": 155.26999999999998,
+          "end": 155.51
+        },
+        {
+          "word": "for ",
+          "start": 155.51,
+          "end": 155.58999
+        },
+        {
+          "word": "all ",
+          "start": 155.58999,
+          "end": 155.74999
+        },
+        {
+          "word": "the ",
+          "start": 155.74999,
+          "end": 155.82998999999998
+        },
+        {
+          "word": "info, ",
+          "start": 155.82998999999998,
+          "end": 156.30999
+        },
+        {
+          "word": "and ",
+          "start": 156.30999,
+          "end": 156.38998999999998
+        },
+        {
+          "word": "see ",
+          "start": 156.38998999999998,
+          "end": 156.63
+        },
+        {
+          "word": "you ",
+          "start": 156.63,
+          "end": 156.70999999999998
+        },
+        {
+          "word": "soon. ",
+          "start": 156.70999999999998,
+          "end": 156.94998999999999
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Awesome, thanks for being so helpful. I\u2019ll go ahead and book through the link and keep an eye out for that follow-up. Appreciate you making it easy\u2014looking forward to Saturday! Have a good one.",
+      "words": [
+        {
+          "word": "Awesome, ",
+          "start": 158.668,
+          "end": 159.089052734375
+        },
+        {
+          "word": "thanks ",
+          "start": 159.089052734375,
+          "end": 159.51010522460936
+        },
+        {
+          "word": "for ",
+          "start": 159.51010522460936,
+          "end": 159.9311579589844
+        },
+        {
+          "word": "being ",
+          "start": 159.9311579589844,
+          "end": 160.35221044921875
+        },
+        {
+          "word": "so ",
+          "start": 160.35221044921875,
+          "end": 160.77326318359374
+        },
+        {
+          "word": "helpful. ",
+          "start": 160.766322265625,
+          "end": 161.187375
+        },
+        {
+          "word": "I\u2019ll ",
+          "start": 161.187375,
+          "end": 161.608427734375
+        },
+        {
+          "word": "go ",
+          "start": 161.608427734375,
+          "end": 162.0294802246094
+        },
+        {
+          "word": "ahead ",
+          "start": 162.0294802246094,
+          "end": 162.45053295898438
+        },
+        {
+          "word": "and ",
+          "start": 162.45053295898438,
+          "end": 162.87158544921874
+        },
+        {
+          "word": "book ",
+          "start": 162.87158544921874,
+          "end": 163.29263818359374
+        },
+        {
+          "word": "through ",
+          "start": 163.29263818359374,
+          "end": 163.71369067382813
+        },
+        {
+          "word": "the ",
+          "start": 163.71369067382813,
+          "end": 164.13474340820312
+        },
+        {
+          "word": "link ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "and ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "keep ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "an ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "eye ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "out ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "for ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "that ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "follow-up. ",
+          "start": 163.91261401367188,
+          "end": 164.33366674804688
+        },
+        {
+          "word": "Appreciate ",
+          "start": 164.33366674804688,
+          "end": 164.75471923828124
+        },
+        {
+          "word": "you ",
+          "start": 164.75471923828124,
+          "end": 165.17577197265626
+        },
+        {
+          "word": "making ",
+          "start": 165.17577197265626,
+          "end": 165.59682446289062
+        },
+        {
+          "word": "it ",
+          "start": 165.59682446289062,
+          "end": 166.01787719726562
+        },
+        {
+          "word": "easy\u2014looking ",
+          "start": 166.01787719726562,
+          "end": 166.43892993164062
+        },
+        {
+          "word": "forward ",
+          "start": 166.43892993164062,
+          "end": 166.859982421875
+        },
+        {
+          "word": "to ",
+          "start": 166.859982421875,
+          "end": 167.28103515625
+        },
+        {
+          "word": "Saturday!",
+          "start": 167.19823901367187,
+          "end": 167.61929174804686
+        },
+        {
+          "word": " Have ",
+          "start": 167.61929174804686,
+          "end": 168.04034423828125
+        },
+        {
+          "word": "a ",
+          "start": 168.04034423828125,
+          "end": 168.46139697265625
+        },
+        {
+          "word": "good ",
+          "start": 168.17348901367188,
+          "end": 168.59454174804688
+        },
+        {
+          "word": "one.",
+          "start": 168.17348901367188,
+          "end": 168.59454174804688
+        }
+      ],
+      "metadata": {
+        "response_id": 20
+      }
+    },
+    {
+      "role": "user",
+      "content": "Thank you so much for all the info, and have a great night. See you soon. ",
+      "words": [
+        {
+          "word": "Thank ",
+          "start": 170.17,
+          "end": 170.41
+        },
+        {
+          "word": "you ",
+          "start": 170.41,
+          "end": 170.57
+        },
+        {
+          "word": "so ",
+          "start": 170.57,
+          "end": 170.81
+        },
+        {
+          "word": "much ",
+          "start": 170.81,
+          "end": 170.97
+        },
+        {
+          "word": "for ",
+          "start": 170.97,
+          "end": 171.20999999999998
+        },
+        {
+          "word": "all ",
+          "start": 171.20999999999998,
+          "end": 171.37
+        },
+        {
+          "word": "the ",
+          "start": 171.37,
+          "end": 171.53
+        },
+        {
+          "word": "info, ",
+          "start": 171.53,
+          "end": 172.01
+        },
+        {
+          "word": "and ",
+          "start": 172.01,
+          "end": 172.09
+        },
+        {
+          "word": "have ",
+          "start": 172.09,
+          "end": 172.32999999999998
+        },
+        {
+          "word": "a ",
+          "start": 172.32999999999998,
+          "end": 172.48999999999998
+        },
+        {
+          "word": "great ",
+          "start": 172.48999999999998,
+          "end": 172.64999999999998
+        },
+        {
+          "word": "night. ",
+          "start": 172.64999999999998,
+          "end": 172.89
+        },
+        {
+          "word": "See ",
+          "start": 173.17999999999998,
+          "end": 173.49999
+        },
+        {
+          "word": "you ",
+          "start": 173.49999,
+          "end": 173.66
+        },
+        {
+          "word": "soon. ",
+          "start": 173.66,
+          "end": 173.89999999999998
+        }
+      ]
+    }
+  ],
+  "recording_url": "https://dxc03zgurdly9.cloudfront.net/80aeca3c2201d8a6be32448f8aeae5022e34e5e86660b53a732ad9d1983e7dcf/recording.wav",
+  "recording_multi_channel_url": "https://dxc03zgurdly9.cloudfront.net/80aeca3c2201d8a6be32448f8aeae5022e34e5e86660b53a732ad9d1983e7dcf/recording_multichannel.wav",
+  "public_log_url": "https://dxc03zgurdly9.cloudfront.net/80aeca3c2201d8a6be32448f8aeae5022e34e5e86660b53a732ad9d1983e7dcf/public.log",
+  "disconnection_reason": "user_hangup",
+  "latency": {
+    "llm": {
+      "p99": 662.32,
+      "min": 462,
+      "max": 666,
+      "p90": 624.4,
+      "num": 17,
+      "values": [
+        643,
+        666,
+        509,
+        464,
+        545,
+        462,
+        519,
+        546,
+        612,
+        570,
+        553,
+        612,
+        520,
+        513,
+        475,
+        517,
+        481
+      ],
+      "p50": 520,
+      "sum": 9207,
+      "p95": 647.6
+    },
+    "e2e": {
+      "p99": 1840.36,
+      "min": 1718.010009765625,
+      "max": 1842,
+      "p90": 1825.6,
+      "num": 5,
+      "values": [
+        1801,
+        1722,
+        1781,
+        1842,
+        1718.010009765625
+      ],
+      "p50": 1781,
+      "sum": 8864.010009765625,
+      "p95": 1833.8
+    },
+    "tts": {
+      "p99": 532.8399999999998,
+      "min": 143,
+      "max": 559,
+      "p90": 336,
+      "num": 13,
+      "values": [
+        559,
+        290,
+        287,
+        273,
+        316,
+        228,
+        274,
+        194,
+        341,
+        290,
+        185,
+        235,
+        143
+      ],
+      "p50": 274,
+      "sum": 3615,
+      "p95": 428.1999999999997
+    },
+    "asr": {
+      "p99": 284.32,
+      "min": 37,
+      "max": 287,
+      "p90": 260.2,
+      "num": 5,
+      "values": [
+        287,
+        103,
+        220,
+        37,
+        204
+      ],
+      "p50": 204,
+      "sum": 851,
+      "p95": 273.59999999999997
+    }
+  },
+  "metadata": {
+    "scenario": "lana_study_menu"
+  },
+  "call_cost": {
+    "total_duration_unit_price": 0.2166667,
+    "product_costs": [
+      {
+        "unit_price": 0.0916667,
+        "product": "retell_voice_engine",
+        "cost": 16.0416725
+      },
+      {
+        "unit_price": 0.025,
+        "product": "platform_tts",
+        "cost": 4.375
+      },
+      {
+        "unit_price": 0.075,
+        "product": "gpt_4_1",
+        "cost": 13.125
+      },
+      {
+        "unit_price": 0.025,
+        "product": "us_twilio_telephony",
+        "cost": 4.375
+      },
+      {
+        "unit_price": 1.5,
+        "product": "gpt_4_1_text_testing",
+        "cost": 1.5
+      }
+    ],
+    "combined_cost": 39.4166725,
+    "total_duration_seconds": 175
+  },
+  "call_analysis": {
+    "in_voicemail": false,
+    "call_summary": "The agent called to book a table for Saturday night at Boardwalk Beer Garden for a birthday celebration. The user provided a reservation link and explained that a team member would follow up regarding special requests, group size, minimum spend, birthday arrangements, and table time limits. The agent expressed appreciation and confirmed they would book through the link.",
+    "user_sentiment": "Positive",
+    "custom_analysis_data": {},
+    "call_successful": true
+  },
+  "data_storage_setting": "everything",
+  "opt_in_signed_url": false,
+  "llm_token_usage": {
+    "values": [
+      389,
+      413,
+      418,
+      428,
+      436,
+      441,
+      461,
+      565,
+      575,
+      591,
+      590,
+      604,
+      693,
+      699,
+      704,
+      726,
+      730,
+      852,
+      854,
+      875,
+      997,
+      1064
+    ],
+    "average": 641.1363636363636,
+    "num_requests": 22
+  },
+  "tool_calls": [],
+  "from_number": "+16467603781",
+  "to_number": "+19292056408",
+  "direction": "outbound",
+  "telephony_identifier": {
+    "twilio_call_sid": "CAd46b8abcb8440baf679ab5114568bc2e"
+  },
+  "pcap_url": "https://dxc03zgurdly9.cloudfront.net/80aeca3c2201d8a6be32448f8aeae5022e34e5e86660b53a732ad9d1983e7dcf/call_7832ec7662c558ac7ebd8977249.pcap"
+}

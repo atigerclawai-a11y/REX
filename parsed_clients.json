@@ -1,0 +1,9277 @@
+[
+  {
+    "name": "Sila Keech",
+    "selections": {
+      "Mon": {
+        "salad": "Оливье",
+        "soup": "Харчо",
+        "main": null,
+        "side": "Стручковая фасоль"
+      },
+      "Tue": {
+        "salad": "Оливье",
+        "soup": "Харчо",
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": "Куриный суп",
+        "main": "Вареники с мясом",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Квашеная капуста",
+        "soup": "Гороховый суп",
+        "main": "Вареники с мясом",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Z Ita",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Гуляш",
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "T CRON eheKiCe alee",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Рыбный суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат Цезарь",
+        "soup": "Рыбный суп",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Aa Rat Dr eA Kin",
+    "selections": {
+      "Mon": {
+        "salad": "Оливье",
+        "soup": "Харчо",
+        "main": "Гуляш",
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Оливье",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": "Гречка"
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "ADrcouuy tr we Vibe",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "H AYY A PAKO",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "K VO O CCOY",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "SS i A VE VY LW ay",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Boris Volov",
+    "selections": {
+      "Mon": {
+        "salad": "Квашеная капуста",
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "van Laplape",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Vojeg KeLlyr Toh",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Свёкла",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Wire N ofp .",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Рыбный суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": "Овощной суп",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "fey NH BT cP YT AT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Lyuthruslo. Va Uliokhe chensco Henens a3 EEA",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "R OM al",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MH BT cP HT OAT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Голубцы",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": "Борщ зелёный",
+        "main": "Голубцы",
+        "side": null
+      },
+      "Thu": {
+        "salad": "Весенний салат",
+        "soup": "Борщ зелёный",
+        "main": "Вареники с мясом",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "wa Mee uene CopPiepoa",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Pat andibp SLiyaguc tieaseses",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Свёкла",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Свёкла",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Ekba Ru eins kaya",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": "Вареники с мясом",
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": "Вареники с мясом",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "OnusBbe Cano KBawieHand KanyctTa",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Aobotrro bahia",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH Br CP HT AT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": "Гороховый суп",
+        "main": "Вареники с мясом",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Свёкла",
+        "soup": "Гороховый суп",
+        "main": "Каша с помидорами",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "OC A Mnar Bobollr pereng 0318 7",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "bu yep AviOK",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Сало",
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат из баклажан",
+        "soup": "Борщ красный",
+        "main": "Вареники с творогом",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "IS RU d Ic Wa Zz v hid Henens he 14 20 26",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Голубцы",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": "Гороховый суп",
+        "main": "Вареники с мясом",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат из баклажан",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "TFOpoxosBbin cyn -pwOuHonm cyn",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Винегрет",
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "OnMBbe",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": "Винегрет",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Картошка по-деревенски"
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Laun kevicl",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "VY LOCAL mir",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH BT cCP fe",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Стручковая фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Cenenka CanaT BeCeHHMK",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Голубцы",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Овощной суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": "Вареники с мясом",
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": "Овощной суп",
+        "main": "Каша с помидорами",
+        "side": "Картошка по-деревенски"
+      }
+    }
+  },
+  {
+    "name": "A CL bo C Hajeure",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Or0dsiey Va leuy",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": "Куриные крылышки",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Leen te CA",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Lvtor Ay oer",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "AVakya WV bie Cet YOsenenn ge Tk",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Свинина отбивная",
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "G ert Ca areal Rena 9 Henens Q34",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "49a 4 may bo",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": "Сало",
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Салат Цезарь",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH BT CP",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Raised Nealthe rn",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Салат из баклажан",
+        "soup": "Харчо",
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": "Борщ зелёный",
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат из баклажан",
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Kh gt Ninek",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Борщ зелёный",
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "LWA Zh COVA",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": "Курица в терияки",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "LAR SA LIM SIC - -",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MUS ZUR C Clef",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Ova Meyprn v0 reo.",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Nadi Afe Lit bs bovs OO.",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Aadka I luSkiy Aleksandr Henens 3.86 LE",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Оливье",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Квашеная капуста",
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "KAKAMH K Sk AYIA Be VET LANA Henens OF AS eG",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Z Yin ff Zo 3 Lb Wey",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "S oft sc lots Va Uy Henesna",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "4 MM Vy Curd",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "A itive Vor iba 12",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Shklossexs Cr to -",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH BT cP YT AT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Шницель куриный",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Овощной суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Винегрет",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "N LQ. eaeonoA",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Mac CTA tie 3 lyee rr",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Lepgeuil LM pe",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": "Курица в терияки",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "VYrCcutliv a Sy Hi Cte100",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Свекла",
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Винегрет",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NAVA",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Cano KBawienanw Kanycta CBpekna",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "W OD Ws 2 CT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": "Курица в терияки",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NEIT SOW Ske Cy Hegensa",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "2 leicfe n CZ Lobe ber he",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "org lalyshova",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": ". lavage",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MH Br cP YT AT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "LK V CL L CV it",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Nivowocls S OC MLO LHER_",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "KMOPOFOVGLY JLYL Henens WB 3 04. 46",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Свёкла",
+        "soup": "Овощной суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": "Овощной суп",
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "laidebceyva Ly low",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Куриный суп",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": "Оливье",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Оливье",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "E du Tr Gor bu nov",
+    "selections": {
+      "Mon": {
+        "salad": "Оливье",
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MH Br cCP YT AT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MH BT cCP HT AT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Гуляш",
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": "Вареники с мясом",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Kats aa",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "ws. Boris Vo lov",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MH Br cCP HT AT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Гуляш",
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Салат Цезарь",
+        "soup": "Куриный суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": "Вареники с творогом",
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "U S Ci ch Mk 4-0",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Cf hey 7 J Ve IL 2A SE",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MH BT CP YT MT",
+    "selections": {
+      "Mon": {
+        "salad": "Квашеная капуста",
+        "soup": "Харчо",
+        "main": "Гуляш",
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "GAL 4 LL",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "pina L evteove",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Оливье",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Thu": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат из баклажан",
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH Br cP HT OT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": "Гуляш",
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Lipa hat 1 2 Hegensa",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MH BT C YT MT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "a sj",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Ls An K PSHTe in",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Гуляш",
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Свёкла",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "sal rg Mp kler",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Шницель куриный",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Оливье",
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Весенний салат",
+        "soup": "Рыбный суп",
+        "main": "Вареники с мясом",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH BT CP YT NT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "na bol Y rena elm an",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Гуляш",
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": "Овощной суп",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Квашеная капуста",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Lily UG Gourde Dae iH Henens 03 2 3 J 903",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "AO par",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "wa Pe. Y astieg ch eb ede NH BT CP UT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Гуляш",
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "ll S nH BT cP Ge",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Kea - iL Led fl. Henensi 3 f L016",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MH BT cP",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Vek el Ly Su ext BLL",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Гуляш",
+        "side": null
+      },
+      "Tue": {
+        "salad": "Салат из баклажан",
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": null,
+        "main": "Вареники с мясом",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Сало",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "s ALSMVA - ANEILOUR Henens O3 24.2026",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "HOK cyn",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Aa yi Se Néernme ro- Hegesna",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "LCL Pi SER 4G UY Fe",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Ute ee Tf PEF ff W O Lee",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Shiva UM isch atlloe Hegensa",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "elu bLyYY",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Nhitel made l Lope Hegens",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": "Гуляш",
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "LD A440",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Core be Lit Za",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Сало",
+        "soup": "Рыбный суп",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "L-0 Cole Kev",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH BT cP a",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "AC avaiyg Sheper",
+    "selections": {
+      "Mon": {
+        "salad": "Оливье",
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Сало",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Весенний салат",
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Свёкла",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "we VQVAL SALSA AM OVICL",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "2 he San ol Fu. Jerhi gon e6",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": "Оливье",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": "Борщ зелёный",
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": "Каша с помидорами",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "4 Wtots J Ser Y Gen LO",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Loanid Grishin",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": "Оливье",
+        "soup": "Харчо",
+        "main": null,
+        "side": "Гречка"
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Оливье",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "SBS fu foo NEN OVY CK",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "c e NH Br cP YT AT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Pa Viol fu Or rode",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH BT CP YT OT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Le 2 O LLL ji Ge te",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "BI marek",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Квашеная капуста",
+        "soup": null,
+        "main": "Вареники с мясом",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "S LV bee",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Гуляш",
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "J C Seu ZL. ky 04",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Lop od hove f LELO th",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "bee Me AL Cc Lk Z oy Ky of",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Салат из баклажан",
+        "soup": "Харчо",
+        "main": "Голубцы",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": "Овощной суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Свёкла",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "OM AW JUSUPOU denen C3 24",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Куриный суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": "Курица в терияки",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MOR 4 Royse tsy",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "A. Beoty ide vaya.",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Борщ зелёный",
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Thu": {
+        "salad": "Винегрет",
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Log a Qkhlar",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Картошка по-деревенски"
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "beri x Llinans Liy",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Винегрет",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "B27 sd ben deagh aCe ae",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Probe Swetlowb-",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Lanvbachev tA Tipti WA",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "OTL Potes OK Henens 3.2 V LE",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MH Br cP UT MT",
+    "selections": {
+      "Mon": {
+        "salad": "Оливье",
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ зелёный",
+        "main": "Голубцы",
+        "side": null
+      },
+      "Thu": {
+        "salad": "Свёкла",
+        "soup": null,
+        "main": "Вареники с мясом",
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "OLYEACMMHUVR pele pee-_ Sve fk henenn",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Pasta"
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Gey lh LOC OK Henens oO he XL AG",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "boryaehcovsaiy pees a pp wdene",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MH Br CP YT AT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": "Гуляш",
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Оливье",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": "Борщ зелёный",
+        "main": "Голубцы",
+        "side": null
+      },
+      "Thu": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": "Вареники с мясом",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "mH BT CP UT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Let tieg te4",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "ma Let 4 Atl Cy",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Cot MA FPF CYL C4",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Lthd OF EPA CE Y Fi-tKR-",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "U x dG PO Lf IC",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "A ade hide Cold felol",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Birks habe Any",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": "Гуляш",
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "5B Wo Pci NCL",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "7 aeete- and obec Lr_",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Голубцы",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Сало",
+        "soup": "Борщ красный",
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат из баклажан",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "mH BT CP",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH BT cP HT AT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Оливье",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": "Рыбный суп",
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Винегрет",
+        "soup": null,
+        "main": "Вареники с творогом",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "ee pealhny Ecol ex",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "6 LORY APD",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": "Оливье",
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Оливье",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "HN tpett NH BT CP od",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH BT cP",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Key ppt.h EA er",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Куриный суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Rai S H 'Z OE",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Свекла",
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Свёкла",
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": "Куриный суп",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат Цезарь",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "CA CA EC htikhman",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": "Оливье",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Сало",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Сало",
+        "soup": "Борщ зелёный",
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Mder Beeshteyn",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Оливье",
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Свекла",
+        "soup": "Овощной суп",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Potty aq TO K OK",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "OnuBbe Cano KBawenHaa Kanycta CBekna",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "sue e r FOECKKIICZE. Henens BLZYA RL",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "J A",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Картошка по-деревенски"
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "TH BT cP HT OMT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": "Борщ зелёный",
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Sh Y D hina No",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат из баклажан",
+        "soup": "Рыбный суп",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Ave tran q Bono A a .",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Radeba CmMUelLeLeNwg",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": "Курица в терияки",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Fo like ZL oye yan",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Куриный суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Сало",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": "Куриный суп",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "A CAtthe",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Голубцы",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Tunas rr orl fy Fl Fd NH BT CP YT AT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Куриный суп",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": "Оливье",
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Салат Цезарь",
+        "soup": "Куриный суп",
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": "Куриный суп",
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "A Rohyvr Kor ZS",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Krag Wor VA. keg ULA Henens",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "ko Lox T ag fAe-",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Tamra Shapory",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "LY a Serre ty alleL Alenens SO F4 BA ee",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Kaisa. Oceuskeya",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MILe E LEI",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "i MY 4p ay Der",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Vo 11 2 by GY",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "LAC AG MWA V OVE",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "2 LLA J h Loy Vk BAA",
+    "selections": {
+      "Mon": {
+        "salad": "Квашеная капуста",
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "2 soy 4D SAR ead FLO Henens",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "pteno. LNG SL 2.2",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Line hc ow OF",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": "Овощной суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Semen fol outantobbanty",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Vadem yvehe",
+    "selections": {
+      "Mon": {
+        "salad": "Квашеная капуста",
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Шницель куриный",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH Br cCP UT OT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Оливье",
+        "soup": null,
+        "main": "Голубцы",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Свекла",
+        "soup": "Борщ красный",
+        "main": "Голубцы",
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": "Вареники с мясом",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Квашеная капуста",
+        "soup": "Гороховый суп",
+        "main": "Вареники с мясом",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Olax L ROC biK",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Куриные крылышки",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "au a Chop ko",
+    "selections": {
+      "Mon": {
+        "salad": "Квашеная капуста",
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "6 1 4G PBe2vptbes vnc rephrs LIMMUEC",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "wa BiaNY LURShEA",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Куриные крылышки",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Tero s cay a fafyanfa. Henens 27 23 2026",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH Br cCP UT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "U- 7t e ffb UO",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Весенний салат",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат из баклажан",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "BJIMNHbI C MACOM",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Винегрет",
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "a. f",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "fier be Kegon",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат из баклажан",
+        "soup": "Куриный суп",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "LTS Kats",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Kerk By 7 Hegens",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Винегрет",
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Свёкла",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Свёкла",
+        "soup": "Борщ зелёный",
+        "main": "Вареники с творогом",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Свёкла",
+        "soup": "Гороховый суп",
+        "main": "Вареники с творогом",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "4 Can ade OPEC LOC fe",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Куриный суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": "Куриный суп",
+        "main": "Вареники с мясом",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": "Вареники с мясом",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "ATVAQ S Wa Win",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "4 L Via yer Alen",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Квашеная капуста",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Tanta Seven SC are roy 03 23",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": "Свекла",
+        "soup": null,
+        "main": "Голубцы",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Куриный суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": "Куриный суп",
+        "main": "Вареники с творогом",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": "Вареники с творогом",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Leib ntlie Md Va vr",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "ce OLY bre vy Ard aoe Henens OC 3 2 3 aE",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Mire ize lu an",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "ip WQ A ON",
+    "selections": {
+      "Mon": {
+        "salad": "Квашеная капуста",
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "lads Ks RQ Buatick bir",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": "Гуляш",
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Куриные крылышки",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Sswerey Ga Qu etlanbh",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "DO2LS Ma ly jl",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "autsento Lyarey3a",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Ly oles Ly DAK",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Куриный суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Овощной суп",
+        "main": "Голубцы",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Вареники с мясом",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Квашеная капуста",
+        "soup": "Куриный суп",
+        "main": "Каша с помидорами",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Proll yojerry",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "DLP LVEVA TAMARA",
+    "selections": {
+      "Mon": {
+        "salad": "Оливье",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Салат Цезарь",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат Цезарь",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "LALYADA Satonova",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "hapise ie Attoe.",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MH BT cP HT ONT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": "Борщ зелёный",
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": "Борщ зелёный",
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": "Вареники с мясом",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "WAIN buiped. CA",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MH BT cP YT OT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Сало",
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": "Овощной суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": "Овощной суп",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Jong f ii bella",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "h Chl rkttiele __ -",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": "Голубцы",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": "Овощной суп",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "VUGE VY eye Cp",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH BT cP HT AT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MW sh Re IVv aWwov ky wenens 30",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Diaeh enko Malina",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "i J",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MH BT CP HT OT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Стручковая фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "MH Br cCP YT NT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Gal Mor Fine non Henens 4f 2 af 26",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Valentina Sayen KO",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Голубцы",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Салат Цезарь",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат Цезарь",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Clarina She POY",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Сало",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH BT CP Le",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "vatik Ul aia Haein",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Салат из баклажан",
+        "soup": "Харчо",
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "t TH BT cP YT NT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Mere QM Hipel cHenens S003 - -Y.0Y",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Куриный суп",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "f o0 nid LéIn",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": "Винегрет",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Квашеная капуста",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Levin Leon ol",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Larrsg Larclen Ate WZ",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "LG C2. LE odoRo Wa",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": "Овощной суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": "Борщ красный",
+        "main": "Вареники с творогом",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "y la LG EO i tage",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Newari Luti7 8 tenens",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Liles pod trade",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": "Курица в терияки",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "kag sverw ALY",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH Br cCP UT AT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "TH Br CP YT NNT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Порадо запечённое",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "OnuBbe Cano KBawienaa Kanycta CsBekna",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Liyihor levemac. Henens asec",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Гуляш",
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Йогурт"
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Ee nuk Koro",
+    "selections": {
+      "Mon": {
+        "salad": "Оливье",
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": "Оливье",
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Борщ зелёный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат из баклажан",
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "E PUS4",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Sima valet",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "ws MDL rrr Tepe. Henens NH BT cP",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Zuckhre thesh ove",
+    "selections": {
+      "Mon": {
+        "salad": "Квашеная капуста",
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": "Вареники с творогом",
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Rte V Cf Syvetlble",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "ZAPATA TD v - Hegens",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Zz ger ing ESR.",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Dakprted Cr-O",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Baca c nomugopamn To OD oO",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": "Рыбный суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": "Рыбный суп",
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "SLocapo e 420d 066 Henens 3. 29. 2E",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Котлеты куриные",
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": "Овощной суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": "Вареники с мясом",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "NH Br cP HT OT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": "Голубцы",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ красный",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Салат Цезарь",
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "nH BT cP a sj",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Ky JibeH KoTnetbl KypuHbie",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": "Свёкла",
+        "soup": null,
+        "main": "Голубцы",
+        "side": null
+      },
+      "Wed": {
+        "salad": "Салат Цезарь",
+        "soup": "Борщ зелёный",
+        "main": "Курица в терияки",
+        "side": null
+      },
+      "Thu": {
+        "salad": "Салат из баклажан",
+        "soup": "Гороховый суп",
+        "main": "Голубцы",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": "Гороховый суп",
+        "main": "Голубцы",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "Ay oN ILA YY",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "L2Y 7a RoldKh",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": "Гуляш",
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Весенний салат",
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": "Вареники с мясом",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": null,
+        "main": "Вареники с мясом",
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "J iG Lololty C0",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "VG yi hod",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": "Харчо",
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": "Салат из баклажан",
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": "Квашеная капуста",
+        "soup": "Борщ зелёный",
+        "main": "Голубцы",
+        "side": null
+      },
+      "Thu": {
+        "salad": "Квашеная капуста",
+        "soup": "Гороховый суп",
+        "main": "Каша с помидорами",
+        "side": null
+      },
+      "Fri": {
+        "salad": "Весенний салат",
+        "soup": "Гороховый суп",
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "ah UDC Mar pe Hegens",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": "Фасоль"
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  },
+  {
+    "name": "EMPLOYEE PHYSICAL EXAMINATION REPORT",
+    "selections": {
+      "Mon": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Tue": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Wed": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Thu": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      },
+      "Fri": {
+        "salad": null,
+        "soup": null,
+        "main": null,
+        "side": null
+      }
+    }
+  }
+]

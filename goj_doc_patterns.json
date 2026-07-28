@@ -1,0 +1,231 @@
+[
+  {
+    "doc_type": "menu",
+    "filename": "Friday 4.10 menu.pdf",
+    "learned_at": "2026-04-13T03:55:51.027279",
+    "features": {
+      "filename_stem": "friday 4.10 menu",
+      "file_size_kb": 19720.8,
+      "char_count": 0,
+      "line_count": 0,
+      "cyrillic_ratio": 0.0,
+      "has_auth_keywords": false,
+      "has_menu_keywords": false,
+      "has_signin_keywords": false,
+      "has_driver_keywords": false,
+      "top_words": [],
+      "checkmark_density": 0.0
+    }
+  },
+  {
+    "doc_type": "misc",
+    "filename": "Menu sent thurday 4.9.pdf",
+    "learned_at": "2026-04-13T03:58:01.683177",
+    "features": {
+      "filename_stem": "menu sent thurday 4.9",
+      "file_size_kb": 12842.0,
+      "char_count": 0,
+      "line_count": 0,
+      "cyrillic_ratio": 0.0,
+      "has_auth_keywords": false,
+      "has_menu_keywords": false,
+      "has_signin_keywords": false,
+      "has_driver_keywords": false,
+      "top_words": [],
+      "checkmark_density": 0.0
+    }
+  },
+  {
+    "doc_type": "misc",
+    "filename": "email_20260414_104306_Receipt-2456-9920-8671.pdf",
+    "learned_at": "2026-04-14T10:43:50.231036",
+    "features": {
+      "filename_stem": "email_20260414_104306_receipt-2456-9920-8671",
+      "file_size_kb": 32.5,
+      "char_count": 918,
+      "line_count": 30,
+      "cyrillic_ratio": 0.0,
+      "has_auth_keywords": false,
+      "has_menu_keywords": false,
+      "has_signin_keywords": false,
+      "has_driver_keywords": false,
+      "top_words": [
+        "paid",
+        "payment",
+        "receipt",
+        "number",
+        "april",
+        "anthropic",
+        "amount",
+        "date",
+        "atigerclawai",
+        "gmail",
+        "francisco",
+        "york"
+      ],
+      "checkmark_density": 0.23
+    }
+  },
+  {
+    "doc_type": "menu",
+    "filename": "email_20260421_113201_doc00277520260420160304.pdf",
+    "learned_at": "2026-04-21T11:34:05.939135",
+    "features": {
+      "filename_stem": "email_20260421_113201_doc00277520260420160304",
+      "file_size_kb": 818.4,
+      "char_count": 1,
+      "line_count": 0,
+      "cyrillic_ratio": 0.0,
+      "has_auth_keywords": false,
+      "has_menu_keywords": false,
+      "has_signin_keywords": false,
+      "has_driver_keywords": false,
+      "top_words": [],
+      "checkmark_density": 0.0
+    }
+  },
+  {
+    "doc_type": "misc",
+    "filename": "Gennadi Gugilov.pdf",
+    "learned_at": "2026-05-28T13:22:06.915609",
+    "features": {
+      "filename_stem": "gennadi gugilov",
+      "file_size_kb": 431.8,
+      "char_count": 0,
+      "line_count": 0,
+      "cyrillic_ratio": 0.0,
+      "has_auth_keywords": false,
+      "has_menu_keywords": false,
+      "has_signin_keywords": false,
+      "has_driver_keywords": false,
+      "top_words": [],
+      "checkmark_density": 0.0
+    }
+  },
+  {
+    "doc_type": "misc",
+    "filename": "email_20260417_100831_liability insurance 2025.pdf",
+    "learned_at": "2026-06-14T15:52:29.626185",
+    "features": {
+      "filename_stem": "email_20260417_100831_liability insurance 2025",
+      "file_size_kb": 579.1,
+      "char_count": 0,
+      "line_count": 0,
+      "cyrillic_ratio": 0.0,
+      "has_auth_keywords": false,
+      "has_menu_keywords": false,
+      "has_signin_keywords": false,
+      "has_driver_keywords": false,
+      "top_words": [],
+      "checkmark_density": 0.0
+    }
+  },
+  {
+    "doc_type": "staff_files",
+    "filename": "email_20260417_121337_doc00234320260410153141.pdf",
+    "learned_at": "2026-06-14T15:58:07.218165",
+    "features": {
+      "filename_stem": "email_20260417_121337_doc00234320260410153141",
+      "file_size_kb": 1216.1,
+      "char_count": 0,
+      "line_count": 0,
+      "cyrillic_ratio": 0.0,
+      "has_auth_keywords": false,
+      "has_menu_keywords": false,
+      "has_signin_keywords": false,
+      "has_driver_keywords": false,
+      "top_words": [],
+      "checkmark_density": 0.0
+    }
+  },
+  {
+    "doc_type": "menu",
+    "filename": "scan_20260427_1525b.pdf",
+    "learned_at": "2026-06-14T15:59:29.015990",
+    "features": {
+      "filename_stem": "scan_20260427_1525b",
+      "file_size_kb": 19408.8,
+      "char_count": 0,
+      "line_count": 0,
+      "cyrillic_ratio": 0.0,
+      "has_auth_keywords": false,
+      "has_menu_keywords": false,
+      "has_signin_keywords": false,
+      "has_driver_keywords": false,
+      "top_words": [],
+      "checkmark_density": 0.0
+    }
+  },
+  {
+    "doc_type": "signin",
+    "filename": "scan_20260429_0443.pdf",
+    "learned_at": "2026-06-14T16:03:02.384514",
+    "features": {
+      "filename_stem": "scan_20260429_0443",
+      "file_size_kb": 1351.2,
+      "char_count": 0,
+      "line_count": 0,
+      "cyrillic_ratio": 0.0,
+      "has_auth_keywords": false,
+      "has_menu_keywords": false,
+      "has_signin_keywords": false,
+      "has_driver_keywords": false,
+      "top_words": [],
+      "checkmark_density": 0.0
+    }
+  },
+  {
+    "doc_type": "staff_files",
+    "filename": "email_20260414_043215_doc00234320260410153141.pdf",
+    "learned_at": "2026-06-15T10:11:51.807926",
+    "features": {
+      "filename_stem": "email_20260414_043215_doc00234320260410153141",
+      "file_size_kb": 1216.1,
+      "char_count": 0,
+      "line_count": 0,
+      "cyrillic_ratio": 0.0,
+      "has_auth_keywords": false,
+      "has_menu_keywords": false,
+      "has_signin_keywords": false,
+      "has_driver_keywords": false,
+      "top_words": [],
+      "checkmark_density": 0.0
+    }
+  },
+  {
+    "doc_type": "staff_files",
+    "filename": "email_20260414_043101_doc00235820260410154930.pdf",
+    "learned_at": "2026-06-15T10:15:53.897989",
+    "features": {
+      "filename_stem": "email_20260414_043101_doc00235820260410154930",
+      "file_size_kb": 1279.3,
+      "char_count": 0,
+      "line_count": 0,
+      "cyrillic_ratio": 0.0,
+      "has_auth_keywords": false,
+      "has_menu_keywords": false,
+      "has_signin_keywords": false,
+      "has_driver_keywords": false,
+      "top_words": [],
+      "checkmark_density": 0.0
+    }
+  },
+  {
+    "doc_type": "menu",
+    "filename": "scan_20260501_1217.pdf",
+    "learned_at": "2026-06-15T10:16:34.973036",
+    "features": {
+      "filename_stem": "scan_20260501_1217",
+      "file_size_kb": 9337.3,
+      "char_count": 0,
+      "line_count": 0,
+      "cyrillic_ratio": 0.0,
+      "has_auth_keywords": false,
+      "has_menu_keywords": false,
+      "has_signin_keywords": false,
+      "has_driver_keywords": false,
+      "top_words": [],
+      "checkmark_density": 0.0
+    }
+  }
+]

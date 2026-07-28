@@ -1,0 +1,24 @@
+GOJ DAILY FILES — COMPLETE
+Generated: Wed Jul 8 2026
+
+FILES SAVED TO: ~/Documents/goj files/output_docs/
+
+WEDNESDAY JUL 8 (today):
+  ✅ GOJ_W_S1_Wednesday_signin.pdf    — 73 clients
+  ✅ GOJ_W_S2_Wednesday_signin.pdf    — 95 clients
+  ✅ GOJ_W_S1_Wednesday_drivers.pdf   — 9 pages
+  ✅ GOJ_W_S2_Wednesday_drivers.pdf   — 9 pages
+
+THURSDAY JUL 9 (tomorrow):
+  ✅ GOJ_TH_S1_Thursday_signin.pdf    — 94 clients
+  ✅ GOJ_TH_S2_Thursday_signin.pdf    — 66 clients
+  ✅ GOJ_TH_S1_Thursday_drivers.pdf   — 9 pages
+  ✅ GOJ_TH_S2_Thursday_drivers.pdf   — 9 pages
+
+⚠️  DISTRIBUTION + KITCHEN: BLOCKED
+    GOJ_Menu_Orders.json is empty.
+    This week's menus have not been OCR'd yet.
+    Rerun generate_tomorrow.py --mode distribution after Allen's scans come through.
+
+NOTE: Cowork iOS is not rendering chat responses (known bug).
+      This file was written as a fallback notification.

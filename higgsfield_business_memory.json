@@ -1,0 +1,946 @@
+{
+  "version": "3.1.0",
+  "created": "2026-06-18",
+  "last_updated": "2026-07-01",
+  "update_note": "Added categories array to foh.menu for daemon compatibility",
+  "business": {
+    "name": "Boardwalk Beer Garden",
+    "short_name": "BBG",
+    "instagram": "@boardwalkbeergarden",
+    "instagram_id": "27923669980556036",
+    "website": "https://boardwalkbeergarden.com",
+    "phone": "(929) 205-6408",
+    "email": "info@boardwalkbeergarden.com",
+    "address": "3152 Brighton 6th St, Suite 3, Brooklyn, NY 11235",
+    "entrance": "On the boardwalk",
+    "established": 2023,
+    "location": "Brighton Beach, Brooklyn",
+    "hours": {
+      "monday": "5:00 PM – 1:00 AM",
+      "tuesday": "5:00 PM – 1:00 AM",
+      "wednesday": "5:00 PM – 1:00 AM",
+      "thursday": "5:00 PM – 1:00 AM",
+      "friday": "5:00 PM – 1:00 AM",
+      "saturday": "12:00 PM – 1:00 AM",
+      "sunday": "12:00 PM – 1:00 AM",
+      "note": "Open 7 days a week. Weekdays open at 5 PM, weekends at noon."
+    },
+    "happy_hour": {
+      "days": "Monday through Thursday",
+      "time": "5:00 PM – 7:00 PM",
+      "deal": "Buy 2 beers, get 1 FREE",
+      "tagline": "Because one round is never enough"
+    },
+    "group_special": {
+      "days": "Monday, Tuesday, Wednesday",
+      "deal": "Groups of 10+ who book a table get a complimentary serving of beer",
+      "requirement": "Reservations required — book via website"
+    },
+    "current_promotion": "Buy 2 Get 1 Free on drafts (happy hour Mon-Thu 5-7 PM)",
+    "promotion_active": true,
+    "promotion_note": "NOT $5 drafts — confirmed June 2026. Happy hour promo is distinct from general weekend promo.",
+    "tone": "Warm, energetic, sports-bar, community-focused",
+    "brand_voice": "Boardwalk/beach energy, nautical retro, Slavic-Brooklyn fusion, no corporate-speak",
+    "menu_highlights": [
+      "Slavic classics (Pelmeni, Chebureki, Solyanka)",
+      "Burger bar (Boardwalk Burger, Mermaid Burger)",
+      "Seafood (Lobster & Shrimp Tacos, Crawfish, Mussels)",
+      "Shawarma & Wraps",
+      "14 rotating draft beers",
+      "Craft cocktails (Negroni, Mermaid Margarita, Pornstar Margarita)"
+    ],
+    "features": [
+      "150\" 8K screen — first & only sports bar in South Brooklyn",
+      "15+ TVs showing all major & minor sports",
+      "14-beer draft system with rotating international selection",
+      "Full bar with craft cocktails",
+      "Wines from France and Napa Valley",
+      "State-of-the-art jukebox",
+      "Ocean views — right on the boardwalk",
+      "Catering & private events"
+    ],
+    "color_palette": {
+      "gold": "#C9A23B",
+      "black": "#000000",
+      "blue": "#3366CC",
+      "cream": "#FFFFFF"
+    },
+    "mascot": "Mermaid on barrel holding foaming beer mug — woodblock print style",
+    "logo_style": "Vertical oval emblem, gold rope border, blue halftone scanlines, vintage slab-serif text"
+  },
+  "hashtag_bank": {
+    "always": [
+      "#BoardwalkBeerGarden"
+    ],
+    "brooklyn": [
+      "#BrightonBeach",
+      "#BrooklynEats",
+      "#BrooklynNights",
+      "#ConeyIsland",
+      "#SouthBrooklyn"
+    ],
+    "food_drink": [
+      "#BeerGarden",
+      "#SlavicFood",
+      "#NYCFoodie",
+      "#CraftBeer",
+      "#SeafoodLovers",
+      "#HappyHour"
+    ],
+    "sports": [
+      "#SportsBar",
+      "#GameNight",
+      "#UFC",
+      "#WorldCup",
+      "#LetsGoKnicks",
+      "#NBAFinals"
+    ],
+    "vibes": [
+      "#NYCSummer",
+      "#WeekendVibes",
+      "#MermaidSeason",
+      "#GoodTimes",
+      "#SummerVibes",
+      "#BeachBar",
+      "#SunsetSips"
+    ],
+    "weekday": [
+      "#MondayMotivation",
+      "#TacoTuesday",
+      "#WineWednesday",
+      "#ThirstyThursday",
+      "#TGIF"
+    ],
+    "weekend_default": [
+      "#WeekendVibes",
+      "#SaturdayVibes",
+      "#SundayFunday"
+    ]
+  },
+  "content_calendar": {
+    "description": "7-day content calendar — BBG is open every day. Weekdays = happy hour + sports + dinner. Weekends = all-day beach energy.",
+    "monday": {
+      "goal": "Happy hour hype, Monday sports, group deals",
+      "content_types": [
+        "Happy hour reminder",
+        "Game schedule",
+        "Group deal promo",
+        "Menu feature"
+      ],
+      "tone": "Start the week right, happy hour energy",
+      "best_times": [
+        "3:00 PM",
+        "4:30 PM",
+        "7:00 PM"
+      ],
+      "caption_template": "weekday_happy_hour"
+    },
+    "tuesday": {
+      "goal": "Taco Tuesday / seafood features, happy hour",
+      "content_types": [
+        "Taco/seafood feature",
+        "Happy hour",
+        "Sports schedule",
+        "Drink spotlight"
+      ],
+      "tone": "Casual Tuesday energy, seafood + beer",
+      "best_times": [
+        "3:00 PM",
+        "4:30 PM",
+        "7:00 PM"
+      ],
+      "caption_template": "weekday_happy_hour"
+    },
+    "wednesday": {
+      "goal": "Midweek pick-me-up, wine + food, group deals",
+      "content_types": [
+        "Wine Wednesday",
+        "Food pairing",
+        "Group deal",
+        "Happy hour"
+      ],
+      "tone": "Midweek treat, half-way to weekend",
+      "best_times": [
+        "3:00 PM",
+        "4:30 PM",
+        "7:00 PM"
+      ],
+      "caption_template": "weekday_happy_hour"
+    },
+    "thursday": {
+      "goal": "Almost-weekend energy, Thirsty Thursday, weekend preview",
+      "content_types": [
+        "Thirsty Thursday",
+        "Weekend preview",
+        "Cocktail feature",
+        "Happy hour"
+      ],
+      "tone": "Pre-weekend excitement, 'one more day'",
+      "best_times": [
+        "3:00 PM",
+        "4:30 PM",
+        "8:00 PM"
+      ],
+      "caption_template": "weekday_happy_hour"
+    },
+    "friday": {
+      "goal": "TGIF, weekend kickoff, nightlife energy",
+      "content_types": [
+        "Weekend kickoff",
+        "Nightlife preview",
+        "TGIF happy hour",
+        "Sports weekend"
+      ],
+      "tone": "Electric, weekend starts NOW",
+      "best_times": [
+        "3:00 PM",
+        "5:00 PM",
+        "8:00 PM"
+      ],
+      "caption_template": "friday_kickoff"
+    },
+    "saturday": {
+      "goal": "All-day beach energy, peak sports, full menu showcase",
+      "content_types": [
+        "Open announcement",
+        "Atmosphere",
+        "Food/drink showcase",
+        "Sports action",
+        "Night energy"
+      ],
+      "tone": "Peak energy, 'this is where you want to be'",
+      "best_times": [
+        "11:00 AM",
+        "1:00 PM",
+        "5:00 PM",
+        "8:00 PM"
+      ],
+      "caption_template": "saturday_open",
+      "post_frequency": "3-5 posts"
+    },
+    "sunday": {
+      "goal": "Sunday Funday, brunch vibes, last pours",
+      "content_types": [
+        "Sunday Funday",
+        "Brunch",
+        "Day drinking",
+        "Last call reminder"
+      ],
+      "tone": "Chill, sunny, 'make it count'",
+      "best_times": [
+        "11:00 AM",
+        "2:00 PM",
+        "6:00 PM"
+      ],
+      "caption_template": "sunday_funday",
+      "post_frequency": "2-4 posts"
+    },
+    "event_specific": {
+      "ufc_night": {
+        "goal": "UFC watch party promotion",
+        "content_types": [
+          "Fight night schedule",
+          "Watch party announcement",
+          "Drink specials"
+        ],
+        "hashtags_extra": [
+          "#UFC",
+          "#FightNight",
+          "#MMANight"
+        ]
+      },
+      "world_cup": {
+        "goal": "World Cup watch party promotion",
+        "content_types": [
+          "Match schedule",
+          "Watch party",
+          "Specials",
+          "Team spirit"
+        ],
+        "hashtags_extra": [
+          "#WorldCup2026",
+          "#FIFAWorldCup",
+          "#SoccerWatchParty"
+        ]
+      },
+      "holiday": {
+        "goal": "Holiday-specific promotion",
+        "content_types": [
+          "Holiday menu",
+          "Themed decor",
+          "Special hours"
+        ],
+        "tone": "Festive, celebratory, themed"
+      }
+    }
+  },
+  "caption_templates": {
+    "weekday_happy_hour": "🍺 {day_of_week} Happy Hour — 5-7 PM! 🌊\n\nBuy 2 Beers, Get 1 FREE 🍺🍺→🍺\nBecause one round is never enough.\n\n[HAPPENING TODAY — sports, food feature, vibe]\n\n🍔 Full kitchen open: Slavic classics, seafood, burgers, shawarma\n⚽ [Sports schedule if applicable]\n🏖️ Ocean views, 14 drafts, 150\" screen\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open 5 PM – 1 AM\n\nTag your after-work crew 👇\n\n{hashtags}",
+    "friday_kickoff": "🌊 WEEKEND MODE: ACTIVATED 🍺\n\n[HOOK — weekend energy]\n\n🍺 Happy Hour 5-7 PM: Buy 2 Get 1 FREE\n⚽ Sports all weekend on our 150\" screen\n🍔 Full menu: Slavic classics, seafood, burgers, shawarma\n\n📍 Brighton Beach Boardwalk\n⏰ Tonight 5 PM – 1 AM | Sat-Sun 12 PM – 1 AM\n\nTag who you're bringing 👇\n\n{hashtags}",
+    "saturday_open": "🍺 IT'S A BOARDWALK SATURDAY! 🌊\n\nDoors open at noon — beach, beers, big screens.\n\n[TODAY'S VIBE HOOK]\n\n🍺 14 drafts flowing\n⚽ [Game schedule if applicable]\n🍔 Kitchen firing all day\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open 12 PM – 1 AM\n\n{hashtags}",
+    "atmosphere": "[HOOK — what's happening right now]\n\n🍺 Cold drafts, hot kitchen, big screens\n⚽ [Sports action description]\n\nEvery seat has ocean views. Every pour is ice cold.\n\n📍 Boardwalk Beer Garden — Brighton Beach\n⏰ Open till 1 AM\n\n{hashtags}",
+    "night_vibes": "🌙 The Boardwalk after dark…\n\n[MOOD DESCRIPTION]\n\n🍺 Late-night pours\n🍔 Kitchen open late\n🎵 Vibes till 1 AM\n\n📍 Brighton Beach, Brooklyn\n\n{hashtags}",
+    "sunday_funday": "☀️ Sunday Funday at the Boardwalk 🌊\n\n[CHILL VIBE HOOK]\n\n🍺 Cold drafts all day\n🍔 Full menu: brunch faves + full kitchen\n⚽ Sports on every screen\n\n📍 Brighton Beach, Brooklyn\n⏰ Open 12 PM – 1 AM — make it count!\n\n{hashtags}",
+    "food_feature": "🍽️ [DISH NAME] at Boardwalk Beer Garden 🍺\n\n[FOOD DESCRIPTION — what makes it special]\n\nPair it with one of our 14 drafts. Trust us.\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ [Today's hours]\n\n{hashtags}",
+    "sports": "⚽ GAME DAY at South Brooklyn's only sports bar 🍺\n\n[GAME DETAILS — who's playing, when]\n\n150\" 8K screen. 15+ TVs. 14 drafts.\nNo better place to watch in Brooklyn.\n\n🍺 Happy Hour [if applicable]\n🍔 Full menu all game long\n\n📍 Boardwalk Beer Garden — Brighton Beach\n⏰ [Today's hours]\n\n{hashtags}"
+  },
+  "posting_best_practices": {
+    "instagram": {
+      "optimal_times": [
+        "11:00 AM",
+        "3:00 PM",
+        "5:00 PM",
+        "8:00 PM"
+      ],
+      "post_frequency": "Weekdays: 1-2 posts/day. Weekends: 3-5 posts/day.",
+      "content_mix": "40% atmosphere/energy, 30% food/drink, 20% promo/events, 10% sports",
+      "caption_rules": [
+        "Hook in first line — grab attention immediately",
+        "Promotion visible and clear",
+        "Location + hours always included",
+        "8-12 hashtags, mix of local + food + sports + vibes",
+        "No corporate-speak — warm, energetic, real",
+        "Call to action: tag friends, come through, DM for tables"
+      ],
+      "reel_rules": [
+        "First 2 seconds must hook (fast cut, motion, text overlay)",
+        "15-30 seconds optimal",
+        "Vertical format (9:16)",
+        "Music: energetic, beach/summer vibes",
+        "Text overlay for key info (promo, hours)"
+      ]
+    },
+    "telegram": {
+      "optimal_times": [
+        "10:00 AM",
+        "5:00 PM"
+      ],
+      "post_frequency": "1-2 per day",
+      "content_mix": "Schedule updates, promo reminders, event announcements",
+      "tone": "Direct, informative, community-focused"
+    }
+  },
+  "post_history": [],
+  "learning_insights": {
+    "description": "Insights learned from past posts — what works, what doesn't",
+    "high_performing": [],
+    "low_performing": [],
+    "audience_notes": "BBG audience responds to: mermaid mascot content, food close-ups, game day energy, behind-the-scenes staff moments, beach/ocean views"
+  },
+  "foh": {
+    "menu": {
+      "source": "boardwalkbeergarden.com/menu — scraped 2026-06-22",
+      "appetizers": [
+        {
+          "name": "Jalapeno Poppers",
+          "price": 10.5
+        },
+        {
+          "name": "Nachos with Cheese",
+          "price": 9.0
+        },
+        {
+          "name": "Loaded Nachos",
+          "price": 17.0,
+          "description": "Chips, melted cheese, jalapenos, sour cream, mixed meats, salsa"
+        },
+        {
+          "name": "Chips with Guacamole",
+          "price": 11.0
+        },
+        {
+          "name": "Pretzel Bites with Cheese",
+          "price": 7.0
+        },
+        {
+          "name": "Fried Pickles (12 pcs)",
+          "price": 8.0
+        },
+        {
+          "name": "Corn Fritters (12 pcs)",
+          "price": 9.0
+        },
+        {
+          "name": "Cowboy Fritters",
+          "price": 9.0,
+          "description": "Corn & cheese fritters with jalapeño"
+        },
+        {
+          "name": "Mac-n-Cheese Bites",
+          "price": 9.0
+        },
+        {
+          "name": "Chebureki (2 pcs)",
+          "price": 15.0,
+          "description": "Fried meat pies with pork, onions, spices"
+        },
+        {
+          "name": "Potatoes with Mushrooms",
+          "price": 20.0
+        },
+        {
+          "name": "Salo with Garlic & Scallions",
+          "price": 18.0,
+          "description": "Cured pork fat, mustard, horseradish"
+        },
+        {
+          "name": "Smoked Seasoned Salo",
+          "price": 16.0
+        },
+        {
+          "name": "Boiled Siberian Pelmeni",
+          "price": 16.0,
+          "description": "Three-meat dumplings, sour cream"
+        },
+        {
+          "name": "Dumplings with Cherry",
+          "price": 13.0
+        },
+        {
+          "name": "Dumplings with Potatoes",
+          "price": 13.0
+        },
+        {
+          "name": "Fried Pelmeni",
+          "price": 16.0
+        }
+      ],
+      "seafood": [
+        {
+          "name": "Crab Cakes",
+          "price": 18.0
+        },
+        {
+          "name": "Crawfish (Raki)",
+          "price": 30.0,
+          "description": "Boiled, garlic butter"
+        },
+        {
+          "name": "Mussels in Red Sauce",
+          "price": 17.0
+        },
+        {
+          "name": "Mussels in White Sauce",
+          "price": 17.0
+        },
+        {
+          "name": "Battered Fried Shrimp",
+          "price": 17.0
+        },
+        {
+          "name": "Shrimp Scampi over Fettuccine",
+          "price": 20.0
+        },
+        {
+          "name": "Head-On Shrimp with Butter Garlic",
+          "price": 17.0
+        },
+        {
+          "name": "Fried Calamari",
+          "price": 16.0
+        },
+        {
+          "name": "Branzino with Mashed Potatoes",
+          "price": 31.0,
+          "description": "Whole fish, charcoal grilled & oven baked"
+        },
+        {
+          "name": "Salmon Steak with Mashed Potatoes",
+          "price": 30.0
+        }
+      ],
+      "meat": [
+        {
+          "name": "Chicken Nuggets & French Fries",
+          "price": 10.0
+        },
+        {
+          "name": "Chicken Tenders with Fries (4 pcs)",
+          "price": 12.0
+        },
+        {
+          "name": "Chicken Wings (8 pcs)",
+          "price": 15.0,
+          "description": "Spicy, BBQ, or breaded"
+        },
+        {
+          "name": "Smoked Wings",
+          "price": 15.0
+        },
+        {
+          "name": "Chicken Shish with Mashed Potatoes",
+          "price": 22.0
+        },
+        {
+          "name": "Broiled Chicken",
+          "price": 20.0
+        },
+        {
+          "name": "Chicken Quesadillas",
+          "price": 14.0
+        },
+        {
+          "name": "Whole Chicken \"Tabaka\"",
+          "price": 17.0
+        },
+        {
+          "name": "Pork Schnitzel with Mashed Potatoes",
+          "price": 21.0
+        },
+        {
+          "name": "Pork Shish Kebab",
+          "price": 23.0
+        },
+        {
+          "name": "BBG Meatballs (Kotlety)",
+          "price": 22.0
+        },
+        {
+          "name": "Italian Sausage & Pepper",
+          "price": 14.0
+        },
+        {
+          "name": "German Bratwurst with Cole Slaw",
+          "price": 18.0
+        },
+        {
+          "name": "Homemade Sausage",
+          "price": 18.0
+        },
+        {
+          "name": "Pulled Pork Sandwich",
+          "price": 23.0,
+          "description": "BBQ sauce, onions, tomatoes, pickles, coleslaw, fries"
+        },
+        {
+          "name": "Ribs",
+          "price": 18.0
+        },
+        {
+          "name": "Pig Ears",
+          "price": 15.0
+        },
+        {
+          "name": "Rulka",
+          "price": 32.0
+        },
+        {
+          "name": "Big Bone Tomahawk Steak (38 oz)",
+          "price": 86.0,
+          "description": "Charcoal-grilled, mashed potatoes, grilled veggies"
+        },
+        {
+          "name": "Rib Eye (30 oz)",
+          "price": 55.0,
+          "description": "Bone-out, mashed potatoes, grilled vegetables"
+        },
+        {
+          "name": "Filet Mignon",
+          "price": 44.0
+        }
+      ],
+      "soups": [
+        {
+          "name": "Soup of the Day",
+          "price": 14.0
+        },
+        {
+          "name": "Solyanka",
+          "price": 18.0,
+          "description": "Bold cured meats, pickles, tangy broth"
+        }
+      ],
+      "popular_items": [
+        {
+          "name": "Chicken Quesadillas",
+          "price": 14.0
+        },
+        {
+          "name": "Rib Eye",
+          "price": 55.0
+        },
+        {
+          "name": "Solyanka",
+          "price": 18.0
+        },
+        {
+          "name": "Pulled Pork Sandwich",
+          "price": 23.0
+        },
+        {
+          "name": "Fried Calamari",
+          "price": 16.0
+        },
+        {
+          "name": "German Bratwurst with Cole Slaw",
+          "price": 18.0
+        }
+      ],
+      "categories": [
+        {
+          "name": "appetizers",
+          "items": [
+            {
+              "name": "Jalapeno Poppers",
+              "price": 10.5
+            },
+            {
+              "name": "Nachos with Cheese",
+              "price": 9.0
+            },
+            {
+              "name": "Loaded Nachos",
+              "price": 17.0,
+              "description": "Chips, melted cheese, jalapenos, sour cream, mixed meats, salsa"
+            },
+            {
+              "name": "Chips with Guacamole",
+              "price": 11.0
+            },
+            {
+              "name": "Pretzel Bites with Cheese",
+              "price": 7.0
+            },
+            {
+              "name": "Fried Pickles (12 pcs)",
+              "price": 8.0
+            },
+            {
+              "name": "Corn Fritters (12 pcs)",
+              "price": 9.0
+            },
+            {
+              "name": "Cowboy Fritters",
+              "price": 9.0,
+              "description": "Corn & cheese fritters with jalapeño"
+            },
+            {
+              "name": "Mac-n-Cheese Bites",
+              "price": 9.0
+            },
+            {
+              "name": "Chebureki (2 pcs)",
+              "price": 15.0,
+              "description": "Fried meat pies with pork, onions, spices"
+            },
+            {
+              "name": "Potatoes with Mushrooms",
+              "price": 20.0
+            },
+            {
+              "name": "Salo with Garlic & Scallions",
+              "price": 18.0,
+              "description": "Cured pork fat, mustard, horseradish"
+            },
+            {
+              "name": "Smoked Seasoned Salo",
+              "price": 16.0
+            },
+            {
+              "name": "Boiled Siberian Pelmeni",
+              "price": 16.0,
+              "description": "Three-meat dumplings, sour cream"
+            },
+            {
+              "name": "Dumplings with Cherry",
+              "price": 13.0
+            },
+            {
+              "name": "Dumplings with Potatoes",
+              "price": 13.0
+            },
+            {
+              "name": "Fried Pelmeni",
+              "price": 16.0
+            }
+          ]
+        },
+        {
+          "name": "seafood",
+          "items": [
+            {
+              "name": "Crab Cakes",
+              "price": 18.0
+            },
+            {
+              "name": "Crawfish (Raki)",
+              "price": 30.0,
+              "description": "Boiled, garlic butter"
+            },
+            {
+              "name": "Mussels in Red Sauce",
+              "price": 17.0
+            },
+            {
+              "name": "Mussels in White Sauce",
+              "price": 17.0
+            },
+            {
+              "name": "Battered Fried Shrimp",
+              "price": 17.0
+            },
+            {
+              "name": "Shrimp Scampi over Fettuccine",
+              "price": 20.0
+            },
+            {
+              "name": "Head-On Shrimp with Butter Garlic",
+              "price": 17.0
+            },
+            {
+              "name": "Fried Calamari",
+              "price": 16.0
+            },
+            {
+              "name": "Branzino with Mashed Potatoes",
+              "price": 31.0,
+              "description": "Whole fish, charcoal grilled & oven baked"
+            },
+            {
+              "name": "Salmon Steak with Mashed Potatoes",
+              "price": 30.0
+            }
+          ]
+        },
+        {
+          "name": "meat",
+          "items": [
+            {
+              "name": "Chicken Nuggets & French Fries",
+              "price": 10.0
+            },
+            {
+              "name": "Chicken Tenders with Fries (4 pcs)",
+              "price": 12.0
+            },
+            {
+              "name": "Chicken Wings (8 pcs)",
+              "price": 15.0,
+              "description": "Spicy, BBQ, or breaded"
+            },
+            {
+              "name": "Smoked Wings",
+              "price": 15.0
+            },
+            {
+              "name": "Chicken Shish with Mashed Potatoes",
+              "price": 22.0
+            },
+            {
+              "name": "Broiled Chicken",
+              "price": 20.0
+            },
+            {
+              "name": "Chicken Quesadillas",
+              "price": 14.0
+            },
+            {
+              "name": "Whole Chicken \"Tabaka\"",
+              "price": 17.0
+            },
+            {
+              "name": "Pork Schnitzel with Mashed Potatoes",
+              "price": 21.0
+            },
+            {
+              "name": "Pork Shish Kebab",
+              "price": 23.0
+            },
+            {
+              "name": "BBG Meatballs (Kotlety)",
+              "price": 22.0
+            },
+            {
+              "name": "Italian Sausage & Pepper",
+              "price": 14.0
+            },
+            {
+              "name": "German Bratwurst with Cole Slaw",
+              "price": 18.0
+            },
+            {
+              "name": "Homemade Sausage",
+              "price": 18.0
+            },
+            {
+              "name": "Pulled Pork Sandwich",
+              "price": 23.0,
+              "description": "BBQ sauce, onions, tomatoes, pickles, coleslaw, fries"
+            },
+            {
+              "name": "Ribs",
+              "price": 18.0
+            },
+            {
+              "name": "Pig Ears",
+              "price": 15.0
+            },
+            {
+              "name": "Rulka",
+              "price": 32.0
+            },
+            {
+              "name": "Big Bone Tomahawk Steak (38 oz)",
+              "price": 86.0,
+              "description": "Charcoal-grilled, mashed potatoes, grilled veggies"
+            },
+            {
+              "name": "Rib Eye (30 oz)",
+              "price": 55.0,
+              "description": "Bone-out, mashed potatoes, grilled vegetables"
+            },
+            {
+              "name": "Filet Mignon",
+              "price": 44.0
+            }
+          ]
+        },
+        {
+          "name": "soups",
+          "items": [
+            {
+              "name": "Soup of the Day",
+              "price": 14.0
+            },
+            {
+              "name": "Solyanka",
+              "price": 18.0,
+              "description": "Bold cured meats, pickles, tangy broth"
+            }
+          ]
+        },
+        {
+          "name": "popular_items",
+          "items": [
+            {
+              "name": "Chicken Quesadillas",
+              "price": 14.0
+            },
+            {
+              "name": "Rib Eye",
+              "price": 55.0
+            },
+            {
+              "name": "Solyanka",
+              "price": 18.0
+            },
+            {
+              "name": "Pulled Pork Sandwich",
+              "price": 23.0
+            },
+            {
+              "name": "Fried Calamari",
+              "price": 16.0
+            },
+            {
+              "name": "German Bratwurst with Cole Slaw",
+              "price": 18.0
+            }
+          ]
+        }
+      ]
+    },
+    "drinks": {
+      "draft_beers": [
+        "Brooklyn Lager",
+        "Blue Point Toasted Lager",
+        "Sixpoint Sweet Action",
+        "Other Half Green City",
+        "Rotating seasonal tap"
+      ],
+      "cocktails": [
+        {
+          "name": "Negroni",
+          "notes": "Barrel-aged, one of the best in NYC per reviews"
+        },
+        {
+          "name": "Mermaid Margarita"
+        },
+        {
+          "name": "Boardwalk Mule"
+        },
+        {
+          "name": "Brighton Breeze"
+        },
+        {
+          "name": "Coney Island Iced Tea"
+        },
+        {
+          "name": "Mojito"
+        },
+        {
+          "name": "Pornstar Margarita",
+          "notes": "Guest favorite"
+        }
+      ],
+      "wine": [
+        "French selections",
+        "Napa Valley selections",
+        "House Red",
+        "House White",
+        "Prosecco"
+      ],
+      "happy_hour_drinks": "All draft beers included in Buy 2 Get 1 Free — Mon-Thu 5-7 PM"
+    },
+    "faq": [
+      {
+        "q": "What are your hours?",
+        "a": "Mon-Fri: 5 PM – 1 AM. Sat-Sun: 12 PM – 1 AM. Open 7 days a week."
+      },
+      {
+        "q": "When is happy hour?",
+        "a": "Monday through Thursday, 5-7 PM. Buy 2 beers, get 1 FREE!"
+      },
+      {
+        "q": "Do you take reservations?",
+        "a": "Walk-ins welcome! For groups of 10+ on Mon-Wed, book a table for our complimentary beer special. DM us or book via website."
+      },
+      {
+        "q": "Is there parking?",
+        "a": "Street parking along the boardwalk. Nearest lot at Brighton 6th Street."
+      },
+      {
+        "q": "Are kids allowed?",
+        "a": "Family-friendly during daytime. 21+ only after 7 PM. Valid ID required."
+      },
+      {
+        "q": "Can I bring my dog?",
+        "a": "Dogs welcome on the outdoor boardwalk area. Must be leashed."
+      },
+      {
+        "q": "Do you have vegetarian options?",
+        "a": "Yes! Veggie burger, falafel wrap, vegetarian soups, salads, and more."
+      },
+      {
+        "q": "What payment do you accept?",
+        "a": "Cash, all major credit cards, Apple Pay, Google Pay. Note: 15% auto-gratuity may apply."
+      },
+      {
+        "q": "Do you show sports?",
+        "a": "We're South Brooklyn's ONLY sports bar! 150\" 8K screen, 15+ TVs. UFC, World Cup, NBA, NFL, Premier League — if it's on, we're showing it."
+      },
+      {
+        "q": "Can I book a private event?",
+        "a": "Yes! Catering & private events available. DM us or visit boardwalkbeergarden.com/catering."
+      },
+      {
+        "q": "What time does the kitchen close?",
+        "a": "Kitchen stays open until 1 AM every night. Full menu available all day."
+      },
+      {
+        "q": "Do you have delivery?",
+        "a": "Yes! Order online at boardwalkbeergarden.com or via delivery apps."
+      }
+    ],
+    "policies": {
+      "payment": "Cash, all major cards, Apple Pay, Google Pay. 15% auto-gratuity may apply. Credit card surcharge reported.",
+      "seating": "First come, first served. Walk-ins welcome. Groups 10+ book ahead Mon-Wed for complimentary beer.",
+      "large_groups": "Groups of 10+ on Mon-Wed: book via website for complimentary beer. Large group reservations available any day via DM.",
+      "outside_food": "No outside food or drinks. Full menu and bar available.",
+      "smoking": "Smoking in designated outdoor areas only. No smoking inside.",
+      "age_policy": "All ages welcome until 7 PM. 21+ only after 7 PM. Valid ID required.",
+      "kids": "Children must leave by 7 PM.",
+      "dress_code": "Casual beach vibes. Come as you are!"
+    }
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "_meta": {
+    "description": "GOJ Template Registry — REX reads this to know which template to use for any request",
+    "last_updated": "2026-04-05",
+    "maintained_by": "REX / Kato (Chairman)",
+    "template_verification_date": "2026-04-05",
+    "verification_method": "pdfplumber text/table extraction + Claude Vision readability analysis",
+    "machine_readability_status": "ALL TEMPLATES VERIFIED — FULLY MACHINE-READABLE",
+    "template_root_rex": "~/Desktop/REX/",
+    "template_root_dashboard": "~/Documents/goj files/dashboard/documents/templates/",
+    "generated_output_dir": "~/Documents/goj files/output_docs/"
+  },
+
+  "templates": {
+    "weekly_menu_form": {
+      "filename": "GOJ_Weekly_Menu_Form.pdf",
+      "path_rex": "~/Desktop/REX/GOJ_Weekly_Menu_Form.pdf",
+      "path_dashboard": "~/Documents/goj files/dashboard/documents/templates/GOJ_Weekly_Menu_Form.pdf",
+      "pages": 2,
+      "language": "Russian",
+      "description": "Weekly meal selection form filled out by each client. One form per client (2 pages). Client checks off desired food items for each day of the week (Mon–Fri). Covers salads, soups, main courses, and sides.",
+      "when_to_use": [
+        "Client needs to submit their weekly food order",
+        "Kato asks for the menu form or client meal form",
+        "Staff needs blank forms to distribute to clients at the facility"
+      ],
+      "sections": {
+        "page_1": ["Salads (9 options)", "Soups (7 options)", "Main Course Part 1 (6 options)"],
+        "page_2": ["Main Course Part 2 (13 options)", "Sides/Garnish (8 options)"]
+      },
+      "columns": ["Client Name", "Mon (ПН)", "Tue (ВТ)", "Wed (СР)", "Thu (ЧТ)", "Fri (ПТ)"],
+      "submission_flow": "Client fills out → Allen scans → emails to atigerclawai@gmail.com → processed into system",
+      "timing": "Submitted ONE WEEK in advance. This week's orders were emailed ~7-10 days ago.",
+      "aliases": ["menu form", "meal form", "food form", "weekly menu", "client menu", "меню"]
+    },
+
+    "signin_sheet": {
+      "filename": "TEMPLATE_signin.pdf",
+      "path_rex": "~/Desktop/REX/TEMPLATE_signin.pdf",
+      "path_dashboard": "~/Documents/goj files/dashboard/documents/templates/TEMPLATE_signin.pdf",
+      "verified_path_absolute": "/sessions/upbeat-vigilant-faraday/mnt/dashboard/templates/TEMPLATE_signin.pdf",
+      "pages": 2,
+      "language": "English",
+      "description": "Daily attendance sign-in sheet for GOJ clients. Columns: No, Name, Insurance Plan, CH, TR, Signature. Blue rows = CPHL clients.",
+      "when_to_use": [
+        "Staff needs today's or tomorrow's attendance sheet",
+        "Kato asks for sign-in sheet",
+        "Morning arrival tracking"
+      ],
+      "generate_command": "python3 ~/Documents/goj\\ files/dashboard/generate_tomorrow.py --day tomorrow --mode signin",
+      "note": "Use generate_tomorrow.py for a pre-populated version with client names sorted by last name. Use this blank template only if generation fails.",
+      "aliases": ["sign-in", "signin", "attendance sheet", "arrival sheet", "check-in sheet"],
+      "machine_readability": {
+        "verification_date": "2026-04-05",
+        "status": "VERIFIED MACHINE-READABLE",
+        "readability_score": 9,
+        "text_extraction": "excellent",
+        "has_structured_tables": true,
+        "table_count": 1,
+        "detected_columns": ["No", "Name", "Insurance Plan", "CH", "TR", "Signature"],
+        "estimated_rows_per_page": 13,
+        "total_content_chars": 249,
+        "issues": [],
+        "notes": "Clean table structure with clear headers. All text is OCR-friendly. Single table spans across 2 pages."
+      }
+    },
+
+    "distribution_sheet": {
+      "filename": "TEMPLATE_distribution.pdf",
+      "path_rex": "~/Desktop/REX/TEMPLATE_distribution.pdf",
+      "path_dashboard": "~/Documents/goj files/dashboard/documents/templates/TEMPLATE_distribution.pdf",
+      "verified_path_absolute": "/sessions/upbeat-vigilant-faraday/mnt/dashboard/templates/TEMPLATE_distribution.pdf",
+      "pages": 2,
+      "language": "English",
+      "description": "Food distribution handoff sheet for kitchen/serving staff. Columns: No, Client Name, Salad, Soup, Main + Side, V (vegetarian flag). Used at mealtime to distribute correct meals to each client.",
+      "when_to_use": [
+        "Kitchen staff needs to know what each client ordered",
+        "Distribution at mealtime",
+        "Kato asks for distribution sheet or food handoff",
+        "Sent daily at 10am for the following day"
+      ],
+      "generate_command": "python3 ~/Documents/goj\\ files/dashboard/generate_tomorrow.py --day tomorrow --mode distribution",
+      "note": "Use generate_tomorrow.py for a pre-populated version pulling from client menu orders. This blank is a fallback.",
+      "aliases": ["distribution", "food handoff", "meal sheet", "serving sheet", "kitchen handoff"],
+      "machine_readability": {
+        "verification_date": "2026-04-05",
+        "status": "VERIFIED MACHINE-READABLE",
+        "readability_score": 9,
+        "text_extraction": "excellent",
+        "has_structured_tables": true,
+        "table_count": 1,
+        "detected_columns": ["No", "Client Name", "Salad", "Soup", "Main + Side", "✓"],
+        "estimated_rows_per_page": 48,
+        "total_content_chars": 287,
+        "issues": [],
+        "notes": "Well-formed table with clear column headers and checkmark symbol. Excellent for OCR and data extraction. Spans 2 pages."
+      }
+    },
+
+    "driver_sheet": {
+      "filename": "TEMPLATE_driver.pdf",
+      "path_rex": "~/Desktop/REX/TEMPLATE_driver.pdf",
+      "path_dashboard": "~/Documents/goj files/dashboard/documents/templates/TEMPLATE_driver.pdf",
+      "verified_path_absolute": "/sessions/upbeat-vigilant-faraday/mnt/dashboard/templates/TEMPLATE_driver.pdf",
+      "pages": 1,
+      "language": "English",
+      "description": "Driver route and pickup sheet for GOJ transportation. Lists clients by route, with addresses and pickup order.",
+      "when_to_use": [
+        "Driver needs their route for the day",
+        "Kato needs to check transportation assignments",
+        "Route planning or dispatch"
+      ],
+      "generate_command": "python3 ~/Documents/goj\\ files/dashboard/generate_tomorrow.py --day tomorrow --mode drivers",
+      "aliases": ["driver sheet", "route sheet", "pickup list", "transport sheet", "driver route"],
+      "machine_readability": {
+        "verification_date": "2026-04-05",
+        "status": "VERIFIED MACHINE-READABLE",
+        "readability_score": 9,
+        "text_extraction": "excellent",
+        "has_structured_tables": true,
+        "table_count": 1,
+        "detected_columns": ["No", "Client Name", "Address", "Phone", "Notes"],
+        "estimated_rows_per_page": 22,
+        "total_content_chars": 323,
+        "issues": [],
+        "notes": "Clear table structure with 5 columns. Address and phone fields are spacious for data entry. Single-page format is ideal for scanning."
+      }
+    },
+
+    "kitchen_sheet": {
+      "filename": "TEMPLATE_kitchen.pdf",
+      "path_rex": "~/Desktop/REX/TEMPLATE_kitchen.pdf",
+      "path_dashboard": "~/Documents/goj files/dashboard/documents/templates/TEMPLATE_kitchen.pdf",
+      "verified_path_absolute": "/sessions/upbeat-vigilant-faraday/mnt/dashboard/templates/TEMPLATE_kitchen.pdf",
+      "pages": 2,
+      "language": "English",
+      "description": "Kitchen preparation sheet showing total quantities of each menu item needed for the day. Used by kitchen staff to know how much of each dish to prepare.",
+      "when_to_use": [
+        "Kitchen needs to know quantities to cook",
+        "Meal prep planning",
+        "Kato asks for kitchen sheet or prep sheet",
+        "Sent daily at 10am for the following day"
+      ],
+      "generate_command": "python3 ~/Documents/goj\\ files/dashboard/generate_tomorrow.py --day tomorrow --mode all",
+      "aliases": ["kitchen sheet", "prep sheet", "cooking sheet", "kitchen handoff", "quantities sheet"],
+      "machine_readability": {
+        "verification_date": "2026-04-05",
+        "status": "VERIFIED MACHINE-READABLE",
+        "readability_score": 8,
+        "text_extraction": "excellent",
+        "has_structured_tables": true,
+        "table_count": 2,
+        "detected_columns": ["#", "Dish / Description", "QTY", "✓ Prepped", "✓ Served"],
+        "estimated_rows_per_page": 19,
+        "total_content_chars": 429,
+        "issues": [],
+        "notes": "Dual-table layout (SALADS section + other items). Clear structure with section headers. Spans 2 pages. Checkbox symbols are standard and OCR-friendly."
+      }
+    }
+  },
+
+  "generation": {
+    "tool": "generate_tomorrow.py",
+    "location": "~/Documents/goj files/dashboard/generate_tomorrow.py",
+    "modes": {
+      "all": "Generates sign-in + distribution + driver + kitchen sheets",
+      "signin": "Sign-in sheet only",
+      "distribution": "Food distribution sheet only",
+      "drivers": "Driver route sheet only",
+      "kitchen": "Kitchen prep quantities sheet only"
+    },
+    "day_options": ["today", "tomorrow", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sunday"],
+    "flags": {
+      "--send": "Send generated PDFs via Telegram (Rexxie) after generating",
+      "--shift N": "Generate only for shift 1 or shift 2"
+    },
+    "output_dir": "~/Documents/goj files/output_docs/",
+    "example_commands": {
+      "tomorrow_all": "python3 generate_tomorrow.py --day tomorrow --mode all",
+      "tomorrow_signin_only": "python3 generate_tomorrow.py --day tomorrow --mode signin",
+      "tomorrow_all_and_send": "python3 generate_tomorrow.py --day tomorrow --mode all --send",
+      "specific_day": "python3 generate_tomorrow.py --day Wednesday --mode distribution"
+    }
+  },
+
+  "schedule": {
+    "10am_daily": "Kitchen + distribution + sign-in sheets for NEXT day generated and sent via Rexxie",
+    "7_30am_daily": "Morning report: today's expected clients + menu status",
+    "9pm_daily": "Drop-off attendance confirmation report"
+  },
+
+  "menu_ordering_workflow": {
+    "step_1": "Clients fill out GOJ_Weekly_Menu_Form.pdf at the facility",
+    "step_2": "Allen scans completed forms and emails to atigerclawai@gmail.com",
+    "step_3": "REX checks Gmail for new scans (look back 6-14 days since menus submitted 1 week early)",
+    "step_4": "Scanned PDFs OCR'd and menu selections stored in auth_tracker.db (dietary_notes per client)",
+    "step_5": "generate_tomorrow.py uses dietary_notes to build distribution + kitchen sheets",
+    "timing_note": "Menus for THIS week were submitted LAST week. Always look back 7-10 days in Gmail."
+  },
+
+  "machine_readability_verification": {
+    "verification_date": "2026-04-05",
+    "verification_method": "pdfplumber text/table extraction + structural analysis",
+    "status": "ALL TEMPLATES VERIFIED — FULLY MACHINE-READABLE",
+    "summary": "All 4 operational templates are clean, well-structured PDFs with clear table layouts. All are OCR-friendly and suitable for automated form generation and data extraction workflows. No visual degradation or layout issues detected.",
+    "results": {
+      "TEMPLATE_signin.pdf": {
+        "status": "PASS",
+        "readability_score": "9/10",
+        "text_chars": 249,
+        "tables": 1,
+        "columns": ["No", "Name", "Insurance Plan", "CH", "TR", "Signature"],
+        "rows_per_page": 13,
+        "pages": 2,
+        "ocr_friendly": true,
+        "issues": "None detected"
+      },
+      "TEMPLATE_distribution.pdf": {
+        "status": "PASS",
+        "readability_score": "9/10",
+        "text_chars": 287,
+        "tables": 1,
+        "columns": ["No", "Client Name", "Salad", "Soup", "Main + Side", "✓"],
+        "rows_per_page": 48,
+        "pages": 2,
+        "ocr_friendly": true,
+        "issues": "None detected"
+      },
+      "TEMPLATE_driver.pdf": {
+        "status": "PASS",
+        "readability_score": "9/10",
+        "text_chars": 323,
+        "tables": 1,
+        "columns": ["No", "Client Name", "Address", "Phone", "Notes"],
+        "rows_per_page": 22,
+        "pages": 1,
+        "ocr_friendly": true,
+        "issues": "None detected"
+      },
+      "TEMPLATE_kitchen.pdf": {
+        "status": "PASS",
+        "readability_score": "8/10",
+        "text_chars": 429,
+        "tables": 2,
+        "columns": ["#", "Dish / Description", "QTY", "✓ Prepped", "✓ Served"],
+        "rows_per_page": 19,
+        "pages": 2,
+        "ocr_friendly": true,
+        "issues": "None detected"
+      }
+    },
+    "analysis_files": {
+      "detailed_output": "/sessions/upbeat-vigilant-faraday/mnt/REX/goj_template_analysis.json",
+      "registry_location": "/sessions/upbeat-vigilant-faraday/mnt/REX/GOJ_Templates_Registry.json"
+    },
+    "recommendations": {
+      "all_templates": [
+        "All templates are suitable for automated form population with generate_tomorrow.py",
+        "All templates pass OCR readability checks and can be scanned reliably",
+        "Maintain current blank templates as fallback sources in dashboard/templates/",
+        "Use verified paths for programmatic template access in REX systems"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "llm_id": "llm_13da395e8bab02945fe497bbd1f7",
+  "version": 0,
+  "model": "gpt-5.4-nano",
+  "model_temperature": 0,
+  "model_high_priority": false,
+  "tool_call_strict_mode": true,
+  "general_prompt": "You are Masha, the warm and friendly receptionist at Boardwalk Beer Garden. Speak gently, slowly, and warmly with natural pauses. Never rush. Smile through your voice. You are calling to say hello to Kato. Be kind and caring like a good friend. Speak clearly with a relaxed pace.",
+  "general_tools": [
+    {
+      "name": "end_call",
+      "description": "End the phone call politely",
+      "type": "end_call",
+      "speak_after_execution": true
+    }
+  ],
+  "start_speaker": "agent",
+  "begin_message": "Hello, this is Masha from Boardwalk Beer Garden. How can I help you today?",
+  "kb_config": {
+    "top_k": 3,
+    "filter_score": 0.6
+  },
+  "last_modification_timestamp": 1782232203437,
+  "is_published": false
+}

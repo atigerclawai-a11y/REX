@@ -1,0 +1,23 @@
+Rex Memory Diagnosis — June 4 2026
+═══════════════════════════════════
+
+FINDING: rex_memory.db (0KB) is an orphaned stub file.
+
+ARCHITECTURE (from source code):
+  - EncryptedStorage.__init__ creates ~/.rex/rex_journeys.db
+  - RexMemory is init'd with db_path=storage.db_path, key=storage._key
+  - RexMemory._init_tables() creates rex_memory + rex_session_log tables
+    INSIDE rex_journeys.db — not a separate file
+
+CONCLUSION:
+  - rex_memory.db at 0KB = orphaned placeholder, never used by any code path
+  - rex_user_model.db at 0KB = same situation
+  - Real memory data lives in ~/.rex/rex_journeys.db (if REX has run)
+  - CLAUDE.md "fix in backend/memory.py" is misleading — the code is correct
+  - The "0KB" note refers to stale files, not a bug in memory.py
+
+ACTION:
+  - Quarantine rex_memory.db and rex_user_model.db (zero content, safe to move)
+  - No code change needed in memory.py
+  - Verify ~/.rex/rex_journeys.db is healthy
+

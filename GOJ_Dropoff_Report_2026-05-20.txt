@@ -1,0 +1,44 @@
+🌙 GOJ Drop-off Report — Wednesday, May 20, 2026
+Generated 9:00 PM (scheduled task: goj-9pm-dropoff-attendance)
+
+────────────────────────────────────────────────────────
+
+ℹ️  NO SIGN-IN RECORDS INGESTED FOR TODAY YET
+The attendance log (attendance_log table) has 0 entries for
+2026-05-20. The most recent attendance data on file is from
+2026-04-26 — today's sign-in sheets have most likely not been
+scanned/processed into the system yet.
+
+✅ Attended today: 0 recorded
+     Shift 1: 0 signed in  |  Shift 2: 0 signed in
+
+📋 Expected today (from routes): 166 active clients
+     Shift 1 (W1): 90  |  Shift 2 (W2): 76
+
+⚠️  Expected but no sign-in: 166
+     This is ALL expected clients. It reflects missing sign-in
+     data — NOT 166 confirmed absences. Once today's sign-in
+     sheets are ingested, this number will drop accordingly.
+
+🚗 Drop-offs in progress: 0
+     No sign-in/sign-out records exist for today.
+
+📋 Tomorrow's expected count: 145 clients
+     Thursday — Shift 1 (TH1): 90  |  Shift 2 (TH2): 55
+
+────────────────────────────────────────────────────────
+DELIVERY NOTE
+Telegram delivery failed: this environment's network blocks
+api.telegram.org (egress proxy returned 403 Forbidden on both
+POST and GET). Report saved here as the fallback so it remains
+accessible.
+
+METHODOLOGY NOTES
+• "Today" = Wednesday, May 20, 2026 (the 9 PM Wednesday run).
+• Route keys used: W1/W2 for today, TH1/TH2 for tomorrow.
+• No "sign_ins" or "attendance" table exists by those exact
+  names; the live attendance source is the "attendance_log"
+  table, which was used here (read-only).
+• Expected clients = route entries with status="active".
+• Counts: W1 90/90 active, W2 76/76 active (166 unique);
+  TH1 90/90 active, TH2 55/55 active (145 unique).

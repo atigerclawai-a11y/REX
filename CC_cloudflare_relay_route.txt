@@ -1,0 +1,52 @@
+Cloudflare Tunnel — Cowork Relay Route
+=======================================
+Add the rule below to: ~/.cloudflared/hermestigerclaw.yml
+
+The Cloudflare ingress list is order-sensitive — the catch-all entry
+(typically `service: http_status:404`) must remain LAST.
+
+Insert the new rule BEFORE the catch-all:
+
+  # ── Cowork relay (Cowork/Claude sessions → Kato's Telegram bots) ──
+  - hostname: hermestigerclaw.com
+    path: /api/cowork-relay
+    service: http://localhost:8000
+
+─────────────────────────────────────────────────────────────────────
+EXAMPLE — full ingress section after adding the rule:
+
+ingress:
+  - hostname: hermestigerclaw.com
+    path: /api/cowork-relay
+    service: http://localhost:8000
+
+  # ... your other rules ...
+
+  - service: http_status:404     # catch-all — keep this last
+
+─────────────────────────────────────────────────────────────────────
+NOTE: If your yml already routes hermestigerclaw.com/* to localhost:8000
+(a single wildcard rule), the /api/cowork-relay path is already covered
+and no change is needed — REX will serve it automatically.
+
+After editing, reload the tunnel:
+  cloudflared tunnel --config ~/.cloudflared/hermestigerclaw.yml run
+  (or restart the cloudflared launchd service if it's managed that way)
+
+─────────────────────────────────────────────────────────────────────
+USAGE from a Cowork session:
+
+  curl -s -X POST https://hermestigerclaw.com/api/cowork-relay \
+    -H "Content-Type: application/json" \
+    -H "X-Relay-Token: <token from ~/.rex/config.json:cowork_relay_token>" \
+    -d '{"message": "Build complete", "bot": "hermes", "priority": "normal", "source": "cowork"}'
+
+Or in Python (httpx):
+
+  import httpx
+  resp = httpx.post(
+      "https://hermestigerclaw.com/api/cowork-relay",
+      headers={"X-Relay-Token": "<your token>"},
+      json={"message": "Build complete", "bot": "hermes"},
+  )
+  print(resp.json())

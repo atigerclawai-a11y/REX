@@ -1,0 +1,58 @@
+=== MASHA RESERVATION WATCHER — KATO ALERT ===
+Timestamp: 2026-06-24T16:12:00Z
+Status: 6 NEW BOOKING EMAILS FOUND
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+NEW EMAILS (Owner.com forwards)
+━━━━━━━━━━━━━━━━━━━━━━━━
+1. Subject: Fwd: New Reservations Form Submission
+   From: allen <olympusbbg@gmail.com> (forwarded from Owner.com)
+   Date: Jun 18, 2026 (Thu) — Boardwalk Burger Bar
+   ID: 19efa599506bfa55
+
+2. Subject: Fwd: New Reservations Form Submission
+   From: allen <olympusbbg@gmail.com> (forwarded from Owner.com)
+   Date: Jun 19, 2026 (Fri) — Boardwalk Burger Bar
+   ID: 19efa5945dffe205
+
+3. Subject: Fwd: New Reservations Form Submission
+   From: allen <olympusbbg@gmail.com> (forwarded from Owner.com)
+   Date: Jun 20, 2026 (Sat) — Boardwalk Burger Bar
+   ID: 19efa5910efe4cc4
+
+4. Subject: Fwd: New Reservations Form Submission
+   From: allen <olympusbbg@gmail.com> (forwarded from Owner.com)
+   Date: Jun 21, 2026 (Sun) — Boardwalk Burger Bar
+   ID: 19efa58bdf12a5be
+
+5. Subject: Fwd: New Reservations Form Submission
+   From: allen <olympusbbg@gmail.com> (forwarded from Owner.com)
+   Date: Jun 22, 2026 (Mon) — Boardwalk Burger Bar
+   ID: 19efa588c9d78f6c
+
+6. Subject: Fwd: New Reservations Form Submission
+   From: allen <olympusbbg@gmail.com> (forwarded from Owner.com)
+   Date: Jun 24, 2026 (Wed) — Boardwalk Burger Bar  ← TODAY
+   ID: 19efa581c6394bcd
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+CURRENT TALLY (updated)
+━━━━━━━━━━━━━━━━━━━━━━━━
+Date         Bookings  Guests
+Jun 18 (Thu)    4        12
+Jun 19 (Fri)    6        20
+Jun 20 (Sat)    5        15
+Jun 21 (Sun)    4        12
+Jun 22 (Mon)    5        14
+Jun 24 (Wed)    5        14  ← today
+Jun 27 (Sat)    1         4
+─────────────────────────────
+WEEK TOTAL     30        91
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+ACTION REQUIRED
+━━━━━━━━━━━━━━━━━━━━━━━━
+⚠️  Open owner.com to confirm reservation details.
+⚠️  Guest counts are estimates (3 per booking) — verify actual numbers.
+⚠️  Reply to confirm these bookings.
+━━━━━━━━━━━━━━━━━━━━━━━━

@@ -1,0 +1,425 @@
+{
+  "_version": "3.3-locked",
+  "_created": "2026-04-14T07:20:00Z",
+  "_updated": "2026-05-29T00:05:00.000000+00:00",
+  "_rule": "If it is not in this manifest, it is not active",
+  "_note": "Contract document. Defines all active processes, locked paths, and security rules for REX/Rexxie system. Updated Phase 16-19 lock: phases 10/12/16 LOCKED, phases 17/18/19 defined and active via MCP ecosystem + Hermes + Tiger Claw.",
+  "active_root": "~/Desktop/REX/",
+  "authoritative_db": "~/Documents/goj files/dashboard/auth_tracker.db",
+  "active_processes": [
+    {
+      "id": "rex_backend",
+      "name": "REX FastAPI Backend",
+      "file": "~/Desktop/REX/backend/main.py",
+      "start_command": "uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload",
+      "dependencies": [
+        "Python 3.10+",
+        "fastapi",
+        "uvicorn",
+        "sqlite3"
+      ],
+      "reads_from": [
+        "~/Documents/goj files/dashboard/auth_tracker.db",
+        "~/Desktop/REX/data/rex_events.db",
+        "~/Desktop/REX/data/rex_permissions.db"
+      ],
+      "writes_to": [
+        "~/Documents/goj files/dashboard/auth_tracker.db",
+        "~/Desktop/REX/data/rex_events.db"
+      ],
+      "verification_method": "http_health_check",
+      "verification_command": "curl -s http://localhost:8000/health | grep -q 'status.*ok'",
+      "expected_output": "status: ok",
+      "status": "enabled"
+    },
+    {
+      "id": "rexxie_bot",
+      "name": "Rexxie Bot v3.0 (post-merge)",
+      "file": "~/Desktop/REX/rex_rexxie_telegram_bot.py",
+      "start_command": "cd ~/Desktop/REX && python rex_rexxie_telegram_bot.py",
+      "dependencies": [
+        "Python 3.10+",
+        "python-telegram-bot",
+        "sqlite3",
+        "ollama (optional)"
+      ],
+      "reads_from": [
+        "~/Desktop/REX/data/rex_unresolved.db",
+        "~/Documents/goj files/rexxie/rexxie_memory.db",
+        "~/.keychain (Telegram token)"
+      ],
+      "writes_to": [
+        "~/Desktop/REX/data/rex_unresolved.db",
+        "~/Documents/goj files/rexxie/rexxie_memory.db"
+      ],
+      "verification_method": "process_check",
+      "verification_command": "pgrep -f 'rex_rexxie_telegram_bot.py' | wc -l",
+      "expected_output": "1",
+      "status": "enabled"
+    },
+    {
+      "id": "rex_telegram_bot",
+      "name": "REX Telegram Bot (staff-facing)",
+      "file": "~/Desktop/REX/rex_telegram_bot.py",
+      "start_command": "cd ~/Desktop/REX && python rex_telegram_bot.py",
+      "dependencies": [
+        "Python 3.10+",
+        "python-telegram-bot",
+        "sqlite3"
+      ],
+      "reads_from": [
+        "~/Documents/goj files/dashboard/auth_tracker.db",
+        "~/.keychain (Telegram token)"
+      ],
+      "writes_to": [
+        "~/Documents/goj files/dashboard/auth_tracker.db"
+      ],
+      "verification_method": "process_check",
+      "verification_command": "pgrep -f 'rex_telegram_bot.py' | wc -l",
+      "expected_output": "1",
+      "status": "enabled"
+    },
+    {
+      "id": "scheduler",
+      "name": "GOJ Daily Scheduler",
+      "file": "~/Desktop/REX/goj_daily_scheduler.py",
+      "start_command": "cd ~/Desktop/REX && python goj_daily_scheduler.py",
+      "dependencies": [
+        "Python 3.10+",
+        "schedule",
+        "sqlite3"
+      ],
+      "reads_from": [
+        "~/Documents/goj files/dashboard/auth_tracker.db",
+        "~/Desktop/REX/data/rex_events.db"
+      ],
+      "writes_to": [
+        "~/Desktop/REX/data/rex_events.db"
+      ],
+      "verification_method": "process_check",
+      "verification_command": "pgrep -f 'goj_daily_scheduler.py' | wc -l",
+      "expected_output": "1",
+      "status": "enabled"
+    },
+    {
+      "id": "alert_router",
+      "name": "Alert Router (core)",
+      "file": "~/Desktop/REX/core/alert_router.py",
+      "start_command": "cd ~/Desktop/REX && python -m core.alert_router",
+      "dependencies": [
+        "Python 3.10+",
+        "sqlite3"
+      ],
+      "reads_from": [
+        "~/Desktop/REX/data/rex_unresolved.db",
+        "~/Desktop/REX/data/alert_bus_fallback.jsonl"
+      ],
+      "writes_to": [
+        "~/Desktop/REX/data/alert_bus_fallback.jsonl"
+      ],
+      "verification_method": "process_check",
+      "verification_command": "pgrep -f 'core.alert_router' | wc -l",
+      "expected_output": "1",
+      "status": "enabled"
+    }
+  ],
+  "active_entrypoints": {
+    "primary_restart": "~/Desktop/REX/FIX_REXXIE.command",
+    "api_server": "~/Desktop/REX/START_API_SERVER.command",
+    "command_center": "~/Desktop/REX/COMMAND_CENTER.command"
+  },
+  "locked_paths": [
+    "~/Desktop/REX/backend/",
+    "~/Desktop/REX/core/",
+    "~/Desktop/REX/goj_menu_consensus_ocr.py",
+    "~/Desktop/REX/rex_rexxie_telegram_bot.py",
+    "~/Documents/goj files/dashboard/auth_tracker.db"
+  ],
+  "forbidden_paths": [
+    "~/Desktop/Gold_Health_Systems/",
+    "~/Desktop/REX/AGENT.command",
+    "~/Desktop/REX/DEAD_CODE/",
+    "~/Desktop/REX/INSTALL_BEGIN.command",
+    "~/Desktop/REX/INSTALL_PDFPLUMBER.command",
+    "~/Desktop/REX/QUARANTINE/",
+    "~/Desktop/REX/QUARANTINE_COMMANDS_2026_04_14/",
+    "~/Desktop/REX/REINSTATE_CLIENT_DATA.command",
+    "~/Desktop/REX/RESTORE_ENV.command",
+    "~/Desktop/REX/RUN_FULL_SCAN.command",
+    "~/Desktop/REX/RUN_INGEST_MISSING.command",
+    "~/Desktop/REX/RUN_MENU_EXTRACT.command",
+    "~/Desktop/REX/RUN_OCR.command",
+    "~/Desktop/REX/RUN_REAUTH.command",
+    "~/Desktop/REX/RUN_SIGNIN_INTAKE.command",
+    "~/Desktop/REX/SEND_MON_HANDOFF_NOW.command",
+    "~/Desktop/REX/SEND_SIGNIN_DRIVER_NOW.command",
+    "~/Desktop/REX/check_rexxie.command",
+    "~/Desktop/REX/data/ocr_quarantine/",
+    "~/Desktop/REX/diag_menus.command",
+    "~/Desktop/REX/download_menu_pdfs.command",
+    "~/Desktop/REX/fix-paperless-autostart.command",
+    "~/Desktop/REX/fix_rexxie_launchd.command",
+    "~/Desktop/REX/fix_schedule_changes_schema.command",
+    "~/Desktop/REX/fix_telegram_conflict.command",
+    "~/Desktop/REX/get_paperless_token.command",
+    "~/Desktop/REX/install-all-agents.command",
+    "~/Desktop/REX/paperless_bulk_upload.command",
+    "~/Desktop/REX/paperless_sync.command",
+    "~/Desktop/REX/private_confidant_gold.py",
+    "~/Desktop/REX/restart-backend.command",
+    "~/Desktop/REX/rex-backup-goj.command",
+    "~/Desktop/REX/run_read_sign_in.command",
+    "~/Desktop/REX/setup-google-auth.command",
+    "~/Desktop/REX/start_rexxie_only.command",
+    "~/Desktop/REX/teach_rex.command",
+    "~/Desktop/REX/teach_rexxie.command"
+  ],
+  "quarantine_paths": [
+    "~/Desktop/REX/QUARANTINE/",
+    "~/Desktop/REX/data/ocr_quarantine/"
+  ],
+  "disabled_components": [
+    "REX_AUDIT.command",
+    "GHS_AUDIT.command",
+    "private_confidant_gold.py",
+    "start_rexxie.command",
+    "goj_telegram_bot_v12.1_final.py"
+  ],
+  "security_rules": {
+    "token_storage": "keychain_only",
+    "db_writes": "fastapi_only",
+    "quarantine_access": "human_only_with_ledger_entry",
+    "totp_required_for": [
+      "L3+_memory",
+      "reencrypt_all"
+    ],
+    "forbidden_in_logs": [
+      "telegram_token",
+      "anthropic_api_key",
+      "passwords",
+      "2fa_secrets"
+    ]
+  },
+  "verification": {
+    "method": "manifest_checksum",
+    "chain": "manifest stores known_good checksum, known_good stores manifest checksum",
+    "manifest_checksum": "a536dac1ae68ed80a4c303ef0d0987dc309af9f65b3da1cb1bc5ef4840b9ffe4",
+    "known_good_checksum": "22e0d544ffef5b6ad643877d40b1cf63f3653b1736fe6345c62de0bb3efb23ba"
+  },
+  "prompt_registry": {
+    "enabled": true,
+    "built": "2026-04-15",
+    "registry_file": "~/Desktop/REX/state/prompt_registry.json",
+    "prompts_dir": "~/Desktop/REX/prompts/",
+    "versions_dir": "~/Desktop/REX/prompts/versions/",
+    "edits_db": "~/Desktop/REX/data/vaults/prompt_edits.db",
+    "engine_file": "~/Desktop/REX/backend/rex_prompt_registry.py",
+    "total_prompts": 15,
+    "governed_categories": [
+      "identity",
+      "governance",
+      "ocr",
+      "cls",
+      "memory",
+      "override"
+    ],
+    "approval_tiers": {
+      "1": "low-risk, apply immediately",
+      "2": "medium-risk, Kato acknowledge required (24h window)",
+      "3": "governed, explicit approval required + version snapshot (72h window)"
+    },
+    "api_routes": [
+      "GET  /api/chairman/prompt-registry",
+      "GET  /api/chairman/prompt-registry/pending-edits",
+      "GET  /api/chairman/prompt-registry/integrity",
+      "GET  /api/chairman/prompt-registry/{id}",
+      "GET  /api/chairman/prompt-registry/{id}/content",
+      "POST /api/chairman/prompt-registry/{id}/stage",
+      "POST /api/chairman/prompt-registry/approve/{edit_id}",
+      "POST /api/chairman/prompt-registry/reject/{edit_id}",
+      "POST /api/chairman/prompt-registry/{id}/rollback",
+      "POST /api/chairman/prompt-registry/{id}/status"
+    ],
+    "rollback": "delete backend/rex_prompt_registry.py + remove prompt-registry routes from rex_command_center.py; state/prompt_registry.json and prompts/ remain as reference",
+    "locked_additions": [
+      "diff endpoint (POST /prompt-registry/diff)",
+      "rich approval payload with diff preview",
+      "append-only audit log (state/prompt_audit.log)",
+      "YAML frontmatter on all prompt .md files",
+      "body-only diffing and integrity comparison",
+      "auto-version bump on applied edits"
+    ],
+    "carry_forward": {
+      "PR-CF-1": "DONE 2026-04-15 \u2014 status_badge on every PromptEntry, badge_rollup in summary()",
+      "PR-CF-2": "DONE 2026-04-15 \u2014 prompt_usage.db, track_usage(), usage_summary(), usage_for()",
+      "PR-CF-3": "DONE 2026-04-15 \u2014 protected flag on 5 prompts, 48h window, confirm_protected_edit()",
+      "PR-CF-4": "DONE 2026-04-15 \u2014 prompts/ + state/prompt_registry.json + prompt_audit.log now in both backup scripts"
+    },
+    "protected_prompts": [
+      "rex-identity-v1",
+      "rexxie-identity-v1",
+      "role-disclosure-rules-v1",
+      "agent-security-rules-v1",
+      "ocr-safety-policy-v1"
+    ]
+  },
+  "cls_v3": {
+    "enabled": true,
+    "phase": 9,
+    "built": "2026-04-15",
+    "tier_a_file": "~/Desktop/REX/core/cls_v3.py",
+    "tier_b_file": "~/Desktop/REX/core/cls_gate.py",
+    "nightly_brief_file": "~/Desktop/REX/backend/rex_nightly_brief.py",
+    "gauntlet_scenarios": "~/Desktop/REX/core/gauntlet/scenarios/cls_v3_safety.yaml",
+    "patterns_db": "~/Desktop/REX/data/vaults/cls_v3_patterns.db",
+    "candidates_db": "~/Desktop/REX/data/vaults/cls_v3_candidates.db",
+    "max_secrecy": "L1",
+    "agent_owner": "rex_cls",
+    "rollback": "delete cls_v3.py + cls_gate.py; MemorySteward.delete_by_owner('rex_cls')",
+    "safety_rules": [
+      "no_ocr_quarantine_read",
+      "no_direct_steward_write",
+      "no_rexxie_db_write",
+      "no_L2_plus_write",
+      "insert_only",
+      "kato_approval_required",
+      "self_disable_in_gauntlet"
+    ]
+  },
+  "known_good_state_path": "~/Desktop/REX/KNOWN_GOOD_STATE.json",
+  "ledger_db_path": "~/Desktop/REX/data/ledger.db",
+  "_metadata": {
+    "created_by": "Recovery Build Automation",
+    "stability_level": "recovery-first",
+    "next_review_date": "2026-04-21"
+  },
+  "quarantine_commands": {
+    "_note": "All files listed here have been moved to QUARANTINE_COMMANDS_2026_04_14/ and sealed with chmod 000. They cannot be executed. To restore: move out, chmod +x, log in ledger.db.",
+    "quarantine_directory": "~/Desktop/REX/QUARANTINE_COMMANDS_2026_04_14/",
+    "permissions": "directory=500, files=000",
+    "count": 31,
+    "active_replacements_directory": "~/Desktop/REX/QUARANTINE_COMMANDS_2026_04_14/README.md"
+  },
+  "schema_version": "2.2",
+  "phase10": {
+    "built": "2026-04-15",
+    "components": [
+      "backend/rex_session.py \u2014 MSU engine with integrity_hash, auto-lock, extension threshold",
+      "backend/rex_restore_drill.py \u2014 restore drill with SHA-256 hash verification + cooldown",
+      "backend/rex_schema_check.py \u2014 schema validator with SCHEMA_WARNING state",
+      "core/cls_v3.py \u2014 CLS aging: active/stale/review_required/retired states + action trail",
+      "config/session.yaml \u2014 session + drill + schema + CLS aging configuration",
+      "state/session_state.json \u2014 live session state with integrity_hash",
+      "core/gauntlet/scenarios/phase10_safety.yaml \u2014 13 safety test scenarios"
+    ],
+    "command_center_routes": [
+      "GET/POST /api/chairman/session/*",
+      "GET/POST /api/chairman/restore-drill/*",
+      "GET /api/chairman/schema-status",
+      "GET /api/chairman/cls-status"
+    ],
+    "carry_forward": {
+      "P10-CF-1": "Protected edit countdown visibility in Command Center",
+      "P10-CF-2": "Override request flow (gate exists, full flow not yet built)",
+      "P10-CF-3": "Snapshot/revert controls (gate exists, full UI not yet built)"
+    }
+  },
+  "phase12": {
+    "built": "2026-04-15",
+    "components": [
+      "backend/rex_training_classifier.py \u2014 classify + sanitize (fail-closed) + corpus gate",
+      "state/rex_training_corpus.json \u2014 approved training candidates",
+      "state/rex_separation_rules.json \u2014 machine-readable governance rules",
+      "state/rex_foundation_manifest.json \u2014 Rex foundation tracking",
+      "core/gauntlet/scenarios/separation_safety.yaml \u2014 10 safety scenarios",
+      "COMMAND_CENTER_APP.html \u2014 session-aware Rex/Rexxie mode toggle"
+    ],
+    "modified": [
+      "backend/main.py \u2014 explicit domain separation: _rexxie_context / _rex_training never merged",
+      "backend/rex_training.py \u2014 log_lesson() routes through classifier (fail-closed gate)",
+      "backend/rex_schema_check.py \u2014 3 new state files in KNOWN_SCHEMAS"
+    ],
+    "contamination_path_closed": "get_sovereign_block() no longer merged into Rex session context",
+    "separation_rules": {
+      "rex_may_read_rexxie_memory": false,
+      "rexxie_may_auto_enter_rex_training": false,
+      "sanitization_fails_closed": true,
+      "chairman_approval_required_for_commit": true,
+      "rexxie_exportable_by_default": false
+    },
+    "carry_forward": {
+      "P12-CF-1": "Rex foundation badge in UI (TRAINED FOUNDATION / REX FOUNDATION v0.x)",
+      "P12-CF-2": "Training corpus version bump UI in Command Center",
+      "P12-CF-3": "Kato Telegram commands: 'approve training <id>', 'reject training <id>'"
+    }
+  },
+  "phase16": {
+    "built": "2026-04-16",
+    "status": "VERIFIED",
+    "components": [
+      "index.html \u2014 REX Command Center dashboard Phase 16 (17-tab, full UI, GHS logo, Rex egg)",
+      "rex_unified_enforcer.py \u2014 READY TO ACTIVATE (annotated 2026-04-16, backward-compatible)",
+      "GoldHealthSystems/CLINE_SETUP_HANDOFF.md \u2014 Cline + Ollama local build agent configured",
+      "GoldHealthSystems/REX_PacketB_Build_Plan.docx \u2014 Full Packet B spec phases 14-20.5"
+    ],
+    "dashboard_models": {
+      "cline_build_agent": "qwen2.5-coder:7b",
+      "rexxie_primary": "qwen3.5:9b",
+      "backend_default": "qwen3.5:9b",
+      "backend_fallback": "qwen2.5:7b",
+      "embeddings": "nomic-embed-text-v1.5 (LM Studio :1234)"
+    },
+    "security_audit": {
+      "audited": "2026-04-16",
+      "critical_issues_open": 3,
+      "issue_1": "Telegram bot token in plaintext \u2014 33 files. ACTION: revoke + regenerate + Keychain only",
+      "issue_2": "Anthropic API key in .env \u2014 ACTION: revoke + regenerate + Keychain + exclude from backups",
+      "issue_3": "TOTP secret is RFC example string \u2014 ACTION: generate unique secret + move to vault",
+      "instructions": "See REX_PHASE16_STATUS.md for remediation steps. Do NOT ignore these before production."
+    },
+    "carry_forward": {}
+  },
+  "phase17": {
+    "built": "2026-05-28",
+    "status": "COMPLETE via MCP",
+    "description": "WebRex Topology \u2014 synapse map of all MCP servers, agents, and ecosystem connections",
+    "rationale": "Dashboard exists at index.html (17-tab). Backend gated on Step 3 consolidation (memory unification per GHS PROJECT BRIEFING). With unified MCP servers now operational, the synapse map topology is live.",
+    "components": [
+      "index.html \u2014 17-tab dashboard (WebRex topology visual)",
+      "MCP ecosystem \u2014 unified server endpoints (memory, filesystem, github, telegram, sqlite, n8n, instagram, retell, gdrive, notebooklm, obsidian)",
+      "GOJ pipeline \u2014 consensus OCR, sign-in processing, menu extraction, daily handoff"
+    ],
+    "dashboard": "index.html \u2014 synapsed into WebRex topology view"
+  },
+  "phase18": {
+    "built": "2026-05-28",
+    "status": "ACTIVE via Hermes",
+    "description": "Claus Integration \u2014 Full Activation. Claus is the Manager-General agent built into Hermes per MASTERLIST (Option B, May 2026).",
+    "capabilities": [
+      "Monitors all agents via MCP health checks",
+      "Daily anomaly reports (partially covered by Claus sensor layer)",
+      "Auto-escalation to Kato for critical issues via Telegram"
+    ],
+    "components": [
+      "Hermes agent framework \u2014 Claus built separately into Hermes as Manager-General",
+      "MCP health check endpoints \u2014 all agents report status",
+      "Telegram alert routing \u2014 Kato escalation path"
+    ],
+    "status_detail": "DASHBOARD BUILT, BACKEND ACTIVE via Hermes gateway"
+  },
+  "phase19": {
+    "built": "2026-05-28",
+    "status": "ACTIVE via Tiger Claw API",
+    "description": "Ecosystem Health Command \u2014 Real-time Operations View. Final phase before system completion.",
+    "capabilities": [
+      "Live dashboard showing all 11 agents, 10 MCP servers, GOJ pipeline status, cron job health",
+      "Already partially built via Tiger Claw API (:27226) stats endpoint"
+    ],
+    "components": [
+      "Tiger Claw API \u2014 stats endpoint at :27226",
+      "Jarvis HUD \u2014 dashboard for real-time ops view",
+      "All 11 agents and 10 MCP servers monitored"
+    ],
+    "status_detail": "BACKEND ACTIVE via Tiger Claw API, DASHBOARD ACTIVE via Jarvis HUD"
+  }
+}

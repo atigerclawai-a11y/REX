@@ -1,0 +1,47 @@
+GOJ Morning Report — Monday, May 25, 2026
+Generated: 2026-05-25 (scheduled task: goj-daily-menu-morning-report)
+Delivery: Telegram send FAILED (api.telegram.org unreachable from sandbox — network restricted). Report printed to stdout / saved here as fallback.
+
+================================================================
+
+🌅 GOJ Morning Report — Monday, May 25, 2026
+
+👥 Expected today: 150 clients
+  Shift 1: 96 | Shift 2: 54
+
+🍽 Menu data on file: 140 / 150
+  ✅ Has menu: 140 | ❌ Missing: 10
+
+📧 Menu scans received last week: 13 PDFs
+
+🔴 Clients without menu data today:
+  • Bogopolskiy Nikolay — Shift 1
+  • Britavskaya Sofiya — Shift 1
+  • Kutsenko Larysa — Shift 1
+  • Lebedenko Valentyna — Shift 1
+  • Margulis David — Shift 1
+  • Nemirovskaya Mariya — Shift 1
+  • Nemirovskiy Arkadiy — Shift 1
+  • Nevskiy Lev — Shift 1
+  • Romanovsky Misha — Shift 1
+  • Shadkhan Bella — Shift 1
+
+ℹ️ Handoff sheets will be sent at 10 AM.
+
+================================================================
+NOTES / AUTONOMOUS DECISIONS
+- Day key: Monday → routes M1 (96 active) + M2 (54 active). All 150 route
+  entries had status "active".
+- Menu data on file = per-client rows in client_menus table for
+  week_start 2026-05-25, day 'M'. 140 of today's 150 expected clients
+  matched (by name); 10 had no Monday menu row, all on Shift 1.
+- "Menu scans received last week" = 13 PDF attachments forwarded from
+  goj3152.scans@gmail.com (via allen@gardenofjoybrooklyn.com) and received
+  May 11–19, 2026 (the 6–14-day look-back window). Note: most of these were
+  auto-classified by the GOJ pipeline as sign-in sheets, not menus; the
+  count reflects total scan PDFs as instructed ("count PDF attachments").
+- The legacy `menus` table held no rows for this week (latest entry was
+  late March / early April), so client_menus was used as the menu source.
+- Telegram delivery failed: the bot API host is not reachable from this
+  sandbox. Per task step 8, the report was printed to stdout; this file is
+  an extra saved copy.

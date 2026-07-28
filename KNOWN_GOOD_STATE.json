@@ -1,0 +1,112 @@
+{
+  "_status": "STAMPED",
+  "_instruction": "This file represents a known-good system state",
+  "_note": "Stamped on Mac with verified process states and database counts",
+
+  "stamped_at": "2026-04-14T11:59:42Z",
+  "stamped_by": "mainsobhelper",
+  "stamped_on_mac": true,
+
+  "verification": {
+    "manifest_checksum": "a536dac1ae68ed80a4c303ef0d0987dc309af9f65b3da1cb1bc5ef4840b9ffe4",
+    "known_good_checksum": null,
+    "verification_chain_intact": true
+  },
+
+  "database": {
+    "path": "/Users/mainsobhelper/Documents/goj files/dashboard/auth_tracker.db",
+    "checksum": null,
+    "table_counts": {
+      "clients": 0,
+      "attendance_log": 0,
+      "rexxie_ideas": 0,
+      "staff_medical_log": 0
+    },
+    "last_verified_at": "2026-04-14T11:59:42Z"
+  },
+
+  "critical_files": {
+    "backend_main_py": {
+      "path": "/Users/mainsobhelper/Desktop/REX/backend/main.py",
+      "checksum": "7ef1915346df7865329d5e90369c58bd4bbfc87441df815ef57ff2466162ee92",
+      "size_bytes": 161636,
+      "last_modified": "2026-04-14T07:52:08Z"
+    },
+    "rexxie_bot_py": {
+      "path": "/Users/mainsobhelper/Desktop/REX/rex_rexxie_telegram_bot.py",
+      "checksum": "828eb291e13ef4661e76e39d2c2b45c521f5950103e58341cc3b4a74b5c67cfb",
+      "size_bytes": 151395,
+      "last_modified": "2026-04-14T07:16:53Z"
+    },
+    "consensus_ocr": {
+      "path": "/Users/mainsobhelper/Desktop/REX/goj_menu_consensus_ocr.py",
+      "checksum": "1b0617738b916c95ae762ecc6ea581d2172e29d63064f2e81ae5f52163a8660e",
+      "size_bytes": 39141,
+      "last_modified": "2026-04-14T07:52:41Z"
+    },
+    "ocr_schema": {
+      "path": "/Users/mainsobhelper/Desktop/REX/core/ocr_schema.py",
+      "checksum": "b3b5f05994cba1787da0df1fc024663e5827d58ba7678681ef2bb7d51d6338e1",
+      "size_bytes": 9188,
+      "last_modified": "2026-04-14T04:36:55Z"
+    },
+    "system_manifest": {
+      "path": "/Users/mainsobhelper/Desktop/REX/ACTIVE_SYSTEM_MANIFEST.json",
+      "checksum": "a536dac1ae68ed80a4c303ef0d0987dc309af9f65b3da1cb1bc5ef4840b9ffe4",
+      "size_bytes": 5811,
+      "last_modified": "2026-04-14T07:19:05Z"
+    }
+  },
+
+  "services": {
+    "rex_backend": {
+      "pid": 54617,
+      "running": true,
+      "last_verified_at": "2026-04-14T11:59:42Z"
+    },
+    "rexxie_bot": {
+      "pid": 54633,
+      "running": true,
+      "last_verified_at": "2026-04-14T11:59:42Z"
+    },
+    "rex_telegram_bot": {
+      "pid": 54640,
+      "running": true,
+      "last_verified_at": "2026-04-14T11:59:42Z"
+    },
+    "scheduler": {
+      "pid": 0,
+      "running": false,
+      "last_verified_at": "2026-04-14T11:59:42Z"
+    },
+    "alert_router": {
+      "pid": 0,
+      "running": false,
+      "last_verified_at": "2026-04-14T11:59:42Z"
+    }
+  },
+
+  "ocr_state": {
+    "snapshot_exists": true,
+    "snapshot_path": "/Users/mainsobhelper/Desktop/REX/ocr_snapshot_2026_04_13.tar.gz",
+    "flag_queue_unresolved": 28,
+    "last_successful_run": "2026-04-13T17:33:54",
+    "quarantine_items": "check /Users/mainsobhelper/Desktop/REX/data/ocr_quarantine/ directly"
+  },
+
+  "security": {
+    "telegram_token_in_keychain": true,
+    "anthropic_key_in_keychain": true,
+    "totp_configured": false,
+    "note": "Security credentials now in keychain (post-rotation)"
+  },
+
+  "memory_system": {
+    "rexxie_memory_db_exists": true,
+    "path": "/Users/mainsobhelper/Documents/goj files/rexxie/rexxie_memory.db",
+    "seeded": true,
+    "last_verified_at": "2026-04-14T11:59:42Z"
+  },
+
+  "stamped_on": "Mains-Mac-mini"
+}

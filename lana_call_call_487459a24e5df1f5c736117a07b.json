@@ -1,0 +1,44 @@
+{
+  "call_id": "call_487459a24e5df1f5c736117a07b",
+  "call_type": "phone_call",
+  "agent_id": "agent_01dd3c97a1d84bfc030007e641",
+  "agent_version": 0,
+  "agent_name": "Scout-Reservations",
+  "contact_dynamic_variables": {},
+  "custom_sip_headers": {
+    "X-RetellAI-Direction": "Outbound",
+    "X-RetellAI-OrgId": "org_VkEKS9JwA8t95xZW",
+    "X-RetellAI-CallId": "call_487459a24e5df1f5c736117a07b",
+    "X-RetellAI-SipTraceId": "call_487459a24e5df1f5c736117a07b",
+    "Route": "<sip:18.98.16.122;lr>"
+  },
+  "call_status": "not_connected",
+  "start_timestamp": 1782835198707,
+  "end_timestamp": 1782835198707,
+  "duration_ms": 0,
+  "public_log_url": "https://dxc03zgurdly9.cloudfront.net/3b31caa529541335e6bc14e39e18bb0fdaa2eb66fb7a82f507de3f4d78d07905/public.log",
+  "disconnection_reason": "dial_failed",
+  "latency": {},
+  "metadata": {
+    "scenario": "lana_study_private_event"
+  },
+  "call_cost": {
+    "total_duration_unit_price": 0,
+    "product_costs": [],
+    "combined_cost": 0,
+    "total_duration_seconds": 0
+  },
+  "call_analysis": {
+    "in_voicemail": false,
+    "call_summary": "",
+    "user_sentiment": "Unknown",
+    "custom_analysis_data": {},
+    "call_successful": false
+  },
+  "data_storage_setting": "everything",
+  "opt_in_signed_url": false,
+  "tool_calls": [],
+  "from_number": "+164****3781",
+  "to_number": "+19292056408",
+  "direction": "outbound"
+}

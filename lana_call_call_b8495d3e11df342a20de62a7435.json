@@ -1,0 +1,3641 @@
+{
+  "call_id": "call_b8495d3e11df342a20de62a7435",
+  "call_type": "phone_call",
+  "agent_id": "agent_305ba9fdc34276c523766cd096",
+  "agent_version": 0,
+  "agent_name": "Masha-BBG",
+  "contact_dynamic_variables": {},
+  "custom_sip_headers": {
+    "X-RetellAI-Direction": "Outbound",
+    "X-RetellAI-OrgId": "org_VkEKS9JwA8t95xZW",
+    "X-RetellAI-CallId": "call_b8495d3e11df342a20de62a7435",
+    "X-RetellAI-SipTraceId": "call_b8495d3e11df342a20de62a7435",
+    "Route": "<sip:18.98.16.120;lr>"
+  },
+  "call_status": "ended",
+  "start_timestamp": 1783143181438,
+  "end_timestamp": 1783143284357,
+  "duration_ms": 102919,
+  "transcript": "Agent: Boardwalk Beer Garden, good afternoon! This is Masha. How can I help you?\nUser: Welcome Thanks for asking. I'm here to help you with anything related to Boardwalk Beer Garden. Whether you wanna book a reservation, ask about our menu, hours, events, or anything else, Just let me know what you need. \nAgent: Thank you so much! That\u2019s really sweet. If you have any questions about our menu, hours, events, or if you\u2019d like the link to book a reservation, just let me know\u2014I'm here to help!\nUser: You got it. If you need info about our menu, want to know what's happening this week, or are ready to book a table, just say the word. I'm here to make things easy for you. \nAgent: Thank you! I appreciate that. If there\u2019s anything specific you\u2019d like to know or if you\u2019re ready to book a table, just let me know. I\u2019m always happy to help make your visit to Boardwalk Beer Garden a great one!\nUser: Thank you. That's really kind. If you ever wanna check out our menu, book a reservation, or have questions about events or hours, just ask. I'm here to make your Boardwalk beer garden experience awesome. \nAgent: You\u2019re so thoughtful\u2014thank you!you ever want the menu link, need help with a reservation, or have any questions about our events or hours, just let me know. I\u2019m always here to make your Boardwalk Beer Garden experience the best it can be!\nUser: That means a lot. Thank you. If you ever need anything, whether it's the menu, booking a table, or details about what's happening at Boardwalk Beer Garden, just reach out. I'm always here to help make your visit special. \nAgent: You\u2019re wonderful\u2014thank you for your kind words! If you ever need anything at all, just give me a call. I\u2019m always here to help make your time at Boardwalk Beer Garden extra special. Have a fantastic day!\nUser: Thank you so much for all the kind words. Have a fantastic day, and see you soon. \n",
+  "transcript_object": [
+    {
+      "role": "agent",
+      "content": "Boardwalk Beer Garden, good afternoon! This is Masha. How can I help you?",
+      "words": [
+        {
+          "word": "Boardwalk ",
+          "start": 0.263,
+          "end": 0.693
+        },
+        {
+          "word": "Beer ",
+          "start": 0.751,
+          "end": 0.902
+        },
+        {
+          "word": "Garden, ",
+          "start": 0.948,
+          "end": 1.215
+        },
+        {
+          "word": "good ",
+          "start": 1.215,
+          "end": 1.238
+        },
+        {
+          "word": "afternoon! ",
+          "start": 1.261,
+          "end": 1.389
+        },
+        {
+          "word": "This ",
+          "start": 1.412,
+          "end": 1.9
+        },
+        {
+          "word": "is ",
+          "start": 2.097,
+          "end": 2.202
+        },
+        {
+          "word": "Masha. ",
+          "start": 2.248,
+          "end": 2.306
+        },
+        {
+          "word": "How ",
+          "start": 2.353,
+          "end": 2.713
+        },
+        {
+          "word": "can ",
+          "start": 2.933,
+          "end": 3.026
+        },
+        {
+          "word": "I ",
+          "start": 3.061,
+          "end": 3.166
+        },
+        {
+          "word": "help ",
+          "start": 3.2,
+          "end": 3.224
+        },
+        {
+          "word": "you?",
+          "start": 3.259,
+          "end": 3.398
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "Welcome Thanks for asking. I'm here to help you with anything related to Boardwalk Beer Garden. Whether you wanna book a reservation, ask about our menu, hours, events, or anything else, Just let me know what you need. ",
+      "words": [
+        {
+          "word": "Welcome ",
+          "start": 3.6559999999999997,
+          "end": 4.056
+        },
+        {
+          "word": "Thanks ",
+          "start": 4.6160000000000005,
+          "end": 5.496
+        },
+        {
+          "word": "for ",
+          "start": 5.496,
+          "end": 5.656000000000001
+        },
+        {
+          "word": "asking. ",
+          "start": 5.656000000000001,
+          "end": 5.9760003
+        },
+        {
+          "word": "I'm ",
+          "start": 6.2860000000000005,
+          "end": 6.6860003
+        },
+        {
+          "word": "here ",
+          "start": 6.6860003,
+          "end": 6.846
+        },
+        {
+          "word": "to ",
+          "start": 6.846,
+          "end": 7.006
+        },
+        {
+          "word": "help ",
+          "start": 7.006,
+          "end": 7.1660003
+        },
+        {
+          "word": "you ",
+          "start": 7.1660003,
+          "end": 7.3260000000000005
+        },
+        {
+          "word": "with ",
+          "start": 7.3260000000000005,
+          "end": 7.6460003
+        },
+        {
+          "word": "anything ",
+          "start": 7.6460003,
+          "end": 8.126
+        },
+        {
+          "word": "related ",
+          "start": 8.126,
+          "end": 8.526
+        },
+        {
+          "word": "to ",
+          "start": 8.526,
+          "end": 8.686
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 8.686,
+          "end": 9.166
+        },
+        {
+          "word": "Beer ",
+          "start": 9.166,
+          "end": 9.486
+        },
+        {
+          "word": "Garden. ",
+          "start": 9.486,
+          "end": 9.806000000000001
+        },
+        {
+          "word": "Whether ",
+          "start": 10.166,
+          "end": 10.486
+        },
+        {
+          "word": "you ",
+          "start": 10.486,
+          "end": 10.646
+        },
+        {
+          "word": "wanna ",
+          "start": 10.646,
+          "end": 10.886000000000001
+        },
+        {
+          "word": "book ",
+          "start": 10.886000000000001,
+          "end": 11.046
+        },
+        {
+          "word": "a ",
+          "start": 11.046,
+          "end": 11.206
+        },
+        {
+          "word": "reservation, ",
+          "start": 11.206,
+          "end": 11.926
+        },
+        {
+          "word": "ask ",
+          "start": 12.086,
+          "end": 12.326
+        },
+        {
+          "word": "about ",
+          "start": 12.326,
+          "end": 12.565999
+        },
+        {
+          "word": "our ",
+          "start": 12.565999,
+          "end": 12.806000000000001
+        },
+        {
+          "word": "menu, ",
+          "start": 12.806000000000001,
+          "end": 13.446
+        },
+        {
+          "word": "hours, ",
+          "start": 13.446,
+          "end": 13.926
+        },
+        {
+          "word": "events, ",
+          "start": 13.926,
+          "end": 14.326
+        },
+        {
+          "word": "or ",
+          "start": 14.326,
+          "end": 14.406
+        },
+        {
+          "word": "anything ",
+          "start": 14.406,
+          "end": 14.645999
+        },
+        {
+          "word": "else, ",
+          "start": 14.645999,
+          "end": 14.805999
+        },
+        {
+          "word": "Just ",
+          "start": 15.296,
+          "end": 15.536
+        },
+        {
+          "word": "let ",
+          "start": 15.536,
+          "end": 15.696001
+        },
+        {
+          "word": "me ",
+          "start": 15.696001,
+          "end": 15.856
+        },
+        {
+          "word": "know ",
+          "start": 15.856,
+          "end": 15.936
+        },
+        {
+          "word": "what ",
+          "start": 15.936,
+          "end": 16.096
+        },
+        {
+          "word": "you ",
+          "start": 16.096,
+          "end": 16.176000000000002
+        },
+        {
+          "word": "need. ",
+          "start": 16.176000000000002,
+          "end": 16.336
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Thank you so much! That\u2019s really sweet. If you have any questions about our menu, hours, events, or if you\u2019d like the link to book a reservation, just let me know\u2014I'm here to help!",
+      "words": [
+        {
+          "word": "Thank ",
+          "start": 18.162,
+          "end": 18.36
+        },
+        {
+          "word": "you ",
+          "start": 18.394,
+          "end": 18.464
+        },
+        {
+          "word": "so ",
+          "start": 18.511,
+          "end": 18.592
+        },
+        {
+          "word": "much! ",
+          "start": 18.65,
+          "end": 18.952
+        },
+        {
+          "word": "That\u2019s ",
+          "start": 19.16,
+          "end": 19.335
+        },
+        {
+          "word": "really ",
+          "start": 19.369,
+          "end": 19.567
+        },
+        {
+          "word": "sweet. ",
+          "start": 19.602,
+          "end": 19.938
+        },
+        {
+          "word": "If ",
+          "start": 20.135,
+          "end": 20.275
+        },
+        {
+          "word": "you ",
+          "start": 20.31,
+          "end": 20.379
+        },
+        {
+          "word": "have ",
+          "start": 20.437,
+          "end": 20.565
+        },
+        {
+          "word": "any ",
+          "start": 20.6,
+          "end": 20.716
+        },
+        {
+          "word": "questions ",
+          "start": 20.762,
+          "end": 21.134
+        },
+        {
+          "word": "about ",
+          "start": 21.169,
+          "end": 21.331
+        },
+        {
+          "word": "our ",
+          "start": 21.354,
+          "end": 21.436
+        },
+        {
+          "word": "menu, ",
+          "start": 21.482,
+          "end": 21.935
+        },
+        {
+          "word": "hours, ",
+          "start": 21.993,
+          "end": 22.434
+        },
+        {
+          "word": "events, ",
+          "start": 22.481,
+          "end": 22.841
+        },
+        {
+          "word": "or ",
+          "start": 22.875,
+          "end": 22.968
+        },
+        {
+          "word": "if ",
+          "start": 23.015,
+          "end": 23.05
+        },
+        {
+          "word": "you\u2019d ",
+          "start": 23.05,
+          "end": 23.073
+        },
+        {
+          "word": "like ",
+          "start": 23.108,
+          "end": 23.247
+        },
+        {
+          "word": "the ",
+          "start": 23.282,
+          "end": 23.468
+        },
+        {
+          "word": "link ",
+          "start": 23.503,
+          "end": 23.572
+        },
+        {
+          "word": "to ",
+          "start": 23.619,
+          "end": 23.793
+        },
+        {
+          "word": "book ",
+          "start": 23.851,
+          "end": 23.898
+        },
+        {
+          "word": "a ",
+          "start": 23.944,
+          "end": 24.083
+        },
+        {
+          "word": "reservation, ",
+          "start": 24.118,
+          "end": 24.141
+        },
+        {
+          "word": "just ",
+          "start": 24.188,
+          "end": 24.826
+        },
+        {
+          "word": "let ",
+          "start": 24.908,
+          "end": 25.07
+        },
+        {
+          "word": "me ",
+          "start": 25.105,
+          "end": 25.198
+        },
+        {
+          "word": "know\u2014I'm ",
+          "start": 25.233,
+          "end": 25.279
+        },
+        {
+          "word": "here ",
+          "start": 25.314,
+          "end": 25.906
+        },
+        {
+          "word": "to ",
+          "start": 25.952,
+          "end": 26.069
+        },
+        {
+          "word": "help!",
+          "start": 26.092,
+          "end": 26.138
+        }
+      ],
+      "metadata": {
+        "response_id": 1
+      }
+    },
+    {
+      "role": "user",
+      "content": "You got it. If you need info about our menu, want to know what's happening this week, or are ready to book a table, just say the word. I'm here to make things easy for you. ",
+      "words": [
+        {
+          "word": "You ",
+          "start": 30.126,
+          "end": 30.366
+        },
+        {
+          "word": "got ",
+          "start": 30.366,
+          "end": 30.606
+        },
+        {
+          "word": "it. ",
+          "start": 30.606,
+          "end": 30.926000000000002
+        },
+        {
+          "word": "If ",
+          "start": 30.926000000000002,
+          "end": 31.166
+        },
+        {
+          "word": "you ",
+          "start": 31.166,
+          "end": 31.246
+        },
+        {
+          "word": "need ",
+          "start": 31.246,
+          "end": 31.406
+        },
+        {
+          "word": "info ",
+          "start": 31.406,
+          "end": 31.726001
+        },
+        {
+          "word": "about ",
+          "start": 31.726001,
+          "end": 31.966001
+        },
+        {
+          "word": "our ",
+          "start": 31.966001,
+          "end": 32.046
+        },
+        {
+          "word": "menu, ",
+          "start": 32.046,
+          "end": 32.446
+        },
+        {
+          "word": "want ",
+          "start": 32.446,
+          "end": 32.606
+        },
+        {
+          "word": "to ",
+          "start": 32.606,
+          "end": 32.686
+        },
+        {
+          "word": "know ",
+          "start": 32.686,
+          "end": 32.766002
+        },
+        {
+          "word": "what's ",
+          "start": 32.906,
+          "end": 33.146003
+        },
+        {
+          "word": "happening ",
+          "start": 33.146003,
+          "end": 33.466003
+        },
+        {
+          "word": "this ",
+          "start": 33.466003,
+          "end": 33.626003
+        },
+        {
+          "word": "week, ",
+          "start": 33.626003,
+          "end": 34.026
+        },
+        {
+          "word": "or ",
+          "start": 34.026,
+          "end": 34.106002000000004
+        },
+        {
+          "word": "are ",
+          "start": 34.106002000000004,
+          "end": 34.346000000000004
+        },
+        {
+          "word": "ready ",
+          "start": 34.346000000000004,
+          "end": 34.506
+        },
+        {
+          "word": "to ",
+          "start": 34.506,
+          "end": 34.666
+        },
+        {
+          "word": "book ",
+          "start": 34.666,
+          "end": 34.826
+        },
+        {
+          "word": "a ",
+          "start": 34.826,
+          "end": 34.986003000000004
+        },
+        {
+          "word": "table, ",
+          "start": 34.986003000000004,
+          "end": 35.546
+        },
+        {
+          "word": "just ",
+          "start": 35.546,
+          "end": 35.786003
+        },
+        {
+          "word": "say ",
+          "start": 35.786003,
+          "end": 35.946002
+        },
+        {
+          "word": "the ",
+          "start": 35.946002,
+          "end": 36.106002000000004
+        },
+        {
+          "word": "word. ",
+          "start": 36.106002000000004,
+          "end": 36.266002
+        },
+        {
+          "word": "I'm ",
+          "start": 36.616,
+          "end": 36.936
+        },
+        {
+          "word": "here ",
+          "start": 36.936,
+          "end": 37.096000000000004
+        },
+        {
+          "word": "to ",
+          "start": 37.096000000000004,
+          "end": 37.176
+        },
+        {
+          "word": "make ",
+          "start": 37.176,
+          "end": 37.335998000000004
+        },
+        {
+          "word": "things ",
+          "start": 37.335998000000004,
+          "end": 37.576
+        },
+        {
+          "word": "easy ",
+          "start": 37.576,
+          "end": 37.896
+        },
+        {
+          "word": "for ",
+          "start": 37.896,
+          "end": 38.056
+        },
+        {
+          "word": "you. ",
+          "start": 38.056,
+          "end": 38.216
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Thank you! I appreciate that. If there\u2019s anything specific you\u2019d like to know or if you\u2019re ready to book a table, just let me know. I\u2019m always happy to help make your visit to Boardwalk Beer Garden a great one!",
+      "words": [
+        {
+          "word": "Thank ",
+          "start": 40,
+          "end": 40.244
+        },
+        {
+          "word": "you! ",
+          "start": 40.302,
+          "end": 40.557
+        },
+        {
+          "word": "I ",
+          "start": 40.732,
+          "end": 40.79
+        },
+        {
+          "word": "appreciate ",
+          "start": 40.871,
+          "end": 41.3
+        },
+        {
+          "word": "that. ",
+          "start": 41.324,
+          "end": 41.544
+        },
+        {
+          "word": "If ",
+          "start": 41.741,
+          "end": 41.846
+        },
+        {
+          "word": "there\u2019s ",
+          "start": 41.881,
+          "end": 42.078
+        },
+        {
+          "word": "anything ",
+          "start": 42.125,
+          "end": 42.426
+        },
+        {
+          "word": "specific ",
+          "start": 42.473,
+          "end": 42.856
+        },
+        {
+          "word": "you\u2019d ",
+          "start": 42.891,
+          "end": 43.03
+        },
+        {
+          "word": "like ",
+          "start": 43.065,
+          "end": 43.204
+        },
+        {
+          "word": "to ",
+          "start": 43.239,
+          "end": 43.286
+        },
+        {
+          "word": "know ",
+          "start": 43.332,
+          "end": 43.518
+        },
+        {
+          "word": "or ",
+          "start": 43.611,
+          "end": 43.727
+        },
+        {
+          "word": "if ",
+          "start": 43.785,
+          "end": 43.843
+        },
+        {
+          "word": "you\u2019re ",
+          "start": 43.878,
+          "end": 44.04
+        },
+        {
+          "word": "ready ",
+          "start": 44.063,
+          "end": 44.226
+        },
+        {
+          "word": "to ",
+          "start": 44.261,
+          "end": 44.307
+        },
+        {
+          "word": "book ",
+          "start": 44.342,
+          "end": 44.481
+        },
+        {
+          "word": "a ",
+          "start": 44.516,
+          "end": 44.539
+        },
+        {
+          "word": "table, ",
+          "start": 44.586,
+          "end": 44.969
+        },
+        {
+          "word": "just ",
+          "start": 45.05,
+          "end": 45.236
+        },
+        {
+          "word": "let ",
+          "start": 45.259,
+          "end": 45.364
+        },
+        {
+          "word": "me ",
+          "start": 45.399,
+          "end": 45.445
+        },
+        {
+          "word": "know.",
+          "start": 45.48,
+          "end": 45.712
+        },
+        {
+          "word": " I\u2019m ",
+          "start": 45.91,
+          "end": 46.084
+        },
+        {
+          "word": "always ",
+          "start": 46.119,
+          "end": 46.351
+        },
+        {
+          "word": "happy ",
+          "start": 46.386,
+          "end": 46.595
+        },
+        {
+          "word": "to ",
+          "start": 46.63,
+          "end": 46.676
+        },
+        {
+          "word": "help ",
+          "start": 46.711,
+          "end": 46.839
+        },
+        {
+          "word": "make ",
+          "start": 46.885,
+          "end": 47.001
+        },
+        {
+          "word": "your ",
+          "start": 47.036,
+          "end": 47.129
+        },
+        {
+          "word": "visit ",
+          "start": 47.175,
+          "end": 47.396
+        },
+        {
+          "word": "to ",
+          "start": 47.431,
+          "end": 47.477
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 47.524,
+          "end": 47.884
+        },
+        {
+          "word": "Beer ",
+          "start": 47.953,
+          "end": 48.116
+        },
+        {
+          "word": "Garden ",
+          "start": 48.174,
+          "end": 48.406
+        },
+        {
+          "word": "a ",
+          "start": 48.441,
+          "end": 48.464
+        },
+        {
+          "word": "great ",
+          "start": 48.51,
+          "end": 48.696
+        },
+        {
+          "word": "one!",
+          "start": 48.754,
+          "end": 49.033
+        }
+      ],
+      "metadata": {
+        "response_id": 4
+      }
+    },
+    {
+      "role": "user",
+      "content": "Thank you. That's really kind. If you ever wanna check out our menu, book a reservation, or have questions about events or hours, just ask. I'm here to make your Boardwalk beer garden experience awesome. ",
+      "words": [
+        {
+          "word": "Thank ",
+          "start": 50.926,
+          "end": 51.245998
+        },
+        {
+          "word": "you. ",
+          "start": 51.245998,
+          "end": 51.486
+        },
+        {
+          "word": "That's ",
+          "start": 51.486,
+          "end": 51.725997
+        },
+        {
+          "word": "really ",
+          "start": 51.725997,
+          "end": 51.966
+        },
+        {
+          "word": "kind. ",
+          "start": 51.966,
+          "end": 52.525997
+        },
+        {
+          "word": "If ",
+          "start": 52.525997,
+          "end": 52.686
+        },
+        {
+          "word": "you ",
+          "start": 52.686,
+          "end": 52.766
+        },
+        {
+          "word": "ever ",
+          "start": 52.766,
+          "end": 53.006
+        },
+        {
+          "word": "wanna ",
+          "start": 53.006,
+          "end": 53.166
+        },
+        {
+          "word": "check ",
+          "start": 53.166,
+          "end": 53.405998
+        },
+        {
+          "word": "out ",
+          "start": 53.405998,
+          "end": 53.565998
+        },
+        {
+          "word": "our ",
+          "start": 53.565998,
+          "end": 53.725997
+        },
+        {
+          "word": "menu, ",
+          "start": 53.725997,
+          "end": 54.205997
+        },
+        {
+          "word": "book ",
+          "start": 54.205997,
+          "end": 54.365997
+        },
+        {
+          "word": "a ",
+          "start": 54.365997,
+          "end": 54.446
+        },
+        {
+          "word": "reservation, ",
+          "start": 54.556,
+          "end": 55.196
+        },
+        {
+          "word": "or ",
+          "start": 55.196,
+          "end": 55.276
+        },
+        {
+          "word": "have ",
+          "start": 55.276,
+          "end": 55.516
+        },
+        {
+          "word": "questions ",
+          "start": 55.516,
+          "end": 55.835998000000004
+        },
+        {
+          "word": "about ",
+          "start": 55.835998000000004,
+          "end": 56.076
+        },
+        {
+          "word": "events ",
+          "start": 56.076,
+          "end": 56.315998
+        },
+        {
+          "word": "or ",
+          "start": 56.315998,
+          "end": 56.556
+        },
+        {
+          "word": "hours, ",
+          "start": 56.556,
+          "end": 57.036
+        },
+        {
+          "word": "just ",
+          "start": 57.036,
+          "end": 57.276
+        },
+        {
+          "word": "ask. ",
+          "start": 57.276,
+          "end": 57.516
+        },
+        {
+          "word": "I'm ",
+          "start": 57.936,
+          "end": 58.176
+        },
+        {
+          "word": "here ",
+          "start": 58.176,
+          "end": 58.335998000000004
+        },
+        {
+          "word": "to ",
+          "start": 58.335998000000004,
+          "end": 58.416
+        },
+        {
+          "word": "make ",
+          "start": 58.416,
+          "end": 58.576
+        },
+        {
+          "word": "your ",
+          "start": 58.576,
+          "end": 58.736
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 58.736,
+          "end": 59.135997
+        },
+        {
+          "word": "beer ",
+          "start": 59.135997,
+          "end": 59.455997
+        },
+        {
+          "word": "garden ",
+          "start": 59.455997,
+          "end": 59.856
+        },
+        {
+          "word": "experience ",
+          "start": 59.856,
+          "end": 60.416
+        },
+        {
+          "word": "awesome. ",
+          "start": 60.416,
+          "end": 60.736
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "You\u2019re so thoughtful\u2014thank you!you ever want the menu link, need help with a reservation, or have any questions about our events or hours, just let me know. I\u2019m always here to make your Boardwalk Beer Garden experience the best it can be!",
+      "words": [
+        {
+          "word": "You\u2019re ",
+          "start": 63.081,
+          "end": 63.29
+        },
+        {
+          "word": "so ",
+          "start": 63.325,
+          "end": 63.43
+        },
+        {
+          "word": "thoughtful\u2014thank ",
+          "start": 63.488,
+          "end": 63.894
+        },
+        {
+          "word": "you!",
+          "start": 63.894,
+          "end": 64.103
+        },
+        {
+          "word": "you ",
+          "start": 64.637,
+          "end": 64.765
+        },
+        {
+          "word": "ever ",
+          "start": 64.8,
+          "end": 64.87
+        },
+        {
+          "word": "want ",
+          "start": 64.928,
+          "end": 65.067
+        },
+        {
+          "word": "the ",
+          "start": 65.113,
+          "end": 65.253
+        },
+        {
+          "word": "menu ",
+          "start": 65.288,
+          "end": 65.357
+        },
+        {
+          "word": "link, ",
+          "start": 65.392,
+          "end": 65.613
+        },
+        {
+          "word": "need ",
+          "start": 65.671,
+          "end": 65.903
+        },
+        {
+          "word": "help ",
+          "start": 65.938,
+          "end": 66.112
+        },
+        {
+          "word": "with ",
+          "start": 66.147,
+          "end": 66.274
+        },
+        {
+          "word": "a ",
+          "start": 66.309,
+          "end": 66.402
+        },
+        {
+          "word": "reservation, ",
+          "start": 66.437,
+          "end": 66.46
+        },
+        {
+          "word": "or ",
+          "start": 66.507,
+          "end": 67.076
+        },
+        {
+          "word": "have ",
+          "start": 67.122,
+          "end": 67.215
+        },
+        {
+          "word": "any ",
+          "start": 67.273,
+          "end": 67.412
+        },
+        {
+          "word": "questions ",
+          "start": 67.435,
+          "end": 67.552
+        },
+        {
+          "word": "about ",
+          "start": 67.586,
+          "end": 67.946
+        },
+        {
+          "word": "our ",
+          "start": 67.981,
+          "end": 68.144
+        },
+        {
+          "word": "events ",
+          "start": 68.167,
+          "end": 68.248
+        },
+        {
+          "word": "or ",
+          "start": 68.295,
+          "end": 68.55
+        },
+        {
+          "word": "hours, ",
+          "start": 68.573,
+          "end": 68.643
+        },
+        {
+          "word": "just ",
+          "start": 68.689,
+          "end": 69.096
+        },
+        {
+          "word": "let ",
+          "start": 69.154,
+          "end": 69.328
+        },
+        {
+          "word": "me ",
+          "start": 69.363,
+          "end": 69.467
+        },
+        {
+          "word": "know. ",
+          "start": 69.502,
+          "end": 69.56
+        },
+        {
+          "word": "I\u2019m ",
+          "start": 69.595,
+          "end": 69.862
+        },
+        {
+          "word": "always ",
+          "start": 70.036,
+          "end": 70.198
+        },
+        {
+          "word": "here ",
+          "start": 70.233,
+          "end": 70.454
+        },
+        {
+          "word": "to ",
+          "start": 70.488,
+          "end": 70.604
+        },
+        {
+          "word": "make ",
+          "start": 70.628,
+          "end": 70.674
+        },
+        {
+          "word": "your ",
+          "start": 70.709,
+          "end": 70.825
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 70.848,
+          "end": 70.953
+        },
+        {
+          "word": "Beer ",
+          "start": 70.988,
+          "end": 71.371
+        },
+        {
+          "word": "Garden ",
+          "start": 71.44,
+          "end": 71.591
+        },
+        {
+          "word": "experience ",
+          "start": 71.649,
+          "end": 71.905
+        },
+        {
+          "word": "the ",
+          "start": 71.963,
+          "end": 72.45
+        },
+        {
+          "word": "best ",
+          "start": 72.485,
+          "end": 72.555
+        },
+        {
+          "word": "it ",
+          "start": 72.59,
+          "end": 72.776
+        },
+        {
+          "word": "can ",
+          "start": 72.81,
+          "end": 72.868
+        },
+        {
+          "word": "be!",
+          "start": 72.903,
+          "end": 73.008
+        }
+      ],
+      "metadata": {
+        "response_id": 6
+      }
+    },
+    {
+      "role": "user",
+      "content": "That means a lot. Thank you. If you ever need anything, whether it's the menu, booking a table, or details about what's happening at Boardwalk Beer Garden, just reach out. I'm always here to help make your visit special. ",
+      "words": [
+        {
+          "word": "That ",
+          "start": 75.016,
+          "end": 75.336
+        },
+        {
+          "word": "means ",
+          "start": 75.336,
+          "end": 75.576
+        },
+        {
+          "word": "a ",
+          "start": 75.576,
+          "end": 75.735996
+        },
+        {
+          "word": "lot. ",
+          "start": 75.735996,
+          "end": 76.056
+        },
+        {
+          "word": "Thank ",
+          "start": 76.056,
+          "end": 76.296
+        },
+        {
+          "word": "you. ",
+          "start": 76.296,
+          "end": 76.696
+        },
+        {
+          "word": "If ",
+          "start": 76.696,
+          "end": 76.936
+        },
+        {
+          "word": "you ",
+          "start": 76.936,
+          "end": 77.016
+        },
+        {
+          "word": "ever ",
+          "start": 77.016,
+          "end": 77.256
+        },
+        {
+          "word": "need ",
+          "start": 77.256,
+          "end": 77.496
+        },
+        {
+          "word": "anything, ",
+          "start": 77.496,
+          "end": 78.056
+        },
+        {
+          "word": "whether ",
+          "start": 78.056,
+          "end": 78.136
+        },
+        {
+          "word": "it's ",
+          "start": 78.136,
+          "end": 78.376
+        },
+        {
+          "word": "the ",
+          "start": 78.376,
+          "end": 78.456
+        },
+        {
+          "word": "menu, ",
+          "start": 78.456,
+          "end": 78.616
+        },
+        {
+          "word": "booking ",
+          "start": 78.906,
+          "end": 79.226
+        },
+        {
+          "word": "a ",
+          "start": 79.226,
+          "end": 79.386
+        },
+        {
+          "word": "table, ",
+          "start": 79.386,
+          "end": 79.945995
+        },
+        {
+          "word": "or ",
+          "start": 80.106,
+          "end": 80.265995
+        },
+        {
+          "word": "details ",
+          "start": 80.265995,
+          "end": 80.665996
+        },
+        {
+          "word": "about ",
+          "start": 80.665996,
+          "end": 80.905994
+        },
+        {
+          "word": "what's ",
+          "start": 80.905994,
+          "end": 81.146
+        },
+        {
+          "word": "happening ",
+          "start": 81.146,
+          "end": 81.466
+        },
+        {
+          "word": "at ",
+          "start": 81.466,
+          "end": 81.625995
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 81.625995,
+          "end": 82.026
+        },
+        {
+          "word": "Beer ",
+          "start": 82.026,
+          "end": 82.346
+        },
+        {
+          "word": "Garden, ",
+          "start": 82.346,
+          "end": 82.826
+        },
+        {
+          "word": "just ",
+          "start": 82.826,
+          "end": 83.066
+        },
+        {
+          "word": "reach ",
+          "start": 83.066,
+          "end": 83.305995
+        },
+        {
+          "word": "out. ",
+          "start": 83.305995,
+          "end": 83.466
+        },
+        {
+          "word": "I'm ",
+          "start": 83.876,
+          "end": 84.196
+        },
+        {
+          "word": "always ",
+          "start": 84.196,
+          "end": 84.436
+        },
+        {
+          "word": "here ",
+          "start": 84.436,
+          "end": 84.596
+        },
+        {
+          "word": "to ",
+          "start": 84.596,
+          "end": 84.756
+        },
+        {
+          "word": "help ",
+          "start": 84.756,
+          "end": 84.915996
+        },
+        {
+          "word": "make ",
+          "start": 84.915996,
+          "end": 85.076
+        },
+        {
+          "word": "your ",
+          "start": 85.076,
+          "end": 85.235996
+        },
+        {
+          "word": "visit ",
+          "start": 85.235996,
+          "end": 85.476
+        },
+        {
+          "word": "special. ",
+          "start": 85.476,
+          "end": 85.796
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "You\u2019re wonderful\u2014thank you for your kind words! If you ever need anything at all, just give me a call. I\u2019m always here to help make your time at Boardwalk Beer Garden extra special. Have a fantastic day!",
+      "words": [
+        {
+          "word": "You\u2019re ",
+          "start": 87.565,
+          "end": 87.774
+        },
+        {
+          "word": "wonderful\u2014thank ",
+          "start": 87.809,
+          "end": 88.471
+        },
+        {
+          "word": "you ",
+          "start": 88.471,
+          "end": 88.552
+        },
+        {
+          "word": "for ",
+          "start": 88.587,
+          "end": 88.657
+        },
+        {
+          "word": "your ",
+          "start": 88.703,
+          "end": 88.796
+        },
+        {
+          "word": "kind ",
+          "start": 88.831,
+          "end": 88.924
+        },
+        {
+          "word": "words!",
+          "start": 88.97,
+          "end": 89.156
+        },
+        {
+          "word": " If ",
+          "start": 89.191,
+          "end": 89.609
+        },
+        {
+          "word": "you ",
+          "start": 89.817,
+          "end": 89.934
+        },
+        {
+          "word": "ever ",
+          "start": 89.968,
+          "end": 90.038
+        },
+        {
+          "word": "need ",
+          "start": 90.073,
+          "end": 90.212
+        },
+        {
+          "word": "anything ",
+          "start": 90.247,
+          "end": 90.398
+        },
+        {
+          "word": "at ",
+          "start": 90.433,
+          "end": 90.7
+        },
+        {
+          "word": "all, ",
+          "start": 90.735,
+          "end": 90.793
+        },
+        {
+          "word": "just ",
+          "start": 90.828,
+          "end": 90.967
+        },
+        {
+          "word": "give ",
+          "start": 91.002,
+          "end": 91.129
+        },
+        {
+          "word": "me ",
+          "start": 91.153,
+          "end": 91.257
+        },
+        {
+          "word": "a ",
+          "start": 91.292,
+          "end": 91.362
+        },
+        {
+          "word": "call. ",
+          "start": 91.396,
+          "end": 91.431
+        },
+        {
+          "word": "I\u2019m ",
+          "start": 91.478,
+          "end": 91.814
+        },
+        {
+          "word": "always ",
+          "start": 92,
+          "end": 92.163
+        },
+        {
+          "word": "here ",
+          "start": 92.198,
+          "end": 92.407
+        },
+        {
+          "word": "to ",
+          "start": 92.442,
+          "end": 92.558
+        },
+        {
+          "word": "help ",
+          "start": 92.581,
+          "end": 92.627
+        },
+        {
+          "word": "make ",
+          "start": 92.662,
+          "end": 92.79
+        },
+        {
+          "word": "your ",
+          "start": 92.836,
+          "end": 92.952
+        },
+        {
+          "word": "time ",
+          "start": 92.987,
+          "end": 93.092
+        },
+        {
+          "word": "at ",
+          "start": 93.138,
+          "end": 93.347
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 93.382,
+          "end": 93.44
+        },
+        {
+          "word": "Beer ",
+          "start": 93.487,
+          "end": 93.835
+        },
+        {
+          "word": "Garden ",
+          "start": 93.893,
+          "end": 94.032
+        },
+        {
+          "word": "extra ",
+          "start": 94.079,
+          "end": 94.322
+        },
+        {
+          "word": "special.",
+          "start": 94.392,
+          "end": 94.682
+        },
+        {
+          "word": " Have ",
+          "start": 94.717,
+          "end": 95.205
+        },
+        {
+          "word": "a ",
+          "start": 95.39,
+          "end": 95.553
+        },
+        {
+          "word": "fantastic ",
+          "start": 95.576,
+          "end": 95.599
+        },
+        {
+          "word": "day!",
+          "start": 95.646,
+          "end": 96.075
+        }
+      ],
+      "metadata": {
+        "response_id": 8
+      }
+    },
+    {
+      "role": "user",
+      "content": "Thank you so much for all the kind words. Have a fantastic day, and see you soon. ",
+      "words": [
+        {
+          "word": "Thank ",
+          "start": 98.126,
+          "end": 98.446
+        },
+        {
+          "word": "you ",
+          "start": 98.446,
+          "end": 98.606
+        },
+        {
+          "word": "so ",
+          "start": 98.606,
+          "end": 98.766
+        },
+        {
+          "word": "much ",
+          "start": 98.766,
+          "end": 98.926
+        },
+        {
+          "word": "for ",
+          "start": 98.926,
+          "end": 99.086
+        },
+        {
+          "word": "all ",
+          "start": 99.086,
+          "end": 99.246
+        },
+        {
+          "word": "the ",
+          "start": 99.246,
+          "end": 99.406
+        },
+        {
+          "word": "kind ",
+          "start": 99.406,
+          "end": 99.646
+        },
+        {
+          "word": "words. ",
+          "start": 99.646,
+          "end": 99.886005
+        },
+        {
+          "word": "Have ",
+          "start": 100.156,
+          "end": 100.476
+        },
+        {
+          "word": "a ",
+          "start": 100.476,
+          "end": 100.636005
+        },
+        {
+          "word": "fantastic ",
+          "start": 100.636005,
+          "end": 101.036
+        },
+        {
+          "word": "day, ",
+          "start": 101.036,
+          "end": 101.436
+        },
+        {
+          "word": "and ",
+          "start": 101.436,
+          "end": 101.516
+        },
+        {
+          "word": "see ",
+          "start": 101.516,
+          "end": 101.676
+        },
+        {
+          "word": "you ",
+          "start": 101.676,
+          "end": 101.836
+        },
+        {
+          "word": "soon. ",
+          "start": 101.836,
+          "end": 101.996
+        }
+      ]
+    }
+  ],
+  "transcript_with_tool_calls": [
+    {
+      "role": "agent",
+      "content": "Boardwalk Beer Garden, good afternoon! This is Masha. How can I help you?",
+      "words": [
+        {
+          "word": "Boardwalk ",
+          "start": 0.263,
+          "end": 0.693
+        },
+        {
+          "word": "Beer ",
+          "start": 0.751,
+          "end": 0.902
+        },
+        {
+          "word": "Garden, ",
+          "start": 0.948,
+          "end": 1.215
+        },
+        {
+          "word": "good ",
+          "start": 1.215,
+          "end": 1.238
+        },
+        {
+          "word": "afternoon! ",
+          "start": 1.261,
+          "end": 1.389
+        },
+        {
+          "word": "This ",
+          "start": 1.412,
+          "end": 1.9
+        },
+        {
+          "word": "is ",
+          "start": 2.097,
+          "end": 2.202
+        },
+        {
+          "word": "Masha. ",
+          "start": 2.248,
+          "end": 2.306
+        },
+        {
+          "word": "How ",
+          "start": 2.353,
+          "end": 2.713
+        },
+        {
+          "word": "can ",
+          "start": 2.933,
+          "end": 3.026
+        },
+        {
+          "word": "I ",
+          "start": 3.061,
+          "end": 3.166
+        },
+        {
+          "word": "help ",
+          "start": 3.2,
+          "end": 3.224
+        },
+        {
+          "word": "you?",
+          "start": 3.259,
+          "end": 3.398
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "Welcome Thanks for asking. I'm here to help you with anything related to Boardwalk Beer Garden. Whether you wanna book a reservation, ask about our menu, hours, events, or anything else, Just let me know what you need. ",
+      "words": [
+        {
+          "word": "Welcome ",
+          "start": 3.6559999999999997,
+          "end": 4.056
+        },
+        {
+          "word": "Thanks ",
+          "start": 4.6160000000000005,
+          "end": 5.496
+        },
+        {
+          "word": "for ",
+          "start": 5.496,
+          "end": 5.656000000000001
+        },
+        {
+          "word": "asking. ",
+          "start": 5.656000000000001,
+          "end": 5.9760003
+        },
+        {
+          "word": "I'm ",
+          "start": 6.2860000000000005,
+          "end": 6.6860003
+        },
+        {
+          "word": "here ",
+          "start": 6.6860003,
+          "end": 6.846
+        },
+        {
+          "word": "to ",
+          "start": 6.846,
+          "end": 7.006
+        },
+        {
+          "word": "help ",
+          "start": 7.006,
+          "end": 7.1660003
+        },
+        {
+          "word": "you ",
+          "start": 7.1660003,
+          "end": 7.3260000000000005
+        },
+        {
+          "word": "with ",
+          "start": 7.3260000000000005,
+          "end": 7.6460003
+        },
+        {
+          "word": "anything ",
+          "start": 7.6460003,
+          "end": 8.126
+        },
+        {
+          "word": "related ",
+          "start": 8.126,
+          "end": 8.526
+        },
+        {
+          "word": "to ",
+          "start": 8.526,
+          "end": 8.686
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 8.686,
+          "end": 9.166
+        },
+        {
+          "word": "Beer ",
+          "start": 9.166,
+          "end": 9.486
+        },
+        {
+          "word": "Garden. ",
+          "start": 9.486,
+          "end": 9.806000000000001
+        },
+        {
+          "word": "Whether ",
+          "start": 10.166,
+          "end": 10.486
+        },
+        {
+          "word": "you ",
+          "start": 10.486,
+          "end": 10.646
+        },
+        {
+          "word": "wanna ",
+          "start": 10.646,
+          "end": 10.886000000000001
+        },
+        {
+          "word": "book ",
+          "start": 10.886000000000001,
+          "end": 11.046
+        },
+        {
+          "word": "a ",
+          "start": 11.046,
+          "end": 11.206
+        },
+        {
+          "word": "reservation, ",
+          "start": 11.206,
+          "end": 11.926
+        },
+        {
+          "word": "ask ",
+          "start": 12.086,
+          "end": 12.326
+        },
+        {
+          "word": "about ",
+          "start": 12.326,
+          "end": 12.565999
+        },
+        {
+          "word": "our ",
+          "start": 12.565999,
+          "end": 12.806000000000001
+        },
+        {
+          "word": "menu, ",
+          "start": 12.806000000000001,
+          "end": 13.446
+        },
+        {
+          "word": "hours, ",
+          "start": 13.446,
+          "end": 13.926
+        },
+        {
+          "word": "events, ",
+          "start": 13.926,
+          "end": 14.326
+        },
+        {
+          "word": "or ",
+          "start": 14.326,
+          "end": 14.406
+        },
+        {
+          "word": "anything ",
+          "start": 14.406,
+          "end": 14.645999
+        },
+        {
+          "word": "else, ",
+          "start": 14.645999,
+          "end": 14.805999
+        },
+        {
+          "word": "Just ",
+          "start": 15.296,
+          "end": 15.536
+        },
+        {
+          "word": "let ",
+          "start": 15.536,
+          "end": 15.696001
+        },
+        {
+          "word": "me ",
+          "start": 15.696001,
+          "end": 15.856
+        },
+        {
+          "word": "know ",
+          "start": 15.856,
+          "end": 15.936
+        },
+        {
+          "word": "what ",
+          "start": 15.936,
+          "end": 16.096
+        },
+        {
+          "word": "you ",
+          "start": 16.096,
+          "end": 16.176000000000002
+        },
+        {
+          "word": "need. ",
+          "start": 16.176000000000002,
+          "end": 16.336
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Thank you so much! That\u2019s really sweet. If you have any questions about our menu, hours, events, or if you\u2019d like the link to book a reservation, just let me know\u2014I'm here to help!",
+      "words": [
+        {
+          "word": "Thank ",
+          "start": 18.162,
+          "end": 18.36
+        },
+        {
+          "word": "you ",
+          "start": 18.394,
+          "end": 18.464
+        },
+        {
+          "word": "so ",
+          "start": 18.511,
+          "end": 18.592
+        },
+        {
+          "word": "much! ",
+          "start": 18.65,
+          "end": 18.952
+        },
+        {
+          "word": "That\u2019s ",
+          "start": 19.16,
+          "end": 19.335
+        },
+        {
+          "word": "really ",
+          "start": 19.369,
+          "end": 19.567
+        },
+        {
+          "word": "sweet. ",
+          "start": 19.602,
+          "end": 19.938
+        },
+        {
+          "word": "If ",
+          "start": 20.135,
+          "end": 20.275
+        },
+        {
+          "word": "you ",
+          "start": 20.31,
+          "end": 20.379
+        },
+        {
+          "word": "have ",
+          "start": 20.437,
+          "end": 20.565
+        },
+        {
+          "word": "any ",
+          "start": 20.6,
+          "end": 20.716
+        },
+        {
+          "word": "questions ",
+          "start": 20.762,
+          "end": 21.134
+        },
+        {
+          "word": "about ",
+          "start": 21.169,
+          "end": 21.331
+        },
+        {
+          "word": "our ",
+          "start": 21.354,
+          "end": 21.436
+        },
+        {
+          "word": "menu, ",
+          "start": 21.482,
+          "end": 21.935
+        },
+        {
+          "word": "hours, ",
+          "start": 21.993,
+          "end": 22.434
+        },
+        {
+          "word": "events, ",
+          "start": 22.481,
+          "end": 22.841
+        },
+        {
+          "word": "or ",
+          "start": 22.875,
+          "end": 22.968
+        },
+        {
+          "word": "if ",
+          "start": 23.015,
+          "end": 23.05
+        },
+        {
+          "word": "you\u2019d ",
+          "start": 23.05,
+          "end": 23.073
+        },
+        {
+          "word": "like ",
+          "start": 23.108,
+          "end": 23.247
+        },
+        {
+          "word": "the ",
+          "start": 23.282,
+          "end": 23.468
+        },
+        {
+          "word": "link ",
+          "start": 23.503,
+          "end": 23.572
+        },
+        {
+          "word": "to ",
+          "start": 23.619,
+          "end": 23.793
+        },
+        {
+          "word": "book ",
+          "start": 23.851,
+          "end": 23.898
+        },
+        {
+          "word": "a ",
+          "start": 23.944,
+          "end": 24.083
+        },
+        {
+          "word": "reservation, ",
+          "start": 24.118,
+          "end": 24.141
+        },
+        {
+          "word": "just ",
+          "start": 24.188,
+          "end": 24.826
+        },
+        {
+          "word": "let ",
+          "start": 24.908,
+          "end": 25.07
+        },
+        {
+          "word": "me ",
+          "start": 25.105,
+          "end": 25.198
+        },
+        {
+          "word": "know\u2014I'm ",
+          "start": 25.233,
+          "end": 25.279
+        },
+        {
+          "word": "here ",
+          "start": 25.314,
+          "end": 25.906
+        },
+        {
+          "word": "to ",
+          "start": 25.952,
+          "end": 26.069
+        },
+        {
+          "word": "help!",
+          "start": 26.092,
+          "end": 26.138
+        }
+      ],
+      "metadata": {
+        "response_id": 1
+      }
+    },
+    {
+      "role": "user",
+      "content": "You got it. If you need info about our menu, want to know what's happening this week, or are ready to book a table, just say the word. I'm here to make things easy for you. ",
+      "words": [
+        {
+          "word": "You ",
+          "start": 30.126,
+          "end": 30.366
+        },
+        {
+          "word": "got ",
+          "start": 30.366,
+          "end": 30.606
+        },
+        {
+          "word": "it. ",
+          "start": 30.606,
+          "end": 30.926000000000002
+        },
+        {
+          "word": "If ",
+          "start": 30.926000000000002,
+          "end": 31.166
+        },
+        {
+          "word": "you ",
+          "start": 31.166,
+          "end": 31.246
+        },
+        {
+          "word": "need ",
+          "start": 31.246,
+          "end": 31.406
+        },
+        {
+          "word": "info ",
+          "start": 31.406,
+          "end": 31.726001
+        },
+        {
+          "word": "about ",
+          "start": 31.726001,
+          "end": 31.966001
+        },
+        {
+          "word": "our ",
+          "start": 31.966001,
+          "end": 32.046
+        },
+        {
+          "word": "menu, ",
+          "start": 32.046,
+          "end": 32.446
+        },
+        {
+          "word": "want ",
+          "start": 32.446,
+          "end": 32.606
+        },
+        {
+          "word": "to ",
+          "start": 32.606,
+          "end": 32.686
+        },
+        {
+          "word": "know ",
+          "start": 32.686,
+          "end": 32.766002
+        },
+        {
+          "word": "what's ",
+          "start": 32.906,
+          "end": 33.146003
+        },
+        {
+          "word": "happening ",
+          "start": 33.146003,
+          "end": 33.466003
+        },
+        {
+          "word": "this ",
+          "start": 33.466003,
+          "end": 33.626003
+        },
+        {
+          "word": "week, ",
+          "start": 33.626003,
+          "end": 34.026
+        },
+        {
+          "word": "or ",
+          "start": 34.026,
+          "end": 34.106002000000004
+        },
+        {
+          "word": "are ",
+          "start": 34.106002000000004,
+          "end": 34.346000000000004
+        },
+        {
+          "word": "ready ",
+          "start": 34.346000000000004,
+          "end": 34.506
+        },
+        {
+          "word": "to ",
+          "start": 34.506,
+          "end": 34.666
+        },
+        {
+          "word": "book ",
+          "start": 34.666,
+          "end": 34.826
+        },
+        {
+          "word": "a ",
+          "start": 34.826,
+          "end": 34.986003000000004
+        },
+        {
+          "word": "table, ",
+          "start": 34.986003000000004,
+          "end": 35.546
+        },
+        {
+          "word": "just ",
+          "start": 35.546,
+          "end": 35.786003
+        },
+        {
+          "word": "say ",
+          "start": 35.786003,
+          "end": 35.946002
+        },
+        {
+          "word": "the ",
+          "start": 35.946002,
+          "end": 36.106002000000004
+        },
+        {
+          "word": "word. ",
+          "start": 36.106002000000004,
+          "end": 36.266002
+        },
+        {
+          "word": "I'm ",
+          "start": 36.616,
+          "end": 36.936
+        },
+        {
+          "word": "here ",
+          "start": 36.936,
+          "end": 37.096000000000004
+        },
+        {
+          "word": "to ",
+          "start": 37.096000000000004,
+          "end": 37.176
+        },
+        {
+          "word": "make ",
+          "start": 37.176,
+          "end": 37.335998000000004
+        },
+        {
+          "word": "things ",
+          "start": 37.335998000000004,
+          "end": 37.576
+        },
+        {
+          "word": "easy ",
+          "start": 37.576,
+          "end": 37.896
+        },
+        {
+          "word": "for ",
+          "start": 37.896,
+          "end": 38.056
+        },
+        {
+          "word": "you. ",
+          "start": 38.056,
+          "end": 38.216
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Thank you! I appreciate that. If there\u2019s anything specific you\u2019d like to know or if you\u2019re ready to book a table, just let me know. I\u2019m always happy to help make your visit to Boardwalk Beer Garden a great one!",
+      "words": [
+        {
+          "word": "Thank ",
+          "start": 40,
+          "end": 40.244
+        },
+        {
+          "word": "you! ",
+          "start": 40.302,
+          "end": 40.557
+        },
+        {
+          "word": "I ",
+          "start": 40.732,
+          "end": 40.79
+        },
+        {
+          "word": "appreciate ",
+          "start": 40.871,
+          "end": 41.3
+        },
+        {
+          "word": "that. ",
+          "start": 41.324,
+          "end": 41.544
+        },
+        {
+          "word": "If ",
+          "start": 41.741,
+          "end": 41.846
+        },
+        {
+          "word": "there\u2019s ",
+          "start": 41.881,
+          "end": 42.078
+        },
+        {
+          "word": "anything ",
+          "start": 42.125,
+          "end": 42.426
+        },
+        {
+          "word": "specific ",
+          "start": 42.473,
+          "end": 42.856
+        },
+        {
+          "word": "you\u2019d ",
+          "start": 42.891,
+          "end": 43.03
+        },
+        {
+          "word": "like ",
+          "start": 43.065,
+          "end": 43.204
+        },
+        {
+          "word": "to ",
+          "start": 43.239,
+          "end": 43.286
+        },
+        {
+          "word": "know ",
+          "start": 43.332,
+          "end": 43.518
+        },
+        {
+          "word": "or ",
+          "start": 43.611,
+          "end": 43.727
+        },
+        {
+          "word": "if ",
+          "start": 43.785,
+          "end": 43.843
+        },
+        {
+          "word": "you\u2019re ",
+          "start": 43.878,
+          "end": 44.04
+        },
+        {
+          "word": "ready ",
+          "start": 44.063,
+          "end": 44.226
+        },
+        {
+          "word": "to ",
+          "start": 44.261,
+          "end": 44.307
+        },
+        {
+          "word": "book ",
+          "start": 44.342,
+          "end": 44.481
+        },
+        {
+          "word": "a ",
+          "start": 44.516,
+          "end": 44.539
+        },
+        {
+          "word": "table, ",
+          "start": 44.586,
+          "end": 44.969
+        },
+        {
+          "word": "just ",
+          "start": 45.05,
+          "end": 45.236
+        },
+        {
+          "word": "let ",
+          "start": 45.259,
+          "end": 45.364
+        },
+        {
+          "word": "me ",
+          "start": 45.399,
+          "end": 45.445
+        },
+        {
+          "word": "know.",
+          "start": 45.48,
+          "end": 45.712
+        },
+        {
+          "word": " I\u2019m ",
+          "start": 45.91,
+          "end": 46.084
+        },
+        {
+          "word": "always ",
+          "start": 46.119,
+          "end": 46.351
+        },
+        {
+          "word": "happy ",
+          "start": 46.386,
+          "end": 46.595
+        },
+        {
+          "word": "to ",
+          "start": 46.63,
+          "end": 46.676
+        },
+        {
+          "word": "help ",
+          "start": 46.711,
+          "end": 46.839
+        },
+        {
+          "word": "make ",
+          "start": 46.885,
+          "end": 47.001
+        },
+        {
+          "word": "your ",
+          "start": 47.036,
+          "end": 47.129
+        },
+        {
+          "word": "visit ",
+          "start": 47.175,
+          "end": 47.396
+        },
+        {
+          "word": "to ",
+          "start": 47.431,
+          "end": 47.477
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 47.524,
+          "end": 47.884
+        },
+        {
+          "word": "Beer ",
+          "start": 47.953,
+          "end": 48.116
+        },
+        {
+          "word": "Garden ",
+          "start": 48.174,
+          "end": 48.406
+        },
+        {
+          "word": "a ",
+          "start": 48.441,
+          "end": 48.464
+        },
+        {
+          "word": "great ",
+          "start": 48.51,
+          "end": 48.696
+        },
+        {
+          "word": "one!",
+          "start": 48.754,
+          "end": 49.033
+        }
+      ],
+      "metadata": {
+        "response_id": 4
+      }
+    },
+    {
+      "role": "user",
+      "content": "Thank you. That's really kind. If you ever wanna check out our menu, book a reservation, or have questions about events or hours, just ask. I'm here to make your Boardwalk beer garden experience awesome. ",
+      "words": [
+        {
+          "word": "Thank ",
+          "start": 50.926,
+          "end": 51.245998
+        },
+        {
+          "word": "you. ",
+          "start": 51.245998,
+          "end": 51.486
+        },
+        {
+          "word": "That's ",
+          "start": 51.486,
+          "end": 51.725997
+        },
+        {
+          "word": "really ",
+          "start": 51.725997,
+          "end": 51.966
+        },
+        {
+          "word": "kind. ",
+          "start": 51.966,
+          "end": 52.525997
+        },
+        {
+          "word": "If ",
+          "start": 52.525997,
+          "end": 52.686
+        },
+        {
+          "word": "you ",
+          "start": 52.686,
+          "end": 52.766
+        },
+        {
+          "word": "ever ",
+          "start": 52.766,
+          "end": 53.006
+        },
+        {
+          "word": "wanna ",
+          "start": 53.006,
+          "end": 53.166
+        },
+        {
+          "word": "check ",
+          "start": 53.166,
+          "end": 53.405998
+        },
+        {
+          "word": "out ",
+          "start": 53.405998,
+          "end": 53.565998
+        },
+        {
+          "word": "our ",
+          "start": 53.565998,
+          "end": 53.725997
+        },
+        {
+          "word": "menu, ",
+          "start": 53.725997,
+          "end": 54.205997
+        },
+        {
+          "word": "book ",
+          "start": 54.205997,
+          "end": 54.365997
+        },
+        {
+          "word": "a ",
+          "start": 54.365997,
+          "end": 54.446
+        },
+        {
+          "word": "reservation, ",
+          "start": 54.556,
+          "end": 55.196
+        },
+        {
+          "word": "or ",
+          "start": 55.196,
+          "end": 55.276
+        },
+        {
+          "word": "have ",
+          "start": 55.276,
+          "end": 55.516
+        },
+        {
+          "word": "questions ",
+          "start": 55.516,
+          "end": 55.835998000000004
+        },
+        {
+          "word": "about ",
+          "start": 55.835998000000004,
+          "end": 56.076
+        },
+        {
+          "word": "events ",
+          "start": 56.076,
+          "end": 56.315998
+        },
+        {
+          "word": "or ",
+          "start": 56.315998,
+          "end": 56.556
+        },
+        {
+          "word": "hours, ",
+          "start": 56.556,
+          "end": 57.036
+        },
+        {
+          "word": "just ",
+          "start": 57.036,
+          "end": 57.276
+        },
+        {
+          "word": "ask. ",
+          "start": 57.276,
+          "end": 57.516
+        },
+        {
+          "word": "I'm ",
+          "start": 57.936,
+          "end": 58.176
+        },
+        {
+          "word": "here ",
+          "start": 58.176,
+          "end": 58.335998000000004
+        },
+        {
+          "word": "to ",
+          "start": 58.335998000000004,
+          "end": 58.416
+        },
+        {
+          "word": "make ",
+          "start": 58.416,
+          "end": 58.576
+        },
+        {
+          "word": "your ",
+          "start": 58.576,
+          "end": 58.736
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 58.736,
+          "end": 59.135997
+        },
+        {
+          "word": "beer ",
+          "start": 59.135997,
+          "end": 59.455997
+        },
+        {
+          "word": "garden ",
+          "start": 59.455997,
+          "end": 59.856
+        },
+        {
+          "word": "experience ",
+          "start": 59.856,
+          "end": 60.416
+        },
+        {
+          "word": "awesome. ",
+          "start": 60.416,
+          "end": 60.736
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "You\u2019re so thoughtful\u2014thank you!you ever want the menu link, need help with a reservation, or have any questions about our events or hours, just let me know. I\u2019m always here to make your Boardwalk Beer Garden experience the best it can be!",
+      "words": [
+        {
+          "word": "You\u2019re ",
+          "start": 63.081,
+          "end": 63.29
+        },
+        {
+          "word": "so ",
+          "start": 63.325,
+          "end": 63.43
+        },
+        {
+          "word": "thoughtful\u2014thank ",
+          "start": 63.488,
+          "end": 63.894
+        },
+        {
+          "word": "you!",
+          "start": 63.894,
+          "end": 64.103
+        },
+        {
+          "word": "you ",
+          "start": 64.637,
+          "end": 64.765
+        },
+        {
+          "word": "ever ",
+          "start": 64.8,
+          "end": 64.87
+        },
+        {
+          "word": "want ",
+          "start": 64.928,
+          "end": 65.067
+        },
+        {
+          "word": "the ",
+          "start": 65.113,
+          "end": 65.253
+        },
+        {
+          "word": "menu ",
+          "start": 65.288,
+          "end": 65.357
+        },
+        {
+          "word": "link, ",
+          "start": 65.392,
+          "end": 65.613
+        },
+        {
+          "word": "need ",
+          "start": 65.671,
+          "end": 65.903
+        },
+        {
+          "word": "help ",
+          "start": 65.938,
+          "end": 66.112
+        },
+        {
+          "word": "with ",
+          "start": 66.147,
+          "end": 66.274
+        },
+        {
+          "word": "a ",
+          "start": 66.309,
+          "end": 66.402
+        },
+        {
+          "word": "reservation, ",
+          "start": 66.437,
+          "end": 66.46
+        },
+        {
+          "word": "or ",
+          "start": 66.507,
+          "end": 67.076
+        },
+        {
+          "word": "have ",
+          "start": 67.122,
+          "end": 67.215
+        },
+        {
+          "word": "any ",
+          "start": 67.273,
+          "end": 67.412
+        },
+        {
+          "word": "questions ",
+          "start": 67.435,
+          "end": 67.552
+        },
+        {
+          "word": "about ",
+          "start": 67.586,
+          "end": 67.946
+        },
+        {
+          "word": "our ",
+          "start": 67.981,
+          "end": 68.144
+        },
+        {
+          "word": "events ",
+          "start": 68.167,
+          "end": 68.248
+        },
+        {
+          "word": "or ",
+          "start": 68.295,
+          "end": 68.55
+        },
+        {
+          "word": "hours, ",
+          "start": 68.573,
+          "end": 68.643
+        },
+        {
+          "word": "just ",
+          "start": 68.689,
+          "end": 69.096
+        },
+        {
+          "word": "let ",
+          "start": 69.154,
+          "end": 69.328
+        },
+        {
+          "word": "me ",
+          "start": 69.363,
+          "end": 69.467
+        },
+        {
+          "word": "know. ",
+          "start": 69.502,
+          "end": 69.56
+        },
+        {
+          "word": "I\u2019m ",
+          "start": 69.595,
+          "end": 69.862
+        },
+        {
+          "word": "always ",
+          "start": 70.036,
+          "end": 70.198
+        },
+        {
+          "word": "here ",
+          "start": 70.233,
+          "end": 70.454
+        },
+        {
+          "word": "to ",
+          "start": 70.488,
+          "end": 70.604
+        },
+        {
+          "word": "make ",
+          "start": 70.628,
+          "end": 70.674
+        },
+        {
+          "word": "your ",
+          "start": 70.709,
+          "end": 70.825
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 70.848,
+          "end": 70.953
+        },
+        {
+          "word": "Beer ",
+          "start": 70.988,
+          "end": 71.371
+        },
+        {
+          "word": "Garden ",
+          "start": 71.44,
+          "end": 71.591
+        },
+        {
+          "word": "experience ",
+          "start": 71.649,
+          "end": 71.905
+        },
+        {
+          "word": "the ",
+          "start": 71.963,
+          "end": 72.45
+        },
+        {
+          "word": "best ",
+          "start": 72.485,
+          "end": 72.555
+        },
+        {
+          "word": "it ",
+          "start": 72.59,
+          "end": 72.776
+        },
+        {
+          "word": "can ",
+          "start": 72.81,
+          "end": 72.868
+        },
+        {
+          "word": "be!",
+          "start": 72.903,
+          "end": 73.008
+        }
+      ],
+      "metadata": {
+        "response_id": 6
+      }
+    },
+    {
+      "role": "user",
+      "content": "That means a lot. Thank you. If you ever need anything, whether it's the menu, booking a table, or details about what's happening at Boardwalk Beer Garden, just reach out. I'm always here to help make your visit special. ",
+      "words": [
+        {
+          "word": "That ",
+          "start": 75.016,
+          "end": 75.336
+        },
+        {
+          "word": "means ",
+          "start": 75.336,
+          "end": 75.576
+        },
+        {
+          "word": "a ",
+          "start": 75.576,
+          "end": 75.735996
+        },
+        {
+          "word": "lot. ",
+          "start": 75.735996,
+          "end": 76.056
+        },
+        {
+          "word": "Thank ",
+          "start": 76.056,
+          "end": 76.296
+        },
+        {
+          "word": "you. ",
+          "start": 76.296,
+          "end": 76.696
+        },
+        {
+          "word": "If ",
+          "start": 76.696,
+          "end": 76.936
+        },
+        {
+          "word": "you ",
+          "start": 76.936,
+          "end": 77.016
+        },
+        {
+          "word": "ever ",
+          "start": 77.016,
+          "end": 77.256
+        },
+        {
+          "word": "need ",
+          "start": 77.256,
+          "end": 77.496
+        },
+        {
+          "word": "anything, ",
+          "start": 77.496,
+          "end": 78.056
+        },
+        {
+          "word": "whether ",
+          "start": 78.056,
+          "end": 78.136
+        },
+        {
+          "word": "it's ",
+          "start": 78.136,
+          "end": 78.376
+        },
+        {
+          "word": "the ",
+          "start": 78.376,
+          "end": 78.456
+        },
+        {
+          "word": "menu, ",
+          "start": 78.456,
+          "end": 78.616
+        },
+        {
+          "word": "booking ",
+          "start": 78.906,
+          "end": 79.226
+        },
+        {
+          "word": "a ",
+          "start": 79.226,
+          "end": 79.386
+        },
+        {
+          "word": "table, ",
+          "start": 79.386,
+          "end": 79.945995
+        },
+        {
+          "word": "or ",
+          "start": 80.106,
+          "end": 80.265995
+        },
+        {
+          "word": "details ",
+          "start": 80.265995,
+          "end": 80.665996
+        },
+        {
+          "word": "about ",
+          "start": 80.665996,
+          "end": 80.905994
+        },
+        {
+          "word": "what's ",
+          "start": 80.905994,
+          "end": 81.146
+        },
+        {
+          "word": "happening ",
+          "start": 81.146,
+          "end": 81.466
+        },
+        {
+          "word": "at ",
+          "start": 81.466,
+          "end": 81.625995
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 81.625995,
+          "end": 82.026
+        },
+        {
+          "word": "Beer ",
+          "start": 82.026,
+          "end": 82.346
+        },
+        {
+          "word": "Garden, ",
+          "start": 82.346,
+          "end": 82.826
+        },
+        {
+          "word": "just ",
+          "start": 82.826,
+          "end": 83.066
+        },
+        {
+          "word": "reach ",
+          "start": 83.066,
+          "end": 83.305995
+        },
+        {
+          "word": "out. ",
+          "start": 83.305995,
+          "end": 83.466
+        },
+        {
+          "word": "I'm ",
+          "start": 83.876,
+          "end": 84.196
+        },
+        {
+          "word": "always ",
+          "start": 84.196,
+          "end": 84.436
+        },
+        {
+          "word": "here ",
+          "start": 84.436,
+          "end": 84.596
+        },
+        {
+          "word": "to ",
+          "start": 84.596,
+          "end": 84.756
+        },
+        {
+          "word": "help ",
+          "start": 84.756,
+          "end": 84.915996
+        },
+        {
+          "word": "make ",
+          "start": 84.915996,
+          "end": 85.076
+        },
+        {
+          "word": "your ",
+          "start": 85.076,
+          "end": 85.235996
+        },
+        {
+          "word": "visit ",
+          "start": 85.235996,
+          "end": 85.476
+        },
+        {
+          "word": "special. ",
+          "start": 85.476,
+          "end": 85.796
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "You\u2019re wonderful\u2014thank you for your kind words! If you ever need anything at all, just give me a call. I\u2019m always here to help make your time at Boardwalk Beer Garden extra special. Have a fantastic day!",
+      "words": [
+        {
+          "word": "You\u2019re ",
+          "start": 87.565,
+          "end": 87.774
+        },
+        {
+          "word": "wonderful\u2014thank ",
+          "start": 87.809,
+          "end": 88.471
+        },
+        {
+          "word": "you ",
+          "start": 88.471,
+          "end": 88.552
+        },
+        {
+          "word": "for ",
+          "start": 88.587,
+          "end": 88.657
+        },
+        {
+          "word": "your ",
+          "start": 88.703,
+          "end": 88.796
+        },
+        {
+          "word": "kind ",
+          "start": 88.831,
+          "end": 88.924
+        },
+        {
+          "word": "words!",
+          "start": 88.97,
+          "end": 89.156
+        },
+        {
+          "word": " If ",
+          "start": 89.191,
+          "end": 89.609
+        },
+        {
+          "word": "you ",
+          "start": 89.817,
+          "end": 89.934
+        },
+        {
+          "word": "ever ",
+          "start": 89.968,
+          "end": 90.038
+        },
+        {
+          "word": "need ",
+          "start": 90.073,
+          "end": 90.212
+        },
+        {
+          "word": "anything ",
+          "start": 90.247,
+          "end": 90.398
+        },
+        {
+          "word": "at ",
+          "start": 90.433,
+          "end": 90.7
+        },
+        {
+          "word": "all, ",
+          "start": 90.735,
+          "end": 90.793
+        },
+        {
+          "word": "just ",
+          "start": 90.828,
+          "end": 90.967
+        },
+        {
+          "word": "give ",
+          "start": 91.002,
+          "end": 91.129
+        },
+        {
+          "word": "me ",
+          "start": 91.153,
+          "end": 91.257
+        },
+        {
+          "word": "a ",
+          "start": 91.292,
+          "end": 91.362
+        },
+        {
+          "word": "call. ",
+          "start": 91.396,
+          "end": 91.431
+        },
+        {
+          "word": "I\u2019m ",
+          "start": 91.478,
+          "end": 91.814
+        },
+        {
+          "word": "always ",
+          "start": 92,
+          "end": 92.163
+        },
+        {
+          "word": "here ",
+          "start": 92.198,
+          "end": 92.407
+        },
+        {
+          "word": "to ",
+          "start": 92.442,
+          "end": 92.558
+        },
+        {
+          "word": "help ",
+          "start": 92.581,
+          "end": 92.627
+        },
+        {
+          "word": "make ",
+          "start": 92.662,
+          "end": 92.79
+        },
+        {
+          "word": "your ",
+          "start": 92.836,
+          "end": 92.952
+        },
+        {
+          "word": "time ",
+          "start": 92.987,
+          "end": 93.092
+        },
+        {
+          "word": "at ",
+          "start": 93.138,
+          "end": 93.347
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 93.382,
+          "end": 93.44
+        },
+        {
+          "word": "Beer ",
+          "start": 93.487,
+          "end": 93.835
+        },
+        {
+          "word": "Garden ",
+          "start": 93.893,
+          "end": 94.032
+        },
+        {
+          "word": "extra ",
+          "start": 94.079,
+          "end": 94.322
+        },
+        {
+          "word": "special.",
+          "start": 94.392,
+          "end": 94.682
+        },
+        {
+          "word": " Have ",
+          "start": 94.717,
+          "end": 95.205
+        },
+        {
+          "word": "a ",
+          "start": 95.39,
+          "end": 95.553
+        },
+        {
+          "word": "fantastic ",
+          "start": 95.576,
+          "end": 95.599
+        },
+        {
+          "word": "day!",
+          "start": 95.646,
+          "end": 96.075
+        }
+      ],
+      "metadata": {
+        "response_id": 8
+      }
+    },
+    {
+      "role": "user",
+      "content": "Thank you so much for all the kind words. Have a fantastic day, and see you soon. ",
+      "words": [
+        {
+          "word": "Thank ",
+          "start": 98.126,
+          "end": 98.446
+        },
+        {
+          "word": "you ",
+          "start": 98.446,
+          "end": 98.606
+        },
+        {
+          "word": "so ",
+          "start": 98.606,
+          "end": 98.766
+        },
+        {
+          "word": "much ",
+          "start": 98.766,
+          "end": 98.926
+        },
+        {
+          "word": "for ",
+          "start": 98.926,
+          "end": 99.086
+        },
+        {
+          "word": "all ",
+          "start": 99.086,
+          "end": 99.246
+        },
+        {
+          "word": "the ",
+          "start": 99.246,
+          "end": 99.406
+        },
+        {
+          "word": "kind ",
+          "start": 99.406,
+          "end": 99.646
+        },
+        {
+          "word": "words. ",
+          "start": 99.646,
+          "end": 99.886005
+        },
+        {
+          "word": "Have ",
+          "start": 100.156,
+          "end": 100.476
+        },
+        {
+          "word": "a ",
+          "start": 100.476,
+          "end": 100.636005
+        },
+        {
+          "word": "fantastic ",
+          "start": 100.636005,
+          "end": 101.036
+        },
+        {
+          "word": "day, ",
+          "start": 101.036,
+          "end": 101.436
+        },
+        {
+          "word": "and ",
+          "start": 101.436,
+          "end": 101.516
+        },
+        {
+          "word": "see ",
+          "start": 101.516,
+          "end": 101.676
+        },
+        {
+          "word": "you ",
+          "start": 101.676,
+          "end": 101.836
+        },
+        {
+          "word": "soon. ",
+          "start": 101.836,
+          "end": 101.996
+        }
+      ]
+    }
+  ],
+  "recording_url": "https://dxc03zgurdly9.cloudfront.net/8e26384643a26b36af1912d3f5a58bfdaeaf21fbeafa85dc0b2ab6df392003a6/recording.wav",
+  "recording_multi_channel_url": "https://dxc03zgurdly9.cloudfront.net/8e26384643a26b36af1912d3f5a58bfdaeaf21fbeafa85dc0b2ab6df392003a6/recording_multichannel.wav",
+  "public_log_url": "https://dxc03zgurdly9.cloudfront.net/8e26384643a26b36af1912d3f5a58bfdaeaf21fbeafa85dc0b2ab6df392003a6/public.log",
+  "disconnection_reason": "user_hangup",
+  "latency": {
+    "llm": {
+      "p99": 717.12,
+      "min": 1,
+      "max": 722,
+      "p90": 673.1999999999999,
+      "num": 9,
+      "values": [
+        1,
+        658,
+        530,
+        601,
+        529,
+        607,
+        661,
+        516,
+        722
+      ],
+      "p50": 601,
+      "sum": 4825,
+      "p95": 697.6
+    },
+    "e2e": {
+      "p99": 1801.74,
+      "min": 802,
+      "max": 1803,
+      "p90": 1790.4,
+      "num": 4,
+      "values": [
+        1803,
+        1761,
+        802,
+        1746
+      ],
+      "p50": 1753.5,
+      "sum": 6112,
+      "p95": 1796.7
+    },
+    "tts": {
+      "p99": 233.95999999999998,
+      "min": 145,
+      "max": 237,
+      "p90": 206.59999999999997,
+      "num": 9,
+      "values": [
+        237,
+        199,
+        145,
+        168,
+        152,
+        163,
+        171,
+        161,
+        194
+      ],
+      "p50": 168,
+      "sum": 1590,
+      "p95": 221.79999999999998
+    },
+    "asr": {
+      "p99": 308.74,
+      "min": 0,
+      "max": 310,
+      "p90": 297.4,
+      "num": 4,
+      "values": [
+        310,
+        268,
+        0,
+        210
+      ],
+      "p50": 239,
+      "sum": 788,
+      "p95": 303.7
+    }
+  },
+  "metadata": {
+    "scenario": "lana_study_large_party"
+  },
+  "call_cost": {
+    "total_duration_unit_price": 0.2583334,
+    "product_costs": [
+      {
+        "unit_price": 0.0916667,
+        "product": "retell_voice_engine",
+        "cost": 9.4416701
+      },
+      {
+        "unit_price": 0.0666667,
+        "product": "elevenlabs_tts_03_2026",
+        "cost": 6.8666701
+      },
+      {
+        "unit_price": 0.075,
+        "product": "gpt_4_1",
+        "cost": 7.725
+      },
+      {
+        "unit_price": 0.025,
+        "product": "us_twilio_telephony",
+        "cost": 2.575
+      },
+      {
+        "unit_price": 1.5,
+        "product": "gpt_4_1_text_testing",
+        "cost": 1.5
+      }
+    ],
+    "combined_cost": 28.1083402,
+    "total_duration_seconds": 103
+  },
+  "call_analysis": {
+    "in_voicemail": false,
+    "call_summary": "The call consisted of a friendly and polite exchange between the agent and the user, with both parties repeatedly offering assistance regarding reservations, menu, events, and hours at Boardwalk Beer Garden. No specific questions or requests were made, and the conversation ended amicably.",
+    "user_sentiment": "Positive",
+    "custom_analysis_data": {},
+    "call_successful": true
+  },
+  "data_storage_setting": "everything",
+  "opt_in_signed_url": false,
+  "llm_token_usage": {
+    "values": [
+      2220,
+      2278,
+      2307,
+      2316,
+      2406,
+      2418,
+      2519,
+      2529,
+      2569
+    ],
+    "average": 2395.777777777778,
+    "num_requests": 9
+  },
+  "tool_calls": [],
+  "from_number": "+19293685460",
+  "to_number": "+19292056408",
+  "direction": "outbound",
+  "telephony_identifier": {
+    "twilio_call_sid": "CAa7ee7c525cfd5507c51ce512c935e8c1"
+  },
+  "pcap_url": "https://dxc03zgurdly9.cloudfront.net/8e26384643a26b36af1912d3f5a58bfdaeaf21fbeafa85dc0b2ab6df392003a6/call_b8495d3e11df342a20de62a7435.pcap"
+}

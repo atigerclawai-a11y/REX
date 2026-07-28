@@ -1,0 +1,4409 @@
+{
+  "call_id": "call_e4fc55527efd6308154fb0efef1",
+  "call_type": "phone_call",
+  "agent_id": "agent_2e730566c0ce88c1688916a635",
+  "agent_version": 0,
+  "agent_name": "Scout-Hours-Night",
+  "contact_dynamic_variables": {},
+  "custom_sip_headers": {
+    "X-RetellAI-Direction": "Outbound",
+    "X-RetellAI-OrgId": "org_VkEKS9JwA8t95xZW",
+    "X-RetellAI-CallId": "call_e4fc55527efd6308154fb0efef1",
+    "X-RetellAI-SipTraceId": "call_e4fc55527efd6308154fb0efef1",
+    "Route": "<sip:18.98.16.123;lr>"
+  },
+  "call_status": "ended",
+  "start_timestamp": 1782903613614,
+  "end_timestamp": 1782903744187,
+  "duration_ms": 130573,
+  "transcript": "User: Welcome to Boardwalk Beer Garden. My name is Lana. Let me know if you need to speak to management and would like to be transferred. What's your name, and how can I help you? \nAgent: Hey Lana, quick question \u2014 what time does your kitchen close tonight? I'm trying to coordinate a group and one person gets off work pretty late, so I want to make sure we don't miss the food cutoff. Also, is the kitchen close time different from the bar close time on Thursdays?\nUser: Great questions. Our kitchen closes at midnight every night, including Thursdays. The bar stays open until one AM, so you'll still have an extra hour for drinks after the kitchen stops serving food. If you're planning for a group, let me know if you wanna book a table. I can send you our reservation link right now. \nAgent: Perfect, that helps a lot! Just to double-check \u2014 if we get there at, say, 11:30pm tonight, can we still order a full meal, or is there a limited late-night menu? And is midnight a firm cutoff, or do you stop taking food orders a little earlier if the kitchen gets busy?\n\nAlso, is it the same hours on weekends, or does the kitchen or bar close later on Fridays and Saturdays?\nUser: You can order from the full menu right up until midnight. There's no limited late night menu. Midnight is the firm cutoff for kitchen orders. So as long as you place your order before then, you're good to go even if it's busy. The hours are the same on weekends too. Kitchen closes at midnight, and the bar stays open until one AM on Fridays and Saturdays. If you wanna lock in a table for your group, just let me know. \nAgent: Awesome, thanks for clarifying! That really helps with planning. A couple more quick things:\n\n- Is last call for drinks exactly at 1am, or do you do a last call announcement a little before then?\n- Is it 21+ only after a certain hour, or can people under 21 stay the whole night?\n- What\u2019s the crowd usually like late on a Thursday compared to Friday or Saturday? Trying to get a sense if it\u2019s packed or more chill.\n- And just in case we want to come back for brunch or lunch \u2014 what time do you open on weekends?\n\nThanks for all the info, Lana!\nUser: Thank you so much for all the info. See you soon. \n",
+  "transcript_object": [
+    {
+      "role": "user",
+      "content": "Welcome to Boardwalk Beer Garden. My name is Lana. Let me know if you need to speak to management and would like to be transferred. What's your name, and how can I help you? ",
+      "words": [
+        {
+          "word": "Welcome ",
+          "start": 3.6950000000000003,
+          "end": 4.015
+        },
+        {
+          "word": "to ",
+          "start": 4.015,
+          "end": 4.255
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 4.255,
+          "end": 4.735000299999999
+        },
+        {
+          "word": "Beer ",
+          "start": 4.735000299999999,
+          "end": 5.135
+        },
+        {
+          "word": "Garden. ",
+          "start": 5.135,
+          "end": 5.614999999999999
+        },
+        {
+          "word": "My ",
+          "start": 5.614999999999999,
+          "end": 5.8549999999999995
+        },
+        {
+          "word": "name ",
+          "start": 5.8549999999999995,
+          "end": 6.015
+        },
+        {
+          "word": "is ",
+          "start": 6.015,
+          "end": 6.175
+        },
+        {
+          "word": "Lana. ",
+          "start": 6.175,
+          "end": 6.495
+        },
+        {
+          "word": "Let ",
+          "start": 6.755,
+          "end": 6.9949996
+        },
+        {
+          "word": "me ",
+          "start": 6.9949996,
+          "end": 7.154999999999999
+        },
+        {
+          "word": "know ",
+          "start": 7.154999999999999,
+          "end": 7.3149998
+        },
+        {
+          "word": "if ",
+          "start": 7.3149998,
+          "end": 7.3949997
+        },
+        {
+          "word": "you ",
+          "start": 7.3949997,
+          "end": 7.555
+        },
+        {
+          "word": "need ",
+          "start": 7.555,
+          "end": 7.715
+        },
+        {
+          "word": "to ",
+          "start": 7.715,
+          "end": 7.8749997
+        },
+        {
+          "word": "speak ",
+          "start": 7.8749997,
+          "end": 8.0349995
+        },
+        {
+          "word": "to ",
+          "start": 8.0349995,
+          "end": 8.194999
+        },
+        {
+          "word": "management ",
+          "start": 8.194999,
+          "end": 8.594999999999999
+        },
+        {
+          "word": "and ",
+          "start": 8.594999999999999,
+          "end": 8.834999999999999
+        },
+        {
+          "word": "would ",
+          "start": 8.834999999999999,
+          "end": 8.995
+        },
+        {
+          "word": "like ",
+          "start": 8.995,
+          "end": 9.154999
+        },
+        {
+          "word": "to ",
+          "start": 9.154999,
+          "end": 9.235
+        },
+        {
+          "word": "be ",
+          "start": 9.235,
+          "end": 9.395
+        },
+        {
+          "word": "transferred. ",
+          "start": 9.395,
+          "end": 9.795
+        },
+        {
+          "word": "What's ",
+          "start": 10.215,
+          "end": 10.535
+        },
+        {
+          "word": "your ",
+          "start": 10.535,
+          "end": 10.615
+        },
+        {
+          "word": "name, ",
+          "start": 10.615,
+          "end": 10.855
+        },
+        {
+          "word": "and ",
+          "start": 10.855,
+          "end": 10.935
+        },
+        {
+          "word": "how ",
+          "start": 10.935,
+          "end": 11.015
+        },
+        {
+          "word": "can ",
+          "start": 11.015,
+          "end": 11.174999999999999
+        },
+        {
+          "word": "I ",
+          "start": 11.174999999999999,
+          "end": 11.254999999999999
+        },
+        {
+          "word": "help ",
+          "start": 11.254999999999999,
+          "end": 11.415
+        },
+        {
+          "word": "you? ",
+          "start": 11.415,
+          "end": 11.575
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Hey Lana, quick question \u2014 what time does your kitchen close tonight? I'm trying to coordinate a group and one person gets off work pretty late, so I want to make sure we don't miss the food cutoff. Also, is the kitchen close time different from the bar close time on Thursdays?",
+      "words": [
+        {
+          "word": "Hey ",
+          "start": 13.374,
+          "end": 13.795052734375
+        },
+        {
+          "word": "Lana, ",
+          "start": 13.795052734375,
+          "end": 14.216105224609375
+        },
+        {
+          "word": "quick ",
+          "start": 14.216105224609375,
+          "end": 14.637157958984375
+        },
+        {
+          "word": "question ",
+          "start": 14.637157958984375,
+          "end": 15.05821044921875
+        },
+        {
+          "word": "\u2014 ",
+          "start": 15.05821044921875,
+          "end": 15.47926318359375
+        },
+        {
+          "word": "what ",
+          "start": 15.47926318359375,
+          "end": 15.900315673828125
+        },
+        {
+          "word": "time ",
+          "start": 15.900315673828125,
+          "end": 16.321368408203124
+        },
+        {
+          "word": "does ",
+          "start": 16.321368408203124,
+          "end": 16.742421142578124
+        },
+        {
+          "word": "your ",
+          "start": 16.598489013671873,
+          "end": 17.019541748046876
+        },
+        {
+          "word": "kitchen ",
+          "start": 16.598489013671873,
+          "end": 17.019541748046876
+        },
+        {
+          "word": "close ",
+          "start": 16.598489013671873,
+          "end": 17.019541748046876
+        },
+        {
+          "word": "tonight? ",
+          "start": 16.598489013671873,
+          "end": 17.019541748046876
+        },
+        {
+          "word": "I'm ",
+          "start": 17.019541748046876,
+          "end": 17.44059423828125
+        },
+        {
+          "word": "trying ",
+          "start": 17.44059423828125,
+          "end": 17.86164697265625
+        },
+        {
+          "word": "to ",
+          "start": 17.86164697265625,
+          "end": 18.282699462890626
+        },
+        {
+          "word": "coordinate ",
+          "start": 18.282699462890626,
+          "end": 18.703752197265626
+        },
+        {
+          "word": "a ",
+          "start": 18.703752197265626,
+          "end": 19.124804931640625
+        },
+        {
+          "word": "group ",
+          "start": 19.124804931640625,
+          "end": 19.545857421875
+        },
+        {
+          "word": "and ",
+          "start": 19.545857421875,
+          "end": 19.96691015625
+        },
+        {
+          "word": "one ",
+          "start": 19.96691015625,
+          "end": 20.387962646484375
+        },
+        {
+          "word": "person ",
+          "start": 20.387962646484375,
+          "end": 20.809015380859375
+        },
+        {
+          "word": "gets ",
+          "start": 20.809015380859375,
+          "end": 21.23006787109375
+        },
+        {
+          "word": "off ",
+          "start": 21.23006787109375,
+          "end": 21.65112060546875
+        },
+        {
+          "word": "work ",
+          "start": 21.65112060546875,
+          "end": 22.07217333984375
+        },
+        {
+          "word": "pretty ",
+          "start": 22.07217333984375,
+          "end": 22.493225830078124
+        },
+        {
+          "word": "late, ",
+          "start": 22.493225830078124,
+          "end": 22.914278564453124
+        },
+        {
+          "word": "so ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "I ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "want ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "to ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "make ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "sure ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "we ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "don't ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "miss ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "the ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "food ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "cutoff. ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "Also, ",
+          "start": 23.32375,
+          "end": 23.744802734375
+        },
+        {
+          "word": "is ",
+          "start": 23.744802734375,
+          "end": 24.165855224609373
+        },
+        {
+          "word": "the ",
+          "start": 24.165855224609373,
+          "end": 24.586907958984376
+        },
+        {
+          "word": "kitchen ",
+          "start": 24.586907958984376,
+          "end": 25.00796044921875
+        },
+        {
+          "word": "close ",
+          "start": 25.00796044921875,
+          "end": 25.42901318359375
+        },
+        {
+          "word": "time ",
+          "start": 25.42901318359375,
+          "end": 25.850065673828126
+        },
+        {
+          "word": "different ",
+          "start": 25.850065673828126,
+          "end": 26.271118408203126
+        },
+        {
+          "word": "from ",
+          "start": 26.271118408203126,
+          "end": 26.692171142578125
+        },
+        {
+          "word": "the ",
+          "start": 26.692171142578125,
+          "end": 27.1132236328125
+        },
+        {
+          "word": "bar ",
+          "start": 27.024239013671874,
+          "end": 27.445291748046873
+        },
+        {
+          "word": "close ",
+          "start": 27.024239013671874,
+          "end": 27.445291748046873
+        },
+        {
+          "word": "time ",
+          "start": 27.024239013671874,
+          "end": 27.445291748046873
+        },
+        {
+          "word": "on ",
+          "start": 27.024239013671874,
+          "end": 27.445291748046873
+        },
+        {
+          "word": "Thursdays?",
+          "start": 27.024239013671874,
+          "end": 27.445291748046873
+        }
+      ],
+      "metadata": {
+        "response_id": 1
+      }
+    },
+    {
+      "role": "user",
+      "content": "Great questions. Our kitchen closes at midnight every night, including Thursdays. The bar stays open until one AM, so you'll still have an extra hour for drinks after the kitchen stops serving food. If you're planning for a group, let me know if you wanna book a table. I can send you our reservation link right now. ",
+      "words": [
+        {
+          "word": "Great ",
+          "start": 29.465,
+          "end": 29.945
+        },
+        {
+          "word": "questions. ",
+          "start": 29.945,
+          "end": 30.345
+        },
+        {
+          "word": "Our ",
+          "start": 30.555,
+          "end": 30.875
+        },
+        {
+          "word": "kitchen ",
+          "start": 30.875,
+          "end": 31.195
+        },
+        {
+          "word": "closes ",
+          "start": 31.195,
+          "end": 31.515
+        },
+        {
+          "word": "at ",
+          "start": 31.515,
+          "end": 31.755
+        },
+        {
+          "word": "midnight ",
+          "start": 31.755,
+          "end": 32.155
+        },
+        {
+          "word": "every ",
+          "start": 32.155,
+          "end": 32.475
+        },
+        {
+          "word": "night, ",
+          "start": 32.475,
+          "end": 32.955
+        },
+        {
+          "word": "including ",
+          "start": 32.955,
+          "end": 33.195
+        },
+        {
+          "word": "Thursdays. ",
+          "start": 33.195,
+          "end": 33.675
+        },
+        {
+          "word": "The ",
+          "start": 34.125,
+          "end": 34.365
+        },
+        {
+          "word": "bar ",
+          "start": 34.365,
+          "end": 34.525
+        },
+        {
+          "word": "stays ",
+          "start": 34.525,
+          "end": 34.845
+        },
+        {
+          "word": "open ",
+          "start": 34.845,
+          "end": 35.165
+        },
+        {
+          "word": "until ",
+          "start": 35.165,
+          "end": 35.405
+        },
+        {
+          "word": "one ",
+          "start": 35.405,
+          "end": 35.645
+        },
+        {
+          "word": "AM, ",
+          "start": 35.645,
+          "end": 36.044998
+        },
+        {
+          "word": "so ",
+          "start": 36.044998,
+          "end": 36.125
+        },
+        {
+          "word": "you'll ",
+          "start": 36.125,
+          "end": 36.365
+        },
+        {
+          "word": "still ",
+          "start": 36.365,
+          "end": 36.525
+        },
+        {
+          "word": "have ",
+          "start": 36.525,
+          "end": 36.685
+        },
+        {
+          "word": "an ",
+          "start": 36.685,
+          "end": 36.925
+        },
+        {
+          "word": "extra ",
+          "start": 36.925,
+          "end": 37.165
+        },
+        {
+          "word": "hour ",
+          "start": 37.165,
+          "end": 37.485
+        },
+        {
+          "word": "for ",
+          "start": 37.485,
+          "end": 37.645
+        },
+        {
+          "word": "drinks ",
+          "start": 37.645,
+          "end": 37.964999999999996
+        },
+        {
+          "word": "after ",
+          "start": 37.964999999999996,
+          "end": 38.365
+        },
+        {
+          "word": "the ",
+          "start": 38.365,
+          "end": 38.525
+        },
+        {
+          "word": "kitchen ",
+          "start": 38.525,
+          "end": 38.765
+        },
+        {
+          "word": "stops ",
+          "start": 38.935,
+          "end": 39.175003
+        },
+        {
+          "word": "serving ",
+          "start": 39.175003,
+          "end": 39.655002
+        },
+        {
+          "word": "food. ",
+          "start": 39.655002,
+          "end": 40.135
+        },
+        {
+          "word": "If ",
+          "start": 40.375,
+          "end": 40.455
+        },
+        {
+          "word": "you're ",
+          "start": 40.455,
+          "end": 40.695
+        },
+        {
+          "word": "planning ",
+          "start": 40.695,
+          "end": 40.935
+        },
+        {
+          "word": "for ",
+          "start": 40.935,
+          "end": 41.095
+        },
+        {
+          "word": "a ",
+          "start": 41.095,
+          "end": 41.175003
+        },
+        {
+          "word": "group, ",
+          "start": 41.175003,
+          "end": 41.335003
+        },
+        {
+          "word": "let ",
+          "start": 41.575,
+          "end": 41.815002
+        },
+        {
+          "word": "me ",
+          "start": 41.815002,
+          "end": 41.895
+        },
+        {
+          "word": "know ",
+          "start": 41.895,
+          "end": 42.055
+        },
+        {
+          "word": "if ",
+          "start": 42.055,
+          "end": 42.214999999999996
+        },
+        {
+          "word": "you ",
+          "start": 42.214999999999996,
+          "end": 42.295
+        },
+        {
+          "word": "wanna ",
+          "start": 42.295,
+          "end": 42.535
+        },
+        {
+          "word": "book ",
+          "start": 42.535,
+          "end": 42.695
+        },
+        {
+          "word": "a ",
+          "start": 42.695,
+          "end": 42.855
+        },
+        {
+          "word": "table. ",
+          "start": 42.855,
+          "end": 43.335
+        },
+        {
+          "word": "I ",
+          "start": 43.495,
+          "end": 43.655
+        },
+        {
+          "word": "can ",
+          "start": 43.655,
+          "end": 43.895
+        },
+        {
+          "word": "send ",
+          "start": 43.895,
+          "end": 44.055
+        },
+        {
+          "word": "you ",
+          "start": 44.055,
+          "end": 44.214999999999996
+        },
+        {
+          "word": "our ",
+          "start": 44.214999999999996,
+          "end": 44.375
+        },
+        {
+          "word": "reservation ",
+          "start": 44.375,
+          "end": 44.855
+        },
+        {
+          "word": "link ",
+          "start": 44.855,
+          "end": 45.175
+        },
+        {
+          "word": "right ",
+          "start": 45.175,
+          "end": 45.415
+        },
+        {
+          "word": "now. ",
+          "start": 45.415,
+          "end": 45.495
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Perfect, that helps a lot! Just to double-check \u2014 if we get there at, say, 11:30pm tonight, can we still order a full meal, or is there a limited late-night menu? And is midnight a firm cutoff, or do you stop taking food orders a little earlier if the kitchen gets busy?\n\nAlso, is it the same hours on weekends, or does the kitchen or bar close later on Fridays and Saturdays?",
+      "words": [
+        {
+          "word": "Perfect, ",
+          "start": 47.179,
+          "end": 47.600052734375
+        },
+        {
+          "word": "that ",
+          "start": 47.600052734375,
+          "end": 48.02110522460937
+        },
+        {
+          "word": "helps ",
+          "start": 48.02110522460937,
+          "end": 48.442157958984374
+        },
+        {
+          "word": "a ",
+          "start": 48.442157958984374,
+          "end": 48.86321044921875
+        },
+        {
+          "word": "lot! ",
+          "start": 48.84773901367188,
+          "end": 49.26879174804687
+        },
+        {
+          "word": "Just ",
+          "start": 49.26879174804687,
+          "end": 49.68984423828125
+        },
+        {
+          "word": "to ",
+          "start": 49.68984423828125,
+          "end": 50.11089697265625
+        },
+        {
+          "word": "double-check ",
+          "start": 50.11089697265625,
+          "end": 50.53194946289062
+        },
+        {
+          "word": "\u2014 ",
+          "start": 50.53194946289062,
+          "end": 50.953002197265626
+        },
+        {
+          "word": "if ",
+          "start": 50.953002197265626,
+          "end": 51.37405493164062
+        },
+        {
+          "word": "we ",
+          "start": 51.37405493164062,
+          "end": 51.795107421875
+        },
+        {
+          "word": "get ",
+          "start": 51.795107421875,
+          "end": 52.21616015625
+        },
+        {
+          "word": "there ",
+          "start": 52.21616015625,
+          "end": 52.63721264648437
+        },
+        {
+          "word": "at, ",
+          "start": 52.63721264648437,
+          "end": 53.058265380859375
+        },
+        {
+          "word": "say, ",
+          "start": 53.058265380859375,
+          "end": 53.47931787109375
+        },
+        {
+          "word": "11:30pm ",
+          "start": 53.47931787109375,
+          "end": 53.90037060546875
+        },
+        {
+          "word": "tonight, ",
+          "start": 53.90037060546875,
+          "end": 54.32142333984375
+        },
+        {
+          "word": "can ",
+          "start": 54.32142333984375,
+          "end": 54.74247583007813
+        },
+        {
+          "word": "we ",
+          "start": 54.74247583007813,
+          "end": 55.163528564453124
+        },
+        {
+          "word": "still ",
+          "start": 55.163528564453124,
+          "end": 55.5845810546875
+        },
+        {
+          "word": "order ",
+          "start": 55.5845810546875,
+          "end": 56.0056337890625
+        },
+        {
+          "word": "a ",
+          "start": 56.0056337890625,
+          "end": 56.4266865234375
+        },
+        {
+          "word": "full ",
+          "start": 56.4266865234375,
+          "end": 56.84773901367188
+        },
+        {
+          "word": "meal, ",
+          "start": 56.84773901367188,
+          "end": 57.26879174804687
+        },
+        {
+          "word": "or ",
+          "start": 57.02115576171875,
+          "end": 57.442208251953126
+        },
+        {
+          "word": "is ",
+          "start": 57.02115576171875,
+          "end": 57.442208251953126
+        },
+        {
+          "word": "there ",
+          "start": 57.02115576171875,
+          "end": 57.442208251953126
+        },
+        {
+          "word": "a ",
+          "start": 57.02115576171875,
+          "end": 57.442208251953126
+        },
+        {
+          "word": "limited ",
+          "start": 57.02115576171875,
+          "end": 57.442208251953126
+        },
+        {
+          "word": "late-night ",
+          "start": 57.02115576171875,
+          "end": 57.442208251953126
+        },
+        {
+          "word": "menu? ",
+          "start": 57.02115576171875,
+          "end": 57.442208251953126
+        },
+        {
+          "word": "And ",
+          "start": 57.442208251953126,
+          "end": 57.86326098632812
+        },
+        {
+          "word": "is ",
+          "start": 57.86326098632812,
+          "end": 58.2843134765625
+        },
+        {
+          "word": "midnight ",
+          "start": 58.2843134765625,
+          "end": 58.7053662109375
+        },
+        {
+          "word": "a ",
+          "start": 58.7053662109375,
+          "end": 59.1264189453125
+        },
+        {
+          "word": "firm ",
+          "start": 59.1264189453125,
+          "end": 59.547471435546875
+        },
+        {
+          "word": "cutoff, ",
+          "start": 59.547471435546875,
+          "end": 59.96852416992188
+        },
+        {
+          "word": "or ",
+          "start": 59.96852416992188,
+          "end": 60.38957666015625
+        },
+        {
+          "word": "do ",
+          "start": 60.38957666015625,
+          "end": 60.81062939453125
+        },
+        {
+          "word": "you ",
+          "start": 60.81062939453125,
+          "end": 61.23168212890625
+        },
+        {
+          "word": "stop ",
+          "start": 61.23168212890625,
+          "end": 61.652734619140624
+        },
+        {
+          "word": "taking ",
+          "start": 61.652734619140624,
+          "end": 62.07378735351563
+        },
+        {
+          "word": "food ",
+          "start": 62.07378735351563,
+          "end": 62.49483984375
+        },
+        {
+          "word": "orders ",
+          "start": 62.49483984375,
+          "end": 62.915892578125
+        },
+        {
+          "word": "a ",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "little ",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "earlier ",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "if ",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "the ",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "kitchen ",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "gets ",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "busy?",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "\n\nAlso, ",
+          "start": 63.1195,
+          "end": 63.540552734375
+        },
+        {
+          "word": "is ",
+          "start": 63.540552734375,
+          "end": 63.96160522460937
+        },
+        {
+          "word": "it ",
+          "start": 63.96160522460937,
+          "end": 64.38265795898438
+        },
+        {
+          "word": "the ",
+          "start": 64.38265795898438,
+          "end": 64.80371044921876
+        },
+        {
+          "word": "same ",
+          "start": 64.80371044921876,
+          "end": 65.22476318359375
+        },
+        {
+          "word": "hours ",
+          "start": 65.22476318359375,
+          "end": 65.64581567382812
+        },
+        {
+          "word": "on ",
+          "start": 65.64581567382812,
+          "end": 66.06686840820312
+        },
+        {
+          "word": "weekends, ",
+          "start": 66.06686840820312,
+          "end": 66.48792114257813
+        },
+        {
+          "word": "or ",
+          "start": 66.48792114257813,
+          "end": 66.9089736328125
+        },
+        {
+          "word": "does ",
+          "start": 66.9089736328125,
+          "end": 67.3300263671875
+        },
+        {
+          "word": "the ",
+          "start": 67.3300263671875,
+          "end": 67.75107885742187
+        },
+        {
+          "word": "kitchen ",
+          "start": 67.75107885742187,
+          "end": 68.17213159179687
+        },
+        {
+          "word": "or ",
+          "start": 68.17213159179687,
+          "end": 68.59318432617188
+        },
+        {
+          "word": "bar ",
+          "start": 68.59318432617188,
+          "end": 69.01423681640625
+        },
+        {
+          "word": "close ",
+          "start": 69.01423681640625,
+          "end": 69.43528955078125
+        },
+        {
+          "word": "later ",
+          "start": 69.04911401367187,
+          "end": 69.47016674804688
+        },
+        {
+          "word": "on ",
+          "start": 69.04911401367187,
+          "end": 69.47016674804688
+        },
+        {
+          "word": "Fridays ",
+          "start": 69.04911401367187,
+          "end": 69.47016674804688
+        },
+        {
+          "word": "and ",
+          "start": 69.04911401367187,
+          "end": 69.47016674804688
+        },
+        {
+          "word": "Saturdays?",
+          "start": 69.04911401367187,
+          "end": 69.47016674804688
+        }
+      ],
+      "metadata": {
+        "response_id": 5
+      }
+    },
+    {
+      "role": "user",
+      "content": "You can order from the full menu right up until midnight. There's no limited late night menu. Midnight is the firm cutoff for kitchen orders. So as long as you place your order before then, you're good to go even if it's busy. The hours are the same on weekends too. Kitchen closes at midnight, and the bar stays open until one AM on Fridays and Saturdays. If you wanna lock in a table for your group, just let me know. ",
+      "words": [
+        {
+          "word": "You ",
+          "start": 70.89500000000001,
+          "end": 71.295
+        },
+        {
+          "word": "can ",
+          "start": 71.295,
+          "end": 71.45499400000001
+        },
+        {
+          "word": "order ",
+          "start": 71.45499400000001,
+          "end": 71.77499
+        },
+        {
+          "word": "from ",
+          "start": 71.77499,
+          "end": 71.935
+        },
+        {
+          "word": "the ",
+          "start": 71.935,
+          "end": 72.09499000000001
+        },
+        {
+          "word": "full ",
+          "start": 72.09499000000001,
+          "end": 72.25500000000001
+        },
+        {
+          "word": "menu ",
+          "start": 72.25500000000001,
+          "end": 72.575
+        },
+        {
+          "word": "right ",
+          "start": 72.575,
+          "end": 72.89500000000001
+        },
+        {
+          "word": "up ",
+          "start": 72.89500000000001,
+          "end": 73.055
+        },
+        {
+          "word": "until ",
+          "start": 73.055,
+          "end": 73.375
+        },
+        {
+          "word": "midnight. ",
+          "start": 73.375,
+          "end": 74.015
+        },
+        {
+          "word": "There's ",
+          "start": 74.015,
+          "end": 74.33500000000001
+        },
+        {
+          "word": "no ",
+          "start": 74.33500000000001,
+          "end": 74.494995
+        },
+        {
+          "word": "limited ",
+          "start": 74.494995,
+          "end": 74.89500000000001
+        },
+        {
+          "word": "late ",
+          "start": 74.89500000000001,
+          "end": 75.134994
+        },
+        {
+          "word": "night ",
+          "start": 75.134994,
+          "end": 75.375
+        },
+        {
+          "word": "menu. ",
+          "start": 75.375,
+          "end": 75.69500000000001
+        },
+        {
+          "word": "Midnight ",
+          "start": 75.965,
+          "end": 76.44500000000001
+        },
+        {
+          "word": "is ",
+          "start": 76.44500000000001,
+          "end": 76.685005
+        },
+        {
+          "word": "the ",
+          "start": 76.685005,
+          "end": 76.765
+        },
+        {
+          "word": "firm ",
+          "start": 76.765,
+          "end": 77.00500500000001
+        },
+        {
+          "word": "cutoff ",
+          "start": 77.00500500000001,
+          "end": 77.325004
+        },
+        {
+          "word": "for ",
+          "start": 77.325004,
+          "end": 77.56500000000001
+        },
+        {
+          "word": "kitchen ",
+          "start": 77.56500000000001,
+          "end": 77.965
+        },
+        {
+          "word": "orders. ",
+          "start": 77.965,
+          "end": 78.525
+        },
+        {
+          "word": "So ",
+          "start": 78.685005,
+          "end": 78.765
+        },
+        {
+          "word": "as ",
+          "start": 78.765,
+          "end": 78.92500000000001
+        },
+        {
+          "word": "long ",
+          "start": 78.92500000000001,
+          "end": 79.08500000000001
+        },
+        {
+          "word": "as ",
+          "start": 79.08500000000001,
+          "end": 79.245
+        },
+        {
+          "word": "you ",
+          "start": 79.245,
+          "end": 79.405
+        },
+        {
+          "word": "place ",
+          "start": 79.405,
+          "end": 79.56500000000001
+        },
+        {
+          "word": "your ",
+          "start": 79.56500000000001,
+          "end": 79.805
+        },
+        {
+          "word": "order ",
+          "start": 79.805,
+          "end": 80.045005
+        },
+        {
+          "word": "before ",
+          "start": 80.045005,
+          "end": 80.36500500000001
+        },
+        {
+          "word": "then, ",
+          "start": 80.36500500000001,
+          "end": 80.605
+        },
+        {
+          "word": "you're ",
+          "start": 80.825,
+          "end": 81.06499500000001
+        },
+        {
+          "word": "good ",
+          "start": 81.06499500000001,
+          "end": 81.305
+        },
+        {
+          "word": "to ",
+          "start": 81.305,
+          "end": 81.384994
+        },
+        {
+          "word": "go ",
+          "start": 81.384994,
+          "end": 81.86500000000001
+        },
+        {
+          "word": "even ",
+          "start": 81.86500000000001,
+          "end": 82.185
+        },
+        {
+          "word": "if ",
+          "start": 82.185,
+          "end": 82.34499000000001
+        },
+        {
+          "word": "it's ",
+          "start": 82.34499000000001,
+          "end": 82.58500000000001
+        },
+        {
+          "word": "busy. ",
+          "start": 82.58500000000001,
+          "end": 82.744995
+        },
+        {
+          "word": "The ",
+          "start": 83.23500000000001,
+          "end": 83.47500000000001
+        },
+        {
+          "word": "hours ",
+          "start": 83.47500000000001,
+          "end": 83.71499600000001
+        },
+        {
+          "word": "are ",
+          "start": 83.71499600000001,
+          "end": 83.875
+        },
+        {
+          "word": "the ",
+          "start": 83.875,
+          "end": 84.034996
+        },
+        {
+          "word": "same ",
+          "start": 84.034996,
+          "end": 84.19500000000001
+        },
+        {
+          "word": "on ",
+          "start": 84.19500000000001,
+          "end": 84.354995
+        },
+        {
+          "word": "weekends ",
+          "start": 84.354995,
+          "end": 84.75500000000001
+        },
+        {
+          "word": "too. ",
+          "start": 84.75500000000001,
+          "end": 84.994995
+        },
+        {
+          "word": "Kitchen ",
+          "start": 85.47500000000001,
+          "end": 85.875
+        },
+        {
+          "word": "closes ",
+          "start": 85.875,
+          "end": 86.19500000000001
+        },
+        {
+          "word": "at ",
+          "start": 86.19500000000001,
+          "end": 86.435
+        },
+        {
+          "word": "midnight, ",
+          "start": 86.435,
+          "end": 86.915
+        },
+        {
+          "word": "and ",
+          "start": 86.915,
+          "end": 87.075
+        },
+        {
+          "word": "the ",
+          "start": 87.075,
+          "end": 87.155
+        },
+        {
+          "word": "bar ",
+          "start": 87.155,
+          "end": 87.39500000000001
+        },
+        {
+          "word": "stays ",
+          "start": 87.39500000000001,
+          "end": 87.715
+        },
+        {
+          "word": "open ",
+          "start": 87.715,
+          "end": 87.95500000000001
+        },
+        {
+          "word": "until ",
+          "start": 87.95500000000001,
+          "end": 88.275
+        },
+        {
+          "word": "one ",
+          "start": 88.275,
+          "end": 88.435
+        },
+        {
+          "word": "AM ",
+          "start": 88.435,
+          "end": 88.67500000000001
+        },
+        {
+          "word": "on ",
+          "start": 88.67500000000001,
+          "end": 88.915
+        },
+        {
+          "word": "Fridays ",
+          "start": 88.915,
+          "end": 89.23500000000001
+        },
+        {
+          "word": "and ",
+          "start": 89.23500000000001,
+          "end": 89.39500000000001
+        },
+        {
+          "word": "Saturdays. ",
+          "start": 89.39500000000001,
+          "end": 89.795
+        },
+        {
+          "word": "If ",
+          "start": 90.25500500000001,
+          "end": 90.415
+        },
+        {
+          "word": "you ",
+          "start": 90.415,
+          "end": 90.575004
+        },
+        {
+          "word": "wanna ",
+          "start": 90.575004,
+          "end": 90.73500000000001
+        },
+        {
+          "word": "lock ",
+          "start": 90.73500000000001,
+          "end": 90.97500000000001
+        },
+        {
+          "word": "in ",
+          "start": 90.97500000000001,
+          "end": 91.135
+        },
+        {
+          "word": "a ",
+          "start": 91.135,
+          "end": 91.215
+        },
+        {
+          "word": "table ",
+          "start": 91.215,
+          "end": 91.53500000000001
+        },
+        {
+          "word": "for ",
+          "start": 91.53500000000001,
+          "end": 91.69500000000001
+        },
+        {
+          "word": "your ",
+          "start": 91.69500000000001,
+          "end": 91.855
+        },
+        {
+          "word": "group, ",
+          "start": 91.855,
+          "end": 92.17500000000001
+        },
+        {
+          "word": "just ",
+          "start": 92.17500000000001,
+          "end": 92.33500000000001
+        },
+        {
+          "word": "let ",
+          "start": 92.33500000000001,
+          "end": 92.495
+        },
+        {
+          "word": "me ",
+          "start": 92.495,
+          "end": 92.655
+        },
+        {
+          "word": "know. ",
+          "start": 92.655,
+          "end": 92.73500000000001
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Awesome, thanks for clarifying! That really helps with planning. A couple more quick things:\n\n- Is last call for drinks exactly at 1am, or do you do a last call announcement a little before then?\n- Is it 21+ only after a certain hour, or can people under 21 stay the whole night?\n- What\u2019s the crowd usually like late on a Thursday compared to Friday or Saturday? Trying to get a sense if it\u2019s packed or more chill.\n- And just in case we want to come back for brunch or lunch \u2014 what time do you open on weekends?\n\nThanks for all the info, Lana!",
+      "words": [
+        {
+          "word": "Awesome, ",
+          "start": 94.948,
+          "end": 95.369052734375
+        },
+        {
+          "word": "thanks ",
+          "start": 95.369052734375,
+          "end": 95.79010522460938
+        },
+        {
+          "word": "for ",
+          "start": 95.79010522460938,
+          "end": 96.21115795898437
+        },
+        {
+          "word": "clarifying! ",
+          "start": 96.21115795898437,
+          "end": 96.63221044921875
+        },
+        {
+          "word": "That ",
+          "start": 97.15391674804688,
+          "end": 97.57496923828126
+        },
+        {
+          "word": "really ",
+          "start": 97.57496923828126,
+          "end": 97.99602197265625
+        },
+        {
+          "word": "helps ",
+          "start": 97.99602197265625,
+          "end": 98.41707446289062
+        },
+        {
+          "word": "with ",
+          "start": 98.230572265625,
+          "end": 98.651625
+        },
+        {
+          "word": "planning. ",
+          "start": 98.230572265625,
+          "end": 98.651625
+        },
+        {
+          "word": "A ",
+          "start": 98.651625,
+          "end": 99.072677734375
+        },
+        {
+          "word": "couple ",
+          "start": 99.072677734375,
+          "end": 99.49373022460938
+        },
+        {
+          "word": "more ",
+          "start": 99.49373022460938,
+          "end": 99.91478295898438
+        },
+        {
+          "word": "quick ",
+          "start": 99.91478295898438,
+          "end": 100.33583544921875
+        },
+        {
+          "word": "things:\n",
+          "start": 100.33583544921875,
+          "end": 100.75688818359374
+        },
+        {
+          "word": "\n- ",
+          "start": 100.75688818359374,
+          "end": 101.17794067382812
+        },
+        {
+          "word": "Is ",
+          "start": 101.17794067382812,
+          "end": 101.59899340820313
+        },
+        {
+          "word": "last ",
+          "start": 101.59899340820313,
+          "end": 102.02004614257812
+        },
+        {
+          "word": "call ",
+          "start": 102.02004614257812,
+          "end": 102.4410986328125
+        },
+        {
+          "word": "for ",
+          "start": 102.4410986328125,
+          "end": 102.8621513671875
+        },
+        {
+          "word": "drinks ",
+          "start": 102.8621513671875,
+          "end": 103.28320385742188
+        },
+        {
+          "word": "exactly ",
+          "start": 103.28320385742188,
+          "end": 103.70425659179688
+        },
+        {
+          "word": "at ",
+          "start": 103.70425659179688,
+          "end": 104.12530932617187
+        },
+        {
+          "word": "1am, ",
+          "start": 104.12530932617187,
+          "end": 104.54636181640625
+        },
+        {
+          "word": "or ",
+          "start": 104.54636181640625,
+          "end": 104.96741455078126
+        },
+        {
+          "word": "do ",
+          "start": 104.96741455078126,
+          "end": 105.38846704101563
+        },
+        {
+          "word": "you ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "do ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "a ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "last ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "call ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "announcement ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "a ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "little ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "before ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "then?",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "\n- ",
+          "start": 105.63633325195312,
+          "end": 106.05738598632813
+        },
+        {
+          "word": "Is ",
+          "start": 106.05738598632813,
+          "end": 106.4784384765625
+        },
+        {
+          "word": "it ",
+          "start": 106.4784384765625,
+          "end": 106.8994912109375
+        },
+        {
+          "word": "21+ ",
+          "start": 106.8994912109375,
+          "end": 107.3205439453125
+        },
+        {
+          "word": "only ",
+          "start": 107.3205439453125,
+          "end": 107.74159643554688
+        },
+        {
+          "word": "after ",
+          "start": 107.74159643554688,
+          "end": 108.16264916992188
+        },
+        {
+          "word": "a ",
+          "start": 108.16264916992188,
+          "end": 108.58370166015625
+        },
+        {
+          "word": "certain ",
+          "start": 108.58370166015625,
+          "end": 109.00475439453125
+        },
+        {
+          "word": "hour, ",
+          "start": 109.00475439453125,
+          "end": 109.42580712890626
+        },
+        {
+          "word": "or ",
+          "start": 109.42580712890626,
+          "end": 109.84685961914063
+        },
+        {
+          "word": "can ",
+          "start": 109.84685961914063,
+          "end": 110.26791235351563
+        },
+        {
+          "word": "people ",
+          "start": 110.26791235351563,
+          "end": 110.68896484375
+        },
+        {
+          "word": "under ",
+          "start": 110.68896484375,
+          "end": 111.110017578125
+        },
+        {
+          "word": "21 ",
+          "start": 111.110017578125,
+          "end": 111.53107006835937
+        },
+        {
+          "word": "stay ",
+          "start": 111.42661401367188,
+          "end": 111.84766674804688
+        },
+        {
+          "word": "the ",
+          "start": 111.42661401367188,
+          "end": 111.84766674804688
+        },
+        {
+          "word": "whole ",
+          "start": 111.42661401367188,
+          "end": 111.84766674804688
+        },
+        {
+          "word": "night?",
+          "start": 111.42661401367188,
+          "end": 111.84766674804688
+        },
+        {
+          "word": "\n- ",
+          "start": 111.84766674804688,
+          "end": 112.26871923828125
+        },
+        {
+          "word": "What\u2019s ",
+          "start": 112.26871923828125,
+          "end": 112.68977197265625
+        },
+        {
+          "word": "the ",
+          "start": 112.68977197265625,
+          "end": 113.11082446289062
+        },
+        {
+          "word": "crowd ",
+          "start": 113.11082446289062,
+          "end": 113.53187719726563
+        },
+        {
+          "word": "usually ",
+          "start": 113.53187719726563,
+          "end": 113.95292993164063
+        },
+        {
+          "word": "like ",
+          "start": 113.95292993164063,
+          "end": 114.373982421875
+        },
+        {
+          "word": "late ",
+          "start": 114.373982421875,
+          "end": 114.79503515625
+        },
+        {
+          "word": "on ",
+          "start": 114.79503515625,
+          "end": 115.21608764648437
+        },
+        {
+          "word": "a ",
+          "start": 115.21608764648437,
+          "end": 115.63714038085938
+        },
+        {
+          "word": "Thursday ",
+          "start": 115.63714038085938,
+          "end": 116.05819287109375
+        },
+        {
+          "word": "compared ",
+          "start": 115.68748901367188,
+          "end": 116.10854174804687
+        },
+        {
+          "word": "to ",
+          "start": 115.68748901367188,
+          "end": 116.10854174804687
+        },
+        {
+          "word": "Friday ",
+          "start": 115.68748901367188,
+          "end": 116.10854174804687
+        },
+        {
+          "word": "or ",
+          "start": 115.68748901367188,
+          "end": 116.10854174804687
+        },
+        {
+          "word": "Saturday? ",
+          "start": 115.68748901367188,
+          "end": 116.10854174804687
+        },
+        {
+          "word": "Trying ",
+          "start": 116.10854174804687,
+          "end": 116.52959423828125
+        },
+        {
+          "word": "to ",
+          "start": 116.52959423828125,
+          "end": 116.95064697265624
+        },
+        {
+          "word": "get ",
+          "start": 116.95064697265624,
+          "end": 117.37169946289063
+        },
+        {
+          "word": "a ",
+          "start": 117.37169946289063,
+          "end": 117.79275219726563
+        },
+        {
+          "word": "sense ",
+          "start": 117.79275219726563,
+          "end": 118.21380493164062
+        },
+        {
+          "word": "if ",
+          "start": 118.11398901367187,
+          "end": 118.53504174804688
+        },
+        {
+          "word": "it\u2019s ",
+          "start": 118.11398901367187,
+          "end": 118.53504174804688
+        },
+        {
+          "word": "packed ",
+          "start": 118.11398901367187,
+          "end": 118.53504174804688
+        },
+        {
+          "word": "or ",
+          "start": 118.11398901367187,
+          "end": 118.53504174804688
+        },
+        {
+          "word": "more ",
+          "start": 118.11398901367187,
+          "end": 118.53504174804688
+        },
+        {
+          "word": "chill.",
+          "start": 118.11398901367187,
+          "end": 118.53504174804688
+        },
+        {
+          "word": "\n- ",
+          "start": 118.53504174804688,
+          "end": 118.95609423828125
+        },
+        {
+          "word": "And ",
+          "start": 118.95609423828125,
+          "end": 119.37714697265625
+        },
+        {
+          "word": "just ",
+          "start": 119.37714697265625,
+          "end": 119.79819946289062
+        },
+        {
+          "word": "in ",
+          "start": 119.79819946289062,
+          "end": 120.21925219726562
+        },
+        {
+          "word": "case ",
+          "start": 120.21925219726562,
+          "end": 120.64030493164063
+        },
+        {
+          "word": "we ",
+          "start": 120.64030493164063,
+          "end": 121.061357421875
+        },
+        {
+          "word": "want ",
+          "start": 121.061357421875,
+          "end": 121.48241015625
+        },
+        {
+          "word": "to ",
+          "start": 121.48241015625,
+          "end": 121.90346264648437
+        },
+        {
+          "word": "come ",
+          "start": 121.90346264648437,
+          "end": 122.32451538085938
+        },
+        {
+          "word": "back ",
+          "start": 122.32451538085938,
+          "end": 122.74556787109375
+        },
+        {
+          "word": "for ",
+          "start": 122.74556787109375,
+          "end": 123.16662060546875
+        },
+        {
+          "word": "brunch ",
+          "start": 123.16662060546875,
+          "end": 123.58767333984375
+        },
+        {
+          "word": "or ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "lunch ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "\u2014 ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "what ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "time ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "do ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "you ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "open ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "on ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "weekends?",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "\n\nThanks ",
+          "start": 123.689875,
+          "end": 124.110927734375
+        },
+        {
+          "word": "for ",
+          "start": 124.110927734375,
+          "end": 124.53198022460937
+        },
+        {
+          "word": "all ",
+          "start": 124.53198022460937,
+          "end": 124.95303295898438
+        },
+        {
+          "word": "the ",
+          "start": 124.76653076171876,
+          "end": 125.18758325195313
+        },
+        {
+          "word": "info, ",
+          "start": 124.76653076171876,
+          "end": 125.18758325195313
+        },
+        {
+          "word": "Lana!",
+          "start": 124.76653076171876,
+          "end": 125.18758325195313
+        }
+      ],
+      "metadata": {
+        "response_id": 9
+      }
+    },
+    {
+      "role": "user",
+      "content": "Thank you so much for all the info. See you soon. ",
+      "words": [
+        {
+          "word": "Thank ",
+          "start": 126.98500000000001,
+          "end": 127.305
+        },
+        {
+          "word": "you ",
+          "start": 127.305,
+          "end": 127.465
+        },
+        {
+          "word": "so ",
+          "start": 127.465,
+          "end": 127.70500000000001
+        },
+        {
+          "word": "much ",
+          "start": 127.70500000000001,
+          "end": 127.86500000000001
+        },
+        {
+          "word": "for ",
+          "start": 127.86500000000001,
+          "end": 128.025
+        },
+        {
+          "word": "all ",
+          "start": 128.025,
+          "end": 128.26500000000001
+        },
+        {
+          "word": "the ",
+          "start": 128.26500000000001,
+          "end": 128.425
+        },
+        {
+          "word": "info. ",
+          "start": 128.425,
+          "end": 128.66500000000002
+        },
+        {
+          "word": "See ",
+          "start": 129.005,
+          "end": 129.245
+        },
+        {
+          "word": "you ",
+          "start": 129.245,
+          "end": 129.40499
+        },
+        {
+          "word": "soon. ",
+          "start": 129.40499,
+          "end": 129.645
+        }
+      ]
+    }
+  ],
+  "transcript_with_tool_calls": [
+    {
+      "role": "user",
+      "content": "Welcome to Boardwalk Beer Garden. My name is Lana. Let me know if you need to speak to management and would like to be transferred. What's your name, and how can I help you? ",
+      "words": [
+        {
+          "word": "Welcome ",
+          "start": 3.6950000000000003,
+          "end": 4.015
+        },
+        {
+          "word": "to ",
+          "start": 4.015,
+          "end": 4.255
+        },
+        {
+          "word": "Boardwalk ",
+          "start": 4.255,
+          "end": 4.735000299999999
+        },
+        {
+          "word": "Beer ",
+          "start": 4.735000299999999,
+          "end": 5.135
+        },
+        {
+          "word": "Garden. ",
+          "start": 5.135,
+          "end": 5.614999999999999
+        },
+        {
+          "word": "My ",
+          "start": 5.614999999999999,
+          "end": 5.8549999999999995
+        },
+        {
+          "word": "name ",
+          "start": 5.8549999999999995,
+          "end": 6.015
+        },
+        {
+          "word": "is ",
+          "start": 6.015,
+          "end": 6.175
+        },
+        {
+          "word": "Lana. ",
+          "start": 6.175,
+          "end": 6.495
+        },
+        {
+          "word": "Let ",
+          "start": 6.755,
+          "end": 6.9949996
+        },
+        {
+          "word": "me ",
+          "start": 6.9949996,
+          "end": 7.154999999999999
+        },
+        {
+          "word": "know ",
+          "start": 7.154999999999999,
+          "end": 7.3149998
+        },
+        {
+          "word": "if ",
+          "start": 7.3149998,
+          "end": 7.3949997
+        },
+        {
+          "word": "you ",
+          "start": 7.3949997,
+          "end": 7.555
+        },
+        {
+          "word": "need ",
+          "start": 7.555,
+          "end": 7.715
+        },
+        {
+          "word": "to ",
+          "start": 7.715,
+          "end": 7.8749997
+        },
+        {
+          "word": "speak ",
+          "start": 7.8749997,
+          "end": 8.0349995
+        },
+        {
+          "word": "to ",
+          "start": 8.0349995,
+          "end": 8.194999
+        },
+        {
+          "word": "management ",
+          "start": 8.194999,
+          "end": 8.594999999999999
+        },
+        {
+          "word": "and ",
+          "start": 8.594999999999999,
+          "end": 8.834999999999999
+        },
+        {
+          "word": "would ",
+          "start": 8.834999999999999,
+          "end": 8.995
+        },
+        {
+          "word": "like ",
+          "start": 8.995,
+          "end": 9.154999
+        },
+        {
+          "word": "to ",
+          "start": 9.154999,
+          "end": 9.235
+        },
+        {
+          "word": "be ",
+          "start": 9.235,
+          "end": 9.395
+        },
+        {
+          "word": "transferred. ",
+          "start": 9.395,
+          "end": 9.795
+        },
+        {
+          "word": "What's ",
+          "start": 10.215,
+          "end": 10.535
+        },
+        {
+          "word": "your ",
+          "start": 10.535,
+          "end": 10.615
+        },
+        {
+          "word": "name, ",
+          "start": 10.615,
+          "end": 10.855
+        },
+        {
+          "word": "and ",
+          "start": 10.855,
+          "end": 10.935
+        },
+        {
+          "word": "how ",
+          "start": 10.935,
+          "end": 11.015
+        },
+        {
+          "word": "can ",
+          "start": 11.015,
+          "end": 11.174999999999999
+        },
+        {
+          "word": "I ",
+          "start": 11.174999999999999,
+          "end": 11.254999999999999
+        },
+        {
+          "word": "help ",
+          "start": 11.254999999999999,
+          "end": 11.415
+        },
+        {
+          "word": "you? ",
+          "start": 11.415,
+          "end": 11.575
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Hey Lana, quick question \u2014 what time does your kitchen close tonight? I'm trying to coordinate a group and one person gets off work pretty late, so I want to make sure we don't miss the food cutoff. Also, is the kitchen close time different from the bar close time on Thursdays?",
+      "words": [
+        {
+          "word": "Hey ",
+          "start": 13.374,
+          "end": 13.795052734375
+        },
+        {
+          "word": "Lana, ",
+          "start": 13.795052734375,
+          "end": 14.216105224609375
+        },
+        {
+          "word": "quick ",
+          "start": 14.216105224609375,
+          "end": 14.637157958984375
+        },
+        {
+          "word": "question ",
+          "start": 14.637157958984375,
+          "end": 15.05821044921875
+        },
+        {
+          "word": "\u2014 ",
+          "start": 15.05821044921875,
+          "end": 15.47926318359375
+        },
+        {
+          "word": "what ",
+          "start": 15.47926318359375,
+          "end": 15.900315673828125
+        },
+        {
+          "word": "time ",
+          "start": 15.900315673828125,
+          "end": 16.321368408203124
+        },
+        {
+          "word": "does ",
+          "start": 16.321368408203124,
+          "end": 16.742421142578124
+        },
+        {
+          "word": "your ",
+          "start": 16.598489013671873,
+          "end": 17.019541748046876
+        },
+        {
+          "word": "kitchen ",
+          "start": 16.598489013671873,
+          "end": 17.019541748046876
+        },
+        {
+          "word": "close ",
+          "start": 16.598489013671873,
+          "end": 17.019541748046876
+        },
+        {
+          "word": "tonight? ",
+          "start": 16.598489013671873,
+          "end": 17.019541748046876
+        },
+        {
+          "word": "I'm ",
+          "start": 17.019541748046876,
+          "end": 17.44059423828125
+        },
+        {
+          "word": "trying ",
+          "start": 17.44059423828125,
+          "end": 17.86164697265625
+        },
+        {
+          "word": "to ",
+          "start": 17.86164697265625,
+          "end": 18.282699462890626
+        },
+        {
+          "word": "coordinate ",
+          "start": 18.282699462890626,
+          "end": 18.703752197265626
+        },
+        {
+          "word": "a ",
+          "start": 18.703752197265626,
+          "end": 19.124804931640625
+        },
+        {
+          "word": "group ",
+          "start": 19.124804931640625,
+          "end": 19.545857421875
+        },
+        {
+          "word": "and ",
+          "start": 19.545857421875,
+          "end": 19.96691015625
+        },
+        {
+          "word": "one ",
+          "start": 19.96691015625,
+          "end": 20.387962646484375
+        },
+        {
+          "word": "person ",
+          "start": 20.387962646484375,
+          "end": 20.809015380859375
+        },
+        {
+          "word": "gets ",
+          "start": 20.809015380859375,
+          "end": 21.23006787109375
+        },
+        {
+          "word": "off ",
+          "start": 21.23006787109375,
+          "end": 21.65112060546875
+        },
+        {
+          "word": "work ",
+          "start": 21.65112060546875,
+          "end": 22.07217333984375
+        },
+        {
+          "word": "pretty ",
+          "start": 22.07217333984375,
+          "end": 22.493225830078124
+        },
+        {
+          "word": "late, ",
+          "start": 22.493225830078124,
+          "end": 22.914278564453124
+        },
+        {
+          "word": "so ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "I ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "want ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "to ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "make ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "sure ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "we ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "don't ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "miss ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "the ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "food ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "cutoff. ",
+          "start": 22.902697265625,
+          "end": 23.32375
+        },
+        {
+          "word": "Also, ",
+          "start": 23.32375,
+          "end": 23.744802734375
+        },
+        {
+          "word": "is ",
+          "start": 23.744802734375,
+          "end": 24.165855224609373
+        },
+        {
+          "word": "the ",
+          "start": 24.165855224609373,
+          "end": 24.586907958984376
+        },
+        {
+          "word": "kitchen ",
+          "start": 24.586907958984376,
+          "end": 25.00796044921875
+        },
+        {
+          "word": "close ",
+          "start": 25.00796044921875,
+          "end": 25.42901318359375
+        },
+        {
+          "word": "time ",
+          "start": 25.42901318359375,
+          "end": 25.850065673828126
+        },
+        {
+          "word": "different ",
+          "start": 25.850065673828126,
+          "end": 26.271118408203126
+        },
+        {
+          "word": "from ",
+          "start": 26.271118408203126,
+          "end": 26.692171142578125
+        },
+        {
+          "word": "the ",
+          "start": 26.692171142578125,
+          "end": 27.1132236328125
+        },
+        {
+          "word": "bar ",
+          "start": 27.024239013671874,
+          "end": 27.445291748046873
+        },
+        {
+          "word": "close ",
+          "start": 27.024239013671874,
+          "end": 27.445291748046873
+        },
+        {
+          "word": "time ",
+          "start": 27.024239013671874,
+          "end": 27.445291748046873
+        },
+        {
+          "word": "on ",
+          "start": 27.024239013671874,
+          "end": 27.445291748046873
+        },
+        {
+          "word": "Thursdays?",
+          "start": 27.024239013671874,
+          "end": 27.445291748046873
+        }
+      ],
+      "metadata": {
+        "response_id": 1
+      }
+    },
+    {
+      "role": "user",
+      "content": "Great questions. Our kitchen closes at midnight every night, including Thursdays. The bar stays open until one AM, so you'll still have an extra hour for drinks after the kitchen stops serving food. If you're planning for a group, let me know if you wanna book a table. I can send you our reservation link right now. ",
+      "words": [
+        {
+          "word": "Great ",
+          "start": 29.465,
+          "end": 29.945
+        },
+        {
+          "word": "questions. ",
+          "start": 29.945,
+          "end": 30.345
+        },
+        {
+          "word": "Our ",
+          "start": 30.555,
+          "end": 30.875
+        },
+        {
+          "word": "kitchen ",
+          "start": 30.875,
+          "end": 31.195
+        },
+        {
+          "word": "closes ",
+          "start": 31.195,
+          "end": 31.515
+        },
+        {
+          "word": "at ",
+          "start": 31.515,
+          "end": 31.755
+        },
+        {
+          "word": "midnight ",
+          "start": 31.755,
+          "end": 32.155
+        },
+        {
+          "word": "every ",
+          "start": 32.155,
+          "end": 32.475
+        },
+        {
+          "word": "night, ",
+          "start": 32.475,
+          "end": 32.955
+        },
+        {
+          "word": "including ",
+          "start": 32.955,
+          "end": 33.195
+        },
+        {
+          "word": "Thursdays. ",
+          "start": 33.195,
+          "end": 33.675
+        },
+        {
+          "word": "The ",
+          "start": 34.125,
+          "end": 34.365
+        },
+        {
+          "word": "bar ",
+          "start": 34.365,
+          "end": 34.525
+        },
+        {
+          "word": "stays ",
+          "start": 34.525,
+          "end": 34.845
+        },
+        {
+          "word": "open ",
+          "start": 34.845,
+          "end": 35.165
+        },
+        {
+          "word": "until ",
+          "start": 35.165,
+          "end": 35.405
+        },
+        {
+          "word": "one ",
+          "start": 35.405,
+          "end": 35.645
+        },
+        {
+          "word": "AM, ",
+          "start": 35.645,
+          "end": 36.044998
+        },
+        {
+          "word": "so ",
+          "start": 36.044998,
+          "end": 36.125
+        },
+        {
+          "word": "you'll ",
+          "start": 36.125,
+          "end": 36.365
+        },
+        {
+          "word": "still ",
+          "start": 36.365,
+          "end": 36.525
+        },
+        {
+          "word": "have ",
+          "start": 36.525,
+          "end": 36.685
+        },
+        {
+          "word": "an ",
+          "start": 36.685,
+          "end": 36.925
+        },
+        {
+          "word": "extra ",
+          "start": 36.925,
+          "end": 37.165
+        },
+        {
+          "word": "hour ",
+          "start": 37.165,
+          "end": 37.485
+        },
+        {
+          "word": "for ",
+          "start": 37.485,
+          "end": 37.645
+        },
+        {
+          "word": "drinks ",
+          "start": 37.645,
+          "end": 37.964999999999996
+        },
+        {
+          "word": "after ",
+          "start": 37.964999999999996,
+          "end": 38.365
+        },
+        {
+          "word": "the ",
+          "start": 38.365,
+          "end": 38.525
+        },
+        {
+          "word": "kitchen ",
+          "start": 38.525,
+          "end": 38.765
+        },
+        {
+          "word": "stops ",
+          "start": 38.935,
+          "end": 39.175003
+        },
+        {
+          "word": "serving ",
+          "start": 39.175003,
+          "end": 39.655002
+        },
+        {
+          "word": "food. ",
+          "start": 39.655002,
+          "end": 40.135
+        },
+        {
+          "word": "If ",
+          "start": 40.375,
+          "end": 40.455
+        },
+        {
+          "word": "you're ",
+          "start": 40.455,
+          "end": 40.695
+        },
+        {
+          "word": "planning ",
+          "start": 40.695,
+          "end": 40.935
+        },
+        {
+          "word": "for ",
+          "start": 40.935,
+          "end": 41.095
+        },
+        {
+          "word": "a ",
+          "start": 41.095,
+          "end": 41.175003
+        },
+        {
+          "word": "group, ",
+          "start": 41.175003,
+          "end": 41.335003
+        },
+        {
+          "word": "let ",
+          "start": 41.575,
+          "end": 41.815002
+        },
+        {
+          "word": "me ",
+          "start": 41.815002,
+          "end": 41.895
+        },
+        {
+          "word": "know ",
+          "start": 41.895,
+          "end": 42.055
+        },
+        {
+          "word": "if ",
+          "start": 42.055,
+          "end": 42.214999999999996
+        },
+        {
+          "word": "you ",
+          "start": 42.214999999999996,
+          "end": 42.295
+        },
+        {
+          "word": "wanna ",
+          "start": 42.295,
+          "end": 42.535
+        },
+        {
+          "word": "book ",
+          "start": 42.535,
+          "end": 42.695
+        },
+        {
+          "word": "a ",
+          "start": 42.695,
+          "end": 42.855
+        },
+        {
+          "word": "table. ",
+          "start": 42.855,
+          "end": 43.335
+        },
+        {
+          "word": "I ",
+          "start": 43.495,
+          "end": 43.655
+        },
+        {
+          "word": "can ",
+          "start": 43.655,
+          "end": 43.895
+        },
+        {
+          "word": "send ",
+          "start": 43.895,
+          "end": 44.055
+        },
+        {
+          "word": "you ",
+          "start": 44.055,
+          "end": 44.214999999999996
+        },
+        {
+          "word": "our ",
+          "start": 44.214999999999996,
+          "end": 44.375
+        },
+        {
+          "word": "reservation ",
+          "start": 44.375,
+          "end": 44.855
+        },
+        {
+          "word": "link ",
+          "start": 44.855,
+          "end": 45.175
+        },
+        {
+          "word": "right ",
+          "start": 45.175,
+          "end": 45.415
+        },
+        {
+          "word": "now. ",
+          "start": 45.415,
+          "end": 45.495
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Perfect, that helps a lot! Just to double-check \u2014 if we get there at, say, 11:30pm tonight, can we still order a full meal, or is there a limited late-night menu? And is midnight a firm cutoff, or do you stop taking food orders a little earlier if the kitchen gets busy?\n\nAlso, is it the same hours on weekends, or does the kitchen or bar close later on Fridays and Saturdays?",
+      "words": [
+        {
+          "word": "Perfect, ",
+          "start": 47.179,
+          "end": 47.600052734375
+        },
+        {
+          "word": "that ",
+          "start": 47.600052734375,
+          "end": 48.02110522460937
+        },
+        {
+          "word": "helps ",
+          "start": 48.02110522460937,
+          "end": 48.442157958984374
+        },
+        {
+          "word": "a ",
+          "start": 48.442157958984374,
+          "end": 48.86321044921875
+        },
+        {
+          "word": "lot! ",
+          "start": 48.84773901367188,
+          "end": 49.26879174804687
+        },
+        {
+          "word": "Just ",
+          "start": 49.26879174804687,
+          "end": 49.68984423828125
+        },
+        {
+          "word": "to ",
+          "start": 49.68984423828125,
+          "end": 50.11089697265625
+        },
+        {
+          "word": "double-check ",
+          "start": 50.11089697265625,
+          "end": 50.53194946289062
+        },
+        {
+          "word": "\u2014 ",
+          "start": 50.53194946289062,
+          "end": 50.953002197265626
+        },
+        {
+          "word": "if ",
+          "start": 50.953002197265626,
+          "end": 51.37405493164062
+        },
+        {
+          "word": "we ",
+          "start": 51.37405493164062,
+          "end": 51.795107421875
+        },
+        {
+          "word": "get ",
+          "start": 51.795107421875,
+          "end": 52.21616015625
+        },
+        {
+          "word": "there ",
+          "start": 52.21616015625,
+          "end": 52.63721264648437
+        },
+        {
+          "word": "at, ",
+          "start": 52.63721264648437,
+          "end": 53.058265380859375
+        },
+        {
+          "word": "say, ",
+          "start": 53.058265380859375,
+          "end": 53.47931787109375
+        },
+        {
+          "word": "11:30pm ",
+          "start": 53.47931787109375,
+          "end": 53.90037060546875
+        },
+        {
+          "word": "tonight, ",
+          "start": 53.90037060546875,
+          "end": 54.32142333984375
+        },
+        {
+          "word": "can ",
+          "start": 54.32142333984375,
+          "end": 54.74247583007813
+        },
+        {
+          "word": "we ",
+          "start": 54.74247583007813,
+          "end": 55.163528564453124
+        },
+        {
+          "word": "still ",
+          "start": 55.163528564453124,
+          "end": 55.5845810546875
+        },
+        {
+          "word": "order ",
+          "start": 55.5845810546875,
+          "end": 56.0056337890625
+        },
+        {
+          "word": "a ",
+          "start": 56.0056337890625,
+          "end": 56.4266865234375
+        },
+        {
+          "word": "full ",
+          "start": 56.4266865234375,
+          "end": 56.84773901367188
+        },
+        {
+          "word": "meal, ",
+          "start": 56.84773901367188,
+          "end": 57.26879174804687
+        },
+        {
+          "word": "or ",
+          "start": 57.02115576171875,
+          "end": 57.442208251953126
+        },
+        {
+          "word": "is ",
+          "start": 57.02115576171875,
+          "end": 57.442208251953126
+        },
+        {
+          "word": "there ",
+          "start": 57.02115576171875,
+          "end": 57.442208251953126
+        },
+        {
+          "word": "a ",
+          "start": 57.02115576171875,
+          "end": 57.442208251953126
+        },
+        {
+          "word": "limited ",
+          "start": 57.02115576171875,
+          "end": 57.442208251953126
+        },
+        {
+          "word": "late-night ",
+          "start": 57.02115576171875,
+          "end": 57.442208251953126
+        },
+        {
+          "word": "menu? ",
+          "start": 57.02115576171875,
+          "end": 57.442208251953126
+        },
+        {
+          "word": "And ",
+          "start": 57.442208251953126,
+          "end": 57.86326098632812
+        },
+        {
+          "word": "is ",
+          "start": 57.86326098632812,
+          "end": 58.2843134765625
+        },
+        {
+          "word": "midnight ",
+          "start": 58.2843134765625,
+          "end": 58.7053662109375
+        },
+        {
+          "word": "a ",
+          "start": 58.7053662109375,
+          "end": 59.1264189453125
+        },
+        {
+          "word": "firm ",
+          "start": 59.1264189453125,
+          "end": 59.547471435546875
+        },
+        {
+          "word": "cutoff, ",
+          "start": 59.547471435546875,
+          "end": 59.96852416992188
+        },
+        {
+          "word": "or ",
+          "start": 59.96852416992188,
+          "end": 60.38957666015625
+        },
+        {
+          "word": "do ",
+          "start": 60.38957666015625,
+          "end": 60.81062939453125
+        },
+        {
+          "word": "you ",
+          "start": 60.81062939453125,
+          "end": 61.23168212890625
+        },
+        {
+          "word": "stop ",
+          "start": 61.23168212890625,
+          "end": 61.652734619140624
+        },
+        {
+          "word": "taking ",
+          "start": 61.652734619140624,
+          "end": 62.07378735351563
+        },
+        {
+          "word": "food ",
+          "start": 62.07378735351563,
+          "end": 62.49483984375
+        },
+        {
+          "word": "orders ",
+          "start": 62.49483984375,
+          "end": 62.915892578125
+        },
+        {
+          "word": "a ",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "little ",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "earlier ",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "if ",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "the ",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "kitchen ",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "gets ",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "busy?",
+          "start": 62.698447265625,
+          "end": 63.1195
+        },
+        {
+          "word": "\n\nAlso, ",
+          "start": 63.1195,
+          "end": 63.540552734375
+        },
+        {
+          "word": "is ",
+          "start": 63.540552734375,
+          "end": 63.96160522460937
+        },
+        {
+          "word": "it ",
+          "start": 63.96160522460937,
+          "end": 64.38265795898438
+        },
+        {
+          "word": "the ",
+          "start": 64.38265795898438,
+          "end": 64.80371044921876
+        },
+        {
+          "word": "same ",
+          "start": 64.80371044921876,
+          "end": 65.22476318359375
+        },
+        {
+          "word": "hours ",
+          "start": 65.22476318359375,
+          "end": 65.64581567382812
+        },
+        {
+          "word": "on ",
+          "start": 65.64581567382812,
+          "end": 66.06686840820312
+        },
+        {
+          "word": "weekends, ",
+          "start": 66.06686840820312,
+          "end": 66.48792114257813
+        },
+        {
+          "word": "or ",
+          "start": 66.48792114257813,
+          "end": 66.9089736328125
+        },
+        {
+          "word": "does ",
+          "start": 66.9089736328125,
+          "end": 67.3300263671875
+        },
+        {
+          "word": "the ",
+          "start": 67.3300263671875,
+          "end": 67.75107885742187
+        },
+        {
+          "word": "kitchen ",
+          "start": 67.75107885742187,
+          "end": 68.17213159179687
+        },
+        {
+          "word": "or ",
+          "start": 68.17213159179687,
+          "end": 68.59318432617188
+        },
+        {
+          "word": "bar ",
+          "start": 68.59318432617188,
+          "end": 69.01423681640625
+        },
+        {
+          "word": "close ",
+          "start": 69.01423681640625,
+          "end": 69.43528955078125
+        },
+        {
+          "word": "later ",
+          "start": 69.04911401367187,
+          "end": 69.47016674804688
+        },
+        {
+          "word": "on ",
+          "start": 69.04911401367187,
+          "end": 69.47016674804688
+        },
+        {
+          "word": "Fridays ",
+          "start": 69.04911401367187,
+          "end": 69.47016674804688
+        },
+        {
+          "word": "and ",
+          "start": 69.04911401367187,
+          "end": 69.47016674804688
+        },
+        {
+          "word": "Saturdays?",
+          "start": 69.04911401367187,
+          "end": 69.47016674804688
+        }
+      ],
+      "metadata": {
+        "response_id": 5
+      }
+    },
+    {
+      "role": "user",
+      "content": "You can order from the full menu right up until midnight. There's no limited late night menu. Midnight is the firm cutoff for kitchen orders. So as long as you place your order before then, you're good to go even if it's busy. The hours are the same on weekends too. Kitchen closes at midnight, and the bar stays open until one AM on Fridays and Saturdays. If you wanna lock in a table for your group, just let me know. ",
+      "words": [
+        {
+          "word": "You ",
+          "start": 70.89500000000001,
+          "end": 71.295
+        },
+        {
+          "word": "can ",
+          "start": 71.295,
+          "end": 71.45499400000001
+        },
+        {
+          "word": "order ",
+          "start": 71.45499400000001,
+          "end": 71.77499
+        },
+        {
+          "word": "from ",
+          "start": 71.77499,
+          "end": 71.935
+        },
+        {
+          "word": "the ",
+          "start": 71.935,
+          "end": 72.09499000000001
+        },
+        {
+          "word": "full ",
+          "start": 72.09499000000001,
+          "end": 72.25500000000001
+        },
+        {
+          "word": "menu ",
+          "start": 72.25500000000001,
+          "end": 72.575
+        },
+        {
+          "word": "right ",
+          "start": 72.575,
+          "end": 72.89500000000001
+        },
+        {
+          "word": "up ",
+          "start": 72.89500000000001,
+          "end": 73.055
+        },
+        {
+          "word": "until ",
+          "start": 73.055,
+          "end": 73.375
+        },
+        {
+          "word": "midnight. ",
+          "start": 73.375,
+          "end": 74.015
+        },
+        {
+          "word": "There's ",
+          "start": 74.015,
+          "end": 74.33500000000001
+        },
+        {
+          "word": "no ",
+          "start": 74.33500000000001,
+          "end": 74.494995
+        },
+        {
+          "word": "limited ",
+          "start": 74.494995,
+          "end": 74.89500000000001
+        },
+        {
+          "word": "late ",
+          "start": 74.89500000000001,
+          "end": 75.134994
+        },
+        {
+          "word": "night ",
+          "start": 75.134994,
+          "end": 75.375
+        },
+        {
+          "word": "menu. ",
+          "start": 75.375,
+          "end": 75.69500000000001
+        },
+        {
+          "word": "Midnight ",
+          "start": 75.965,
+          "end": 76.44500000000001
+        },
+        {
+          "word": "is ",
+          "start": 76.44500000000001,
+          "end": 76.685005
+        },
+        {
+          "word": "the ",
+          "start": 76.685005,
+          "end": 76.765
+        },
+        {
+          "word": "firm ",
+          "start": 76.765,
+          "end": 77.00500500000001
+        },
+        {
+          "word": "cutoff ",
+          "start": 77.00500500000001,
+          "end": 77.325004
+        },
+        {
+          "word": "for ",
+          "start": 77.325004,
+          "end": 77.56500000000001
+        },
+        {
+          "word": "kitchen ",
+          "start": 77.56500000000001,
+          "end": 77.965
+        },
+        {
+          "word": "orders. ",
+          "start": 77.965,
+          "end": 78.525
+        },
+        {
+          "word": "So ",
+          "start": 78.685005,
+          "end": 78.765
+        },
+        {
+          "word": "as ",
+          "start": 78.765,
+          "end": 78.92500000000001
+        },
+        {
+          "word": "long ",
+          "start": 78.92500000000001,
+          "end": 79.08500000000001
+        },
+        {
+          "word": "as ",
+          "start": 79.08500000000001,
+          "end": 79.245
+        },
+        {
+          "word": "you ",
+          "start": 79.245,
+          "end": 79.405
+        },
+        {
+          "word": "place ",
+          "start": 79.405,
+          "end": 79.56500000000001
+        },
+        {
+          "word": "your ",
+          "start": 79.56500000000001,
+          "end": 79.805
+        },
+        {
+          "word": "order ",
+          "start": 79.805,
+          "end": 80.045005
+        },
+        {
+          "word": "before ",
+          "start": 80.045005,
+          "end": 80.36500500000001
+        },
+        {
+          "word": "then, ",
+          "start": 80.36500500000001,
+          "end": 80.605
+        },
+        {
+          "word": "you're ",
+          "start": 80.825,
+          "end": 81.06499500000001
+        },
+        {
+          "word": "good ",
+          "start": 81.06499500000001,
+          "end": 81.305
+        },
+        {
+          "word": "to ",
+          "start": 81.305,
+          "end": 81.384994
+        },
+        {
+          "word": "go ",
+          "start": 81.384994,
+          "end": 81.86500000000001
+        },
+        {
+          "word": "even ",
+          "start": 81.86500000000001,
+          "end": 82.185
+        },
+        {
+          "word": "if ",
+          "start": 82.185,
+          "end": 82.34499000000001
+        },
+        {
+          "word": "it's ",
+          "start": 82.34499000000001,
+          "end": 82.58500000000001
+        },
+        {
+          "word": "busy. ",
+          "start": 82.58500000000001,
+          "end": 82.744995
+        },
+        {
+          "word": "The ",
+          "start": 83.23500000000001,
+          "end": 83.47500000000001
+        },
+        {
+          "word": "hours ",
+          "start": 83.47500000000001,
+          "end": 83.71499600000001
+        },
+        {
+          "word": "are ",
+          "start": 83.71499600000001,
+          "end": 83.875
+        },
+        {
+          "word": "the ",
+          "start": 83.875,
+          "end": 84.034996
+        },
+        {
+          "word": "same ",
+          "start": 84.034996,
+          "end": 84.19500000000001
+        },
+        {
+          "word": "on ",
+          "start": 84.19500000000001,
+          "end": 84.354995
+        },
+        {
+          "word": "weekends ",
+          "start": 84.354995,
+          "end": 84.75500000000001
+        },
+        {
+          "word": "too. ",
+          "start": 84.75500000000001,
+          "end": 84.994995
+        },
+        {
+          "word": "Kitchen ",
+          "start": 85.47500000000001,
+          "end": 85.875
+        },
+        {
+          "word": "closes ",
+          "start": 85.875,
+          "end": 86.19500000000001
+        },
+        {
+          "word": "at ",
+          "start": 86.19500000000001,
+          "end": 86.435
+        },
+        {
+          "word": "midnight, ",
+          "start": 86.435,
+          "end": 86.915
+        },
+        {
+          "word": "and ",
+          "start": 86.915,
+          "end": 87.075
+        },
+        {
+          "word": "the ",
+          "start": 87.075,
+          "end": 87.155
+        },
+        {
+          "word": "bar ",
+          "start": 87.155,
+          "end": 87.39500000000001
+        },
+        {
+          "word": "stays ",
+          "start": 87.39500000000001,
+          "end": 87.715
+        },
+        {
+          "word": "open ",
+          "start": 87.715,
+          "end": 87.95500000000001
+        },
+        {
+          "word": "until ",
+          "start": 87.95500000000001,
+          "end": 88.275
+        },
+        {
+          "word": "one ",
+          "start": 88.275,
+          "end": 88.435
+        },
+        {
+          "word": "AM ",
+          "start": 88.435,
+          "end": 88.67500000000001
+        },
+        {
+          "word": "on ",
+          "start": 88.67500000000001,
+          "end": 88.915
+        },
+        {
+          "word": "Fridays ",
+          "start": 88.915,
+          "end": 89.23500000000001
+        },
+        {
+          "word": "and ",
+          "start": 89.23500000000001,
+          "end": 89.39500000000001
+        },
+        {
+          "word": "Saturdays. ",
+          "start": 89.39500000000001,
+          "end": 89.795
+        },
+        {
+          "word": "If ",
+          "start": 90.25500500000001,
+          "end": 90.415
+        },
+        {
+          "word": "you ",
+          "start": 90.415,
+          "end": 90.575004
+        },
+        {
+          "word": "wanna ",
+          "start": 90.575004,
+          "end": 90.73500000000001
+        },
+        {
+          "word": "lock ",
+          "start": 90.73500000000001,
+          "end": 90.97500000000001
+        },
+        {
+          "word": "in ",
+          "start": 90.97500000000001,
+          "end": 91.135
+        },
+        {
+          "word": "a ",
+          "start": 91.135,
+          "end": 91.215
+        },
+        {
+          "word": "table ",
+          "start": 91.215,
+          "end": 91.53500000000001
+        },
+        {
+          "word": "for ",
+          "start": 91.53500000000001,
+          "end": 91.69500000000001
+        },
+        {
+          "word": "your ",
+          "start": 91.69500000000001,
+          "end": 91.855
+        },
+        {
+          "word": "group, ",
+          "start": 91.855,
+          "end": 92.17500000000001
+        },
+        {
+          "word": "just ",
+          "start": 92.17500000000001,
+          "end": 92.33500000000001
+        },
+        {
+          "word": "let ",
+          "start": 92.33500000000001,
+          "end": 92.495
+        },
+        {
+          "word": "me ",
+          "start": 92.495,
+          "end": 92.655
+        },
+        {
+          "word": "know. ",
+          "start": 92.655,
+          "end": 92.73500000000001
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Awesome, thanks for clarifying! That really helps with planning. A couple more quick things:\n\n- Is last call for drinks exactly at 1am, or do you do a last call announcement a little before then?\n- Is it 21+ only after a certain hour, or can people under 21 stay the whole night?\n- What\u2019s the crowd usually like late on a Thursday compared to Friday or Saturday? Trying to get a sense if it\u2019s packed or more chill.\n- And just in case we want to come back for brunch or lunch \u2014 what time do you open on weekends?\n\nThanks for all the info, Lana!",
+      "words": [
+        {
+          "word": "Awesome, ",
+          "start": 94.948,
+          "end": 95.369052734375
+        },
+        {
+          "word": "thanks ",
+          "start": 95.369052734375,
+          "end": 95.79010522460938
+        },
+        {
+          "word": "for ",
+          "start": 95.79010522460938,
+          "end": 96.21115795898437
+        },
+        {
+          "word": "clarifying! ",
+          "start": 96.21115795898437,
+          "end": 96.63221044921875
+        },
+        {
+          "word": "That ",
+          "start": 97.15391674804688,
+          "end": 97.57496923828126
+        },
+        {
+          "word": "really ",
+          "start": 97.57496923828126,
+          "end": 97.99602197265625
+        },
+        {
+          "word": "helps ",
+          "start": 97.99602197265625,
+          "end": 98.41707446289062
+        },
+        {
+          "word": "with ",
+          "start": 98.230572265625,
+          "end": 98.651625
+        },
+        {
+          "word": "planning. ",
+          "start": 98.230572265625,
+          "end": 98.651625
+        },
+        {
+          "word": "A ",
+          "start": 98.651625,
+          "end": 99.072677734375
+        },
+        {
+          "word": "couple ",
+          "start": 99.072677734375,
+          "end": 99.49373022460938
+        },
+        {
+          "word": "more ",
+          "start": 99.49373022460938,
+          "end": 99.91478295898438
+        },
+        {
+          "word": "quick ",
+          "start": 99.91478295898438,
+          "end": 100.33583544921875
+        },
+        {
+          "word": "things:\n",
+          "start": 100.33583544921875,
+          "end": 100.75688818359374
+        },
+        {
+          "word": "\n- ",
+          "start": 100.75688818359374,
+          "end": 101.17794067382812
+        },
+        {
+          "word": "Is ",
+          "start": 101.17794067382812,
+          "end": 101.59899340820313
+        },
+        {
+          "word": "last ",
+          "start": 101.59899340820313,
+          "end": 102.02004614257812
+        },
+        {
+          "word": "call ",
+          "start": 102.02004614257812,
+          "end": 102.4410986328125
+        },
+        {
+          "word": "for ",
+          "start": 102.4410986328125,
+          "end": 102.8621513671875
+        },
+        {
+          "word": "drinks ",
+          "start": 102.8621513671875,
+          "end": 103.28320385742188
+        },
+        {
+          "word": "exactly ",
+          "start": 103.28320385742188,
+          "end": 103.70425659179688
+        },
+        {
+          "word": "at ",
+          "start": 103.70425659179688,
+          "end": 104.12530932617187
+        },
+        {
+          "word": "1am, ",
+          "start": 104.12530932617187,
+          "end": 104.54636181640625
+        },
+        {
+          "word": "or ",
+          "start": 104.54636181640625,
+          "end": 104.96741455078126
+        },
+        {
+          "word": "do ",
+          "start": 104.96741455078126,
+          "end": 105.38846704101563
+        },
+        {
+          "word": "you ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "do ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "a ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "last ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "call ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "announcement ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "a ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "little ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "before ",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "then?",
+          "start": 105.21528076171874,
+          "end": 105.63633325195312
+        },
+        {
+          "word": "\n- ",
+          "start": 105.63633325195312,
+          "end": 106.05738598632813
+        },
+        {
+          "word": "Is ",
+          "start": 106.05738598632813,
+          "end": 106.4784384765625
+        },
+        {
+          "word": "it ",
+          "start": 106.4784384765625,
+          "end": 106.8994912109375
+        },
+        {
+          "word": "21+ ",
+          "start": 106.8994912109375,
+          "end": 107.3205439453125
+        },
+        {
+          "word": "only ",
+          "start": 107.3205439453125,
+          "end": 107.74159643554688
+        },
+        {
+          "word": "after ",
+          "start": 107.74159643554688,
+          "end": 108.16264916992188
+        },
+        {
+          "word": "a ",
+          "start": 108.16264916992188,
+          "end": 108.58370166015625
+        },
+        {
+          "word": "certain ",
+          "start": 108.58370166015625,
+          "end": 109.00475439453125
+        },
+        {
+          "word": "hour, ",
+          "start": 109.00475439453125,
+          "end": 109.42580712890626
+        },
+        {
+          "word": "or ",
+          "start": 109.42580712890626,
+          "end": 109.84685961914063
+        },
+        {
+          "word": "can ",
+          "start": 109.84685961914063,
+          "end": 110.26791235351563
+        },
+        {
+          "word": "people ",
+          "start": 110.26791235351563,
+          "end": 110.68896484375
+        },
+        {
+          "word": "under ",
+          "start": 110.68896484375,
+          "end": 111.110017578125
+        },
+        {
+          "word": "21 ",
+          "start": 111.110017578125,
+          "end": 111.53107006835937
+        },
+        {
+          "word": "stay ",
+          "start": 111.42661401367188,
+          "end": 111.84766674804688
+        },
+        {
+          "word": "the ",
+          "start": 111.42661401367188,
+          "end": 111.84766674804688
+        },
+        {
+          "word": "whole ",
+          "start": 111.42661401367188,
+          "end": 111.84766674804688
+        },
+        {
+          "word": "night?",
+          "start": 111.42661401367188,
+          "end": 111.84766674804688
+        },
+        {
+          "word": "\n- ",
+          "start": 111.84766674804688,
+          "end": 112.26871923828125
+        },
+        {
+          "word": "What\u2019s ",
+          "start": 112.26871923828125,
+          "end": 112.68977197265625
+        },
+        {
+          "word": "the ",
+          "start": 112.68977197265625,
+          "end": 113.11082446289062
+        },
+        {
+          "word": "crowd ",
+          "start": 113.11082446289062,
+          "end": 113.53187719726563
+        },
+        {
+          "word": "usually ",
+          "start": 113.53187719726563,
+          "end": 113.95292993164063
+        },
+        {
+          "word": "like ",
+          "start": 113.95292993164063,
+          "end": 114.373982421875
+        },
+        {
+          "word": "late ",
+          "start": 114.373982421875,
+          "end": 114.79503515625
+        },
+        {
+          "word": "on ",
+          "start": 114.79503515625,
+          "end": 115.21608764648437
+        },
+        {
+          "word": "a ",
+          "start": 115.21608764648437,
+          "end": 115.63714038085938
+        },
+        {
+          "word": "Thursday ",
+          "start": 115.63714038085938,
+          "end": 116.05819287109375
+        },
+        {
+          "word": "compared ",
+          "start": 115.68748901367188,
+          "end": 116.10854174804687
+        },
+        {
+          "word": "to ",
+          "start": 115.68748901367188,
+          "end": 116.10854174804687
+        },
+        {
+          "word": "Friday ",
+          "start": 115.68748901367188,
+          "end": 116.10854174804687
+        },
+        {
+          "word": "or ",
+          "start": 115.68748901367188,
+          "end": 116.10854174804687
+        },
+        {
+          "word": "Saturday? ",
+          "start": 115.68748901367188,
+          "end": 116.10854174804687
+        },
+        {
+          "word": "Trying ",
+          "start": 116.10854174804687,
+          "end": 116.52959423828125
+        },
+        {
+          "word": "to ",
+          "start": 116.52959423828125,
+          "end": 116.95064697265624
+        },
+        {
+          "word": "get ",
+          "start": 116.95064697265624,
+          "end": 117.37169946289063
+        },
+        {
+          "word": "a ",
+          "start": 117.37169946289063,
+          "end": 117.79275219726563
+        },
+        {
+          "word": "sense ",
+          "start": 117.79275219726563,
+          "end": 118.21380493164062
+        },
+        {
+          "word": "if ",
+          "start": 118.11398901367187,
+          "end": 118.53504174804688
+        },
+        {
+          "word": "it\u2019s ",
+          "start": 118.11398901367187,
+          "end": 118.53504174804688
+        },
+        {
+          "word": "packed ",
+          "start": 118.11398901367187,
+          "end": 118.53504174804688
+        },
+        {
+          "word": "or ",
+          "start": 118.11398901367187,
+          "end": 118.53504174804688
+        },
+        {
+          "word": "more ",
+          "start": 118.11398901367187,
+          "end": 118.53504174804688
+        },
+        {
+          "word": "chill.",
+          "start": 118.11398901367187,
+          "end": 118.53504174804688
+        },
+        {
+          "word": "\n- ",
+          "start": 118.53504174804688,
+          "end": 118.95609423828125
+        },
+        {
+          "word": "And ",
+          "start": 118.95609423828125,
+          "end": 119.37714697265625
+        },
+        {
+          "word": "just ",
+          "start": 119.37714697265625,
+          "end": 119.79819946289062
+        },
+        {
+          "word": "in ",
+          "start": 119.79819946289062,
+          "end": 120.21925219726562
+        },
+        {
+          "word": "case ",
+          "start": 120.21925219726562,
+          "end": 120.64030493164063
+        },
+        {
+          "word": "we ",
+          "start": 120.64030493164063,
+          "end": 121.061357421875
+        },
+        {
+          "word": "want ",
+          "start": 121.061357421875,
+          "end": 121.48241015625
+        },
+        {
+          "word": "to ",
+          "start": 121.48241015625,
+          "end": 121.90346264648437
+        },
+        {
+          "word": "come ",
+          "start": 121.90346264648437,
+          "end": 122.32451538085938
+        },
+        {
+          "word": "back ",
+          "start": 122.32451538085938,
+          "end": 122.74556787109375
+        },
+        {
+          "word": "for ",
+          "start": 122.74556787109375,
+          "end": 123.16662060546875
+        },
+        {
+          "word": "brunch ",
+          "start": 123.16662060546875,
+          "end": 123.58767333984375
+        },
+        {
+          "word": "or ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "lunch ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "\u2014 ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "what ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "time ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "do ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "you ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "open ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "on ",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "weekends?",
+          "start": 123.268822265625,
+          "end": 123.689875
+        },
+        {
+          "word": "\n\nThanks ",
+          "start": 123.689875,
+          "end": 124.110927734375
+        },
+        {
+          "word": "for ",
+          "start": 124.110927734375,
+          "end": 124.53198022460937
+        },
+        {
+          "word": "all ",
+          "start": 124.53198022460937,
+          "end": 124.95303295898438
+        },
+        {
+          "word": "the ",
+          "start": 124.76653076171876,
+          "end": 125.18758325195313
+        },
+        {
+          "word": "info, ",
+          "start": 124.76653076171876,
+          "end": 125.18758325195313
+        },
+        {
+          "word": "Lana!",
+          "start": 124.76653076171876,
+          "end": 125.18758325195313
+        }
+      ],
+      "metadata": {
+        "response_id": 9
+      }
+    },
+    {
+      "role": "user",
+      "content": "Thank you so much for all the info. See you soon. ",
+      "words": [
+        {
+          "word": "Thank ",
+          "start": 126.98500000000001,
+          "end": 127.305
+        },
+        {
+          "word": "you ",
+          "start": 127.305,
+          "end": 127.465
+        },
+        {
+          "word": "so ",
+          "start": 127.465,
+          "end": 127.70500000000001
+        },
+        {
+          "word": "much ",
+          "start": 127.70500000000001,
+          "end": 127.86500000000001
+        },
+        {
+          "word": "for ",
+          "start": 127.86500000000001,
+          "end": 128.025
+        },
+        {
+          "word": "all ",
+          "start": 128.025,
+          "end": 128.26500000000001
+        },
+        {
+          "word": "the ",
+          "start": 128.26500000000001,
+          "end": 128.425
+        },
+        {
+          "word": "info. ",
+          "start": 128.425,
+          "end": 128.66500000000002
+        },
+        {
+          "word": "See ",
+          "start": 129.005,
+          "end": 129.245
+        },
+        {
+          "word": "you ",
+          "start": 129.245,
+          "end": 129.40499
+        },
+        {
+          "word": "soon. ",
+          "start": 129.40499,
+          "end": 129.645
+        }
+      ]
+    }
+  ],
+  "recording_url": "https://dxc03zgurdly9.cloudfront.net/f1db649c5bbf187269b41f5520e23bb2e5342a125c52e8a28a36f8f0cb02ff33/recording.wav",
+  "recording_multi_channel_url": "https://dxc03zgurdly9.cloudfront.net/f1db649c5bbf187269b41f5520e23bb2e5342a125c52e8a28a36f8f0cb02ff33/recording_multichannel.wav",
+  "public_log_url": "https://dxc03zgurdly9.cloudfront.net/f1db649c5bbf187269b41f5520e23bb2e5342a125c52e8a28a36f8f0cb02ff33/public.log",
+  "disconnection_reason": "user_hangup",
+  "latency": {
+    "llm": {
+      "p99": 1628.6399999999999,
+      "min": 663,
+      "max": 1638,
+      "p90": 1544.3999999999999,
+      "num": 9,
+      "values": [
+        750,
+        763,
+        663,
+        919,
+        663,
+        716,
+        1638,
+        1521,
+        1454
+      ],
+      "p50": 763,
+      "sum": 9087,
+      "p95": 1591.2
+    },
+    "e2e": {
+      "p99": 2204.72,
+      "min": 1684,
+      "max": 2213,
+      "p90": 2130.2,
+      "num": 3,
+      "values": [
+        1799,
+        1684,
+        2213
+      ],
+      "p50": 1799,
+      "sum": 5696,
+      "p95": 2171.6
+    },
+    "tts": {
+      "p99": 318.52,
+      "min": 138,
+      "max": 325,
+      "p90": 260.20000000000005,
+      "num": 7,
+      "values": [
+        148,
+        190,
+        167,
+        191,
+        217,
+        138,
+        325
+      ],
+      "p50": 190,
+      "sum": 1376,
+      "p95": 292.5999999999999
+    },
+    "asr": {
+      "p99": 292.76,
+      "min": 269,
+      "max": 293,
+      "p90": 290.6,
+      "num": 3,
+      "values": [
+        281,
+        269,
+        293
+      ],
+      "p50": 281,
+      "sum": 843,
+      "p95": 291.8
+    }
+  },
+  "metadata": {
+    "scenario": "lana_study_new_customer"
+  },
+  "call_cost": {
+    "total_duration_unit_price": 0.2166667,
+    "product_costs": [
+      {
+        "unit_price": 0.0916667,
+        "product": "retell_voice_engine",
+        "cost": 12.0083377
+      },
+      {
+        "unit_price": 0.025,
+        "product": "platform_tts",
+        "cost": 3.275
+      },
+      {
+        "unit_price": 0.075,
+        "product": "gpt_4_1",
+        "cost": 9.825
+      },
+      {
+        "unit_price": 0.025,
+        "product": "us_twilio_telephony",
+        "cost": 3.275
+      },
+      {
+        "unit_price": 1.5,
+        "product": "gpt_4_1_text_testing",
+        "cost": 1.5
+      }
+    ],
+    "combined_cost": 29.8833377,
+    "total_duration_seconds": 131
+  },
+  "call_analysis": {
+    "in_voicemail": false,
+    "call_summary": "The agent called Boardwalk Beer Garden to inquire about kitchen and bar closing times, menu availability late at night, age restrictions, crowd size, and weekend opening hours. Lana provided detailed answers about kitchen and bar hours, menu availability, and offered to help with reservations. The call ended after the agent thanked Lana for the information.",
+    "user_sentiment": "Positive",
+    "custom_analysis_data": {},
+    "call_successful": true
+  },
+  "data_storage_setting": "everything",
+  "opt_in_signed_url": false,
+  "llm_token_usage": {
+    "values": [
+      451,
+      532,
+      547,
+      573,
+      583,
+      718,
+      739,
+      757,
+      773
+    ],
+    "average": 630.3333333333334,
+    "num_requests": 9
+  },
+  "tool_calls": [],
+  "from_number": "+19293685460",
+  "to_number": "+19292056408",
+  "direction": "outbound",
+  "telephony_identifier": {
+    "twilio_call_sid": "CA742dd1b060b379df26e894f65498cace"
+  },
+  "pcap_url": "https://dxc03zgurdly9.cloudfront.net/f1db649c5bbf187269b41f5520e23bb2e5342a125c52e8a28a36f8f0cb02ff33/call_e4fc55527efd6308154fb0efef1.pcap"
+}

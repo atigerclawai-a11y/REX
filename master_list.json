@@ -1,0 +1,538 @@
+{
+  "north_star": [
+    "local-first",
+    "privacy-first",
+    "deterministic behavior",
+    "no unapproved cloud usage",
+    "ideas must integrate into the full build",
+    "new changes must be checked for regressions",
+    "new changes must be checked for future complexity",
+    "sensitive disclosures require stronger protection",
+    "architecture must stay aligned with locked parameters"
+  ],
+  "current_milestone": "Coordinator and Governance Foundation",
+  "components": [
+    {
+      "name": "Build Coordinator",
+      "description": "Captures ideas, links them to the master build, and powers comparison and audit workflows.",
+      "category": "coordination",
+      "milestone": "Coordinator and Governance Foundation",
+      "status": "building",
+      "stage_percent": 30,
+      "stage_label": "Building",
+      "dependencies": [
+        "Master Build Registry"
+      ],
+      "keywords": [
+        "idea",
+        "coordinator",
+        "build coordinator",
+        "ideas",
+        "audit",
+        "compare build"
+      ],
+      "build_goal": "Every important idea becomes part of the system through linking, timing, and audit visibility.",
+      "forbidden_patterns": [
+        "idea graveyard",
+        "unlinked ideas",
+        "silent loss of ideas"
+      ],
+      "next_missing_layer": "Attach ideas to real master components and milestone relevance"
+    },
+    {
+      "name": "Master Build Registry",
+      "description": "The source of truth for the full architecture, major components, statuses, and dependencies.",
+      "category": "coordination",
+      "milestone": "Coordinator and Governance Foundation",
+      "status": "building",
+      "stage_percent": 30,
+      "stage_label": "Building",
+      "dependencies": [],
+      "keywords": [
+        "master list",
+        "registry",
+        "master build",
+        "component map",
+        "architecture map"
+      ],
+      "build_goal": "All major systems are explicitly tracked and comparable.",
+      "forbidden_patterns": [
+        "undefined architecture",
+        "missing component map"
+      ],
+      "next_missing_layer": "Complete real component coverage and dependencies"
+    },
+    {
+      "name": "Dispatch Queue System",
+      "description": "Routes tasks through queued, done, and failed states for work coordination.",
+      "category": "orchestration",
+      "milestone": "Operations Backbone",
+      "status": "working",
+      "stage_percent": 50,
+      "stage_label": "Visible",
+      "dependencies": [],
+      "keywords": [
+        "dispatch",
+        "queue",
+        "task",
+        "done",
+        "failed",
+        "cowork dispatch"
+      ],
+      "build_goal": "Tasks move cleanly through local routing states with visibility into failures.",
+      "forbidden_patterns": [
+        "silent task loss",
+        "undocumented dispatch failures"
+      ],
+      "next_missing_layer": "Add audit visibility and stronger failure handling"
+    },
+    {
+      "name": "Master Route System",
+      "description": "Defines workflow routes and routing logic across the operating system.",
+      "category": "orchestration",
+      "milestone": "Operations Backbone",
+      "status": "working",
+      "stage_percent": 50,
+      "stage_label": "Visible",
+      "dependencies": [
+        "Master Build Registry"
+      ],
+      "keywords": [
+        "route",
+        "routes",
+        "workflow route",
+        "master routes",
+        "routing"
+      ],
+      "build_goal": "All major flows use explicit route definitions rather than ad hoc behavior.",
+      "forbidden_patterns": [
+        "implicit routing logic",
+        "hidden route behavior"
+      ],
+      "next_missing_layer": "Map routes to component dependencies and audits"
+    },
+    {
+      "name": "Private Confidant Core",
+      "description": "Core local private assistant logic centered on protected handling and trusted behavior.",
+      "category": "agent",
+      "milestone": "Assistant Core",
+      "status": "working",
+      "stage_percent": 50,
+      "stage_label": "Visible",
+      "dependencies": [
+        "Locked Parameters Layer"
+      ],
+      "keywords": [
+        "private confidant",
+        "confidant",
+        "private_confidant_gold",
+        "assistant"
+      ],
+      "build_goal": "Provide protected, aligned local assistant behavior under defined system rules.",
+      "forbidden_patterns": [
+        "remote dependence",
+        "uncontrolled disclosure"
+      ],
+      "next_missing_layer": "Map behavior to policy and audit layers"
+    },
+    {
+      "name": "Rexxie Runtime",
+      "description": "Operational assistant runtime with launch scripts, dashboard handoffs, and backing data stores.",
+      "category": "agent",
+      "milestone": "Assistant Core",
+      "status": "working",
+      "stage_percent": 50,
+      "stage_label": "Visible",
+      "dependencies": [
+        "Rex Memory Layer"
+      ],
+      "keywords": [
+        "rexxie",
+        "rex",
+        "runtime",
+        "start_rexxie",
+        "switch_to_ghs_rexxie"
+      ],
+      "build_goal": "Run a stable local assistant environment with persistent local data and controlled workflows.",
+      "forbidden_patterns": [
+        "untracked runtime behavior",
+        "unreviewed switching logic"
+      ],
+      "next_missing_layer": "Add runtime-state checking and compatibility audits"
+    },
+    {
+      "name": "Telegram Bot Interface",
+      "description": "Messaging interface layer for interacting with the system through Telegram.",
+      "category": "interface",
+      "milestone": "User Interface",
+      "status": "working",
+      "stage_percent": 50,
+      "stage_label": "Visible",
+      "dependencies": [
+        "Rexxie Runtime"
+      ],
+      "keywords": [
+        "telegram",
+        "bot",
+        "goj_telegram_bot",
+        "message interface"
+      ],
+      "build_goal": "Provide a controlled messaging interface into the local system.",
+      "forbidden_patterns": [
+        "unguarded remote leakage",
+        "interface bypass of core policies"
+      ],
+      "next_missing_layer": "Audit interface behavior against local-only and disclosure rules"
+    },
+    {
+      "name": "Lane Registry",
+      "description": "Structured registry layer for local state, routing, or relationship tracking.",
+      "category": "data",
+      "milestone": "Data Foundation",
+      "status": "working",
+      "stage_percent": 40,
+      "stage_label": "Tuned",
+      "dependencies": [],
+      "keywords": [
+        "lane registry",
+        "registry",
+        "lane_registry",
+        "db"
+      ],
+      "build_goal": "Maintain stable structured records used by the local operating system.",
+      "forbidden_patterns": [
+        "unknown schema usage",
+        "silent data coupling"
+      ],
+      "next_missing_layer": "Document schema role and link it to component usage"
+    },
+    {
+      "name": "Rex Memory Layer",
+      "description": "Local memory and business data layer backed by separate databases.",
+      "category": "memory",
+      "milestone": "Data Foundation",
+      "status": "working",
+      "stage_percent": 50,
+      "stage_label": "Visible",
+      "dependencies": [],
+      "keywords": [
+        "memory",
+        "rexxie_memory",
+        "rexxie_private",
+        "rex_business",
+        "db"
+      ],
+      "build_goal": "Keep assistant memory and business data locally accessible under controlled structure.",
+      "forbidden_patterns": [
+        "remote sync",
+        "unprotected sensitive data",
+        "unclear separation of roles"
+      ],
+      "next_missing_layer": "Define access controls and audit data flows"
+    },
+    {
+      "name": "Client Profile System",
+      "description": "Imports, routes, and templates client profile data for operational use.",
+      "category": "data",
+      "milestone": "Client Operations",
+      "status": "working",
+      "stage_percent": 50,
+      "stage_label": "Visible",
+      "dependencies": [
+        "Lane Registry",
+        "Master Route System"
+      ],
+      "keywords": [
+        "client",
+        "profiles",
+        "client routes",
+        "import clients",
+        "templates"
+      ],
+      "build_goal": "Manage client profile and routing data locally and coherently.",
+      "forbidden_patterns": [
+        "untracked imports",
+        "route mismatch",
+        "template-data drift"
+      ],
+      "next_missing_layer": "Audit import flows and data assumptions"
+    },
+    {
+      "name": "Locked Parameters Layer",
+      "description": "Defines hard constraints and non-negotiable system rules.",
+      "category": "governance",
+      "milestone": "Governance Foundation",
+      "status": "working",
+      "stage_percent": 60,
+      "stage_label": "Functional",
+      "dependencies": [],
+      "keywords": [
+        "locked parameters",
+        "goj_locked_parameters",
+        "parameters",
+        "constraints"
+      ],
+      "build_goal": "Ensure the system operates under explicit stable constraints.",
+      "forbidden_patterns": [
+        "parameter drift",
+        "untracked rule changes"
+      ],
+      "next_missing_layer": "Link enforcement logic to runtime and audits"
+    },
+    {
+      "name": "Operating System Spec",
+      "description": "Formal operating system and prompt/spec definition layer for the build.",
+      "category": "governance",
+      "milestone": "Governance Foundation",
+      "status": "working",
+      "stage_percent": 60,
+      "stage_label": "Functional",
+      "dependencies": [
+        "Locked Parameters Layer"
+      ],
+      "keywords": [
+        "operating system spec",
+        "os spec",
+        "operating manual",
+        "technical deep dive"
+      ],
+      "build_goal": "Provide an explicit blueprint for how the system should behave and evolve.",
+      "forbidden_patterns": [
+        "spec drift",
+        "implementation without reference to spec"
+      ],
+      "next_missing_layer": "Map live components directly to spec sections"
+    },
+    {
+      "name": "Blueprint and Baseline Layer",
+      "description": "Canonical blueprint, baseline inventory, and architecture reference materials.",
+      "category": "governance",
+      "milestone": "Governance Foundation",
+      "status": "working",
+      "stage_percent": 60,
+      "stage_label": "Functional",
+      "dependencies": [
+        "Operating System Spec"
+      ],
+      "keywords": [
+        "blueprint",
+        "baseline",
+        "canonical",
+        "inventory",
+        "architecture"
+      ],
+      "build_goal": "Keep a stable reference point for intended architecture and baseline state.",
+      "forbidden_patterns": [
+        "multiple conflicting truths",
+        "baseline loss"
+      ],
+      "next_missing_layer": "Consolidate canonical source-of-truth references"
+    },
+    {
+      "name": "Workflow Audit Layer",
+      "description": "Audit and baseline review layer for workflow and operating integrity.",
+      "category": "audit",
+      "milestone": "Build Integrity",
+      "status": "building",
+      "stage_percent": 40,
+      "stage_label": "Tuned",
+      "dependencies": [
+        "Master Build Registry",
+        "Blueprint and Baseline Layer"
+      ],
+      "keywords": [
+        "audit",
+        "workflow audit",
+        "baseline inventory",
+        "integrity"
+      ],
+      "build_goal": "Continuously assess whether the operating system matches intended workflow behavior.",
+      "forbidden_patterns": [
+        "silent workflow drift",
+        "unaudited changes"
+      ],
+      "next_missing_layer": "Tie audits to live runtime and snapshots"
+    },
+    {
+      "name": "Scan Hotfolder",
+      "description": "Local intake point for scans or documents that enter the system.",
+      "category": "ingestion",
+      "milestone": "Ingestion",
+      "status": "working",
+      "stage_percent": 40,
+      "stage_label": "Tuned",
+      "dependencies": [],
+      "keywords": [
+        "scan",
+        "hotfolder",
+        "scans_hotfolder",
+        "ingestion"
+      ],
+      "build_goal": "Provide a local intake path for incoming scanned content.",
+      "forbidden_patterns": [
+        "hosted ingestion dependency",
+        "untracked input flow"
+      ],
+      "next_missing_layer": "Connect ingestion path to OCR and audit visibility"
+    },
+    {
+      "name": "Idea Integration Layer",
+      "description": "Ensures saved ideas affect the full build through linking, timing, audits, and roadmap visibility.",
+      "category": "coordination",
+      "milestone": "Coordinator and Governance Foundation",
+      "status": "planned",
+      "stage_percent": 20,
+      "stage_label": "Framed",
+      "dependencies": [
+        "Build Coordinator",
+        "Master Build Registry"
+      ],
+      "keywords": [
+        "idea integration",
+        "idea involvement",
+        "link ideas",
+        "full build"
+      ],
+      "build_goal": "No important idea remains detached from the architecture.",
+      "forbidden_patterns": [
+        "isolated ideas",
+        "idea backlog without build impact"
+      ],
+      "next_missing_layer": "Add maturity impact and audit visibility for ideas"
+    },
+    {
+      "name": "Contamination Scanner",
+      "description": "Scans code and configs for cloud, remote, or architecture-contaminating patterns.",
+      "category": "audit",
+      "milestone": "Local-Only Assurance",
+      "status": "building",
+      "stage_percent": 40,
+      "stage_label": "Tuned",
+      "dependencies": [
+        "Master Build Registry"
+      ],
+      "keywords": [
+        "contamination",
+        "scan",
+        "cloud",
+        "remote",
+        "local-only",
+        "api key"
+      ],
+      "build_goal": "Catch anything that threatens local-only, privacy-first operation.",
+      "forbidden_patterns": [
+        "silent cloud fallback",
+        "hidden remote calls",
+        "telemetry leakage"
+      ],
+      "next_missing_layer": "Add risk classification and allowed-exception handling"
+    },
+    {
+      "name": "Regression Auditor",
+      "description": "Checks whether new changes break older systems or working behavior.",
+      "category": "audit",
+      "milestone": "Build Integrity",
+      "status": "planned",
+      "stage_percent": 20,
+      "stage_label": "Framed",
+      "dependencies": [
+        "Workflow Audit Layer",
+        "Master Build Registry"
+      ],
+      "keywords": [
+        "regression",
+        "break",
+        "before after",
+        "older system"
+      ],
+      "build_goal": "Make breakage visible before it spreads.",
+      "forbidden_patterns": [
+        "silent regression",
+        "change without comparison"
+      ],
+      "next_missing_layer": "Define snapshot-based tests and expected outcomes"
+    },
+    {
+      "name": "Forward Impact Auditor",
+      "description": "Checks whether present changes create future complexity, conflicts, or roadmap distortion.",
+      "category": "audit",
+      "milestone": "Build Integrity",
+      "status": "planned",
+      "stage_percent": 20,
+      "stage_label": "Framed",
+      "dependencies": [
+        "Master Build Registry",
+        "Blueprint and Baseline Layer"
+      ],
+      "keywords": [
+        "forward impact",
+        "future",
+        "roadmap",
+        "complexity",
+        "distortion"
+      ],
+      "build_goal": "Protect the future architecture from short-term shortcuts.",
+      "forbidden_patterns": [
+        "future debt blindness",
+        "roadmap distortion without warning"
+      ],
+      "next_missing_layer": "Define complexity scoring and future idea impact rules"
+    },
+    {
+      "name": "Policy Enforcer",
+      "description": "Deterministic control layer for outputs, permissions, and disclosure behavior.",
+      "category": "security",
+      "milestone": "Security Foundation",
+      "status": "building",
+      "stage_percent": 35,
+      "stage_label": "Framed",
+      "dependencies": [
+        "Locked Parameters Layer",
+        "Rex Memory Layer"
+      ],
+      "keywords": [
+        "policy",
+        "enforcer",
+        "rules",
+        "permissions",
+        "disclosure",
+        "security"
+      ],
+      "build_goal": "Ensure the system follows exact behavioral and disclosure rules.",
+      "forbidden_patterns": [
+        "policy bypass",
+        "unsafe output",
+        "unguarded access"
+      ],
+      "next_missing_layer": "Define enforcement rules and hook points",
+      "note_2026_06_25": "PHI fail-closed gate live in main.py (secure cloud chat 503s if de-id engine degraded)."
+    },
+    {
+      "name": "Secrecy and Disclosure Control",
+      "description": "Sensitivity classification and protected disclosure logic for private information.",
+      "category": "security",
+      "milestone": "Security Foundation",
+      "status": "building",
+      "stage_percent": 30,
+      "stage_label": "Framed",
+      "dependencies": [
+        "Policy Enforcer",
+        "Rex Memory Layer"
+      ],
+      "keywords": [
+        "secrecy",
+        "disclosure",
+        "sensitive",
+        "protection",
+        "totp"
+      ],
+      "build_goal": "Control what may be revealed, to whom, and under what verification requirements.",
+      "forbidden_patterns": [
+        "flat disclosure model",
+        "unguarded sensitive output"
+      ],
+      "next_missing_layer": "Define secrecy tiers and trigger rules",
+      "note_2026_06_25": "Presidio de-id repaired (was silently regex); Gate 1 v1 (text) built; TOTP still RFC-example — rotate."
+    }
+  ]
+}

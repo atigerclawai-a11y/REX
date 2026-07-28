@@ -1,0 +1,72 @@
+{
+  "pending": [],
+  "responses": [],
+  "delivered": [
+    {
+      "from": "masha",
+      "message": "\ud83d\udccb 1 Owner.com booking found \u2014 Reginald Laing (1p, 2:30 PM). Already in reservations DB; contact existed (REGINALD CHARLE). Conversation logged. Today's tally (Jul 19): 45 bookings / 233 guests. Week total (Jul 13\u201319): 47 bookings / 249 guests. 0 new contacts saved.",
+      "timestamp": "2026-07-19T16:15:00.000000+00:00",
+      "needs_confirmation": false,
+      "delivered_at": "2026-07-19T16:15:00.000000+00:00"
+    },
+    {
+      "from": "masha",
+      "message": "\ud83d\udccb 1 new Owner.com booking contact saved \u2014 Tugce Alguner (2, 3:00 PM, watching the final). Previously in reservations but missed in contacts DB. Today's tally (Jul 19): 45 bookings / 233 guests. Week total (Jul 13\u201319): 47 bookings / 249 guests. 1 new contact saved.",
+      "timestamp": "2026-07-19T12:15:00.000000+00:00",
+      "needs_confirmation": false,
+      "delivered_at": "2026-07-19T12:15:00.000000+00:00"
+    },
+    {
+      "from": "masha",
+      "message": "\ud83d\udccb 0 new Owner.com bookings \u2014 all recent inquiries already processed. Today's tally (Jul 19): 45 bookings / ~233 guests (updated from summary). Week total (Jul 13\u201319): 47 bookings / ~249 guests. 0 new contacts saved.",
+      "timestamp": "2026-07-19T11:40:00.000000+00:00",
+      "needs_confirmation": false,
+      "delivered_at": "2026-07-19T11:40:00.000000+00:00"
+    }
+  ],
+  "history": [
+    {
+      "from": "masha",
+      "message": "\ud83d\udccb 3 new Owner.com bookings \u2014 Guest (Owner.com #9) (5, 2:45 PM), Guest (Owner.com #10) (6, 2:45 PM), Guest (Owner.com #11) (4, 2:30 PM). Today's tally (Jul 18): 2 bookings / 16 guests. Jul 19 tally: 38 bookings / 197 guests. Week total (Jul 13\u201319): 40 bookings / 213 guests. 3 new contacts saved.",
+      "timestamp": "2026-07-19T06:10:39.383504+00:00",
+      "needs_confirmation": false,
+      "delivered_at": "2026-07-19T06:10:39.383504+00:00"
+    },
+    {
+      "from": "masha",
+      "message": "\ud83d\udccb 2 new Owner.com bookings \u2014 Mariya (4, 2:30 PM, direchka@yahoo.com), Tugce Alguner (2, 3:00 PM, first time / watching the final). Both for Sat Jul 19. Today's tally (Jul 18): 2 bookings / 16 guests. Jul 19 tally: 35 bookings / 182 guests. Week total (Jul 13\u201319): 37 bookings / 198 guests. 0 new contacts saved (already in reservations DB).",
+      "timestamp": "2026-07-18T22:55:00.000000+00:00",
+      "needs_confirmation": false,
+      "delivered_at": "2026-07-18T22:55:00.000000+00:00"
+    },
+    {
+      "from": "masha",
+      "message": "\ud83d\udccb 1 new Owner.com booking \u2014 Guest (Owner.com #1), party of 3, Sat Jul 19 @ 7:00 PM. Today's tally (Jul 18): 2 bookings / 16 guests. Jul 19 tally: 33 bookings / 176 guests. Week total (Jul 13\u201319): 35 bookings / 192 guests. 1 new contact saved.",
+      "timestamp": "2026-07-18T21:00:00.000000+00:00",
+      "needs_confirmation": false,
+      "delivered_at": "2026-07-18T21:00:00.000000+00:00"
+    },
+    {
+      "from": "masha",
+      "message": "\ud83d\udccb 8 new Owner.com bookings \u2014 Guest names not yet captured (Owner.com iframe issue). Jul 18: +1 (8 guests @ 8:07 PM), Jul 19: +7 (28 guests across 6:45 PM / 7:00 PM / TBD). Today's tally (Jul 18): 2 bookings / 16 guests. Jul 19 tally: 32 bookings / 173 guests. Week total (Jul 13\u201319): 34 bookings / 189 guests. 8 new contacts saved.",
+      "timestamp": "2026-07-18T20:34:36.083676+00:00",
+      "needs_confirmation": false,
+      "delivered_at": "2026-07-18T20:34:36.083676+00:00"
+    },
+    {
+      "from": "masha",
+      "message": "\ud83d\udccb Kato updated BBG weekend tally: 21 reservations / 128 guests (up from 14/86). Sat Jul 18: 8 guests (unchanged). Sun Jul 19: 120 guests (+42 from 78). Today's tally (Jul 18): 1 booking / 8 guests. Week total (Jul 13\u201319): 21 bookings / 128 guests. 0 new contacts (aggregate summary, no individual names).",
+      "timestamp": "2026-07-18T05:12:51.000000+00:00",
+      "needs_confirmation": false,
+      "delivered_at": "2026-07-18T05:12:51.000000+00:00"
+    },
+    {
+      "from": "masha",
+      "message": "\ud83d\udccb New Owner.com booking \u2014 Victor Kupchynsky, party of 4, Sat Jul 19 @ 2:29 PM. Today's tally: 0 bookings / 0 guests (no new today bookings). Week total (Jul 13\u201319): 2 bookings / 8 guests. 1 new contact saved.",
+      "timestamp": "2026-07-16T03:04:08.382336+00:00",
+      "needs_confirmation": false,
+      "delivered_at": "2026-07-16T03:04:08.382336+00:00"
+    }
+  ],
+  "last_read_by_hermes": "2026-07-20T07:22:29Z"
+}

@@ -1,0 +1,673 @@
+{
+  "meta": {
+    "title": "GHS Tool Registry",
+    "description": "Complete weapons inventory for all Gold Health Systems agents. Machine-readable companion to CC_TOOL_REGISTRY.md.",
+    "version": "1.0",
+    "last_updated": "2026-06-04",
+    "author": "Hermes",
+    "source_files": [
+      "CC_HERMES_KNOWLEDGE.md",
+      "CC_stats_api.py",
+      "CC_stats_api_INSTALL.md",
+      "backend/main.py"
+    ]
+  },
+
+  "ai_models": {
+    "routing": {
+      "primary": {
+        "model": "deepseek-v4-pro",
+        "provider": "deepseek",
+        "base_url": "https://api.deepseek.com/v1",
+        "notes": "NEVER route via OpenRouter. Direct subscription only.",
+        "use_case": "All general tasks"
+      },
+      "fallback_1": {
+        "model": "claude-sonnet-4-6",
+        "provider": "anthropic",
+        "use_case": "Multi-step agents, orchestration, Cowork mode"
+      },
+      "fallback_2": {
+        "model": "gemini-2.0-flash",
+        "provider": "google",
+        "use_case": "Speed-first tasks"
+      },
+      "fallback_3": {
+        "model": "moonshotai/kimi-k2.6:free",
+        "provider": "openrouter",
+        "context_window": 262000,
+        "use_case": "Long-horizon coding, non-DeepSeek routing only"
+      },
+      "high_stakes": {
+        "model": "claude-opus-4-6",
+        "provider": "anthropic",
+        "use_case": "Critical decisions, HIPAA-adjacent reasoning"
+      },
+      "cheap_fast": {
+        "model": "grok-3-mini",
+        "provider": "xai",
+        "use_case": "Cheap cloud reasoning, quick classification"
+      }
+    },
+    "providers": {
+      "anthropic": {
+        "api_key_location": "~/.hermes/profiles/cloud/.env → ANTHROPIC_API_KEY",
+        "models": [
+          { "name": "Claude Opus 4.6", "string": "claude-opus-4-6", "notes": "High-stakes only. Expensive." },
+          { "name": "Claude Sonnet 4.6", "string": "claude-sonnet-4-6", "notes": "Orchestration, Cowork, fallback 1" },
+          { "name": "Claude Haiku 4.5", "string": "claude-haiku-4-5-20251001", "notes": "Fast/cheap Anthropic option" }
+        ]
+      },
+      "deepseek": {
+        "base_url": "https://api.deepseek.com/v1",
+        "provider_string": "deepseek",
+        "api_key_location": "~/.hermes/profiles/cloud/.env → DEEPSEEK_API_KEY",
+        "rule": "NEVER OpenRouter. Always provider: deepseek + direct base_url.",
+        "known_issue": "402 errors → check provider=deepseek is set in config.yaml",
+        "models": [
+          { "name": "DeepSeek v4 Pro", "string": "deepseek-v4-pro", "notes": "Primary gateway model" },
+          { "name": "DeepSeek v4 Flash", "string": "deepseek-v4-flash", "notes": "Faster, cheaper variant" }
+        ]
+      },
+      "google": {
+        "api_key_location": "~/.hermes/profiles/cloud/.env → GOOGLE_API_KEY",
+        "models": [
+          { "string": "gemini-2.0-flash", "notes": "Gateway fallback 2" },
+          { "string": "gemini-2.5-flash" },
+          { "string": "gemini-2.5-pro" }
+        ]
+      },
+      "xai": {
+        "models": [
+          { "string": "grok-4.3" },
+          { "string": "grok-4.20-reasoning", "notes": "Reasoning mode" },
+          { "string": "grok-3-mini", "notes": "Cheap cloud reasoning" }
+        ]
+      },
+      "perplexity": {
+        "models": [
+          { "string": "sonar-pro", "notes": "Online search — live web results" },
+          { "string": "sonar-reasoning-pro", "notes": "Reasoning + search" }
+        ]
+      },
+      "openai": {
+        "models": [
+          { "string": "gpt-4o" },
+          { "string": "gpt-4o-mini", "notes": "Fast/cheap" },
+          { "string": "o1", "notes": "Reasoning" },
+          { "string": "o3-mini", "notes": "Fast reasoning" }
+        ]
+      },
+      "mistral": {
+        "models": [
+          { "string": "mistral-large-latest" }
+        ]
+      },
+      "groq": {
+        "models": [
+          { "string": "qwen3-32b" },
+          { "string": "llama-3.3-70b" }
+        ]
+      },
+      "ollama": {
+        "port": 11434,
+        "api_base": "http://127.0.0.1:11434/v1",
+        "api_key": "ollama",
+        "models": [
+          { "string": "mistral-hermie", "notes": "Default Hermie model. 128K context. No thinking mode." },
+          { "string": "qwen2.5-coder:7b", "notes": "Code tasks" },
+          { "string": "qwen3:14b-hermie" },
+          { "string": "llama3.2" }
+        ]
+      },
+      "lm_studio": {
+        "port": 1234,
+        "base_url": "http://localhost:1234/v1",
+        "models": [
+          { "string": "qwen3.5-9b", "notes": "Primary. MLX, optimized for M4." },
+          { "string": "nvidia-nemotron-3-nano-30b" },
+          { "string": "gemma-3-4b" },
+          { "string": "nomic-embed-text-v1.5", "notes": "Embeddings model" }
+        ]
+      }
+    },
+    "og33": {
+      "description": "Multi-model deliberation system. Dashboard-integrated + standalone portal.",
+      "rule": "GOJ client data NEVER in OG 33 prompts.",
+      "composition": "Chairman controls model mix"
+    }
+  },
+
+  "voice_telephony": {
+    "elevenlabs": {
+      "status": "active",
+      "default_voice_id": "pNInz6obpgDQGcFmaJgB",
+      "default_voice_name": "Adam (placeholder)",
+      "tts_model": "eleven_multilingual_v2",
+      "api_key": "[FILL IN FROM: elevenlabs.io/profile/api-key or macOS Keychain]",
+      "victoria_voice_id": "[FILL IN FROM: elevenlabs.io/voices — search 'Lily']",
+      "masha_voice_id": "[FILL IN FROM: elevenlabs.io/voices — search 'Billy']",
+      "all_voice_ids": "[FILL IN FROM: elevenlabs.io/voices — list full account voices]",
+      "rule": "For BBG only. Do NOT use for REX or Rexxie (local-only agents)."
+    },
+    "piper_tts": {
+      "status": "recommended_not_installed",
+      "license": "MIT",
+      "type": "local_offline",
+      "api_key_required": false,
+      "install": "brew install piper-tts OR ARM64 binary from github.com/rhasspy/piper/releases",
+      "rex_voice": "en_US-ryan-high",
+      "rexxie_voice": "en_US-amy-medium",
+      "integration_point": "Add GET /api/tts?voice=rex&text=... to REX FastAPI :8000",
+      "python_package": "piper-tts"
+    },
+    "retell_ai": {
+      "status": "expired_key",
+      "api_key": "[FILL IN FROM: retell.ai dashboard — needs renewal]",
+      "agents": [
+        {
+          "name": "Victoria (Viktoriya)",
+          "persona": "GOJ M12 appointment confirmation calls",
+          "phone": "[FILL IN FROM: retell dashboard]",
+          "transfer_number": "347-587-9913",
+          "voice": "11labs-Lily (placeholder)",
+          "status": "quiet_404"
+        },
+        {
+          "name": "Masha",
+          "persona": "BBG persona",
+          "phone": "[FILL IN FROM: retell dashboard]",
+          "voice": "11labs-Billy (placeholder)",
+          "status": "quiet_404"
+        }
+      ]
+    },
+    "twilio": {
+      "account_sid": "[FILL IN FROM: console.twilio.com → Dashboard]",
+      "auth_token": "[FILL IN FROM: console.twilio.com → Dashboard]",
+      "phone_numbers": "[FILL IN FROM: console.twilio.com → Phone Numbers → Manage]",
+      "use_cases": ["SMS/call fallback", "Patter alerting (planned)", "staff notifications"]
+    },
+    "fallback_tts": {
+      "name": "Microsoft Edge TTS",
+      "type": "free_cloud",
+      "api_key_required": false
+    },
+    "voice_routing": {
+      "goj_confirmation_calls": "Victoria → Retell AI → ElevenLabs voice",
+      "bbg_persona_calls": "Masha → Retell AI → ElevenLabs voice",
+      "rex_local_voice": "Piper TTS (planned) → en_US-ryan-high",
+      "rexxie_local_voice": "Piper TTS (planned) → en_US-amy-medium",
+      "bbg_content_tts": "ElevenLabs → eleven_multilingual_v2",
+      "current_command_center": "window.speechSynthesis (fragile — replace with Piper)"
+    }
+  },
+
+  "telegram_bots": [
+    {
+      "handle": "@Hermes_Cloud_May_bot",
+      "name": "Hermes",
+      "purpose": "Main Hermes gateway chat",
+      "kato_chat_id": "5587703834",
+      "status": "active"
+    },
+    {
+      "handle": "@goldhealth_rexxie_bot",
+      "name": "Rexxie",
+      "purpose": "Private confidant — Kato only. Local-only, never cloud. 4 lanes, 1 token.",
+      "token_location": "~/Desktop/REX/rex_rexxie_telegram_config.json",
+      "status": "running",
+      "rules": ["Local-only", "Never divulges contents", "Kato only", "Zero GOJ crossover"]
+    },
+    {
+      "handle": "@HermieChatt_bot",
+      "name": "Hermie",
+      "purpose": "Hermie local (Ollama port 65001)",
+      "status": "repairing"
+    },
+    {
+      "handle": "@RexOfGold_bot",
+      "name": "GOJ Ops",
+      "purpose": "GOJ business operations",
+      "status": "active",
+      "notes": "Token may need renewal"
+    },
+    {
+      "handle": "@GOJReceipts_bot",
+      "name": "Receipts",
+      "purpose": "Billing / bookkeeping uploads",
+      "status": "active"
+    },
+    {
+      "handle": "@GojAttendance_bot",
+      "name": "Attendance",
+      "purpose": "Attendance statistics",
+      "status": "active"
+    }
+  ],
+  "telegram_zombie": {
+    "plist": "com.hermes.rexxie-bot.plist",
+    "rule": "NEVER ENABLE. Crashes and steals the Rexxie token."
+  },
+  "daily_automation_schedule": [
+    { "time": "07:30", "days": "daily", "job": "Morning report" },
+    { "time": "10:30", "days": "daily", "job": "Kitchen + distribution PDFs" },
+    { "time": "15:15", "days": "daily", "job": "Sign-in + driver sheets" },
+    { "time": "20:30", "days": "friday", "job": "Missing menus alert" },
+    { "time": "21:00", "days": "daily", "job": "Drop-off rundown" },
+    { "time": "21:00", "days": "friday", "job": "Weekly email summary" }
+  ],
+
+  "apis_integrations": {
+    "google": {
+      "oauth_token": "~/.rex_google_token.json",
+      "credentials": "~/Desktop/REX/google_credentials.json",
+      "symlink": "~/.rex_google_credentials.json",
+      "account": "atigerclawai@gmail.com",
+      "reauth_command": "python backend/rex_gmail.py --setup",
+      "apis": [
+        { "name": "Gmail API", "status": "active", "notes": "Powers rex_gmail.py" },
+        { "name": "Drive API", "status": "active", "notes": "Powers rex_gdrive.py. Shared token with Gmail." },
+        { "name": "Sheets API", "status": "available", "scope": "read-only" },
+        { "name": "YouTube API", "status": "not_added", "notes": "Scope not yet granted" }
+      ],
+      "drive_folders": [
+        "Claude Session PDFs",
+        "GOJBot",
+        "Hermes Backups",
+        "remittance (835 ERA files)",
+        "templates/ (LOCKED OCR library — DO NOT MOVE OR RENAME)",
+        "Tigerclaw_AI",
+        "NotebookLM GHS Vault doc"
+      ]
+    },
+    "cloudflare_tunnel": {
+      "config": "~/.cloudflared/hermestigerclaw.yml",
+      "status": "running",
+      "domain": "*.hermestigerclaw.com",
+      "routes": {
+        "hermestigerclaw.com": "Hermes Portal :3847",
+        "rex.hermestigerclaw.com": "REX FastAPI :8000",
+        "ui.hermestigerclaw.com": "Open WebUI :3000",
+        "chat.hermestigerclaw.com": "LibreChat :3080",
+        "workspace.hermestigerclaw.com": "Hermes AI Hub :3003"
+      }
+    },
+    "tailscale": {
+      "mac_mini_ip": "100.98.90.26",
+      "iphone": "connected",
+      "office_paperless_ip": "100.99.86.60",
+      "use_case": "Secure remote access without Cloudflare exposure"
+    },
+    "clover_pos": {
+      "device_id": "C051UQ41540458",
+      "business": "Boardwalk Beer Garden (BBG)",
+      "status": "active",
+      "import_script": "clover_ufc328_import.py"
+    },
+    "quickbooks": {
+      "status": "active_sole_financial_system",
+      "notes": "Bookkeeper left May 31 2026. Export pending. Long-term: replace with REX financial layer."
+    },
+    "obsidian": {
+      "vault_path": "~/Documents/GHS-Vault",
+      "mcp_tools": ["find_note", "search_vault", "read_note", "list_directory"],
+      "status": "connected"
+    },
+    "notebooklm": {
+      "type": "one_directional",
+      "flow": "Vault → Google Doc → NotebookLM",
+      "notebooks": [
+        { "name": "ghs-strategy", "size": "~268K chars" },
+        { "name": "goj-ops", "size": "~1.27M chars" }
+      ]
+    },
+    "instagram": {
+      "handle": "@boardwalkbeergarden",
+      "account_id": "27923669980556036",
+      "business": "BBG",
+      "auto_post": false,
+      "rule": "NEVER auto-post. Kato approves every post before it goes live."
+    },
+    "fireflies": {
+      "status": "wired_inactive",
+      "use_case": "Meeting transcription → Obsidian",
+      "api_key": "[FILL IN FROM: macOS Keychain — search 'Fireflies']",
+      "action_needed": "Verify key, wire transcript → Obsidian pipeline"
+    }
+  },
+
+  "mcp_servers": {
+    "count": 11,
+    "servers": [
+      { "name": "filesystem", "tools": "File read/write/list on local paths", "status": "active" },
+      { "name": "fireflies", "tools": "Meeting transcription", "status": "wired_inactive" },
+      { "name": "gdrive", "tools": "Upload, list, sync Google Drive", "status": "active", "account": "atigerclawai@gmail.com" },
+      { "name": "github", "tools": "Repo read/write, PR, issues", "status": "connected" },
+      { "name": "instagram", "tools": "Post, schedule, read (BBG)", "status": "active", "rule": "No auto-post — Chairman approval required" },
+      { "name": "n8n", "tools": "Trigger workflows, webhook management", "status": "active", "workflows": 6 },
+      { "name": "notebooklm-bridge", "tools": "Push content to NotebookLM", "status": "active", "direction": "one_way" },
+      { "name": "obsidian", "tools": ["find_note", "search_vault", "read_note", "list_directory"], "vault": "~/Documents/GHS-Vault", "status": "active" },
+      { "name": "retell", "tools": "Voice agent management", "status": "expired_key" },
+      { "name": "sqlite", "tools": "Direct query of local SQLite DBs", "status": "active", "dbs": ["auth_tracker.db", "rexxie.db"] },
+      { "name": "telegram", "tools": "Send/receive Telegram messages", "status": "active" }
+    ],
+    "browser_engine": {
+      "name": "Camofox",
+      "type": "built_in",
+      "path": "tools/browser_camofox.py",
+      "config": "config.yaml §browser.camofox",
+      "notes": "NOT a separate MCP. Used for web scraping."
+    }
+  },
+
+  "internal_apis": {
+    "rex_fastapi": {
+      "port": 8000,
+      "public_url": "rex.hermestigerclaw.com",
+      "manager_plist": "com.rex.backend.plist",
+      "venv_prod": "~/.rex-venv/",
+      "venv_dev": "~/debate-chamber/.venv/",
+      "source": "~/Desktop/REX/backend/main.py",
+      "auth": "Desktop Mode (localhost = chairman, no token). JWT for iPhone pairing.",
+      "start_dev": "source ~/debate-chamber/.venv/bin/activate && cd ~/Desktop/REX && uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload",
+      "start_prod": "launchctl load ~/Library/LaunchAgents/com.rex.backend.plist",
+      "endpoints": {
+        "health": ["GET /health", "GET /api/health"],
+        "models": ["GET /api/models"],
+        "settings": ["GET /api/settings", "POST /api/settings/secure-mode"],
+        "keys": ["POST /api/keys", "GET /api/keys/status"],
+        "chat": ["POST /api/chat", "POST /api/staff/chat", "WS /ws/chat"],
+        "memory": ["GET /api/memory", "POST /api/memory", "DELETE /api/memory", "GET /api/memory/sessions"],
+        "journeys": ["GET /api/journeys", "GET /api/journeys/{id}"],
+        "audit": ["GET /api/audit"],
+        "devices": ["GET /api/devices"],
+        "agent_bus": ["POST /api/agent/send", "POST /api/agent/receive"],
+        "pairing": ["GET /api/pairing/init", "POST /api/pairing/complete"],
+        "gmail": ["GET /api/gmail/status", "GET /api/gmail/summary", "GET /api/gmail/search", "POST /api/gmail/autolabel", "GET /api/gmail/rules", "POST /api/gmail/rules"],
+        "auth_users": ["POST /api/auth/login", "POST /api/auth/logout", "GET /api/auth/me", "POST /api/auth/create-user", "GET /api/auth/users", "GET /api/auth/users/{id}/permissions", "PUT /api/auth/users/{id}/permissions", "DELETE /api/auth/users/{id}", "POST /api/auth/set-admin-password", "GET /api/auth/recovery-email", "POST /api/auth/recovery-email", "POST /api/auth/forgot-password"],
+        "files": ["POST /api/upload", "GET /api/uploads", "GET /api/uploads/{filename}", "DELETE /api/uploads/{filename}", "POST /api/upload-training", "GET /api/training-queue"],
+        "documents": ["POST /api/documents/route", "GET /api/documents", "GET /api/documents/serve/{category}/{filename}"],
+        "drive": ["POST /api/drive/sync", "GET /api/drive/files"],
+        "telegram": ["GET /api/telegram/config", "POST /api/telegram/config", "POST /api/telegram/fetch", "GET /api/telegram/messages", "GET /api/telegram/schedule"],
+        "chairman": ["GET /api/chairman/events", "POST /api/chairman/events", "DELETE /api/chairman/events/{id}", "GET /api/chairman/reminders/pending", "POST /api/chairman/reminders/{id}/mark-sent", "POST /api/chairman/pdf-prompt", "GET /api/chairman/pending-pdfs", "POST /api/chairman/extract-pdf"],
+        "goj_ops": ["GET /api/goj/stats", "GET /api/goj/members", "GET /api/goj/roster/{day_shift}", "GET /api/day-summary", "GET /api/month-summary", "GET /api/attendance", "GET /api/clients", "GET /api/clients/{name}", "GET /api/authorizations", "GET /api/menus/master", "GET /api/attendance/history/{name}", "GET /api/dashboard/summary"],
+        "staff": ["GET /api/staff/compliance", "GET /api/staff/medical", "GET /api/members/portfolios", "POST /api/members/upload", "GET /api/members/serve/{folder}/{file}"],
+        "edi_billing": ["POST /api/edi/upload", "GET /api/edi/claims", "GET /api/edi/remittances", "GET /api/edi/summary", "POST /api/edi/match", "GET /api/edi/file/{id}"],
+        "misc": ["POST /api/phone-unlock-callback", "GET /api/phone-unlock/status", "GET /api/backup/status"]
+      }
+    },
+    "goj_dashboard": {
+      "port": 8080,
+      "manager_plist": "com.goj.datarex.plist",
+      "status": "LIVE",
+      "source": "~/.hermes-cloud/home/goj-pipeline/datarex/app.py",
+      "warning": "NOT ~/Documents/goj files/dashboard/app.py (that file is NOT running)",
+      "data_source": "~/.hermes-cloud/home/goj-pipeline/data/ (9 daily JSON pipeline files)",
+      "nav_tabs": ["Dashboard", "Clients", "Authorizations", "Billing", "OG 33", "System", "Users", "Sign out"]
+    },
+    "cc_stats_api": {
+      "port": 8001,
+      "source": "~/Desktop/REX/CC_stats_api.py",
+      "plist": "~/Desktop/REX/com.ghs.cc-stats-api.plist",
+      "status": "built_not_installed",
+      "built_date": "2026-06-04",
+      "auth": "localhost only, no token (Desktop Mode)",
+      "clock_data": "~/Desktop/REX/CC_clock_records.json",
+      "install_guide": "~/Desktop/REX/CC_stats_api_INSTALL.md",
+      "endpoints": [
+        { "method": "GET", "path": "/health", "desc": "Health check + DB availability" },
+        { "method": "GET", "path": "/api/snapshot", "desc": "All key metrics in one call — recommended for command center" },
+        { "method": "GET", "path": "/api/stats/clients", "desc": "Client auth breakdown — total, active, ACTIVE/EXPIRED/PENDING counts, expiring in 30d" },
+        { "method": "GET", "path": "/api/stats/attendance", "params": "days_back=7", "desc": "Today's attendance + N-day trend" },
+        { "method": "GET", "path": "/api/stats/roster", "desc": "Today's roster by shift" },
+        { "method": "GET", "path": "/api/stats/expiring", "params": "days=30", "desc": "Clients with auths expiring within N days" },
+        { "method": "GET", "path": "/api/stats/employees", "desc": "Employee list (sparse — main data in GOJ_Staff_Compliance_Apr2026.xlsx)" },
+        { "method": "GET", "path": "/api/clockin/status", "desc": "Who is clocked in today" },
+        { "method": "POST", "path": "/api/clockin/{employee_name}", "desc": "Record clock-in" },
+        { "method": "POST", "path": "/api/clockout/{employee_name}", "desc": "Record clock-out" },
+        { "method": "GET", "path": "/api/clockin/history", "params": "days_back=7", "desc": "Clock records for last N days" },
+        { "method": "GET", "path": "/api/goj/pipeline", "desc": "Status of 9 pipeline JSON files — flags stale (>25h)" },
+        { "method": "GET", "path": "/api/files/recent", "desc": "Recently modified REX files" }
+      ]
+    },
+    "tiger_claw_api": {
+      "port": 27226,
+      "manager_plist": "com.tigerclaw.api.plist",
+      "status": "running",
+      "public_url": "hermestigerclaw.com",
+      "purpose": "M01–M24 stats endpoints — Jarvis HUD reads from here"
+    },
+    "open_webui": {
+      "port": 3000,
+      "manager_plist": "ai.openwebui.hermes.plist",
+      "manager_type": "Docker",
+      "status": "running",
+      "pid": 72079,
+      "url": "ui.hermestigerclaw.com",
+      "db": "webui.db"
+    },
+    "librechat": {
+      "port": 3080,
+      "manager_type": "Docker",
+      "status": "NOT_RUNNING",
+      "url": "chat.hermestigerclaw.com",
+      "files": "~/Documents/LibreChat/"
+    }
+  },
+
+  "automation": {
+    "n8n": {
+      "manager_plist": "com.goj.n8n.plist",
+      "status": "running",
+      "workflow_count": 6,
+      "workflows": [
+        { "name": "ShellCore Health Watchdog", "schedule": "every_5_minutes" },
+        { "name": "Morning System Report", "schedule": "08:00_daily" },
+        { "name": "GOJ Daily Delivery", "id": "dw5HxFEOLs0QNUHX", "schedule": "14:00_daily" },
+        { "name": "GOJ Nightly Handoff", "schedule": "21:00_weekdays" },
+        { "name": "Obsidian Nightly Digest", "schedule": "22:00_daily" },
+        { "name": "GOJ Kitchen Correction", "schedule": "manual_trigger" }
+      ]
+    },
+    "claus_watchman": {
+      "plist": "com.hermes.claus-watchman.plist",
+      "status": "running",
+      "purpose": "GOJ pipeline monitor — watches 9 daily JSON files. RED when Gmail token expires or any file stale."
+    },
+    "launch_agents": [
+      { "plist": "ai.hermes.gateway-cloud.plist", "service": "Hermes cloud gateway :3002", "status": "running" },
+      { "plist": "ai.hermes.gateway.plist", "service": "Hermes local gateway :65001", "status": "repairing" },
+      { "plist": "ai.openwebui.hermes.plist", "service": "Open WebUI :3000 (Docker)", "status": "running" },
+      { "plist": "com.rex.backend.plist", "service": "REX FastAPI :8000", "status": "running" },
+      { "plist": "com.goj.datarex.plist", "service": "GOJ Dashboard :8080", "status": "running_live" },
+      { "plist": "com.goj.n8n.plist", "service": "n8n workflows", "status": "running" },
+      { "plist": "com.goj.transition-agent.plist", "service": "TransitionAgent", "status": "loaded_hook_not_built" },
+      { "plist": "com.tigerclaw.api.plist", "service": "Tiger Claw API :27226", "status": "running" },
+      { "plist": "com.tigerclaw.hudsite.plist", "service": "Tiger Claw HUD site", "status": "unknown" },
+      { "plist": "com.tigerclaw.screensaver.plist", "service": "Tiger Claw Screensaver", "status": "running", "updated": "2026-05-29" },
+      { "plist": "com.hermes.claus-watchman.plist", "service": "Claus Watchman", "status": "running" },
+      { "plist": "com.hermes.kapso-whatsapp.plist", "service": "Kapso WhatsApp :18789", "status": "unknown" },
+      { "plist": "com.ghs.cc-stats-api.plist", "service": "CC Stats API :8001", "status": "not_installed" },
+      { "plist": "com.hermes.rexxie-bot.plist", "service": "ZOMBIE — NEVER ENABLE", "status": "disabled_permanently" }
+    ],
+    "gateway_restart_pattern": [
+      "launchctl unload <plist>",
+      "pkill -f 'hermes_cli.main.*gateway'",
+      "sleep 8",
+      "launchctl load <plist>"
+    ],
+    "schedule_cascade": {
+      "description": "ATOMIC — all 7 update or none when client changes day/calls sick",
+      "systems": ["Calendar", "Attendance records", "Driver's list", "Kitchen's list", "Distribution logs", "Sign-in sheets", "Client's individual menu"]
+    }
+  },
+
+  "databases": {
+    "auth_tracker": {
+      "path": "~/Documents/goj files/dashboard/auth_tracker.db",
+      "type": "sqlite",
+      "encrypted": false,
+      "hipaa_gap": "NOT SQLCipher encrypted — top open security item",
+      "cloud_rule": "NEVER in cloud. Presidio on all outbound.",
+      "tables": {
+        "clients": { "rows": "~426", "key_columns": ["id", "name", "active", "shift", "day_X_actual"], "notes": "Full client roster" },
+        "authorization": { "key_columns": ["service_end_date", "status"], "notes": "service_end_date = expiry. ACTIVE / EXPIRED / PENDING RENEWAL" },
+        "menus": { "notes": "PDF registry. week_start NULL-patched April 2026." },
+        "client_menus": { "rows": "1661+", "key_columns": ["main", "confidence"], "critical": "Column is 'main' NOT 'main_dish'", "notes": "confidence = OCR score 0-1" },
+        "employees": { "rows": 15, "notes": "May be sparse — main data in GOJ_Staff_Compliance_Apr2026.xlsx" },
+        "pending_schedule_changes": { "notes": "Schedule mods awaiting confirmation" },
+        "attendance_log": { "key_columns": ["log_date", "shift", "client_name", "status"] },
+        "auth_documents": { "key_columns": ["expiration_date", "status", "client_name"] }
+      }
+    },
+    "rexxie_db": {
+      "path": "~/Desktop/REX/rexxie.db",
+      "access": "Kato only",
+      "encryption": "AES-256-GCM, triple-encrypted",
+      "rules": ["Local-only", "Zero GOJ data", "Zero crossover", "Enforced always"]
+    },
+    "rex_journeys": {
+      "path": "~/.rex/rex_journeys.db",
+      "purpose": "Real memory tables — journey/session history"
+    },
+    "rex_memory": {
+      "path": "~/.rex/rex_memory.db",
+      "status": "broken_0kb",
+      "fix": "One-line fix in ~/Desktop/REX/backend/memory.py",
+      "impact": "Rexxie starts cold every session"
+    },
+    "rex_user_model": {
+      "path": "~/.rex/rex_user_model.db",
+      "status": "broken_0kb",
+      "fix": "Same fix in backend/memory.py"
+    },
+    "palace_main": {
+      "path": "/Volumes/cartoons/palace_main.db",
+      "size_kb": 144,
+      "system": "MemPalace",
+      "status": "never_wired",
+      "action": "uv tool install mempalace"
+    },
+    "palace_cloud": {
+      "path": "/Volumes/cartoons/palace_cloud.db",
+      "size_kb": 24,
+      "system": "MemPalace",
+      "status": "never_wired"
+    }
+  },
+
+  "hardware": {
+    "mac_mini_m4": {
+      "user": "mainsobhelper",
+      "ram_gb": 24,
+      "chip": "Apple M4",
+      "role": "primary_server_all_production",
+      "tailscale_ip": "100.98.90.26",
+      "external_drive": "/Volumes/cartoons/ (nightly backups 2AM, 7-day rolling, palace DBs)"
+    },
+    "alienware_aurora_r8": {
+      "ram_gb": 32,
+      "gpu": "RTX 2070",
+      "os": "Pop!_OS",
+      "status": "planned_not_integrated",
+      "role": "IRONWALL node — GPU inference, training"
+    },
+    "office_mac": {
+      "ram_gb": 16,
+      "status": "planned_not_setup",
+      "rule": "Air-gapped from GOJ data and financials"
+    },
+    "paperless_ngx": {
+      "operator": "Misha (office admin)",
+      "address": "100.99.86.60:8000",
+      "network": "Tailscale",
+      "role": "Document scanning + OCR at GOJ office",
+      "ocr_pipeline_role": "1 of 4 engines: Tesseract + Google Drive Vision + Paperless-ngx + Claude Vision"
+    },
+    "zk_biometric": {
+      "status": "planned_not_purchased",
+      "purpose": "Fingerprint/face recognition at GOJ entrance for attendance automation"
+    }
+  },
+
+  "security": {
+    "phi_pipeline": ["Presidio de-identification (18 HIPAA Safe Harbor identifiers)", "akc_tokenizer.py Gate 1 (skeleton — not complete)", "PHI classifier", "Context strip", "Output scan", "Audit log"],
+    "encryption": {
+      "rexxie_messages": "AES-256-GCM",
+      "sqlcipher_vault": "rex_sqlcipher_vault.py (Rexxie only)",
+      "large_blobs": "ChaCha20",
+      "agent_bus": "AES-256-GCM, per-agent HKDF key: rex-agent-bus-{agent_id}"
+    },
+    "keychain_keys": ["rex-sovereign", "rexxie-2fa-secret"],
+    "totp_warning": "RFC example value JBSWY3DPEHPK3PXP — ZERO real security. Must rotate immediately.",
+    "rbac_tiers": {
+      "Chairman": "Everything",
+      "Vlad": "Financial view only",
+      "FrontDesk": "Demographics + auth only",
+      "Kitchen": "PDF handoffs only",
+      "Driver": "Route sheets only",
+      "Restricted": "Read-only, no PHI"
+    },
+    "pae_engine": {
+      "pattern": "Propose → Approve → Execute",
+      "rule": "No real-world action without Chairman authorization",
+      "location": "REX FastAPI :8000"
+    }
+  },
+
+  "design_system": {
+    "colors": {
+      "background": "#0f1923",
+      "surface": "#1a2535",
+      "border": "#2a3a4a",
+      "text": "#c8d8e8",
+      "gold": "#c9a84c",
+      "success": "#2ecc71",
+      "warning": "#f39c12",
+      "danger": "#e74c3c"
+    },
+    "font": "-apple-system sans-serif",
+    "logos": {
+      "ghs": "~/Documents/goj files/static/ghs_logo.png (black triangle)",
+      "goj": "~/Documents/goj files/static/img/goj_logo.png (flower, navy+red)"
+    },
+    "role_badge_colors": {
+      "Chairman": "gold (#c9a84c)",
+      "Vlad": "#3498db",
+      "FrontDesk": "green",
+      "Kitchen": "purple",
+      "Driver": "orange"
+    }
+  },
+
+  "media_video": {
+    "bbg_video_pipeline": [
+      { "tier": 1, "tool": "Open-Generative-AI", "status": "on_disk_200_plus_models", "type": "macOS arm64 DMG" },
+      { "tier": 2, "tool": "Flux Schnell via ComfyUI Cloud", "status": "active", "api_key": "COMFY_CLOUD_API_KEY (confirmed)", "notes": "8 keyframes, 1080x1920. ARM64 OOM workaround: PNG→JPEG before encode." },
+      { "tier": 3, "tool": "PIL/ffmpeg", "status": "available", "type": "pure_python_fallback" },
+      { "tier": 4, "tool": "Seedance (ByteDance)", "status": "402_credits_depleted" },
+      { "tier": 5, "tool": "FAL", "status": "dead_404_do_not_use" },
+      { "tool": "Manim", "status": "available", "notes": "Math animations only — not BBG content" }
+    ]
+  },
+
+  "open_items": [
+    { "priority": "URGENT", "item": "TransitionAgent Drive hook", "notes": "NOT built. Bookkeeper left May 31. ~June 7 deadline." },
+    { "priority": "URGENT", "item": "QuickBooks handoff", "notes": "New bookkeeper taking over. ~June 7 deadline." },
+    { "priority": "CRITICAL", "item": "TOTP rotation", "notes": "RFC example value in prod = zero security." },
+    { "priority": "HIPAA", "item": "auth_tracker.db SQLCipher encryption", "notes": "Unencrypted PHI — top HIPAA gap." },
+    { "priority": "HIPAA", "item": "akc_tokenizer.py Gate 1 completion", "notes": "Skeleton only. Blocks all cloud PHI routing until built." },
+    { "priority": "ready_to_install", "item": "CC Stats API :8001", "action": "Copy plist to LaunchAgents, launchctl load", "guide": "~/Desktop/REX/CC_stats_api_INSTALL.md" },
+    { "priority": "high", "item": "Retell API key renewal", "notes": "Victoria + Masha both 404." },
+    { "priority": "high", "item": "rex_memory.db / rex_user_model.db fix", "notes": "0KB — one-line fix in backend/memory.py." },
+    { "priority": "high", "item": "Jarvis Phase 19", "notes": "Plists exist, not running. Reads Tiger Claw :27226." },
+    { "priority": "medium", "item": "MemPalace wiring", "notes": "palace_main.db (144KB) on /Volumes/cartoons/ — never connected. uv tool install mempalace" },
+    { "priority": "medium", "item": "ECC install", "notes": "Kato #1 repo priority. bash install.sh or npx ecc-universal install" },
+    { "priority": "medium", "item": "hermes-dreaming plugin", "action": "hermes plugins install asimons81/hermes-dreaming --enable" },
+    { "priority": "medium", "item": "Piper TTS install", "notes": "Replace browser speechSynthesis. brew install piper-tts" },
+    { "priority": "medium", "item": "iMessage watcher", "notes": "NOT built. iPad-Mac Mini connection. Chat names need Kato input." },
+    { "priority": "low", "item": "Fireflies reactivation", "notes": "Check Keychain for key, wire transcript → Obsidian." },
+    { "priority": "NEVER", "item": "com.hermes.rexxie-bot.plist", "notes": "ZOMBIE. NEVER ENABLE." }
+  ]
+}

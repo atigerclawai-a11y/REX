@@ -1,0 +1,319 @@
+╔══════════════════════════════════════════════════════╗
+  GHS SYSTEM AUDIT — Thu Jun  4 13:48:45 EDT 2026
+╚══════════════════════════════════════════════════════╝
+
+═══ TASK 1: TAILSCALE ═══
+--- tailscale status ---
+100.98.90.26    mains-mac-mini-1     atigerclawai@  macOS  -                          
+100.99.86.60    alejandros-mac-mini  atigerclawai@  macOS  offline, last seen 7d ago  
+100.122.133.74  ipad153              atigerclawai@  iOS    offline, last seen 8d ago  
+100.80.16.53    iphone181            atigerclawai@  iOS    -                          
+--- launchctl ---
+-	0	io.tailscale.ipn.macsys.login-item-helper
+-	1	homebrew.mxcl.tailscale
+703	0	application.io.tailscale.ipn.macsys.271090882.271090889
+--- pgrep ---
+tailscaled: NOT running
+703
+797
+Contents
+Tailscale.app: EXISTS in /Applications
+Tailscale.app: NOT in ~/Applications
+/opt/homebrew/bin/tailscale
+
+═══ TASK 2: OLLAMA ═══
+--- ollama list ---
+NAME                     ID              SIZE      MODIFIED    
+gemma4:latest            c6eb396dbd59    9.6 GB    3 hours ago    
+gemma4:26b               5571076f3d70    17 GB     3 hours ago    
+minicpm-v:latest         c92bfad01205    5.5 GB    2 days ago     
+mistral-hermie:latest    2538f48cee73    14 GB     3 days ago     
+mistral-small:latest     8039dd90c113    14 GB     3 days ago     
+qwen3:14b-hermie         cab589e79bd1    9.3 GB    3 days ago     
+llama3.1:8b              46e0c10c039e    4.9 GB    6 days ago     
+--- ollama path ---
+/opt/homebrew/bin/ollama
+/usr/local/bin/ollama
+/opt/homebrew/bin/ollama
+--- pgrep ---
+1645
+ollama: RUNNING
+--- ollama API (11434) ---
+  Ollama API: 7 models found:
+    - gemma4:latest
+    - gemma4:26b
+    - minicpm-v:latest
+    - mistral-hermie:latest
+    - mistral-small:latest
+    - qwen3:14b-hermie
+    - llama3.1:8b
+--- LM Studio (1234) ---
+  LM Studio API: not reachable
+
+═══ TASK 3: KARPATHY AUTORESEARCH ═══
+--- find Desktop / Documents ---
+/Users/mainsobhelper/Desktop/REX/CC_june4_backup_20260604_174528/REX_commands/CC_install_karpathy.command
+/Users/mainsobhelper/Desktop/REX/CC_install_karpathy.command
+/Users/mainsobhelper/Documents/autoresearch
+/Users/mainsobhelper/Documents/autoresearch-mlx
+/Users/mainsobhelper/hermes-workspace/docs/swarm/AUTORESEARCH.md
+/Users/mainsobhelper/Desktop/REX/CC_june4_backup_20260604_174528/REX_commands/CC_install_karpathy.command
+/Users/mainsobhelper/Desktop/REX/CC_install_karpathy.command
+/Users/mainsobhelper/.hermes-cloud/home/.cache/autoresearch
+/Users/mainsobhelper/.hermes-cloud/skills/mlops/autoresearch
+/Users/mainsobhelper/Documents/autoresearch
+/Users/mainsobhelper/Documents/autoresearch-mlx
+--- autoresearch dir ---
+~/Desktop/autoresearch: NOT found
+~/Desktop/microgpt: NOT found
+--- launchctl auto ---
+-	0	com.apple.AutoFillPanel
+-	0	com.apple.imautomatichistorydeletionagent
+-	0	com.apple.dt.AutomationModeUI
+
+═══ TASK 4: NOUS SKILLS ═══
+--- .skill / .skills files ---
+/Users/mainsobhelper/Desktop/REX/goj-analytics.skill
+--- ~/.hermes/skills/ ---
+apple
+autonomous-ai-agents
+change-approval-gate
+claudeseek
+clover-pos
+creative
+data-science
+devops
+diagramming
+dogfood
+domain
+email
+emergency-gateway-fix
+feeds
+finance
+gaming
+gifs
+github
+goj_doc_classifier_20260520.md
+goj_doc_classifier_20260521.md
+goj_doc_classifier_20260522.md
+goj_doc_classifier_20260523.md
+goj_doc_classifier_20260524.md
+goj-experiment
+goj-russian-ocr
+hermie-context
+inference-sh
+local-skill-builder
+mcp
+media
+mlops
+note-taking
+ocr
+pre-delivery-audit
+productivity
+red-teaming
+research
+resource-governor
+scarf-template-author
+shellcore
+smart-home
+social-media
+software-development
+task-optimizer
+web-dashboard-build
+workspace-dispatch
+yuanbao
+--- ~/.hermes/profiles/cloud/skills/ ---
+apple
+autonomous-ai-agents
+creative
+data-science
+devops
+diagramming
+dogfood
+domain
+email
+gaming
+gifs
+github
+inference-sh
+macos-python
+mcp
+media
+mlops
+note-taking
+productivity
+red-teaming
+research
+smart-home
+social-media
+software-development
+yuanbao
+--- Hermes config skill references ---
+  skills_hub:
+  - skills
+skills:
+
+═══ TASK 5: OBSIDIAN VAULT ═══
+--- find .obsidian dirs ---
+/Users/mainsobhelper/Desktop/Gold_Health_Systems/BRAIN/.obsidian
+/Users/mainsobhelper/Library/Mobile Documents/iCloud~md~obsidian/Documents/Chairman Second Brain/.obsidian
+/Users/mainsobhelper/Documents/Chairman Second Brain/Obsidian/Chairman Second Brain/.obsidian
+/Users/mainsobhelper/Documents/GHS-Vault/.obsidian
+--- iCloud Obsidian ---
+Documents
+iCloud Obsidian path EXISTS
+Chairman Second Brain
+--- ~/Documents/Obsidian ---
+--- Obsidian app support ---
+b2f3ebd28ee3e4ed.json
+blob_storage
+Cache
+Code Cache
+Cookies
+Cookies-journal
+DawnGraphiteCache
+DawnWebGPUCache
+DIPS
+DIPS-wal
+f9f38ebe90654618.json
+GPUCache
+id
+IndexedDB
+Local Storage
+Network Persistent State
+obsidian.json
+obsidian.log
+Preferences
+Session Storage
+
+═══ TASK 6: BACKUP TARGETS STATUS ═══
+--- ~/.hermes/profiles/cloud/ ---
+audio_cache
+auth.json
+auth.lock
+bin
+cache
+channel_directory.json
+checkpoints
+config.yaml
+config.yaml.bak_20260530_111622
+config.yaml.bak_20260530_111720
+config.yaml.bak_20260530_113547
+config.yaml.bak_20260530_114141
+config.yaml.bak_20260530_114456
+config.yaml.bak_20260530_114831
+config.yaml.bak_20260531_193000
+config.yaml.bak_20260531_194256
+config.yaml.bak_pre_kimi_20260512_060534
+cron
+gateway_state.json
+gateway.lock
+gateway.pid
+google_token.json
+home
+hooks
+image_cache
+logs
+memories
+models_dev_cache.json
+pairing
+plans
+platforms
+processes.json
+response_store.db
+response_store.db-shm
+response_store.db-wal
+sandboxes
+scripts
+sessions
+skills
+skins
+SOUL.md
+state-snapshots
+state.db
+state.db-shm
+state.db-wal
+workspace
+--- ~/.hermes/state-snapshots/ ---
+20260604-023854-pre-update
+--- ~/.hermes/config.yaml ---
+-rw-------@ 1 mainsobhelper  staff  14256 Jun  4 13:13 /Users/mainsobhelper/.hermes/config.yaml
+-rw-------@ 1 mainsobhelper  staff  14171 May 17 20:50 /Users/mainsobhelper/.hermes/config.yaml.bak.20260518_025242
+-rw-------@ 1 mainsobhelper  staff  16224 May 20 23:00 /Users/mainsobhelper/.hermes/config.yaml.bak.20260520_230020
+-rw-------@ 1 mainsobhelper  staff  16224 May 20 23:21 /Users/mainsobhelper/.hermes/config.yaml.bak.20260520_232114
+-rw-------@ 1 mainsobhelper  staff  16260 May 21 01:34 /Users/mainsobhelper/.hermes/config.yaml.bak.20260521_013458
+-rw-------@ 1 mainsobhelper  staff  13090 Jun  4 06:16 /Users/mainsobhelper/.hermes/config.yaml.bak.20260604_124719
+-rw-------@ 1 mainsobhelper  staff  14311 Jun  4 13:13 /Users/mainsobhelper/.hermes/config.yaml.bak.20260604_131352
+--- LaunchAgent plists ---
+-rw-r--r--@ 1 mainsobhelper  staff  2053 May 30 10:22 /Users/mainsobhelper/Library/LaunchAgents/ai.hermes.gateway-cloud.plist
+-rw-r--r--  1 mainsobhelper  staff  658 Jun  4 13:22 /Users/mainsobhelper/Library/LaunchAgents/com.ghs.dock-fix.plist
+--- Desktop/REX backend ---
+REX backend files: 46
+
+═══ TASK 7: HERMES DESKTOP APP ═══
+--- hermes-workspace in Applications ---
+Nothing hermes in ~/Applications/
+hermes-workspace.app
+Hermes.app
+HermesCloud.app
+--- find hermes-workspace / Hermes.app / hermes-desktop ---
+/Applications/hermes-workspace.app
+/Applications/hermes-workspace.app/Contents/MacOS/hermes-workspace
+/Applications/hermes-workspace.app/Contents/Frameworks/hermes-workspace Helper (Renderer).app
+/Applications/hermes-workspace.app/Contents/Frameworks/hermes-workspace Helper.app
+/Applications/hermes-workspace.app/Contents/Frameworks/hermes-workspace Helper (GPU).app
+/Applications/hermes-workspace.app/Contents/Frameworks/hermes-workspace Helper (Plugin).app
+/Applications/Hermes.app
+/Users/mainsobhelper/Library/Application Support/hermes-workspace
+/Users/mainsobhelper/Library/Application Support/CrashReporter/hermes-workspace_0FC01DB3-EB64-5F96-B136-43A629837D3D.plist
+--- Library/Application Support hermes ---
+Hermes
+hermes-workspace
+--- Library/Logs hermes-workspace ---
+--- hermes-workspace plist ---
+com.hermes.cloud-workspace.plist
+com.hermes.workspace.plist
+--- ~/.config hermes ---
+--- hermes-workspace app bundle ---
+/Users/mainsobhelper/hermes-workspace
+/Users/mainsobhelper/Library/Application Support/hermes-workspace
+
+═══ SERVICE HEALTH ═══
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+ ← :8080 GOJ Dashboard
+{"status":"ok","version":"3.0.0","secure_mode":false,"vault_mode":false,"encryption_level":"🔒 Standard (AES-256-GCM)","training_mode":false,"training_trainer":null,"deid_engine":"Regex Fallback","db_path":"/Users/mainsobhelper/.rex/rex_journeys.db","key_fingerprint":"a5e59804...3e48d363","memory_count":0,"rexxie_alive":true,"active_clients":395,"menu_count":438,"ocr_last_run":"2026-04-22T11:30:08.687674"} ← :8000 REX FastAPI
+{
+  "status": "ok",
+  "sessions": 15,
+  "active_streams": 0,
+  "active_runs": 0,
+  "runs": [],
+  "last_run_finished_at": 1780591337.1837509,
+  "uptime_seconds": 63299.1,
+  "accept_loop": {
+    "requests_total": 1019,
+    "last_request_at": 1780595454.584
+  },
+  "idle_seconds_since_last_run": 4117.4
+} ← :3002 Hermes Cloud GW
+--- config.yaml modified time ---
+-rw-------@ 1 mainsobhelper  staff  8138 May 31 19:42 /Users/mainsobhelper/.hermes/profiles/cloud/config.yaml
+--- config.yaml.bak files ---
+-rw-------@ 1 mainsobhelper  staff  8294 May 30 11:16 /Users/mainsobhelper/.hermes/profiles/cloud/config.yaml.bak_20260530_111622
+-rw-------@ 1 mainsobhelper  staff  8294 May 30 11:17 /Users/mainsobhelper/.hermes/profiles/cloud/config.yaml.bak_20260530_111720
+-rw-------@ 1 mainsobhelper  staff  7867 May 30 11:35 /Users/mainsobhelper/.hermes/profiles/cloud/config.yaml.bak_20260530_113547
+-rw-------@ 1 mainsobhelper  staff  7972 May 30 11:41 /Users/mainsobhelper/.hermes/profiles/cloud/config.yaml.bak_20260530_114141
+-rw-------@ 1 mainsobhelper  staff  8010 May 30 11:44 /Users/mainsobhelper/.hermes/profiles/cloud/config.yaml.bak_20260530_114456
+-rw-------@ 1 mainsobhelper  staff  8011 May 30 11:48 /Users/mainsobhelper/.hermes/profiles/cloud/config.yaml.bak_20260530_114831
+-rw-------  1 mainsobhelper  staff  8009 May 30 12:11 /Users/mainsobhelper/.hermes/profiles/cloud/config.yaml.bak_20260531_193000
+-rw-------  1 mainsobhelper  staff  8227 May 31 19:30 /Users/mainsobhelper/.hermes/profiles/cloud/config.yaml.bak_20260531_194256
+-rw-------  1 mainsobhelper  staff  8567 May 12 02:05 /Users/mainsobhelper/.hermes/profiles/cloud/config.yaml.bak_pre_kimi_20260512_060534
+
+╔══════════════════════════════════════════════════════╗
+  AUDIT COMPLETE — Thu Jun  4 13:50:54 EDT 2026
+  Results written to: /Users/mainsobhelper/Desktop/REX/CC_audit_raw_results.txt
+╚══════════════════════════════════════════════════════╝

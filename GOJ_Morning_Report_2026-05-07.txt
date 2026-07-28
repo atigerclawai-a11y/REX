@@ -1,0 +1,29 @@
+🌅 <b>GOJ Morning Report — Thursday, May 7, 2026</b>
+
+👥 <b>Expected today: 145 clients</b>
+  Shift 1: 90 | Shift 2: 55
+
+🍽 <b>Menu data on file: 0 / 145</b>
+  ✅ Has menu: 0 | ❌ Missing: 145
+
+📧 <b>Menu scans received last week: 0 PDFs</b>
+
+🔴 <b>Clients without menu data today:</b>
+  • Adyan Ludmila — Shift 1
+  • Andreeva Alla — Shift 1
+  • Bardenshteyn Larisa — Shift 1
+  • Bekerman Alla — Shift 1
+  • Belopolskaya Svitlana — Shift 1
+  • Beylina Emma — Shift 1
+  • Bratukhin Vladimir — Shift 1
+  • Breytman Polina — Shift 1
+  • Brikker Ella — Shift 1
+  • Chernyatskay Polya — Shift 1
+  • Diachenko Halyna — Shift 1
+  • Dorodnova Kateryna — Shift 1
+  • Drabkin Marat — Shift 1
+  • Finkelshteyn Anya — Shift 1
+  • Gluzman Mara — Shift 1
+  ...and 130 more
+
+ℹ️ Handoff sheets will be sent at 10 AM.

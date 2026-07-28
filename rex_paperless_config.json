@@ -1,0 +1,9 @@
+{
+  "_note": "Paperless-ngx config for REX. Credentials hardwired in all scripts \u2014 no .env needed.",
+  "url": "http://localhost:8010",
+  "token": "583e819be1146b96b935007c6ad7f584a3a1b1b7",
+  "ocr": true,
+  "auto_tag": "REX-INBOX",
+  "correspondent": "Email-Import",
+  "consume_dir": "/Users/mainsobhelper/Desktop/REX/paperless/consume/"
+}

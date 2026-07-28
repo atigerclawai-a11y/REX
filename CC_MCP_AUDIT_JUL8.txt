@@ -1,0 +1,38 @@
+MCP SYSTEM AUDIT — July 8 2026 7:12 PM
+========================================
+
+YOUR MAC IS AT 89% CPU / 19.5 GB SWAP (on 24 GB machine)
+
+ROOT CAUSE #1 — TigerClaw-app (BIGGEST)
+  Process: Electron Helper (PID 2263)
+  Path: ~/TigerClaw-app/node_modules/electron/...
+  CPU: 130% continuously for 16+ HOURS
+  GPU: 56% (20+ hours accumulated GPU time)
+  RAM: 1 GB
+  Cause: Canvas particle animation in CC_command_center.html
+  FIX: Quit TigerClaw-app when not watching it
+
+ROOT CAUSE #2 — Claude Desktop with 17 MCP servers
+  Virtual Machine for Claude: 4.07 GB RAM
+  Python MCP processes: ~3 GB RAM combined
+  Worst process: python3.11 (PID 1764) with 357 threads
+  RULES VIOLATION: openrouter is in the config — BANNED by CLAUDE.md
+  FIX: Trim to 8 MCPs (see below)
+
+ROOT CAUSE #3 — Docker VM
+  Virtual Machine for Docker: 4.04 GB RAM
+  FIX: Quit Docker Desktop when not using containers
+
+MCP TRIM PROPOSAL (17 → 8)
+  KEEP: hermes, telegram, n8n, instagram, antigravity, claude, grok, tavily
+  REMOVE: openrouter (BANNED), comfyui, retell, elevenlabs, twilio,
+           perplexity, groq, mistral, openai
+
+IMMEDIATE ACTIONS:
+  1. Quit TigerClaw-app — frees 130% CPU + 56% GPU instantly
+  2. Say "build it" to get the trimmed claude_desktop_config.json
+  3. Quit Docker if not needed — frees 4 GB RAM
+
+kernel_task is at 20% CPU (Mac is thermal throttling).
+Swap at 19.5 GB means SSD is being used as RAM — this is why
+everything feels slow and laggy.

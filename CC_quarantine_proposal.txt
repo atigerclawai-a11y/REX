@@ -1,0 +1,97 @@
+QUARANTINE PROPOSAL — Hermes Desktop App (hermes-workspace)
+Gold Health Systems · June 4, 2026
+Status: PENDING KATO APPROVAL (PAE Rule — do not execute without explicit approval)
+================================================================
+
+BACKGROUND
+----------
+The "Hermes desktop app" (hermes-workspace) is a separate Electron-based application
+that was installed at /Applications/hermes-workspace.app. At approximately 12:47 PM
+on June 4, 2026, it modified ~/.hermes/config.yaml (a file that governs the real
+Hermes gateway). This caused a configuration incident.
+
+This app is DISTINCT from:
+  - ~/.hermes/hermes-agent/ (the real Hermes gateway, v0.15.1) — DO NOT TOUCH
+  - ~/.hermes-cloud/ (GOJ datarex pipeline) — DO NOT TOUCH
+
+
+FILES FOUND — HERMES DESKTOP APP
+---------------------------------
+1. /Applications/hermes-workspace.app
+   (Full Electron app bundle with 4 helper processes)
+
+2. /Applications/Hermes.app
+   (Separate app — unclear if related; present in /Applications)
+
+3. /Applications/HermesCloud.app
+   (Separate app — unclear if related; present in /Applications)
+
+4. ~/Library/Application Support/hermes-workspace/
+   (Electron user data directory — may contain config that modified ~/.hermes/config.yaml)
+
+5. ~/Library/Application Support/CrashReporter/hermes-workspace_0FC01DB3-EB64-5F96-B136-43A629837D3D.plist
+   (Crash report — confirms the app has crashed before)
+
+6. ~/hermes-workspace/
+   (A directory in HOME — likely hermes-workspace app's workspace/project directory)
+
+7. ~/Library/LaunchAgents/com.hermes.cloud-workspace.plist
+   ⚠️  ENABLED LAUNCHAGENT — this could auto-start hermes-workspace
+
+8. ~/Library/LaunchAgents/com.hermes.workspace.plist
+   ⚠️  ENABLED LAUNCHAGENT — this could auto-start hermes-workspace
+
+
+PROPOSED QUARANTINE ACTIONS (awaiting approval)
+------------------------------------------------
+Move the following to: ~/Desktop/REX/CC_hermes_desktop_quarantine_[DATE]/
+
+ACTION A — Disable LaunchAgents first (prevents auto-restart):
+  launchctl unload ~/Library/LaunchAgents/com.hermes.cloud-workspace.plist
+  launchctl unload ~/Library/LaunchAgents/com.hermes.workspace.plist
+  mv ~/Library/LaunchAgents/com.hermes.cloud-workspace.plist  [QUARANTINE]/
+  mv ~/Library/LaunchAgents/com.hermes.workspace.plist        [QUARANTINE]/
+
+ACTION B — Move app bundles (does NOT delete, reversible):
+  mv /Applications/hermes-workspace.app   [QUARANTINE]/
+  (Leave /Applications/Hermes.app and HermesCloud.app for now — pending investigation)
+
+ACTION C — Preserve user data (quarantine, do not delete):
+  mv "~/Library/Application Support/hermes-workspace"  [QUARANTINE]/AppSupport_hermes-workspace/
+  mv ~/hermes-workspace                                [QUARANTINE]/hermes-workspace-home/
+
+ACTION D — Crash report (informational only, leave in place):
+  ~/Library/Application Support/CrashReporter/hermes-workspace_0FC01DB3-...plist
+  → Leave in place, it's read-only evidence.
+
+
+RISK ASSESSMENT
+---------------
+Risk of quarantining:
+  LOW — hermes-workspace is a separate app from the real Hermes gateway.
+        The real gateway runs from ~/.hermes/hermes-agent/ and does NOT need this app.
+
+Risk of NOT quarantining:
+  HIGH — LaunchAgents may restart hermes-workspace automatically, which could
+         re-modify ~/.hermes/config.yaml again at any time.
+
+Immediate recommendation (before full quarantine approval):
+  → Manually quit hermes-workspace if running (check Activity Monitor)
+  → Run: launchctl unload ~/Library/LaunchAgents/com.hermes.cloud-workspace.plist
+  → Run: launchctl unload ~/Library/LaunchAgents/com.hermes.workspace.plist
+  These two commands are reversible and prevent auto-restart until full quarantine is approved.
+
+
+WHAT TO INVESTIGATE BEFORE DELETING (NEVER PERMANENTLY DELETE)
+---------------------------------------------------------------
+1. ~/Library/Application Support/hermes-workspace/ may contain useful config that
+   can explain what hermes-workspace intended to write to ~/.hermes/config.yaml.
+2. Check if /Applications/Hermes.app and /Applications/HermesCloud.app are the same
+   product or separate tools. If unrelated to this incident, they should stay.
+3. Confirm whether ~/hermes-workspace/ contains any GHS work product before quarantining.
+
+
+APPROVAL REQUIRED FROM KATO
+============================
+To execute quarantine: reply "approve quarantine" or "do it" and I will proceed step by step.
+================================================================

@@ -1,0 +1,48 @@
+{
+  "_note": "Renewal periods in months. Warning window in days. 0 months = one-time only.",
+  "tb_ppd": {
+    "renewal_months": 12,
+    "label": "TB Screen (PPD/Mantoux)"
+  },
+  "physical_exam": {
+    "renewal_months": 12,
+    "label": "Physical Exam"
+  },
+  "blood_work": {
+    "renewal_months": 24,
+    "label": "Blood Work"
+  },
+  "mmr": {
+    "renewal_months": 60,
+    "label": "MMR Vaccine"
+  },
+  "cpr_first_aid": {
+    "renewal_months": 24,
+    "label": "CPR / First Aid"
+  },
+  "hipaa_training": {
+    "renewal_months": 12,
+    "label": "HIPAA Training"
+  },
+  "flu_shot": {
+    "renewal_months": 12,
+    "label": "Flu Shot"
+  },
+  "hepatitis_b": {
+    "renewal_months": 0,
+    "label": "Hepatitis B  (0 = no renewal)"
+  },
+  "covid_vaccine": {
+    "renewal_months": 0,
+    "label": "COVID Vaccine (0 = no renewal)"
+  },
+  "varicella": {
+    "renewal_months": 0,
+    "label": "Varicella     (0 = no renewal)"
+  },
+  "inservice_hours": {
+    "renewal_months": 12,
+    "label": "In-Service Hours"
+  },
+  "warning_days": 30
+}

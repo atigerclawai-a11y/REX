@@ -1,0 +1,61 @@
+{
+  "days": {
+    "2026-06-24": {
+      "bookings": 1,
+      "guests": 2
+    },
+    "2026-06-22": {
+      "bookings": 1,
+      "guests": 2
+    },
+    "2026-06-27": {
+      "bookings": 1,
+      "guests": 4
+    },
+    "2026-06-20": {
+      "bookings": 1,
+      "guests": 3
+    },
+    "2026-06-19": {
+      "bookings": 2,
+      "guests": 8
+    },
+    "2026-07-12": {
+      "bookings": 1,
+      "guests": 20
+    },
+    "2026-06-30": {
+      "bookings": 1,
+      "guests": 4
+    },
+    "2026-07-03": {
+      "bookings": 2,
+      "guests": 5
+    },
+    "2026-07-02": {
+      "bookings": 1,
+      "guests": 5
+    },
+    "2026-07-06": {
+      "bookings": 6,
+      "guests": 32
+    },
+    "2026-07-11": {
+      "bookings": 16,
+      "guests": 108
+    },
+    "2026-07-19": {
+      "bookings": 38,
+      "guests": 177
+    },
+    "2026-07-09": {
+      "bookings": 1,
+      "guests": 1
+    },
+    "2026-07-18": {
+      "bookings": 2,
+      "guests": 16
+    }
+  },
+  "last_updated": "2026-07-20T07:22:29Z"
+}

@@ -1,0 +1,47 @@
+{
+  "source": "scheduled_task_grok_tuesday_2026-05-12",
+  "visibility": "chairman_only",
+  "memory_type": "context",
+  "generated_at": "2026-05-12T09:12:00Z",
+  "subject": "Tuesday Grok training — challenge-protocol results",
+  "lessons_reviewed": 5,
+  "conflicts_flagged": 0,
+  "soft_concerns": 2,
+  "notes": [
+    {
+      "lesson": "Mid-May / Memorial Day animated lobby banner pack",
+      "verdict": "clean",
+      "conflict": null,
+      "rationale": "No PHI, no policy surface; visual-only output on the lobby display. Consistent with the public-facing visibility ('all') used in prior Grok weeks."
+    },
+    {
+      "lesson": "5 AM real-time digest of overnight regulatory / weather / coverage changes",
+      "verdict": "soft_concern",
+      "conflict": "policy_authority",
+      "rationale": "Grok real-time output is non-authoritative for compliance and HIPAA-adjacent regulatory text. Lesson already explicitly defers to Claude verification before any item is written as a long-term REX memory; concern is documented but no rule violated. RECOMMEND: keep the digest read-only summary; never auto-act on a regulatory item without Claude pass."
+    },
+    {
+      "lesson": "Seed-locked mascot illustrations across menu and birthday flyers",
+      "verdict": "clean",
+      "conflict": null,
+      "rationale": "Branding assets only. Seed-locking strengthens brand integrity, no security surface."
+    },
+    {
+      "lesson": "5–8 second silent looping micro-tutorials for SOP refreshers",
+      "verdict": "soft_concern",
+      "conflict": "phi_in_training_media",
+      "rationale": "Loops must use synthetic mascots — NOT real client or staff likenesses, NOT real sign-in sheets, NOT real route maps. Lesson is fine in principle, but the production pipeline must enforce a no-real-PHI gate before rendering. RECOMMEND: add a prompt-template check that strips any client-identifying tokens prior to generation."
+    },
+    {
+      "lesson": "Reality-orientation grounding for dementia-care conversations (Grok real-time facts)",
+      "verdict": "clean",
+      "conflict": null,
+      "rationale": "Lesson contains an explicit Claude-verification gate before any Grok-sourced fact is committed to memory, and explicitly bars Grok output from policy/compliance/medical replies. Consistent with the two-layer control system."
+    }
+  ],
+  "overall_assessment": "PASS — no hard conflict against Claude-established security principles. Two soft concerns documented and already mitigated in the lesson text. Safe to import the application notes as 'all' visibility memories.",
+  "follow_up_for_chairman": [
+    "Decide whether to harden the SOP-loop pipeline with an automated PHI-token filter before staff micro-tutorial rollout.",
+    "Confirm policy that the 5 AM real-time digest is summary-only and never triggers an automated action."
+  ]
+}

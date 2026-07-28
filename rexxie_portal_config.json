@@ -1,0 +1,13 @@
+{
+  "default_model": "fast",
+  "stream": true,
+  "theme": "dark",
+  "voice_enabled": true,
+  "temperature": 0.5,
+  "max_history": 40,
+  "api_keys": {},
+  "installed_skills": [
+    "karpathy-rules",
+    "copilot"
+  ]
+}

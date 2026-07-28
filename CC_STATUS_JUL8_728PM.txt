@@ -1,0 +1,17 @@
+MCP AUDIT — STATUS UPDATE
+Jul 8, 2026 · 7:28 PM
+
+iOS Cowork rendering is broken this session.
+All audit work is complete. Waiting for your approval to apply the MCP trim.
+
+WHEN YOU SEE THIS:
+1. Quit TigerClaw-app → right-click in Dock → Quit
+2. Double-click CC_apply_mcp_trim.command (in this folder)
+3. Quit Docker if not needed
+
+Or say "apply it" in Cowork if iOS starts rendering again.
+
+Files in this folder (~/Desktop/REX/):
+  CC_claude_desktop_config_PROPOSED.json — trimmed config (17 → 8 MCPs)
+  CC_apply_mcp_trim.command — install script (double-click to run)
+  CC_MCP_AUDIT_JUL8.txt — full audit notes

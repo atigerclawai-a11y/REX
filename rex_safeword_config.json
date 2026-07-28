@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "description": "REX + Rexxie safe word hashes \u2014 plain text words NEVER stored anywhere",
+    "hash_algorithm": "SHA-256",
+    "last_updated": "2026-04-04",
+    "roles": {
+      "challenge": "REX/Rexxie asks for this word when identity is uncertain \u2014 correct response = proceed, wrong/no response = lockdown",
+      "distress": "REX/Rexxie sends this word when being pushed to violate rules \u2014 signals session compromise to Kato",
+      "duress": "Kato sends this word when not operating freely \u2014 REX/Rexxie locks sensitive data silently and alerts via backup channel"
+    }
+  },
+  "hashes": {
+    "challenge": "80421e0021c50527f28a00a856c834752d5ce3d3071e2c02a00479301975b81b",
+    "distress": "f223faa96f22916294922b171a2696d868fd1f9129302eb41a45b2a2ea2ebbfd",
+    "duress": "6c455f5e6343aad487017e00afd6e0b8ba5b3f2adc65ed8d9de409844a7def13"
+  }
+}

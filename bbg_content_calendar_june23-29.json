@@ -1,0 +1,287 @@
+{
+  "calendar_meta": {
+    "business": "Boardwalk Beer Garden",
+    "instagram": "@boardwalkbeergarden",
+    "location": "3152 Brighton 6th St, Brooklyn, NY 11235",
+    "generated": "2026-06-23",
+    "week_of": "Monday June 23 – Sunday June 29, 2026",
+    "hours": {
+      "mon_fri": "5:00 PM – 1:00 AM",
+      "sat_sun": "12:00 PM – 1:00 AM"
+    },
+    "happy_hour": "Mon-Thu 5-7 PM: Buy 2 Get 1 FREE on drafts",
+    "group_special": "Mon-Wed: groups of 10+ get complimentary beer (reservation required)",
+    "sports_context": "FIFA World Cup 2026 Group Stage (final week) + Round of 32 (Sat-Sun). MLB: Mets vs Cubs (Tue-Wed), Yankees vs Red Sox (Sat). UFC Fight Night: Fiziev vs Torres (Sat, from Baku)."
+  },
+  "days": {
+    "monday_june_23": {
+      "day": "Monday",
+      "date": "June 23, 2026",
+      "theme": "Happy Hour Hype + World Cup Monday + Group Deals",
+      "sports_of_note": [
+        "World Cup: Portugal vs. Uzbekistan (1PM ET)",
+        "World Cup: England vs. Ghana (4PM ET)",
+        "World Cup: Panama vs. Croatia (7PM ET)",
+        "World Cup: Colombia vs. DR Congo (10PM ET / 8PM local)"
+      ],
+      "posts": [
+        {
+          "time": "3:00 PM",
+          "content_type": "happy_hour_reminder",
+          "caption": "🍺 MONDAY Happy Hour — 5-7 PM! 🌊\n\nBuy 2 Draft Beers, Get 1 FREE 🍺🍺→🍺\nBecause one round is never enough.\n\n⚽ WORLD CUP MONDAY: Portugal just kicked off, England vs. Ghana at 4PM, Panama vs. Croatia at 7PM, Colombia vs. DR Congo at 10PM — catch every match on our 150\" 8K screen!\n\n👥 MON-WED GROUP SPECIAL: 10+ guests get complimentary beer when you book a table. DM us or book via website!\n\n🍔 Full kitchen: Slavic classics (Pelmeni, Chebureki, Solyanka), seafood, burgers, shawarma\n⚽ 150\" 8K screen + 15+ TVs — South Brooklyn's only sports bar\n🏖️ Ocean views, 14 rotating drafts, craft cocktails\n\n📍 3152 Brighton 6th St, Brooklyn (on the boardwalk)\n⏰ Open 5 PM – 1 AM | Happy Hour 5-7 PM\n\nTag your after-work crew 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #BrightonBeach #HappyHour #MondayMotivation #WorldCup2026 #BrooklynEats #CraftBeer #BeerGarden #NYCSummer #GameNight #SportsBar #BeachBar",
+          "template_used": "weekday_happy_hour"
+        },
+        {
+          "time": "4:30 PM",
+          "content_type": "sports_matchup",
+          "caption": "⚽ WORLD CUP — ENGLAND VS. GHANA AT 4PM 🇬🇭\n\nLIVE on our 150\" 8K screen right now! Then Panama vs. Croatia at 7PM. Colombia vs. DR Congo at 10PM ET / 8PM local. Four matches, one screen that does them justice.\n\n🍺 Happy Hour till 7PM — Buy 2 Get 1 FREE on all drafts\n\n🍔 Full menu all night: Slavic classics, seafood, burgers, shawarma\n🍺 14 rotating drafts | Craft cocktails | Ocean views from every seat\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open 5 PM – 1 AM\n\nWho you got — Three Lions or Black Stars? Tag your game day crew 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #WorldCup2026 #England #Ghana #BrightonBeach #SportsBar #BrooklynNights #GameNight #BeerGarden #FIFAWorldCup #SouthBrooklyn #ThreeLions",
+          "template_used": "sports"
+        },
+        {
+          "time": "7:00 PM",
+          "content_type": "atmosphere_evening",
+          "caption": "🌙 Monday nights hit different at the Boardwalk...\n\nPanama vs. Croatia on the big screen right now. Cold drafts flowing. Kitchen firing. Ocean breeze rolling in. The after-work crowd is here and the energy is building for Colombia vs. DR Congo at 10PM.\n\n🍺 Happy Hour just wrapped but the bar's just getting started\n⚽ Panama vs. Croatia NOW | Colombia vs. DR Congo at 10PM ET / 8PM local\n🌊 Every seat has ocean views. Every pour is ice cold.\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open till 1 AM\n\nPull up — the Monday crew's already here 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #BrightonBeach #BrooklynNights #WorldCup2026 #MondayVibes #BeerGarden #SouthBrooklyn #NYCSummer #GoodTimes #GameNight #SportsBar",
+          "template_used": "atmosphere"
+        }
+      ]
+    },
+    "tuesday_june_24": {
+      "day": "Tuesday",
+      "date": "June 24, 2026",
+      "theme": "Taco/Seafood Tuesday + World Cup Marathon + Happy Hour",
+      "sports_of_note": [
+        "World Cup: Switzerland vs. Canada (3PM ET)",
+        "World Cup: Bosnia & Herzegovina vs. Qatar (3PM ET)",
+        "World Cup: Scotland vs. Brazil (6PM ET)",
+        "World Cup: Morocco vs. Haiti (6PM ET)",
+        "World Cup: Czechia vs. Mexico (9PM ET)",
+        "World Cup: South Africa vs. South Korea (9PM ET)",
+        "MLB: Mets vs. Cubs (1:10 PM ET)"
+      ],
+      "posts": [
+        {
+          "time": "3:00 PM",
+          "content_type": "food_feature_happy_hour",
+          "caption": "🌮 TACO TUESDAY meets WORLD CUP MARATHON at Boardwalk Beer Garden! 🍺\n\nBuy 2 Drafts, Get 1 FREE — Happy Hour 5-7 PM\n\n⚽ SIX World Cup matches today — it's a full day of football:\n• Switzerland vs. Canada — 3PM 🇨🇭🇨🇦\n• Scotland vs. Brazil — 6PM 🇧🇷\n• Czechia vs. Mexico — 9PM 🇲🇽\n• Plus Bosnia vs. Qatar, Morocco vs. Haiti, South Africa vs. South Korea\n\n🦞 Taco Tuesday MVP: Lobster & Shrimp Tacos + cold draft = unbeatable combo\n⚾ Mets took on the Cubs earlier — NYC sports all day\n\n🍔 Full kitchen: Slavic classics, seafood, burgers, shawarma\n⚽ 150\" 8K screen + 15+ TVs\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open 5 PM – 1 AM | Happy Hour 5-7 PM\n\nTag your Taco Tuesday squad 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #TacoTuesday #WorldCup2026 #BrightonBeach #HappyHour #BrooklynEats #SeafoodLovers #BeerGarden #NYCSummer #SportsBar #CraftBeer #GameNight",
+          "template_used": "weekday_happy_hour"
+        },
+        {
+          "time": "4:30 PM",
+          "content_type": "sports_matchup",
+          "caption": "🇧🇷 BRAZIL TAKES THE 150\" SCREEN AT 6PM 🇧🇷\n\nScotland vs. Brazil — the Seleção brings the samba to Boardwalk Beer Garden. Then Czechia vs. Mexico at 9PM for the late-night faithful. Six World Cup matches today, and we're showing every. single. one.\n\n🍺 Happy Hour 5-7 PM: Buy 2 Get 1 FREE — get here early, lock in your spot\n\n🍔 Kitchen highlights: Lobster & Shrimp Tacos, Solyanka (bold cured meats + tangy broth), Boardwalk Burger\n🍺 14 drafts — from Brooklyn Lager to international pours\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open 5 PM – 1 AM\n\nVamos Brasil! Who's watching the Seleção with us? 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #WorldCup2026 #Brazil #Scotland #BrightonBeach #GameNight #SportsBar #BrooklynNights #FIFAWorldCup #BeerGarden #SouthBrooklyn #Seleção",
+          "template_used": "sports"
+        },
+        {
+          "time": "7:00 PM",
+          "content_type": "atmosphere_evening",
+          "caption": "🌊 Tuesday night view: ocean breeze, cold beer, Brazil on the big screen...\n\nScotland vs. Brazil just wrapped. Czechia vs. Mexico at 9PM — the late crowd is rolling in. Kitchen's cranking. Drafts are cold. The energy is right.\n\n🍺 Happy Hour wrapped — full bar + 14 drafts all night\n⚽ Czechia vs. Mexico at 9PM | South Africa vs. South Korea at 9PM\n🦞 Lobster & Shrimp Tacos. Solyanka. Boardwalk Burger. Fried Calamari.\n\nEvery seat has a view of the water and the 150\" screen.\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open till 1 AM\n\nThe boardwalk is alive tonight — come through 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #BrightonBeach #BrooklynNights #WorldCup2026 #TacoTuesday #BeerGarden #NYCSummer #SouthBrooklyn #GoodTimes #GameNight #Mexico",
+          "template_used": "atmosphere"
+        }
+      ]
+    },
+    "wednesday_june_25": {
+      "day": "Wednesday",
+      "date": "June 25, 2026",
+      "theme": "Wine Wednesday + USA Match Night + Last Day Group Deals",
+      "sports_of_note": [
+        "World Cup: Ecuador vs. Germany (4PM ET)",
+        "World Cup: Curaçao vs. Ivory Coast (4PM ET)",
+        "World Cup: Japan vs. Sweden (7PM ET)",
+        "World Cup: Tunisia vs. Netherlands (7PM ET)",
+        "World Cup: Türkiye vs. USA (10PM ET) — 🇺🇸",
+        "World Cup: Paraguay vs. Australia (10PM ET)"
+      ],
+      "posts": [
+        {
+          "time": "3:00 PM",
+          "content_type": "happy_hour_wine",
+          "caption": "🍷 WINE WEDNESDAY + WORLD CUP + USA NIGHT = LEGENDARY 🍺\n\nHappy Hour 5-7 PM: Buy 2 Drafts, Get 1 FREE\nBut also — French & Napa Valley wines by the glass 🍷 because it's Wednesday and you deserve options.\n\n⚽ WORLD CUP MADNESS TODAY — six matches, capped by:\n• Ecuador vs. Germany — 4PM 🇩🇪\n• Japan vs. Sweden — 7PM 🇯🇵🇸🇪\n• USA vs. Türkiye — 10PM 🇺🇸 (USA! USA!)\n\n👥 LAST DAY for our group deal: 10+ guests = complimentary beer when you book! DM us before it's gone.\n\n🍔 Full kitchen: Slavic classics, seafood, burgers, shawarma\n🍷 Wine list: French selections, Napa Valley, Prosecco\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open 5 PM – 1 AM | Happy Hour 5-7 PM\n\nHalfway to the weekend — treat yourself 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #WineWednesday #WorldCup2026 #BrightonBeach #HappyHour #BrooklynEats #USMNT #BeerGarden #NYCSummer #CraftBeer #SportsBar #MidweekVibes",
+          "template_used": "weekday_happy_hour"
+        },
+        {
+          "time": "4:30 PM",
+          "content_type": "sports_matchup",
+          "caption": "🇺🇸 USA VS. TÜRKIYE — 10PM ON OUR 150\" SCREEN 🇺🇸\n\nThe biggest match of the day for Brooklyn. But first: Germany vs. Ecuador at 4PM, Japan vs. Sweden at 7PM. We're showing EVERYTHING. No other place in South Brooklyn has this setup.\n\n🍺 Happy Hour 5-7 PM: Buy 2 Get 1 FREE — fuel up before Stars & Stripes kickoff\n🍷 French & Napa wines for Wine Wednesday — red, white, bubbles\n\n👥 LAST DAY for Mon-Wed group deal: 10+ guests get complimentary beer. Book now!\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open 5 PM – 1 AM\n\nUSA chants start at 10PM. Be here. Wear red, white & blue 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #WorldCup2026 #USMNT #BrightonBeach #GameNight #SportsBar #BrooklynNights #FIFAWorldCup #BeerGarden #SouthBrooklyn #USA #OneNationOneTeam",
+          "template_used": "sports"
+        },
+        {
+          "time": "7:00 PM",
+          "content_type": "atmosphere_evening",
+          "caption": "🌊 Wednesday night wave check: Germany wrapped, Japan vs. Sweden LIVE on the 150\", USA vs. Türkiye at 10PM... 🍺\n\nThe screen is glowing. 14 drafts flowing. Kitchen's hot. The boardwalk breeze is perfect. Midweek never looked this good.\n\n🍺 Happy Hour wrapped — full bar all night | Wine Wednesday pours still going strong\n⚽ Japan vs. Sweden NOW 🇯🇵🇸🇪 | USA vs. Türkiye at 10PM 🇺🇸\n🍔 Kitchen open till 1AM: Solyanka, Pulled Pork Sandwich, Mermaid Margaritas\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open till 1 AM\n\nCome for the football, stay for the vibes 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #BrightonBeach #BrooklynNights #WorldCup2026 #WineWednesday #BeerGarden #NYCSummer #SouthBrooklyn #GoodTimes #MidweekVibes #USA",
+          "template_used": "atmosphere"
+        }
+      ]
+    },
+    "thursday_june_26": {
+      "day": "Thursday",
+      "date": "June 26, 2026",
+      "theme": "Thirsty Thursday + Mbappé/France + Weekend Preview",
+      "sports_of_note": [
+        "World Cup: Norway vs. France (3PM ET) — Mbappé!",
+        "World Cup: Senegal vs. Iraq (3PM ET)",
+        "World Cup: Cape Verde vs. Saudi Arabia (8PM ET)",
+        "World Cup: Uruguay vs. Spain (8PM ET)",
+        "World Cup: Egypt vs. Iran (11PM ET)",
+        "World Cup: New Zealand vs. Belgium (11PM ET)"
+      ],
+      "posts": [
+        {
+          "time": "3:00 PM",
+          "content_type": "happy_hour_weekend_preview",
+          "caption": "🍺 THIRSTY THURSDAY — ONE MORE DAY TILL WEEKEND 🍺\n\nHappy Hour 5-7 PM: Buy 2 Drafts, Get 1 FREE\nBecause you've earned it. Four days down. Weekend loading...\n\n⚽ WORLD CUP HEAVY HITTERS TODAY — six matches:\n• Norway vs. France — 3PM 🇫🇷 (Mbappé in action!)\n• Uruguay vs. Spain — 8PM 🇪🇸🇺🇾 (fireworks matchup)\n• Belgium vs. New Zealand — 11PM 🇧🇪 (late-night ball)\n\nWEEKEND PREVIEW — get hyped:\n⚽ Friday: LAST day of group stage — all teams fighting for knockout spots\n⚽ Saturday: ROUND OF 32 BEGINS + Yankees vs. Red Sox ⚾\n☀️ Sunday: Knockout football all day + Sunday Funday\n\n🍔 Full kitchen: Slavic classics, seafood, burgers, shawarma\n🍺 14 drafts | Craft cocktails | Ocean views\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open 5 PM – 1 AM | Happy Hour 5-7 PM\n\nAlmost there. Let's make Thursday count 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #ThirstyThursday #WorldCup2026 #BrightonBeach #HappyHour #BrooklynEats #BeerGarden #NYCSummer #SportsBar #CraftBeer #WeekendPreview #AlmostFriday",
+          "template_used": "weekday_happy_hour"
+        },
+        {
+          "time": "4:30 PM",
+          "content_type": "sports_matchup",
+          "caption": "⚽ MBAPPÉ & FRANCE ON THE 150\" SCREEN NOW 🇫🇷\n\nNorway vs. France — group stage drama LIVE. Then Uruguay vs. Spain at 8PM for the evening fireworks. Belgium vs. New Zealand at 11PM for the night owls.\n\n🍺 Happy Hour till 7PM: Buy 2 Get 1 FREE\n🍔 Thursday menu spotlight: Pulled Pork Sandwich (BBQ sauce, onions, pickles, coleslaw) + cold Brooklyn Lager = elite combo\n\nTHIS WEEKEND AT BBG:\n• Friday: Last day of World Cup group stage — Messi, Ronaldo, all the stars\n• Saturday: Round of 32 BEGINS — knockout football, Yankees vs. Red Sox\n• Sunday: Sunday Funday + knockout matches all day\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open 5 PM – 1 AM\n\nWeekend starts tomorrow. Tonight we pregame 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #WorldCup2026 #France #Mbappé #ThirstyThursday #BrightonBeach #GameNight #SportsBar #BrooklynNights #FIFAWorldCup #BeerGarden #WeekendVibes",
+          "template_used": "sports"
+        },
+        {
+          "time": "8:00 PM",
+          "content_type": "night_vibes",
+          "caption": "🌙 The Boardwalk after dark...\n\nUruguay vs. Spain on the 150\" screen. Ocean breeze rolling through. Cold drinks in every hand. The Thursday night crew knows this is where the weekend really begins.\n\n🍺 Bar open till 1AM | Kitchen serving all night\n⚽ Uruguay vs. Spain NOW 🇺🇾🇪🇸 | Belgium vs. New Zealand at 11PM 🇧🇪\n🌊 Ocean views from every seat — Brighton Beach at its best\n\nLate-night menu hits: Fried Pelmeni, Chebureki, Nachos. The kind of food that makes 11PM feel like prime time.\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open till 1 AM\n\nWho's still out? 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #BrightonBeach #BrooklynNights #WorldCup2026 #ThirstyThursday #BeerGarden #NYCSummer #SouthBrooklyn #GoodTimes #NightVibes #LateNightEats",
+          "template_used": "night_vibes"
+        }
+      ]
+    },
+    "friday_june_27": {
+      "day": "Friday",
+      "date": "June 27, 2026",
+      "theme": "TGIF + World Cup Group Stage FINALE + Weekend Kickoff",
+      "sports_of_note": [
+        "World Cup: Panama vs. England (5PM ET)",
+        "World Cup: Croatia vs. Ghana (5PM ET)",
+        "World Cup: Colombia vs. Portugal (7:30PM ET)",
+        "World Cup: DR Congo vs. Uzbekistan (7:30PM ET)",
+        "World Cup: Algeria vs. Austria (10PM ET)",
+        "World Cup: Jordan vs. Argentina (10PM ET) — Messi's last group match!",
+        "UFC Fight Night: Fiziev vs. Torres (from Baku, Azerbaijan)"
+      ],
+      "posts": [
+        {
+          "time": "3:00 PM",
+          "content_type": "tgif_kickoff",
+          "caption": "🌊 WEEKEND MODE: ACTIVATED 🍺\n\nLAST DAY of World Cup group stage — six matches, EVERYTHING on the line. Knockout spots decided tonight. Then Round of 32 kicks off TOMORROW.\n\nTONIGHT'S WORLD CUP LINEUP:\n⚽ Panama vs. England — 5PM 🏴󠁧󠁢󠁥󠁮󠁧󠁿\n⚽ Colombia vs. Portugal — 7:30PM 🇵🇹\n⚽ Jordan vs. Argentina — 10PM 🇦🇷 (Messi's last group stage match!)\n\n🍺 Happy Hour 5-7 PM: Buy 2 Get 1 FREE\n\n🍔 Full menu: Slavic classics, seafood, burgers, shawarma\n⚽ 150\" 8K screen + 15+ TVs — every match, every angle, every goal\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Tonight 5 PM – 1 AM | Sat-Sun 12 PM – 1 AM\n\nTag who you're bringing for the group stage finale 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #TGIF #WorldCup2026 #BrightonBeach #WeekendVibes #BrooklynNights #BeerGarden #NYCSummer #HappyHour #FIFAWorldCup #SportsBar #GroupStageFinale",
+          "template_used": "friday_kickoff"
+        },
+        {
+          "time": "5:00 PM",
+          "content_type": "sports_matchup",
+          "caption": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 ENGLAND VS. PANAMA — LIVE NOW 🏴󠁧󠁢󠁥󠁮󠁧󠁿\n\nGroup stage finale on our 150\" 8K screen. Then Colombia vs. Portugal at 7:30PM with Ronaldo, and Jordan vs. Argentina at 10PM with Messi. This is THE night of World Cup football.\n\n🍺 Happy Hour ON till 7PM — Buy 2 Get 1 FREE\n\nTHIS WEEKEND AT BBG:\n⚽ SAT: Round of 32 BEGINS — knockout football + Yankees vs. Red Sox ⚾\n☀️ SUN: Sunday Funday + knockout matches all day + brunch vibes\n⏰ Doors open at noon both days!\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open 5 PM – 1 AM tonight\n\nEngland faithful, where you at? Three Lions on the boardwalk 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #WorldCup2026 #England #ThreeLions #BrightonBeach #TGIF #GameNight #SportsBar #BrooklynNights #BeerGarden #WeekendVibes #FIFAWorldCup",
+          "template_used": "sports"
+        },
+        {
+          "time": "8:00 PM",
+          "content_type": "night_vibes",
+          "caption": "🌙 FRIDAY NIGHT. BOARDWALK. WORLD CUP GROUP STAGE FINALE. 🍺\n\nColombia vs. Portugal on the big screen RIGHT NOW. Messi and Argentina at 10PM. The energy is electric — last group stage matches, knockout spots on the line, and the weekend officially starts HERE.\n\n🍺 14 drafts flowing | Craft cocktails | Kitchen open till 1AM\n⚽ Colombia vs. Portugal NOW 🇨🇴🇵🇹 | Messi + Argentina at 10PM 🇦🇷\n🌊 Ocean breeze + neon lights + 150\" screen + Brooklyn's best crowd\n\nWeekend plans = sorted. Your seat = waiting.\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open till 1 AM | Sat-Sun: 12PM – 1AM\n\nFriday night crew, check in 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #BrightonBeach #BrooklynNights #WorldCup2026 #TGIF #FridayVibes #BeerGarden #NYCSummer #SouthBrooklyn #GoodTimes #NightLife #Messi",
+          "template_used": "night_vibes"
+        }
+      ]
+    },
+    "saturday_june_28": {
+      "day": "Saturday",
+      "date": "June 28, 2026",
+      "theme": "All-Day Beach Energy + World Cup Round of 32 KICKOFF + Yankees vs Red Sox",
+      "sports_of_note": [
+        "World Cup: Round of 32 begins! — Runner-up A vs. Runner-up B + more knockout matches",
+        "MLB: Yankees vs. Red Sox — rivalry baseball",
+        "UFC Fight Night: Fiziev vs. Torres (morning replays available)"
+      ],
+      "posts": [
+        {
+          "time": "11:00 AM",
+          "content_type": "saturday_open",
+          "caption": "🍺 IT'S A BOARDWALK SATURDAY! 🌊\n\nDoors open at noon — beach, beers, big screens. WORLD CUP ROUND OF 32 BEGINS TODAY! This is knockout football. Win or go home. No second chances. And we're showing every match on South Brooklyn's ONLY 150\" 8K screen.\n\nTODAY'S LINEUP:\n⚽ Round of 32: Runner-up A vs. Runner-up B + more knockout matchups all day\n⚾ Yankees vs. Red Sox — NYC's biggest baseball rivalry ⚾\n🌊 Beach weather, ocean views, cold drafts from the jump\n\n🍺 14 drafts flowing from noon\n🍔 Kitchen firing all day — brunch into dinner, full menu\n⚽ Every knockout match on our 150\" 8K screen + 15+ TVs\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open 12 PM – 1 AM\n\nSaturdays were made for THIS 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #SaturdayVibes #WorldCup2026 #RoundOf32 #BrightonBeach #WeekendVibes #BeerGarden #NYCSummer #SportsBar #BeachDay #BrooklynEats #Yankees",
+          "template_used": "saturday_open"
+        },
+        {
+          "time": "1:00 PM",
+          "content_type": "food_feature_atmosphere",
+          "caption": "🌊 Noon sun, cold beer, World Cup knockout football on the 150\"...\n\nThis is what Saturday at the Boardwalk is all about. Round of 32 action on the big screen. Yankees-Red Sox on the side. Kitchen cranking from open to close. The boardwalk is BUZZING.\n\n🍔 TODAY'S MVP COMBO: Boardwalk Burger + cold Brooklyn Lager — name a better duo\n🦞 Seafood bar: Lobster & Shrimp Tacos, Fried Calamari, Mussels in Red Sauce\n🍺 14 drafts rotating — something new every visit. Ask your bartender what's fresh.\n🏖️ Ocean views from every seat. Beach breeze. Cold drinks. Hot food. Peak Saturday.\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open 12 PM – 1 AM\n\nBeach day + game day = best day. Tag your Saturday crew 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #SaturdayVibes #BrightonBeach #WorldCup2026 #BeerGarden #NYCSummer #WeekendVibes #BrooklynEats #SeafoodLovers #GoodTimes #BeachBar #DayDrinking",
+          "template_used": "food_feature"
+        },
+        {
+          "time": "5:00 PM",
+          "content_type": "sports_action_peak",
+          "caption": "⚽ ROUND OF 32 — IT'S WIN OR GO HOME 🍺\n\nThe knockout stage has ARRIVED at Boardwalk Beer Garden. 150\" 8K screen. 15+ TVs. Every angle. Every tackle. Every goal. The crowd is electric and the stakes have never been higher.\n\n⚾ Yankees vs. Red Sox on the side screens — NYC baseball at its absolute finest. Two rivalries, one bar, zero compromises.\n\n🍺 14 drafts | Craft cocktails | Full bar — the Mermaid Margarita is calling\n🍔 Full kitchen: Slavic classics, seafood, burgers, shawarma — serving all day\n\nThis is why we're South Brooklyn's ONLY sports bar. Don't watch at home.\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open till 1 AM\n\nWho's locked in for knockout football? 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #WorldCup2026 #RoundOf32 #BrightonBeach #SportsBar #GameNight #Yankees #RedSox #BrooklynNights #BeerGarden #FIFAWorldCup #SaturdayNight",
+          "template_used": "sports"
+        },
+        {
+          "time": "8:00 PM",
+          "content_type": "night_vibes_saturday",
+          "caption": "🌙 SATURDAY NIGHT. BOARDWALK. NEON. KNOCKOUT FOOTBALL. 🍺\n\nThe Round of 32 continues under the lights. The crowd is deep. The screens are glowing. The boardwalk is alive. Cold drinks, hot food, big matches — this is Saturday night done right.\n\n🍺 Late-night pours — 14 drafts, craft cocktails, wine by the glass\n🍔 Kitchen open till 1 AM — midnight Chebureki + cold beer hits different\n🎵 Vibes on point — ocean breeze, good crowd, world-class football\n\nThis is the Saturday night you'll be talking about Sunday morning.\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open till 1 AM\n\nTag who should be here right now 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #BrightonBeach #BrooklynNights #WorldCup2026 #SaturdayNight #BeerGarden #NYCSummer #SouthBrooklyn #GoodTimes #NightVibes #WeekendEnergy #RoundOf32",
+          "template_used": "night_vibes"
+        }
+      ]
+    },
+    "sunday_june_29": {
+      "day": "Sunday",
+      "date": "June 29, 2026",
+      "theme": "Sunday Funday + World Cup Round of 32 + Brunch + Day Drinking",
+      "sports_of_note": [
+        "World Cup: Round of 32 continues — Winner C vs. Runner-up F, Winner E vs. Best 3rd, Winner F vs. Runner-up C, and more",
+        "MLB: Yankees vs. Tigers (Monday)"
+      ],
+      "posts": [
+        {
+          "time": "11:00 AM",
+          "content_type": "sunday_funday_open",
+          "caption": "☀️ SUNDAY FUNDAY AT THE BOARDWALK 🌊\n\nDoors at noon. World Cup Round of 32 all day. Brunch into dinner. Cold drafts from the jump. Ocean views. This is what Sundays in Brooklyn were made for.\n\nTODAY'S WORLD CUP KNOCKOUTS:\n⚽ Round of 32 action — win or go home, ALL DAY LONG\n⚽ Winner C vs. Runner-up F + Winner E vs. Best 3rd + more matchups\n\n🍺 14 drafts flowing from noon — start your Sunday right\n🍔 Full menu: brunch faves + full kitchen all day — Solyanka, Boardwalk Burger, seafood\n⚽ 150\" 8K screen + 15+ TVs — every knockout match, every moment\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open 12 PM – 1 AM — make it count!\n\nSunday plans = sorted. Tag your Funday crew 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #SundayFunday #WorldCup2026 #BrightonBeach #WeekendVibes #BeerGarden #NYCSummer #BrunchVibes #BeachBar #RoundOf32 #BrooklynEats #SundayBrunch",
+          "template_used": "sunday_funday"
+        },
+        {
+          "time": "2:00 PM",
+          "content_type": "food_feature_day_drinking",
+          "caption": "🍺 SUNDAY AFTERNOON. OCEAN VIEW. KNOCKOUT FOOTBALL. ☀️\n\nWorld Cup Round of 32 on the 150\" screen. Cold beer in hand. Boardwalk breeze blowing through. The kitchen's hot. The vibes are immaculate. This is peak Sunday at the Boardwalk.\n\n🍔 SUNDAY MENU SPOTLIGHT:\n• Solyanka — bold cured meats, pickles, tangy broth — the ultimate day-drinking soup\n• Mermaid Margarita — our signature cocktail, beach vibes in a glass 🧜‍♀️\n• Boardwalk Burger — stacked, grilled to order, pairs perfectly with a cold draft\n• Lobster & Shrimp Tacos — because Sunday is for treating yourself\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open 12 PM – 1 AM\n\nSunday well spent. Tag who's living right 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #SundayFunday #BrightonBeach #WorldCup2026 #BeerGarden #NYCSummer #WeekendVibes #BrooklynEats #DayDrinking #GoodTimes #BeachBar #SundayBrunch",
+          "template_used": "food_feature"
+        },
+        {
+          "time": "6:00 PM",
+          "content_type": "sunday_evening_wrap",
+          "caption": "🌅 Golden hour on the boardwalk. Knockout football rolling. Last pours of the weekend. 🍺\n\nWorld Cup Round of 32 all evening on our 150\" screen. Kitchen open till 1 AM. Ocean sunset from the best seats in Brooklyn. Make this Sunday one for the books.\n\n🍺 14 drafts | Craft cocktails | Wine by the glass — full bar till close\n🍔 Full kitchen: Slavic classics, seafood, burgers — serving till 1AM\n🌊 Sunset over the water + World Cup knockout drama = unbeatable\n\nDon't let the weekend end without one more round.\n\n📍 3152 Brighton 6th St, Brooklyn\n⏰ Open till 1 AM\n\nOne more round? We thought so 👇",
+          "hashtags_string": "#BoardwalkBeerGarden #SundayFunday #BrightonBeach #WorldCup2026 #BeerGarden #NYCSummer #SunsetSips #BrooklynNights #GoodTimes #WeekendVibes #SouthBrooklyn #LastCall",
+          "template_used": "sunday_funday"
+        }
+      ]
+    }
+  },
+  "notes": {
+    "hashtag_rule": "Always include #BoardwalkBeerGarden + mix of Brooklyn, food/drink, sports, vibes hashtags. Weekday hashtags added on appropriate days.",
+    "caption_rules": [
+      "Hook in first line — grab attention immediately",
+      "Promotion visible and clear (Buy 2 Get 1 FREE on drafts)",
+      "Location + hours always included",
+      "8-12 hashtags per post, mix of local + food + sports + vibes",
+      "No corporate-speak — warm, energetic, real, Slavic-Brooklyn fusion voice",
+      "Call to action: tag friends, come through, DM for tables"
+    ],
+    "current_promotion": "Buy 2 Get 1 Free on drafts — Happy Hour Mon-Thu 5-7 PM",
+    "group_special": "Mon-Wed: groups of 10+ get complimentary beer (reservation required)",
+    "hours_always_include": true,
+    "sports_sourcing": "World Cup schedule sourced from ESPN and Yahoo Sports. MLB from MLB.com. All match times Eastern.",
+    "always_address": "3152 Brighton 6th St, Brooklyn, NY 11235",
+    "always_instagram": "@boardwalkbeergarden"
+  }
+}

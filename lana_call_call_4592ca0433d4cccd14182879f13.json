@@ -1,0 +1,45 @@
+{
+  "call_id": "call_4592ca0433d4cccd14182879f13",
+  "call_type": "phone_call",
+  "agent_id": "agent_2e730566c0ce88c1688916a635",
+  "agent_version": 0,
+  "agent_name": "Scout-Hours-Night",
+  "contact_dynamic_variables": {},
+  "custom_sip_headers": {
+    "X-RetellAI-Direction": "Outbound",
+    "X-RetellAI-OrgId": "org_VkEKS9JwA8t95xZW",
+    "X-RetellAI-CallId": "call_4592ca0433d4cccd14182879f13",
+    "X-RetellAI-SipTraceId": "call_4592ca0433d4cccd14182879f13",
+    "Route": "<sip:18.98.16.122;lr>"
+  },
+  "call_status": "not_connected",
+  "start_timestamp": 1782903162142,
+  "end_timestamp": 1782903162142,
+  "duration_ms": 0,
+  "public_log_url": "https://dxc03zgurdly9.cloudfront.net/4481806eb3714c78ca1a7ea65dac05c44386d278272ddfc807a9709b94fb5568/public.log",
+  "disconnection_reason": "dial_failed",
+  "latency": {},
+  "metadata": {
+    "scenario": "lana_study_new_customer"
+  },
+  "call_cost": {
+    "total_duration_unit_price": 0,
+    "product_costs": [],
+    "combined_cost": 0,
+    "total_duration_seconds": 0
+  },
+  "call_analysis": {
+    "in_voicemail": false,
+    "call_summary": "",
+    "user_sentiment": "Unknown",
+    "custom_analysis_data": {},
+    "call_successful": false
+  },
+  "data_storage_setting": "everything",
+  "opt_in_signed_url": false,
+  "tool_calls": [],
+  "from_number": "+164****3781",
+  "to_number": "+17185170300",
+  "direction": "outbound",
+  "pcap_url": "https://dxc03zgurdly9.cloudfront.net/4481806eb3714c78ca1a7ea65dac05c44386d278272ddfc807a9709b94fb5568/call_4592ca0433d4cccd14182879f13.pcap"
+}
