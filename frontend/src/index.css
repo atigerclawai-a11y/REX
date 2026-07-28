@@ -1,0 +1,165 @@
+/* ─── REX v2 — Arctic Intelligence Design System ──────────────────────────── */
+:root {
+  /* Arctic Intelligence Palette */
+  --bg-app:       #F5F6F8;       /* App background — very light cool gray */
+  --bg-primary:   #FFFFFF;       /* Cards, panels */
+  --bg-secondary: #F0F2F5;       /* Secondary surfaces */
+  --bg-tertiary:  #E8EBF0;       /* Tertiary / hover */
+  --bg-input:     #FFFFFF;       /* Input fields */
+
+  --border:       #DDE1E9;       /* Default borders */
+  --border-focus: #0066FF;       /* Focused input border */
+
+  --text-primary:   #0D1117;     /* Almost black */
+  --text-secondary: #4A5568;     /* Medium gray */
+  --text-muted:     #8B949E;     /* Muted labels */
+  --text-placeholder: #B0BAC9;
+
+  /* Brand — Electric Blue */
+  --blue:         #0066FF;
+  --blue-hover:   #0052CC;
+  --blue-light:   #EBF2FF;
+  --blue-mid:     #CCE0FF;
+  --blue-dark:    #003D99;
+
+  /* Secure Mode — Deep Royal Blue */
+  --secure:       #1045B8;
+  --secure-light: #E6EDFC;
+  --secure-border:#3B6FD4;
+
+  /* Status */
+  --success:      #1A7F37;
+  --success-light:#E6F4EA;
+  --warning:      #B54708;
+  --warning-light:#FEF3E2;
+  --error:        #CF222E;
+  --error-light:  #FFEEF0;
+
+  /* Typography */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', sans-serif;
+  --font-display: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+  --font-mono: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+
+  /* Spacing & Shape */
+  --radius-sm:  6px;
+  --radius:     10px;
+  --radius-lg:  16px;
+  --radius-xl:  20px;
+
+  /* Shadow */
+  --shadow-sm:  0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+  --shadow:     0 4px 16px rgba(0,0,0,.08), 0 1px 4px rgba(0,0,0,.04);
+  --shadow-lg:  0 16px 40px rgba(0,0,0,.12), 0 4px 12px rgba(0,0,0,.06);
+
+  /* Transitions */
+  --transition: all 0.18s cubic-bezier(0.4,0,0.2,1);
+}
+
+/* ── Reset ───────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  background: var(--bg-app);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* ── Base elements ───────────────────────────────────────────────────────── */
+button {
+  cursor: pointer; border: none; background: none;
+  color: inherit; font-family: inherit; font-size: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input, textarea {
+  font-family: inherit; font-size: inherit;
+  outline: none; border: none; background: none;
+  color: var(--text-primary);
+}
+
+a { color: var(--blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Typography ─────────────────────────────────────────────────────────── */
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; letter-spacing: -0.02em; }
+
+code {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 1px 5px;
+}
+
+pre {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  overflow-x: auto;
+  margin: 10px 0;
+  line-height: 1.55;
+}
+
+pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 13px;
+}
+
+p { margin-bottom: 10px; }
+p:last-child { margin-bottom: 0; }
+ul, ol { padding-left: 22px; margin-bottom: 10px; }
+li { margin-bottom: 3px; }
+
+/* ── Animations ──────────────────────────────────────────────────────────── */
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.4; }
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(0,102,255,0.3); }
+  50%       { box-shadow: 0 0 0 8px rgba(0,102,255,0); }
+}
+
+/* ── Utility classes ─────────────────────────────────────────────────────── */
+.fade-in { animation: fadeIn 0.2s ease; }
+.slide-up { animation: fadeSlideUp 0.25s ease; }
+.pulse { animation: pulse 1.5s ease-in-out infinite; }
+
+.badge {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 2px 8px; border-radius: 20px;
+  font-size: 11px; font-weight: 600; letter-spacing: 0.3px;
+}
+.badge-blue  { background: var(--blue-light); color: var(--blue-dark); }
+.badge-green { background: var(--success-light); color: var(--success); }
+.badge-red   { background: var(--error-light); color: var(--error); }
