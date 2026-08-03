@@ -19,7 +19,13 @@ rsync -a "$HOME/.hermes/profiles/cloud/" --exclude='logs/' --exclude='*.log' --e
 mkdir -p "$BACKUP_DIR/hub"
 rsync -a "$HOME/hermes-hub/server.py" "$HOME/hermes-hub/pin.json" "$HOME/hermes-hub/auth.json" "$BACKUP_DIR/hub/" 2>/dev/null || true
 
-# ── 3. Vault ──
+# ── 3. GHS-Vault (Obsidian second brain) — Kato 2026-08-03: was NOT backed up.
+# Git remote exists (github.com/atigerclawai-a11y/GHS-Vault) but daily snapshot adds redundancy.
+mkdir -p "$BACKUP_DIR/GHS_Vault"
+rsync -a --exclude='.git' --exclude='.obsidian/workspace*.json' \
+  "$HOME/GHS-Vault/" "$BACKUP_DIR/GHS_Vault/" 2>/dev/null || true
+
+# ── 3b. Rexxie vault (Hermes-managed)
 mkdir -p "$BACKUP_DIR/rexxie_vault"
 rsync -a "$HOME/.hermes/rexxie_vault/" "$BACKUP_DIR/rexxie_vault/" 2>/dev/null || true
 
