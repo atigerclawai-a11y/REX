@@ -145,10 +145,7 @@ blocked the ПТ column header — rejected.
    (5m) clobbers single-DB writes (real rollback 7/29).
 2. **Unmatched names → Kato immediately. Never silent fuzzy.** (Pako Mayya, Streltsova
    Nadiia, Hohal Raisa — all real clients with picks.)
-3. **Never quote DB numbers without verifying LIVE.** `ghs_schedule.db` holds the full
-   schedule TEMPLATE (110/55) — the live Carecenta portal shows generated appointments
-   (82/71). Canonical sources: LIVE Carecenta portal · Google Drive sheets (SA key) ·
-   goj_proprietary `ocr_scan` rows · auth_tracker `day_*_actual` (after Carecenta sync).
+3. **Never quote DB numbers without verifying LIVE — and NEVER use ghs_schedule.db as source of truth (Kato 2026-08-03, permanent).** `ghs_schedule.db` holds the full recurring schedule TEMPLATE (110/55) — it overcounts by ~28 in S1 because it lists everyone scheduled *any* Monday, not who's physically scheduled TODAY. **The ONLY attendance truth is the LIVE Carecenta portal** (`https://goj.daycenta.com/`): the dashboard's EXPECTED TODAY (MORNING/AFTERNOON) and the CLIENT SIGNATURE SIGN-IN page (per-client lists). **Only clients physically scheduled for that day are counted.** Canonical sources, in order: (1) LIVE Carecenta portal — dashboard + sign-in page, (2) Google Drive sheets (SA key), (3) goj_proprietary `ocr_scan` rows, (4) auth_tracker `day_*_actual` (only after Carecenta sync). ghs_schedule.db = reference-only template, NEVER quoted for counts.
 4. **Google auth law**: Gmail = IMAP ONLY (`~/.rex_gmail_imap.json`). Drive/Sheets =
    Service Account (`~/.rex_drive_service_account.json`). NEVER OAuth for Drive/Sheets.
 5. **Kato's dish rule**: mains = курица/мясо/рыба only. Generic OCR words map to specific
