@@ -37,6 +37,17 @@ rsync -a --max-size=50M \
   --include='*.py' --include='*.json' --exclude='__pycache__' --exclude='*' \
   "$HOME/Desktop/REX/scripts/" "$BACKUP_DIR/REX_scripts/" 2>/dev/null || true
 
+# ── 4c. GOJ Databases — CRITICAL (Kato 2026-08-03: DBs were never backed up. Last DB backup Jun 8.)
+mkdir -p "$BACKUP_DIR/GOJ_databases"
+for DB in \
+  "$HOME/Documents/goj files/dashboard/auth_tracker.db" \
+  "$HOME/Documents/goj files/proprietary/goj_proprietary.db" \
+  "$HOME/Documents/goj files/dashboard/ghs_schedule.db"; do
+  if [ -f "$DB" ]; then
+    cp "$DB" "$BACKUP_DIR/GOJ_databases/$(basename "$DB")" 2>/dev/null || true
+  fi
+done
+
 # ── 5. Notebook ──
 mkdir -p "$BACKUP_DIR/notebook"
 rsync -a "$HOME/.hermes/notebook/" "$BACKUP_DIR/notebook/" 2>/dev/null || true
