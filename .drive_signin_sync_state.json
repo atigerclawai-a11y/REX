@@ -1,0 +1,16 @@
+{
+  "last_run": "2026-08-03T09:09:38.251327Z",
+  "last_stats": {
+    "ok": true,
+    "date": "2026-08-03",
+    "day": "Monday",
+    "day_code": "M",
+    "drive_s1": 86,
+    "drive_s2": 71,
+    "purged_stale": 0,
+    "inserted": 0,
+    "skipped_dup": 157,
+    "matched": 157,
+    "unmatched": 0
+  }
+}

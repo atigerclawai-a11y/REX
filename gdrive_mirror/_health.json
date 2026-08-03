@@ -1,0 +1,16 @@
+{
+  "generated": "2026-08-03T09:06:05.386865+00:00",
+  "sources": {
+    "sign_in": "ok",
+    "attendance_tracking": "ok",
+    "calendar_2026": "?",
+    "menu_first_shift": "raw_mirrored",
+    "menu_second_shift": "raw_mirrored",
+    "carecenta_auth": "ok",
+    "new_auth": "?"
+  },
+  "source_count": 7,
+  "mirror_files": 2,
+  "mirror_bytes": 608019,
+  "ok": false
+}
