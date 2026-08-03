@@ -1,0 +1,51 @@
+{
+ "client_name": "Launikevich Alena",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-07",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Куриный суп",
+   "main": "Чалахач",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-08-03",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Куриный суп",
+   "main": "Чалахач",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Куриный суп",
+   "main": "Чалахач",
+   "side": "Картошка фри"
+  },
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Куриный суп",
+   "main": "Чалахач",
+   "side": "Картошка фри"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "3.Б",
+   "main": "Чалахач",
+   "side": "Туш. кап."
+  }
+ ]
+}

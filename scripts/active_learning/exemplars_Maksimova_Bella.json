@@ -1,0 +1,51 @@
+{
+ "client_name": "Maksimova Bella",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-07",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Салат Днестр",
+   "soup": "Борщ красный",
+   "main": "Чалахач",
+   "side": "Стручковая фасоль"
+  },
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Свекла",
+   "soup": "Куриный суп",
+   "main": "Чалахач",
+   "side": "Стручковая фасоль"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Днестр",
+   "soup": "Кур",
+   "main": "Чалахач",
+   "side": "Фасоль"
+  },
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Днестр",
+   "soup": "Горох",
+   "main": "Св. отбив",
+   "side": "Фасоль"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Ол",
+   "soup": "Кур",
+   "main": "Чалахач",
+   "side": "Фасоль"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "client_name": "Khazenfus Rima",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Квашеная капуста",
+   "soup": "Борщ зеленый",
+   "main": "Котлеты куриные",
+   "side": "Тушеная капуста"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Оливье",
+   "soup": "Гороховый",
+   "main": "Блины с мясом",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Селедка",
+   "soup": "3.Б",
+   "main": "Бл. мясо",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-10",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Селедка",
+   "soup": "3.Б",
+   "main": "Бл. мясо",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-03",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Селедка",
+   "soup": "3.Б",
+   "main": "Бл. мясо",
+   "side": ""
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "client_name": "Yastrubinetskaya Yuliya",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-30",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Квашеная капуста",
+   "soup": "Куриный суп",
+   "main": "Гуляш",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-28",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Свекла",
+   "soup": "Гороховый суп",
+   "main": "Голубцы",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Селедка",
+   "soup": "Овощ",
+   "main": "Гуляш",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Селедка",
+   "soup": "Овощ",
+   "main": "Гуляш",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Ол",
+   "soup": "Кур",
+   "main": "Бл. мясо",
+   "side": ""
+  }
+ ]
+}

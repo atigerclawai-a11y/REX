@@ -1,0 +1,51 @@
+{
+ "client_name": "Shulkina Ella",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "2",
+   "salad": "Салат из баклажан",
+   "soup": "Куриный суп",
+   "main": "Цыпленок табака",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Ол",
+   "soup": "Овощ",
+   "main": "Вар.Кар",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "2",
+   "salad": "баклаж",
+   "soup": "Кур",
+   "main": "табака",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Ол",
+   "soup": "Овощ",
+   "main": "Вар.Кар",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Ол",
+   "soup": "Овощ",
+   "main": "Вар.Кар",
+   "side": ""
+  }
+ ]
+}

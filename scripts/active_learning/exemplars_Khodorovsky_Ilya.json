@@ -1,0 +1,51 @@
+{
+ "client_name": "Khodorovsky Ilya",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Салат из баклажан",
+   "soup": "Овощной суп",
+   "main": "Куриные крылышки",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-07-29",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Квашеная капуста",
+   "soup": "Овощной суп",
+   "main": "Куриные крылышки",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Гороховый суп",
+   "main": "Куриные крылышки",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "Горох",
+   "main": "табака",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Кур",
+   "main": "S",
+   "side": "MP"
+  }
+ ]
+}

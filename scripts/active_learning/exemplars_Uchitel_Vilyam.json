@@ -1,0 +1,51 @@
+{
+ "client_name": "Uchitel Vilyam",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Квашеная капуста",
+   "soup": "Борщ зеленый",
+   "main": "Голубцы",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "Кур",
+   "main": "табака",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Б",
+   "main": "Котл. кур",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "капуста",
+   "soup": "3.Б",
+   "main": "Голубцы",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "баклаж",
+   "soup": "Гриб",
+   "main": "Шницель",
+   "side": "MP"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "client_name": "Posadova Liubov",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "Борщ зеленый",
+   "main": "Котлеты куриные",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "баклаж",
+   "soup": "3.Б",
+   "main": "Шницель",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "3.Б",
+   "main": "Котл. кур",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-16",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Ол",
+   "soup": "3.Б",
+   "main": "табака",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-13",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Ол",
+   "soup": "3.Б",
+   "main": "табака",
+   "side": ""
+  }
+ ]
+}

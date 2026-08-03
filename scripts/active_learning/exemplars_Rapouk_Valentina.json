@@ -1,0 +1,15 @@
+{
+ "client_name": "Rapouk Valentina",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-04",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Салат Днестр",
+   "soup": "Борщ красный",
+   "main": "Курица в терияки",
+   "side": "Паста"
+  }
+ ]
+}

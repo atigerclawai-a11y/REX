@@ -1,0 +1,52 @@
+# kitchen_pm_log.cpython-311.pyc — extracted docstring + string constants (marshal, Blue #191)
+# REFERENCE ONLY — NOT a valid .py source. For Kato's recreate effort.
+
+DOCSTRING:
+Morning +/- log for kitchen staff (Kato 2026-07-28): adds/removes vs yesterday's
+printed sheets + dish quantity deltas for today. Emails Kato a kitchen-ready summary.
+
+STRING CONSTANTS:
+/Users/mainsobhelper/Documents/goj files/dashboard/auth_tracker.db
+day_M_actual
+day_T_actual
+day_W_actual
+day_TH_actual
+day_F_actual
+day_Su_actual
+KITCHEN +/- LOG — 
+: weekend (weekday 
+), no attendance column — skipped
+/Users/mainsobhelper/Desktop/REX/output/roster_snapshot.json
+SELECT name, 
+ FROM clients WHERE active=1 AND 
+ IN (1,2)
+/Users/mainsobhelper/Documents/goj files/proprietary/goj_proprietary.db
+SELECT salad, soup, main, side FROM client_menus WHERE menu_date=? AND shift=?
+ (vs last print)
+HEAD COUNT: S1=
+ S2=
+ (total 
+)
++ ADDED (
+): 
+, 
+none
+- REMOVED (
+QUANTITIES:
+  
+: 
+ x
+\n
+/Users/mainsobhelper/.rex_gmail_imap.json
+email
+From
+To
+GOJ Kitchen +/- 
+ — +
+/-
+ (S1=
+Subject
+smtp.gmail.com
+app_password
+pathlib
+w

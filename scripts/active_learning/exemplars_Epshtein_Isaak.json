@@ -1,0 +1,51 @@
+{
+ "client_name": "Epshtein Isaak",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Харчо",
+   "main": "Чалахач",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-08-04",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Харчо",
+   "main": "Салмон",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-30",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
+   "main": "Салмон",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-28",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Квашеная капуста",
+   "soup": "Борщ зеленый",
+   "main": "Чалахач",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Ол",
+   "soup": "Б",
+   "main": "табака",
+   "side": "Паста"
+  }
+ ]
+}

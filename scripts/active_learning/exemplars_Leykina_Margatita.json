@@ -1,0 +1,51 @@
+{
+ "client_name": "Leykina Margatita",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Горох",
+   "main": "Вар.Кар",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-16",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Горох",
+   "main": "Чалахач",
+   "side": "FF"
+  },
+  {
+   "menu_date": "2026-07-09",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Горох",
+   "main": "Вар.Кар",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-02",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Вин",
+   "soup": "Б",
+   "main": "Св. отбив",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-06-30",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Б",
+   "main": "Св. отбив",
+   "side": "MP"
+  }
+ ]
+}

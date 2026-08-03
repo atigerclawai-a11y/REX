@@ -1,0 +1,51 @@
+{
+ "client_name": "Sorits Lev",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-07",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Вингерет",
+   "soup": "Гороховый суп",
+   "main": "",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-08-04",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Борщ красный",
+   "main": "Голубцы",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-08-03",
+   "day_code": "M",
+   "shift": "2",
+   "salad": "Оливье",
+   "soup": "",
+   "main": "",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Салат весенний",
+   "soup": "Гороховый суп",
+   "main": "Цыпленок табака",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-07-28",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Оливье",
+   "soup": "Борщ красный",
+   "main": "Голубцы",
+   "side": "Гречка"
+  }
+ ]
+}

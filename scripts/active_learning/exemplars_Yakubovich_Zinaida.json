@@ -1,0 +1,51 @@
+{
+ "client_name": "Yakubovich Zinaida",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "",
+   "soup": "",
+   "main": "",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Днестр",
+   "soup": "Кур",
+   "main": "S",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-10",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Днестр",
+   "soup": "Кур",
+   "main": "S",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-03",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Вин",
+   "soup": "Кур",
+   "main": "S",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-06-26",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Днестр",
+   "soup": "Кур",
+   "main": "S",
+   "side": "Картошка"
+  }
+ ]
+}

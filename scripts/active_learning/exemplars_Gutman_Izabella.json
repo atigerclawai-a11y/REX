@@ -1,0 +1,51 @@
+{
+ "client_name": "Gutman Izabella",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Куриный суп",
+   "main": "Чалахач",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Квашеная капуста",
+   "soup": "Куриный",
+   "main": "Чалахач",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Горох",
+   "main": "Котл. кур",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-10",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Горох",
+   "main": "Котл. кур",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-03",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Горох",
+   "main": "табака",
+   "side": "Фасоль"
+  }
+ ]
+}

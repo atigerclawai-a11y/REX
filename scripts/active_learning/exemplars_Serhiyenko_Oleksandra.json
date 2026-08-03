@@ -1,0 +1,51 @@
+{
+ "client_name": "Serhiyenko Oleksandra",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-05",
+   "day_code": "W",
+   "shift": "2",
+   "salad": "Селедка",
+   "soup": "Грибной суп",
+   "main": "Дорадо запеченая",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-08-04",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Селедка",
+   "soup": "Грибной суп",
+   "main": "Дорадо запеченая",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-07-29",
+   "day_code": "W",
+   "shift": "2",
+   "salad": "Селедка",
+   "soup": "Борщ красный",
+   "main": "Котлеты куриные",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-28",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Селедка",
+   "soup": "Борщ красный",
+   "main": "Котлеты куриные",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-26",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Рыба",
+   "main": "Олимп",
+   "side": ""
+  }
+ ]
+}

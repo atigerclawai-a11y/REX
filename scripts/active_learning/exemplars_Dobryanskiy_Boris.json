@@ -1,0 +1,51 @@
+{
+ "client_name": "Dobryanskiy Boris",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-03",
+   "day_code": "M",
+   "shift": "2",
+   "salad": "Оливье",
+   "soup": "",
+   "main": "Салмон",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "2",
+   "salad": "Оливье",
+   "soup": "Грибной суп",
+   "main": "Салмон",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-26",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Суп",
+   "soup": "Рыба",
+   "main": "Олимп",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Оливье",
+   "soup": "Гороховый суп",
+   "main": "Блины с мясом",
+   "side": null
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "2",
+   "salad": "Винегрет",
+   "soup": "Борщ зеленый",
+   "main": null,
+   "side": "Гречка"
+  }
+ ]
+}

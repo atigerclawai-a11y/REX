@@ -1,0 +1,51 @@
+{
+ "client_name": "Uhach Borbala",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-30",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Оливье",
+   "soup": "Куриный суп",
+   "main": "Чебуреки",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-07-28",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Салат весенний",
+   "soup": "Борщ красный",
+   "main": "Дорадо запеченая",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "капуста",
+   "soup": "Кур",
+   "main": "S",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Вин",
+   "soup": "Гриб",
+   "main": "Дорадо",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Свекла",
+   "soup": "Борщ красный",
+   "main": "Блины с мясом",
+   "side": null
+  }
+ ]
+}

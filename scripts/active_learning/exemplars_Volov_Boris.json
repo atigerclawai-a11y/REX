@@ -1,0 +1,51 @@
+{
+ "client_name": "Volov Boris",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Ол",
+   "soup": "Кур",
+   "main": "S",
+   "side": "Туш. кап."
+  },
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Гриб",
+   "main": "Дорадо",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-16",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Весна",
+   "soup": "Овощ",
+   "main": "Чалахач",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-14",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Днестр",
+   "soup": "Гриб",
+   "main": "Св. отбив",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-09",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Ол",
+   "soup": "Кур",
+   "main": "S",
+   "side": "Туш. кап."
+  }
+ ]
+}

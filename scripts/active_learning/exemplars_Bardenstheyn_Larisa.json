@@ -1,0 +1,24 @@
+{
+ "client_name": "Bardenstheyn Larisa",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Свекла",
+   "soup": "Куриный суп",
+   "main": "Салмон",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-08-03",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Борщ зеленый",
+   "main": "Котлеты куриные",
+   "side": ""
+  }
+ ]
+}

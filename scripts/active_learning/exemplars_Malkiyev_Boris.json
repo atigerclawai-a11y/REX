@@ -1,0 +1,51 @@
+{
+ "client_name": "Malkiyev Boris",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Борщ зеленый",
+   "main": "Гуляш",
+   "side": "Картошка фри"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Горох",
+   "main": "табака",
+   "side": "Туш. кап."
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Горох",
+   "main": "S",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Ол",
+   "soup": "Б",
+   "main": "Гуляш",
+   "side": "FF"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Б",
+   "main": "табака",
+   "side": "Туш. кап."
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "client_name": "Kutsenko Larysa",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Свекла",
+   "soup": "Куриный суп",
+   "main": "Салмон",
+   "side": "Стручковая фасоль"
+  }
+ ]
+}

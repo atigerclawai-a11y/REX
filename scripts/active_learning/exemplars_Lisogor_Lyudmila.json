@@ -1,0 +1,51 @@
+{
+ "client_name": "Lisogor Lyudmila",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-07",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Харчо",
+   "main": "Чалахач",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Харчо",
+   "main": "Чалахач",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "",
+   "soup": "",
+   "main": "Чалахач",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Харчо",
+   "main": "Бл. твор",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-10",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Харчо",
+   "main": "Бл. твор",
+   "side": ""
+  }
+ ]
+}

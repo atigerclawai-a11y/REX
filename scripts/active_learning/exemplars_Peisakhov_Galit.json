@@ -1,0 +1,51 @@
+{
+ "client_name": "Peisakhov Galit",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Винегрет",
+   "soup": "Куриный суп",
+   "main": "Котлеты куриные",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Винегрет",
+   "soup": "Куриный суп",
+   "main": "Котлеты куриные",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Свкл",
+   "soup": "3.Б",
+   "main": "Чалахач",
+   "side": "Туш. кап."
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Свкл",
+   "soup": "3.Б",
+   "main": "Чалахач",
+   "side": "Туш. кап."
+  },
+  {
+   "menu_date": "2026-07-10",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Свкл",
+   "soup": "3.Б",
+   "main": "Чалахач",
+   "side": "Туш. кап."
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "client_name": "Livanova Marioula",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-26",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Рыба",
+   "main": "Олимп",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Весна",
+   "soup": "Горох",
+   "main": "S",
+   "side": "Фасоль"
+  },
+  {
+   "menu_date": "2026-07-19",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Рыба",
+   "main": "Олимп",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-15",
+   "day_code": "W",
+   "shift": "2",
+   "salad": null,
+   "soup": null,
+   "main": "Жульен",
+   "side": null
+  },
+  {
+   "menu_date": "2026-07-14",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Весна",
+   "soup": "Гриб",
+   "main": "S",
+   "side": "Туш. кап."
+  }
+ ]
+}

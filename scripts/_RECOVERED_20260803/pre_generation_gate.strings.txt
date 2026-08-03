@@ -1,0 +1,61 @@
+# pre_generation_gate.cpython-311.pyc — extracted docstring + string constants (marshal, Blue #191)
+# REFERENCE ONLY — NOT a valid .py source. For Kato's recreate effort.
+
+DOCSTRING:
+PRE-GENERATION GATE — run before any menu-sheet generation for <date>.
+
+Usage:  python3 pre_generation_gate.py 2026-07-29
+Exit 0: safe to generate.  Exit 1: REFUSES to generate — every failure printed.
+
+Refuses if:
+  1. any attendee for <date> (auth_tracker day_X_actual IN (1,2), active=1)
+     lacks a COMPLETE menu row (row exists, shift in 1/2, 4 dishes non-empty)
+     in the canonical proprietary DB;
+  2. any client_menus row for <date> (either DB) has a bad shift or a
+     non-catalog / wrong-category dish (locked catalog week30_dishes.json);
+  3. any un-applied extraction_surya.json exists in blank_parse
+     (stale-sheet guard — OCR arrived but was never promoted/applied).
+
+Stdlib only. Read-only against both DBs — fixes nothing, reports only.
+
+
+STRING CONSTANTS:
+/Users/mainsobhelper/Documents/goj files/proprietary/goj_proprietary.db
+/Users/mainsobhelper/Desktop/REX/goj_proprietary.db
+/Users/mainsobhelper/Desktop/REX/blank_parse
+usage: pre_generation_gate.py <YYYY-MM-DD>
+GATE FAIL: 
+ is not a service day (weekday=
+)
+file:
+?mode=ro
+SELECT name FROM clients WHERE active=1 AND 
+ IN (1,2) ORDER BY name
+SELECT client_name, shift, salad, soup, main, side FROM client_menus WHERE menu_date=?
+ attendee(s) with NO menu row for 
+: 
+, 
+ ...
+
+ attendee(s) with INCOMPLETE menu row for 
+bad_shift:
+empty_
+non_catalog_
+:
+wrong_category_
+ shift=
+; 
+ contract-violating row(s) in 
+:\n    
+\n    
+\n    ...
+.applied
+*
+extraction_surya.json
+ UN-APPLIED extraction_surya.json (stale-sheet guard):\n    
+GATE FAIL for 
+ — DO NOT GENERATE:
+ -
+GATE PASS for 
+ attendees all have complete, catalog-clean rows; no stale sheets.
+__main__

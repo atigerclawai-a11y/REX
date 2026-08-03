@@ -1,0 +1,51 @@
+{
+ "client_name": "Gurevich Yevgeniy",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Винегрет",
+   "soup": "Грибной суп",
+   "main": "Блины с творогом",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Харчо",
+   "main": "Дорадо",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "Кур",
+   "main": "Гуляш",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Гриб",
+   "main": "Бл. твор",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-16",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Харчо",
+   "main": "Дорадо",
+   "side": "Гр"
+  }
+ ]
+}

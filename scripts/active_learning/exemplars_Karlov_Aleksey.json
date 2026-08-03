@@ -1,0 +1,51 @@
+{
+ "client_name": "Karlov Aleksey",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Гороховый суп",
+   "main": "Цыпленок табака",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-26",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Курица",
+   "main": "Олимп",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Горох",
+   "main": "табака",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-19",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Курица",
+   "main": "Олимп",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-13",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Горох",
+   "main": "табака",
+   "side": "Паста"
+  }
+ ]
+}

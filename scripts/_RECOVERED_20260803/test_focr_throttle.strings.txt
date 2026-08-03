@@ -1,0 +1,38 @@
+# test_focr_throttle.cpython-311.pyc — extracted docstring + string constants (marshal, Blue #191)
+# REFERENCE ONLY — NOT a valid .py source. For Kato's recreate effort.
+
+DOCSTRING:
+Synthetic proof: focr_recover_quarantine page-count throttle (OBJ-024, 2026-08-03).
+Proves pacing constants, page-count threshold (>40pp -> 8s, else 3s), sleep placement
+(never before pair 1), output-schema preservation, and sandbox isolation.
+Uses throwaway tmp dirs + stubbed focr — touches nothing live.
+
+STRING CONSTANTS:
+PASS
+FAIL
+-
+PAUSE_SECS == 3 (got %r)
+PAUSE_SECS_HEAVY == 8 (got %r)
+focr_throttle_verify_
+T
+M
+salad
+Оливье
+/tmp/fake.pdf
+light6
+6pp (3 pairs) -> [3,3] (got %r)
+heavy42
+42pp (21 pairs) -> 20x8 (got %r)
+b40
+40pp boundary -> 3s (got %r)
+b41
+41pp boundary -> 8s (got %r)
+blank_parse
+extraction.json
+selections
+САЛАТЫ
+extraction.json schema unchanged ([dish, dish, 100, 1.0])
+Desktop/REX/blank_parse/light6
+production blank_parse untouched
+VERIFICATION FAILED: %d checks
+ALL 9 CHECKS PASSED

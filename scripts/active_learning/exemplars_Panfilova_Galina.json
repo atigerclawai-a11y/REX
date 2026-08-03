@@ -1,0 +1,51 @@
+{
+ "client_name": "Panfilova Galina",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-04",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
+   "main": "Салмон",
+   "side": "Стручковая фасоль"
+  },
+  {
+   "menu_date": "2026-07-28",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
+   "main": "Салмон",
+   "side": "Тушеная капуста"
+  },
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "3.Б",
+   "main": "S",
+   "side": "Фасоль"
+  },
+  {
+   "menu_date": "2026-07-14",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Ол",
+   "soup": "3.Б",
+   "main": "S",
+   "side": "Фасоль"
+  },
+  {
+   "menu_date": "2026-07-07",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "3.Б",
+   "main": "S",
+   "side": "Фасоль"
+  }
+ ]
+}

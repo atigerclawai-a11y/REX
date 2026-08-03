@@ -1,0 +1,51 @@
+{
+ "client_name": "Feldman Klavdya",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-04",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
+   "main": "Блины с творогом",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-28",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
+   "main": "Блины с творогом",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Харчо",
+   "main": "S",
+   "side": "FF"
+  },
+  {
+   "menu_date": "2026-07-14",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Б",
+   "main": "Баса",
+   "side": "FF"
+  },
+  {
+   "menu_date": "2026-07-07",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Харчо",
+   "main": "S",
+   "side": "FF"
+  }
+ ]
+}

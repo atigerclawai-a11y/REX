@@ -1,0 +1,51 @@
+{
+ "client_name": "Starikov Yevgeniy",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Борщ зеленый",
+   "main": "Дорадо запеченая",
+   "side": "Картошка фри"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Горох",
+   "main": "S",
+   "side": "FF"
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Ол",
+   "soup": "Б",
+   "main": "Дорадо",
+   "side": "FF"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "баклаж",
+   "soup": "Харчо",
+   "main": "S",
+   "side": "FF"
+  },
+  {
+   "menu_date": "2026-07-13",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Овощ",
+   "main": "Котл. кур",
+   "side": "Туш. кап."
+  }
+ ]
+}

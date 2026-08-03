@@ -1,0 +1,51 @@
+{
+ "client_name": "Sherman Inga",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Салат Днестр",
+   "soup": "Борщ зеленый",
+   "main": "Пельмени",
+   "side": "Тушеная капуста"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "",
+   "soup": "",
+   "main": "Котлеты куриные",
+   "side": "Тушеная капуста"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Ол",
+   "soup": "Б",
+   "main": "Жульен",
+   "side": "Фасоль"
+  },
+  {
+   "menu_date": "2026-07-10",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Ол",
+   "soup": "Б",
+   "main": "Жульен",
+   "side": "Фасоль"
+  },
+  {
+   "menu_date": "2026-07-03",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Весна",
+   "soup": "3.Б",
+   "main": "Чалахач",
+   "side": "Паста"
+  }
+ ]
+}

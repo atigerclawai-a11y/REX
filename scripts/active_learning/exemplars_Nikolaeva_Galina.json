@@ -1,0 +1,51 @@
+{
+ "client_name": "Nikolaeva Galina",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Винегрет",
+   "soup": "Гороховый суп",
+   "main": "Баса с помидорами",
+   "side": "Тушеная капуста"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Днестр",
+   "soup": "Гриб",
+   "main": "Чалахач",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Свкл",
+   "soup": "3.Б",
+   "main": "Котл. кур",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Горох",
+   "main": "Баса",
+   "side": "Туш. кап."
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Днестр",
+   "soup": "Гриб",
+   "main": "Чалахач",
+   "side": "MP"
+  }
+ ]
+}

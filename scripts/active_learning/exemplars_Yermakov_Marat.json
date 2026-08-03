@@ -1,0 +1,51 @@
+{
+ "client_name": "Yermakov Marat",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Квашеная капуста",
+   "soup": "Борщ зеленый",
+   "main": "Чалахач",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Днестр",
+   "soup": "Харчо",
+   "main": "Чалахач",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Днестр",
+   "soup": "Горох",
+   "main": "Чалахач",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "капуста",
+   "soup": "Б",
+   "main": "Чалахач",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Днестр",
+   "soup": "Харчо",
+   "main": "Чалахач",
+   "side": ""
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+# cloud_menu_read.cpython-311.pyc — extracted docstring + string constants (marshal, Blue #191)
+# REFERENCE ONLY — NOT a valid .py source. For Kato's recreate effort.
+
+DOCSTRING:
+Cloud vision menu reader — SELECTIVE ESCALATION for cost control.
+Only reads pages surya flagged (contract violation / low confidence / category confusion).
+Model ladder: haiku first, sonnet only if haiku output fails validation.
+Anthropic key read from hermes config at runtime (never printed).
+
+STRING CONSTANTS:
+/Users/mainsobhelper/Desktop/REX
+scripts/week30_dishes.json
+/Users/mainsobhelper/.hermes/profiles/work/config.yaml
+anthropic:\s*\n\s*api_key:\s*(\S+)
+This is a Russian menu order form from a senior day care. Read it carefully.\nThe form has a name line (Имя:), day columns (ПН ВТ СР ЧТ ПТ), and sections with dish rows.\nEach dish row has one checkbox per day. Find ALL checked boxes.\n\nReturn ONLY JSON:\n{"name": "<client name as printed>",\n "picks": {"ПН": {"САЛАТЫ": "<dish or null>", "СУПЫ": "...", "ГЛАВНОЕ": "...", "ГАРНИР": "..."},\n           "ВТ": {...}, "СР": {...}, "ЧТ": {...}, "ПТ": {...}}}\nRules: a dish appears ONLY if its checkbox is visibly marked; null otherwise.\nIf a category/day has TWO marks, return them as "dish1 + dish2" (flag ambiguity, do not choose).\nValid dishes: 
+claude-haiku-4-5-20251001
+user
+image
+base64
+image/png
+text
+w
+.json
+curl
+-s
+-X
+POST
+https://api.anthropic.com/v1/messages
+-H
+x-api-key: 
+anthropic-version: 2023-06-01
+content-type: application/json
+-d
+@
+content
+\{.*\}
+parse/api error: 
+ | 
+__main__
+/tmp/qr_probe/doc006739-1.png
+engine=
+FAILED: 

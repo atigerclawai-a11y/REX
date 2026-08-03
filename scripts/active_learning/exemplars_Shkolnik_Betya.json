@@ -1,0 +1,51 @@
+{
+ "client_name": "Shkolnik Betya",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "3.Б",
+   "main": "Гуляш",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-14",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "3.Б",
+   "main": "Гуляш",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-07",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "3.Б",
+   "main": "Гуляш",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-06-30",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "3.Б",
+   "main": "Гуляш",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-06-23",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "3.Б",
+   "main": "Гуляш",
+   "side": ""
+  }
+ ]
+}

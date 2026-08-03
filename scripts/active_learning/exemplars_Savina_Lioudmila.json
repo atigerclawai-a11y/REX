@@ -1,0 +1,51 @@
+{
+ "client_name": "Savina Lioudmila",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Борщ зеленый",
+   "soup": "Куриный суп",
+   "main": "Котлеты куриные",
+   "side": "Тушеная капуста"
+  },
+  {
+   "menu_date": "2026-07-26",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Рыба",
+   "main": "Олимп",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "баклаж",
+   "soup": "Кур",
+   "main": "Голубцы",
+   "side": "Туш. кап."
+  },
+  {
+   "menu_date": "2026-07-19",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Рыба",
+   "main": "Олимп",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-16",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "баклаж",
+   "soup": "Кур",
+   "main": "Голубцы",
+   "side": "Туш. кап."
+  }
+ ]
+}

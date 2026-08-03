@@ -1,0 +1,51 @@
+{
+ "client_name": "Vayman Alexander",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Свекла",
+   "soup": "Грибной суп",
+   "main": "Куриные крылышки",
+   "side": "Картошка фри"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Овощной суп",
+   "main": "Поперечка",
+   "side": "Жареная картошка"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "капуста",
+   "soup": "Горох",
+   "main": "Терияки",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-10",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "капуста",
+   "soup": "Горох",
+   "main": "Терияки",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-10",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "капуста",
+   "soup": "Горох",
+   "main": "Терияки",
+   "side": "MP"
+  }
+ ]
+}

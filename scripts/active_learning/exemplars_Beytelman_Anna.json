@@ -1,0 +1,51 @@
+{
+ "client_name": "Beytelman Anna",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Грибной суп",
+   "main": "Чалахач",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-26",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Мясо",
+   "main": "",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Гриб",
+   "main": "Чалахач",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Гриб",
+   "main": "Чалахач",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-19",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Мясо",
+   "main": "",
+   "side": ""
+  }
+ ]
+}

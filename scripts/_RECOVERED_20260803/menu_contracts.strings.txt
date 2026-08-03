@@ -1,0 +1,63 @@
+# menu_contracts.cpython-311.pyc — extracted docstring + string constants (marshal, Blue #191)
+# REFERENCE ONLY — NOT a valid .py source. For Kato's recreate effort.
+
+DOCSTRING:
+Write-time contract gate for GOJ client_menus (Kato-approved 2026-07-28).
+
+Every INSERT/UPDATE into client_menus MUST pass through validate_row().
+Violations are never silently dropped — they go to menu_quarantine (payload + reason + ts).
+
+Enforced contracts:
+  1. shift IN ('1','2')                        (kills day-letter-in-shift bug)
+  2. all 4 dish cells non-null / non-empty     (kills incomplete-row bug)
+  3. every dish IN locked catalog AND right category (week30_dishes.json, 42 dishes)
+  4. menu_date weekday matches a day the client is scheduled
+     (auth_tracker.db clients.day_X_actual IN (1,2)) — EXEMPT when
+     source_sheet='ocr_scan' (form-day rows may be off-schedule)
+  5. no duplicate (client,date,shift): on conflict ocr_scan WINS over
+     fallback/house sources; anything else -> quarantine.
+
+Stdlib only. Light RAM (catalog + schedule cached once per process).
+
+
+STRING CONSTANTS:
+week30_dishes.json
+/Users/mainsobhelper/Documents/goj files/dashboard/auth_tracker.db
+САЛАТЫ
+СУПЫ
+ГЛАВНОЕ
+ГАРНИР
+day_M_actual
+day_T_actual
+day_W_actual
+day_TH_actual
+day_F_actual
+day_Su_actual
+ocr_scan
+CREATE TABLE IF NOT EXISTS menu_quarantine (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    client_name TEXT, menu_date TEXT, shift TEXT,\n    salad TEXT, soup TEXT, main TEXT, side TEXT,\n    source_sheet TEXT, reason TEXT, ts TEXT DEFAULT (datetime('now'))\n)
+dish_aliases.json
+utf-8
+ 
+\b\d{5,}\b
+
+-
+, 
+SELECT name, 
+ FROM clients WHERE active=1
+Tests only: drop cached catalog/schedule after swapping AUTH_DB.
+INSERT INTO menu_quarantine (client_name, menu_date, shift, salad, soup, main, side, source_sheet, reason) VALUES (?,?,?,?,?,?,?,?,?)
+Returns (ok, violations, action).\n    ok=True  -> safe to write; action is 'insert' or 'replace' (delete existing first).\n    ok=False -> do NOT write; caller must quarantine_row() with '; '.join(violations).\n    
+bad_shift:
+empty_
+wrong_category_
+:
+non_catalog_
+no_service_weekday:
+no_roster_match:
+off_schedule:
+ weekday=
+bad_date:
+insert
+SELECT source_sheet FROM client_menus WHERE client_name=? AND menu_date=? AND shift=?
+replace
+duplicate_conflict:existing_source=

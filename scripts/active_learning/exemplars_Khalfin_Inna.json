@@ -1,0 +1,51 @@
+{
+ "client_name": "Khalfin Inna",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Винегрет",
+   "soup": "Гороховый суп",
+   "main": "Оливье",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-30",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Винегрет",
+   "soup": "Гороховый суп",
+   "main": "Котлеты куриные",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-26",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Курица",
+   "main": "Олимп",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Свкл",
+   "soup": "Горох",
+   "main": "Чалахач",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-19",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Курица",
+   "main": "Олимп",
+   "side": ""
+  }
+ ]
+}

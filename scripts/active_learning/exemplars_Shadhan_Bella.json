@@ -1,0 +1,51 @@
+{
+ "client_name": "Shadhan Bella",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Квашеная капуста",
+   "soup": "Куриный суп",
+   "main": "Вареники с картошкой",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Весна",
+   "soup": "Кур",
+   "main": "Дорадо",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Овощ",
+   "main": "Шницель",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "капуста",
+   "soup": "Кур",
+   "main": "Вар.Кар",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-16",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Весна",
+   "soup": "Кур",
+   "main": "Дорадо",
+   "side": ""
+  }
+ ]
+}

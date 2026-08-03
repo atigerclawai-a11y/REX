@@ -1,0 +1,51 @@
+{
+ "client_name": "Kats Boris",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Свекла",
+   "soup": "Овощной суп",
+   "main": "Салмон",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-07-29",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
+   "main": "Салмон",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Свекла",
+   "soup": "Овощной суп",
+   "main": "Блины с творогом",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Куриный",
+   "main": "",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Квашеная капуста",
+   "soup": "Куриный",
+   "main": "",
+   "side": ""
+  }
+ ]
+}

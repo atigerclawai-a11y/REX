@@ -1,0 +1,51 @@
+{
+ "client_name": "Lebedenko Valentina",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Куриный суп",
+   "main": "Котлеты куриные",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Кур",
+   "main": "Св. отбив",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "баклаж",
+   "soup": "Горох",
+   "main": "S",
+   "side": "Туш. кап."
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Кур",
+   "main": "Котл. кур",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "баклаж",
+   "soup": "",
+   "main": "Баса",
+   "side": ""
+  }
+ ]
+}

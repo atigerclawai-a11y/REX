@@ -1,0 +1,47 @@
+# drain_quarantine.cpython-311.pyc — extracted docstring + string constants (marshal, Blue #191)
+# REFERENCE ONLY — NOT a valid .py source. For Kato's recreate effort.
+
+DOCSTRING:
+Drain menu_quarantine: re-validate with fixed contracts, canonicalize dishes,
+insert valid rows, top up partials from client's own picks/house, delete drained.
+Runs on both DBs.
+
+STRING CONSTANTS:
+/Users/mainsobhelper/Desktop/REX
+scripts
+scripts/week30_dishes.json
+scripts/dish_aliases.json
+Оливье
+Куриный суп
+Котлеты куриные
+Гречка
+/Users/mainsobhelper/Documents/goj files/dashboard/auth_tracker.db
+day_M_actual
+day_T_actual
+day_W_actual
+day_TH_actual
+day_F_actual
+day_Su_actual
+ 
+\b\d{5,}\b
+
+-
+, 
+SELECT name, 
+ FROM clients WHERE active=1
+Returns (date, shift) — repairs writer's day-letter bug:\n    day letter is the TRUE weekday; row date may be wrong. Recompute date from\n    the row's ISO-week Monday + day offset; shift = roster shift that weekday,\n    else the client's most common scheduled shift (travel-source rows).
+/Users/mainsobhelper/Documents/goj files/proprietary/goj_proprietary.db
+goj_proprietary.db
+SELECT id, client_name, menu_date, shift, salad, soup, main, side, source_sheet FROM menu_quarantine
+SELECT 
+ FROM client_menus WHERE client_name=? AND 
+ IS NOT NULL AND 
+ != ''\n                ORDER BY menu_date DESC LIMIT 20
+replace
+DELETE FROM client_menus WHERE client_name=? AND menu_date=? AND shift=?
+INSERT INTO client_menus (client_name, menu_date, shift, salad, soup, main, side, source_sheet) VALUES (?,?,?,?,?,?,?,?)
+DELETE FROM menu_quarantine WHERE id=?
+SELECT COUNT(*) FROM menu_quarantine
+/
+: drained 
+, still-quarantined 

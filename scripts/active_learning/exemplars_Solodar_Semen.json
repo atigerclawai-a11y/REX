@@ -1,0 +1,51 @@
+{
+ "client_name": "Solodar Semen",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Винегрет",
+   "soup": "Грибной суп",
+   "main": "Жульен",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Днестр",
+   "soup": "Кур",
+   "main": "табака",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Днестр",
+   "soup": "Кур",
+   "main": "табака",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-10",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Б",
+   "main": "Пельмени",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-03",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Харчо",
+   "main": "Вар.Кар",
+   "side": "MP"
+  }
+ ]
+}

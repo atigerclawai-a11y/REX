@@ -1,0 +1,51 @@
+{
+ "client_name": "Tsulaia Boris",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-07",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Винегрет",
+   "soup": "Борщ красный",
+   "main": "Салмон",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-08-04",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Винегрет",
+   "soup": "Борщ красный",
+   "main": "Салмон",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Селедка",
+   "soup": "Б",
+   "main": "S",
+   "side": "Фасоль"
+  },
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Свкл",
+   "soup": "Б",
+   "main": "Гуляш",
+   "side": "Фасоль"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Винегрет",
+   "soup": "Борщ красный",
+   "main": "Салмон",
+   "side": "Гречка"
+  }
+ ]
+}

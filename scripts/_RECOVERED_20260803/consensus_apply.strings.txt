@@ -1,0 +1,38 @@
+# consensus_apply.cpython-311.pyc — extracted docstring + string constants (marshal, Blue #191)
+# REFERENCE ONLY — NOT a valid .py source. For Kato's recreate effort.
+
+DOCSTRING:
+Consensus layer: surya vs cloud. Agree -> auto-accept. Disagree -> review queue.
+Cost control: cloud is ONLY invoked for forms whose surya extraction has problems
+(contract violation, category confusion, empty-but-inked, low checkbox count).
+
+STRING CONSTANTS:
+/Users/mainsobhelper/Desktop/REX
+/Users/mainsobhelper/Documents/goj files/proprietary/goj_proprietary.db
+scripts/week30_dishes.json
+САЛАТЫ
+СУПЫ
+ГЛАВНОЕ
+ГАРНИР
+Return list of problem descriptions for a surya extraction entry.
+selections
+non-catalog dish "
+" in 
+/
+category confusion: "
+no marks read at all
+CREATE TABLE IF NOT EXISTS menu_review_queue (\n        id INTEGER PRIMARY KEY AUTOINCREMENT, client_name TEXT, batch TEXT, day TEXT,\n        category TEXT, surya_pick TEXT, cloud_pick TEXT, status TEXT DEFAULT 'pending',\n        resolved_pick TEXT, resolved_by TEXT, created_at TEXT DEFAULT CURRENT_TIMESTAMP,\n        resolved_at TEXT)
+blank_parse
+extraction.json
+: no extraction.json
+UNMATCHED
+: 
+ forms, 
+ need cloud consensus (
+%)
+  
+ (+
+ more)
+
+__main__
+doc00673920260727042014

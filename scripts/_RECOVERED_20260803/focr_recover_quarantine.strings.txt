@@ -1,0 +1,65 @@
+# focr_recover_quarantine.cpython-311.pyc — extracted docstring + string constants (marshal, Blue #191)
+# REFERENCE ONLY — NOT a valid .py source. For Kato's recreate effort.
+
+DOCSTRING:
+focr recovery for quarantined menu docs (doc006808, doc006809).
+Renders page pairs at 200dpi, runs focr_reader per pair, writes extraction.json
+in the standard schema [dish, abbr, 100, 1.0]. Multi-mark days → first dish
+(choice A) + printed for the alternating pass (Kato double-mark rule).
+
+STRING CONSTANTS:
+Desktop/REX
+scripts
+САЛАТЫ
+СУПЫ
+ГЛАВНОЕ
+ГАРНИР
+pdf
+p1
+p2
+work
+return
+pg
+03d
+*.png
+pdftoppm
+-png
+-r
+200
+-f
+-l
+doc
+n_pages
+blank_parse
+  pair 
+-
+: ERROR 
+name
+marks
+: no name/marks (skip)
+: 
+ — 
+ days marked
+extraction.json
+ forms -> 
+  DOUBLE-MARK flag (
+):
+   
+__main__
+.page_guard_recover.json
+docs
+manifest empty — nothing to recover
+PAGE GUARD manifest: recovering 
+ docs
+menu_intake_stable
+.pdf
+menu_ocr_quarantine
+menu_ocr_full
+menu_ocr_inbox
+Documents/goj files/scans
+*.pdf
+MISSING 
+=== 
+ (
+pp) ===
+manifest error: 

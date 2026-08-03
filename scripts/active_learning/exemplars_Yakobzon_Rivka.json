@@ -1,0 +1,51 @@
+{
+ "client_name": "Yakobzon Rivka",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
+   "main": "Чалахач",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-08-04",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Квашеная капуста",
+   "soup": "Грибной суп",
+   "main": "Баса с помидорами",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-08-03",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
+   "main": "Чалахач",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Свкл",
+   "soup": "Кур",
+   "main": "S",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "капуста",
+   "soup": "Горох",
+   "main": "Баса",
+   "side": "MP"
+  }
+ ]
+}

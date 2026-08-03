@@ -1,0 +1,51 @@
+{
+ "client_name": "Parkansky Rita",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Салат из баклажан",
+   "soup": "Борщ зеленый",
+   "main": "Шницель куриный",
+   "side": "Тушеная капуста"
+  },
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Ол",
+   "soup": "3.Б",
+   "main": "крылья",
+   "side": "Туш. кап."
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "капуста",
+   "soup": "Б",
+   "main": "S",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "баклаж",
+   "soup": "Б",
+   "main": "Шницель",
+   "side": "Туш. кап."
+  },
+  {
+   "menu_date": "2026-07-16",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Ол",
+   "soup": "3.Б",
+   "main": "крылья",
+   "side": "Туш. кап."
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "client_name": "Kononovich Olexandra",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-04",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Борщ зеленый",
+   "main": "Блины с творогом",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-28",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Борщ зеленый",
+   "main": "Блины с творогом",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "баклаж",
+   "soup": "3.Б",
+   "main": "S",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-14",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Салат из баклажан",
+   "soup": "Овощной суп",
+   "main": "Блины с творогом",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-07",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "баклаж",
+   "soup": "3.Б",
+   "main": "S",
+   "side": "MP"
+  }
+ ]
+}

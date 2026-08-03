@@ -1,0 +1,51 @@
+{
+ "client_name": "Dovgalyuk Zelda",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "2",
+   "salad": "Винегрет",
+   "soup": "Борщ зеленый",
+   "main": "Гуляш",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Вин",
+   "soup": "3.Б",
+   "main": "Чалахач",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Днестр",
+   "soup": "3.Б",
+   "main": "Котл. кур",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "2",
+   "salad": "Вин",
+   "soup": "3.Б",
+   "main": "Гуляш",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-16",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Вин",
+   "soup": "3.Б",
+   "main": "Чалахач",
+   "side": "Гр"
+  }
+ ]
+}

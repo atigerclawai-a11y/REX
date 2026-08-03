@@ -1,0 +1,51 @@
+{
+ "client_name": "Levit Leonid",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
+   "main": "Поперечка",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-29",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
+   "main": "Поперечка",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
+   "main": "Поперечка",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "баклаж",
+   "soup": "3.Б",
+   "main": "Чалахач",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "3.Б",
+   "main": "табака",
+   "side": "Картошка"
+  }
+ ]
+}

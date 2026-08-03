@@ -1,0 +1,24 @@
+{
+ "client_name": "Yarina Lyudmila",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Свекла",
+   "soup": "Борщ красный",
+   "main": "Цыпленок табака",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Винегрет",
+   "soup": "Борщ красный",
+   "main": "Поперечка",
+   "side": "Гречка"
+  }
+ ]
+}

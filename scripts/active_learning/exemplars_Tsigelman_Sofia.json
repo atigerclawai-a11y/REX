@@ -1,0 +1,51 @@
+{
+ "client_name": "Tsigelman Sofia",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Селедка",
+   "soup": "Харчо",
+   "main": "Шницель",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-16",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Селедка",
+   "soup": "Харчо",
+   "main": "Шницель",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-16",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "Харчо",
+   "main": "Шницель",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-09",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Селедка",
+   "soup": "Харчо",
+   "main": "Шницель",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-02",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Селедка",
+   "soup": "Харчо",
+   "main": "Шницель",
+   "side": ""
+  }
+ ]
+}

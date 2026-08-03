@@ -1,0 +1,51 @@
+{
+ "client_name": "Galanter Molca",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-26",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Рыба",
+   "main": "Олимп",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-19",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Рыба",
+   "main": "Олимп",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-12",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Рыба",
+   "main": "Олимп",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-06-28",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Рыба",
+   "main": "Олимп",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-06-21",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Рыба",
+   "main": "Олимп",
+   "side": ""
+  }
+ ]
+}

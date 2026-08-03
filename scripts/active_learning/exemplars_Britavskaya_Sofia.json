@@ -1,0 +1,51 @@
+{
+ "client_name": "Britavskaya Sofia",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Борщ зеленый",
+   "main": "Блины с мясом",
+   "side": "Тушеная капуста"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "баклаж",
+   "soup": "Овощ",
+   "main": "крылья",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Свкл",
+   "soup": "Горох",
+   "main": "Вар.Кар",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Ол",
+   "soup": "Б",
+   "main": "Бл. мясо",
+   "side": "Туш. кап."
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "Гриб",
+   "main": "табака",
+   "side": "Паста"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "client_name": "Platova Zhanna",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-30",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Винегрет",
+   "soup": "Овощной суп",
+   "main": "Дорадо запеченая",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-07-29",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Борщ красный",
+   "main": "Шницель куриный",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Квашеная капуста",
+   "soup": "Харчо",
+   "main": "Куриные крылышки",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Днестр",
+   "soup": "Б",
+   "main": "Чебуреки",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Б",
+   "main": "табака",
+   "side": "FF"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "client_name": "Rudinskaya Ella",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-07",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Винегрет",
+   "soup": "Борщ зеленый",
+   "main": "Салмон",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Б",
+   "main": "S",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Б",
+   "main": "S",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-10",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "капуста",
+   "soup": "Харчо",
+   "main": "S",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-03",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "капуста",
+   "soup": "3.Б",
+   "main": "S",
+   "side": "Гр"
+  }
+ ]
+}

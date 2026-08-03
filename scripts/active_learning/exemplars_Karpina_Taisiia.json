@@ -1,0 +1,51 @@
+{
+ "client_name": "Karpina Taisiia",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Б",
+   "main": "Чалахач",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Б",
+   "main": "Чалахач",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-10",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Б",
+   "main": "Чалахач",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-03",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Б",
+   "main": "Чалахач",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-06-26",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Б",
+   "main": "Чалахач",
+   "side": "MP"
+  }
+ ]
+}

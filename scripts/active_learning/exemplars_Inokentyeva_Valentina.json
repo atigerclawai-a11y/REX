@@ -1,0 +1,51 @@
+{
+ "client_name": "Inokentyeva Valentina",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-03",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "",
+   "soup": "",
+   "main": "Салмон",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Винегрет",
+   "soup": "Грибной суп",
+   "main": "Салмон",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Винегрет",
+   "soup": "Грибной суп",
+   "main": "Котлеты куриные",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-13",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Гриб",
+   "main": "S",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-06-29",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Вин",
+   "soup": "Гриб",
+   "main": "Голубцы",
+   "side": ""
+  }
+ ]
+}

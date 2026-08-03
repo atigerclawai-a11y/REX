@@ -1,0 +1,51 @@
+{
+ "client_name": "Moroz Nina",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "баклаж",
+   "soup": "Б",
+   "main": "S",
+   "side": "Туш. кап."
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "баклаж",
+   "soup": "Б",
+   "main": "S",
+   "side": "Туш. кап."
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "баклаж",
+   "soup": "Б",
+   "main": "S",
+   "side": "Туш. кап."
+  },
+  {
+   "menu_date": "2026-07-15",
+   "day_code": "W",
+   "shift": "1",
+   "salad": null,
+   "soup": null,
+   "main": "Салмон",
+   "side": null
+  },
+  {
+   "menu_date": "2026-07-13",
+   "day_code": "M",
+   "shift": "1",
+   "salad": null,
+   "soup": null,
+   "main": "Чалахач",
+   "side": null
+  }
+ ]
+}

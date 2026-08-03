@@ -1,0 +1,51 @@
+{
+ "client_name": "Kutsenko Larisa",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Гороховый суп",
+   "main": "Котлеты куриные",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "капуста",
+   "soup": "Гриб",
+   "main": "S",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Весна",
+   "soup": "Кур",
+   "main": "Терияки",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Ол",
+   "soup": "Горох",
+   "main": "Котл. кур",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Весна",
+   "soup": "3.Б",
+   "main": "Котл. кур",
+   "side": "Картошка"
+  }
+ ]
+}

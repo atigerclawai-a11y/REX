@@ -1,0 +1,51 @@
+{
+ "client_name": "Minogina Ninel",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-26",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Рыба",
+   "main": "Олимп",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Свкл",
+   "soup": "Харчо",
+   "main": "Гуляш",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "2",
+   "salad": "Днестр",
+   "soup": "Харчо",
+   "main": "Бл. мясо",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-19",
+   "day_code": "Su",
+   "shift": "1",
+   "salad": "Борщ",
+   "soup": "Рыба",
+   "main": "Олимп",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Свкл",
+   "soup": "Харчо",
+   "main": "Гуляш",
+   "side": ""
+  }
+ ]
+}

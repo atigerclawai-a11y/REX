@@ -1,0 +1,51 @@
+{
+ "client_name": "Krayz Raisa",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Весна",
+   "soup": "Кур",
+   "main": "Поперечка",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "Гриб",
+   "main": "табака",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-16",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Весна",
+   "soup": "Кур",
+   "main": "Поперечка",
+   "side": "Гр"
+  },
+  {
+   "menu_date": "2026-07-14",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "Гриб",
+   "main": "табака",
+   "side": "Паста"
+  },
+  {
+   "menu_date": "2026-07-09",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Весна",
+   "soup": "Кур",
+   "main": "Поперечка",
+   "side": "Гр"
+  }
+ ]
+}

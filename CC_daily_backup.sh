@@ -30,6 +30,13 @@ rsync -a --max-size=50M \
   --exclude='*' \
   "$HOME/Desktop/REX/" "$BACKUP_DIR/REX_toplevel/" 2>/dev/null || true
 
+# ── 4b. REX scripts/ subdir — CRITICAL (was excluded → unrecoverable wipe 2026-08-03).
+# Kato 2026-08-03: scripts/ must ALWAYS be in the daily snapshot.
+mkdir -p "$BACKUP_DIR/REX_scripts"
+rsync -a --max-size=50M \
+  --include='*.py' --include='*.json' --exclude='__pycache__' --exclude='*' \
+  "$HOME/Desktop/REX/scripts/" "$BACKUP_DIR/REX_scripts/" 2>/dev/null || true
+
 # ── 5. Notebook ──
 mkdir -p "$BACKUP_DIR/notebook"
 rsync -a "$HOME/.hermes/notebook/" "$BACKUP_DIR/notebook/" 2>/dev/null || true

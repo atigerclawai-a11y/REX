@@ -1,0 +1,51 @@
+{
+ "client_name": "Shvayko Nelli",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Свкл",
+   "soup": "Гриб",
+   "main": "Чалахач",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Свкл",
+   "soup": "Б",
+   "main": "табака",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Свкл",
+   "soup": "Гриб",
+   "main": "Чалахач",
+   "side": "Картошка"
+  },
+  {
+   "menu_date": "2026-07-15",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Свкл",
+   "soup": "Б",
+   "main": "табака",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-10",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Свкл",
+   "soup": "Гриб",
+   "main": "Чалахач",
+   "side": "Картошка"
+  }
+ ]
+}

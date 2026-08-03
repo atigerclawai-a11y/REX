@@ -1,0 +1,76 @@
+# focr_reader.cpython-311.pyc — extracted docstring + string constants (marshal, Blue #191)
+# REFERENCE ONLY — NOT a valid .py source. For Kato's recreate effort.
+
+DOCSTRING:
+focr (Unlimited-OCR) — local second-opinion reader for the consensus layer.
+Auditioned + approved by Kato 2026-07-29 (read Pako Mayya's form perfectly where
+surya garbled it). Use for: unmatched names, low-confidence pages, zero-block pages.
+Returns {name, marks: {day: {category: [dishes]}}} from a form page pair.
+
+FIX 2026-08-02: category assignment now uses DISH membership (authoritative),
+not section-header text — focr emits СУПЫ/ГЛАВНОЕ tables WITHOUT header rows,
+which leaked cur_cat (soups/mains tagged 'salad'). Marks per day-category are
+now a LIST (multiple marks survive for the double-mark alternating rule).
+
+
+STRING CONSTANTS:
+/Users/mainsobhelper/.local/bin/focr
+salad
+soup
+main
+side
+Оливье
+Сало
+Квашеная капуста
+Квашеня капуста
+Свекла
+Винегрет
+Вингерет
+Салат Днестр
+Салат из баклажан
+Селедка
+Салат весенний
+Борщ зеленый
+Борщ красный
+Гороховый суп
+Грибной суп
+Куриный суп
+Овощной суп
+Харчо
+Баса с помидорами
+Блины с мясом
+Блины с творогом
+Вареники с картошкой
+Голубцы
+Гуляш
+Дорадо запеченая
+Жульен
+Котлеты куриные
+Курица в терияки
+Куриные крылышки
+Пельмени
+Поперечка
+Салмон
+Свиная отбивная
+Цыпленок табака
+label
+Map focr's typo'd label to the canonical dish when unambiguous.
+[А-Яа-я]{4,}
+p1_path
+p2_path
+return
+Read both pages of a menu form; return {name, marks: {day: {cat: [dishes]}}}.
+ocr
+Имя:\s*([^<]+?)\s*<
+<tr>(.*?)</tr>
+<td[^>]*>(.*?)</td>
+<[^>]+>
+
++
+√
+<img
+☑
+✔
+X
+x
+__main__

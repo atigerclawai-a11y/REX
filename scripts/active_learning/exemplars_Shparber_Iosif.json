@@ -1,0 +1,51 @@
+{
+ "client_name": "Shparber Iosif",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-08-04",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "Куриный суп",
+   "main": "Дорадо запеченая",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-07-28",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "Куриный суп",
+   "main": "Дорадо запеченая",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-07-21",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "Куриный",
+   "main": "",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-14",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "баклаж",
+   "soup": "Кур",
+   "main": "Дорадо",
+   "side": "FF"
+  },
+  {
+   "menu_date": "2026-07-07",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "баклаж",
+   "soup": "Кур",
+   "main": "Дорадо",
+   "side": "FF"
+  }
+ ]
+}

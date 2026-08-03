@@ -1,0 +1,51 @@
+{
+ "client_name": "Dmitriyeva Tamara",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Борщ зеленый",
+   "main": "Баса с помидорами",
+   "side": "Тушеная капуста"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Ол",
+   "soup": "3.Б",
+   "main": "Поперечка",
+   "side": "MP"
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Ол",
+   "soup": "3.Б",
+   "main": "крылья",
+   "side": "Туш. кап."
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Ол",
+   "soup": "3.Б",
+   "main": "Баса",
+   "side": "Туш. кап."
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "3.Б",
+   "main": "табака",
+   "side": "Паста"
+  }
+ ]
+}

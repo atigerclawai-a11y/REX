@@ -1,0 +1,51 @@
+{
+ "client_name": "Gurevich Roza",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-30",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Свекла",
+   "soup": "Овощной суп",
+   "main": "Блины с мясом",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-28",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "Куриный суп",
+   "main": "Блины с мясом",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Квашеная капуста",
+   "soup": "Овощной суп",
+   "main": "Блины с мясом",
+   "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Борщ красный",
+   "main": "Блины с мясом",
+   "side": null
+  },
+  {
+   "menu_date": "2026-07-23",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "капуста",
+   "soup": "Овощ",
+   "main": "Дорадо",
+   "side": "Гр"
+  }
+ ]
+}

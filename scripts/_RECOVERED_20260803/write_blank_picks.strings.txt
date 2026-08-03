@@ -1,0 +1,85 @@
+# write_blank_picks.cpython-311.pyc — extracted docstring + string constants (marshal, Blue #191)
+# REFERENCE ONLY — NOT a valid .py source. For Kato's recreate effort.
+
+DOCSTRING:
+Write all BLANK-form extractions into client_menus (Kato-approved 'write it' 2026-07-27).
+- Authoritative REPLACE for (client, date, shift) where a BLANK extraction exists
+  (old-intake rows for those cells came from misparsed checkbox batches = garbage).
+- Format matches existing ocr_scan rows (auto-detected).
+- Reports: written, conflicts replaced, skipped.
+
+STRING CONSTANTS:
+/Users/mainsobhelper/Desktop/REX/scripts
+/Users/mainsobhelper/Documents/goj files/proprietary/goj_proprietary.db
+/Users/mainsobhelper/Desktop/REX/goj_proprietary.db
+/Users/mainsobhelper/Documents/goj files/dashboard/auth_tracker.db
+2026-07-20
+2026-07-21
+2026-07-22
+2026-07-23
+2026-07-24
+2026-07-27
+2026-07-28
+2026-07-29
+2026-07-30
+2026-07-31
+M
+T
+W
+TH
+F
+day_M_actual
+day_T_actual
+day_W_actual
+day_TH_actual
+day_F_actual
+salad
+soup
+main
+side
+ 
+\b\d{5,}\b
+
+-
+SELECT name, day_M_actual, day_T_actual, day_W_actual, day_TH_actual, day_F_actual FROM clients WHERE active=1
+SELECT salad, soup, main, side FROM client_menus WHERE source_sheet='ocr_scan' AND menu_date >= '2026-07-20' LIMIT 200
+writing FULL dish names (existing-row convention)
+sample rows:
+/Users/mainsobhelper/Desktop/REX/menu_template/first_shift_menu.xlsx
+Menu
+/Users/mainsobhelper/Desktop/REX/blank_parse/*/extraction.json
+/
+1087_
+1088_
+1089_
+1090_
+1098_
+1099_
+1110_
+1111_
+1112_
+1121_
+1189_
+1190_
+1200_
+1201_
+1784140252_
+doc006283
+doc006324
+no roster match
+selections
+SELECT salad, soup, main, side, source_sheet FROM client_menus WHERE client_name=? AND menu_date=? AND shift=?
+ocr_scan
+; 
+DELETE FROM client_menus WHERE client_name=? AND menu_date=? AND shift=?
+INSERT OR IGNORE INTO client_menus\n                    (client_name, menu_date, day_code, shift, salad, soup, main, side, source_sheet, synced_at)\n                    VALUES (?,?,?,?,?,?,?,?,'ocr_scan', datetime('now'))
+\nrows written: 
+ | garbage rows replaced: 
+ | skipped: 
+ | QUARANTINED: 
+  SKIP:
+\nquarantined (contract violations -> menu_quarantine), first 12:
+  
+: 
+\nconflicts (old-garbage vs new-extraction), first 12:
+ -> 

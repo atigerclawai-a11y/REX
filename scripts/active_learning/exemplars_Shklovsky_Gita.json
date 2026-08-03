@@ -1,0 +1,51 @@
+{
+ "client_name": "Shklovsky Gita",
+ "updated": "2026-08-03T16:53",
+ "orders": [
+  {
+   "menu_date": "2026-07-27",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
+   "main": "Цыпленок табака",
+   "side": "Тушеная капуста"
+  },
+  {
+   "menu_date": "2026-07-24",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
+   "main": "Вареники с картошкой",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-22",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Борщ красный",
+   "main": "Баса с помидорами под сыром",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-20",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Куриный",
+   "main": "",
+   "side": ""
+  },
+  {
+   "menu_date": "2026-07-17",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "3.Б",
+   "main": "Вар.Кар",
+   "side": ""
+  }
+ ]
+}
