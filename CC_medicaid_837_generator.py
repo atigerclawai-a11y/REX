@@ -499,6 +499,337 @@ def claim_readiness(db_path: Path = AUTH_TRACKER_DB) -> Dict[str, Any]:
             "total": len(plans), "plans": plans}
 
 
+# ── batch generation: DB-driven claim building ──────────────────────────────
+
+OUTPUT_DIR = Path.home() / "Desktop" / "REX" / "output" / "edi"
+
+# Payer name aliases — maps auth_tracker payer_canonical to billing config keys
+PAYER_ALIASES = {
+    "anthem":                       "Anthem",
+    "anthem hp, llc":              "Anthem",
+    "anthem — integra":             "Anthem",
+    "integra":                      "Anthem",
+    "integ ra":                     "Anthem",
+    "villagecare":                  "VillageCareMAX",
+    "villagecare max":              "VillageCareMAX",
+    "villagecaremax":               "VillageCareMAX",
+    "village care max":             "VillageCareMAX",
+    "vcm":                          "VillageCareMAX",
+    "elderserve":                   "Elderserve",
+    "elderserve — riverspring health": "Elderserve",
+    "riverspring":                  "Elderserve",
+    "riverspring health":           "Elderserve",
+    "metroplus":                    "MetroPlus",
+    "metroplus health":             "MetroPlus",
+    "metro plus":                   "MetroPlus",
+    "vns":                          "VNS_Health",
+    "vns health":                   "VNS_Health",
+    "vnshealth":                    "VNS_Health",
+    "senior whole health":          "Senior_Whole_Health",
+    "swh":                          "Senior_Whole_Health",
+    "centers plan":                 "Centers_Plan",
+    "centers plan for healthy livin": "Centers_Plan",
+    "centers plan for healthy living": "Centers_Plan",
+    "cphl":                         "Centers_Plan",
+    "cphl — centers plan for healthy living": "Centers_Plan",
+    "aetna":                        "Aetna",
+    "aetna better health":          "Aetna_Better_Health",
+    "private pay":                  "Private_Pay",
+    "empire bluecross blueshield":  "Private_Pay",
+    "home first":                   "Private_Pay",
+}
+
+
+def _resolve_payer_key(payer_canonical: str) -> Optional[str]:
+    """Map auth_tracker payer name to CC_billing_payers config key."""
+    if not payer_canonical:
+        return None
+    norm = payer_canonical.strip().lower()
+    if norm in PAYER_ALIASES:
+        return PAYER_ALIASES[norm]
+    return None
+
+
+def _load_billing_configs() -> Dict[str, Dict[str, Any]]:
+    """Load payer billing configs — CC_billing_payers first, then insurance_payers DB overrides."""
+    configs: Dict[str, Dict[str, Any]] = {}
+    # Try CC_billing_payers first (hardcoded, more complete)
+    try:
+        from CC_billing_payers import build_837_config, get_payer_config, PAYER_CONFIGS as BILLING_PAYERS
+        for key in BILLING_PAYERS:
+            try:
+                cfg = build_837_config(key)
+                configs[key] = cfg
+            except Exception:
+                # build_837_config fails for some payers (missing IDs) — skip
+                pass
+    except ImportError:
+        pass
+
+    # Override / supplement from insurance_payers table
+    if AUTH_TRACKER_DB.exists():
+        try:
+            con = sqlite3.connect(f"file:{AUTH_TRACKER_DB}?mode=ro", uri=True)
+            con.row_factory = sqlite3.Row
+            rows = [dict(r) for r in con.execute(
+                "SELECT * FROM insurance_payers WHERE complete=1 AND billable=1 AND active=1"
+            ).fetchall()]
+            con.close()
+            for row in rows:
+                plan = (row.get("plan_name") or "").strip()
+                payer_id = (row.get("payer_id") or "").strip()
+                if not plan or not payer_id:
+                    continue
+                # Find matching config key
+                matched = None
+                norm = plan.lower()
+                for k in configs:
+                    if k.lower() == norm or norm in k.lower() or k.lower() in norm:
+                        matched = k
+                        break
+                if matched:
+                    cfg = configs[matched]
+                else:
+                    # New payer from DB, build minimal config
+                    cfg = {}
+                    configs[plan] = cfg
+                # Apply DB overrides
+                if row.get("payer_id"):
+                    cfg["payer_id"] = row["payer_id"]
+                if row.get("payer_name"):
+                    cfg["payer_name"] = row["payer_name"]
+                if row.get("receiver_id"):
+                    cfg["receiver_id"] = row["receiver_id"]
+                if row.get("isa_receiver_id"):
+                    cfg["isa_receiver_id"] = row["isa_receiver_id"]
+                if row.get("gs_receiver"):
+                    cfg["gs_app_receiver"] = row["gs_receiver"]
+        except Exception:
+            pass
+
+    return configs
+
+
+def _estimate_claim_from_auth(auth: Dict[str, Any], billing_cfg: Dict[str, Any],
+                               month_start: str, month_end: str) -> Optional[Dict[str, Any]]:
+    """Build a single claim dict from one authorization row.
+
+    Uses the authorization's authorized_days_per_week to estimate units:
+      units = days_per_week × 4 weeks (monthly estimate)
+      charge = units × rate_per_visit
+
+    Falls back to sensible defaults when data is missing.
+    """
+    days_per_week = int(auth.get("authorized_days_per_week") or 0)
+    # Guard: values > 7 are total-visits-per-auth-period, not days-per-week.
+    # Cap at 7 for weekly estimate; fall back to 5 if unusable.
+    if days_per_week <= 0 or days_per_week > 7:
+        days_per_week = 5  # default: 5 days/week (Mon-Fri SADC)
+
+    # Monthly estimate: days/week × 4 weeks
+    units = days_per_week * 4
+
+    # Rate from billing config, or default
+    rate = float(billing_cfg.get("rate_visit", 70.0))
+    charge = round(units * rate, 2)
+
+    # Service code from billing config
+    svc_code = str(billing_cfg.get("default_service_code", "T1019"))
+
+    # Diagnosis code from auth data
+    dx_raw = auth.get("diagnosis_codes") or ""
+    dx = dx_raw.split(",")[0].strip().upper().replace(".", "") if dx_raw else "Z748"
+
+    # Member ID
+    member_id = str(auth.get("member_id") or "").strip()
+    if not member_id:
+        member_id = f"MISSING-{auth.get('client_name', 'UNKNOWN')[:8].upper()}"
+
+    # Client name
+    client_name = str(auth.get("client_name") or "UNKNOWN").strip()
+
+    # DOB
+    dob = auth.get("dob") or "19700101"
+
+    # Address
+    addr = str(auth.get("address") or "4120 OCEAN AVE").strip()
+
+    claim_id = (
+        f"GOJ-{month_start.replace('-', '')[:6]}"
+        f"-{client_name.replace(' ', '').replace(',', '').upper()[:12]}"
+    )
+
+    return {
+        "client_name": client_name,
+        "member_id": member_id,
+        "date_of_service": month_start,
+        "date_of_service_to": month_end,
+        "units": units,
+        "charge": charge,
+        "service_code": svc_code,
+        "diagnosis_code": dx,
+        "dob": dob,
+        "claim_id": claim_id,
+        "addr1": addr,
+        "city": "BROOKLYN",
+        "state": "NY",
+        "zip": "11235",
+    }
+
+
+def fetch_active_auths(db_path: Path = AUTH_TRACKER_DB) -> List[Dict[str, Any]]:
+    """Query auth_tracker for ACTIVE authorizations with client demographics."""
+    if not db_path.exists():
+        return []
+    con = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
+    con.row_factory = sqlite3.Row
+    try:
+        rows = [dict(r) for r in con.execute("""
+            SELECT a.client_name, a.payer_canonical, a.member_id,
+                   a.authorization_number, a.service_start_date, a.service_end_date,
+                   a.authorized_days_per_week, a.diagnosis_codes, a.service_codes,
+                   c.dob, c.address, c.phone
+            FROM authorization a
+            LEFT JOIN clients c ON a.client_name = c.name
+            WHERE a.status = 'ACTIVE'
+            ORDER BY a.payer_canonical, a.client_name
+        """).fetchall()]
+        return rows
+    finally:
+        con.close()
+
+
+def generate_batch(target_month: Optional[str] = None,
+                   payer_filter: Optional[str] = None,
+                   dry_run: bool = False) -> Dict[str, Any]:
+    """Main batch entry point: read DB, group by payer, generate per-payer EDI files.
+
+    Args:
+        target_month: YYYY-MM — defaults to current month
+        payer_filter: only generate for this payer key (optional)
+        dry_run: don't write files, just report what would be generated
+
+    Returns:
+        Dict with summary: {"generated": [{payer, file, claims, billed}], "skipped": [...], ...}
+    """
+    now = datetime.now()
+    if target_month:
+        month_dt = datetime.strptime(target_month + "-01", "%Y-%m-%d")
+    else:
+        month_dt = now
+
+    month_start = month_dt.strftime("%Y%m%d")
+    # Last day of month
+    if month_dt.month == 12:
+        next_month = month_dt.replace(year=month_dt.year + 1, month=1)
+    else:
+        next_month = month_dt.replace(month=month_dt.month + 1)
+    from datetime import timedelta
+    month_end_dt = next_month - timedelta(days=1)
+    month_end = month_end_dt.strftime("%Y%m%d")
+    month_label = month_dt.strftime("%Y-%m")
+
+    # Load billing configs + active auths
+    billing_configs = _load_billing_configs()
+    auths = fetch_active_auths()
+
+    if not auths:
+        print("No ACTIVE authorizations found in auth_tracker.db")
+        return {"generated": [], "skipped": [], "total_claims": 0, "total_billed": 0.0}
+
+    # Group auths by resolved payer key
+    groups: Dict[str, List[Dict[str, Any]]] = {}
+    unknown_payers: List[str] = []
+    for auth in auths:
+        raw_payer = auth.get("payer_canonical") or ""
+        key = _resolve_payer_key(raw_payer)
+        if key is None:
+            if raw_payer and raw_payer not in unknown_payers:
+                unknown_payers.append(raw_payer)
+            continue
+        if payer_filter and key.lower() != payer_filter.lower():
+            continue
+        groups.setdefault(key, []).append(auth)
+
+    # Generate per-payer
+    generated: List[Dict[str, Any]] = []
+    skipped: List[Dict[str, Any]] = []
+    total_claims = 0
+    total_billed = 0.0
+
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    for payer_key, payer_auths in sorted(groups.items()):
+        billing_cfg = billing_configs.get(payer_key)
+        if not billing_cfg or not billing_cfg.get("payer_id", "").strip():
+            skipped.append({
+                "payer": payer_key,
+                "reason": "No billing config or missing payer_id",
+                "auth_count": len(payer_auths),
+            })
+            continue
+
+        # Build claims
+        claims: List[Dict[str, Any]] = []
+        for auth in payer_auths:
+            claim = _estimate_claim_from_auth(auth, billing_cfg, month_start, month_end)
+            if claim:
+                claims.append(claim)
+
+        if not claims:
+            skipped.append({
+                "payer": payer_key,
+                "reason": "No valid claims built (missing member_ids?)",
+                "auth_count": len(payer_auths),
+            })
+            continue
+
+        # Generate EDI
+        try:
+            edi = generate_837p(claims, billing_cfg)
+        except Exception as e:
+            skipped.append({
+                "payer": payer_key,
+                "reason": f"EDI generation failed: {e}",
+                "auth_count": len(payer_auths),
+            })
+            continue
+
+        billed = round(sum(c["charge"] for c in claims), 2)
+
+        if dry_run:
+            generated.append({
+                "payer": payer_key,
+                "file": f"[DRY-RUN] {payer_key}_{month_label}.edi",
+                "claims": len(claims),
+                "billed": billed,
+                "auth_count": len(payer_auths),
+            })
+        else:
+            filename = f"{payer_key}_{month_label}.edi"
+            filepath = OUTPUT_DIR / filename
+            filepath.write_text(edi)
+            generated.append({
+                "payer": payer_key,
+                "file": str(filepath),
+                "claims": len(claims),
+                "billed": billed,
+                "auth_count": len(payer_auths),
+            })
+
+        total_claims += len(claims)
+        total_billed += billed
+
+    return {
+        "generated": generated,
+        "skipped": skipped,
+        "unknown_payers": unknown_payers,
+        "total_claims": total_claims,
+        "total_billed": total_billed,
+        "month": month_label,
+    }
+
+
 # ── self-test fixtures ────────────────────────────────────────────────────────
 
 def _synthetic_claims() -> List[Dict[str, Any]]:
@@ -564,17 +895,73 @@ def _selftest() -> int:
 
 
 def main(argv: List[str]) -> int:
-    parser = argparse.ArgumentParser(description="837P Professional claim generator (fixtures only)")
+    parser = argparse.ArgumentParser(
+        description="837P Professional Claim Generator — EDI billing pipeline")
     parser.add_argument("--selftest", action="store_true",
                         help="Generate synthetic 3-claim 837P to /tmp/test_837p.edi")
+    parser.add_argument("--generate", action="store_true",
+                        help="Batch-generate 837P EDI from auth_tracker.db active auths")
+    parser.add_argument("--month", type=str, default=None,
+                        help="Target month YYYY-MM (default: current month)")
+    parser.add_argument("--payer", type=str, default=None,
+                        help="Only generate for this payer key (e.g. Anthem, VillageCareMAX)")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Preview only — don't write EDI files")
+    parser.add_argument("--readiness", action="store_true",
+                        help="Show payer billing readiness from insurance_payers table")
+    parser.add_argument("--list-payers", action="store_true",
+                        help="List active payer groups with auth counts")
     args = parser.parse_args(argv)
 
     if args.selftest:
         return _selftest()
+
+    if args.readiness:
+        result = claim_readiness()
+        print(json.dumps(result, indent=2))
+        return 0
+
+    if args.list_payers:
+        auths = fetch_active_auths()
+        groups: Dict[str, int] = {}
+        for a in auths:
+            key = _resolve_payer_key(a.get("payer_canonical") or "")
+            label = key if key else f"UNKNOWN: {a.get('payer_canonical', '')}"
+            groups[label] = groups.get(label, 0) + 1
+        print(f"{'Payer':35s} {'Auths':>6s}")
+        print("-" * 43)
+        for payer, count in sorted(groups.items(), key=lambda x: -x[1]):
+            print(f"{payer:35s} {count:>6d}")
+        print(f"\nTotal: {sum(groups.values())} active auths across {len(groups)} payers")
+        return 0
+
+    if args.generate:
+        result = generate_batch(
+            target_month=args.month,
+            payer_filter=args.payer,
+            dry_run=args.dry_run,
+        )
+        print("=" * 70)
+        print(f"837P Batch Generation — {result['month']}")
+        print("=" * 70)
+        for g in result["generated"]:
+            print(f"  ✅ {g['payer']:30s} {g['claims']:>4d} claims  ${g['billed']:>10,.2f}  → {g['file']}")
+        for s in result["skipped"]:
+            print(f"  ⏭️  {s['payer']:30s} SKIPPED — {s['reason']} ({s['auth_count']} auths)")
+        if result.get("unknown_payers"):
+            print(f"\n  ⚠️  Unknown payers (no billing config): {', '.join(result['unknown_payers'])}")
+        print(f"\n  Total: {result['total_claims']} claims, ${result['total_billed']:,.2f} billed")
+        if not args.dry_run:
+            print(f"  Output: {OUTPUT_DIR}/")
+        return 0
 
     parser.print_help()
     return 1
 
 
 if __name__ == "__main__":
+    # Ensure REX is on sys.path for CC_billing_payers import
+    _rex = Path(__file__).resolve().parent
+    if str(_rex) not in sys.path:
+        sys.path.insert(0, str(_rex))
     sys.exit(main(sys.argv[1:]))

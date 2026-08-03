@@ -22,7 +22,7 @@ echo ""
 BBG_DIR="$HOME/Downloads/bbg-app"
 PID_FILE="$BBG_DIR/serve.pid"
 BBG_PORT=4173
-TUNNEL_CONFIG="$HOME/.cloudflared/config.yml"
+TUNNEL_CONFIG="$HOME/.cloudflared/hermestigerclaw.yml"  # 🔴 2026-08-01: was config.yml (dormant direct-exposure, neutralized). hermestigerclaw.yml is the ONLY valid tunnel config — all ingress goes through the auth gateway.
 
 [ -d "$BBG_DIR" ] || fail "BBG app not found at $BBG_DIR"
 

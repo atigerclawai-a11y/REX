@@ -1528,9 +1528,9 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(description='GOJ Menu Consensus OCR System')
-    parser.add_argument('--menu-dir', default=str(Path.home() / 'Documents' / 'goj files' / 'dashboard' / 'documents' / 'menus'),
+    parser.add_argument('--menu-dir', default=str(Path(__file__).resolve().parent / 'documents' / 'menus'),
                        help='Menu PDFs directory')
-    parser.add_argument('--db', default=str(Path.home() / 'Documents' / 'goj files' / 'dashboard' / 'auth_tracker.db'),
+    parser.add_argument('--db', default=str(Path(__file__).resolve().parent / 'auth_tracker.db'),
                        help='Database path')
     parser.add_argument('--learning', default=str(Path.home() / 'Desktop' / 'REX' / 'goj_menu_learning.json'),
                        help='Learning file path')
@@ -1556,7 +1556,7 @@ def process_pdf_local(pdf_path: str) -> dict | None:
     Always returns a dict with 'inserted' and 'skipped' keys so CC_ocr_worker
     can accurately report results (previously always got 0 for both).
     """
-    _db     = str(Path.home() / "Documents" / "goj files" / "dashboard" / "auth_tracker.db")
+    _db     = str(Path(__file__).resolve().parent / "auth_tracker.db")
     _learn  = str(Path(__file__).resolve().parent / "goj_menu_learning.json")
     _flags  = str(Path(__file__).resolve().parent / "goj_menu_flags_queue.json")
     result = process_pdf(pdf_path, _db, _learn, _flags)

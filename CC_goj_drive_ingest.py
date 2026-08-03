@@ -866,7 +866,7 @@ def ingest_pass(svc, only_source: Optional[str], dry_run: bool) -> Dict[str, Any
                 stats[key] = {"status": "no_parser_unchanged", "modifiedTime": meta["modifiedTime"]}
             continue
 
-        if not changed and not dry_run and only_source is None:
+        if not changed and not dry_run and only_source is None and src.get("kind") != "folder":
             log.info(f"  unchanged since last run — skipping")
             stats[key] = {"status": "unchanged", "modifiedTime": meta["modifiedTime"]}
             continue

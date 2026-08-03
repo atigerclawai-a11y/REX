@@ -19,8 +19,11 @@ REX = HOME / 'Desktop/REX'
 PY = HOME / '.rex-venv/bin/python3'
 MINERU = HOME / 'Desktop/REX/mineru-venv/bin/mineru'
 STATE = HOME / '.hermes/profiles/work/state/menu_sweep_processed.json'
+QUARANTINE = HOME / 'Desktop/REX/menu_ocr_quarantine'
+FAIL_LIMIT = 3  # OCR failures before a doc is quarantined (OBJ-024: stop retrying broken docs every cycle)
 
 state = json.loads(STATE.read_text()) if STATE.exists() else {}
+fails = state.get('_fails', {})  # doc -> consecutive OCR/extraction failure count
 # Pre-mark docs already fully processed (OCR'd + parsed in earlier runs) so the
 # first sweep after deploy doesn't redo 14 batches. A doc counts as done if its
 # staged MD exists AND (BLANK -> extraction.json exists | old-style -> leave to intake).
@@ -39,15 +42,32 @@ WEEK_DATES = {
     31: ['2026-08-03', '2026-08-04', '2026-08-05', '2026-08-06', '2026-08-07'],
 }
 
+def is_signin(md_text):
+    """Detect sign-in/attendance sheets — NOT menus. Quarantine, don't route to OCR pipeline."""
+    return ('SIGN-IN SHEET' in md_text or 'SIGN IN SHEET' in md_text 
+            or 'Attendance Report' in md_text or 'attendance report' in md_text.lower())
+
 def classify(md_text):
-    return 'BLANK' if ('BLANK' in md_text and md_text.count('□') > 20) else 'old'
+    """Classify menu form type. Sign-in sheets are excluded by caller before this.
+    
+    BLANK-grid detection: checkbox forms have many □ characters + a name field.
+    The word "BLANK" may be garbled by MinerU, so we also accept high □ density
+    (>30 □ characters) with a name pattern present.
+    """
+    box_count = md_text.count('□')
+    if box_count > 20:
+        # Check for name pattern (FirstName LastName) in the MD
+        has_name = bool(re.search(r'[A-Z][a-z]+\s+[A-Z][a-z]+', md_text))
+        if 'BLANK' in md_text or (box_count > 30 and has_name):
+            return 'BLANK'
+    return 'old'
 
 processed_any = False
 need_write = False
 weeks_touched = set()
 for pdf in sorted(STABLE.glob('*.pdf')):
     doc = pdf.stem
-    if state.get(doc) == 'done':
+    if state.get(doc) in ('done', 'quarantined', 'signin_quarantine'):
         continue
     ocr_dir = OCR_FULL / doc / 'ocr'
     md_path = ocr_dir / f'{doc}.md'
@@ -62,9 +82,28 @@ for pdf in sorted(STABLE.glob('*.pdf')):
         if not md_path.exists():
             print(f'[SWEEP] OCR FAILED {doc}: {r.stderr[-200:] if r.stderr else "no md"}')
             state[doc] = 'ocr_failed'
+            fails[doc] = fails.get(doc, 0) + 1
+            if fails[doc] >= FAIL_LIMIT:
+                # Quarantine after FAIL_LIMIT consecutive failures (OBJ-024):
+                # move the PDF out of intake so the sweep stops retrying it every 15min
+                # and burning the cron's 3600s timeout budget on a broken doc.
+                QUARANTINE.mkdir(parents=True, exist_ok=True)
+                dst = QUARANTINE / pdf.name
+                if not dst.exists():
+                    pdf.replace(dst)
+                state[doc] = 'quarantined'
+                print(f'[SWEEP] {doc}: QUARANTINED after {FAIL_LIMIT} OCR failures -> {dst.name}')
+            else:
+                print(f'[SWEEP] {doc}: OCR fail {fails[doc]}/{FAIL_LIMIT} — will retry next cycle')
+            processed_any = True
             continue
         time.sleep(3)  # RAM cooldown between docs
     text = md_path.read_text(errors='ignore')
+    if is_signin(text):
+        print(f'[SWEEP] {doc}: sign-in sheet — quarantined (not a menu)')
+        state[doc] = 'signin_quarantine'
+        processed_any = True
+        continue
     kind = classify(text)
     wk_m = re.findall(r'Week\s*(\d+)', text)
     wk = int(wk_m[0]) if wk_m else 30
@@ -111,6 +150,7 @@ if weeks_touched:
     print(f'[SWEEP] fills refreshed for weeks {sorted(weeks_touched)}')
 
 STATE.parent.mkdir(parents=True, exist_ok=True)
+state['_fails'] = fails
 STATE.write_text(json.dumps(state, indent=1))
 if not processed_any:
     pass  # silent — watchdog pattern

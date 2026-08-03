@@ -1,8 +1,14 @@
 #!/usr/bin/env node
 /**
- * GOJ WhatsApp Monitor — Baileys WebSocket
+ * GOJ WhatsApp Monitor — Baileys WebSocket v2
+ * =============================================
  * Zero browser, zero windows, zero Chrome ever.
  * Session: ~/.whatsapp_bridge/baileys_auth/
+ *
+ * v2 CHANGES (2026-07-31):
+ *   - Death spiral detection: 3+ Connection Failures in 60s → auto pairing code
+ *   - Pairing code fallback: when QR would be shown, requests 8-char code instead
+ *   - Cleans up: proper exit on loggedOut + max retries cap
  */
 
 const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = require('@whiskeysockets/baileys');
@@ -12,8 +18,15 @@ const fs = require('fs');
 const http = require('http');
 
 const AUTH = path.join(require('os').homedir(), '.whatsapp_bridge', 'baileys_auth');
+const PHONE = '13475879913';
 const TARGETS = ['main', 'attendance', 'plus'];
 const KW = ['not coming',"won't be",'sick','absent','cancel','not attending','day off','not today','changing'];
+const DEATH_SPIRAL_THRESHOLD = 3;     // failures
+const DEATH_SPIRAL_WINDOW = 60_000;   // ms
+const MAX_RETRIES = 20;               // hard cap before exit
+
+let failureTimestamps = [];
+let retryCount = 0;
 
 function isChange(t) {
     const l = (t||'').toLowerCase().trim();
@@ -30,11 +43,16 @@ function send(m) {
     r.end();
 }
 
-const qrcode = require('qrcode-terminal');
+function isDeathSpiral() {
+    const now = Date.now();
+    failureTimestamps = failureTimestamps.filter(t => now - t < DEATH_SPIRAL_WINDOW);
+    return failureTimestamps.length >= DEATH_SPIRAL_THRESHOLD;
+}
 
 async function start() {
     const { state, saveCreds } = await useMultiFileAuthState(AUTH);
-    let qrShown = false;
+    let codeShown = false;
+
     const sock = makeWASocket({
         auth: state,
         browser: ['Gold Health Systems', 'Chrome', '1.0.0'],
@@ -43,70 +61,117 @@ async function start() {
     });
 
     sock.ev.on('connection.update', async (u) => {
-        if (u.qr && !qrShown) {
-            qrShown = true;
-            process.stdout.write('\n=== SCAN QR ===\n');
-            qrcode.generate(u.qr, { small: true });
-            process.stdout.write('\nWhatsApp → Linked Devices → Link a Device\n');
-            process.stdout.write('QR_RAW:' + u.qr + '\n');  // Hermes: render as PNG for Kato
-        }
-        if (u.connection === 'open') {
-            console.log('✓ Connected');
+        // ── QR received → request pairing code instead ──
+        if (u.qr && !codeShown) {
+            codeShown = true;
             try {
-                for (const c of (sock.chats?.all()||[]).filter(x => x.id?.includes('@g.us'))) {
+                const pairingCode = await sock.requestPairingCode(PHONE);
+                console.log('\n═══════════════════════════════════════════');
+                console.log('  RE-PAIRING REQUIRED');
+                console.log('═══════════════════════════════════════════');
+                console.log('  Code:', pairingCode);
+                console.log('  Phone: Settings → Linked Devices → "Link with phone number"');
+                console.log('═══════════════════════════════════════════\n');
+                console.log('PAIRING_CODE:' + pairingCode);
+            } catch (e) {
+                // Fallback to QR if pairing code fails
+                const qrcode = require('qrcode-terminal');
+                console.log('\n=== SCAN QR (pairing code failed: ' + e.message + ') ===');
+                qrcode.generate(u.qr, { small: true });
+                console.log('QR_RAW:' + u.qr);
+            }
+        }
+
+        // ── Connected! ──
+        if (u.connection === 'open') {
+            console.log('✓ Connected to WhatsApp');
+            failureTimestamps = [];
+            retryCount = 0;
+            
+            // Load initial group history
+            try {
+                const chats = sock.chats?.all() || [];
+                for (const c of chats.filter(x => x.id?.includes('@g.us'))) {
                     let name = c.id;
                     try { const m = await sock.groupMetadata(c.id); name = m.subject||c.id; } catch {}
                     const low = name.toLowerCase();
                     if (!TARGETS.some(t => low.includes(t))) continue;
-                    for (const m of (await sock.loadMessages(c.id, 30))) {
+                    const msgs = await sock.loadMessages(c.id, 30);
+                    for (const m of msgs) {
                         if (!m.message || m.key.fromMe) continue;
                         const text = m.message.conversation || m.message.extendedTextMessage?.text || '';
                         if (!text) continue;
                         send({group:name,sender:m.pushName||'x',text,is_schedule_change:isChange(text),timestamp:new Date().toISOString()});
                     }
                 }
-            } catch(e) { console.log('Load:', e.message); }
+                console.log('✓ Initial history loaded');
+            } catch(e) { console.log('Load history:', e.message); }
         }
+
+        // ── Disconnected ──
         if (u.connection === 'close') {
             const r = new Boom(u.lastDisconnect?.error)?.output?.statusCode;
-            if (r === DisconnectReason.loggedOut) { console.log('✗ Logged out'); return; }
-            console.log(`✗ (${r}) reconnecting...`);
-            setTimeout(start, 5000);
+
+            if (r === DisconnectReason.loggedOut) {
+                console.log('✗ Logged out — auth rejected. Will need fresh pairing.');
+                process.exit(1);
+            }
+
+            // Track failures for death spiral detection
+            failureTimestamps.push(Date.now());
+            retryCount++;
+
+            if (retryCount > MAX_RETRIES) {
+                console.log(`✗ Max retries (${MAX_RETRIES}) reached. Exiting. Launchd will restart.`);
+                process.exit(1);
+            }
+
+            // Death spiral → reset codeShown so next attempt requests pairing code
+            if (isDeathSpiral()) {
+                console.log(`⚠ Death spiral detected (${failureTimestamps.length} failures in ${DEATH_SPIRAL_WINDOW/1000}s). Will request pairing code on next attempt.`);
+                codeShown = false;
+                // Wait longer before retry in death spiral
+                console.log(`✗ (${r}) Waiting 30s before retry...`);
+                setTimeout(start, 30_000);
+                return;
+            }
+
+            console.log(`✗ (${r}) Retry ${retryCount}/${MAX_RETRIES} — reconnecting in 5s...`);
+            setTimeout(start, 5_000);
         }
     });
+
     sock.ev.on('creds.update', saveCreds);
-    
+
+    // ── Group name resolver ──
     async function getGroupName(jid) {
         try {
             const meta = await sock.groupMetadata(jid);
             return meta.subject || jid;
         } catch { return jid; }
     }
-    
-    const relevantIds = new Set();
-    
+
+    // ── Group discovery ──
     sock.ev.on('groups.upsert', async (groups) => {
         for (const g of groups) {
-            const name = g.subject || '';
-            const low = name.toLowerCase();
+            const low = (g.subject || '').toLowerCase();
             if (TARGETS.some(t => low.includes(t))) {
-                relevantIds.add(g.id);
+                console.log(`  Group found: ${g.subject}`);
             }
         }
     });
-    
+
+    // ── Live messages ──
     sock.ev.on('messages.upsert', async ({messages}) => {
         for (const m of messages) {
             if (!m.message || m.key.fromMe) continue;
             const text = m.message.conversation || m.message.extendedTextMessage?.text || '';
             if (!text) continue;
             const jid = m.key.remoteJid;
-            // Skip if not a group
             if (!jid?.includes('@g.us')) continue;
-            // Try to resolve group name and filter
             const name = await getGroupName(jid);
             const low = name.toLowerCase();
-            if (low.includes('trident') || low.includes('capital')) continue; // spam filter
+            if (low.includes('trident') || low.includes('capital')) continue;
             send({group:name,sender:m.pushName||'x',text,is_schedule_change:isChange(text),timestamp:new Date().toISOString()});
         }
     });
@@ -114,4 +179,8 @@ async function start() {
 
 process.on('SIGINT', () => process.exit(0));
 process.on('SIGTERM', () => process.exit(0));
-start().catch(e => { console.error(e); process.exit(1); });
+
+// Brief delay for launchd throttle before starting
+setTimeout(() => {
+    start().catch(e => { console.error('Fatal:', e.message); process.exit(1); });
+}, 2000);

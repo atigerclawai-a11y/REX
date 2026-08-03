@@ -14,17 +14,12 @@ echo "Adding /progress, /cc, /api/stats → localhost:8001"
 echo ""
 
 CONFIG="$HOME/.cloudflared/hermestigerclaw.yml"
-CONFIG2="$HOME/.cloudflared/config.yml"
+CONFIG2="$HOME/.cloudflared/config.yml"  # 🔴 NEUTRALIZED 2026-08-01 — dormant direct-exposure config, moved to config.yml.bak-dormant-20260801. Never use: it routes hostnames DIRECTLY to origin ports bypassing the auth gateway.
 
 if [ -f "$CONFIG" ]; then
     info "Using config: $CONFIG"
-elif [ -f "$CONFIG2" ]; then
-    CONFIG="$CONFIG2"
-    info "Using config: $CONFIG"
 else
-    fail "No tunnel config found at ~/.cloudflared/"
-    echo "Expected: $CONFIG"
-    echo ""
+    fail "🔴 SECURITY: hermestigerclaw.yml missing — REFUSING to fall back to config.yml (dormant direct-exposure config, neutralized 2026-08-01). Restore hermestigerclaw.yml first."
     read -p "Press Enter to close..."
     exit 1
 fi

@@ -1,0 +1,6 @@
+{
+  "phone_present": false,
+  "mac_locked": false,
+  "seconds_since_heartbeat": Infinity,
+  "last_heartbeat_ts": null
+}

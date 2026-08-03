@@ -22,7 +22,8 @@ check "Drive reachable" curl -s --max-time 5 "https://www.googleapis.com/drive/v
 check "DB accessible" sqlite3 ~/Documents/goj\ files/proprietary/goj_proprietary.db "SELECT COUNT(*) FROM clients" &>/dev/null
 check "Token fresh" python3 -c "
 from datetime import datetime; import os
-t = os.path.getmtime('$HOME/Desktop/REX/.victoria_token')
+# Heartbeat = token-refresh watchdog log (written daily 13:00). Phantom ~/.victoria_token was never created by any script.
+t = os.path.getmtime('$HOME/Desktop/REX/logs/victoria_token_refresh.log')
 age = (datetime.now() - datetime.fromtimestamp(t)).total_seconds()
 exit(1 if age > 3600 else 0)
 "

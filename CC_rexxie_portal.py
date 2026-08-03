@@ -68,10 +68,16 @@ def db():
 # the stream errors clearly instead of melting into another model.
 MODELS = {
     "gemma-12b": {
-        "name": "Gemma 12B Heretic", "short": "12B",
-        "ollama": "http://127.0.0.1:11435",
-        "model": "jikepjikep_16HEX/gemma-4-12b-nightshift-heretic-uncensored-qat-q4",
+        "name": "Qwen 3 Abliterated 14B", "short": "QWEN14",
+        "ollama": "http://100.99.86.60:11434",
+        "model": "huihui_ai/qwen3-abliterated:14b",
         "host": "Office Mac", "color": "#7bc98e",
+    },
+    "qwen-9b": {
+        "name": "Qwen 3.5 Abliterated 9B", "short": "QWEN9",
+        "ollama": "http://100.99.86.60:11434",
+        "model": "huihui_ai/qwen3.5-abliterated:9b",
+        "host": "Office Mac", "color": "#5d9b6b",
     },
     "llama-3b": {
         "name": "Llama 3.2 3B", "short": "3B",
@@ -81,9 +87,16 @@ MODELS = {
     },
     "gemma-vision": {
         "name": "Gemma 4B Vision", "short": "VIS",
-        "ollama": "http://127.0.0.1:11434",
+        "ollama": "http://100.99.86.60:11434",
         "model": "gemma3:4b",
-        "host": "Home Mac", "color": "#c9a86a",
+        "host": "Office Mac", "color": "#c9a86a",
+        "vision": True,
+    },
+    "gemma-e4b": {
+        "name": "Gemma 4 E4B Multimodal", "short": "E4B",
+        "ollama": "http://100.99.86.60:11434",
+        "model": "gemma4:e4b",
+        "host": "Office Mac", "color": "#a86ac9",
         "vision": True,
     },
 }
@@ -147,10 +160,25 @@ from webauthn.helpers.structs import (
 )
 from webauthn.helpers import bytes_to_base64url
 
-AUTH_PASSWORD = "rexxie"
+AUTH_PASSWORD = ""  # loaded from USB vault at startup (see _load_auth_password)
 AUTH_FILE = BASE / ".rexxie_auth"
 WEBAUTHN_FILE = BASE / ".rexxie_webauthn.json"
 sessions_store = {}
+
+def _load_auth_password():
+    """Kato's ONE password lives on the encrypted USB. Read it at startup."""
+    for path in ("/Volumes/REXXIE_VAULT/portal_password.txt",
+                 os.path.expanduser("~/.hermes/secrets/portal_password.txt")):
+        try:
+            with open(path) as f:
+                pw = f.read().strip()
+            if len(pw) >= 8:
+                return pw
+        except FileNotFoundError:
+            continue
+    return "w2pJ3xM!A5TFL6Ohl0"  # fallback only if USB unavailable
+
+AUTH_PASSWORD = _load_auth_password()
 
 TOKENS_FILE = BASE / ".rexxie_tokens.json"
 

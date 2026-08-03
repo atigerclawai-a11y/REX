@@ -18,6 +18,14 @@ OUTPUT.mkdir(exist_ok=True)
 app = FastAPI(title="GHS Platform", version="1.0.0",
               description="Replaces HHAeXchange + Carecenta. Biometric, EVV, daily packs, menus, payroll, auth tracking.")
 
+# ── Mount attendance-live router (hyphenated filename → importlib) ──
+import importlib.util
+_al_spec = importlib.util.spec_from_file_location(
+    "attendance_live", str(REX / "backend" / "CC_attendance_live.py"))
+_attendance_live = importlib.util.module_from_spec(_al_spec)
+_al_spec.loader.exec_module(_attendance_live)
+app.include_router(_attendance_live.router)
+
 SCRIPTS = {
     "evv": REX / "CC_evv.py",
     "biometric": REX / "CC_biometric.py",
@@ -31,8 +39,13 @@ SCRIPTS = {
 
 # Design tokens inlined from ~/Desktop/REX/ghs-theme.css (CANONICAL — all GHS
 # surfaces import that file; it is inlined here to keep this app self-contained).
-HTML_HEAD = """<!DOCTYPE html><html><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+HTML_HEAD = """<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#06080a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" href="/icon-192.png">
 <title>GHS Platform</title>
 <style>
 :root{
@@ -95,6 +108,40 @@ button:hover{box-shadow:var(--ghs-glow)}
 .dim{color:var(--ghs-dim)}
 a.lnk{color:var(--ghs-accent-hi);text-decoration:none}
 a.lnk:hover{text-decoration:underline}
+/* ── C4: Dot Status System (universal indicator) ── */
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex-shrink:0}
+.dot.on{background:var(--ghs-ok);box-shadow:0 0 8px rgba(123,201,142,0.5)}
+.dot.warn{background:var(--ghs-warn);box-shadow:0 0 8px rgba(212,178,94,0.5)}
+.dot.off{background:var(--ghs-danger);box-shadow:0 0 8px rgba(212,104,94,0.5)}
+.dot.dim{background:var(--ghs-faint);box-shadow:none}
+/* ── C5: Gradient Accent Lines ── */
+.card-accent{border-top:2px solid transparent;background-clip:padding-box;position:relative}
+.card-accent::before{content:'';position:absolute;top:0;left:18px;right:18px;height:2px;
+background:linear-gradient(90deg,transparent 0%,var(--ghs-accent-hi) 20%,var(--ghs-accent-hi) 80%,transparent 100%)}
+/* ── C6: Enhanced Stat Card ── */
+.stat-card{background:var(--ghs-surface);border:1px solid var(--ghs-border);
+border-radius:var(--ghs-radius-card);padding:24px;position:relative;overflow:hidden;
+box-shadow:var(--ghs-shadow)}
+.stat-card::after{content:'';position:absolute;top:0;left:18px;right:18px;height:2px;
+background:linear-gradient(90deg,transparent,var(--ghs-accent-hi),transparent);opacity:0.6}
+.stat-card .stat-icon{font-size:22px;margin-bottom:8px}
+.stat-card .stat-hero{font-size:var(--ghs-font-stat);font-weight:800;color:var(--ghs-accent-hi);line-height:1.1}
+.stat-card .stat-label{font-size:15px;color:var(--ghs-dim);margin-top:6px}
+.stat-card .stat-sub{font-size:13px;color:var(--ghs-faint);margin-top:4px}
+.stat-card:hover{border-color:var(--ghs-border-hi);box-shadow:var(--ghs-glow)}
+.stat-card.warn .stat-hero{color:var(--ghs-warn)}
+.stat-card.danger .stat-hero{color:var(--ghs-danger)}
+/* ── C13: Activity Feed ── */
+.activity-feed{max-height:320px;overflow-y:auto;scrollbar-width:thin}
+.activity-feed .act-item{display:flex;align-items:flex-start;gap:10px;padding:8px 0;
+border-bottom:1px solid var(--ghs-border);font-size:15px}
+.activity-feed .act-item:last-child{border-bottom:none}
+.activity-feed .act-time{color:var(--ghs-faint);font-size:13px;white-space:nowrap;min-width:70px}
+.activity-feed .act-msg{color:var(--ghs-dim);flex:1}
+.activity-feed .act-msg b{color:var(--ghs-text)}
+.activity-feed .act-dot{flex-shrink:0;margin-top:4px}
+/* Service row (used in Ops Snapshot service health) */
+.sr{display:flex;align-items:center;gap:8px;padding:4px 0;font-size:15px}
 @media print{
 nav,.no-print,form,button{display:none !important}
 body{background:#fff !important;color:#000 !important;font-size:14px}
@@ -103,6 +150,44 @@ h1,h2,.stat-value,.hero,.tbl th{color:#000 !important}
 .tbl td{color:#000;border-color:#999}
 .chip{border:1px solid #000;color:#000;background:#fff}
 a[href^="tel:"]:after{content:" (" attr(href) ")";font-size:0}
+}
+/* Mobile — Tablet / Phone ≤768px */
+@media(max-width:768px){
+:root{--ghs-font-body:18px;--ghs-font-header:14px;--ghs-font-hero:36px;--ghs-font-stat:22px;--ghs-font-nav:15px;--ghs-radius:8px;--ghs-radius-card:12px;--ghs-radius-modal:16px}
+.container{padding:12px}
+nav{padding:8px 12px;gap:4px;justify-content:flex-start}
+nav a{padding:8px 10px;font-size:13px}
+nav .brand{font-size:16px;margin-right:2px}
+nav .rolesep{margin:0 2px}
+h1{font-size:24px}
+.grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px}
+.card{padding:14px;margin-bottom:10px}
+.tbl{font-size:15px}
+.tbl th,.tbl td{padding:6px 8px}
+form{flex-direction:column;gap:6px}
+input,select,button{width:100%;padding:12px 14px;font-size:18px}
+.hero{font-size:36px !important}
+.stat{padding:12px}
+.fsbox{display:none}
+pre{font-size:14px;padding:10px}
+}
+/* Mobile — Small phone ≤480px */
+@media(max-width:480px){
+:root{--ghs-font-body:16px;--ghs-font-header:13px;--ghs-font-hero:28px;--ghs-font-stat:20px;--ghs-font-nav:14px;--ghs-radius:6px;--ghs-radius-card:10px;--ghs-radius-modal:14px}
+.container{padding:8px}
+nav{padding:6px 8px;gap:2px}
+nav a{padding:6px 8px;font-size:12px}
+nav .brand{font-size:14px}
+nav .rolesep{height:20px}
+h1{font-size:20px}
+.grid{grid-template-columns:1fr;gap:6px}
+.card{padding:10px;margin-bottom:8px}
+.tbl{font-size:13px}
+.tbl th,.tbl td{padding:4px 6px}
+.hero{font-size:28px !important}
+.stat{padding:10px}
+pre{font-size:12px;padding:8px}
+h2{font-size:12px}
 }
 </style></head><body>
 <nav>
@@ -113,6 +198,7 @@ a[href^="tel:"]:after{content:" (" attr(href) ")";font-size:0}
 <a href="/daily-pack">📄 Daily Pack</a>
 <a href="/menu">🍽️ Menu</a>
 <a href="/auth">📜 Auth Tracker</a>
+<a href="/auth-command">⚡ Auth Cmd</a>
 <a href="/payroll">💰 Payroll</a>
 <a href="/hha">🔄 HHA Reconcile</a>
 <a href="/billing">💳 Billing 837</a>
@@ -138,6 +224,8 @@ var as=document.querySelectorAll('nav a'),p=location.pathname;
 for(var i=0;i<as.length;i++){var h=as[i].getAttribute('href');
 if(h===p||(h!=='/'&&p.indexOf(h)===0)){as[i].className='active';}}
 if(p==='/'){for(var i=0;i<as.length;i++){if(as[i].getAttribute('href')==='/'){as[i].className='active';}}}
+// Service Worker registration
+if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js').catch(function(e){console.log('SW register:',e);});}
 })();
 </script>"""
 
@@ -168,35 +256,119 @@ def format_output(text, error=None):
         parts.append(f'<pre>{text}</pre>')
     return "".join(parts)
 
+def _today_stats():
+    """Gather real-time ops stats for the Ops Snapshot dashboard."""
+    s = {"auth_active": 0, "auth_expiring30": 0, "auth_expired": 0, "auth_clients": 0,
+         "roster_s1": 0, "roster_s2": 0, "menu_coverage": 0, "output_count": 0,
+         "recent_files": [], "service_health": []}
+    today = date.today().isoformat()
+    # ── Auth stats ──
+    if AUTH_DB.exists():
+        try:
+            conn = _ro(AUTH_DB)
+            s["auth_active"] = conn.execute(
+                "SELECT COUNT(*) FROM authorization WHERE status='ACTIVE'").fetchone()[0]
+            s["auth_expiring30"] = conn.execute(
+                "SELECT COUNT(*) FROM authorization WHERE status='ACTIVE' AND service_end_date BETWEEN date('now') AND date('now','+30 days')").fetchone()[0]
+            s["auth_expired"] = conn.execute(
+                "SELECT COUNT(*) FROM authorization WHERE status='ACTIVE' AND service_end_date < date('now')").fetchone()[0]
+            s["auth_clients"] = conn.execute(
+                "SELECT COUNT(*) FROM (SELECT DISTINCT client_name FROM authorization WHERE status='ACTIVE')").fetchone()[0]
+            conn.close()
+        except sqlite3.Error:
+            pass
+    # ── Roster counts ──
+    try:
+        mod = _sched_mod()
+        s["roster_s1"] = len(mod.get_clients_for_day(today, 1) or [])
+        s["roster_s2"] = len(mod.get_clients_for_day(today, 2) or [])
+    except Exception:
+        pass
+    # ── Menu coverage ──
+    if PROP_DB.exists():
+        try:
+            conn = _ro(PROP_DB)
+            menu_n = conn.execute("SELECT COUNT(*) FROM client_menus WHERE menu_date=?", (today,)).fetchone()[0]
+            conn.close()
+            total_roster = s["roster_s1"] + s["roster_s2"]
+            s["menu_coverage"] = round(menu_n / total_roster * 100) if total_roster else 0
+        except sqlite3.Error:
+            pass
+    # ── Output files ──
+    files = sorted(OUTPUT.glob("*"), key=lambda f: f.stat().st_mtime, reverse=True)
+    s["output_count"] = len(files)
+    s["recent_files"] = [f.name for f in files[:5]]
+    # ── Service health (lightweight check) ──
+    svc_checks = [
+        ("REX Backend", 8000), ("GOJ Dashboard", 8080), ("BBG Ops", 8100),
+        ("JARVIS Hub", 9000), ("Open WebUI", 3000), ("Victoria", 8089),
+        ("Cloud GW", 3002), ("Work GW", 3022),
+    ]
+    # Per-service health endpoints (default: /health)
+    HEALTH_EP = {8080: "/login"}  # GOJ Dashboard has no /health
+    import urllib.request
+    for name, port in svc_checks:
+        try:
+            ep = HEALTH_EP.get(port, "/health")
+            urllib.request.urlopen(f"http://localhost:{port}{ep}", timeout=1.5)
+            s["service_health"].append((name, port, "up"))
+        except Exception:
+            s["service_health"].append((name, port, "down"))
+    return s
+
 @app.get("/", response_class=HTMLResponse)
 async def dashboard():
-    stats = []
-    # Count scripts
-    built = sum(1 for s in SCRIPTS.values() if s.exists())
-    stats.append((built, "Components Built", len(SCRIPTS)))
-    # Count output files
-    output_count = len(list(OUTPUT.glob("*")))
-    stats.append((output_count, "Output Files", "—"))
-    # Most recent output
-    recent = sorted(OUTPUT.glob("*"), key=lambda f: f.stat().st_mtime, reverse=True)
-    recent_str = recent[0].name if recent else "—"
-    
-    rows = "".join(f'<div class="stat"><div class="stat-value">{v}</div><div class="stat-label">{l}</div></div>'
-                   for v, l, _ in stats)
-    
+    s = _today_stats()
+    today = date.today()
+    roster_total = s["roster_s1"] + s["roster_s2"]
+    auth_pct = round(s["auth_active"] / max(s["auth_clients"], 1) * 100)
+    # ── Stat Cards (C6) ──
+    stat_cards = "".join([
+        f'<div class="stat-card"><div class="stat-icon">👥</div><div class="stat-hero">{roster_total}</div><div class="stat-label">Expected Today</div><div class="stat-sub">S1: {s["roster_s1"]} · S2: {s["roster_s2"]}</div></div>',
+        f'<div class="stat-card"><div class="stat-icon">📜</div><div class="stat-hero">{auth_pct}%</div><div class="stat-label">Auth Coverage</div><div class="stat-sub">{s["auth_active"]} active / {s["auth_clients"]} clients</div></div>',
+        f'<div class="stat-card{" danger" if s["auth_expired"] > 50 else ""}"><div class="stat-icon">⚠️</div><div class="stat-hero">{s["auth_expired"]}</div><div class="stat-label">Expired Auths</div><div class="stat-sub">{s["auth_expiring30"]} expiring ≤30 days</div></div>',
+        f'<div class="stat-card"><div class="stat-icon">🍽️</div><div class="stat-hero">{s["menu_coverage"]}%</div><div class="stat-label">Menu Coverage</div><div class="stat-sub">{s["output_count"]} output files</div></div>',
+    ])
+    # ── Service Health dots (C4) ──
+    svc_rows = "".join(
+        f'<div class="sr"><span class="dot {"on" if st == "up" else "off"}"></span><span>{nm}</span><span style="margin-left:auto;color:var(--ghs-faint);font-size:13px">:{pt}</span></div>'
+        for nm, pt, st in s["service_health"]
+    )
+    svc_up = sum(1 for _, _, st in s["service_health"] if st == "up")
+    svc_total = len(s["service_health"])
+    # ── Activity Feed (C13) ──
+    act_items = ""
+    for fn in s["recent_files"]:
+        act_items += f'<div class="act-item"><span class="act-time">Today</span><span class="act-dot dot on"></span><span class="act-msg">Generated <b>{html.escape(fn)}</b></span></div>'
+    if not act_items:
+        act_items = '<div class="act-item"><span class="act-time">—</span><span class="act-msg dim">No outputs yet today</span></div>'
     return HTML_HEAD + f"""
-    <h1>🏥 GHS Platform</h1>
-    <p style="color:var(--ghs-dim);margin-bottom:20px">Replaces HHAeXchange + Carecenta · Port 8200 · {date.today()}</p>
-    <div class="grid">{rows}</div>
-    <div class="card">
-        <h2>Components</h2>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px">
-            {''.join(f'<div style="display:flex;justify-content:space-between;padding:4px 0"><span>{k}</span><span style="color:{"var(--ghs-ok)" if v.exists() else "var(--ghs-danger)"}">{"✅" if v.exists() else "❌"}</span></div>' for k, v in SCRIPTS.items())}
+    <h1>◆ Ops Snapshot</h1>
+    <p style="color:var(--ghs-dim);margin-bottom:20px">{today.strftime('%A, %B %d %Y')} · GHS Platform :8200</p>
+    <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr))">
+        {stat_cards}
+    </div>
+    <div class="grid" style="grid-template-columns:1fr 1fr;gap:12px;margin-top:16px">
+        <div class="card card-accent">
+            <h2>🔌 Service Health <span style="font-weight:400;font-size:14px">({svc_up}/{svc_total} UP)</span></h2>
+            {svc_rows}
+        </div>
+        <div class="card card-accent">
+            <h2>📋 Recent Activity</h2>
+            <div class="activity-feed">{act_items}</div>
         </div>
     </div>
-    <div class="card">
-        <h2>Latest Output</h2>
-        <pre>{recent_str}</pre>
+    <div class="grid" style="margin-top:12px">
+        <div class="card">
+            <h2>Quick Actions</h2>
+            <div style="display:flex;gap:8px;flex-wrap:wrap">
+                <a href="/auth-command" class="ghs-btn-ghost" style="display:inline-block;padding:8px 16px;border-radius:8px;text-decoration:none;color:var(--ghs-accent-hi);border:1px solid var(--ghs-border-hi)">📜 Auth Command Center</a>
+                <a href="/kitchen" class="ghs-btn-ghost" style="display:inline-block;padding:8px 16px;border-radius:8px;text-decoration:none;color:var(--ghs-accent-hi);border:1px solid var(--ghs-border-hi)">🍲 Kitchen Board</a>
+                <a href="/driver" class="ghs-btn-ghost" style="display:inline-block;padding:8px 16px;border-radius:8px;text-decoration:none;color:var(--ghs-accent-hi);border:1px solid var(--ghs-border-hi)">🚐 Driver Manifest</a>
+                <a href="/frontdesk" class="ghs-btn-ghost" style="display:inline-block;padding:8px 16px;border-radius:8px;text-decoration:none;color:var(--ghs-accent-hi);border:1px solid var(--ghs-border-hi)">🛎️ Front Desk</a>
+                <a href="/billing" class="ghs-btn-ghost" style="display:inline-block;padding:8px 16px;border-radius:8px;text-decoration:none;color:var(--ghs-accent-hi);border:1px solid var(--ghs-border-hi)">💳 Billing</a>
+            </div>
+        </div>
     </div>
     """ + HTML_FOOT
 
@@ -327,6 +499,117 @@ async def auth_page():
     </div>
     """ + HTML_FOOT
 
+@app.get("/auth-command", response_class=HTMLResponse)
+async def auth_command_page(payer: str = Query(None), show: str = Query("all")):
+    """Auth Command Center — KPI grid, 90-day forecast, filterable client table."""
+    today = date.today()
+    stats = {"clients": 0, "auths": 0, "exp7": 0, "exp14": 0, "exp30": 0, "expired": 0, "noauth": 0}
+    auth_rows = ""
+    payers = set()
+    if AUTH_DB.exists():
+        try:
+            conn = sqlite3.connect(f"file:{AUTH_DB}?mode=ro", uri=True)
+            stats["clients"] = conn.execute(
+                "SELECT COUNT(DISTINCT client_name) FROM authorization WHERE status='ACTIVE'").fetchone()[0]
+            stats["auths"] = conn.execute(
+                "SELECT COUNT(*) FROM authorization WHERE status='ACTIVE'").fetchone()[0]
+            stats["exp7"] = conn.execute(
+                "SELECT COUNT(*) FROM authorization WHERE status='ACTIVE' AND service_end_date BETWEEN date('now') AND date('now','+7 days')").fetchone()[0]
+            stats["exp14"] = conn.execute(
+                "SELECT COUNT(*) FROM authorization WHERE status='ACTIVE' AND service_end_date BETWEEN date('now','+8 days') AND date('now','+14 days')").fetchone()[0]
+            stats["exp30"] = conn.execute(
+                "SELECT COUNT(*) FROM authorization WHERE status='ACTIVE' AND service_end_date BETWEEN date('now','+15 days') AND date('now','+30 days')").fetchone()[0]
+            stats["expired"] = conn.execute(
+                "SELECT COUNT(*) FROM authorization WHERE status='ACTIVE' AND service_end_date < date('now')").fetchone()[0]
+            stats["noauth"] = conn.execute(
+                "SELECT COUNT(*) FROM clients WHERE active=1 AND name NOT IN (SELECT DISTINCT client_name FROM authorization WHERE status='ACTIVE')").fetchone()[0]
+            # Payer list for filter
+            for r in conn.execute("SELECT DISTINCT payer_canonical FROM authorization WHERE payer_canonical IS NOT NULL AND payer_canonical != '' AND payer_canonical != 'UNKNOWN' ORDER BY payer_canonical"):
+                payers.add(r[0])
+            # Client table — expired + critical
+            where = ""
+            if payer and payer != "all":
+                esc_payer = payer.replace("'", "''")
+                where = f" AND a.payer_canonical = '{esc_payer}'"
+            if show == "expired":
+                where += " AND a.service_end_date < date('now')"
+            elif show == "expiring":
+                where += " AND a.service_end_date BETWEEN date('now') AND date('now','+30 days')"
+            elif show == "noauth":
+                where = ""  # handled below
+            q = f"""SELECT a.client_name, a.payer_canonical, a.service_end_date,
+                    CASE WHEN a.service_end_date < date('now') THEN 'EXPIRED'
+                         WHEN a.service_end_date <= date('now','+7 days') THEN 'EXPIRING SOON'
+                         WHEN a.service_end_date <= date('now','+30 days') THEN 'EXPIRING'
+                         ELSE 'ACTIVE' END as urgency
+                    FROM authorization a WHERE a.status='ACTIVE'{where}
+                    ORDER BY a.service_end_date ASC LIMIT 100"""
+            for r in conn.execute(q):
+                nm = html.escape(r[0] or "—")
+                p = html.escape(r[1] or "—")
+                end = r[2] or "—"
+                urg = r[3]
+                chip_cls = {"EXPIRED": "chip-red", "EXPIRING SOON": "chip-yellow", "EXPIRING": "chip-orange", "ACTIVE": "chip-green"}.get(urg, "")
+                auth_rows += f"<tr><td style='font-weight:600'>{nm}</td><td>{p}</td><td>{end}</td><td><span class='chip {chip_cls}'>{urg}</span></td></tr>"
+            conn.close()
+        except sqlite3.Error as e:
+            print(f"[ERROR] auth-command DB query failed: {e}", file=sys.stderr)
+    payer_opts = "".join(f'<option value="{html.escape(p)}">{html.escape(p)}</option>' for p in sorted(payers))
+    coverage_pct = round(stats["clients"] / max(stats["clients"] + stats["noauth"], 1) * 100)
+    # 90-day forecast bar chunks
+    bars = f"""
+    <div style="display:flex;gap:4px;align-items:flex-end;height:48px;margin-top:8px">
+        <div style="flex:1;background:var(--ghs-danger);height:100%;border-radius:4px 0 0 4px;position:relative" title="{stats['expired']} expired">
+            <span style="position:absolute;bottom:-22px;left:0;font-size:12px;color:var(--ghs-danger)">{stats['expired']}</span></div>
+        <div style="flex:1;background:var(--ghs-warn);height:70%;position:relative" title="{stats['exp7']} expiring ≤7d">
+            <span style="position:absolute;bottom:-22px;left:0;font-size:12px;color:var(--ghs-warn)">{stats['exp7']}</span></div>
+        <div style="flex:1;background:#d28c50;height:50%;position:relative" title="{stats['exp14']} expiring 8-14d">
+            <span style="position:absolute;bottom:-22px;left:0;font-size:12px;color:#d28c50">{stats['exp14']}</span></div>
+        <div style="flex:1;background:var(--ghs-ok);height:35%;position:relative" title="{stats['exp30']} expiring 15-30d">
+            <span style="position:absolute;bottom:-22px;left:0;font-size:12px;color:var(--ghs-ok)">{stats['exp30']}</span></div>
+        <div style="flex:2;background:var(--ghs-accent-dim);height:25%;border-radius:0 4px 4px 0;position:relative" title="{stats['auths'] - stats['exp7'] - stats['exp14'] - stats['exp30'] - stats['expired']} healthy">
+            <span style="position:absolute;bottom:-22px;left:0;font-size:12px;color:var(--ghs-dim)">HEALTHY</span></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--ghs-faint);margin-top:26px">
+        <span>EXPIRED</span><span>≤7d</span><span>8-14d</span><span>15-30d</span><span>30d+ HEALTHY</span>
+    </div>"""
+    return HTML_HEAD + f"""
+    <h1>📜 Auth Command Center</h1>
+    <p class="dim" style="margin-bottom:14px">{today.strftime('%A, %B %d %Y')} · Coverage: {coverage_pct}% · <span class="chip chip-red" style="font-size:14px">{stats['expired']} EXPIRED</span></p>
+    <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">
+        <div class="stat-card"><div class="stat-icon">👤</div><div class="stat-hero">{stats['clients']}</div><div class="stat-label">Active Clients</div><div class="stat-sub">{coverage_pct}% auth covered</div></div>
+        <div class="stat-card"><div class="stat-icon">📄</div><div class="stat-hero">{stats['auths']}</div><div class="stat-label">Active Auths</div><div class="stat-sub">{stats['noauth']} clients with NO auth</div></div>
+        <div class="stat-card danger"><div class="stat-icon">🔴</div><div class="stat-hero">{stats['expired']}</div><div class="stat-label">EXPIRED</div><div class="stat-sub">Still marked ACTIVE</div></div>
+        <div class="stat-card warn"><div class="stat-icon">🟡</div><div class="stat-hero">{stats['exp7'] + stats['exp14'] + stats['exp30']}</div><div class="stat-label">Expiring ≤30d</div><div class="stat-sub">{stats['exp7']} within 7 days</div></div>
+    </div>
+    <div class="card card-accent" style="margin-top:16px">
+        <h2>📊 90-Day Auth Forecast</h2>
+        {bars}
+    </div>
+    <div class="card card-accent" style="margin-top:16px">
+        <h2>📋 Client Auth Table</h2>
+        <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px">
+            <form method="get" action="/auth-command" style="margin:0;display:flex;gap:8px;flex-wrap:wrap">
+                <select name="show" style="padding:6px 12px">
+                    <option value="all" {'selected' if show=='all' else ''}>All Statuses</option>
+                    <option value="expired" {'selected' if show=='expired' else ''}>🔴 Expired Only</option>
+                    <option value="expiring" {'selected' if show=='expiring' else ''}>🟡 Expiring ≤30d</option>
+                </select>
+                <select name="payer" style="padding:6px 12px">
+                    <option value="all">All Payers</option>
+                    {payer_opts}
+                </select>
+                <button type="submit" style="padding:6px 16px">Filter</button>
+            </form>
+            <span style="font-size:14px;color:var(--ghs-dim)">Showing {len(auth_rows.split('<tr')) if auth_rows else 0} of {stats['auths']} auths</span>
+        </div>
+        <div style="max-height:500px;overflow-y:auto">
+        <table class="tbl"><tr><th>Client</th><th>Payer</th><th>End Date</th><th>Status</th></tr>
+        {auth_rows or '<tr><td colspan="4" class="dim">No results</td></tr>'}</table>
+        </div>
+    </div>
+    """ + HTML_FOOT
+
 @app.get("/payroll", response_class=HTMLResponse)
 async def payroll_page(fmt: str = Query("adp"), period_start: str = Query(None), period_end: str = Query(None)):
     args = ["--format", fmt]
@@ -412,12 +695,60 @@ async def serve_output(filename: str):
         return FileResponse(str(f))
     raise HTTPException(404, "File not found")
 
+ICON_DIR = REX / "frontend" / "dist"
+
+@app.get("/icon-{size}.png")
+async def serve_icon(size: str):
+    f = ICON_DIR / f"icon-{size}.png"
+    if f.exists():
+        return FileResponse(str(f))
+    raise HTTPException(404, "Icon not found")
+
+@app.get("/favicon-{size}.png")
+async def serve_favicon(size: str):
+    f = ICON_DIR / f"favicon-{size}.png"
+    if f.exists():
+        return FileResponse(str(f))
+    raise HTTPException(404, "Favicon not found")
+
 @app.get("/api/import-auths")
 async def import_auths():
     out, err = run_script("carecenta_import", ["--dry-run"])
     if err:
         raise HTTPException(500, err)
     return JSONResponse({"output": out})
+
+MANIFEST = {
+    "name": "GHS Platform",
+    "short_name": "GHS",
+    "description": "Gold Health Systems — Replaces HHAeXchange + Carecenta. Biometric, EVV, daily packs, menus, payroll, auth tracking.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#06080a",
+    "theme_color": "#5d9b6b",
+    "orientation": "any",
+    "icons": [
+        {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+        {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"},
+        {"src": "/icon-1024.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any"}
+    ]
+}
+
+@app.get("/manifest.json")
+async def manifest():
+    return JSONResponse(MANIFEST)
+
+@app.get("/sw.js")
+async def service_worker():
+    sw = """// GHS Platform Service Worker — offline cache v1
+var CACHE = 'ghs-v1';
+var ASSETS = ['/','/evv','/biometric','/daily-pack','/menu','/auth','/payroll','/hha','/billing','/kitchen','/driver','/frontdesk','/financial'];
+self.addEventListener('install',function(e){e.waitUntil(caches.open(CACHE).then(function(c){return c.addAll(ASSETS)}))});
+self.addEventListener('fetch',function(e){e.respondWith(caches.match(e.request).then(function(r){return r||fetch(e.request)}))});
+self.addEventListener('activate',function(e){e.waitUntil(caches.keys().then(function(ks){return Promise.all(ks.filter(function(k){return k!==CACHE}).map(function(k){return caches.delete(k)}))}))});
+"""
+    from fastapi.responses import PlainTextResponse
+    return PlainTextResponse(sw, media_type="application/javascript")
 
 # ==================== Role surfaces (read-only DB access — no writes) ====================
 # Roster source of truth: CC_unified_sheets.get_clients_for_day (imported, not
@@ -728,6 +1059,20 @@ async def financial_page(month: str = Query(None)):
     {body if data else '<div class="card dim">No data for this month.</div>'}
     """ + HTML_FOOT
 
+# API: pregen status (daily doc pre-generation)
+@app.get("/api/pregen-status")
+async def pregen_status():
+    """Return the latest pre-generated daily document status from CC_pre_generate_daily.py."""
+    status_file = OUTPUT / ".pregen_status.json"
+    if not status_file.exists():
+        return JSONResponse({"date": None, "all_ok": False, "ready": False, "message": "No pregen status available"})
+    try:
+        data = json.loads(status_file.read_text())
+        data["ready"] = data.get("all_ok", False)
+        return JSONResponse(data)
+    except (json.JSONDecodeError, OSError):
+        return JSONResponse({"date": None, "all_ok": False, "ready": False, "message": "Failed to read pregen status"})
+
 if __name__ == "__main__":
     print("🏥 GHS Platform starting on http://localhost:8200")
-    uvicorn.run(app, host="0.0.0.0", port=8200)
+    uvicorn.run(app, host="127.0.0.1", port=8200)

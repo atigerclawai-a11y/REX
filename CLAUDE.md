@@ -180,7 +180,8 @@ Bots: `@Hermes_Cloud_May_bot` = Hermes · `@goldhealth_rexxie_bot` = confidant (
 | REX logs | `~/Desktop/REX/logs/` |
 | Working doc | `~/Documents/goj files/GOJ_WORKING_DOC.md` |
 | REX venv (dev) | `~/debate-chamber/.venv/` |
-| REX venv (launchd) | REAL = `~/Desktop/REX/.venv/` (what uvicorn actually runs; the plist calls `~/.rex-venv/bin/uvicorn` but its shebang resolves to `~/Desktop/REX/.venv/bin/python3.11`; `~/.rex-venv` is a decoy). Pip-install to the REAL venv. |
+|| REX venv (launchd) | REAL = `~/Desktop/REX/.venv/` (what uvicorn actually runs; the plist calls `~/.rex-venv/bin/uvicorn` but its shebang resolves to `~/Desktop/REX/.venv/bin/python3.11`; `~/.rex-venv` is a decoy). Pip-install to the REAL venv. |
+|| **CANONICAL SHEET GENERATOR** | `CC_unified_sheets.py` — ONLY active. DO NOT use `generate_distribution_sheet.py`, `generate_kitchen_sheet.py`, `goj_kitchen_paired.py` (deprecated). Usage: `python3 CC_unified_sheets.py --date YYYY-MM-DD --kind all` |
 | Hermes source | `~/.hermes/hermes-agent/` (v0.15.1) |
 | Hermes config | `~/.hermes/profiles/cloud/config.yaml` |
 | Hermes SOUL | `~/.hermes/profiles/cloud/memories/SOUL.md` |

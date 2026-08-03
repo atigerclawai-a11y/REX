@@ -11,7 +11,7 @@ Reads a scanned GoJ BLANK-form batch (PDF) with surya-ocr (llama.cpp VLM):
 
 Kato RAM rule: one batch at a time, --keep_server within the batch, force-kill after.
 """
-import json, re, subprocess, sys, difflib
+import json, re, subprocess, sys, difflib, os
 from pathlib import Path
 
 DOC = Path(sys.argv[1]).resolve()
@@ -30,6 +30,9 @@ WORK.mkdir(parents=True, exist_ok=True)
 _rj = list(WORK.glob('out/*/results.json'))
 RESULTS = WORK / 'out' / DOC.name / 'results.json'
 
+# surya env — prevent memory thrashing (Kato 2026-07-28)
+SURYA_ENV = dict(os.environ, SURYA_INFERENCE_PARALLEL='1', SURYA_INFERENCE_CTX_SIZE='16384')
+
 DAYS = ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
 DAY_KEY = {'ПН': 'M', 'ВТ': 'T', 'СР': 'W', 'ЧТ': 'TH', 'ПТ': 'F'}
 CATS = {'САЛАТЫ': 'САЛАТЫ', 'СУПЫ': 'СУПЫ', 'ГЛАВНОЕ': 'ГЛАВНОЕ', 'ГАРНИР': 'ГАРНИР'}
@@ -39,7 +42,7 @@ if not RESULTS.exists() and _rj:
     RESULTS = _rj[0]
 if not RESULTS.exists():
     r = subprocess.run([SURYA, str(ORIGIN), '--output_dir', str(WORK / 'out'), '--keep_server'],
-                       capture_output=True, text=True, timeout=14400)
+                       capture_output=True, text=True, timeout=14400, env=SURYA_ENV)
     _rj = list(WORK.glob('out/*/results.json'))
     if _rj:
         RESULTS = _rj[0]
@@ -49,6 +52,35 @@ if not RESULTS.exists():
     subprocess.run(['pkill', '-f', 'llama-server'], capture_output=True)  # RAM: release model
 
 results = json.loads(RESULTS.read_text())
+
+# ---------- PAGE-COMPLETENESS GATE (Kato 2026-08-02: "every page counts") ----------
+# Surya can crash mid-doc (llama-server RAM cascade) leaving a PARTIAL results.json
+# (e.g. 6/38 pages). The old code accepted it as complete and silently dropped
+# 32+ pages of real forms (doc006811, doc006880 lost 56/62pp this way).
+# Gate: if processed pages < pdfinfo page count → treat as incomplete → PNG fallback.
+def _pdf_page_count(path):
+    r = subprocess.run(['pdfinfo', str(path)], capture_output=True, text=True, timeout=30)
+    for line in r.stdout.split('\n'):
+        if line.startswith('Pages'):
+            return int(line.split(':')[1].strip())
+    return None
+
+def _processed_page_count(res):
+    """Count pages that actually produced blocks. A page with 0 blocks is either
+    a genuinely blank scanner page (rare, isolated) or a page surya silently
+    failed on mid-crash (contiguous tail). Partial runs leave a tail of empties."""
+    n = 0
+    for pages in res.values():
+        for p in pages:
+            if p.get('blocks'):
+                n += 1
+    return n
+
+EXPECTED = _pdf_page_count(ORIGIN)
+GOT = _processed_page_count(results)
+if EXPECTED and GOT and GOT < EXPECTED:
+    print(f'⚠️ PARTIAL SURYA RUN: {GOT}/{EXPECTED} pages produced blocks — treating as incomplete, PNG fallback')
+    results = {}  # force the fallback path below
 
 # ---------- PNG fallback: some PDFs render blank inside surya's own pipeline ----------
 # (doc006525: pdftoppm renders fine, surya-PDF yields 0 blocks/page — Kato's tilt/
@@ -70,7 +102,7 @@ if _all_empty(results):
         sub = WORK / 'out_png' / png.stem
         if not list(sub.glob('*/results.json')):
             subprocess.run([SURYA, str(png), '--output_dir', str(sub), '--keep_server'],
-                           capture_output=True, text=True, timeout=1800)
+                           capture_output=True, text=True, timeout=1800, env=SURYA_ENV)
     subprocess.run(['pkill', '-f', 'llama-server'], capture_output=True)
     # merge per-page results
     merged = {}

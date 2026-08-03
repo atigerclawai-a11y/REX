@@ -693,7 +693,7 @@ BILL_KEYS = ["idx", "client_name", "carecenta_id", "provider", "insurance_id",
 AUTH_RE = re.compile(
     r"(\d{1,2}/\d{1,2}/\d{4})\s+(\d{1,2}/\d{1,2}/\d{4})\s+"
     r"([A-Z][A-Za-z ,.]+?)\s+(visit|transport)\s+([A-Z]\d{4})\b.*?"
-    r"Auth #\s*(\d+)\s+Contract Client ID\s*([A-Z0-9]+)", re.S)
+    r"Auth\s?#\s*(\S+)\s+Contract Client ID\s*([A-Z0-9]+)", re.S)
 
 
 def _map_row(keys, row):

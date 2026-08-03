@@ -28,7 +28,19 @@ day_code = {0: 'M', 1: 'T', 2: 'W', 3: 'TH', 4: 'F', 6: 'Su'}[dt.weekday()]
 
 a = sqlite3.connect(AUTH)
 attending = a.execute(f'SELECT name, {col} FROM clients WHERE active=1 AND {col} IN (1,2)').fetchall()
+# Kato 2026-07-28: "if they previously were filling out menus, they are considered a menu"
+# -> union base-scheduled clients with menu history (Carecenta auth lapse zeroes their actual)
+base_col = col.replace('_actual', '_base')
+base_rows = a.execute(f'SELECT name, {base_col} FROM clients WHERE active=1 AND {base_col} IN (1,2)').fetchall()
 a.close()
+p = sqlite3.connect(DBS[0])
+menu_history = {r[0] for r in p.execute('SELECT DISTINCT client_name FROM client_menus')}
+p.close()
+have = {n for n, _ in attending}
+added = [(n, s) for n, s in base_rows if n not in have and n in menu_history]
+attending += added
+if added:
+    print(f'  considered-a-menu union: +{len(added)} — {sorted(n for n, _ in added)}')
 s1 = sum(1 for _, s in attending if s == 1)
 s2 = sum(1 for _, s in attending if s == 2)
 
@@ -70,9 +82,11 @@ for db in DBS:
                 (name, DATE, day_code, sh, salad or '', soup or '', main_ or '', side or ''))
             stats['day_shifted'] += 1
             continue
-        # 3. own last order
+        # 3. own last order — REAL orders only (Kato fix 2026-08-02: was chaining
+        #    last_order_fallback→last_order_fallback, drifting from the real order)
         lw = c.execute("""SELECT salad, soup, main, side FROM client_menus
             WHERE client_name=? AND shift=? AND main NOT LIKE '%заказ не размещен%' AND main != ''
+            AND source_sheet IN ('ocr_scan','drive_sync','day_shifted')
             ORDER BY menu_date DESC LIMIT 1""", (name, sh)).fetchone()
         if lw:
             c.execute("""INSERT OR IGNORE INTO client_menus

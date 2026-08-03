@@ -29,10 +29,10 @@
     "id": "0b1a76f210",
     "type": "attendance_change",
     "detail": {
-      "description": "Permanent schedule change: Bakanova wants Monday 1shift \u0432\u0441\u0435\u0433\u0434\u0430",
+      "description": "Permanent schedule change: Bakanova wants Monday 1shift всегда",
       "source_group": "Main"
     },
-    "source": "Bakanova wants Monday 1shift \u0432\u0441\u0435\u0433\u0434\u0430",
+    "source": "Bakanova wants Monday 1shift всегда",
     "status": "approved",
     "created": "2026-07-15T20:55:02.765104",
     "approved_at": "2026-07-15T20:59:18.894317"
@@ -53,7 +53,7 @@
     "id": "89416a08d6",
     "type": "attendance_change",
     "detail": {
-      "description": "Future swap: 7/22 \u2192 7/23: Kozodoy wants Thursday 7/23 instead of Wednesday instead of Wednesday 7/22"
+      "description": "Future swap: 7/22 → 7/23: Kozodoy wants Thursday 7/23 instead of Wednesday instead of Wednesday 7/22"
     },
     "source": "Kozodoy wants Thursday 7/23 instead of Wednesday instead of Wednesday 7/22",
     "status": "approved",
@@ -64,7 +64,7 @@
     "id": "55a7d367b9",
     "type": "attendance_change",
     "detail": {
-      "description": "Future swap: 7/16 \u2192 7/17: Zhuga wants Friday7/17instead of Thursday 7/16"
+      "description": "Future swap: 7/16 → 7/17: Zhuga wants Friday7/17instead of Thursday 7/16"
     },
     "source": "Zhuga wants Friday7/17instead of Thursday 7/16",
     "status": "approved",
@@ -75,12 +75,12 @@
     "id": "765c4da35d",
     "type": "transport_change",
     "detail": {
-      "description": "Transport: Svitlana Decorator: Sheyn Vladimir \n\u0425\u043e\u0447\u0435\u0442 \u0447\u0442\u043e\u0431\u044b \u0435\u0433\u043e \u043f\u043e\u0441\u043b\u0430\u043b\u0438 \u043d\u0430 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442 \u0432 \u043f\u044f\u0442\u043d\u0438\u0446\u0443 \n\u041e\u043d \u0443\u0435\u0437\u0436\u0430\u0435\u0442 \u0432 \u043e\u0442\u043f\u0443\u0441\u043a \u0441 7/22 \u0434\u043e 8/7",
+      "description": "Transport: Svitlana Decorator: Sheyn Vladimir \nХочет чтобы его послали на транспорт в пятницу \nОн уезжает в отпуск с 7/22 до 8/7",
       "driver": null,
       "day": "Friday",
       "source_group": "Main"
     },
-    "source": "Sheyn Vladimir \n\u0425\u043e\u0447\u0435\u0442 \u0447\u0442\u043e\u0431\u044b \u0435\u0433\u043e \u043f\u043e\u0441\u043b\u0430\u043b\u0438 \u043d\u0430 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442 \u0432 \u043f\u044f\u0442\u043d\u0438\u0446\u0443 \n\u041e\u043d \u0443\u0435\u0437\u0436\u0430\u0435\u0442 \u0432 \u043e\u0442\u043f\u0443\u0441\u043a \u0441 7/22 \u0434\u043e 8/7",
+    "source": "Sheyn Vladimir \nХочет чтобы его послали на транспорт в пятницу \nОн уезжает в отпуск с 7/22 до 8/7",
     "status": "approved",
     "created": "2026-07-15T20:55:02.766894",
     "approved_at": "2026-07-15T20:59:18.902730"
@@ -89,12 +89,12 @@
     "id": "128bfc8750",
     "type": "transport_change",
     "detail": {
-      "description": "Transport: Lena (Sadik): ? \u0423 \u043d\u0435\u0433\u043e \u0435\u0441\u0442\u044c \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442 \u0443 \u0420\u0430\u0432\u0438\u043b\u044f. \u0412 \u0447\u0435\u043c \u043f\u0440\u0438\u043a\u043e\u043b?",
+      "description": "Transport: Lena (Sadik): ? У него есть транспорт у Равиля. В чем прикол?",
       "driver": null,
       "day": null,
       "source_group": "Main"
     },
-    "source": "? \u0423 \u043d\u0435\u0433\u043e \u0435\u0441\u0442\u044c \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442 \u0443 \u0420\u0430\u0432\u0438\u043b\u044f. \u0412 \u0447\u0435\u043c \u043f\u0440\u0438\u043a\u043e\u043b?",
+    "source": "? У него есть транспорт у Равиля. В чем прикол?",
     "status": "approved",
     "created": "2026-07-15T20:55:02.767237",
     "approved_at": "2026-07-15T20:59:18.905170"
@@ -103,10 +103,10 @@
     "id": "00c12a6d48",
     "type": "transport_change",
     "detail": {
-      "description": "Self-transport: \u041e\u043d \u0441\u0430\u043c \u0435\u0437\u0434\u0438\u0442 \u043d\u0430 \u0441\u0432\u043e\u0435\u0439 \u043c\u0430\u0448\u0438\u043d\u0435",
+      "description": "Self-transport: Он сам ездит на своей машине",
       "source_group": "Main"
     },
-    "source": "\u041e\u043d \u0441\u0430\u043c \u0435\u0437\u0434\u0438\u0442 \u043d\u0430 \u0441\u0432\u043e\u0435\u0439 \u043c\u0430\u0448\u0438\u043d\u0435",
+    "source": "Он сам ездит на своей машине",
     "status": "approved",
     "created": "2026-07-15T20:55:02.767637",
     "approved_at": "2026-07-15T20:59:18.907412"
@@ -115,12 +115,12 @@
     "id": "3ed1854073",
     "type": "transport_change",
     "detail": {
-      "description": "Transport: Svitlana Decorator: \u041f\u0440\u043e\u0441\u0442\u043e \u043f\u043e\u043c\u0435\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u0435\u0433\u043e \u0420\u0430\u0432\u0438\u043b\u044c \u0437\u0430\u0431\u0440\u0430\u043b",
+      "description": "Transport: Svitlana Decorator: Просто пометь чтобы его Равиль забрал",
       "driver": "Ravil",
       "day": null,
       "source_group": "Main"
     },
-    "source": "\u041f\u0440\u043e\u0441\u0442\u043e \u043f\u043e\u043c\u0435\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u0435\u0433\u043e \u0420\u0430\u0432\u0438\u043b\u044c \u0437\u0430\u0431\u0440\u0430\u043b",
+    "source": "Просто пометь чтобы его Равиль забрал",
     "status": "approved",
     "created": "2026-07-15T20:55:02.768031",
     "approved_at": "2026-07-15T20:59:18.909599"
@@ -129,12 +129,12 @@
     "id": "0fd578b56d",
     "type": "transport_change",
     "detail": {
-      "description": "Transport: Lena (Sadik): \u0420\u0430\u0432\u0438\u043b\u044c, \u043d\u0435 \u0437\u0430\u0431\u0443\u0434\u044c \u0435\u0433\u043e \u0437\u0430\u0431\u0440\u0430\u0442\u044c \u0432 \u043f\u044f\u0442\u043d\u0438\u0446\u0443",
+      "description": "Transport: Lena (Sadik): Равиль, не забудь его забрать в пятницу",
       "driver": "Ravil",
       "day": "Friday",
       "source_group": "Main"
     },
-    "source": "\u0420\u0430\u0432\u0438\u043b\u044c, \u043d\u0435 \u0437\u0430\u0431\u0443\u0434\u044c \u0435\u0433\u043e \u0437\u0430\u0431\u0440\u0430\u0442\u044c \u0432 \u043f\u044f\u0442\u043d\u0438\u0446\u0443",
+    "source": "Равиль, не забудь его забрать в пятницу",
     "status": "approved",
     "created": "2026-07-15T20:55:02.768469",
     "approved_at": "2026-07-15T20:59:18.911880"
@@ -205,12 +205,12 @@
     "id": "5d1b377fb2",
     "type": "transport_change",
     "detail": {
-      "description": "Transport: Ravil: \u0412 \u0432\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435 26 \u0438\u044e\u043b\u044f \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0442\n\nAlisher\nEvgeniy\nValerian\nOleg",
+      "description": "Transport: Ravil: В воскресенье 26 июля работают\n\nAlisher\nEvgeniy\nValerian\nOleg",
       "driver": "Alisher",
       "day": "Sunday",
       "source_group": "Main"
     },
-    "source": "\u0412 \u0432\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435 26 \u0438\u044e\u043b\u044f \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0442\n\nAlisher\nEvgeniy\nValerian\nOleg",
+    "source": "В воскресенье 26 июля работают\n\nAlisher\nEvgeniy\nValerian\nOleg",
     "status": "pending",
     "created": "2026-07-26T03:45:17.945530"
   },
@@ -231,11 +231,11 @@
     "id": "17d2dd99bf",
     "type": "transport_change",
     "detail": {
-      "description": "Self-transport: Korets Tamara \u043f\u0440\u0438\u0435\u0434\u0435\u0442 \u0441\u0430\u043c\u0430",
+      "description": "Self-transport: Korets Tamara приедет сама",
       "source_group": "Main"
     },
-    "source": "Korets Tamara \u043f\u0440\u0438\u0435\u0434\u0435\u0442 \u0441\u0430\u043c\u0430",
-    "status": "pending",
+    "source": "Korets Tamara приедет сама",
+    "status": "resolved_self_transport",
     "created": "2026-07-27T10:33:16.121228"
   },
   "45d4e63a79": {
@@ -266,12 +266,12 @@
     "id": "b5caa840f3",
     "type": "transport_change",
     "detail": {
-      "description": "Transport: Ravil GOJ: \u041f\u0430\u0440\u043a\u0438\u043d\u0433 \u0443\u0433\u043e\u043b 6 \u0410\u043d\u0434\u0440\u0435\u0439, \u0413\u0435\u043d\u0430",
+      "description": "Transport: Ravil GOJ: Паркинг угол 6 Андрей, Гена",
       "driver": "Andrey",
       "day": null,
       "source_group": "Main"
     },
-    "source": "\u041f\u0430\u0440\u043a\u0438\u043d\u0433 \u0443\u0433\u043e\u043b 6 \u0410\u043d\u0434\u0440\u0435\u0439, \u0413\u0435\u043d\u0430",
+    "source": "Паркинг угол 6 Андрей, Гена",
     "status": "pending",
     "created": "2026-07-28T08:53:51.727328"
   }

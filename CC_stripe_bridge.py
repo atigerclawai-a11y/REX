@@ -22,41 +22,47 @@ DEPOSIT_PER_PERSON = 45
 
 def scrape_stripe():
     """Scrape Stripe dashboard payments via Chrome."""
-    # Navigate Chrome to payments page
+    # Navigate Chrome to payments page.
+    # NOTE: the ?status=successful filter URL renders a dashboard error
+    # ("Something went wrong. Please try again later.") — use the plain
+    # /payments URL and filter Succeeded rows client-side instead.
     subprocess.run([
         "osascript", "-e",
-        'tell application "Google Chrome" to set URL of active tab of front window to "https://dashboard.stripe.com/payments?status=successful"'
+        'tell application "Google Chrome" to set URL of active tab of front window to "https://dashboard.stripe.com/payments"'
     ], capture_output=True)
-    import time; time.sleep(5)
+    import time; time.sleep(8)
 
-    # Extract payment data via JavaScript
-    js_code = """
+    # Extract payment data via JavaScript.
+    # Raw string keeps regex backslashes intact; the .replace() calls below
+    # escape backslashes and double quotes for the AppleScript string literal.
+    js_code = r"""
 (function() {
-  var rows = document.querySelectorAll("tr");
+  var rows = document.querySelectorAll("tbody tr");
   var payments = [];
+  var emailRe = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/;
   for (var i = 0; i < rows.length; i++) {
-    var text = rows[i].textContent;
-    var piMatch = text.match(/pi_[a-zA-Z0-9]+/);
-    if (piMatch) {
-      var emailMatch = text.match(/([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,})/);
-      var amtMatch = text.match(/\\$([\\d,.]+)/);
-      var dateMatch = text.match(/([A-Z][a-z]{2}\\s+\\d{1,2},\\s+\\d{4})/);
-      var timeMatch = text.match(/(\\d{1,2}:\\d{2}\\s+[AP]M)/);
-      payments.push({
-        pi_id: piMatch[0],
-        email: emailMatch ? emailMatch[1] : '',
-        amount: amtMatch ? amtMatch[1] : '0',
-        date: dateMatch ? dateMatch[0] : '',
-        time: timeMatch ? timeMatch[1] : ''
-      });
+    var cells = rows[i].querySelectorAll("td");
+    var pi_id = "", email = "", amount = "", date = "", time = "", status = "";
+    for (var j = 0; j < cells.length; j++) {
+      var t = cells[j].textContent.trim();
+      if (!pi_id) { var pm = t.match(/pi_[a-zA-Z0-9]{24}/); if (pm) pi_id = pm[0]; }
+      if (!email) { var em = t.match(emailRe); if (em && !t.match(/pi_/)) email = em[0]; }
+      if (!amount) { var am = t.match(/\$([\d,.]+)/); if (am) amount = am[1]; }
+      if (!status) { var sm = t.match(/(Partially reversed|Refunded|Canceled|Succeeded|Failed|Disputed)/); if (sm) status = sm[0]; }
+      if (!date) { var dm = t.match(/([A-Z][a-z]{2}\s+\d{1,2},?)/); if (dm) date = dm[0]; }
+      if (!time) { var tm = t.match(/(\d{1,2}:\d{2}\s+[AP]M)/); if (tm) time = tm[0]; }
+    }
+    if (pi_id) {
+      payments.push({pi_id: pi_id, email: email, amount: amount, date: date, time: time, status: status});
     }
   }
   return JSON.stringify(payments);
 })()
 """
+    js_escaped = js_code.replace("\\", "\\\\").replace('"', '\\"')
     result = subprocess.run([
         "osascript", "-e",
-        f'tell application "Google Chrome" to execute active tab of front window javascript "{js_code}"'
+        f'tell application "Google Chrome" to execute active tab of front window javascript "{js_escaped}"'
     ], capture_output=True, text=True, timeout=20)
 
     # Parse the output
@@ -66,13 +72,14 @@ def scrape_stripe():
     except json.JSONDecodeError:
         # Try to extract from mangled output
         entries = []
-        for match in re.finditer(r'pi_([a-zA-Z0-9]+).*?([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}).*?(\d{1,2}:\d{2}\s+[AP]M)', raw):
+        for match in re.finditer(r'pi_([a-zA-Z0-9]{24}).*?([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}).*?(\d{1,2}:\d{2}\s+[AP]M)', raw):
             entries.append({
                 'pi_id': f"pi_{match.group(1)}",
                 'email': match.group(2),
                 'time': match.group(3),
                 'amount': '0',
-                'date': ''
+                'date': '',
+                'status': ''
             })
 
     # Clean up PI IDs and emails
@@ -81,13 +88,15 @@ def scrape_stripe():
         pi_text = entry.get('pi_id', '')
         email_text = entry.get('email', '')
 
-        pi_match = re.search(r'(pi_[a-zA-Z0-9]+)', pi_text)
+        pi_match = re.search(r'(pi_[a-zA-Z0-9]{24})', pi_text)
         pi_id = pi_match.group(1) if pi_match else pi_text
 
         email_match = re.search(r'([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})', email_text)
         email = email_match.group(1) if email_match else email_text
 
-        if pi_id and pi_id != 'pi_':  # Valid PI ID
+        status = entry.get('status', '')
+
+        if pi_id and pi_id != 'pi_' and status in ('', 'Succeeded'):  # Valid PI ID, successful only
             clean.append({
                 'pi_id': pi_id,
                 'email': email,

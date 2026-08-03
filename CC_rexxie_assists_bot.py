@@ -5,12 +5,14 @@ from pathlib import Path
 from datetime import datetime
 from threading import Thread
 
-# Config
-TOKEN = "8980921667:AAE4iYE3Lo6F-Ai9hz2QQDYUMsCD_I3LzTo"
-OLLAMA_LOCAL = "http://127.0.0.1:11434"   # Local Ollama (always available)
-MODEL_FAST = "tinyllama:latest"            # 1B, always fits
-OLLAMA_THINK = "http://127.0.0.1:11434"   # Local Ollama
-MODEL_THINK = "llama3.2-heretic:3b"        # 3.2B abliterated
+# Config — Office Mac models PRIMARY (via tunnel :11435), Home Ollama fallback
+TOKEN = "8241177265:AAHF6zdVhVvkLZKtk-7Ejl3gkOKN-r1jXIU"  # @RexxieAssists_bot (the real one)
+OLLAMA_OFFICE = "http://127.0.0.1:11435"     # SSH tunnel → Office Mac Ollama (:11434)
+OLLAMA_LOCAL = "http://127.0.0.1:11434"      # Home Ollama (fallback, always available)
+MODEL_OFFICE_THINK = "huihui_ai/qwen3.5-abliterated:9b"  # QWEN — lighter RAM (6.6GB), abliterated
+MODEL_OFFICE_FAST = "huihui_ai/qwen3.5-abliterated:9b"    # Same both paths — reliable, uncensored
+MODEL_FAST = "llama3.2-heretic:3b"           # Home fallback fast (2GB)
+MODEL_THINK = "llama3.2-heretic:3b"          # Home fallback think (2GB)
 INTAKE = os.path.expanduser("~/Documents/goj files/scans")
 ALLOWED = {5587703834}
 TELEGRAM = f"https://api.telegram.org/bot{TOKEN}"
@@ -25,7 +27,8 @@ SYSTEM_PROMPT = """You are Rexxie, personal assistant to Kato (Alejandro). You a
 Pleasant, composed, direct. Professional without cold. Steady under pressure. No pet names, no emojis unless Kato uses them first.
 
 ## HOW YOU RESPOND
-Answer FIRST. Then only the reasoning that changes what he does next. Then stop.
+Answer FIRST. Then stop.
+NEVER include reasoning, chain-of-thought, deliberation, or any "**Reasoning:**" section in your reply. Reply with the answer only — no thinking aloud, no meta-commentary about your process.
 Brief by default; depth scales with stakes.
 
 ## HONESTY RULES
@@ -84,11 +87,23 @@ def needs_thinking(text, msgs):
 
 def chat(messages, user_text=""):
     use_think = needs_thinking(user_text, messages)
-    url = OLLAMA_THINK if use_think else OLLAMA_LOCAL
-    model = MODEL_THINK if use_think else MODEL_FAST
-    timeout = 180 if use_think else 60
+    # Primary: Office Mac via tunnel. Fallback: Home Ollama.
+    url = OLLAMA_OFFICE if use_think else OLLAMA_OFFICE
+    model = MODEL_OFFICE_THINK if use_think else MODEL_OFFICE_FAST
+    timeout = 300 if use_think else 120
     ctx = 8192 if use_think else 4096
-    
+
+    try:
+        # Verify Office tunnel is alive; fall back to Home if not
+        r = requests.get(f"{url}/api/tags", timeout=5)
+        if r.status_code != 200:
+            raise ConnectionError("office tunnel down")
+    except Exception:
+        url = OLLAMA_LOCAL
+        model = MODEL_THINK if use_think else MODEL_FAST
+        timeout = 180 if use_think else 60
+        print(f"{datetime.now()} -- OFFICE DOWN, falling back to {model}", flush=True)
+
     sys_prompt = build_system_prompt(user_text)
     # Build prompt as plain text (works with any model)
     prompt_parts = []
@@ -106,7 +121,7 @@ def chat(messages, user_text=""):
     try:
         payload = {
             "model": model, "prompt": prompt, "system": sys_prompt,
-            "stream": False, "options": {"num_ctx": ctx, "num_predict": 1024}
+            "stream": False, "options": {"num_ctx": ctx, "num_predict": 2048}
         }
         r = requests.post(f"{url}/api/generate", json=payload, timeout=timeout)
         resp = r.json()
@@ -124,7 +139,7 @@ def chat(messages, user_text=""):
         return "I'm having trouble connecting to my model right now. Try again in a moment."
 
 def preload_model():
-    for url, model in [(OLLAMA_LOCAL, MODEL_FAST), (OLLAMA_THINK, MODEL_THINK)]:
+    for url, model in [(OLLAMA_OFFICE, MODEL_OFFICE_FAST), (OLLAMA_LOCAL, MODEL_FAST)]:
         for i in range(5):
             try:
                 r = requests.post(f"{url}/api/generate", json={
@@ -138,7 +153,7 @@ def preload_model():
 def keepalive():
     while True:
         time.sleep(600)
-        for url, model in [(OLLAMA_LOCAL, MODEL_FAST), (OLLAMA_THINK, MODEL_THINK)]:
+        for url, model in [(OLLAMA_OFFICE, MODEL_OFFICE_FAST), (OLLAMA_LOCAL, MODEL_FAST)]:
             try:
                 requests.post(f"{url}/api/generate", json={"model": model, "prompt": ".", "stream": False}, timeout=60)
             except: pass

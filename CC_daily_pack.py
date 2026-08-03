@@ -12,7 +12,7 @@ DB_PATHS = [HOME / "goj_corpus/goj files/dashboard/auth_tracker.db",
             HOME / "Documents/goj files/dashboard/auth_tracker.db"]
 OUT_DIR = HOME / "Desktop" / "REX" / "output"
 ADDR = "3152 Brighton 6 St, Brooklyn NY 11235 | Garden of Joy Adult Day Care Center"
-DK = {0: "M", 1: "T", 2: "W", 3: "TH", 4: "F", 5: "Sa", 6: "Su"}
+DK = {0: "M", 1: "T", 2: "W", 3: "TH", 4: "F", 5: "Su", 6: "Su"}
 DC = {k: f"day_{k}_actual" for k in DK.values()}
 DVC = {k: f"driver_{k}" for k in DK.values()}
 MEAL_MAP = {1: ["B", "L"], 2: ["L", "S"]}

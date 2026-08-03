@@ -88,7 +88,10 @@ def main():
     results = {}
 
     # Kitchen S1 + S2 (parallel via background procs would be nicer; sequential is safer on RAM)
-    for shift in (1, 2):
+    # Weekends are single-shift days (Sat/Sun = shift 1 only, no shift-2 menu data exists) —
+    # running S2 on a weekend makes the pipeline fail falsely.
+    shifts = (1, 2) if dt.weekday() < 5 else (1,)
+    for shift in shifts:
         ok = run([VENV_PY, "goj_kitchen_paired.py", "--date", ds,
                   "--shift", str(shift), "--skip-preflight"], f"kitchen S{shift}")
         results[f"kitchen_S{shift}"] = ok

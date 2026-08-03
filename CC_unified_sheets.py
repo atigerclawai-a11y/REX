@@ -10,7 +10,7 @@ Usage:
     python3 CC_unified_sheets.py --date 2026-07-27 --shift 1
 """
 
-import argparse, os, sqlite3, sys
+import argparse, os, re, sqlite3, sys
 from datetime import date, datetime
 from pathlib import Path
 
@@ -19,6 +19,41 @@ SCHEDULE_DB = HOME / "Desktop/REX/signin_lists/ghs_schedule.db"
 AUTH_DB = HOME / "Documents/goj files/dashboard/auth_tracker.db"
 OUT_DIR = HOME / "Documents/goj files/output_docs"
 LISRA_DIR = HOME / "Desktop/REX/output"
+
+CHANGE_LOG = HOME / "Documents/GHS-Vault/GOJ Change Log.md"
+
+
+def parse_change_log(target_date: str) -> list[dict]:
+    """Parse change log for cancellations on target_date."""
+    if not CHANGE_LOG.exists():
+        return []
+    text = CHANGE_LOG.read_text(encoding="utf-8")
+    changes = []
+    in_section = False
+    in_prescheduled = False
+    for line in text.split("\n"):
+        if line.startswith(f"## {target_date}"):
+            in_section = True
+            continue
+        if in_section and line.startswith("## "):
+            break
+        if not in_section:
+            continue
+        if "Pre-scheduled" in line:
+            in_prescheduled = True
+            continue
+        if in_prescheduled:
+            if line.startswith("|") and "**" in line:
+                parts = [p.strip() for p in line.split("|")]
+                if len(parts) >= 5 and target_date in parts[1]:
+                    changes.append({"name": parts[2], "shift": parts[3], "change": parts[4], "meal": parts[5].strip("— ").strip("- ") if len(parts) > 5 else ""})
+            continue
+        if line.startswith("|") and "|" in line:
+            parts = [p.strip() for p in line.split("|")]
+            if len(parts) >= 6 and parts[2].lower() == "cancellation":
+                changes.append({"name": parts[3], "shift": parts[4], "change": parts[5]})
+    return changes
+
 
 DAY_WEEKDAY_MAP = {0: "sun", 1: "mon", 2: "tue", 3: "wed", 4: "thu", 5: "fri", 6: "sat"}
 DAY_DB_COL = {0: "day_M_actual", 1: "day_T_actual", 2: "day_W_actual",
@@ -152,6 +187,7 @@ def get_clients_for_day(target_date: str, shift: int) -> list[dict]:
             "driver_name": "",
             "driver_phone": "",
             "driver_address": "",
+            "canonical_id": canonical_id_for(name, first_name=first, last_name=last),
         }
         clients.append(client)
     
@@ -163,18 +199,115 @@ def get_clients_for_day(target_date: str, shift: int) -> list[dict]:
     return clients
 
 
+def canonical_id_for(name: str, first_name: str = "", last_name: str = "") -> str:
+    """Look up a client's canonical 4-digit ID by name. Matches on
+    (last_name, first_name) when provided (Carecenta format), else full name.
+    Returns '' if not found (falls back to blank on sheets)."""
+    global _CANON_IDX, _CANON_BY_LF
+    if _CANON_IDX is None:
+        _CANON_IDX = {}
+        _CANON_BY_LF = {}
+        try:
+            conn = sqlite3.connect(str(AUTH_DB))
+            for cid4, nm in conn.execute("SELECT canonical_id, name FROM canonical_ids"):
+                _CANON_IDX[nm.strip().lower()] = cid4
+                parts = nm.strip().split()
+                if len(parts) >= 2:
+                    _CANON_BY_LF[(parts[0].lower(), parts[1].lower())] = cid4
+            conn.close()
+        except Exception:
+            import json as _json
+            p = Path(__file__).resolve().parent / 'canonical_client_ids.json'
+            if p.exists():
+                for c in _json.loads(p.read_text())['clients']:
+                    nm = c['name']
+                    _CANON_IDX[nm.strip().lower()] = c['canonical_id']
+                    parts = nm.strip().split()
+                    if len(parts) >= 2:
+                        _CANON_BY_LF[(parts[0].lower(), parts[1].lower())] = c['canonical_id']
+    if first_name and last_name and _CANON_BY_LF is not None:
+        # Carecenta first_name may carry the carecenta id suffix ("Ludmila 206578")
+        fn = re.sub(r'\s+\d+\s*$', '', first_name).strip().lower()
+        hit = _CANON_BY_LF.get((last_name.strip().lower(), fn))
+        if hit:
+            return hit
+        # transliteration variants: Katerskaia→Katerskaya, Mariia→Maria, etc.
+        import difflib
+        ln = last_name.strip().lower()
+        # candidates with same fuzzy last name
+        cands = [(l, f, cid4) for (l, f), cid4 in _CANON_BY_LF.items()
+                 if difflib.SequenceMatcher(None, ln, l).ratio() >= 0.85]
+        if cands:
+            # prefer one whose FIRST name also fuzzy-matches (Rozaliya→Rozalia, not Vilyam)
+            best_c = None
+            best_score = 0.0
+            for l, f, cid4 in cands:
+                score = difflib.SequenceMatcher(None, fn, f).ratio()
+                if score > best_score:
+                    best_score = score
+                    best_c = cid4
+            # only accept if first-name ratio is reasonable (>=0.7); else ambiguous → blank
+            if best_score >= 0.7:
+                return best_c
+    return _CANON_IDX.get(name.strip().lower(), '')
+
+_CANON_IDX = None
+_CANON_BY_LF = None
+
+
 def enrich_from_auth_db(clients: list[dict], target_date: str, shift: int):
-    """Add authorization numbers, driver routes, and contact info."""
-    if not AUTH_DB.exists():
-        return
-    
-    conn = sqlite3.connect(str(AUTH_DB))
-    conn.row_factory = sqlite3.Row
-    
+    """Add authorization numbers, driver routes, and contact info.
+
+    Kato HARD RULE (2026-08-01): HHAeXchange authorizations are NULL AND VOID.
+    Carecenta is the ONLY source of truth — read auths from ghs_schedule.db
+    (populated by CC_carecenta_auth_sync.py), NEVER from auth_tracker.db (HHA).
+    """
+    # ── PRIMARY: Carecenta auths from ghs_schedule.db authorizations table ──
+    schedule_conn = sqlite3.connect(str(SCHEDULE_DB))
+    schedule_conn.row_factory = sqlite3.Row
+
+    # Build name → auth lookup from the Carecenta-synced authorizations table
+    # (join through clients by carecenta_id)
+    carecenta_auths = {}
+    try:
+        for row in schedule_conn.execute("""
+            SELECT c.last_name, c.first_name, a.payer, a.auth_number, a.status,
+                   a.service_end
+            FROM authorizations a
+            JOIN clients c ON c.id = a.client_id
+            ORDER BY a.service_end DESC
+        """):
+            lname = (row["last_name"] or "").strip().lower()
+            fname = (row["first_name"] or "").strip().lower()
+            carecenta_auths.setdefault((lname, fname), row)
+    except Exception:
+        carecenta_auths = {}
+
+    # ── DEPRECATED FALLBACK: auth_tracker.db (HHA) — only if Carecenta has none ──
+    conn = None
+    if AUTH_DB.exists():
+        try:
+            conn = sqlite3.connect(str(AUTH_DB))
+            conn.row_factory = sqlite3.Row
+        except Exception:
+            conn = None
+
     for c in clients:
         name = c["name"]
-        
-        # Get auth info
+        lname = (c.get("last_name") or "").strip().lower()
+        fname = (c.get("first_name") or "").strip().lower()
+
+        # Carecenta first
+        row = carecenta_auths.get((lname, fname)) or carecenta_auths.get((lname, ""))
+        if row is not None:
+            c["auth_number"] = row["auth_number"] or ""
+            c["payer"] = row["payer"] or c["payer"]
+            c["auth_status"] = row["status"] or ""
+            continue
+
+        # HHA fallback (deprecated — Carecenta is truth; HHA data is null/void)
+        if conn is None:
+            continue
         auths = conn.execute("""
             SELECT authorization_number, payer_canonical, status
             FROM authorization
@@ -182,13 +315,13 @@ def enrich_from_auth_db(clients: list[dict], target_date: str, shift: int):
             ORDER BY service_end_date DESC
             LIMIT 1
         """, (name,)).fetchall()
-        
+
         if auths:
             a = auths[0]
             c["auth_number"] = a["authorization_number"] or ""
             c["payer"] = a["payer_canonical"] or c["payer"]
             c["auth_status"] = a["status"] or ""
-        
+
         # Get driver route info from ghs_schedule.db driver_routes table
         try:
             routes_conn = sqlite3.connect(str(SCHEDULE_DB))
@@ -217,7 +350,9 @@ def enrich_from_auth_db(clients: list[dict], target_date: str, shift: int):
         except Exception:
             pass
     
-    conn.close()
+    if conn is not None:
+        conn.close()
+    schedule_conn.close()
 
 
 def generate_pdf(kind: str, clients: list[dict], target_date: str, shift: int):
@@ -260,35 +395,35 @@ def generate_pdf(kind: str, clients: list[dict], target_date: str, shift: int):
     
     if kind == "kitchen":
         title = f"KITCHEN LIST — {day_name} {target_date} — {shift_label}"
-        headers = ["#", "Client Name", "Main Dish", "Side", "Notes"]
-        col_widths = [18, 180, 120, 100, 80]
+        headers = ["#", "ID", "Client Name", "Main Dish", "Side", "Notes"]
+        col_widths = [16, 34, 165, 110, 90, 70]
         data = [headers]
         for i, c in enumerate(clients, 1):
-            data.append([str(i), c["name"], "", "", ""])
-    
+            data.append([str(i), c.get("canonical_id", ""), c["name"], "", "", ""])
+
     elif kind == "distribution":
         title = f"DISTRIBUTION LIST — {day_name} {target_date} — {shift_label}"
-        headers = ["#", "Client Name", "Payer", "Auth #", "Status"]
-        col_widths = [18, 180, 100, 100, 60]
+        headers = ["#", "ID", "Client Name", "Payer", "Auth #", "Status"]
+        col_widths = [16, 34, 160, 90, 90, 55]
         data = [headers]
         for i, c in enumerate(clients, 1):
-            data.append([str(i), c["name"], c["payer"], c["auth_number"], c["auth_status"]])
-    
+            data.append([str(i), c.get("canonical_id", ""), c["name"], c["payer"], c["auth_number"], c["auth_status"]])
+
     elif kind == "signin":
         title = f"SIGN-IN SHEET — {day_name} {target_date} — {shift_label}"
-        headers = ["#", "Client Name", "Time In", "Time Out", "Signature"]
-        col_widths = [18, 200, 80, 80, 120]
+        headers = ["#", "ID", "Client Name", "Time In", "Time Out", "Signature"]
+        col_widths = [16, 34, 180, 75, 75, 115]
         data = [headers]
         for i, c in enumerate(clients, 1):
-            data.append([str(i), c["name"], "", "", ""])
-    
+            data.append([str(i), c.get("canonical_id", ""), c["name"], "", "", ""])
+
     elif kind == "drivers":
         title = f"DRIVER ROUTES — {day_name} {target_date} — {shift_label}"
-        headers = ["#", "Client Name", "Address", "Phone", "Driver Name"]
-        col_widths = [18, 150, 170, 100, 100]
+        headers = ["#", "ID", "Client Name", "Address", "Phone", "Driver Name"]
+        col_widths = [16, 34, 135, 155, 90, 90]
         data = [headers]
         for i, c in enumerate(clients, 1):
-            data.append([str(i), c["name"], c["address"], c["phone"], c["driver_name"]])
+            data.append([str(i), c.get("canonical_id", ""), c["name"], c["address"], c["phone"], c["driver_name"]])
     
     else:
         print(f"Unknown sheet kind: {kind}")
@@ -308,6 +443,21 @@ def generate_pdf(kind: str, clients: list[dict], target_date: str, shift: int):
     elements.append(Paragraph(f"GARDEN OF JOY", t_style))
     elements.append(Paragraph(title, s_style))
     elements.append(Spacer(1, 4))
+    
+    # Check for cancellations from change log
+    if kind in ("kitchen", "distribution"):
+        cancels = parse_change_log(target_date)
+        if cancels:
+            cancels_style = ParagraphStyle('Cancels', fontName=FONT_BOLD, fontSize=9, textColor=colors.red, leading=12, spaceAfter=2)
+            c_text = "<b>🔴 CANCELLATIONS TODAY:</b>"
+            for c in cancels:
+                shift_match = str(shift) in c.get("shift", "")
+                if not c.get("shift") or shift_match:
+                    meal_info = f" — {c.get('meal', '')}" if c.get('meal') else c.get('change', '')
+                    c_text += f"<br/>&nbsp;&nbsp;• {c['name']}: {meal_info}"
+            if c_text != "<b>🔴 CANCELLATIONS TODAY:</b>":
+                elements.append(Paragraph(c_text, cancels_style))
+                elements.append(Spacer(1, 6))
     
     # Break into pages of 35 rows
     page_size = 35

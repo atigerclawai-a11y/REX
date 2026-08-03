@@ -7,7 +7,7 @@ import sqlite3
 from datetime import datetime, timedelta
 from pathlib import Path
 
-DB_PATH = Path.home() / "Documents" / "goj files" / "dashboard" / "auth_tracker.db"
+DB_PATH = Path(__file__).resolve().parent / "auth_tracker.db"
 
 _CREATE_TABLE = """
 CREATE TABLE IF NOT EXISTS ocr_jobs (

@@ -7,7 +7,7 @@ DB:   ~/Desktop/REX/CC_lead_connector.db
 
 Run (dev):
     source ~/debate-chamber/.venv/bin/activate
-    uvicorn CC_lead_connector_api:app --host 0.0.0.0 --port 8002 --reload
+    uvicorn CC_lead_connector_api:app --host 127.0.0.1 --port 8002 --reload
 
 Tables: contacts · pipelines · deals · activities · communications
 """
@@ -869,4 +869,4 @@ def health():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("CC_lead_connector_api:app", host="0.0.0.0", port=8002, reload=True)
+    uvicorn.run("CC_lead_connector_api:app", host="127.0.0.1", port=8002, reload=True)

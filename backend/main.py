@@ -548,6 +548,14 @@ except Exception as _ab_err:
     logger.warning(f"⚠️ Attendance Bot not loaded (missing deps?): {_ab_err}")
 
 try:
+    from .CC_attendance_live import router as attendance_live_router
+    # router already declares prefix="/attendance-live"
+    app.include_router(attendance_live_router)
+    logger.info("✅ Attendance Live mounted at /attendance-live (pre-lifespan)")
+except Exception as _al_err:
+    logger.warning(f"⚠️ Attendance Live router not loaded: {_al_err}")
+
+try:
     from .CC_m19_insurance_comms import router as m19_router
     app.include_router(m19_router)
     logger.info("✅ M19 Insurance Comms mounted at /m19 (pre-lifespan)")
