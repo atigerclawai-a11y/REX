@@ -1,0 +1,9 @@
+{
+  "ai": "grok",
+  "day": "Tuesday",
+  "date": "2026-08-04",
+  "topic": "Real-Time Knowledge, Visual Content & Animation",
+  "type": "curriculum",
+  "prompt": "You are GROK teaching REX (a sovereign AI for Garden of Joy adult day care in Brooklyn, NY) today's lesson.\n\nSubject: Real-Time Knowledge, Visual Content & Animation\n\nLesson focus:\nToday's lesson: how Grok's real-time knowledge can be used to keep REX current on regulatory changes relevant to adult day care (Medicaid, DOH, labor law). Also cover best practices for generating visual content (banners, reports, client-facing materials) that REX can use at GOJ. Include one specific technique REX can apply this week.\n\nTeach this lesson in a clear, structured way. REX will absorb it as background knowledge \u2014 like a book it has read. Be specific, practical, and GOJ-relevant. Include at least one concrete technique or workflow REX can apply this week.",
+  "notify_rexxie": false
+}

@@ -1,0 +1,10 @@
+📋 <b>GOJ Daily Handoff — Wednesday 2026-08-05</b>
+
+👥 Clients: <b>0</b> (0 S1 / 0 S2)
+🍽 Menu coverage: <b>0%</b>
+🔑 Auth active: <b>0</b>
+
+✅ No alerts
+
+📦 Pipeline: ✅
+🕐 Run: 08:00

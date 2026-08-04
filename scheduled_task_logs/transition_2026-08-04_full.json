@@ -1,0 +1,57 @@
+{
+  "date": "2026-08-04",
+  "tomorrow": "2026-08-05",
+  "mode": "full",
+  "passed": 6,
+  "failed": 0,
+  "metrics": {
+    "s1_count": 0,
+    "s2_count": 0,
+    "total_scheduled": 0,
+    "auth_expiring_30": 0,
+    "auth_expired": 0,
+    "auth_active": 0,
+    "menu_coverage_pct": 0,
+    "week_start": "2026-08-03",
+    "no_menu_count": 0
+  },
+  "files": [
+    "GOJ_2026-08-05_KITCHEN.pdf",
+    "GOJ_2026-08-05_S2_FOOD_DIST.pdf",
+    "GOJ_2026-08-05_S1_DRIVERS.pdf",
+    "GOJ_2026-08-05_S1_FOOD_DIST.pdf",
+    "GOJ_2026-08-05_S1_SIGNIN.pdf",
+    "GOJ_2026-08-05_S2_DRIVERS.pdf",
+    "GOJ_2026-08-05_S2_SIGNIN.pdf",
+    "distribution_shift1_2026-08-05.pdf",
+    "distribution_shift2_2026-08-05.pdf"
+  ],
+  "drive_uploaded": 0,
+  "drive_results": {},
+  "results": {
+    "daily_shift1": {
+      "ok": true,
+      "output": "od dist:   GOJ_2026-08-05_S1_FOOD_DIST.xlsx  (65 clients  \u26a0 4 missing menu)\n  \ud83d\ude97 Drivers:      GOJ_2026-08-05_S1_DRIVERS.xlsx  (65 clients)\n  \ud83c\udf73 Kitchen:      GOJ_2026-08-05_KITCHEN.xlsx  (160 clients total)\n\n  \u2705 4 files generated in: /Users/mainsobhelper/Documents/goj files/dashboard/daily/2026-08-05"
+    },
+    "daily_shift2": {
+      "ok": true,
+      "output": "od dist:   GOJ_2026-08-05_S2_FOOD_DIST.xlsx  (74 clients  \u26a0 4 missing menu)\n  \ud83d\ude97 Drivers:      GOJ_2026-08-05_S2_DRIVERS.xlsx  (74 clients)\n  \ud83c\udf73 Kitchen:      GOJ_2026-08-05_KITCHEN.xlsx  (160 clients total)\n\n  \u2705 4 files generated in: /Users/mainsobhelper/Documents/goj files/dashboard/daily/2026-08-05"
+    },
+    "distribution": {
+      "ok": true,
+      "output": "an Alla, Belianina Galina, Bershteyn Peter, Beylina Elena, Beylina Emma, Beytelman Anna, Bolotin Marina, Shvarts Edvard\n\n============================================================\n Generated 2 file(s)\n \u26a0\ufe0f  10 clients flagged with NO MENU\n============================================================"
+    },
+    "kitchen": {
+      "ok": true,
+      "output": "============================================================\n \u041a\u0423\u0425\u041d\u042f \u2014 2026-08-06\n============================================================\n  \u2705 /Users/mainsobhelper/Documents/goj files/output_docs/Kitchen_Thu_Aug06.pdf (165 \u0447\u0435\u043b.)\n============================================================"
+    },
+    "auth_check": {
+      "ok": true,
+      "output": " & Animation\n=======================================================\n\n\ud83d\udcda  Queued lesson: \u26a1 GROK \u2014 Real-Time Knowledge, Visual Content & Animation\n\n\ud83d\udcdd  Sending today's quiz to Kato via Telegram...\n\u2705  Telegram sent\n\ud83d\udcdd  Quiz saved \u2192 quiz_2026-08-04_grok.txt\n\n\u2705  Done \u2014 lesson queued + quiz sent for Tuesday"
+    },
+    "attendance": {
+      "ok": true,
+      "output": "Report ready: /Users/mainsobhelper/Desktop/GOJ_Attendance_Report_20260804.pdf\nPrint or email this to keep on file for the Molina auditor."
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
  "client_name": "Bok Lyudmila",
- "updated": "2026-08-04T06:00",
+ "updated": "2026-08-04T08:30",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -17,8 +17,8 @@
    "shift": "1",
    "salad": "Сало",
    "soup": "Куриный суп",
-   "main": null,
-   "side": null
+   "main": "Блины с творогом",
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-08-03",
