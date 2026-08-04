@@ -1,7 +1,16 @@
 {
  "client_name": "Livanova Marioula",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
+  {
+   "menu_date": "2026-08-04",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Салат весенний",
+   "soup": "Борщ красный",
+   "main": "Голубцы",
+   "side": "Картошка"
+  },
   {
    "menu_date": "2026-07-26",
    "day_code": "Su",
@@ -37,15 +46,6 @@
    "soup": null,
    "main": "Жульен",
    "side": null
-  },
-  {
-   "menu_date": "2026-07-14",
-   "day_code": "T",
-   "shift": "2",
-   "salad": "Весна",
-   "soup": "Гриб",
-   "main": "S",
-   "side": "Туш. кап."
   }
  ]
 }

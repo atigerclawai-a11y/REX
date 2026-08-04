@@ -1,7 +1,16 @@
 {
  "client_name": "Leonova Lorina",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Винегрет",
+   "soup": "Харчо",
+   "main": "Вареники с картошкой",
+   "side": null
+  },
   {
    "menu_date": "2026-07-23",
    "day_code": "TH",
@@ -37,15 +46,6 @@
    "soup": "Горох",
    "main": "Чебуреки",
    "side": ""
-  },
-  {
-   "menu_date": "2026-07-02",
-   "day_code": "TH",
-   "shift": "1",
-   "salad": "Ол",
-   "soup": "3.Б",
-   "main": "Поперечка",
-   "side": "MP"
   }
  ]
 }

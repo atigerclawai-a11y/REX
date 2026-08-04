@@ -1,20 +1,20 @@
 {
  "client_name": "Gerber Anna",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
-   "shift": "1",
+   "shift": "2",
    "salad": "Свекла",
-   "soup": "Овощной суп",
+   "soup": "Гороховый суп",
    "main": "Котлеты куриные",
    "side": "Гречка"
   },
   {
    "menu_date": "2026-08-04",
    "day_code": "T",
-   "shift": "1",
+   "shift": "2",
    "salad": "Свекла",
    "soup": "Овощной суп",
    "main": "Дорадо запеченая",

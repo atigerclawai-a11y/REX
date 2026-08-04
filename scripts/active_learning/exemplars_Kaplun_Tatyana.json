@@ -1,40 +1,22 @@
 {
  "client_name": "Kaplun Tatyana",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
    "shift": "2",
-   "salad": "Сало",
-   "soup": "Борщ зеленый",
+   "salad": null,
+   "soup": null,
    "main": "Салмон",
-   "side": "Стручковая фасоль"
-  },
-  {
-   "menu_date": "2026-08-07",
-   "day_code": "F",
-   "shift": "1",
-   "salad": "Сало",
-   "soup": "Борщ зеленый",
-   "main": "Салмон",
-   "side": "Стручковая фасоль"
+   "side": null
   },
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "2",
-   "salad": "Сало",
-   "soup": "Борщ зеленый",
-   "main": "Салмон",
-   "side": "Стручковая фасоль"
-  },
-  {
-   "menu_date": "2026-08-06",
-   "day_code": "TH",
-   "shift": "1",
-   "salad": "Сало",
-   "soup": "Борщ зеленый",
+   "salad": null,
+   "soup": null,
    "main": "Салмон",
    "side": "Стручковая фасоль"
   },
@@ -42,6 +24,24 @@
    "menu_date": "2026-08-05",
    "day_code": "W",
    "shift": "2",
+   "salad": null,
+   "soup": null,
+   "main": "Баса с помидорами",
+   "side": "Стручковая фасоль"
+  },
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
+   "main": "Салмон",
+   "side": "Стручковая фасоль"
+  },
+  {
+   "menu_date": "2026-07-31",
+   "day_code": "F",
+   "shift": "1",
    "salad": "Сало",
    "soup": "Борщ зеленый",
    "main": "Салмон",

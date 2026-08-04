@@ -1,12 +1,12 @@
 {
  "client_name": "Zastoynaya Valentina",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "2",
-   "salad": "Оливье",
+   "salad": "Квашеная капуста",
    "soup": "Харчо",
    "main": "Салмон",
    "side": "Картошка"
@@ -15,8 +15,8 @@
    "menu_date": "2026-08-04",
    "day_code": "T",
    "shift": "2",
-   "salad": "Оливье",
-   "soup": "Харчо",
+   "salad": "Салат весенний",
+   "soup": "Борщ красный",
    "main": "Салмон",
    "side": "Картошка"
   },

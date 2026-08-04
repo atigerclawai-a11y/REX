@@ -1,6 +1,6 @@
 {
  "client_name": "German Stanislava",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-05",
@@ -8,8 +8,8 @@
    "shift": "2",
    "salad": "Сало",
    "soup": "Грибной суп",
-   "main": "Куриные крылышки",
-   "side": "Гречка"
+   "main": "Чалахач",
+   "side": null
   },
   {
    "menu_date": "2026-07-31",

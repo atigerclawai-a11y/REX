@@ -1,6 +1,6 @@
 {
  "client_name": "Mindich Aleksandr",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -9,7 +9,7 @@
    "salad": "Оливье",
    "soup": "Харчо",
    "main": "Блины с мясом",
-   "side": "Гречка"
+   "side": null
   },
   {
    "menu_date": "2026-08-05",
@@ -18,7 +18,7 @@
    "salad": "Оливье",
    "soup": "Харчо",
    "main": "Блины с мясом",
-   "side": "Гречка"
+   "side": null
   },
   {
    "menu_date": "2026-08-03",
@@ -27,7 +27,7 @@
    "salad": "Оливье",
    "soup": "Харчо",
    "main": "Блины с мясом",
-   "side": "Гречка"
+   "side": null
   },
   {
    "menu_date": "2026-07-31",

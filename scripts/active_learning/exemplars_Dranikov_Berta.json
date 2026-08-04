@@ -1,6 +1,6 @@
 {
  "client_name": "Dranikov Berta",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -24,8 +24,8 @@
    "menu_date": "2026-08-05",
    "day_code": "W",
    "shift": "2",
-   "salad": "",
-   "soup": "",
+   "salad": "Селедка",
+   "soup": "Борщ зеленый",
    "main": "Салмон",
    "side": "Паста"
   },

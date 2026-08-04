@@ -1,42 +1,42 @@
 {
  "client_name": "Kaluzhny Florida",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
-  {
-   "menu_date": "2026-08-07",
-   "day_code": "F",
-   "shift": "2",
-   "salad": "Винегрет",
-   "soup": "Куриный суп",
-   "main": "Котлеты куриные",
-   "side": "Тушеная капуста"
-  },
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "2",
-   "salad": "Селедка",
+   "salad": "Салат весенний",
    "soup": "Куриный суп",
    "main": "Котлеты куриные",
-   "side": "Тушеная капуста"
+   "side": null
+  },
+  {
+   "menu_date": "2026-08-05",
+   "day_code": "W",
+   "shift": "2",
+   "salad": null,
+   "soup": null,
+   "main": null,
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-08-04",
    "day_code": "T",
    "shift": "2",
-   "salad": "Селедка",
-   "soup": "Куриный суп",
-   "main": "Салмон",
-   "side": "Пюре"
+   "salad": "Винегрет",
+   "soup": "Борщ красный",
+   "main": "Блины с мясом",
+   "side": null
   },
   {
    "menu_date": "2026-08-03",
    "day_code": "M",
    "shift": "2",
-   "salad": "Винегрет",
-   "soup": "Борщ красный",
-   "main": "Гуляш",
-   "side": "Тушеная капуста"
+   "salad": "Свекла",
+   "soup": "Борщ зеленый",
+   "main": "Куриные крылышки",
+   "side": null
   },
   {
    "menu_date": "2026-07-30",

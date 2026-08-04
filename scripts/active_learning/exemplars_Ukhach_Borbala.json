@@ -1,23 +1,23 @@
 {
  "client_name": "Ukhach Borbala",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
-   "shift": "2",
-   "salad": "Оливье",
+   "shift": "1",
+   "salad": "Салат весенний",
    "soup": "Куриный суп",
-   "main": "Салмон",
+   "main": "Гуляш",
    "side": "Картошка фри"
   },
   {
    "menu_date": "2026-08-04",
    "day_code": "T",
-   "shift": "2",
+   "shift": "1",
    "salad": "Оливье",
-   "soup": "Куриный суп",
-   "main": "Дорадо запеченая",
+   "soup": "Борщ красный",
+   "main": "Блины с мясом",
    "side": "Гречка"
   },
   {

@@ -1,33 +1,33 @@
 {
  "client_name": "Radomyselskiy Semen",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
    "shift": "2",
-   "salad": "Сало",
+   "salad": "Винегрет",
    "soup": "Куриный суп",
    "main": "Блины с творогом",
-   "side": "Гречка"
+   "side": null
   },
   {
    "menu_date": "2026-08-05",
    "day_code": "W",
    "shift": "2",
-   "salad": "Винегрет",
+   "salad": "Салат Днестр",
    "soup": "Куриный суп",
-   "main": "Блины с творогом",
+   "main": "Баса с помидорами",
    "side": "Гречка"
   },
   {
    "menu_date": "2026-08-03",
    "day_code": "M",
    "shift": "2",
-   "salad": "Салат Днестр",
+   "salad": "Сало",
    "soup": "Куриный суп",
-   "main": "Блины с творогом",
-   "side": "Гречка"
+   "main": "Блины с мясом",
+   "side": null
   },
   {
    "menu_date": "2026-07-31",

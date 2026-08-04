@@ -1,21 +1,21 @@
 {
  "client_name": "Goryachkovskaya Svetlana",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
    "shift": "1",
-   "salad": "Оливье",
+   "salad": "Свекла",
    "soup": "Борщ красный",
    "main": "Пельмени",
-   "side": "Тушеная капуста"
+   "side": null
   },
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "1",
-   "salad": "Оливье",
+   "salad": "Свекла",
    "soup": "Борщ красный",
    "main": "Шницель куриный",
    "side": "Тушеная капуста"
@@ -24,7 +24,7 @@
    "menu_date": "2026-08-04",
    "day_code": "T",
    "shift": "1",
-   "salad": "Оливье",
+   "salad": "Свекла",
    "soup": "Борщ красный",
    "main": "Салмон",
    "side": "Паста"

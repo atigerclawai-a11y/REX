@@ -1,7 +1,25 @@
 {
  "client_name": "Tapounova Irina",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
+  {
+   "menu_date": "2026-08-07",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Сало",
+   "soup": "Харчо",
+   "main": "Голубцы",
+   "side": null
+  },
+  {
+   "menu_date": "2026-08-05",
+   "day_code": "W",
+   "shift": "2",
+   "salad": "Винегрет",
+   "soup": "Борщ зеленый",
+   "main": "Блины с мясом",
+   "side": null
+  },
   {
    "menu_date": "2026-07-31",
    "day_code": "F",
@@ -28,24 +46,6 @@
    "soup": "Борщ зеленый",
    "main": "Салмон",
    "side": "Картошка"
-  },
-  {
-   "menu_date": "2026-07-24",
-   "day_code": "F",
-   "shift": "2",
-   "salad": "Сало",
-   "soup": "Гриб",
-   "main": "Шницель",
-   "side": "Картошка"
-  },
-  {
-   "menu_date": "2026-07-22",
-   "day_code": "W",
-   "shift": "2",
-   "salad": "Вин",
-   "soup": "Горох",
-   "main": "Бл. мясо",
-   "side": ""
   }
  ]
 }

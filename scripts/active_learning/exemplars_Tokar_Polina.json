@@ -1,13 +1,13 @@
 {
  "client_name": "Tokar Polina",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "1",
-   "salad": "Свекла",
-   "soup": "Борщ зеленый",
+   "salad": "Селедка",
+   "soup": "Харчо",
    "main": "Куриные крылышки",
    "side": "Тушеная капуста"
   },
@@ -18,16 +18,16 @@
    "salad": "Свекла",
    "soup": "Борщ зеленый",
    "main": "Баса с помидорами",
-   "side": "Тушеная капуста"
+   "side": null
   },
   {
    "menu_date": "2026-08-03",
    "day_code": "M",
    "shift": "1",
-   "salad": "Селедка",
-   "soup": "Харчо",
-   "main": "Куриные крылышки",
-   "side": "Картошка"
+   "salad": null,
+   "soup": null,
+   "main": null,
+   "side": "Картошка фри"
   },
   {
    "menu_date": "2026-07-31",

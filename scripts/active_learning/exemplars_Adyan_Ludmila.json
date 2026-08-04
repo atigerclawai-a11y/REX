@@ -1,7 +1,43 @@
 {
  "client_name": "Adyan Ludmila",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
+  {
+   "menu_date": "2026-08-07",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Грибной суп",
+   "main": null,
+   "side": null
+  },
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Борщ красный",
+   "main": "Чебуреки",
+   "side": null
+  },
+  {
+   "menu_date": "2026-08-05",
+   "day_code": "W",
+   "shift": "1",
+   "salad": null,
+   "soup": null,
+   "main": "Салмон",
+   "side": "Стручковая фасоль"
+  },
+  {
+   "menu_date": "2026-08-03",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Борщ зеленый",
+   "main": "Вареники с картошкой",
+   "side": null
+  },
   {
    "menu_date": "2026-07-27",
    "day_code": "M",
@@ -10,42 +46,6 @@
    "soup": "Гороховый суп",
    "main": "Баса с помидорами",
    "side": "Гречка"
-  },
-  {
-   "menu_date": "2026-07-24",
-   "day_code": "F",
-   "shift": "1",
-   "salad": "Сало",
-   "soup": "Кур",
-   "main": "Чалахач",
-   "side": "Гр"
-  },
-  {
-   "menu_date": "2026-07-23",
-   "day_code": "TH",
-   "shift": "1",
-   "salad": "капуста",
-   "soup": "Кур",
-   "main": "Чалахач",
-   "side": "Картошка"
-  },
-  {
-   "menu_date": "2026-07-20",
-   "day_code": "M",
-   "shift": "1",
-   "salad": "Сало",
-   "soup": "Горох",
-   "main": "Баса",
-   "side": ""
-  },
-  {
-   "menu_date": "2026-07-17",
-   "day_code": "F",
-   "shift": "1",
-   "salad": "Сало",
-   "soup": "Кур",
-   "main": "Чалахач",
-   "side": "Гр"
   }
  ]
 }

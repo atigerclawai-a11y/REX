@@ -1,0 +1,2261 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.4886,
+                    "bbox": [
+                        572,
+                        177,
+                        589,
+                        604
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                570,
+                                176,
+                                588,
+                                604
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        570,
+                                        176,
+                                        588,
+                                        604
+                                    ],
+                                    "type": "text",
+                                    "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                    "score": 0.986
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.4773,
+                    "bbox": [
+                        545,
+                        43,
+                        559,
+                        311
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                545,
+                                45,
+                                557,
+                                309
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        545,
+                                        45,
+                                        557,
+                                        309
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 1/9",
+                                    "score": 0.98
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        79,
+                        45,
+                        543,
+                        770
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9768,
+                            "bbox": [
+                                79,
+                                45,
+                                543,
+                                770
+                            ],
+                            "index": 3,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        45,
+                                        543,
+                                        770
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                79,
+                                                45,
+                                                543,
+                                                770
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=2 colspan=1>No</td><td rowspan=2 colspan=1>Name</td><td rowspan=2 colspan=1>Plan</td><td rowspan=2 colspan=1>TR</td><td rowspan=2 colspan=1>Time In</td><td rowspan=2 colspan=1>Time Out</td><td rowspan=2 colspan=1>Signature</td></tr><tr></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Adyan Ludmila</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>thrs</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Andreeva Alla</td><td rowspan=1 colspan=1>Senior Whole Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>nAl</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Beylina Emma</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>EBele</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Bratukhin Vladimir</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>N</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Brikker Ella</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Brikken</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Chernyatskay Polya</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>P.Ches</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Diachenko Halyna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>BleV</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Dorodnova Kateryna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>.</td><td rowspan=1 colspan=1>teatees-</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Elensky Tamara</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>by. El</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Finkelshteyn Anya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>AryoFeedn</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Gadilova Nina</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>n.CadL</td></tr></table>",
+                                            "image_path": "efe1d7d996adacc6957f0d5fd9ec8995bbfd965bc4ca27bd7c7b9eea2f457f72.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.9768
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "score": 0.4886,
+                    "bbox": [
+                        572,
+                        177,
+                        589,
+                        604
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                570,
+                                176,
+                                588,
+                                604
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        570,
+                                        176,
+                                        588,
+                                        604
+                                    ],
+                                    "type": "text",
+                                    "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                    "score": 0.986
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        570,
+                        176,
+                        588,
+                        604
+                    ]
+                },
+                {
+                    "score": 0.4773,
+                    "bbox": [
+                        545,
+                        43,
+                        559,
+                        311
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                545,
+                                45,
+                                557,
+                                309
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        545,
+                                        45,
+                                        557,
+                                        309
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 1/9",
+                                    "score": 0.98
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        545,
+                        45,
+                        557,
+                        309
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        79,
+                        45,
+                        543,
+                        770
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9768,
+                            "bbox": [
+                                79,
+                                45,
+                                543,
+                                770
+                            ],
+                            "index": 3,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        45,
+                                        543,
+                                        770
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                79,
+                                                45,
+                                                543,
+                                                770
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=2 colspan=1>No</td><td rowspan=2 colspan=1>Name</td><td rowspan=2 colspan=1>Plan</td><td rowspan=2 colspan=1>TR</td><td rowspan=2 colspan=1>Time In</td><td rowspan=2 colspan=1>Time Out</td><td rowspan=2 colspan=1>Signature</td></tr><tr></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Adyan Ludmila</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>thrs</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Andreeva Alla</td><td rowspan=1 colspan=1>Senior Whole Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>nAl</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Beylina Emma</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>EBele</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Bratukhin Vladimir</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>N</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Brikker Ella</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Brikken</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Chernyatskay Polya</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>P.Ches</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Diachenko Halyna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>BleV</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Dorodnova Kateryna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>.</td><td rowspan=1 colspan=1>teatees-</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Elensky Tamara</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>by. El</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Finkelshteyn Anya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>AryoFeedn</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Gadilova Nina</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>n.CadL</td></tr></table>",
+                                            "image_path": "efe1d7d996adacc6957f0d5fd9ec8995bbfd965bc4ca27bd7c7b9eea2f457f72.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.9768
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.4917,
+                    "bbox": [
+                        546,
+                        43,
+                        560,
+                        310
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                546,
+                                45,
+                                557,
+                                309
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        546,
+                                        45,
+                                        557,
+                                        309
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 2/9",
+                                    "score": 0.978
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        79,
+                        44,
+                        544,
+                        743
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9858,
+                            "bbox": [
+                                79,
+                                44,
+                                544,
+                                743
+                            ],
+                            "index": 2,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        44,
+                                        544,
+                                        743
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                79,
+                                                44,
+                                                544,
+                                                743
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>Gluzman Mara</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>uasa Gly</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>Goldfeld Nadezhda</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>bold</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>Golubeva Emma</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>Gorelik Esfir</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>Goryachkovskaya Svetlana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>RE</td></tr><tr><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>Goryachkovsky Alexandr</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>Grabovskaya Larisa</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Co-00</td></tr><tr><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>Grinshpun Izrail</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>in</td></tr><tr><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>Grishin Leonid</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Lhrisher</td></tr><tr><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>Gurevich Roza</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Veasard</td></tr><tr><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>Gurevich Victor</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V.lereich.</td></tr></table>",
+                                            "image_path": "9e2551d8362eb7111600da48e49be104c842c9632a89614313e4ec3dfb27216d.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "score": 0.5314,
+                            "bbox": [
+                                573,
+                                178,
+                                589,
+                                603
+                            ],
+                            "index": 3,
+                            "type": "table_caption",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        570,
+                                        176,
+                                        589,
+                                        604
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                570,
+                                                176,
+                                                589,
+                                                604
+                                            ],
+                                            "type": "text",
+                                            "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                            "score": 0.979
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.9858
+                }
+            ],
+            "page_idx": 1,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "score": 0.4917,
+                    "bbox": [
+                        546,
+                        43,
+                        560,
+                        310
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                546,
+                                45,
+                                557,
+                                309
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        546,
+                                        45,
+                                        557,
+                                        309
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 2/9",
+                                    "score": 0.978
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        546,
+                        45,
+                        557,
+                        309
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        79,
+                        44,
+                        544,
+                        743
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9858,
+                            "bbox": [
+                                79,
+                                44,
+                                544,
+                                743
+                            ],
+                            "index": 2,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        44,
+                                        544,
+                                        743
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                79,
+                                                44,
+                                                544,
+                                                743
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>Gluzman Mara</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>uasa Gly</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>Goldfeld Nadezhda</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>bold</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>Golubeva Emma</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>Gorelik Esfir</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>Goryachkovskaya Svetlana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>RE</td></tr><tr><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>Goryachkovsky Alexandr</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>Grabovskaya Larisa</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Co-00</td></tr><tr><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>Grinshpun Izrail</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>in</td></tr><tr><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>Grishin Leonid</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Lhrisher</td></tr><tr><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>Gurevich Roza</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Veasard</td></tr><tr><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>Gurevich Victor</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V.lereich.</td></tr></table>",
+                                            "image_path": "9e2551d8362eb7111600da48e49be104c842c9632a89614313e4ec3dfb27216d.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "score": 0.5314,
+                            "bbox": [
+                                573,
+                                178,
+                                589,
+                                603
+                            ],
+                            "index": 3,
+                            "type": "table_caption",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        570,
+                                        176,
+                                        589,
+                                        604
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                570,
+                                                176,
+                                                589,
+                                                604
+                                            ],
+                                            "type": "text",
+                                            "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                            "score": 0.979
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.9858
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.4887,
+                    "bbox": [
+                        546,
+                        43,
+                        560,
+                        310
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                545,
+                                44,
+                                558,
+                                308
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        545,
+                                        44,
+                                        558,
+                                        308
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 3/9",
+                                    "score": 0.984
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        78,
+                        44,
+                        545,
+                        764
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9823,
+                            "bbox": [
+                                78,
+                                44,
+                                545,
+                                764
+                            ],
+                            "index": 2,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        44,
+                                        545,
+                                        764
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                78,
+                                                44,
+                                                545,
+                                                764
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=2 colspan=1>No</td><td rowspan=2 colspan=1>Name</td><td rowspan=2 colspan=1>Plan</td><td rowspan=2 colspan=1>TR</td><td rowspan=2 colspan=1>Time In</td><td rowspan=2 colspan=1>Time Out</td><td rowspan=2 colspan=1>Signature</td></tr><tr><td rowspan=12 colspan=1></td></tr><tr><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>Gurevich Yevgeniy</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>bCupevced</td></tr><tr><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>Hurlenia Leanid</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>Ignatovskaia Tamara</td><td rowspan=1 colspan=1>Senior Whole Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>GNA</td></tr><tr><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>Kapitova Larisa</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>\\ka</td></tr><tr><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>Kaplun Tatyana</td><td rowspan=1 colspan=1>VNS Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>t.kode</td></tr><tr><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>Katerskaya Nina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Mone</td></tr><tr><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>Khalfin Inna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>Khnanisho Olga</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>Klevan Svetlana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>Kotvitskaya Alexandra</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1>Kramer Sofya</td><td rowspan=1 colspan=1>VCM</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Pramer</td></tr></table>",
+                                            "image_path": "071807399bf6672b58c3c4631ba9c3dafa93e656f4b922d6515aa6e00996e343.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.9823
+                },
+                {
+                    "score": 0.4545,
+                    "bbox": [
+                        573,
+                        177,
+                        590,
+                        604
+                    ],
+                    "index": 3,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                570,
+                                176,
+                                589,
+                                604
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        570,
+                                        176,
+                                        589,
+                                        604
+                                    ],
+                                    "type": "text",
+                                    "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                    "score": 0.976
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                }
+            ],
+            "page_idx": 2,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "score": 0.4887,
+                    "bbox": [
+                        546,
+                        43,
+                        560,
+                        310
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                545,
+                                44,
+                                558,
+                                308
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        545,
+                                        44,
+                                        558,
+                                        308
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 3/9",
+                                    "score": 0.984
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        545,
+                        44,
+                        558,
+                        308
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        78,
+                        44,
+                        545,
+                        764
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9823,
+                            "bbox": [
+                                78,
+                                44,
+                                545,
+                                764
+                            ],
+                            "index": 2,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        44,
+                                        545,
+                                        764
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                78,
+                                                44,
+                                                545,
+                                                764
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=2 colspan=1>No</td><td rowspan=2 colspan=1>Name</td><td rowspan=2 colspan=1>Plan</td><td rowspan=2 colspan=1>TR</td><td rowspan=2 colspan=1>Time In</td><td rowspan=2 colspan=1>Time Out</td><td rowspan=2 colspan=1>Signature</td></tr><tr><td rowspan=12 colspan=1></td></tr><tr><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>Gurevich Yevgeniy</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>bCupevced</td></tr><tr><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>Hurlenia Leanid</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>Ignatovskaia Tamara</td><td rowspan=1 colspan=1>Senior Whole Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>GNA</td></tr><tr><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>Kapitova Larisa</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>\\ka</td></tr><tr><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>Kaplun Tatyana</td><td rowspan=1 colspan=1>VNS Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>t.kode</td></tr><tr><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>Katerskaya Nina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Mone</td></tr><tr><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>Khalfin Inna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>Khnanisho Olga</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>Klevan Svetlana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>Kotvitskaya Alexandra</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1>Kramer Sofya</td><td rowspan=1 colspan=1>VCM</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Pramer</td></tr></table>",
+                                            "image_path": "071807399bf6672b58c3c4631ba9c3dafa93e656f4b922d6515aa6e00996e343.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.9823
+                },
+                {
+                    "score": 0.4545,
+                    "bbox": [
+                        573,
+                        177,
+                        590,
+                        604
+                    ],
+                    "index": 3,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                570,
+                                176,
+                                589,
+                                604
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        570,
+                                        176,
+                                        589,
+                                        604
+                                    ],
+                                    "type": "text",
+                                    "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                    "score": 0.976
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.482,
+                    "bbox": [
+                        573,
+                        178,
+                        591,
+                        604
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                571,
+                                176,
+                                590,
+                                604
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        571,
+                                        176,
+                                        590,
+                                        604
+                                    ],
+                                    "type": "text",
+                                    "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                    "score": 0.99
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.481,
+                    "bbox": [
+                        546,
+                        43,
+                        561,
+                        310
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                546,
+                                44,
+                                558,
+                                308
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        546,
+                                        44,
+                                        558,
+                                        308
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 4/9",
+                                    "score": 0.978
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        78,
+                        43,
+                        544,
+                        741
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9851,
+                            "bbox": [
+                                78,
+                                43,
+                                544,
+                                741
+                            ],
+                            "index": 3,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        43,
+                                        544,
+                                        741
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                78,
+                                                43,
+                                                544,
+                                                741
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1>Kravets Sima</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Kvarets</td></tr><tr><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1>Krayz Raisa</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>B. Jaa</td></tr><tr><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>Krivchenok Mina</td><td rowspan=1 colspan=1>VNS Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>Kruglov Viktor</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V.K。</td></tr><tr><td rowspan=1 colspan=1>38</td><td rowspan=1 colspan=1>Krupnik Eduard</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LRempnek</td></tr><tr><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>Leonova Lorina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>L.deenr</td></tr><tr><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>Loukachevitch Tatiana</td><td rowspan=1 colspan=1>Senior Whole Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Sayleas</td></tr><tr><td rowspan=1 colspan=1>41</td><td rowspan=1 colspan=1>Lysenko Tetiana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>An   2J</td></tr><tr><td rowspan=1 colspan=1>42</td><td rowspan=1 colspan=1>Maksimova Bella</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>43</td><td rowspan=1 colspan=1>Malakhovska Viktoriya</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Mal</td></tr><tr><td rowspan=1 colspan=1>44</td><td rowspan=1 colspan=1>Margulis David</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Maron</td></tr></table>",
+                                            "image_path": "a0be0aa27aa7fb141656b199a2cc84bfc58dc3c7a67827dbf6706f2a95764060.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.9851
+                }
+            ],
+            "page_idx": 3,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "score": 0.482,
+                    "bbox": [
+                        573,
+                        178,
+                        591,
+                        604
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                571,
+                                176,
+                                590,
+                                604
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        571,
+                                        176,
+                                        590,
+                                        604
+                                    ],
+                                    "type": "text",
+                                    "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                    "score": 0.99
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        571,
+                        176,
+                        590,
+                        604
+                    ]
+                },
+                {
+                    "score": 0.481,
+                    "bbox": [
+                        546,
+                        43,
+                        561,
+                        310
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                546,
+                                44,
+                                558,
+                                308
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        546,
+                                        44,
+                                        558,
+                                        308
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 4/9",
+                                    "score": 0.978
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        546,
+                        44,
+                        558,
+                        308
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        78,
+                        43,
+                        544,
+                        741
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9851,
+                            "bbox": [
+                                78,
+                                43,
+                                544,
+                                741
+                            ],
+                            "index": 3,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        43,
+                                        544,
+                                        741
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                78,
+                                                43,
+                                                544,
+                                                741
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1>Kravets Sima</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Kvarets</td></tr><tr><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1>Krayz Raisa</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>B. Jaa</td></tr><tr><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>Krivchenok Mina</td><td rowspan=1 colspan=1>VNS Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>Kruglov Viktor</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V.K。</td></tr><tr><td rowspan=1 colspan=1>38</td><td rowspan=1 colspan=1>Krupnik Eduard</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LRempnek</td></tr><tr><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>Leonova Lorina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>L.deenr</td></tr><tr><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>Loukachevitch Tatiana</td><td rowspan=1 colspan=1>Senior Whole Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Sayleas</td></tr><tr><td rowspan=1 colspan=1>41</td><td rowspan=1 colspan=1>Lysenko Tetiana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>An   2J</td></tr><tr><td rowspan=1 colspan=1>42</td><td rowspan=1 colspan=1>Maksimova Bella</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>43</td><td rowspan=1 colspan=1>Malakhovska Viktoriya</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Mal</td></tr><tr><td rowspan=1 colspan=1>44</td><td rowspan=1 colspan=1>Margulis David</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Maron</td></tr></table>",
+                                            "image_path": "a0be0aa27aa7fb141656b199a2cc84bfc58dc3c7a67827dbf6706f2a95764060.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.9851
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.5119,
+                    "bbox": [
+                        573,
+                        176,
+                        590,
+                        603
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                572,
+                                174,
+                                590,
+                                604
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        572,
+                                        174,
+                                        590,
+                                        604
+                                    ],
+                                    "type": "text",
+                                    "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                    "score": 0.976
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5495,
+                    "bbox": [
+                        546,
+                        42,
+                        560,
+                        309
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                545,
+                                43,
+                                559,
+                                308
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        545,
+                                        43,
+                                        559,
+                                        308
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 5/9",
+                                    "score": 0.981
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        79,
+                        42,
+                        544,
+                        743
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9867,
+                            "bbox": [
+                                79,
+                                42,
+                                544,
+                                743
+                            ],
+                            "index": 3,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        42,
+                                        544,
+                                        743
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                79,
+                                                42,
+                                                544,
+                                                743
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>45</td><td rowspan=1 colspan=1>Mashkovich Yankel</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>WYoulle</td></tr><tr><td rowspan=1 colspan=1>46</td><td rowspan=1 colspan=1>Mazo Nina</td><td rowspan=1 colspan=1>Senior Whole Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>v MAZC</td></tr><tr><td rowspan=1 colspan=1>47</td><td rowspan=1 colspan=1>Melnyk Mariia</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>6一</td></tr><tr><td rowspan=1 colspan=1>48</td><td rowspan=1 colspan=1>Meltser Eugene</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>NE, M</td></tr><tr><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>Meltser Larisa</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>NL.M</td></tr><tr><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1>Mikhaylova Sofiya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>SSie</td></tr><tr><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>Mitelman Leonid</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>52</td><td rowspan=1 colspan=1>Neginis Rivekka</td><td rowspan=1 colspan=1>Private Pay</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>v</td><td rowspan=1 colspan=1>Netiw</td></tr><tr><td rowspan=1 colspan=1>53</td><td rowspan=1 colspan=1>Nemirovskaya Mariya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>54</td><td rowspan=1 colspan=1>Nemirovskiy Arkadiy</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>55</td><td rowspan=1 colspan=1>Nemyrska Galyna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+                                            "image_path": "f2a0cb1b935769f888618b4a1d19be28e09a9f859c54dacba213277ee82f2bc0.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.9867
+                }
+            ],
+            "page_idx": 4,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "score": 0.5119,
+                    "bbox": [
+                        573,
+                        176,
+                        590,
+                        603
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                572,
+                                174,
+                                590,
+                                604
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        572,
+                                        174,
+                                        590,
+                                        604
+                                    ],
+                                    "type": "text",
+                                    "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                    "score": 0.976
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        572,
+                        174,
+                        590,
+                        604
+                    ]
+                },
+                {
+                    "score": 0.5495,
+                    "bbox": [
+                        546,
+                        42,
+                        560,
+                        309
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                545,
+                                43,
+                                559,
+                                308
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        545,
+                                        43,
+                                        559,
+                                        308
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 5/9",
+                                    "score": 0.981
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        545,
+                        43,
+                        559,
+                        308
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        79,
+                        42,
+                        544,
+                        743
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9867,
+                            "bbox": [
+                                79,
+                                42,
+                                544,
+                                743
+                            ],
+                            "index": 3,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        42,
+                                        544,
+                                        743
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                79,
+                                                42,
+                                                544,
+                                                743
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>45</td><td rowspan=1 colspan=1>Mashkovich Yankel</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>WYoulle</td></tr><tr><td rowspan=1 colspan=1>46</td><td rowspan=1 colspan=1>Mazo Nina</td><td rowspan=1 colspan=1>Senior Whole Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>v MAZC</td></tr><tr><td rowspan=1 colspan=1>47</td><td rowspan=1 colspan=1>Melnyk Mariia</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>6一</td></tr><tr><td rowspan=1 colspan=1>48</td><td rowspan=1 colspan=1>Meltser Eugene</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>NE, M</td></tr><tr><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>Meltser Larisa</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>NL.M</td></tr><tr><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1>Mikhaylova Sofiya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>SSie</td></tr><tr><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>Mitelman Leonid</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>52</td><td rowspan=1 colspan=1>Neginis Rivekka</td><td rowspan=1 colspan=1>Private Pay</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>v</td><td rowspan=1 colspan=1>Netiw</td></tr><tr><td rowspan=1 colspan=1>53</td><td rowspan=1 colspan=1>Nemirovskaya Mariya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>54</td><td rowspan=1 colspan=1>Nemirovskiy Arkadiy</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>55</td><td rowspan=1 colspan=1>Nemyrska Galyna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+                                            "image_path": "f2a0cb1b935769f888618b4a1d19be28e09a9f859c54dacba213277ee82f2bc0.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.9867
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.4777,
+                    "bbox": [
+                        547,
+                        43,
+                        561,
+                        311
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                547,
+                                45,
+                                559,
+                                309
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        547,
+                                        45,
+                                        559,
+                                        309
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 6/9",
+                                    "score": 0.978
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        79,
+                        43,
+                        543,
+                        742
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9859,
+                            "bbox": [
+                                79,
+                                43,
+                                543,
+                                742
+                            ],
+                            "index": 2,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        43,
+                                        543,
+                                        742
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                79,
+                                                43,
+                                                543,
+                                                742
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>56</td><td rowspan=1 colspan=1>Nikonovych Halyna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>MiTCON</td></tr><tr><td rowspan=1 colspan=1>57</td><td rowspan=1 colspan=1>Parkansky Rita</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>ku</td></tr><tr><td rowspan=1 colspan=1>58</td><td rowspan=1 colspan=1>Patsiuchenko Oleg</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>TOl</td></tr><tr><td rowspan=1 colspan=1>59</td><td rowspan=1 colspan=1>Perepelitsa Nina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Soeny</td></tr><tr><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>Pichkhadze Svetlana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>vich</td></tr><tr><td rowspan=1 colspan=1>61</td><td rowspan=1 colspan=1>Platova Zhanna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Plaforo</td></tr><tr><td rowspan=1 colspan=1>62</td><td rowspan=1 colspan=1>Pochkhidze Gurami</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Pen</td></tr><tr><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>Polovitskaya Manya</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Polouks</td></tr><tr><td rowspan=1 colspan=1>64</td><td rowspan=1 colspan=1>Polyak Dora</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Poly</td></tr><tr><td rowspan=1 colspan=1>65</td><td rowspan=1 colspan=1>Polyak Semen</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>SPol</td></tr><tr><td rowspan=1 colspan=1>66</td><td rowspan=1 colspan=1>Posadov Vladimir</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+                                            "image_path": "c03f7c451864f8d6eb1107c1b69fe7f4577563ac1467b0b4c434b1731342ca3c.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "score": 0.5684,
+                            "bbox": [
+                                574,
+                                177,
+                                591,
+                                604
+                            ],
+                            "index": 3,
+                            "type": "table_caption",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        573,
+                                        176,
+                                        591,
+                                        604
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                573,
+                                                176,
+                                                591,
+                                                604
+                                            ],
+                                            "type": "text",
+                                            "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                            "score": 0.982
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.9859
+                }
+            ],
+            "page_idx": 5,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "score": 0.4777,
+                    "bbox": [
+                        547,
+                        43,
+                        561,
+                        311
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                547,
+                                45,
+                                559,
+                                309
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        547,
+                                        45,
+                                        559,
+                                        309
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 6/9",
+                                    "score": 0.978
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        547,
+                        45,
+                        559,
+                        309
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        79,
+                        43,
+                        543,
+                        742
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9859,
+                            "bbox": [
+                                79,
+                                43,
+                                543,
+                                742
+                            ],
+                            "index": 2,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        43,
+                                        543,
+                                        742
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                79,
+                                                43,
+                                                543,
+                                                742
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>56</td><td rowspan=1 colspan=1>Nikonovych Halyna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>MiTCON</td></tr><tr><td rowspan=1 colspan=1>57</td><td rowspan=1 colspan=1>Parkansky Rita</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>ku</td></tr><tr><td rowspan=1 colspan=1>58</td><td rowspan=1 colspan=1>Patsiuchenko Oleg</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>TOl</td></tr><tr><td rowspan=1 colspan=1>59</td><td rowspan=1 colspan=1>Perepelitsa Nina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Soeny</td></tr><tr><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>Pichkhadze Svetlana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>vich</td></tr><tr><td rowspan=1 colspan=1>61</td><td rowspan=1 colspan=1>Platova Zhanna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Plaforo</td></tr><tr><td rowspan=1 colspan=1>62</td><td rowspan=1 colspan=1>Pochkhidze Gurami</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Pen</td></tr><tr><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>Polovitskaya Manya</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Polouks</td></tr><tr><td rowspan=1 colspan=1>64</td><td rowspan=1 colspan=1>Polyak Dora</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Poly</td></tr><tr><td rowspan=1 colspan=1>65</td><td rowspan=1 colspan=1>Polyak Semen</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>SPol</td></tr><tr><td rowspan=1 colspan=1>66</td><td rowspan=1 colspan=1>Posadov Vladimir</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+                                            "image_path": "c03f7c451864f8d6eb1107c1b69fe7f4577563ac1467b0b4c434b1731342ca3c.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "score": 0.5684,
+                            "bbox": [
+                                574,
+                                177,
+                                591,
+                                604
+                            ],
+                            "index": 3,
+                            "type": "table_caption",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        573,
+                                        176,
+                                        591,
+                                        604
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                573,
+                                                176,
+                                                591,
+                                                604
+                                            ],
+                                            "type": "text",
+                                            "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                            "score": 0.982
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.9859
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.4669,
+                    "bbox": [
+                        546,
+                        42,
+                        560,
+                        309
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                545,
+                                43,
+                                559,
+                                308
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        545,
+                                        43,
+                                        559,
+                                        308
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 7/9",
+                                    "score": 0.981
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        75,
+                        43,
+                        544,
+                        741
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9854,
+                            "bbox": [
+                                75,
+                                43,
+                                544,
+                                741
+                            ],
+                            "index": 2,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        75,
+                                        43,
+                                        544,
+                                        741
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                75,
+                                                43,
+                                                544,
+                                                741
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>67</td><td rowspan=1 colspan=1>Posadova Liubov</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>dsiocs</td></tr><tr><td rowspan=1 colspan=1>68</td><td rowspan=1 colspan=1>Prokop Svitlana</td><td rowspan=1 colspan=1>VNS Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Dee</td></tr><tr><td rowspan=1 colspan=1>69</td><td rowspan=1 colspan=1>Rodov Vladimir</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Vt</td></tr><tr><td rowspan=1 colspan=1>70</td><td rowspan=1 colspan=1>Romanovsky Misha</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Recccc</td></tr><tr><td rowspan=1 colspan=1>71</td><td rowspan=1 colspan=1>Royzman Boris</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>RoelB</td></tr><tr><td rowspan=1 colspan=1>72</td><td rowspan=1 colspan=1>Safonov Anatoliy</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>73</td><td rowspan=1 colspan=1>Savina Lioudmila</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Sp</td></tr><tr><td rowspan=1 colspan=1>74</td><td rowspan=1 colspan=1>Sekh Stefaniia</td><td rowspan=1 colspan=1>VillageCare MAX</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>75</td><td rowspan=1 colspan=1>Shadkhan Bella</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>76</td><td rowspan=1 colspan=1>Shchyhelskaya Zinaida</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Zlle</td></tr><tr><td rowspan=1 colspan=1>77</td><td rowspan=1 colspan=1>Shefer Bella</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+                                            "image_path": "26eeaa9e181a42cd4f2b6368250e14e3cecc7fc236df16258496ac443adeb06d.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "score": 0.5048,
+                            "bbox": [
+                                573,
+                                177,
+                                590,
+                                603
+                            ],
+                            "index": 3,
+                            "type": "table_caption",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        571,
+                                        175,
+                                        590,
+                                        604
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                571,
+                                                175,
+                                                590,
+                                                604
+                                            ],
+                                            "type": "text",
+                                            "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                            "score": 0.976
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.9854
+                }
+            ],
+            "page_idx": 6,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "score": 0.4669,
+                    "bbox": [
+                        546,
+                        42,
+                        560,
+                        309
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                545,
+                                43,
+                                559,
+                                308
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        545,
+                                        43,
+                                        559,
+                                        308
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 7/9",
+                                    "score": 0.981
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        545,
+                        43,
+                        559,
+                        308
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        75,
+                        43,
+                        544,
+                        741
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9854,
+                            "bbox": [
+                                75,
+                                43,
+                                544,
+                                741
+                            ],
+                            "index": 2,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        75,
+                                        43,
+                                        544,
+                                        741
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                75,
+                                                43,
+                                                544,
+                                                741
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>67</td><td rowspan=1 colspan=1>Posadova Liubov</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>dsiocs</td></tr><tr><td rowspan=1 colspan=1>68</td><td rowspan=1 colspan=1>Prokop Svitlana</td><td rowspan=1 colspan=1>VNS Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Dee</td></tr><tr><td rowspan=1 colspan=1>69</td><td rowspan=1 colspan=1>Rodov Vladimir</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Vt</td></tr><tr><td rowspan=1 colspan=1>70</td><td rowspan=1 colspan=1>Romanovsky Misha</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Recccc</td></tr><tr><td rowspan=1 colspan=1>71</td><td rowspan=1 colspan=1>Royzman Boris</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>RoelB</td></tr><tr><td rowspan=1 colspan=1>72</td><td rowspan=1 colspan=1>Safonov Anatoliy</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>73</td><td rowspan=1 colspan=1>Savina Lioudmila</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Sp</td></tr><tr><td rowspan=1 colspan=1>74</td><td rowspan=1 colspan=1>Sekh Stefaniia</td><td rowspan=1 colspan=1>VillageCare MAX</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>75</td><td rowspan=1 colspan=1>Shadkhan Bella</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>76</td><td rowspan=1 colspan=1>Shchyhelskaya Zinaida</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Zlle</td></tr><tr><td rowspan=1 colspan=1>77</td><td rowspan=1 colspan=1>Shefer Bella</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+                                            "image_path": "26eeaa9e181a42cd4f2b6368250e14e3cecc7fc236df16258496ac443adeb06d.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "score": 0.5048,
+                            "bbox": [
+                                573,
+                                177,
+                                590,
+                                603
+                            ],
+                            "index": 3,
+                            "type": "table_caption",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        571,
+                                        175,
+                                        590,
+                                        604
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                571,
+                                                175,
+                                                590,
+                                                604
+                                            ],
+                                            "type": "text",
+                                            "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                            "score": 0.976
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.9854
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.556,
+                    "bbox": [
+                        573,
+                        176,
+                        589,
+                        603
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                571,
+                                175,
+                                589,
+                                604
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        571,
+                                        175,
+                                        589,
+                                        604
+                                    ],
+                                    "type": "text",
+                                    "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                    "score": 0.969
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5589,
+                    "bbox": [
+                        545,
+                        42,
+                        560,
+                        309
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                545,
+                                43,
+                                557,
+                                308
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        545,
+                                        43,
+                                        557,
+                                        308
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 8/9",
+                                    "score": 0.974
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        79,
+                        43,
+                        543,
+                        740
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9873,
+                            "bbox": [
+                                79,
+                                43,
+                                543,
+                                740
+                            ],
+                            "index": 3,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        43,
+                                        543,
+                                        740
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                79,
+                                                43,
+                                                543,
+                                                740
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>78</td><td rowspan=1 colspan=1>Shporina Ella</td><td rowspan=1 colspan=1>Private Pay</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>79</td><td rowspan=1 colspan=1>Shulkin Faina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Shulleu</td></tr><tr><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>Shvetsova Svetlana</td><td rowspan=1 colspan=1>VillageCare MAX</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Shuefr</td></tr><tr><td rowspan=1 colspan=1>81</td><td rowspan=1 colspan=1>Sivak Svetlana</td><td rowspan=1 colspan=1>Senior Whole Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>82</td><td rowspan=1 colspan=1>Slabod Yevgeniya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>StotdF</td></tr><tr><td rowspan=1 colspan=1>83</td><td rowspan=1 colspan=1>Streltsov Viktor</td><td rowspan=1 colspan=1>VillageCare MAX</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Ver</td></tr><tr><td rowspan=1 colspan=1>84</td><td rowspan=1 colspan=1>Terlovskaya Tatyana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Fheplor</td></tr><tr><td rowspan=1 colspan=1>85</td><td rowspan=1 colspan=1>Tokar Polina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>cc</td></tr><tr><td rowspan=1 colspan=1>86</td><td rowspan=1 colspan=1>Tsypina Nina</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>WNing Ssypil</td></tr><tr><td rowspan=1 colspan=1>87</td><td rowspan=1 colspan=1>Velkina Bella</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Wel</td></tr><tr><td rowspan=1 colspan=1>88</td><td rowspan=1 colspan=1>Verba Margarita</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>verbs</td></tr></table>",
+                                            "image_path": "bebe7e5ec587e0dbdc1bef3c892e494f3f35a0c60fc9e64e25cbb0c1b298f87f.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.9873
+                }
+            ],
+            "page_idx": 7,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "score": 0.556,
+                    "bbox": [
+                        573,
+                        176,
+                        589,
+                        603
+                    ],
+                    "index": 1,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                571,
+                                175,
+                                589,
+                                604
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        571,
+                                        175,
+                                        589,
+                                        604
+                                    ],
+                                    "type": "text",
+                                    "content": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET",
+                                    "score": 0.969
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        571,
+                        175,
+                        589,
+                        604
+                    ]
+                },
+                {
+                    "score": 0.5589,
+                    "bbox": [
+                        545,
+                        42,
+                        560,
+                        309
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                545,
+                                43,
+                                557,
+                                308
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        545,
+                                        43,
+                                        557,
+                                        308
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 8/9",
+                                    "score": 0.974
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        545,
+                        43,
+                        557,
+                        308
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        79,
+                        43,
+                        543,
+                        740
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9873,
+                            "bbox": [
+                                79,
+                                43,
+                                543,
+                                740
+                            ],
+                            "index": 3,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        43,
+                                        543,
+                                        740
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                79,
+                                                43,
+                                                543,
+                                                740
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>78</td><td rowspan=1 colspan=1>Shporina Ella</td><td rowspan=1 colspan=1>Private Pay</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>79</td><td rowspan=1 colspan=1>Shulkin Faina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Shulleu</td></tr><tr><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>Shvetsova Svetlana</td><td rowspan=1 colspan=1>VillageCare MAX</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Shuefr</td></tr><tr><td rowspan=1 colspan=1>81</td><td rowspan=1 colspan=1>Sivak Svetlana</td><td rowspan=1 colspan=1>Senior Whole Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>82</td><td rowspan=1 colspan=1>Slabod Yevgeniya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>StotdF</td></tr><tr><td rowspan=1 colspan=1>83</td><td rowspan=1 colspan=1>Streltsov Viktor</td><td rowspan=1 colspan=1>VillageCare MAX</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Ver</td></tr><tr><td rowspan=1 colspan=1>84</td><td rowspan=1 colspan=1>Terlovskaya Tatyana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Fheplor</td></tr><tr><td rowspan=1 colspan=1>85</td><td rowspan=1 colspan=1>Tokar Polina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>cc</td></tr><tr><td rowspan=1 colspan=1>86</td><td rowspan=1 colspan=1>Tsypina Nina</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>WNing Ssypil</td></tr><tr><td rowspan=1 colspan=1>87</td><td rowspan=1 colspan=1>Velkina Bella</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Wel</td></tr><tr><td rowspan=1 colspan=1>88</td><td rowspan=1 colspan=1>Verba Margarita</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>verbs</td></tr></table>",
+                                            "image_path": "bebe7e5ec587e0dbdc1bef3c892e494f3f35a0c60fc9e64e25cbb0c1b298f87f.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.9873
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.5309,
+                    "bbox": [
+                        573,
+                        177,
+                        589,
+                        602
+                    ],
+                    "index": 1,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                571,
+                                176,
+                                589,
+                                603
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        571,
+                                        176,
+                                        589,
+                                        603
+                                    ],
+                                    "type": "text",
+                                    "content": "GARDEN OF JOY ADULT DAY CARE CENTER - SIGN-IN SHEET",
+                                    "score": 0.979
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        280,
+                        43,
+                        542,
+                        739
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9859,
+                            "bbox": [
+                                280,
+                                43,
+                                542,
+                                739
+                            ],
+                            "index": 3,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        280,
+                                        43,
+                                        542,
+                                        739
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                280,
+                                                43,
+                                                542,
+                                                739
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>89</td><td rowspan=1 colspan=1>Yakobzon Rivka</td><td rowspan=1 colspan=1>Senior Whole Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Waless</td></tr><tr><td rowspan=1 colspan=1>90</td><td rowspan=1 colspan=1>Yezerskaya Dora</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>verere</td></tr><tr><td rowspan=1 colspan=1>91</td><td rowspan=1 colspan=1>Yusupov Roman</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V.supr</td></tr><tr><td rowspan=1 colspan=1>92</td><td rowspan=1 colspan=1>Zaripova Svetlana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V$ZR</td></tr><tr><td rowspan=1 colspan=1>93</td><td rowspan=1 colspan=1>Zeltser Oleg</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>gelMy</td></tr><tr><td rowspan=1 colspan=1>94</td><td rowspan=1 colspan=1>Zingerman Esfir</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V2u</td></tr></table>",
+                                            "image_path": "7691c350fc14e8f2b5bdb8231ee932e13225499aba213a01671b3922b4fd8c20.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.9859
+                }
+            ],
+            "page_idx": 8,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.6974,
+                    "bbox": [
+                        546,
+                        42,
+                        559,
+                        308
+                    ],
+                    "index": 2,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                545,
+                                43,
+                                557,
+                                308
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        545,
+                                        43,
+                                        557,
+                                        308
+                                    ],
+                                    "type": "text",
+                                    "content": "Date: Thursday, July 30, 2026 Shift: 1 Total: 94 Page 9/9",
+                                    "score": 0.987
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5287,
+                    "bbox": [
+                        25,
+                        259,
+                        37,
+                        527
+                    ],
+                    "index": 4,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                27,
+                                262,
+                                36,
+                                525
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        27,
+                                        262,
+                                        36,
+                                        525
+                                    ],
+                                    "type": "text",
+                                    "content": "3152 Brighton 6 St, Brooklyn NY 11235 | Garden of Joy Adult Day Care Center",
+                                    "score": 0.981
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "score": 0.5309,
+                    "bbox": [
+                        573,
+                        177,
+                        589,
+                        602
+                    ],
+                    "index": 1,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                571,
+                                176,
+                                589,
+                                603
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        571,
+                                        176,
+                                        589,
+                                        603
+                                    ],
+                                    "type": "text",
+                                    "content": "GARDEN OF JOY ADULT DAY CARE CENTER - SIGN-IN SHEET",
+                                    "score": 0.979
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        280,
+                        43,
+                        542,
+                        739
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9859,
+                            "bbox": [
+                                280,
+                                43,
+                                542,
+                                739
+                            ],
+                            "index": 3,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        280,
+                                        43,
+                                        542,
+                                        739
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                280,
+                                                43,
+                                                542,
+                                                739
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>89</td><td rowspan=1 colspan=1>Yakobzon Rivka</td><td rowspan=1 colspan=1>Senior Whole Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Waless</td></tr><tr><td rowspan=1 colspan=1>90</td><td rowspan=1 colspan=1>Yezerskaya Dora</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>verere</td></tr><tr><td rowspan=1 colspan=1>91</td><td rowspan=1 colspan=1>Yusupov Roman</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V.supr</td></tr><tr><td rowspan=1 colspan=1>92</td><td rowspan=1 colspan=1>Zaripova Svetlana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V$ZR</td></tr><tr><td rowspan=1 colspan=1>93</td><td rowspan=1 colspan=1>Zeltser Oleg</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>gelMy</td></tr><tr><td rowspan=1 colspan=1>94</td><td rowspan=1 colspan=1>Zingerman Esfir</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V2u</td></tr></table>",
+                                            "image_path": "7691c350fc14e8f2b5bdb8231ee932e13225499aba213a01671b3922b4fd8c20.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.9859
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.4.4"
+}

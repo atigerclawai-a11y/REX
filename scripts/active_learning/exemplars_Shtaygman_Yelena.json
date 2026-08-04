@@ -1,24 +1,33 @@
 {
  "client_name": "Shtaygman Yelena",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
-   "shift": "2",
+   "shift": "1",
    "salad": "Квашеная капуста",
-   "soup": "Грибной суп",
+   "soup": "Овощной суп",
    "main": "Чалахач",
    "side": "Гречка"
   },
   {
    "menu_date": "2026-08-05",
    "day_code": "W",
-   "shift": "2",
-   "salad": "Квашеная капуста",
+   "shift": "1",
+   "salad": "Винегрет",
    "soup": "Грибной суп",
    "main": "Цыпленок табака",
    "side": "Гречка"
+  },
+  {
+   "menu_date": "2026-08-03",
+   "day_code": "M",
+   "shift": "1",
+   "salad": null,
+   "soup": "Грибной суп",
+   "main": null,
+   "side": null
   },
   {
    "menu_date": "2026-07-31",
@@ -37,15 +46,6 @@
    "soup": "Грибной суп",
    "main": "Цыпленок табака",
    "side": "Гречка"
-  },
-  {
-   "menu_date": "2026-07-24",
-   "day_code": "F",
-   "shift": "2",
-   "salad": "Вин",
-   "soup": "Овощ",
-   "main": "табака",
-   "side": "Гр"
   }
  ]
 }

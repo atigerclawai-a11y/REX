@@ -1,12 +1,12 @@
 {
  "client_name": "Pochkhidze Gurami",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "1",
-   "salad": "Винегрет",
+   "salad": "Свекла",
    "soup": "Борщ зеленый",
    "main": "Салмон",
    "side": "Пюре"
@@ -15,7 +15,7 @@
    "menu_date": "2026-08-04",
    "day_code": "T",
    "shift": "1",
-   "salad": "Винегрет",
+   "salad": "Свекла",
    "soup": "Борщ зеленый",
    "main": "Баса с помидорами",
    "side": "Паста"

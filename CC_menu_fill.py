@@ -45,6 +45,34 @@ s1 = sum(1 for _, s in attending if s == 1)
 s2 = sum(1 for _, s in attending if s == 2)
 
 stats = Counter()
+
+# CANONICALIZE on write (fix 2026-08-04: fill copied abbreviations verbatim from
+# history — Вин/Кур/Свкл/Бл. твор — re-infecting rows and jumbling kitchen sheets).
+import json as _json, re as _re
+from pathlib import Path as _Path
+_ALIAS = {}
+_ap = _Path('/Users/mainsobhelper/Desktop/REX/scripts/dish_aliases.json')
+if _ap.exists():
+    for _cm in _json.loads(_ap.read_text()).values():
+        if isinstance(_cm, dict):
+            _ALIAS.update(_cm)
+_STRIP_SUF = (' ✓', ' →', ' +')
+
+def _canon_cell(v, category=None):
+    """Canonicalize a dish cell: exact alias, category alias, suffix-strip."""
+    if not v:
+        return ''
+    s = str(v).strip()
+    if s in _ALIAS:
+        return _ALIAS[s]
+    if category:
+        _cm = _json.loads(_ap.read_text()).get(category, {}) if _ap.exists() else {}
+        if s in _cm:
+            return _cm[s]
+    for suf in _STRIP_SUF:
+        if s.endswith(suf) and s[: -len(suf)] in _ALIAS:
+            return _ALIAS[s[: -len(suf)]]
+    return s
 for db in DBS:
     c = sqlite3.connect(db)
     # house standard per shift from the day's valid orders
@@ -79,7 +107,8 @@ for db in DBS:
             c.execute("""INSERT OR IGNORE INTO client_menus
                 (client_name, menu_date, day_code, shift, salad, soup, main, side, source_sheet, synced_at)
                 VALUES (?,?,?,?,?,?,?,?,'day_shifted',datetime('now'))""",
-                (name, DATE, day_code, sh, salad or '', soup or '', main_ or '', side or ''))
+                (name, DATE, day_code, sh, _canon_cell(salad, 'salad') or '', _canon_cell(soup, 'soup') or '',
+                 _canon_cell(main_, 'main') or '', _canon_cell(side, 'side') or ''))
             stats['day_shifted'] += 1
             continue
         # 3. own last order — REAL orders only (Kato fix 2026-08-02: was chaining
@@ -92,13 +121,15 @@ for db in DBS:
             c.execute("""INSERT OR IGNORE INTO client_menus
                 (client_name, menu_date, day_code, shift, salad, soup, main, side, source_sheet, synced_at)
                 VALUES (?,?,?,?,?,?,?,?,'last_order_fallback',datetime('now'))""",
-                (name, DATE, day_code, sh, lw[0] or '', lw[1] or '', lw[2] or '', lw[3] or ''))
+                (name, DATE, day_code, sh, _canon_cell(lw[0], 'salad') or '', _canon_cell(lw[1], 'soup') or '',
+                 _canon_cell(lw[2], 'main') or '', _canon_cell(lw[3], 'side') or ''))
             stats['fallback'] += 1
         elif sh in std:
             c.execute("""INSERT OR IGNORE INTO client_menus
                 (client_name, menu_date, day_code, shift, salad, soup, main, side, source_sheet, synced_at)
                 VALUES (?,?,?,?,?,?,?,?,'house_standard',datetime('now'))""",
-                (name, DATE, day_code, sh, std[sh][0], std[sh][1], std[sh][2], std[sh][3]))
+                (name, DATE, day_code, sh, _canon_cell(std[sh][0], 'salad') or '', _canon_cell(std[sh][1], 'soup') or '',
+                 _canon_cell(std[sh][2], 'main') or '', _canon_cell(std[sh][3], 'side') or ''))
             stats['house'] += 1
         else:
             stats['UNFILLED'] += 1

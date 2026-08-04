@@ -1,7 +1,16 @@
 {
  "client_name": "Leykina Margatita",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
+  {
+   "menu_date": "2026-08-04",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "Борщ красный",
+   "main": "Гуляш",
+   "side": "Пюре"
+  },
   {
    "menu_date": "2026-07-21",
    "day_code": "T",
@@ -33,15 +42,6 @@
    "menu_date": "2026-07-02",
    "day_code": "TH",
    "shift": "2",
-   "salad": "Вин",
-   "soup": "Б",
-   "main": "Св. отбив",
-   "side": "MP"
-  },
-  {
-   "menu_date": "2026-06-30",
-   "day_code": "T",
-   "shift": "1",
    "salad": "Вин",
    "soup": "Б",
    "main": "Св. отбив",

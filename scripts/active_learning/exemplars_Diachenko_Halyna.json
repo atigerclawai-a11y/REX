@@ -1,7 +1,34 @@
 {
  "client_name": "Diachenko Halyna",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
+  {
+   "menu_date": "2026-08-07",
+   "day_code": "F",
+   "shift": "1",
+   "salad": null,
+   "soup": "Куриный суп",
+   "main": null,
+   "side": null
+  },
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Свекла",
+   "soup": null,
+   "main": "Жульен",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-08-03",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Гороховый суп",
+   "main": "Блины с мясом",
+   "side": "Пюре"
+  },
   {
    "menu_date": "2026-07-30",
    "day_code": "TH",
@@ -19,33 +46,6 @@
    "soup": "Борщ красный",
    "main": "Котлеты куриные",
    "side": "Гречка"
-  },
-  {
-   "menu_date": "2026-07-23",
-   "day_code": "TH",
-   "shift": "1",
-   "salad": "Свекла",
-   "soup": "Гороховый",
-   "main": "Чалахач",
-   "side": "Пюре"
-  },
-  {
-   "menu_date": "2026-07-20",
-   "day_code": "M",
-   "shift": "1",
-   "salad": "Оливье",
-   "soup": "Борщ зеленый",
-   "main": "Жульен",
-   "side": "Пюре"
-  },
-  {
-   "menu_date": "2026-07-16",
-   "day_code": "TH",
-   "shift": "1",
-   "salad": "Вин",
-   "soup": "Б",
-   "main": "Чалахач",
-   "side": "MP"
   }
  ]
 }

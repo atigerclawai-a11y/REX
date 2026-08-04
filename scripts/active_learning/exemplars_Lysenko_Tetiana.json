@@ -1,6 +1,6 @@
 {
  "client_name": "Lysenko Tetiana",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -9,25 +9,25 @@
    "salad": "Винегрет",
    "soup": "Куриный суп",
    "main": "Блины с мясом",
-   "side": "Гречка"
+   "side": null
   },
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
-   "shift": "1",
+   "shift": "2",
    "salad": "Винегрет",
    "soup": "Куриный суп",
    "main": "Блины с мясом",
-   "side": "Гречка"
+   "side": null
   },
   {
    "menu_date": "2026-08-04",
    "day_code": "T",
-   "shift": "1",
+   "shift": "2",
    "salad": "Винегрет",
    "soup": "Куриный суп",
    "main": "Блины с мясом",
-   "side": "Гречка"
+   "side": null
   },
   {
    "menu_date": "2026-07-24",

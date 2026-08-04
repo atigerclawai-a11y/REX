@@ -207,6 +207,7 @@ h2{font-size:12px}
 <a href="/driver">🚐 Driver</a>
 <a href="/frontdesk">🛎️ Front Desk</a>
 <a href="/financial">📈 Financial</a>
+<a href="/ledger">📊 Ledger</a>
 <span class="fsbox no-print"><button data-fs="22" title="Normal text">A</button><button data-fs="26" title="Large text">A+</button><button data-fs="30" title="XL text">A++</button></span>
 </nav>
 <div class="container">
@@ -1072,6 +1073,100 @@ async def pregen_status():
         return JSONResponse(data)
     except (json.JSONDecodeError, OSError):
         return JSONResponse({"date": None, "all_ok": False, "ready": False, "message": "Failed to read pregen status"})
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 📊 REAL LEDGER — reads ghs_canonical.db (Carecenta mirror, Sept migration)
+# (Added 2026-08-03 — replaces dry-run-only view with actual billed/paid/AR)
+# ─────────────────────────────────────────────────────────────────────────────
+CANON_DB = REX / "carecenta_history" / "ghs_canonical.db"
+
+def _canon_conn():
+    return _ro(str(CANON_DB)) if CANON_DB.exists() else None
+
+
+@app.get("/ledger", response_class=HTMLResponse)
+async def ledger_page(month: str = Query(None)):
+    """Real billing ledger — actual billed/paid/AR from ghs_canonical.db."""
+    conn = _canon_conn()
+    if conn is None:
+        return HTMLResponse(
+            HTML_HEAD + "<div class='card'><h2>⚠️ ghs_canonical.db not built</h2>"
+            "<p class='dim'>Run: <code>python3 CC_ghs_canonical_db.py --refresh</code> "
+            "in ~/Desktop/REX</p></div>" + HTML_FOOT
+        )
+    today = date.today()
+    # ── totals (all time) ──
+    tot = conn.execute(
+        "SELECT COALESCE(SUM(billed),0), COALESCE(SUM(paid),0), COALESCE(SUM(billed-paid),0) FROM billing"
+    ).fetchone()
+    billed, paid, open_amt = tot[0], tot[1], tot[2]
+    # ── month selector ──
+    months = [r[0] for r in conn.execute(
+        "SELECT DISTINCT substr(inv_date,1,7) FROM billing WHERE inv_date != '' ORDER BY 1 DESC LIMIT 12"
+    )]
+    if not month and months:
+        month = months[0]
+    # ── by payer (selected month) ──
+    payer_rows = ""
+    if month:
+        q = conn.execute(
+            "SELECT COALESCE(provider,'?') p, COUNT(*), SUM(billed), SUM(paid), SUM(billed-paid) "
+            "FROM billing WHERE substr(inv_date,1,7)=? GROUP BY p ORDER BY 3 DESC LIMIT 12",
+            (month,),
+        )
+        for p, n, b, pd, op in q:
+            payer_rows += (f"<tr><td>{html.escape(p)}</td><td style='text-align:right'>{n:,}</td>"
+                           f"<td style='text-align:right'>${b or 0:,.0f}</td>"
+                           f"<td style='text-align:right'>${pd or 0:,.0f}</td>"
+                           f"<td style='text-align:right'><b>${op or 0:,.0f}</b></td></tr>")
+    # ── AR aging buckets (all open AR) ──
+    aging = {"0-30": 0, "31-60": 0, "61-90": 0, "91-120": 0, "120+": 0}
+    try:
+        for (svc,) in conn.execute("SELECT svc_date FROM ar_items WHERE deleted=0 AND svc_date != ''"):
+            try:
+                d = datetime.strptime(str(svc).split(" ")[0], "%Y-%m-%d").date()
+            except ValueError:
+                continue
+            age = (today - d).days
+            if age <= 30: aging["0-30"] += 1
+            elif age <= 60: aging["31-60"] += 1
+            elif age <= 90: aging["61-90"] += 1
+            elif age <= 120: aging["91-120"] += 1
+            else: aging["120+"] += 1
+    except sqlite3.Error:
+        pass
+    age_rows = "".join(
+        f"<tr><td>{k}</td><td style='text-align:right'>{v:,}</td></tr>"
+        for k, v in aging.items()
+    )
+    # ── open invoices status ──
+    inv_status = dict(conn.execute(
+        "SELECT COALESCE(status,'?'), COUNT(*) FROM open_invoices WHERE deleted=0 GROUP BY status ORDER BY 2 DESC"
+    ))
+    inv_rows = "".join(
+        f"<tr><td>{html.escape(k)}</td><td style='text-align:right'>{v:,}</td></tr>"
+        for k, v in inv_status.items()
+    )
+    month_opts = "".join(f"<option value='{m}' {'selected' if m==month else ''}>{m}</option>" for m in months)
+    body = f"""
+    <div class="grid">
+        <div class="stat"><div class="hero" style="font-size:56px">${billed:,.0f}</div><div class="stat-label">Billed (all time)</div></div>
+        <div class="stat"><div class="hero" style="font-size:56px">${paid:,.0f}</div><div class="stat-label">Paid (all time)</div></div>
+        <div class="stat"><div class="hero" style="font-size:56px;color:var(--ghs-warn)">${open_amt:,.0f}</div><div class="stat-label">Open (billed − paid)</div></div>
+    </div>
+    <div class="card"><h2>By Payer — <select onchange="location.href='/ledger?month='+this.value">{month_opts}</select></h2>
+        <table class="tbl"><tr><th>Payer</th><th style="text-align:right">Claims</th><th style="text-align:right">Billed</th>
+        <th style="text-align:right">Paid</th><th style="text-align:right">Open</th></tr>{payer_rows or '<tr><td colspan=5 class=dim>No billing for this month</td></tr>'}</table></div>
+    <div class="grid">
+        <div class="card"><h2>🧾 AR Aging (open items)</h2>
+            <table class="tbl"><tr><th>Bucket</th><th style="text-align:right">Items</th></tr>{age_rows}</table></div>
+        <div class="card"><h2>🧾 Open Invoices</h2>
+            <table class="tbl"><tr><th>Status</th><th style="text-align:right">Count</th></tr>{inv_rows}</table></div>
+    </div>
+    <p class="dim" style="margin-top:12px">Source: ghs_canonical.db (Carecenta mirror) · refresh via <code>CC_ghs_canonical_db.py --refresh</code></p>
+    """
+    return HTMLResponse(HTML_HEAD + body + HTML_FOOT)
+
 
 if __name__ == "__main__":
     print("🏥 GHS Platform starting on http://localhost:8200")

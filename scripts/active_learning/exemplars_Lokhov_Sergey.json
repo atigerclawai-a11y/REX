@@ -1,6 +1,6 @@
 {
  "client_name": "Lokhov Sergey",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -9,16 +9,16 @@
    "salad": "Свекла",
    "soup": "Гороховый суп",
    "main": "Пельмени",
-   "side": "Картошка"
+   "side": null
   },
   {
    "menu_date": "2026-08-05",
    "day_code": "W",
    "shift": "1",
-   "salad": "Свекла",
+   "salad": null,
    "soup": "Гороховый суп",
-   "main": "Пельмени",
-   "side": "Картошка"
+   "main": null,
+   "side": null
   },
   {
    "menu_date": "2026-08-04",

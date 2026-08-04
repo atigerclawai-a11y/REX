@@ -1,7 +1,25 @@
 {
  "client_name": "Kharats Inna",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
+  {
+   "menu_date": "2026-08-07",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Свекла",
+   "soup": "Грибной суп",
+   "main": "Куриные крылышки",
+   "side": null
+  },
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Винегрет",
+   "soup": "Борщ красный",
+   "main": "Куриные крылышки",
+   "side": null
+  },
   {
    "menu_date": "2026-07-24",
    "day_code": "F",
@@ -22,24 +40,6 @@
   },
   {
    "menu_date": "2026-07-17",
-   "day_code": "F",
-   "shift": "2",
-   "salad": "Свкл",
-   "soup": "Б",
-   "main": "Котл. кур",
-   "side": ""
-  },
-  {
-   "menu_date": "2026-07-16",
-   "day_code": "TH",
-   "shift": "2",
-   "salad": "Вин",
-   "soup": "Б",
-   "main": "Поперечка",
-   "side": ""
-  },
-  {
-   "menu_date": "2026-07-10",
    "day_code": "F",
    "shift": "2",
    "salad": "Свкл",

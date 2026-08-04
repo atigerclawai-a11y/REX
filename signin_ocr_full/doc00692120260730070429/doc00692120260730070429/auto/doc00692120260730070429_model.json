@@ -1,0 +1,533 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.4953,
+                "bbox": [
+                    1590,
+                    500,
+                    1636,
+                    1688
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.5042,
+                "bbox": [
+                    1516,
+                    130,
+                    1556,
+                    901
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9851,
+                "bbox": [
+                    219,
+                    129,
+                    1508,
+                    2072
+                ],
+                "index": 3,
+                "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Aronchik Bronya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Ywoer</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Avakyan Valentina</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>—A</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Bakanurskiy Aleksandr</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>AB.</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Bakanurskiy Svetlana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>VSO.Bay</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Bass Khana</td><td rowspan=1 colspan=1>VillageCare MAX</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V3ass</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Belotserkovsky Klavdya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>KiBer</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Belotserkovsky Roma</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>R. R2</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Berezkin Mikhail</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>MIERO</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Berman Emma</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>bou</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Bitanova Lyudmila</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>XBita</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Bogat Svetlana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>SV.DOo</td></tr></table>"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1586,
+                    497,
+                    1636,
+                    1690
+                ],
+                "score": 0.98,
+                "text": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1518,
+                    131,
+                    1548,
+                    894
+                ],
+                "score": 0.985,
+                "text": "Date: Wednesday, July 29, 2026 Shift: 2 Total: 94 Page 1/9"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1700,
+            "height": 2200
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9858,
+                "bbox": [
+                    212,
+                    138,
+                    1511,
+                    2072
+                ],
+                "index": 1,
+                "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>Bolotin Marina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>Borshch Diana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>BORshe</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>Chernayaselitser Natalia</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>Chupikova Elvira</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>iCho</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>Dodik Sima</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Sjur</td></tr><tr><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>Dranikov Berta</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>Egorova Valentina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LEr010b</td></tr><tr><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>Elbert Milla</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>Fedorova Olga</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>No.FedN</td></tr><tr><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>Filippova Raisa</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=7>22 Fridman ihalAnhilTR</td></tr></table>"
+            }
+        ],
+        "page_info": {
+            "page_no": 1,
+            "width": 1700,
+            "height": 2200
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5116,
+                "bbox": [
+                    1592,
+                    505,
+                    1637,
+                    1690
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.5009,
+                "bbox": [
+                    1518,
+                    133,
+                    1557,
+                    904
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.985,
+                "bbox": [
+                    219,
+                    133,
+                    1511,
+                    2076
+                ],
+                "index": 3,
+                "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>Gamkrelidze Mikhail</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Beee</td></tr><tr><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>Garibova Aida</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Aig</td></tr><tr><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>German Stanislava</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LSGen.</td></tr><tr><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>Glukhova Shavelina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Siheas do</td></tr><tr><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>Gritshevsky Yosef</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>—f</td></tr><tr><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>Gumarova Nailya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>tme</td></tr><tr><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>Gumskaya Larisa</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Gu mskcey</td></tr><tr><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>Gurevich Emma</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Bs一</td></tr><tr><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>Gutkina Lyudmila</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>GAP</td></tr><tr><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>Hohal Raisa</td><td rowspan=1 colspan=1>VillageCare MAX</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>y</td></tr><tr><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1>Itin Leonid</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>t1</td></tr></table>"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1587,
+                    502,
+                    1637,
+                    1692
+                ],
+                "score": 0.97,
+                "text": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1518,
+                    136,
+                    1551,
+                    900
+                ],
+                "score": 0.986,
+                "text": "Date: Wednesday, July 29, 2026 Shift: 2 Total: 94 Page 3/9"
+            }
+        ],
+        "page_info": {
+            "page_no": 2,
+            "width": 1700,
+            "height": 2200
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9871,
+                "bbox": [
+                    218,
+                    140,
+                    1507,
+                    2076
+                ],
+                "index": 1,
+                "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1>Itkis Iryna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1>Ivanova Liudmila</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>Khalfina Aida</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>VA.Choh</td></tr><tr><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>Khiger Ninel</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>VChiS</td></tr><tr><td rowspan=1 colspan=1>38</td><td rowspan=1 colspan=1>Kipnis Tetyana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>Kolos Tatyana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>ilke</td></tr><tr><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>Korets Tamara</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>41</td><td rowspan=1 colspan=1>Kozachkova Kira</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>42</td><td rowspan=1 colspan=1>Kraineva Larissa</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>\\KS—</td></tr><tr><td rowspan=1 colspan=1>43</td><td rowspan=1 colspan=1>Krasovskaya Elena</td><td rowspan=1 colspan=1>VillageCare MAX</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Afrn</td></tr><tr><td rowspan=1 colspan=1>44</td><td rowspan=1 colspan=1>Kravets Aron</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>"
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.4779,
+                "bbox": [
+                    1589,
+                    511,
+                    1635,
+                    1699
+                ],
+                "index": 2
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1588,
+                    509,
+                    1633,
+                    1699
+                ],
+                "score": 0.984,
+                "text": "GARDEN OF JOY ADULT DAY CARE CENTER - SIGN-IN SHEET"
+            }
+        ],
+        "page_info": {
+            "page_no": 3,
+            "width": 1700,
+            "height": 2200
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.459,
+                "bbox": [
+                    1589,
+                    486,
+                    1638,
+                    1677
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.5161,
+                "bbox": [
+                    1513,
+                    116,
+                    1554,
+                    889
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9846,
+                "bbox": [
+                    213,
+                    121,
+                    1513,
+                    2141
+                ],
+                "index": 3,
+                "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>45</td><td rowspan=1 colspan=1>Lazovskiy Lina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>46</td><td rowspan=1 colspan=1>Lazovskiy Valeriy</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>6  三</td></tr><tr><td rowspan=1 colspan=1>47</td><td rowspan=1 colspan=1>Levin Leonid</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>teviv</td></tr><tr><td rowspan=1 colspan=1>48</td><td rowspan=1 colspan=1>Levina Lyubov</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Seeiver</td></tr><tr><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>Levitskaya Galina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1>Levkova Emma</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>NEL</td></tr><tr><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>Leyderman Feliks</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>deye</td></tr><tr><td rowspan=1 colspan=1>52</td><td rowspan=1 colspan=1>Lidukhover Aleksandr</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>did</td></tr><tr><td rowspan=1 colspan=1>53</td><td rowspan=1 colspan=1>Livchak Vadim</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>A1</td></tr><tr><td rowspan=1 colspan=1>54</td><td rowspan=1 colspan=1>Makaron Khaya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>bMaicarodd</td></tr><tr><td rowspan=1 colspan=1>55</td><td rowspan=1 colspan=1>Makhtin Raisa</td><td rowspan=1 colspan=1>VillageCare MAX</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>C</td></tr></table>"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1584,
+                    483,
+                    1637,
+                    1677
+                ],
+                "score": 0.978,
+                "text": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1511,
+                    120,
+                    1548,
+                    884
+                ],
+                "score": 0.979,
+                "text": "Date: Wednesday, July 29, 2026 Shift: 2 Total: 94 Page 5/9"
+            }
+        ],
+        "page_info": {
+            "page_no": 4,
+            "width": 1700,
+            "height": 2200
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.4714,
+                "bbox": [
+                    1590,
+                    490,
+                    1637,
+                    1679
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.5295,
+                "bbox": [
+                    1513,
+                    120,
+                    1554,
+                    892
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9839,
+                "bbox": [
+                    217,
+                    123,
+                    1513,
+                    2148
+                ],
+                "index": 3,
+                "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td><td rowspan=12 colspan=1></td></tr><tr><td rowspan=1 colspan=1>56</td><td rowspan=1 colspan=1>Mindich Aleksandr</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>AMiud</td></tr><tr><td rowspan=1 colspan=1>57</td><td rowspan=1 colspan=1>Minogina Ninel</td><td rowspan=1 colspan=1>Senior Whole Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Miveghu</td></tr><tr><td rowspan=1 colspan=1>58</td><td rowspan=1 colspan=1>Naulo Mayya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>we</td></tr><tr><td rowspan=1 colspan=1>59</td><td rowspan=1 colspan=1>Nirshberg Aron</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>A.Niksh</td></tr><tr><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>Olevskaya Raisa</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Olle</td></tr><tr><td rowspan=6 colspan=1></td><td rowspan=1 colspan=1>61</td><td rowspan=1 colspan=2>Pimutkina Rafiga</td><td rowspan=1 colspan=2>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>62</td><td rowspan=1 colspan=1>Prokupets Ida</td><td rowspan=1 colspan=1>VillageCare MAX</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>Radomyselskiy Semen</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>SeiaPode</td></tr><tr><td rowspan=1 colspan=1>64</td><td rowspan=1 colspan=1>Rokhvarger Zinaida</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Roch</td></tr><tr><td rowspan=1 colspan=1>65</td><td rowspan=1 colspan=1>Rudoy Emma</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>VER</td></tr><tr><td rowspan=1 colspan=1>66</td><td rowspan=1 colspan=1>Rukhlevich Svetlana</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Rawh</td></tr></table>"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1584,
+                    486,
+                    1636,
+                    1679
+                ],
+                "score": 0.988,
+                "text": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1510,
+                    122,
+                    1550,
+                    889
+                ],
+                "score": 0.99,
+                "text": "Date: Wednesday, July 29, 2026 Shift: 2 Total: 94 Page 6/9"
+            }
+        ],
+        "page_info": {
+            "page_no": 5,
+            "width": 1700,
+            "height": 2200
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.4678,
+                "bbox": [
+                    1593,
+                    488,
+                    1640,
+                    1674
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9862,
+                "bbox": [
+                    220,
+                    118,
+                    1511,
+                    2062
+                ],
+                "index": 2,
+                "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>67</td><td rowspan=1 colspan=1>Ruvinskaya Natalia</td><td rowspan=1 colspan=1>VNS Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>N.Rw.</td></tr><tr><td rowspan=1 colspan=1>68</td><td rowspan=1 colspan=1>Ruzhanskiy Mikhail</td><td rowspan=1 colspan=1>Senior Whole Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>69</td><td rowspan=1 colspan=1>Sayenko Valentina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Sayenw</td></tr><tr><td rowspan=1 colspan=1>70</td><td rowspan=1 colspan=1>Serebryanik Roman</td><td rowspan=1 colspan=1>VNS Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Serebrce</td></tr><tr><td rowspan=1 colspan=1>71</td><td rowspan=1 colspan=1>Serhiyenko Anatoliy</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Gol</td></tr><tr><td rowspan=1 colspan=1>72</td><td rowspan=1 colspan=1>Serhiyenko Oleksandra</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Mly</td></tr><tr><td rowspan=1 colspan=1>73</td><td rowspan=1 colspan=1>Shapiro Roza</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>ShopV</td></tr><tr><td rowspan=1 colspan=1>74</td><td rowspan=1 colspan=1>Shapiro Tamara</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>75</td><td rowspan=1 colspan=1>Shifrina Margarita</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Shuo</td></tr><tr><td rowspan=1 colspan=1>76</td><td rowspan=1 colspan=1>Shmailo Olha</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>oel</td></tr><tr><td rowspan=1 colspan=1>77</td><td rowspan=1 colspan=1>Shtaygman Yelena</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Puutu</td></tr></table>"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1587,
+                    484,
+                    1639,
+                    1674
+                ],
+                "score": 0.983,
+                "text": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET"
+            }
+        ],
+        "page_info": {
+            "page_no": 6,
+            "width": 1700,
+            "height": 2200
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9863,
+                "bbox": [
+                    222,
+                    120,
+                    1511,
+                    2059
+                ],
+                "index": 1,
+                "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>78</td><td rowspan=1 colspan=1>Shteyman Alla</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>he</td></tr><tr><td rowspan=1 colspan=1>79</td><td rowspan=1 colspan=1>Shteyman Faina</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>rShley</td></tr><tr><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>Sidorova Olga</td><td rowspan=1 colspan=1>Aetna Better Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Steleros</td></tr><tr><td rowspan=1 colspan=1>81</td><td rowspan=1 colspan=1>Slavinskiy Grigoriy</td><td rowspan=1 colspan=1>VNS Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>GSeev</td></tr><tr><td rowspan=1 colspan=1>82</td><td rowspan=1 colspan=1>Spector Vladimir</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>83</td><td rowspan=1 colspan=1>Starodubets Valentina</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>S</td></tr><tr><td rowspan=1 colspan=1>84</td><td rowspan=1 colspan=1>Tapounova Irina</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Dyas</td></tr><tr><td rowspan=1 colspan=1>85</td><td rowspan=1 colspan=1>Umanskaya Yelena</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>lms</td></tr><tr><td rowspan=1 colspan=1>86</td><td rowspan=1 colspan=1>Vartanyan Lyudmila</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Vart</td></tr><tr><td rowspan=1 colspan=1>87</td><td rowspan=1 colspan=1>Vaysburd Anna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>AIINA VHYSu</td></tr><tr><td rowspan=1 colspan=1>88</td><td rowspan=1 colspan=1>Veshninskaya Tsilya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Wissy</td></tr></table>"
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.487,
+                "bbox": [
+                    1593,
+                    487,
+                    1641,
+                    1675
+                ],
+                "index": 2
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1588,
+                    483,
+                    1640,
+                    1675
+                ],
+                "score": 0.979,
+                "text": "GARDEN OF JOY ADULT DAY CARE CENTER — SIGN-IN SHEET"
+            }
+        ],
+        "page_info": {
+            "page_no": 7,
+            "width": 1700,
+            "height": 2200
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.6514,
+                "bbox": [
+                    1517,
+                    129,
+                    1558,
+                    899
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.6152,
+                "bbox": [
+                    123,
+                    131,
+                    158,
+                    603
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.938,
+                "bbox": [
+                    380,
+                    130,
+                    1513,
+                    2155
+                ],
+                "index": 3,
+                "html": "<table><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>Plan</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Time In</td><td rowspan=1 colspan=1>Time Out</td><td rowspan=1 colspan=1>Signature</td></tr><tr><td rowspan=1 colspan=1>89</td><td rowspan=1 colspan=1>Volovaya Sofia</td><td rowspan=1 colspan=1>VillageCare MAX</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>VS.VoL</td></tr><tr><td rowspan=1 colspan=1>90</td><td rowspan=1 colspan=1>Yakobson Lyusya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Vhe</td></tr><tr><td rowspan=1 colspan=1>9.1</td><td rowspan=1 colspan=1>Zhelabovska Nadia</td><td rowspan=1 colspan=1>ElderServe — Riverspring Health</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>92</td><td rowspan=1 colspan=1>Zhirova Inna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LI.Zh</td></tr><tr><td rowspan=1 colspan=1>93</td><td rowspan=1 colspan=1>Zhuga Margarita</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Zhug</td></tr><tr><td rowspan=1 colspan=1>94</td><td rowspan=1 colspan=1>Zvonchuk Raisa</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Bbe-</td></tr></table>"
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.6341,
+                "bbox": [
+                    70,
+                    728,
+                    105,
+                    1478
+                ],
+                "index": 4
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1515,
+                    130,
+                    1553,
+                    896
+                ],
+                "score": 0.979,
+                "text": "Date: Wednesday, July 29, 2026 Shift: 2 Total: 94 Page 9/9"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    124,
+                    136,
+                    159,
+                    396
+                ],
+                "score": 0.992,
+                "text": "Total present:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    126,
+                    398,
+                    155,
+                    599
+                ],
+                "score": 0.999,
+                "text": "Staff signature:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    74,
+                    739,
+                    99,
+                    1473
+                ],
+                "score": 0.992,
+                "text": "3152 Brighton 6 St, Brooklyn NY 11235 | Garden of Joy Adult Day Care Center"
+            }
+        ],
+        "page_info": {
+            "page_no": 8,
+            "width": 1700,
+            "height": 2200
+        }
+    }
+]

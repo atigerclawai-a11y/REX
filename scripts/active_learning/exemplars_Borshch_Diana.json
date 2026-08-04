@@ -1,6 +1,6 @@
 {
  "client_name": "Borshch Diana",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -15,10 +15,10 @@
    "menu_date": "2026-08-05",
    "day_code": "W",
    "shift": "2",
-   "salad": "Салат Днестр",
-   "soup": "Гороховый суп",
-   "main": "",
-   "side": ""
+   "salad": "Винегрет",
+   "soup": "Овощной суп",
+   "main": "Цыпленок табака",
+   "side": "Паста"
   },
   {
    "menu_date": "2026-08-03",

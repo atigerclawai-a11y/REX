@@ -1,22 +1,22 @@
 {
  "client_name": "Epshtein Isaak",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "2",
-   "salad": "Сало",
-   "soup": "Харчо",
-   "main": "Чалахач",
+   "salad": "Винегрет",
+   "soup": "Борщ красный",
+   "main": "Блины с мясом",
    "side": "Паста"
   },
   {
    "menu_date": "2026-08-04",
    "day_code": "T",
    "shift": "2",
-   "salad": "Сало",
-   "soup": "Харчо",
+   "salad": "Квашеная капуста",
+   "soup": "Борщ зеленый",
    "main": "Салмон",
    "side": "Гречка"
   },

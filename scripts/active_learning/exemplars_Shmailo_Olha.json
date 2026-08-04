@@ -1,21 +1,21 @@
 {
  "client_name": "Shmailo Olha",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
    "shift": "2",
-   "salad": "Салат весенний",
+   "salad": "Свекла",
    "soup": "Борщ красный",
    "main": "Курица в терияки",
-   "side": "Пюре"
+   "side": null
   },
   {
    "menu_date": "2026-08-05",
    "day_code": "W",
    "shift": "2",
-   "salad": "Салат весенний",
+   "salad": "Оливье",
    "soup": "Борщ красный",
    "main": "Салмон",
    "side": "Пюре"

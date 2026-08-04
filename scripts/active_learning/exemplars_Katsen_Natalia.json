@@ -1,20 +1,11 @@
 {
  "client_name": "Katsen Natalia",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-04",
    "day_code": "T",
    "shift": "2",
-   "salad": "Свекла",
-   "soup": "Борщ зеленый",
-   "main": "Чалахач",
-   "side": "Стручковая фасоль"
-  },
-  {
-   "menu_date": "2026-08-04",
-   "day_code": "T",
-   "shift": "1",
    "salad": "Свекла",
    "soup": "Борщ зеленый",
    "main": "Чалахач",
@@ -40,6 +31,15 @@
   },
   {
    "menu_date": "2026-07-14",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Вин",
+   "soup": "Б",
+   "main": "Котл. кур",
+   "side": "Фасоль"
+  },
+  {
+   "menu_date": "2026-07-07",
    "day_code": "T",
    "shift": "2",
    "salad": "Вин",

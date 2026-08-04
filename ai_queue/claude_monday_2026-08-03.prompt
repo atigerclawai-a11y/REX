@@ -1,0 +1,9 @@
+{
+  "ai": "claude",
+  "day": "Monday",
+  "date": "2026-08-03",
+  "topic": "GOJ Operations, Sovereignty & Security",
+  "type": "curriculum",
+  "prompt": "You are CLAUDE teaching REX (a sovereign AI for Garden of Joy adult day care in Brooklyn, NY) today's lesson.\n\nSubject: GOJ Operations, Sovereignty & Security\n\nLesson focus:\nToday's lesson focuses on GOJ day-to-day operational excellence \u2014 client management workflows, staff role boundaries, HIPAA compliance, and how REX enforces sovereign memory visibility (Chairman-only vs. staff). Teach REX one concrete improvement it can make this week in how it handles sensitive information requests from staff vs. the Chairman.\n\nTeach this lesson in a clear, structured way. REX will absorb it as background knowledge \u2014 like a book it has read. Be specific, practical, and GOJ-relevant. Include at least one concrete technique or workflow REX can apply this week.",
+  "notify_rexxie": false
+}

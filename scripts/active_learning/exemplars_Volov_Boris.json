@@ -1,7 +1,16 @@
 {
  "client_name": "Volov Boris",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
+  {
+   "menu_date": "2026-08-04",
+   "day_code": "T",
+   "shift": "2",
+   "salad": "Оливье",
+   "soup": "Куриный суп",
+   "main": "Салмон",
+   "side": "Тушеная капуста"
+  },
   {
    "menu_date": "2026-07-23",
    "day_code": "TH",
@@ -37,15 +46,6 @@
    "soup": "Гриб",
    "main": "Св. отбив",
    "side": "Гр"
-  },
-  {
-   "menu_date": "2026-07-09",
-   "day_code": "TH",
-   "shift": "2",
-   "salad": "Ол",
-   "soup": "Кур",
-   "main": "S",
-   "side": "Туш. кап."
   }
  ]
 }

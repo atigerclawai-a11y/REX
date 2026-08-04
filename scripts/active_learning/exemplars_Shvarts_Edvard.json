@@ -1,7 +1,16 @@
 {
  "client_name": "Shvarts Edvard",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
+  {
+   "menu_date": "2026-08-03",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Салат из баклажан",
+   "soup": "Харчо",
+   "main": "Голубцы",
+   "side": "Тушеная капуста"
+  },
   {
    "menu_date": "2026-07-27",
    "day_code": "M",

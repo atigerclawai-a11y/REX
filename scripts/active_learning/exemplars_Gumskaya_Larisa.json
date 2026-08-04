@@ -1,20 +1,11 @@
 {
  "client_name": "Gumskaya Larisa",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
-  {
-   "menu_date": "2026-08-06",
-   "day_code": "TH",
-   "shift": "2",
-   "salad": "Винегрет",
-   "soup": "Куриный суп",
-   "main": "Гуляш",
-   "side": "Картошка"
-  },
   {
    "menu_date": "2026-08-05",
    "day_code": "W",
-   "shift": "2",
+   "shift": "1",
    "salad": "Свекла",
    "soup": "Куриный суп",
    "main": "Салмон",
@@ -46,6 +37,15 @@
    "soup": "Куриный",
    "main": "Салмон",
    "side": "Жареная картошка"
+  },
+  {
+   "menu_date": "2026-07-08",
+   "day_code": "W",
+   "shift": "2",
+   "salad": "Ол",
+   "soup": "Кур",
+   "main": "S",
+   "side": "Картошка"
   }
  ]
 }

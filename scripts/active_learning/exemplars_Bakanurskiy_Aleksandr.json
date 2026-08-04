@@ -1,13 +1,13 @@
 {
  "client_name": "Bakanurskiy Aleksandr",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-05",
    "day_code": "W",
    "shift": "2",
    "salad": "Сало",
-   "soup": "Куриный суп",
+   "soup": "Гороховый суп",
    "main": "Салмон",
    "side": "Гречка"
   },

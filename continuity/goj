@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# GOJ Continuity Loop — daily learning handoff (Kato 2026-08-03)
+# Usage: goj close   (end of day — measure, bucket, write)
+#        goj open    (start of day — load carry, re-verify, brief)
+set -euo pipefail
+
+PY="$HOME/.rex-venv/bin/python3"
+LOOP="$HOME/Desktop/REX/continuity/goj_loop.py"
+
+if [ "$#" -lt 1 ]; then
+  echo "Usage: goj {open|close}" >&2
+  exit 1
+fi
+
+case "$1" in
+  open)  shift; exec "$PY" "$LOOP" open "$@" ;;
+  close) shift; exec "$PY" "$LOOP" close "$@" ;;
+  *) echo "Unknown: $1 (use open or close)" >&2; exit 1 ;;
+esac

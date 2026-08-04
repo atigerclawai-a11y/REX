@@ -1,7 +1,34 @@
 {
  "client_name": "Patsiuchenko Oleg",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
+  {
+   "menu_date": "2026-08-07",
+   "day_code": "F",
+   "shift": "1",
+   "salad": "Салат весенний",
+   "soup": "Овощной суп",
+   "main": "Шницель куриный",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "Овощной суп",
+   "main": "Салмон",
+   "side": "Пюре"
+  },
+  {
+   "menu_date": "2026-08-04",
+   "day_code": "T",
+   "shift": "1",
+   "salad": "Винегрет",
+   "soup": "Куриный суп",
+   "main": "Салмон",
+   "side": "Тушеная капуста"
+  },
   {
    "menu_date": "2026-07-24",
    "day_code": "F",
@@ -13,33 +40,6 @@
   },
   {
    "menu_date": "2026-07-23",
-   "day_code": "TH",
-   "shift": "1",
-   "salad": "Вин",
-   "soup": "Кур",
-   "main": "Шницель",
-   "side": "FF"
-  },
-  {
-   "menu_date": "2026-07-21",
-   "day_code": "T",
-   "shift": "1",
-   "salad": "Вин",
-   "soup": "Овощ",
-   "main": "S",
-   "side": "MP"
-  },
-  {
-   "menu_date": "2026-07-17",
-   "day_code": "F",
-   "shift": "1",
-   "salad": "Вин",
-   "soup": "3.Б",
-   "main": "S",
-   "side": "MP"
-  },
-  {
-   "menu_date": "2026-07-16",
    "day_code": "TH",
    "shift": "1",
    "salad": "Вин",

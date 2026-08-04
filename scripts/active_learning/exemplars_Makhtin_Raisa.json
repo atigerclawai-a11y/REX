@@ -1,24 +1,24 @@
 {
  "client_name": "Makhtin Raisa",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
-   "shift": "2",
-   "salad": "Сало",
-   "soup": "Гороховый суп",
+   "shift": "1",
+   "salad": "Свекла",
+   "soup": "Грибной суп",
    "main": "Чалахач",
    "side": "Пюре"
   },
   {
    "menu_date": "2026-08-05",
    "day_code": "W",
-   "shift": "2",
+   "shift": "1",
    "salad": "Сало",
    "soup": "Гороховый суп",
-   "main": "Чалахач",
-   "side": "Паста"
+   "main": "Дорадо запеченая",
+   "side": "Картошка"
   },
   {
    "menu_date": "2026-07-31",

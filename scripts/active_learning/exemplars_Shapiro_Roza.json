@@ -1,33 +1,33 @@
 {
  "client_name": "Shapiro Roza",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
-   "shift": "2",
-   "salad": "Салат весенний",
-   "soup": "Овощной суп",
-   "main": "Чалахач",
-   "side": "Картошка"
+   "shift": "1",
+   "salad": null,
+   "soup": "Куриный суп",
+   "main": null,
+   "side": null
   },
   {
    "menu_date": "2026-08-05",
    "day_code": "W",
-   "shift": "2",
-   "salad": "Винегрет",
-   "soup": "Куриный суп",
-   "main": "Поперечка",
-   "side": "Гречка"
+   "shift": "1",
+   "salad": null,
+   "soup": "Борщ красный",
+   "main": "Вареники с картошкой",
+   "side": null
   },
   {
    "menu_date": "2026-08-03",
    "day_code": "M",
-   "shift": "2",
-   "salad": "Свекла",
-   "soup": "Грибной суп",
-   "main": "Свиная отбивная",
-   "side": "Тушеная капуста"
+   "shift": "1",
+   "salad": "Винегрет",
+   "soup": "Куриный суп",
+   "main": "Блины с творогом",
+   "side": null
   },
   {
    "menu_date": "2026-07-31",

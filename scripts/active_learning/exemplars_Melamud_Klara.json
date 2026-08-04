@@ -1,24 +1,24 @@
 {
  "client_name": "Melamud Klara",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "2",
-   "salad": "Винегрет",
-   "soup": "Грибной суп",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
    "main": "Поперечка",
-   "side": "Картошка фри"
+   "side": null
   },
   {
    "menu_date": "2026-08-04",
    "day_code": "T",
    "shift": "2",
-   "salad": "Винегрет",
-   "soup": "Грибной суп",
+   "salad": "Сало",
+   "soup": "Борщ зеленый",
    "main": "Поперечка",
-   "side": "Картошка фри"
+   "side": null
   },
   {
    "menu_date": "2026-07-30",

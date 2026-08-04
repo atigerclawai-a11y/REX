@@ -1,0 +1,596 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.5037,
+                    "bbox": [
+                        57,
+                        76,
+                        261,
+                        89
+                    ],
+                    "index": 1,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                78,
+                                259,
+                                91
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        78,
+                                        259,
+                                        91
+                                    ],
+                                    "type": "text",
+                                    "content": "GARDEN OF JOY ADULT DAY CARE CENTER",
+                                    "score": 0.977
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.6363,
+                    "bbox": [
+                        57,
+                        93,
+                        409,
+                        106
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                95,
+                                407,
+                                104
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        95,
+                                        407,
+                                        104
+                                    ],
+                                    "type": "text",
+                                    "content": "Member's Daily Attendance Report for the dateTuesday, 1st shift",
+                                    "score": 0.984
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        55,
+                        105,
+                        573,
+                        731
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9889,
+                            "bbox": [
+                                55,
+                                105,
+                                573,
+                                731
+                            ],
+                            "index": 3,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        105,
+                                        573,
+                                        731
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                55,
+                                                105,
+                                                573,
+                                                731
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>Name</td><td rowspan=1 colspan=1>plan</td><td rowspan=1 colspan=1>CH</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>IN</td><td rowspan=1 colspan=1>OUT</td><td rowspan=1 colspan=1>Signature</td><td rowspan=2 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Bershteyn Peter</td><td rowspan=1 colspan=1>SWH</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>Breicher Larisa</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Breiv</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>Brikker Ella</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Brikker</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>Doktorman Sofia</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>vets</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>Dorodnova Kateryna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Ealles</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>Erlikhman Rita</td><td rowspan=1 colspan=1>SWH</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>6</td></tr><tr><td rowspan=1 colspan=1>Finkelshteyn Anya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>huyo,F i</td><td rowspan=1 colspan=1>7</td></tr><tr><td rowspan=1 colspan=1>Fishman Mera</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Fishnuer.</td><td rowspan=1 colspan=1>8</td></tr><tr><td rowspan=1 colspan=1>Gadilova Nina</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>n. Cadit</td><td rowspan=1 colspan=1>9</td></tr><tr><td rowspan=1 colspan=1>Gluzman Mara</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Mafe Glaz</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>Goldfeld Nadezhda</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>beldb</td><td rowspan=1 colspan=1>11</td></tr><tr><td rowspan=1 colspan=1>Goltsman Zakhary</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>Golub Margarita</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>m6eubP</td><td rowspan=1 colspan=1>13</td></tr><tr><td rowspan=1 colspan=1>Gorelik Esfir</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Vesti. GoTen</td><td rowspan=1 colspan=1>14</td></tr><tr><td rowspan=1 colspan=1>Gorelik Liliya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Sorelia</td><td rowspan=1 colspan=1>15</td></tr><tr><td rowspan=1 colspan=1>Goryachkovskaya</td><td rowspan=1 colspan=1>SvetlanAnthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>S.GerO</td><td rowspan=1 colspan=1>16</td></tr><tr><td rowspan=1 colspan=1>Goryachkovsky Alexandr</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>A.Gorl</td><td rowspan=1 colspan=1>17</td></tr><tr><td rowspan=1 colspan=1>Grabovskaya Larisa</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V Grdxg L.</td><td rowspan=1 colspan=1>18</td></tr><tr><td rowspan=1 colspan=1>Grishin Leonid</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Itrishin</td><td rowspan=1 colspan=1>19</td></tr></table>",
+                                            "image_path": "1e1f6b12c69f4dc5b0a12408d856a59ac09db7f9b2b75744275252796fdb856e.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.9889
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "score": 0.5037,
+                    "bbox": [
+                        57,
+                        76,
+                        261,
+                        89
+                    ],
+                    "index": 1,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                78,
+                                259,
+                                91
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        78,
+                                        259,
+                                        91
+                                    ],
+                                    "type": "text",
+                                    "content": "GARDEN OF JOY ADULT DAY CARE CENTER",
+                                    "score": 0.977
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.6363,
+                    "bbox": [
+                        57,
+                        93,
+                        409,
+                        106
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                95,
+                                407,
+                                104
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        95,
+                                        407,
+                                        104
+                                    ],
+                                    "type": "text",
+                                    "content": "Member's Daily Attendance Report for the dateTuesday, 1st shift",
+                                    "score": 0.984
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        59,
+                        95,
+                        407,
+                        104
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        55,
+                        105,
+                        573,
+                        731
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9889,
+                            "bbox": [
+                                55,
+                                105,
+                                573,
+                                731
+                            ],
+                            "index": 3,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        105,
+                                        573,
+                                        731
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                55,
+                                                105,
+                                                573,
+                                                731
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td colspan=\"1\" rowspan=\"1\">Name</td><td colspan=\"1\" rowspan=\"1\">plan</td><td colspan=\"1\" rowspan=\"1\">CH</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\">IN</td><td colspan=\"1\" rowspan=\"1\">OUT</td><td colspan=\"1\" rowspan=\"1\">Signature</td><td colspan=\"1\" rowspan=\"2\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Bershteyn Peter</td><td colspan=\"1\" rowspan=\"1\">SWH</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">1</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Breicher Larisa</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Breiv</td><td colspan=\"1\" rowspan=\"1\">2</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Brikker Ella</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Brikker</td><td colspan=\"1\" rowspan=\"1\">3</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Doktorman Sofia</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">vets</td><td colspan=\"1\" rowspan=\"1\">4</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Dorodnova Kateryna</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Ealles</td><td colspan=\"1\" rowspan=\"1\">5</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Erlikhman Rita</td><td colspan=\"1\" rowspan=\"1\">SWH</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">6</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Finkelshteyn Anya</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">huyo,F i</td><td colspan=\"1\" rowspan=\"1\">7</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Fishman Mera</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Fishnuer.</td><td colspan=\"1\" rowspan=\"1\">8</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Gadilova Nina</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">n. Cadit</td><td colspan=\"1\" rowspan=\"1\">9</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Gluzman Mara</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Mafe Glaz</td><td colspan=\"1\" rowspan=\"1\">10</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Goldfeld Nadezhda</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">beldb</td><td colspan=\"1\" rowspan=\"1\">11</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Goltsman Zakhary</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">12</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Golub Margarita</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">m6eubP</td><td colspan=\"1\" rowspan=\"1\">13</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Gorelik Esfir</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Vesti. GoTen</td><td colspan=\"1\" rowspan=\"1\">14</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Gorelik Liliya</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Sorelia</td><td colspan=\"1\" rowspan=\"1\">15</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Goryachkovskaya</td><td colspan=\"1\" rowspan=\"1\">SvetlanAnthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">S.GerO</td><td colspan=\"1\" rowspan=\"1\">16</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Goryachkovsky Alexandr</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">A.Gorl</td><td colspan=\"1\" rowspan=\"1\">17</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Grabovskaya Larisa</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">V Grdxg L.</td><td colspan=\"1\" rowspan=\"1\">18</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Grishin Leonid</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Itrishin</td><td colspan=\"1\" rowspan=\"1\">19</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Gurevich Roza</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">√ CuReviole</td><td colspan=\"1\" rowspan=\"1\">20</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Gurevich Yevgeniy</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Curevol</td><td colspan=\"1\" rowspan=\"1\">21</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Guzman Tatiana</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Tobl</td><td colspan=\"1\" rowspan=\"1\">22</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Halas Jerzy</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">N/TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">23</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Halas Teresa</td><td colspan=\"1\" rowspan=\"1\">SWH</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">N/TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Hed</td><td colspan=\"1\" rowspan=\"1\">24</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Ignatovskaia Tamara</td><td colspan=\"1\" rowspan=\"1\">SWH</td><td colspan=\"1\" rowspan=\"1\">CDPAP</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Tamague</td><td colspan=\"1\" rowspan=\"1\">25</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Kagan Dina</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">CDPAP</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Ro</td><td colspan=\"1\" rowspan=\"1\">26</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Kapitova Larisa</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y.</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">hay</td><td colspan=\"1\" rowspan=\"1\">27</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Khnanisho Olga</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">0</td><td colspan=\"1\" rowspan=\"1\">28</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Kononovich Olexandra</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">aHo  S</td><td colspan=\"1\" rowspan=\"1\">29</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Kotvitskaya Alexandra</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">tof</td><td colspan=\"1\" rowspan=\"1\">30</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Kramer Sofya</td><td colspan=\"1\" rowspan=\"1\">VCM</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Nraceels</td><td colspan=\"1\" rowspan=\"1\">31</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Kravets Sima</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Roguets</td><td colspan=\"1\" rowspan=\"1\">32</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Kreymer Aleksander</td><td colspan=\"1\" rowspan=\"1\">VNS</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">V           ry</td><td colspan=\"1\" rowspan=\"1\">33</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Kreymer Galina</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">enn</td><td colspan=\"1\" rowspan=\"1\">34</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Kruglov Viktor</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">V          K</td><td colspan=\"1\" rowspan=\"1\">35</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Krupnik Eduard</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Kziprk</td><td colspan=\"1\" rowspan=\"1\">36</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Lokhov Sergey</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">N/TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">37</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Loukachevitch Tatiana</td><td colspan=\"1\" rowspan=\"1\">SWH</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Youkach</td><td colspan=\"1\" rowspan=\"1\">38</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Lysenko Tetiana</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">D</td><td colspan=\"1\" rowspan=\"1\">39</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Magalnik Malvina</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">N/TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">V            H</td><td colspan=\"1\" rowspan=\"1\">40</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Marder Yakov</td><td colspan=\"1\" rowspan=\"1\">HomeFirst</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">May</td><td colspan=\"1\" rowspan=\"1\">41</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Margulis David</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Marmd</td><td colspan=\"1\" rowspan=\"1\">42</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Mashkovich Yankel</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">WarMar</td><td colspan=\"1\" rowspan=\"1\">43</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Melnyk Mariia</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">44</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Meltser Eugene</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">CDPAP</td><td colspan=\"1\" rowspan=\"1\">N/TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">VE,Men</td><td colspan=\"1\" rowspan=\"1\">45</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Meltser Larisa</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">CDPAP</td><td colspan=\"1\" rowspan=\"1\">N/TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">L.Men</td><td colspan=\"1\" rowspan=\"1\">46</td></tr><tr><td colspan=\"1\" rowspan=\"1\">MikhaylovaSofiya</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">N/TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">c</td><td colspan=\"1\" rowspan=\"1\">47</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Neginis Rivekka</td><td colspan=\"1\" rowspan=\"1\">private pay</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">eU</td><td colspan=\"1\" rowspan=\"1\">48</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Nemyrska Galyna</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">49</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Papouk Valentina</td><td colspan=\"1\" rowspan=\"1\">SWH</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">1a</td><td colspan=\"1\" rowspan=\"1\">50</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Patsiuchenko Oleg</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">es</td><td colspan=\"1\" rowspan=\"1\">51</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Perepelitsa Nina</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">52</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Pochkhidze Gurami</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">53</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Polovitskaya Manya</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Ovits</td><td colspan=\"1\" rowspan=\"1\">54</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Polyak Dora</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">A. Pole</td><td colspan=\"1\" rowspan=\"1\">55</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Polyak Semen</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">. Poly</td><td colspan=\"1\" rowspan=\"1\">56</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Portnov Naum</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">CD PAP</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">N.PoX</td><td colspan=\"1\" rowspan=\"1\">57</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Prokop Svitlana</td><td colspan=\"1\" rowspan=\"1\">VNS</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Clpou</td><td colspan=\"1\" rowspan=\"1\">58</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Rodov Vladimir</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">e</td><td colspan=\"1\" rowspan=\"1\">59</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Royzman Boris</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Poy</td><td colspan=\"1\" rowspan=\"1\">60</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Safonov Anatoliy</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">N/TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">61</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Sekh Stefaniia</td><td colspan=\"1\" rowspan=\"1\">VCM</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">N/TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">62</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Shchyhelskaya Zinaida</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">e</td><td colspan=\"1\" rowspan=\"1\">63</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Shefer Bella</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">64</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Shkolnik Betya</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">65</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Shparber losif</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">VTOSF</td><td colspan=\"1\" rowspan=\"1\">66</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Shporina Ella</td><td colspan=\"1\" rowspan=\"1\">private pay</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">N/TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">67</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Shulkin Faina</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Shulun</td><td colspan=\"1\" rowspan=\"1\">68</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Shuper Klavdia</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">69</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Sivak Svetlana</td><td colspan=\"1\" rowspan=\"1\">SWH</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">70</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Skvirsky Lazar</td><td colspan=\"1\" rowspan=\"1\">VCM</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">71</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Starikov Brayna</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">72</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Streltsov Viktor</td><td colspan=\"1\" rowspan=\"1\">VCM</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">N/TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">2</td><td colspan=\"1\" rowspan=\"1\">73</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Syrtsova Nina</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">CDPAP</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">C</td><td colspan=\"1\" rowspan=\"1\">74</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Tokar Polina</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">75</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Umanskiy Boris</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Buu</td><td colspan=\"1\" rowspan=\"1\">76</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Velkina Bella</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Why</td><td colspan=\"1\" rowspan=\"1\">77</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Verba Margarita</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">N/TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">√Verb</td><td colspan=\"1\" rowspan=\"1\">78</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Yablok Ida</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">79</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Yakobzon Rivka</td><td colspan=\"1\" rowspan=\"1\">SWH</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">80</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Yezerskaya Dora</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">R</td><td colspan=\"1\" rowspan=\"1\">81</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Yusupov Roman</td><td colspan=\"1\" rowspan=\"1\">Eld Serve</td><td colspan=\"1\" rowspan=\"1\">N</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">V               upv</td><td colspan=\"1\" rowspan=\"1\">82</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Zabizhin Grigoriy</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">N/TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">83</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Zaripova Svetlana</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">$Zan</td><td colspan=\"1\" rowspan=\"1\">84</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Zeltser Oleg</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">化心</td><td colspan=\"1\" rowspan=\"1\">85</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Zolotarev Mikhail</td><td colspan=\"1\" rowspan=\"1\">Anthem</td><td colspan=\"1\" rowspan=\"1\">Y</td><td colspan=\"1\" rowspan=\"1\">N/TR</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">o lotaiw</td><td colspan=\"1\" rowspan=\"1\">86</td></tr><tr><td colspan=\"1\" rowspan=\"1\">LRAyZ</td><td colspan=\"1\" rowspan=\"1\">RAISA</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">cR, ka</td><td colspan=\"1\" rowspan=\"1\">87</td></tr><tr><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">88</td></tr></table>",
+                                            "image_path": "1e1f6b12c69f4dc5b0a12408d856a59ac09db7f9b2b75744275252796fdb856e.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.9889
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        54,
+                        67,
+                        570,
+                        726
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9873,
+                            "bbox": [
+                                54,
+                                67,
+                                570,
+                                726
+                            ],
+                            "index": 1,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        67,
+                                        570,
+                                        726
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                54,
+                                                67,
+                                                570,
+                                                726
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>Gurevich Roza</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√ CuReviole</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>Gurevich Yevgeniy</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Curevol</td><td rowspan=1 colspan=1>21</td></tr><tr><td rowspan=1 colspan=1>Guzman Tatiana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Tobl</td><td rowspan=1 colspan=1>22</td></tr><tr><td rowspan=1 colspan=1>Halas Jerzy</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>23</td></tr><tr><td rowspan=1 colspan=1>Halas Teresa</td><td rowspan=1 colspan=1>SWH</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Hed</td><td rowspan=1 colspan=1>24</td></tr><tr><td rowspan=1 colspan=1>Ignatovskaia Tamara</td><td rowspan=1 colspan=1>SWH</td><td rowspan=1 colspan=1>CDPAP</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Tamague</td><td rowspan=1 colspan=1>25</td></tr><tr><td rowspan=1 colspan=1>Kagan Dina</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>CDPAP</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Ro</td><td rowspan=1 colspan=1>26</td></tr><tr><td rowspan=1 colspan=1>Kapitova Larisa</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y.</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>hay</td><td rowspan=1 colspan=1>27</td></tr><tr><td rowspan=1 colspan=1>Khnanisho Olga</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>28</td></tr><tr><td rowspan=1 colspan=1>Kononovich Olexandra</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>aHo  S</td><td rowspan=1 colspan=1>29</td></tr><tr><td rowspan=1 colspan=1>Kotvitskaya Alexandra</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>tof</td><td rowspan=1 colspan=1>30</td></tr><tr><td rowspan=1 colspan=1>Kramer Sofya</td><td rowspan=1 colspan=1>VCM</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Nraceels</td><td rowspan=1 colspan=1>31</td></tr><tr><td rowspan=1 colspan=1>Kravets Sima</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Roguets</td><td rowspan=1 colspan=1>32</td></tr><tr><td rowspan=1 colspan=1>Kreymer Aleksander</td><td rowspan=1 colspan=1>VNS</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V           ry</td><td rowspan=1 colspan=1>33</td></tr><tr><td rowspan=1 colspan=1>Kreymer Galina</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>enn</td><td rowspan=1 colspan=1>34</td></tr><tr><td rowspan=1 colspan=1>Kruglov Viktor</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V          K</td><td rowspan=1 colspan=1>35</td></tr><tr><td rowspan=1 colspan=1>Krupnik Eduard</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Kziprk</td><td rowspan=1 colspan=1>36</td></tr><tr><td rowspan=1 colspan=1>Lokhov Sergey</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>37</td></tr><tr><td rowspan=1 colspan=1>Loukachevitch Tatiana</td><td rowspan=1 colspan=1>SWH</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Youkach</td><td rowspan=1 colspan=1>38</td></tr><tr><td rowspan=1 colspan=1>Lysenko Tetiana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>D</td><td rowspan=1 colspan=1>39</td></tr><tr><td rowspan=1 colspan=1>Magalnik Malvina</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V            H</td><td rowspan=1 colspan=1>40</td></tr></table>",
+                                            "image_path": "4217b706c26f56c08230c62b4a5bfaac604dfae7ae07e92d9b79fcaac111481e.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "score": 0.9873
+                }
+            ],
+            "page_idx": 1,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        54,
+                        67,
+                        570,
+                        726
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9873,
+                            "bbox": [
+                                54,
+                                67,
+                                570,
+                                726
+                            ],
+                            "index": 1,
+                            "type": "table_body",
+                            "lines": [],
+                            "lines_deleted": true
+                        }
+                    ],
+                    "index": 1,
+                    "score": 0.9873
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        54,
+                        66,
+                        570,
+                        727
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9873,
+                            "bbox": [
+                                54,
+                                66,
+                                570,
+                                727
+                            ],
+                            "index": 1,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        66,
+                                        570,
+                                        727
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                54,
+                                                66,
+                                                570,
+                                                727
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>Marder Yakov</td><td rowspan=1 colspan=1>HomeFirst</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>May</td><td rowspan=1 colspan=1>41</td></tr><tr><td rowspan=1 colspan=1>Margulis David</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Marmd</td><td rowspan=1 colspan=1>42</td></tr><tr><td rowspan=1 colspan=1>Mashkovich Yankel</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>WarMar</td><td rowspan=1 colspan=1>43</td></tr><tr><td rowspan=1 colspan=1>Melnyk Mariia</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>44</td></tr><tr><td rowspan=1 colspan=1>Meltser Eugene</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>CDPAP</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>VE,Men</td><td rowspan=1 colspan=1>45</td></tr><tr><td rowspan=1 colspan=1>Meltser Larisa</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>CDPAP</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>L.Men</td><td rowspan=1 colspan=1>46</td></tr><tr><td rowspan=1 colspan=1>MikhaylovaSofiya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>c</td><td rowspan=1 colspan=1>47</td></tr><tr><td rowspan=1 colspan=1>Neginis Rivekka</td><td rowspan=1 colspan=1>private pay</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>eU</td><td rowspan=1 colspan=1>48</td></tr><tr><td rowspan=1 colspan=1>Nemyrska Galyna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>49</td></tr><tr><td rowspan=1 colspan=1>Papouk Valentina</td><td rowspan=1 colspan=1>SWH</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1a</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>Patsiuchenko Oleg</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>es</td><td rowspan=1 colspan=1>51</td></tr><tr><td rowspan=1 colspan=1>Perepelitsa Nina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>52</td></tr><tr><td rowspan=1 colspan=1>Pochkhidze Gurami</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>53</td></tr><tr><td rowspan=1 colspan=1>Polovitskaya Manya</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Ovits</td><td rowspan=1 colspan=1>54</td></tr><tr><td rowspan=1 colspan=1>Polyak Dora</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>A. Pole</td><td rowspan=1 colspan=1>55</td></tr><tr><td rowspan=1 colspan=1>Polyak Semen</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>. Poly</td><td rowspan=1 colspan=1>56</td></tr><tr><td rowspan=1 colspan=1>Portnov Naum</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>CD PAP</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>N.PoX</td><td rowspan=1 colspan=1>57</td></tr><tr><td rowspan=1 colspan=1>Prokop Svitlana</td><td rowspan=1 colspan=1>VNS</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Clpou</td><td rowspan=1 colspan=1>58</td></tr><tr><td rowspan=1 colspan=1>Rodov Vladimir</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>e</td><td rowspan=1 colspan=1>59</td></tr><tr><td rowspan=1 colspan=1>Royzman Boris</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Poy</td><td rowspan=1 colspan=1>60</td></tr><tr><td rowspan=1 colspan=1>Safonov Anatoliy</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>61</td></tr></table>",
+                                            "image_path": "555f03a440926991da2236bc66fbf173d03796da0dd220964f8e57a982680c9f.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "score": 0.9873
+                }
+            ],
+            "page_idx": 2,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        54,
+                        66,
+                        570,
+                        727
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9873,
+                            "bbox": [
+                                54,
+                                66,
+                                570,
+                                727
+                            ],
+                            "index": 1,
+                            "type": "table_body",
+                            "lines": [],
+                            "lines_deleted": true
+                        }
+                    ],
+                    "index": 1,
+                    "score": 0.9873
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        54,
+                        69,
+                        570,
+                        727
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9872,
+                            "bbox": [
+                                54,
+                                69,
+                                570,
+                                727
+                            ],
+                            "index": 1,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        69,
+                                        570,
+                                        727
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                54,
+                                                69,
+                                                570,
+                                                727
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>Sekh Stefaniia</td><td rowspan=1 colspan=1>VCM</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>62</td></tr><tr><td rowspan=1 colspan=1>Shchyhelskaya Zinaida</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>e</td><td rowspan=1 colspan=1>63</td></tr><tr><td rowspan=1 colspan=1>Shefer Bella</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>64</td></tr><tr><td rowspan=1 colspan=1>Shkolnik Betya</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>65</td></tr><tr><td rowspan=1 colspan=1>Shparber losif</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>VTOSF</td><td rowspan=1 colspan=1>66</td></tr><tr><td rowspan=1 colspan=1>Shporina Ella</td><td rowspan=1 colspan=1>private pay</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>67</td></tr><tr><td rowspan=1 colspan=1>Shulkin Faina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Shulun</td><td rowspan=1 colspan=1>68</td></tr><tr><td rowspan=1 colspan=1>Shuper Klavdia</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>69</td></tr><tr><td rowspan=1 colspan=1>Sivak Svetlana</td><td rowspan=1 colspan=1>SWH</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>70</td></tr><tr><td rowspan=1 colspan=1>Skvirsky Lazar</td><td rowspan=1 colspan=1>VCM</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>71</td></tr><tr><td rowspan=1 colspan=1>Starikov Brayna</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>72</td></tr><tr><td rowspan=1 colspan=1>Streltsov Viktor</td><td rowspan=1 colspan=1>VCM</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>73</td></tr><tr><td rowspan=1 colspan=1>Syrtsova Nina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>CDPAP</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>74</td></tr><tr><td rowspan=1 colspan=1>Tokar Polina</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>75</td></tr><tr><td rowspan=1 colspan=1>Umanskiy Boris</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Buu</td><td rowspan=1 colspan=1>76</td></tr><tr><td rowspan=1 colspan=1>Velkina Bella</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Why</td><td rowspan=1 colspan=1>77</td></tr><tr><td rowspan=1 colspan=1>Verba Margarita</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√Verb</td><td rowspan=1 colspan=1>78</td></tr><tr><td rowspan=1 colspan=1>Yablok Ida</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>79</td></tr><tr><td rowspan=1 colspan=1>Yakobzon Rivka</td><td rowspan=1 colspan=1>SWH</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>80</td></tr><tr><td rowspan=1 colspan=1>Yezerskaya Dora</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>R</td><td rowspan=1 colspan=1>81</td></tr><tr><td rowspan=1 colspan=1>Yusupov Roman</td><td rowspan=1 colspan=1>Eld Serve</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>V               upv</td><td rowspan=1 colspan=1>82</td></tr></table>",
+                                            "image_path": "1dbc4e0e0da9f927aaea615daf63690a59caf42f7265ef0bcde9950d62ba7cac.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "score": 0.9872
+                }
+            ],
+            "page_idx": 3,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        54,
+                        69,
+                        570,
+                        727
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9872,
+                            "bbox": [
+                                54,
+                                69,
+                                570,
+                                727
+                            ],
+                            "index": 1,
+                            "type": "table_body",
+                            "lines": [],
+                            "lines_deleted": true
+                        }
+                    ],
+                    "index": 1,
+                    "score": 0.9872
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        56,
+                        63,
+                        572,
+                        254
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9884,
+                            "bbox": [
+                                56,
+                                63,
+                                572,
+                                254
+                            ],
+                            "index": 1,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        63,
+                                        572,
+                                        254
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                56,
+                                                63,
+                                                572,
+                                                254
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=1 colspan=1>Zabizhin Grigoriy</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>83</td></tr><tr><td rowspan=1 colspan=1>Zaripova Svetlana</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>$Zan</td><td rowspan=1 colspan=1>84</td></tr><tr><td rowspan=1 colspan=1>Zeltser Oleg</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>化心</td><td rowspan=1 colspan=1>85</td></tr><tr><td rowspan=1 colspan=1>Zolotarev Mikhail</td><td rowspan=1 colspan=1>Anthem</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>N/TR</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>o lotaiw</td><td rowspan=1 colspan=1>86</td></tr><tr><td rowspan=1 colspan=1>LRAyZ</td><td rowspan=1 colspan=1>RAISA</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>cR, ka</td><td rowspan=1 colspan=1>87</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>88</td></tr></table>",
+                                            "image_path": "f8b05fcbfafc4cc16c0ff8c685bcb109edf8c708a8d31bea2cb3eb3051ce76c3.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "score": 0.9884
+                }
+            ],
+            "page_idx": 4,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        56,
+                        63,
+                        572,
+                        254
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9884,
+                            "bbox": [
+                                56,
+                                63,
+                                572,
+                                254
+                            ],
+                            "index": 1,
+                            "type": "table_body",
+                            "lines": [],
+                            "lines_deleted": true
+                        }
+                    ],
+                    "index": 1,
+                    "score": 0.9884
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.4.4"
+}

@@ -1,6 +1,6 @@
 {
  "client_name": "Liberman Simon",
- "updated": "2026-08-03T16:53",
+ "updated": "2026-08-04T05:30",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -27,7 +27,7 @@
    "salad": "Винегрет",
    "soup": "Борщ красный",
    "main": "Блины с мясом",
-   "side": "Картошка фри"
+   "side": null
   },
   {
    "menu_date": "2026-07-31",
