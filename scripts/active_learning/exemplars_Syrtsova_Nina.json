@@ -1,6 +1,6 @@
 {
  "client_name": "Syrtsova Nina",
- "updated": "2026-08-04T05:30",
+ "updated": "2026-08-04T06:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -23,7 +23,7 @@
   {
    "menu_date": "2026-08-04",
    "day_code": "T",
-   "shift": "2",
+   "shift": "1",
    "salad": "Свекла",
    "soup": "Гороховый суп",
    "main": "Голубцы",

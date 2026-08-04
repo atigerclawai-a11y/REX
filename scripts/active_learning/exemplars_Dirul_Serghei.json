@@ -1,7 +1,16 @@
 {
  "client_name": "Dirul Serghei",
- "updated": "2026-08-04T05:30",
+ "updated": "2026-08-04T06:00",
  "orders": [
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Борщ зеленый",
+   "soup": "Борщ зеленый",
+   "main": "Оливье",
+   "side": "Тушеная капуста"
+  },
   {
    "menu_date": "2026-07-26",
    "day_code": "Su",
@@ -31,15 +40,6 @@
   },
   {
    "menu_date": "2026-06-28",
-   "day_code": "Su",
-   "shift": "1",
-   "salad": "Борщ",
-   "soup": "Рыба",
-   "main": "Олимп",
-   "side": ""
-  },
-  {
-   "menu_date": "2026-06-21",
    "day_code": "Su",
    "shift": "1",
    "salad": "Борщ",

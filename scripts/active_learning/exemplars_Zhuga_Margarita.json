@@ -1,7 +1,16 @@
 {
  "client_name": "Zhuga Margarita",
- "updated": "2026-08-04T05:30",
+ "updated": "2026-08-04T06:00",
  "orders": [
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "2",
+   "salad": "Свекла",
+   "soup": "Борщ красный",
+   "main": "Куриные крылышки",
+   "side": "Картошка"
+  },
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
@@ -14,7 +23,7 @@
   {
    "menu_date": "2026-08-05",
    "day_code": "W",
-   "shift": "1",
+   "shift": "2",
    "salad": null,
    "soup": "Борщ красный",
    "main": "Куриные крылышки",
@@ -23,7 +32,7 @@
   {
    "menu_date": "2026-08-04",
    "day_code": "T",
-   "shift": "1",
+   "shift": "2",
    "salad": null,
    "soup": "Гороховый суп",
    "main": "Куриные крылышки",
@@ -37,15 +46,6 @@
    "soup": "Кур",
    "main": "Поперечка",
    "side": "Картошка"
-  },
-  {
-   "menu_date": "2026-07-22",
-   "day_code": "W",
-   "shift": "2",
-   "salad": "Весна",
-   "soup": "Б",
-   "main": "Пельмени",
-   "side": ""
   }
  ]
 }

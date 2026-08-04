@@ -1,45 +1,45 @@
 {
  "client_name": "Kapitova Larisa",
- "updated": "2026-08-04T05:30",
+ "updated": "2026-08-04T06:00",
  "orders": [
   {
-   "menu_date": "2026-07-30",
+   "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "1",
-   "salad": "Оливье",
+   "salad": "Винегрет",
    "soup": "Овощной суп",
    "main": "Дорадо запеченая",
    "side": "Гречка"
   },
   {
-   "menu_date": "2026-07-29",
+   "menu_date": "2026-08-05",
    "day_code": "W",
    "shift": "1",
-   "salad": "Оливье",
+   "salad": "Винегрет",
    "soup": "Овощной суп",
    "main": "Дорадо запеченая",
    "side": "Гречка"
   },
   {
-   "menu_date": "2026-07-28",
+   "menu_date": "2026-08-04",
    "day_code": "T",
    "shift": "1",
-   "salad": "Оливье",
+   "salad": "Винегрет",
    "soup": "Овощной суп",
    "main": "Дорадо запеченая",
    "side": "Гречка"
   },
   {
-   "menu_date": "2026-07-27",
+   "menu_date": "2026-08-03",
    "day_code": "M",
    "shift": "1",
-   "salad": "Оливье",
+   "salad": "Винегрет",
    "soup": "Овощной суп",
    "main": "Дорадо запеченая",
    "side": "Гречка"
   },
   {
-   "menu_date": "2026-07-23",
+   "menu_date": "2026-07-30",
    "day_code": "TH",
    "shift": "1",
    "salad": "Оливье",

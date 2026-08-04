@@ -1,7 +1,16 @@
 {
  "client_name": "Kiselgof Mikhail",
- "updated": "2026-08-04T05:30",
+ "updated": "2026-08-04T06:00",
  "orders": [
+  {
+   "menu_date": "2026-08-07",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Оливье",
+   "soup": "Грибной суп",
+   "main": "Салмон",
+   "side": "Тушеная капуста"
+  },
   {
    "menu_date": "2026-08-04",
    "day_code": "T",
@@ -37,15 +46,6 @@
    "soup": "Гриб",
    "main": "Дорадо",
    "side": "Туш. кап."
-  },
-  {
-   "menu_date": "2026-07-17",
-   "day_code": "F",
-   "shift": "2",
-   "salad": "",
-   "soup": "",
-   "main": "",
-   "side": "Тушеная капуста"
   }
  ]
 }

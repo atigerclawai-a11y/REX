@@ -1,12 +1,12 @@
 {
  "client_name": "Shuper Klavdia",
- "updated": "2026-08-04T05:30",
+ "updated": "2026-08-04T06:00",
  "orders": [
   {
    "menu_date": "2026-08-04",
    "day_code": "T",
    "shift": "1",
-   "salad": "Борщ зеленый",
+   "salad": "Салат весенний",
    "soup": "Куриный суп",
    "main": "Курица в терияки",
    "side": "Тушеная капуста"

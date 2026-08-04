@@ -1,7 +1,25 @@
 {
  "client_name": "Firdman Mark",
- "updated": "2026-08-04T05:30",
+ "updated": "2026-08-04T06:00",
  "orders": [
+  {
+   "menu_date": "2026-08-05",
+   "day_code": "W",
+   "shift": "1",
+   "salad": "Свекла",
+   "soup": "Борщ зеленый",
+   "main": "Блины с творогом",
+   "side": null
+  },
+  {
+   "menu_date": "2026-08-03",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Винегрет",
+   "soup": "Борщ зеленый",
+   "main": "Баса с помидорами",
+   "side": "Гречка"
+  },
   {
    "menu_date": "2026-07-29",
    "day_code": "W",
@@ -28,24 +46,6 @@
    "soup": "3.Б",
    "main": "Бл. твор",
    "side": ""
-  },
-  {
-   "menu_date": "2026-07-20",
-   "day_code": "M",
-   "shift": "1",
-   "salad": "Вин",
-   "soup": "3.Б",
-   "main": "S",
-   "side": "FF"
-  },
-  {
-   "menu_date": "2026-07-15",
-   "day_code": "W",
-   "shift": "1",
-   "salad": "Вин",
-   "soup": "3.Б",
-   "main": "Вар.Кар",
-   "side": "Туш. кап."
   }
  ]
 }

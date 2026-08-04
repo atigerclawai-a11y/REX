@@ -1,7 +1,16 @@
 {
  "client_name": "Volovich Larisa",
- "updated": "2026-08-04T05:30",
+ "updated": "2026-08-04T06:00",
  "orders": [
+  {
+   "menu_date": "2026-08-07",
+   "day_code": "F",
+   "shift": "2",
+   "salad": "Салат из баклажан",
+   "soup": "Борщ зеленый",
+   "main": "Баса с помидорами",
+   "side": "Паста"
+  },
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
@@ -33,15 +42,6 @@
    "menu_date": "2026-07-24",
    "day_code": "F",
    "shift": "TH",
-   "salad": "Сало",
-   "soup": "Борщ зеленый",
-   "main": "Салмон",
-   "side": "Гречка"
-  },
-  {
-   "menu_date": "2026-07-24",
-   "day_code": "F",
-   "shift": "2",
    "salad": "Сало",
    "soup": "Борщ зеленый",
    "main": "Салмон",

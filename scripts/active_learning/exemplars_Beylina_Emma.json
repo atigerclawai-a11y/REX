@@ -1,7 +1,25 @@
 {
  "client_name": "Beylina Emma",
- "updated": "2026-08-04T05:30",
+ "updated": "2026-08-04T06:00",
  "orders": [
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Оливье",
+   "soup": "Куриный суп",
+   "main": "Баса с помидорами",
+   "side": "Картошка фри"
+  },
+  {
+   "menu_date": "2026-08-03",
+   "day_code": "M",
+   "shift": "1",
+   "salad": "Сало",
+   "soup": "Куриный суп",
+   "main": "Баса с помидорами",
+   "side": "Картошка фри"
+  },
   {
    "menu_date": "2026-07-30",
    "day_code": "TH",
@@ -28,24 +46,6 @@
    "soup": "Кур",
    "main": "S",
    "side": "Гр"
-  },
-  {
-   "menu_date": "2026-07-20",
-   "day_code": "M",
-   "shift": "1",
-   "salad": "Сало",
-   "soup": "Кур",
-   "main": "Поперечка",
-   "side": "FF"
-  },
-  {
-   "menu_date": "2026-07-16",
-   "day_code": "TH",
-   "shift": "1",
-   "salad": "Вин",
-   "soup": "Кур",
-   "main": "Дорадо",
-   "side": "MP"
   }
  ]
 }
