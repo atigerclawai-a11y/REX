@@ -28,9 +28,9 @@ files = [
 msg = MIMEMultipart()
 msg['From'] = SENDER
 msg['To'] = TO
-msg['Subject'] = 'GOJ Tue Aug 4 (81/55) + Wed Aug 5 (73/95) — FINAL v2 — 100% own orders, 0 house standard'
+msg['Subject'] = 'GOJ Tue Aug 4 (81/55) + Wed Aug 5 (73/95) — FINAL v3 — ALL 227 forms applied + verified (batch-fix)'
 msg.attach(MIMEText(
-    'Kato —\n\nFINAL CORRECTED PACKAGE — 100% own orders — every client gets their own meal.\n\n'
+    'Kato —\n\nFINAL CORRECTED PACKAGE — ALL 227 confirmed forms now applied. Every scheduled client has a plate (81=81, 55=55, 73=73, 95=95)..\n\n'
     'Tuesday Aug 4: 81 S1 / 55 S2\n'
     'Wednesday Aug 5: 73 S1 / 95 S2\n\n'
     'FIXES IN THIS SET:\n'
