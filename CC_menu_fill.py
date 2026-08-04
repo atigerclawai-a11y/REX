@@ -113,9 +113,15 @@ for db in DBS:
             continue
         # 3. own last order — REAL orders only (Kato fix 2026-08-02: was chaining
         #    last_order_fallback→last_order_fallback, drifting from the real order)
+        # FIX 2026-08-04: must still use a fallback row when it IS the client's most
+        # recent complete meal — excluding fallbacks entirely dropped clients whose
+        # last real row was partial/no-order straight to house_standard (Shteyman
+        # Faina 07-30 Сало|Борщ|Баса|Стручк. was ignored → house). Any complete plate
+        # from a non-house source counts; fallbacks derive from real rows anyway.
         lw = c.execute("""SELECT salad, soup, main, side FROM client_menus
-            WHERE client_name=? AND shift=? AND main NOT LIKE '%заказ не размещен%' AND main != ''
-            AND source_sheet IN ('ocr_scan','drive_sync','day_shifted')
+            WHERE client_name=? AND shift=? AND main NOT LIKE '%заказ не размещен%'
+            AND main != '' AND salad != '' AND soup != '' AND side != ''
+            AND source_sheet NOT IN ('house_standard','no_order_flag')
             ORDER BY menu_date DESC LIMIT 1""", (name, sh)).fetchone()
         if lw:
             c.execute("""INSERT OR IGNORE INTO client_menus
