@@ -2740,9 +2740,9 @@
     "semantic_hash": "5590df36e07e0311f2903f86d429366e"
   },
   "Hermes Session Brief.md": {
-    "mtime": 1785827726.0,
-    "ast_hash": "58cb2a60a803afa0d692ccc7a108af5a",
-    "semantic_hash": "58cb2a60a803afa0d692ccc7a108af5a"
+    "mtime": 1785914348.0,
+    "ast_hash": "f08ac8bd3dd673dc9744652f4cbfc4d7",
+    "semantic_hash": "f08ac8bd3dd673dc9744652f4cbfc4d7"
   },
   "Projects/BBG Reel Production Pipeline.md": {
     "mtime": 1782161434.0,
@@ -2805,9 +2805,9 @@
     "semantic_hash": "2691bf31e8a6cff5b9ea2535a3e9f0db"
   },
   "Hermes Perpetual Memory.md": {
-    "mtime": 1785816595.0,
-    "ast_hash": "655a81daa4b2bb330d6ab9f1bcf07fd2",
-    "semantic_hash": "655a81daa4b2bb330d6ab9f1bcf07fd2"
+    "mtime": 1785917716.0,
+    "ast_hash": "ec802fbc2d5f2066f0e1726cdca9a0f2",
+    "semantic_hash": "ec802fbc2d5f2066f0e1726cdca9a0f2"
   },
   "Oracle/2026/06/2026-06-25.md": {
     "mtime": 1782435380.0,
@@ -3215,9 +3215,9 @@
     "semantic_hash": "6e6ff297111876d00db99644f0ba6022"
   },
   "Cloud Backups/claude-wiki/Wiki Health Report.md": {
-    "mtime": 1785830224.0,
-    "ast_hash": "b3633980cde5deb1a25f90324afd4336",
-    "semantic_hash": "b3633980cde5deb1a25f90324afd4336"
+    "mtime": 1785918099.0,
+    "ast_hash": "087c05033396b4eebc4e87e2f7315489",
+    "semantic_hash": "087c05033396b4eebc4e87e2f7315489"
   },
   "Cloud Backups/claude-wiki/claude-sessions/2026-07-07-auto-recovery.md": {
     "mtime": 1783848582.0,
@@ -3270,9 +3270,9 @@
     "semantic_hash": "a5755e08c0ba0be000f030a831010783"
   },
   "Cloud Backups/claude-wiki/concepts/GOJ Operations.md": {
-    "mtime": 1785517515.0,
-    "ast_hash": "fea9ecc942d25bdb07fcb857540911cf",
-    "semantic_hash": "fea9ecc942d25bdb07fcb857540911cf"
+    "mtime": 1785859243.0,
+    "ast_hash": "71bfe6cf7588697213d22298a0c3e311",
+    "semantic_hash": "71bfe6cf7588697213d22298a0c3e311"
   },
   "Cloud Backups/claude-wiki/concepts/Gold Health Systems.md": {
     "mtime": 1784214999.0,
@@ -3305,9 +3305,9 @@
     "semantic_hash": "ebcd671b499a1191db3245629b9682c0"
   },
   "Cloud Backups/claude-wiki/concepts/REX Backend.md": {
-    "mtime": 1785776828.0,
-    "ast_hash": "6352306d9ad77032347ede14620772dd",
-    "semantic_hash": "6352306d9ad77032347ede14620772dd"
+    "mtime": 1785863528.0,
+    "ast_hash": "bd0c32456c4c73acebdc3186a5aefbb7",
+    "semantic_hash": "bd0c32456c4c73acebdc3186a5aefbb7"
   },
   "Cloud Backups/claude-wiki/concepts/Session Validation Checklist.md": {
     "mtime": 1784215026.0,
@@ -3340,9 +3340,9 @@
     "semantic_hash": "5bd80c6fe42da5b0a0fd36c06a134ad6"
   },
   "Cloud Backups/claude-wiki/index.md": {
-    "mtime": 1785776876.0,
-    "ast_hash": "2a40597933ea19205a98bcda54fbda13",
-    "semantic_hash": "2a40597933ea19205a98bcda54fbda13"
+    "mtime": 1785917671.0,
+    "ast_hash": "0d02d24309c27b5a5325f294908c5259",
+    "semantic_hash": "0d02d24309c27b5a5325f294908c5259"
   },
   "CowAgent Build Brief.md": {
     "mtime": 1783443279.0,
@@ -3530,9 +3530,9 @@
     "semantic_hash": "d69745bd59725cd44668bb41f24888a8"
   },
   "Cloud Backups/Wiki Health Report.md": {
-    "mtime": 1784154905.0,
-    "ast_hash": "7b74b1fca59ceb8020168f9d478c6075",
-    "semantic_hash": "7b74b1fca59ceb8020168f9d478c6075"
+    "mtime": 1785889046.0,
+    "ast_hash": "a075f9534cc0f87117c28c54ff572710",
+    "semantic_hash": "a075f9534cc0f87117c28c54ff572710"
   },
   "Cloud Backups/claude-wiki/claude-sessions/2026-07-11-auto-recovery.md": {
     "mtime": 1783875773.0,
@@ -3600,9 +3600,9 @@
     "semantic_hash": "77f7010fac70015d0d0105b6075badd8"
   },
   "Cloud Backups/claude-wiki/concepts/GHS Second Brain Architecture.md": {
-    "mtime": 1785171842.0,
-    "ast_hash": "a07276612f564583a656a267215d5da7",
-    "semantic_hash": "a07276612f564583a656a267215d5da7"
+    "mtime": 1785863528.0,
+    "ast_hash": "d7083658c5e856961e4692bc4ec199da",
+    "semantic_hash": "d7083658c5e856961e4692bc4ec199da"
   },
   "Objectives.md": {
     "mtime": 1785776863.0,
@@ -3640,14 +3640,14 @@
     "semantic_hash": "0a9608fcd4f8829bf076f8ca4c2b7cfa"
   },
   "index.md": {
-    "mtime": 1785828142.0,
-    "ast_hash": "2802e60af94fd785758640e49c7132af",
-    "semantic_hash": "2802e60af94fd785758640e49c7132af"
+    "mtime": 1785917621.0,
+    "ast_hash": "a381059e809028f478a26f8cc558214e",
+    "semantic_hash": "a381059e809028f478a26f8cc558214e"
   },
   "log.md": {
-    "mtime": 1785830238.0,
-    "ast_hash": "e70673a86a188e842dce400e20f531bd",
-    "semantic_hash": "e70673a86a188e842dce400e20f531bd"
+    "mtime": 1785917716.0,
+    "ast_hash": "708f95f44ae53d279200cff260f30d2b",
+    "semantic_hash": "708f95f44ae53d279200cff260f30d2b"
   },
   "queries/README.md": {
     "mtime": 1783844755.0,
@@ -3740,9 +3740,9 @@
     "semantic_hash": "14e0760ef78449e2240bdb2457a63889"
   },
   "Cloud Backups/claude-wiki/dump-log.md": {
-    "mtime": 1785670325.0,
-    "ast_hash": "3cb4d05b6ca51b5a17e1ef87c90680c4",
-    "semantic_hash": "3cb4d05b6ca51b5a17e1ef87c90680c4"
+    "mtime": 1785889031.0,
+    "ast_hash": "11c8bcbf06a2120f1a846fc2a3e45284",
+    "semantic_hash": "11c8bcbf06a2120f1a846fc2a3e45284"
   },
   "JARVIS Brain.md": {
     "mtime": 1784289809.0,
@@ -4410,9 +4410,9 @@
     "semantic_hash": "9257498d8f76ca714807eeb08d08ae03"
   },
   "Cloud Backups/claude-wiki/concepts/Contradictions.md": {
-    "mtime": 1785593122.0,
-    "ast_hash": "f31d56abb5620ba705bf584d6ae048c3",
-    "semantic_hash": "f31d56abb5620ba705bf584d6ae048c3"
+    "mtime": 1785859218.0,
+    "ast_hash": "bfde5aaa9792eaa92197bb30c305e7c7",
+    "semantic_hash": "bfde5aaa9792eaa92197bb30c305e7c7"
   },
   "Cloud Backups/claude-wiki/concepts/Hermes MCP Ecosystem Reference.md": {
     "mtime": 1784352857.0,
@@ -4425,14 +4425,14 @@
     "semantic_hash": "1b1d5850dc481209b57e05fa9348e21e"
   },
   "Cloud Backups/claude-wiki/concepts/Pending Approvals.md": {
-    "mtime": 1785828057.0,
-    "ast_hash": "c82eaeef47a2085917e3a50b67194b1e",
-    "semantic_hash": "c82eaeef47a2085917e3a50b67194b1e"
+    "mtime": 1785863528.0,
+    "ast_hash": "268ade8e73adb3f481ef5985f1ab7ac6",
+    "semantic_hash": "268ade8e73adb3f481ef5985f1ab7ac6"
   },
   "Cloud Backups/claude-wiki/log.md": {
-    "mtime": 1785829577.0,
-    "ast_hash": "484920a65a1affa98dcad187967f9dec",
-    "semantic_hash": "484920a65a1affa98dcad187967f9dec"
+    "mtime": 1785918118.0,
+    "ast_hash": "835bc25faf46f8d2059c3bec330c106a",
+    "semantic_hash": "835bc25faf46f8d2059c3bec330c106a"
   },
   "Quiz/2026-07-15 - API Design & Communication.md": {
     "mtime": 1784164473.0,
@@ -4765,9 +4765,9 @@
     "semantic_hash": "9f52ad1f695f22d18c2866a9757d1939"
   },
   "Cloud Backups/claude-wiki/concepts/Cron Infrastructure Crisis.md": {
-    "mtime": 1785776842.0,
-    "ast_hash": "11c2435d6d70024259860d7c3e158260",
-    "semantic_hash": "11c2435d6d70024259860d7c3e158260"
+    "mtime": 1785863528.0,
+    "ast_hash": "d202f106ebe8b7c18cb57fd479272cbb",
+    "semantic_hash": "d202f106ebe8b7c18cb57fd479272cbb"
   },
   "Cloud Backups/claude-wiki/claude-sessions/2026-07-19-morning-standup.md": {
     "mtime": 1784480600.0,
@@ -5000,9 +5000,9 @@
     "semantic_hash": "45a12cc36269457595c5a8088e02569b"
   },
   "TRUTH_CHECK.md": {
-    "mtime": 1785798840.0,
-    "ast_hash": "013b024c8d42e39815e44fb9a8aedaa2",
-    "semantic_hash": "013b024c8d42e39815e44fb9a8aedaa2"
+    "mtime": 1785914348.0,
+    "ast_hash": "3b7b648bbec4c5bc0a3ac4e3f3709d58",
+    "semantic_hash": "3b7b648bbec4c5bc0a3ac4e3f3709d58"
   },
   ".obsidian/app.json": {
     "mtime": 1785745556.0,
@@ -5565,9 +5565,9 @@
     "semantic_hash": "76e680f390725ad401c14c9c6cda90e6"
   },
   "Cloud Backups/claude-wiki/concepts/Cross-Agent Logging System.md": {
-    "mtime": 1785776842.0,
-    "ast_hash": "342e90db9374bf0bd47e85fb2bbf14cd",
-    "semantic_hash": "342e90db9374bf0bd47e85fb2bbf14cd"
+    "mtime": 1785863528.0,
+    "ast_hash": "2e5d1c73ff60e0adb58db8310956a06e",
+    "semantic_hash": "2e5d1c73ff60e0adb58db8310956a06e"
   },
   "Cloud Backups/claude-wiki/concepts/Operating Manual.md": {
     "mtime": 1785115300.0,
@@ -5860,9 +5860,9 @@
     "semantic_hash": "198ad0213d4b5f08d0be12228e3f1b43"
   },
   "Cloud Backups/claude-wiki/claude-sessions/2026-08-03-hermes-session-dump.md": {
-    "mtime": 1785796412.0,
-    "ast_hash": "8370076c708cfb481c35bdfa1e27321f",
-    "semantic_hash": "8370076c708cfb481c35bdfa1e27321f"
+    "mtime": 1785852315.0,
+    "ast_hash": "b0df79d393982f957e07938a01811731",
+    "semantic_hash": "b0df79d393982f957e07938a01811731"
   },
   "Cloud Backups/claude-wiki/claude-sessions/2026-08-03-night-shift-cycle3.md": {
     "mtime": 1785744792.0,
@@ -5895,9 +5895,9 @@
     "semantic_hash": "c1cedd420ac7e04be44bf9b33f962f9e"
   },
   "RED_TEAM_FINDINGS.md": {
-    "mtime": 1785803796.0,
-    "ast_hash": "ecd3c310b68b138249b72c748c0ad7ff",
-    "semantic_hash": "ecd3c310b68b138249b72c748c0ad7ff"
+    "mtime": 1785917683.0,
+    "ast_hash": "9c74e623be47691c254b854e41b67493",
+    "semantic_hash": "9c74e623be47691c254b854e41b67493"
   },
   "claude-sessions/2026-08-03-jarvis-1212.md": {
     "mtime": 1785773562.0,
@@ -5908,5 +5908,70 @@
     "mtime": 1785802762.0,
     "ast_hash": "d89734793f18499b94448e984c60a37c",
     "semantic_hash": "d89734793f18499b94448e984c60a37c"
+  },
+  "2026-08-04-night-shift-cycle4.md": {
+    "mtime": 1785835168.0,
+    "ast_hash": "57a8806b956537cb1a4c7b726a1e04ab",
+    "semantic_hash": "57a8806b956537cb1a4c7b726a1e04ab"
+  },
+  "Cloud Backups/claude-wiki/AGENTS.md": {
+    "mtime": 1785858639.0,
+    "ast_hash": "577463075cb690db0878cc8c91c629f9",
+    "semantic_hash": "577463075cb690db0878cc8c91c629f9"
+  },
+  "Cloud Backups/claude-wiki/claude-sessions/2026-08-04-daily-compound.md": {
+    "mtime": 1785863528.0,
+    "ast_hash": "3cf8f5d8c87a29935aa512b115f0f010",
+    "semantic_hash": "3cf8f5d8c87a29935aa512b115f0f010"
+  },
+  "Cloud Backups/claude-wiki/claude-sessions/2026-08-04-night-shift-cycle4.md": {
+    "mtime": 1785835204.0,
+    "ast_hash": "57a8806b956537cb1a4c7b726a1e04ab",
+    "semantic_hash": "57a8806b956537cb1a4c7b726a1e04ab"
+  },
+  "Cloud Backups/claude-wiki/claude-sessions/2026-08-04-night-shift-digest.md": {
+    "mtime": 1785838262.0,
+    "ast_hash": "b670e67b4486166d0da42a268db844d4",
+    "semantic_hash": "b670e67b4486166d0da42a268db844d4"
+  },
+  "Cloud Backups/claude-wiki/claude-sessions/2026-08-05-auto-recovery.md": {
+    "mtime": 1785917404.0,
+    "ast_hash": "53b01d05243f2f0c8c30ff04d554e2fd",
+    "semantic_hash": "53b01d05243f2f0c8c30ff04d554e2fd"
+  },
+  "Cloud Backups/claude-wiki/claude-sessions/2026-08-05-night-shift-cycle1.md": {
+    "mtime": 1785910264.0,
+    "ast_hash": "4c095fb93676e098511aa192fe214c30",
+    "semantic_hash": "4c095fb93676e098511aa192fe214c30"
+  },
+  "Cloud Backups/claude-wiki/claude-sessions/2026-08-05-night-shift-cycle2.md": {
+    "mtime": 1785914110.0,
+    "ast_hash": "3cd9358dbe42575706fca21181e5feb3",
+    "semantic_hash": "3cd9358dbe42575706fca21181e5feb3"
+  },
+  "Cloud Backups/claude-wiki/concepts/Cross-Agent Bond Protocol.md": {
+    "mtime": 1785858639.0,
+    "ast_hash": "ea44557c6b390744c164082578c2666b",
+    "semantic_hash": "ea44557c6b390744c164082578c2666b"
+  },
+  "Cloud Backups/claude-wiki/concepts/GOJ OCR Pipeline \u2014 Definitive.md": {
+    "mtime": 1785858680.0,
+    "ast_hash": "d45cdbfc7d0ddacb8817921f653f6210",
+    "semantic_hash": "d45cdbfc7d0ddacb8817921f653f6210"
+  },
+  "Cloud Backups/claude-wiki/concepts/Wiki Health Report.md": {
+    "mtime": 1785918093.0,
+    "ast_hash": "413bc5a9e6b20f6dac706204c07d25ab",
+    "semantic_hash": "413bc5a9e6b20f6dac706204c07d25ab"
+  },
+  "Pending Approvals.md": {
+    "mtime": 1785835178.0,
+    "ast_hash": "f07c42447ace8c43efcf96ed9f731c5d",
+    "semantic_hash": "f07c42447ace8c43efcf96ed9f731c5d"
+  },
+  "System Audit/RED_TEAM_FINDINGS.md": {
+    "mtime": 1785903586.0,
+    "ast_hash": "a59956507c485f38a380243713c7981c",
+    "semantic_hash": "a59956507c485f38a380243713c7981c"
   }
 }

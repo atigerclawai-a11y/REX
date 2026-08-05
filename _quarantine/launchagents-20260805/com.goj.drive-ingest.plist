@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+    com.goj.drive-ingest.plist
+    GOJ Live Drive → Dashboard Ingestion Agent (5-min daemon)
+    Replaces the wrong-folder com.goj.drive-watcher.
+    Watches the correct file IDs per CC_DRIVE_SOURCE_MAP_2026-06-08.md.
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.goj.drive-ingest</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/opt/homebrew/opt/python@3.11/libexec/bin/python3</string>
+        <string>/Users/mainsobhelper/Desktop/REX/CC_goj_drive_ingest.py</string>
+        <string>--daemon</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/mainsobhelper/Desktop/REX</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>HOME</key>
+        <string>/Users/mainsobhelper</string>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>ThrottleInterval</key>
+    <integer>30</integer>
+
+    <key>StandardOutPath</key>
+    <string>/Users/mainsobhelper/Desktop/REX/logs/goj_drive_ingest.stdout.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/mainsobhelper/Desktop/REX/logs/goj_drive_ingest.stderr.log</string>
+</dict>
+</plist>

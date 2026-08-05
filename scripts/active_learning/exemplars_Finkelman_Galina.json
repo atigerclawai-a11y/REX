@@ -1,13 +1,13 @@
 {
  "client_name": "Finkelman Galina",
- "updated": "2026-08-05T00:30",
+ "updated": "2026-08-05T19:30",
  "orders": [
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "2",
-   "salad": "Салат Днестр",
-   "soup": "Грибной суп",
+   "salad": "Свекла",
+   "soup": "Гороховый суп",
    "main": "Поперечка",
    "side": "Тушеная капуста"
   },

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.goj.transition-drive-hook</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/opt/homebrew/opt/python@3.11/libexec/bin/python3</string>
+        <string>/Users/mainsobhelper/Desktop/REX/CC_transition_drive_hook.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/mainsobhelper/Desktop/REX</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>HOME</key>
+        <string>/Users/mainsobhelper</string>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    </dict>
+
+    <!-- Daemon: KeepAlive ensures it restarts if it crashes -->
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/mainsobhelper/Desktop/REX/logs/transition_drive.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/mainsobhelper/Desktop/REX/logs/transition_drive.error.log</string>
+</dict>
+</plist>

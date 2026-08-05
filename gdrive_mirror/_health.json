@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-05T04:58:39.666064+00:00",
+  "generated": "2026-08-05T22:45:08.631387+00:00",
   "sources": {
-    "sign_in": "unchanged",
-    "attendance_tracking": "unchanged",
+    "sign_in": "ok",
+    "attendance_tracking": "ok",
     "calendar_2026": "?",
     "menu_first_shift": "no_parser_unchanged",
     "menu_second_shift": "no_parser_unchanged",
@@ -11,6 +11,6 @@
   },
   "source_count": 7,
   "mirror_files": 3,
-  "mirror_bytes": 608412,
+  "mirror_bytes": 608398,
   "ok": false
 }

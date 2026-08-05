@@ -100,7 +100,7 @@ def fetch_attendees(db_path: Path, service_date: date) -> dict:
 
     result = {1: [], 2: []}
     # Build normalized menu map for fallback matching
-    menu_cur.execute("SELECT client_name, salad, soup, main, side FROM client_menus WHERE menu_date=?",
+    menu_cur.execute("SELECT client_name, salad, soup, main, side, source_sheet FROM client_menus WHERE menu_date=?",
                      (service_date.isoformat(),))
     all_menus = menu_cur.fetchall()
     menu_map = {r["client_name"]: r for r in all_menus}
@@ -118,9 +118,11 @@ def fetch_attendees(db_path: Path, service_date: date) -> dict:
             side  = menu["side"]  or ""
             main_side = f"{main} + {side}" if main and side else (main or side or "")
             no_menu = False
+            starred = menu["source_sheet"] == "last_order_fallback" if "source_sheet" in menu.keys() else False
         else:
             salad = soup = main_side = ""
             no_menu = True
+            starred = False
 
         row = {
             "name":      c["name"],
@@ -129,6 +131,7 @@ def fetch_attendees(db_path: Path, service_date: date) -> dict:
             "soup":      soup,
             "main_side": main_side,
             "no_menu":   no_menu,
+            "starred":   starred,
         }
         if client_shift in result:
             result[client_shift].append(row)
@@ -198,13 +201,14 @@ def build_pdf(clients: list, shift_num: int, service_date: date, output_path: Pa
             row_num = slice_start + i + 1
             if i < len(page_clients):
                 c = page_clients[i]
+                display_name = f"★ {c['name']}" if c.get('starred') else c['name']
                 if c["no_menu"]:
-                    name_cell = Paragraph(c["name"], cell_style)
+                    name_cell = Paragraph(display_name, cell_style)
                     salad_cell = Paragraph("<b>NO MENU</b>", no_menu_para)
                     soup_cell  = Paragraph("", cell_style)
                     ms_cell    = Paragraph("", cell_style)
                 else:
-                    name_cell  = Paragraph(c["name"], cell_style)
+                    name_cell  = Paragraph(display_name, cell_style)
                     salad_cell = Paragraph(c["salad"] or "", cell_style)
                     soup_cell  = Paragraph(c["soup"] or "", cell_style)
                     ms_cell    = Paragraph(c["main_side"] or "", cell_style)

@@ -98,33 +98,15 @@ def _tg_send(text: str, token: str) -> bool:
 # ── Drive sync ─────────────────────────────────────────────────────────────────
 
 def run_sync() -> bool:
-    """Run CC_drive_sync_data.py. Returns True on success."""
-    sync_script = REX_DIR / "CC_drive_sync_data.py"
-    if not sync_script.exists():
-        log.error(f"Sync script not found: {sync_script}")
-        return False
+    """Drive data sync DISABLED (Kato law 2026-08-05).
 
-    log.info("Running Drive sync...")
-    try:
-        result = subprocess.run(
-            [str(VENV_PYTHON), str(sync_script)],
-            capture_output=True, text=True, timeout=300
-        )
-        if result.stdout:
-            log.info(f"[sync stdout] {result.stdout.strip()[:500]}")
-        if result.stderr:
-            log.warning(f"[sync stderr] {result.stderr.strip()[:500]}")
-        if result.returncode != 0:
-            log.error(f"Drive sync exited {result.returncode}")
-            return False
-        log.info("Drive sync complete")
-        return True
-    except subprocess.TimeoutExpired:
-        log.error("Drive sync timed out after 5 minutes")
-        return False
-    except Exception as e:
-        log.error(f"Drive sync error: {e}")
-        return False
+    Google Drive is OUTPUT-ONLY — never a source of truth. Attendance truth
+    = LIVE Carecenta, menus = OCR pipeline. This function no longer runs
+    CC_drive_sync_data.py and returns True (no-op success) so downstream
+    delivery steps continue unaffected.
+    """
+    log.warning("Drive sync SKIPPED (Kato law 2026-08-05 — Drive is output-only, not a source of truth)")
+    return True
 
 
 # ── PDF generation ─────────────────────────────────────────────────────────────

@@ -1,0 +1,9 @@
+{
+  "ai": "chatgpt",
+  "day": "Wednesday",
+  "date": "2026-08-05",
+  "topic": "API Design, Communication & Dashboard Integration",
+  "type": "curriculum",
+  "prompt": "You are CHATGPT teaching REX (a sovereign AI for Garden of Joy adult day care in Brooklyn, NY) today's lesson.\n\nSubject: API Design, Communication & Dashboard Integration\n\nLesson focus:\nToday's lesson: OpenAI's perspective on clean API design, structured data communication, and building dashboards that non-technical staff can use. Teach REX how to format reports and summaries for the GOJ Chairman briefing \u2014 what makes a summary actionable vs. just informational. One concrete template or framework REX can use in tonight's 9 PM briefing.\n\nTeach this lesson in a clear, structured way. REX will absorb it as background knowledge \u2014 like a book it has read. Be specific, practical, and GOJ-relevant. Include at least one concrete technique or workflow REX can apply this week.",
+  "notify_rexxie": false
+}

@@ -63,52 +63,18 @@ DAY_CODES = ["M", "T", "W", "TH", "F", "Su", "Su"]  # Sat+Sun both "Su" — Driv
 # ═══════════════════════════════════════════════════════════════════════════
 
 def _get_services():
-    """Get Google Sheets + Drive API services.
+    """Google Drive access is DISABLED (Kato law 2026-08-05).
 
-    Auth priority:
-      1. Service account key at ~/.rex_drive_service_account.json
-         — never expires, works headlessly under launchd, no browser needed.
-      2. OAuth token at ~/.rex_google_token.json (legacy fallback).
-
-    To set up service account auth run: CC_setup_drive_service_account.command
+    Drive is OUTPUT-ONLY in this ecosystem — never a source of truth.
+    Attendance truth = LIVE Carecenta; menu orders = OCR pipeline;
+    clients/auth = auth_tracker.db. This function refuses to build
+    Drive/Sheets clients so no code path can read Drive.
     """
-    from googleapiclient.discovery import build
-
-    # ── 1. Service account (preferred) ──────────────────────────────────
-    if SA_KEY_PATH.exists():
-        from google.oauth2 import service_account
-        SA_SCOPES = [
-            "https://www.googleapis.com/auth/spreadsheets.readonly",
-            "https://www.googleapis.com/auth/drive.readonly",
-        ]
-        creds = service_account.Credentials.from_service_account_file(
-            str(SA_KEY_PATH), scopes=SA_SCOPES
-        )
-        return {
-            "drive":  build("drive",  "v3", credentials=creds),
-            "sheets": build("sheets", "v4", credentials=creds),
-        }
-
-    # ── 2. OAuth token (legacy fallback) ─────────────────────────────────
-    from google.oauth2.credentials import Credentials
-    from google.auth.transport.requests import Request
-
-    if not TOKEN_PATH.exists():
-        raise FileNotFoundError(
-            f"No Drive credentials found.\n"
-            f"  Service account key: {SA_KEY_PATH} — not found\n"
-            f"  OAuth token:         {TOKEN_PATH} — not found\n"
-            f"Run CC_setup_drive_service_account.command to fix this permanently."
-        )
-
-    creds = Credentials.from_authorized_user_file(str(TOKEN_PATH))
-    if creds.expired and creds.refresh_token:
-        creds.refresh(Request())
-        TOKEN_PATH.write_text(creds.to_json())
-    return {
-        "drive":  build("drive",  "v3", credentials=creds),
-        "sheets": build("sheets", "v4", credentials=creds),
-    }
+    raise RuntimeError(
+        "DRIVE DISABLED: Google Drive is NOT a source of truth (Kato 2026-08-05). "
+        "Attendance=Carecenta LIVE, menus=OCR, clients=auth_tracker.db. "
+        "Drive is output-only (backups/changelog/distribution)."
+    )
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -512,38 +478,48 @@ def preflight(date_str: str) -> Dict[str, Any]:
     print(f" day_code={day_code}  column={day_column}")
     print(f"{'='*60}")
 
-    # ── Google API ────────────────────────────────────────────────────
-    svc = _get_services()
-    sheets = svc["sheets"]
+    # ── Google API — DISABLED (Kato law 2026-08-05) ────────────────────
+    try:
+        _get_services()  # always raises RuntimeError now
+    except RuntimeError as e:
+        print(f"  🚫 {e}")
+    sheets = None
 
-    # ── Read attendance from Drive ────────────────────────────────────
-    print("\n📋 Reading sign-in sheets...")
-    s1_clients = _read_sign_in(sheets, day_code, 1)
-    print(f"  Shift 1: {len(s1_clients)} clients on Drive")
+    # ── Attendance source: LOCAL DB (Carecenta-synced), NEVER Drive ────
+    print("\n📋 Attendance source: auth_tracker.db (Carecenta-synced truth)...")
+    s1_clients, s2_clients = [], []
+    try:
+        conn = sqlite3.connect(str(AUTH_DB_PATH))
+        conn.row_factory = sqlite3.Row
+        s1_clients = [{"name": r["name"]} for r in conn.execute(
+            f"SELECT name FROM clients WHERE {day_column} = 1 AND active = 1"
+        ).fetchall()]
+        s2_clients = [{"name": r["name"]} for r in conn.execute(
+            f"SELECT name FROM clients WHERE {day_column} = 2 AND active = 1"
+        ).fetchall()]
+        conn.close()
+    except Exception as e:
+        print(f"  ⚠  local attendance read failed: {e}")
+    print(f"  Shift 1: {len(s1_clients)} | Shift 2: {len(s2_clients)} (from DB)")
 
-    if is_sunday:
-        # Sunday combined tab — all clients are shift 1, shift 2 is empty
-        s2_clients = []
-        print(f"  Shift 2: 0 clients (Sunday combined)")
-    else:
-        s2_clients = _read_sign_in(sheets, day_code, 2)
-        print(f"  Shift 2: {len(s2_clients)} clients on Drive")
-
-    # ── Read menus from Drive ─────────────────────────────────────────
-    print("\n🍽️  Reading menu sheets...")
-    s1_menus_raw = _read_menu(sheets, MENU_S1_ID, d, day_code)
-    print(f"  S1 menu tab: {len(s1_menus_raw)} entries")
-
-    if is_sunday:
-        # S2 may not have Sunday menu tabs — try anyway
-        s2_menus_raw = _read_menu(sheets, MENU_S2_ID, d, day_code)
-        if not s2_menus_raw:
-            print(f"  S2 menu tab: not found (Sunday combined — expected)")
-        else:
-            print(f"  S2 menu tab: {len(s2_menus_raw)} entries")
-    else:
-        s2_menus_raw = _read_menu(sheets, MENU_S2_ID, d, day_code)
-        print(f"  S2 menu tab: {len(s2_menus_raw)} entries")
+    # ── Menu source: LOCAL OCR rows (Drive menu sheets disabled) ──────────
+    print("\n🍽️  Menu source: ocr_scan rows from goj_proprietary.db...")
+    s1_menus_raw, s2_menus_raw = {}, {}
+    try:
+        pconn = sqlite3.connect(str(PROPRIETARY_DB_PATH))
+        for row in pconn.execute(
+            "SELECT client_name, shift, salad, soup, main, side FROM client_menus "
+            "WHERE menu_date = ? AND source_sheet = 'ocr_scan'",
+            (date_str,),
+        ).fetchall():
+            fields = {"salad": row[2] or "", "soup": row[3] or "",
+                      "main": row[4] or "", "side": row[5] or ""}
+            target = s1_menus_raw if str(row[1]) == "1" else s2_menus_raw
+            target[row[0]] = fields
+        pconn.close()
+    except Exception as e:
+        print(f"  ⚠  local menu read failed: {e}")
+    print(f"  S1 OCR menu rows: {len(s1_menus_raw)} | S2: {len(s2_menus_raw)}")
 
     # ── Sync attendance to auth_tracker.db ────────────────────────────
     # KATO DECREE 2026-07-27: Carecenta schedule = attendance truth (Drive is stale)
@@ -552,8 +528,8 @@ def preflight(date_str: str) -> Dict[str, Any]:
     if cc_s1 or cc_s2:
         att_sync = _sync_attendance(day_code, day_column, cc_s1, cc_s2)
     else:
-        print("  ⚠  Carecenta roster empty — falling back to Drive sign-in sheet")
-        att_sync = _sync_attendance(day_code, day_column, s1_clients, s2_clients)
+        print("  ⚠  Carecenta roster empty — attendance LEFT UNTOUCHED (Drive fallback REMOVED, law 08-05)")
+        att_sync = {"reset": 0, "s1_set": 0, "s2_set": 0, "auto_activated": [], "unmatched": []}
     print(f"  Reset {att_sync['reset']} active → 0")
     print(f"  Shift 1 set: {att_sync['s1_set']} | Shift 2 set: {att_sync['s2_set']}")
     if att_sync["auto_activated"]:
@@ -638,7 +614,7 @@ def preflight(date_str: str) -> Dict[str, Any]:
             no_menu.append(name)
     if no_menu:
         # ── Fill no-menu clients: last-known order OR flag ─────────────
-        print(f"\n📋 {len(no_menu)} attending clients not on Drive menu tabs — filling from history...")
+        print(f"\n📋 {len(no_menu)} attending clients without OCR menu rows — filling from history...")
         s1_attend_names = {c["name"] for c in s1_clients}
         s2_attend_names = {c["name"] for c in s2_clients}
         no_menu_s1 = [n for n in no_menu if n in s1_attend_names]

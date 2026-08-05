@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.goj.drive_signin_sync</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/mainsobhelper/.rex-venv/bin/python3</string>
+        <string>/Users/mainsobhelper/Desktop/REX/CC_drive_signin_sync.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/mainsobhelper/Desktop/REX</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- Every 5 minutes -->
+    <key>StartInterval</key>
+    <integer>300</integer>
+
+    <key>StandardOutPath</key>
+    <string>/Users/mainsobhelper/Desktop/REX/logs/drive_signin_sync_stdout.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/mainsobhelper/Desktop/REX/logs/drive_signin_sync_stderr.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>HOME</key>
+        <string>/Users/mainsobhelper</string>
+        <key>PATH</key>
+        <string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>REQUESTS_CA_BUNDLE</key>
+        <string>/etc/ssl/cert.pem</string>
+        <key>SSL_CERT_FILE</key>
+        <string>/etc/ssl/cert.pem</string>
+    </dict>
+</dict>
+</plist>
