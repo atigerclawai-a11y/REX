@@ -46,3 +46,5 @@
 - LOOSE: focr CLI = `focr ocr --json <img>` (NO 'html' subcommand); marks = √ vs □; typos Винеррет/Квашеняя must map to catalog
 - LOOSE: Time Machine verified dead-end — registered APFS dest unplugged (UUID DCB2BDEA not mounted), sparsebundle on cartoons = empty HFS relic (Jul 15), zero APFS snapshots
 - LOOSE: consensus_apply.py = same script as consensus_hook.py (renamed) — rebuilt once as consensus_hook
+
+## 2026-08-04

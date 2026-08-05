@@ -1,6 +1,6 @@
 {
  "client_name": "Fedorova Olga",
- "updated": "2026-08-04T20:00",
+ "updated": "2026-08-04T21:30",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -23,7 +23,7 @@
   {
    "menu_date": "2026-08-03",
    "day_code": "M",
-   "shift": "2",
+   "shift": "1",
    "salad": "Салат из баклажан",
    "soup": "Борщ красный",
    "main": "Салмон",

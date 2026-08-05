@@ -26,7 +26,7 @@ files = [
 
 body = """Kato —
 
-DEEP DIAGNOSTIC + CORRECTED SHEETS (re-synced 13:18 EST).
+FINAL sheets 21:48 EST — all WhatsApp + Carecenta attendance fixes applied.
 
 WHAT I FOUND (3 pipeline issues, all fixed):
 1. GARBAGE RETURNED: 21+35 non-canonical cells (Вин, Гр, Кур, MP, FF, Б) on Aug 4/5.
@@ -67,7 +67,7 @@ ATTACHED: corrected Tue+Wed sheets (16 files).
 msg = MIMEMultipart()
 msg['From'] = SENDER
 msg['To'] = TO
-msg['Subject'] = 'GOJ — Deep diagnostic DONE + corrected Tue/Wed sheets (13:18)'
+msg['Subject'] = 'GOJ — FINAL Tue/Wed sheets (WhatsApp + Carecenta fixes applied, 21:48)'
 msg.attach(MIMEText(body, 'plain'))
 for f in files:
     if os.path.exists(f):
