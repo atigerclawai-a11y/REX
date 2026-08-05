@@ -73,28 +73,14 @@ def parse_change(text, sender):
     return typ, client, reason
 
 def get_creds():
-    """OAuth (granted Drive/Sheets per Kato Jul 19 override). SA lacks write."""
-    import google.oauth2.credentials as gcred
-    import google.auth.transport.requests as greq
-    tok = json.load(open(HOME / ".rex_google_token.json"))
-    creds = gcred.Credentials(
-        token=tok.get("token"),
-        refresh_token=tok.get("refresh_token"),
-        token_uri=tok.get("token_uri", "https://oauth2.googleapis.com/token"),
-        client_id=tok.get("client_id"),
-        client_secret=tok.get("client_secret"),
+    """Service Account (Kato hard rule 2026-08-04: Drive/Sheets = SA, NEVER OAuth).
+    Fixed 08-04: OAuth token was stale/deleted → files().create() failed every run."""
+    from google.oauth2 import service_account as gsa
+    creds = gsa.Credentials.from_service_account_file(
+        str(SA_PATH),
         scopes=["https://www.googleapis.com/auth/drive",
                 "https://www.googleapis.com/auth/spreadsheets"],
     )
-    if creds.expired or not creds.valid:
-        creds.refresh(greq.Request())
-        # persist refreshed token
-        tok2 = {
-            "token": creds.token, "refresh_token": creds.refresh_token,
-            "token_uri": creds.token_uri, "client_id": creds.client_id,
-            "client_secret": creds.client_secret, "scopes": creds.scopes,
-        }
-        json.dump(tok2, open(HOME / ".rex_google_token.json", "w"))
     return creds
 
 def _sheet_id(sheets, sid):
@@ -200,10 +186,6 @@ def main():
     backfill = "--backfill" in sys.argv
     days = 14 if backfill else 1
 
-    svc = disc.build('drive', 'v3', credentials=get_creds(), cache_discovery=False)
-    sheets = disc.build('sheets', 'v4', credentials=get_creds(), cache_discovery=False)
-    sid = get_or_create_sheet(svc, sheets)
-
     # state: last synced message id
     state = {}
     if STATE_PATH.exists():
@@ -216,10 +198,6 @@ def main():
         if r["id"] <= last_id:
             continue
         typ, client, reason = parse_change(r["text"], r["sender"])
-        # only log schedule-relevant types
-        if typ == "NOTE":
-            # keep notes but mark them; keep everything for now
-            pass
         group = resolve_group(r["group_name"]) or ""
         new_rows.append([
             r["received_at"][:16], r["sender"], r["text"],
@@ -231,11 +209,33 @@ def main():
         # silent — nothing to report (no_agent cron delivers only non-empty stdout)
         return
 
-    # append (columns now include Group at G)
-    sheets.spreadsheets().values().append(
-        spreadsheetId=sid, range='A2:G',
-        valueInputOption='RAW', insertDataOption='INSERT_ROWS',
-        body={'values': new_rows}).execute()
+    # ── LOCAL LOG (source of truth, SA cannot write Drive) ──
+    LOCAL_LOG = HOME / "Desktop/REX/data/change_log.json"
+    local = []
+    if LOCAL_LOG.exists():
+        local = json.load(open(LOCAL_LOG))
+    existing = {tuple(r[:7]) for r in local}
+    added = [r for r in new_rows if tuple(r[:7]) not in existing]
+    local.extend(added)
+    json.dump(local, open(LOCAL_LOG, "w"), ensure_ascii=False, indent=1)
+    state["last_id"] = last_id
+    json.dump(state, open(STATE_PATH, "w"))
+
+    # ── DRIVE best-effort (SA quota=0, may fail — local log still authoritative) ──
+    try:
+        svc = disc.build('drive', 'v3', credentials=get_creds(), cache_discovery=False)
+        sheets = disc.build('sheets', 'v4', credentials=get_creds(), cache_discovery=False)
+        sid = get_or_create_sheet(svc, sheets)
+        sheets.spreadsheets().values().append(
+            spreadsheetId=sid, range='A2:G',
+            valueInputOption='RAW', insertDataOption='INSERT_ROWS',
+            body={'values': added}).execute()
+    except Exception as e:
+        # Drive write failed (quota/permission) — local log still has the data
+        pass
+
+    print(f"📋 {len(added)} change(s) logged locally (Drive write: "
+          f"{'OK' if 'sid' in dir() else 'skipped — SA cannot write'})")
 
     # color-code each appended row by its group chat
     first_row = _current_last_row(sheets, sid)
