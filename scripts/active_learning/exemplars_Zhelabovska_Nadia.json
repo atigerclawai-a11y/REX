@@ -1,13 +1,13 @@
 {
  "client_name": "Zhelabovska Nadia",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-07-22",
    "day_code": "W",
    "shift": "2",
-   "salad": "Ол",
-   "soup": "Гриб",
+   "salad": "Оливье",
+   "soup": "Грибной суп",
    "main": "S",
    "side": "Картошка"
   },
@@ -15,8 +15,8 @@
    "menu_date": "2026-07-15",
    "day_code": "W",
    "shift": "2",
-   "salad": "Ол",
-   "soup": "Гриб",
+   "salad": "Оливье",
+   "soup": "Грибной суп",
    "main": "S",
    "side": "Картошка"
   },
@@ -24,8 +24,8 @@
    "menu_date": "2026-07-08",
    "day_code": "W",
    "shift": "2",
-   "salad": "Ол",
-   "soup": "Гриб",
+   "salad": "Оливье",
+   "soup": "Грибной суп",
    "main": "S",
    "side": "Картошка"
   },
@@ -33,8 +33,8 @@
    "menu_date": "2026-07-01",
    "day_code": "W",
    "shift": "2",
-   "salad": "Ол",
-   "soup": "Гриб",
+   "salad": "Оливье",
+   "soup": "Грибной суп",
    "main": "S",
    "side": "Картошка"
   },
@@ -42,8 +42,8 @@
    "menu_date": "2026-06-24",
    "day_code": "W",
    "shift": "2",
-   "salad": "Ол",
-   "soup": "Гриб",
+   "salad": "Оливье",
+   "soup": "Грибной суп",
    "main": "S",
    "side": "Картошка"
   }

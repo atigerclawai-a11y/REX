@@ -1,6 +1,6 @@
 {
  "client_name": "Starikov Brayna",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -33,8 +33,8 @@
    "menu_date": "2026-07-24",
    "day_code": "F",
    "shift": "1",
-   "salad": "Вин",
-   "soup": "Гриб",
+   "salad": "Винегрет",
+   "soup": "Грибной суп",
    "main": "Чебуреки",
    "side": ""
   },
@@ -42,8 +42,8 @@
    "menu_date": "2026-07-22",
    "day_code": "W",
    "shift": "1",
-   "salad": "Вин",
-   "soup": "Гриб",
+   "salad": "Винегрет",
+   "soup": "Грибной суп",
    "main": "Голубцы",
    "side": ""
   }

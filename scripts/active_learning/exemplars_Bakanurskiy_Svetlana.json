@@ -1,6 +1,6 @@
 {
  "client_name": "Bakanurskiy Svetlana",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-08-05",
@@ -27,14 +27,14 @@
    "salad": "Суп",
    "soup": "Мясо",
    "main": "Олимп",
-   "side": "Борщ"
+   "side": "Борщ зеленый"
   },
   {
    "menu_date": "2026-07-22",
    "day_code": "W",
    "shift": "2",
    "salad": "Селедка",
-   "soup": "Кур",
+   "soup": "Куриный суп",
    "main": "Чалахач",
    "side": "Паста"
   },
@@ -45,7 +45,7 @@
    "salad": "Суп",
    "soup": "Мясо",
    "main": "Олимп",
-   "side": "Борщ"
+   "side": "Борщ зеленый"
   }
  ]
 }

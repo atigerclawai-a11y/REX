@@ -1,6 +1,6 @@
 {
  "client_name": "Shuper Klavdia",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-08-04",
@@ -15,7 +15,7 @@
    "menu_date": "2026-07-26",
    "day_code": "Su",
    "shift": "1",
-   "salad": "Борщ",
+   "salad": "Борщ зеленый",
    "soup": "Курица",
    "main": "Олимп",
    "side": ""
@@ -24,16 +24,16 @@
    "menu_date": "2026-07-21",
    "day_code": "T",
    "shift": "1",
-   "salad": "Весна",
+   "salad": "Салат весенний",
    "soup": "3.Б",
-   "main": "Дорадо",
+   "main": "Дорадо запеченая",
    "side": ""
   },
   {
    "menu_date": "2026-07-19",
    "day_code": "Su",
    "shift": "1",
-   "salad": "Борщ",
+   "salad": "Борщ зеленый",
    "soup": "Курица",
    "main": "Олимп",
    "side": ""
@@ -44,7 +44,7 @@
    "shift": "2",
    "salad": "",
    "soup": "",
-   "main": "Курица в терияки соусе",
+   "main": "Курица в терияки",
    "side": ""
   }
  ]

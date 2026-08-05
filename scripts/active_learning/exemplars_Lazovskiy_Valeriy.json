@@ -1,6 +1,6 @@
 {
  "client_name": "Lazovskiy Valeriy",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-07-27",
@@ -17,24 +17,24 @@
    "shift": "2",
    "salad": "Сало",
    "soup": "Б",
-   "main": "Шницель",
-   "side": "Гр"
+   "main": "Шницель куриный",
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-22",
    "day_code": "W",
    "shift": "2",
-   "salad": "баклаж",
+   "salad": "Салат из баклажан",
    "soup": "Харчо",
    "main": "S",
-   "side": "MP"
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-07-20",
    "day_code": "M",
    "shift": "2",
-   "salad": "Свкл",
-   "soup": "Горох",
+   "salad": "Свекла",
+   "soup": "Гороховый суп",
    "main": "Пельмени",
    "side": ""
   },
@@ -44,8 +44,8 @@
    "shift": "2",
    "salad": "Сало",
    "soup": "Б",
-   "main": "Шницель",
-   "side": "Гр"
+   "main": "Шницель куриный",
+   "side": "Гречка"
   }
  ]
 }

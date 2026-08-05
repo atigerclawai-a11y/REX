@@ -1,20 +1,20 @@
 {
   "seen": {
-    "sign_in": "2026-08-04T16:16:24.364Z",
-    "attendance_tracking": "2026-08-04T16:15:36.813Z",
+    "sign_in": "2026-08-04T19:34:32.063Z",
+    "attendance_tracking": "2026-08-04T19:30:37.583Z",
     "menu_first_shift": "2026-07-27T14:10:36.144Z",
     "menu_second_shift": "2026-07-27T13:57:03.051Z",
     "carecenta_auth": "2026-07-06T15:21:14.192Z"
   },
-  "last_run": "2026-08-04T17:15:34.146067+00:00",
+  "last_run": "2026-08-05T00:15:27.879659+00:00",
   "stats": {
     "sign_in": {
       "status": "unchanged",
-      "modifiedTime": "2026-08-04T16:16:24.364Z"
+      "modifiedTime": "2026-08-04T19:34:32.063Z"
     },
     "attendance_tracking": {
       "status": "unchanged",
-      "modifiedTime": "2026-08-04T16:15:36.813Z"
+      "modifiedTime": "2026-08-04T19:30:37.583Z"
     },
     "calendar_2026": {
       "error": "<HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1giUlw82mlFFfMZOvcZWqBtyB5vNntKliAamQRWzV0IE?fields=id%2Cname%2CmimeType%2CmodifiedTime%2Csize&supportsAllDrives=true&alt=json returned \"File not found: 1giUlw82mlFFfMZOvcZWqBtyB5vNntKliAamQRWzV0IE.\". Details: \"[{'message': 'File not found: 1giUlw82mlFFfMZOvcZWqBtyB5vNntKliAamQRWzV0IE.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]\">"

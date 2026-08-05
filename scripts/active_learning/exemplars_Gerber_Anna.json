@@ -1,6 +1,6 @@
 {
  "client_name": "Gerber Anna",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-08-06",
@@ -42,8 +42,8 @@
    "menu_date": "2026-07-23",
    "day_code": "TH",
    "shift": "2",
-   "salad": "Свкл",
-   "soup": "Овощ",
+   "salad": "Свекла",
+   "soup": "Овощной суп",
    "main": "Голубцы",
    "side": ""
   }

@@ -1,6 +1,6 @@
 {
  "client_name": "Uhach Borbala",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-07-30",
@@ -24,19 +24,19 @@
    "menu_date": "2026-07-23",
    "day_code": "TH",
    "shift": "2",
-   "salad": "капуста",
-   "soup": "Кур",
+   "salad": "Квашеная капуста",
+   "soup": "Куриный суп",
    "main": "S",
-   "side": "MP"
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-07-21",
    "day_code": "T",
    "shift": "2",
-   "salad": "Вин",
-   "soup": "Гриб",
-   "main": "Дорадо",
-   "side": "Гр"
+   "salad": "Винегрет",
+   "soup": "Грибной суп",
+   "main": "Дорадо запеченая",
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-17",

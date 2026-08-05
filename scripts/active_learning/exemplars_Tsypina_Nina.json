@@ -1,6 +1,6 @@
 {
  "client_name": "Tsypina Nina",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-07-27",
@@ -15,37 +15,37 @@
    "menu_date": "2026-07-23",
    "day_code": "TH",
    "shift": "1",
-   "salad": "Свкл",
+   "salad": "Свекла",
    "soup": "Б",
-   "main": "Котл. кур",
-   "side": "MP"
+   "main": "Котлеты куриные",
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-07-20",
    "day_code": "M",
    "shift": "1",
-   "salad": "Ол",
-   "soup": "Кур",
-   "main": "Баса",
-   "side": "Гр"
+   "salad": "Оливье",
+   "soup": "Куриный суп",
+   "main": "Баса с помидорами",
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-16",
    "day_code": "TH",
    "shift": "1",
-   "salad": "Вин",
-   "soup": "Кур",
-   "main": "Котл. кур",
-   "side": "Гр"
+   "salad": "Винегрет",
+   "soup": "Куриный суп",
+   "main": "Котлеты куриные",
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-13",
    "day_code": "M",
    "shift": "1",
-   "salad": "Ол",
+   "salad": "Оливье",
    "soup": "Б",
    "main": "Голубцы",
-   "side": "MP"
+   "side": "Пюре"
   }
  ]
 }

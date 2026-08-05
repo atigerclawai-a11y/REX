@@ -1,6 +1,6 @@
 {
  "client_name": "Lazovskiy Lina",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-07-27",
@@ -18,24 +18,24 @@
    "salad": "Селедка",
    "soup": "Б",
    "main": "Чалахач",
-   "side": "MP"
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-07-22",
    "day_code": "W",
    "shift": "2",
-   "salad": "Вин",
-   "soup": "Горох",
+   "salad": "Винегрет",
+   "soup": "Гороховый суп",
    "main": "S",
-   "side": "Гр"
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-20",
    "day_code": "M",
    "shift": "2",
-   "salad": "капуста",
+   "salad": "Квашеная капуста",
    "soup": "3.Б",
-   "main": "Бл. твор",
+   "main": "Блины с творогом",
    "side": ""
   },
   {
@@ -45,7 +45,7 @@
    "salad": "Селедка",
    "soup": "Б",
    "main": "Чалахач",
-   "side": "MP"
+   "side": "Пюре"
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "client_name": "Lvova Tamara",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-08-06",
@@ -33,7 +33,7 @@
    "menu_date": "2026-07-26",
    "day_code": "Su",
    "shift": "1",
-   "salad": "Борщ",
+   "salad": "Борщ зеленый",
    "soup": "Курица",
    "main": "Олимп",
    "side": ""
@@ -42,10 +42,10 @@
    "menu_date": "2026-07-21",
    "day_code": "T",
    "shift": "2",
-   "salad": "Вин",
+   "salad": "Винегрет",
    "soup": "Б",
-   "main": "Дорадо",
-   "side": "Туш. кап."
+   "main": "Дорадо запеченая",
+   "side": "Тушеная капуста"
   }
  ]
 }

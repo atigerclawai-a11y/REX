@@ -1,51 +1,51 @@
 {
  "client_name": "Kormova Lyubov",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-07-23",
    "day_code": "TH",
    "shift": "2",
-   "salad": "Свкл",
-   "soup": "Горох",
+   "salad": "Свекла",
+   "soup": "Гороховый суп",
    "main": "S",
-   "side": "Гр"
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-22",
    "day_code": "W",
    "shift": "2",
-   "salad": "Вин",
-   "soup": "Кур",
+   "salad": "Винегрет",
+   "soup": "Куриный суп",
    "main": "Поперечка",
-   "side": "MP"
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-07-16",
    "day_code": "TH",
    "shift": "2",
-   "salad": "Свкл",
-   "soup": "Горох",
+   "salad": "Свекла",
+   "soup": "Гороховый суп",
    "main": "S",
-   "side": "Гр"
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-15",
    "day_code": "W",
    "shift": "2",
-   "salad": "Вин",
-   "soup": "Кур",
+   "salad": "Винегрет",
+   "soup": "Куриный суп",
    "main": "Поперечка",
-   "side": "MP"
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-07-09",
    "day_code": "TH",
    "shift": "2",
-   "salad": "Свкл",
-   "soup": "Горох",
+   "salad": "Свекла",
+   "soup": "Гороховый суп",
    "main": "S",
-   "side": "Гр"
+   "side": "Гречка"
   }
  ]
 }

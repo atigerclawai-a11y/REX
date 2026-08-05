@@ -1,6 +1,6 @@
 {
  "client_name": "Gurevich Victor",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-08-06",
@@ -42,10 +42,10 @@
    "menu_date": "2026-07-23",
    "day_code": "TH",
    "shift": "1",
-   "salad": "Вин",
-   "soup": "Гриб",
-   "main": "Бл. мясо",
-   "side": "Гр"
+   "salad": "Винегрет",
+   "soup": "Грибной суп",
+   "main": "Блины с мясом",
+   "side": "Гречка"
   }
  ]
 }

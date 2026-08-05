@@ -1,6 +1,6 @@
 {
  "client_name": "Batoura Lioubov",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-07-31",
@@ -15,7 +15,7 @@
    "menu_date": "2026-07-26",
    "day_code": "Su",
    "shift": "1",
-   "salad": "Борщ",
+   "salad": "Борщ зеленый",
    "soup": "Курица",
    "main": "Олимп",
    "side": ""
@@ -25,7 +25,7 @@
    "day_code": "F",
    "shift": "1",
    "salad": "Сало",
-   "soup": "Гороховый",
+   "soup": "Гороховый суп",
    "main": "Котлеты куриные",
    "side": ""
   },
@@ -33,7 +33,7 @@
    "menu_date": "2026-07-19",
    "day_code": "Su",
    "shift": "1",
-   "salad": "Борщ",
+   "salad": "Борщ зеленый",
    "soup": "Курица",
    "main": "Олимп",
    "side": ""
@@ -44,7 +44,7 @@
    "shift": "1",
    "salad": "Сало",
    "soup": "3.Б",
-   "main": "Бл. мясо",
+   "main": "Блины с мясом",
    "side": ""
   }
  ]

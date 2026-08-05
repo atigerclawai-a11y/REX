@@ -1,6 +1,6 @@
 {
  "client_name": "Kulchinskaya Alla",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-07-31",
@@ -33,7 +33,7 @@
    "menu_date": "2026-07-26",
    "day_code": "Su",
    "shift": "1",
-   "salad": "Борщ",
+   "salad": "Борщ зеленый",
    "soup": "Рыба",
    "main": "Олимп",
    "side": ""
@@ -44,7 +44,7 @@
    "shift": "2",
    "salad": "",
    "soup": "",
-   "main": "Шницель",
+   "main": "Шницель куриный",
    "side": "Паста"
   }
  ]

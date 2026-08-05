@@ -1,12 +1,12 @@
 {
  "client_name": "Lurye Frida",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-07-23",
    "day_code": "TH",
    "shift": "1",
-   "salad": "Вин",
+   "salad": "Винегрет",
    "soup": "3.Б",
    "main": "Чалахач",
    "side": "Паста"
@@ -15,7 +15,7 @@
    "menu_date": "2026-07-21",
    "day_code": "T",
    "shift": "1",
-   "salad": "баклаж",
+   "salad": "Салат из баклажан",
    "soup": "3.Б",
    "main": "Жульен",
    "side": "Паста"
@@ -24,7 +24,7 @@
    "menu_date": "2026-07-16",
    "day_code": "TH",
    "shift": "1",
-   "salad": "Вин",
+   "salad": "Винегрет",
    "soup": "3.Б",
    "main": "Чалахач",
    "side": "Паста"
@@ -33,7 +33,7 @@
    "menu_date": "2026-07-14",
    "day_code": "T",
    "shift": "1",
-   "salad": "баклаж",
+   "salad": "Салат из баклажан",
    "soup": "3.Б",
    "main": "Жульен",
    "side": "Паста"
@@ -42,7 +42,7 @@
    "menu_date": "2026-07-09",
    "day_code": "TH",
    "shift": "1",
-   "salad": "Вин",
+   "salad": "Винегрет",
    "soup": "3.Б",
    "main": "Чалахач",
    "side": "Паста"

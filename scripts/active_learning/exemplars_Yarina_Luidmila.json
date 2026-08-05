@@ -1,50 +1,50 @@
 {
  "client_name": "Yarina Luidmila",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-07-24",
    "day_code": "F",
    "shift": "2",
-   "salad": "Вин",
+   "salad": "Винегрет",
    "soup": "Б",
-   "main": "Баса",
+   "main": "Баса с помидорами",
    "side": "Картошка"
   },
   {
    "menu_date": "2026-07-17",
    "day_code": "F",
    "shift": "2",
-   "salad": "Вин",
+   "salad": "Винегрет",
    "soup": "Б",
-   "main": "Баса",
+   "main": "Баса с помидорами",
    "side": "Картошка"
   },
   {
    "menu_date": "2026-07-10",
    "day_code": "F",
    "shift": "2",
-   "salad": "Вин",
+   "salad": "Винегрет",
    "soup": "Б",
-   "main": "Баса",
+   "main": "Баса с помидорами",
    "side": "Картошка"
   },
   {
    "menu_date": "2026-07-03",
    "day_code": "F",
    "shift": "2",
-   "salad": "Вин",
-   "soup": "Гриб",
-   "main": "Баса",
+   "salad": "Винегрет",
+   "soup": "Грибной суп",
+   "main": "Баса с помидорами",
    "side": "Картошка"
   },
   {
    "menu_date": "2026-06-26",
    "day_code": "F",
    "shift": "2",
-   "salad": "Вин",
-   "soup": "Гриб",
-   "main": "Баса",
+   "salad": "Винегрет",
+   "soup": "Грибной суп",
+   "main": "Баса с помидорами",
    "side": "Картошка"
   }
  ]

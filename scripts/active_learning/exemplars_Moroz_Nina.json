@@ -1,33 +1,33 @@
 {
  "client_name": "Moroz Nina",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-07-24",
    "day_code": "F",
    "shift": "2",
-   "salad": "баклаж",
+   "salad": "Салат из баклажан",
    "soup": "Б",
    "main": "S",
-   "side": "Туш. кап."
+   "side": "Тушеная капуста"
   },
   {
    "menu_date": "2026-07-17",
    "day_code": "F",
    "shift": "2",
-   "salad": "баклаж",
+   "salad": "Салат из баклажан",
    "soup": "Б",
    "main": "S",
-   "side": "Туш. кап."
+   "side": "Тушеная капуста"
   },
   {
    "menu_date": "2026-07-17",
    "day_code": "F",
    "shift": "1",
-   "salad": "баклаж",
+   "salad": "Салат из баклажан",
    "soup": "Б",
    "main": "S",
-   "side": "Туш. кап."
+   "side": "Тушеная капуста"
   },
   {
    "menu_date": "2026-07-15",

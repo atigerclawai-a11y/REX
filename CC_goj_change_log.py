@@ -97,6 +97,18 @@ def get_creds():
         json.dump(tok2, open(HOME / ".rex_google_token.json", "w"))
     return creds
 
+def _sheet_id(sheets, sid):
+    """Return the numeric sheetId of the first sheet (needed for batchUpdate)."""
+    meta = sheets.spreadsheets().get(spreadsheetId=sid, fields='sheets.properties.sheetId,sheets.properties.title').execute()
+    return meta['sheets'][0]['properties']['sheetId']
+
+
+def _current_last_row(sheets, sid):
+    """Row index (1-based) of the last row with content, for coloring."""
+    r = sheets.spreadsheets().values().get(spreadsheetId=sid, range='A:G').execute()
+    return len(r.get('values', []))
+
+
 def get_or_create_sheet(svc, sheets):
     sid_path = SHEET_ID_PATH
     if sid_path.exists():
@@ -116,11 +128,54 @@ def get_or_create_sheet(svc, sheets):
         'type': 'user', 'role': 'writer', 'emailAddress': KATO_EMAIL}).execute()
     # header
     sheets.spreadsheets().values().update(
-        spreadsheetId=sid, range='A1:F1',
+        spreadsheetId=sid, range='A1:G1',
         valueInputOption='RAW',
-        body={'values': [['Timestamp', 'Sender', 'Message', 'Client', 'Type', 'Reason']]}).execute()
+        body={'values': [['Timestamp', 'Sender', 'Message', 'Client', 'Type', 'Reason', 'Group']]}).execute()
     print(f"✅ Sheet created: https://docs.google.com/spreadsheets/d/{sid}")
     return sid
+
+# ── Group whitelist ─────────────────────────────────────────────────────
+# The change log must ONLY ingest the three GOJ WhatsApp groups:
+#   main, attendance, plus and minus.
+# (Kato rule 8/4: "main group, attendance group, and plus and minus group
+#  all from whats app" — everything else is noise.)
+# JID → canonical name. `Main` confirmed 8/4 via bridge state.json exact
+# 47/47 message-id match; Attendance identified by Lena's sign-in-verification
+# content; Plus and Minus = image-post group (text often empty).
+GROUP_ALIASES = {
+    "120363410220335589@g.us": "Main",
+    "120363428164994197@g.us": "Attendance",
+    "120363429083958383@g.us": "Plus and Minus",
+}
+# canonical group names (lowercase) that are allowed in the log
+GOJ_GROUPS = {"main", "attendance", "plus and minus", "plus"}
+
+
+def resolve_group(g: str) -> str | None:
+    """Map a raw group value (JID or subject) to a canonical GOJ group name.
+    Returns None for non-GOJ groups (prayer chat, unknown, empty)."""
+    g = (g or "").strip()
+    if not g:
+        return None
+    if g in GROUP_ALIASES:
+        return GROUP_ALIASES[g]
+    low = g.lower()
+    if "plus" in low or "minus" in low:
+        return "Plus and Minus"
+    if "attendance" in low:
+        return "Attendance"
+    if low == "main" or low.endswith("main") or "main" in low:
+        return "Main"
+    return None
+
+
+# row background colors per group (R,G,B 0-1 for Sheets API)
+GROUP_COLORS = {
+    "Main":          (0.85, 0.92, 1.0),  # light blue
+    "Attendance":    (0.87, 1.0, 0.87),  # light green
+    "Plus and Minus": (1.0, 0.94, 0.82), # light orange
+}
+
 
 def fetch_messages(since_days=7):
     import sqlite3
@@ -128,13 +183,14 @@ def fetch_messages(since_days=7):
     con.row_factory = sqlite3.Row
     since = (datetime.now() - timedelta(days=since_days)).isoformat()
     rows = con.execute("""
-        SELECT id, sender, text, received_at, is_schedule_change
+        SELECT id, group_name, sender, text, received_at
         FROM imessage_intel
         WHERE received_at >= ? AND text IS NOT NULL AND text != ''
         ORDER BY received_at
     """, (since,)).fetchall()
     con.close()
-    return rows
+    # whitelist: only the three GOJ WhatsApp groups
+    return [r for r in rows if resolve_group(r["group_name"]) is not None]
 
 def main():
     import warnings
@@ -164,9 +220,10 @@ def main():
         if typ == "NOTE":
             # keep notes but mark them; keep everything for now
             pass
+        group = resolve_group(r["group_name"]) or ""
         new_rows.append([
             r["received_at"][:16], r["sender"], r["text"],
-            client, typ, reason,
+            client, typ, reason, group,
         ])
         last_id = max(last_id, r["id"])
 
@@ -174,11 +231,43 @@ def main():
         # silent — nothing to report (no_agent cron delivers only non-empty stdout)
         return
 
-    # append
+    # append (columns now include Group at G)
     sheets.spreadsheets().values().append(
-        spreadsheetId=sid, range='A2:F',
+        spreadsheetId=sid, range='A2:G',
         valueInputOption='RAW', insertDataOption='INSERT_ROWS',
         body={'values': new_rows}).execute()
+
+    # color-code each appended row by its group chat
+    first_row = _current_last_row(sheets, sid)
+    n = len(new_rows)
+    color_requests = []
+    for i, row in enumerate(new_rows):
+        grp = row[6]
+        rgb = GROUP_COLORS.get(grp)
+        if not rgb:
+            continue
+        color_requests.append({
+            "repeatCell": {
+                "range": {
+                    "sheetId": _sheet_id(sheets, sid),
+                    "startRowIndex": first_row - n + i,
+                    "endRowIndex": first_row - n + i + 1,
+                    "startColumnIndex": 0,
+                    "endColumnIndex": 7,
+                },
+                "cell": {
+                    "userEnteredFormat": {
+                        "backgroundColor": {
+                            "red": rgb[0], "green": rgb[1], "blue": rgb[2],
+                        }
+                    }
+                },
+                "fields": "userEnteredFormat.backgroundColor",
+            }
+        })
+    if color_requests:
+        sheets.spreadsheets().batchUpdate(
+            spreadsheetId=sid, body={"requests": color_requests}).execute()
 
     state["last_id"] = last_id
     state["last_sync"] = datetime.now().isoformat()

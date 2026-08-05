@@ -1,51 +1,51 @@
 {
  "client_name": "Shuklina Olga",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-07-24",
    "day_code": "F",
    "shift": "2",
-   "salad": "капуста",
+   "salad": "Квашеная капуста",
    "soup": "Б",
    "main": "S",
-   "side": "MP"
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-07-22",
    "day_code": "W",
    "shift": "2",
-   "salad": "капуста",
+   "salad": "Квашеная капуста",
    "soup": "Б",
    "main": "S",
-   "side": "Гр"
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-17",
    "day_code": "F",
    "shift": "2",
-   "salad": "капуста",
+   "salad": "Квашеная капуста",
    "soup": "Б",
    "main": "S",
-   "side": "MP"
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-07-15",
    "day_code": "W",
    "shift": "2",
-   "salad": "капуста",
+   "salad": "Квашеная капуста",
    "soup": "Б",
    "main": "S",
-   "side": "Гр"
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-10",
    "day_code": "F",
    "shift": "2",
-   "salad": "капуста",
+   "salad": "Квашеная капуста",
    "soup": "Б",
    "main": "S",
-   "side": "MP"
+   "side": "Пюре"
   }
  ]
 }

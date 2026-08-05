@@ -1,6 +1,6 @@
 {
  "client_name": "Beylina Elena",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-07-31",
@@ -24,7 +24,7 @@
    "menu_date": "2026-07-17",
    "day_code": "F",
    "shift": "2",
-   "salad": "Днестр",
+   "salad": "Салат Днестр",
    "soup": "Харчо",
    "main": "S",
    "side": ""
@@ -33,7 +33,7 @@
    "menu_date": "2026-07-10",
    "day_code": "F",
    "shift": "2",
-   "salad": "Днестр",
+   "salad": "Салат Днестр",
    "soup": "Харчо",
    "main": "S",
    "side": ""
@@ -45,7 +45,7 @@
    "salad": "Сало",
    "soup": "Харчо",
    "main": "S",
-   "side": "MP"
+   "side": "Пюре"
   }
  ]
 }

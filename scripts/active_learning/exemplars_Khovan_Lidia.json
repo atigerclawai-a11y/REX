@@ -1,6 +1,6 @@
 {
  "client_name": "Khovan Lidia",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-07-27",
@@ -15,16 +15,16 @@
    "menu_date": "2026-07-24",
    "day_code": "F",
    "shift": "2",
-   "salad": "Свкл",
-   "soup": "Горох",
+   "salad": "Свекла",
+   "soup": "Гороховый суп",
    "main": "S",
-   "side": "Гр"
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-23",
    "day_code": "TH",
    "shift": "2",
-   "salad": "Свкл",
+   "salad": "Свекла",
    "soup": "Харчо",
    "main": "Голубцы",
    "side": ""
@@ -33,19 +33,19 @@
    "menu_date": "2026-07-20",
    "day_code": "M",
    "shift": "2",
-   "salad": "Свкл",
+   "salad": "Свекла",
    "soup": "Б",
-   "main": "Бл. твор",
+   "main": "Блины с творогом",
    "side": ""
   },
   {
    "menu_date": "2026-07-17",
    "day_code": "F",
    "shift": "2",
-   "salad": "Свкл",
-   "soup": "Горох",
+   "salad": "Свекла",
+   "soup": "Гороховый суп",
    "main": "S",
-   "side": "Гр"
+   "side": "Гречка"
   }
  ]
 }

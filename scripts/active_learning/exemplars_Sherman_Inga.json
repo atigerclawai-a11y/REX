@@ -1,6 +1,6 @@
 {
  "client_name": "Sherman Inga",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -33,19 +33,19 @@
    "menu_date": "2026-07-17",
    "day_code": "F",
    "shift": "1",
-   "salad": "Ол",
+   "salad": "Оливье",
    "soup": "Б",
    "main": "Жульен",
-   "side": "Фасоль"
+   "side": "Стручковая фасоль"
   },
   {
    "menu_date": "2026-07-10",
    "day_code": "F",
    "shift": "1",
-   "salad": "Ол",
+   "salad": "Оливье",
    "soup": "Б",
    "main": "Жульен",
-   "side": "Фасоль"
+   "side": "Стручковая фасоль"
   }
  ]
 }

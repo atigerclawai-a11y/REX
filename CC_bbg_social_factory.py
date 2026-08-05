@@ -415,6 +415,61 @@ def publish_telegram(video_path: Path, caption: str) -> bool:
     return True  # Agent handles the actual send
 
 
+def visual_qa(video_path: Optional[Path], name: str) -> bool:
+    """PixelRAG visual QA — extract a frame from the rendered reel and read it
+    with the office-Mac vision model. Catches brand violations (AI logo
+    instead of real logo, mermaid lost in wide shot, clutter) BEFORE publish.
+
+    Returns True if the frame passed QA, False on failure/unreadable.
+    """
+    if not video_path or not video_path.exists():
+        print("[QA] No video — skipping visual QA")
+        return False
+    import base64, json as _json, subprocess as _sp, urllib.request as _ur
+    frame = OUT_DIR / f"{name}_qa_frame.jpg"
+    try:
+        # extract middle frame at ~2s (or 40% in for short clips)
+        _sp.run(
+            ["ffmpeg", "-y", "-ss", "2", "-i", str(video_path),
+             "-frames:v", "1", "-q:v", "3", str(frame)],
+            capture_output=True, timeout=30,
+        )
+        if not frame.exists():
+            print("[QA] Frame extraction failed — skipping")
+            return False
+        b64 = base64.b64encode(frame.read_bytes()).decode()
+        payload = _json.dumps({
+            "model": "gemma4:e4b",
+            "prompt": (
+                "This is a frame from a Boardwalk Beer Garden Instagram reel. "
+                "Check brand compliance: (1) Is the real BBG logo/emblem visible "
+                "(oval gold rope border, vintage BOARDWALK BEER GARDEN text)? "
+                "(2) Is the mermaid mascot the dominant focal point? "
+                "(3) Is the frame clean (dark background, no busy clutter)? "
+                "Answer: PASS or FAIL, then one line why."
+            ),
+            "images": [b64],
+            "stream": False,
+            "keep_alive": -1,
+        }).encode()
+        req = _ur.Request(
+            "http://100.99.86.60:11434/api/generate",
+            data=payload, headers={"Content-Type": "application/json"},
+        )
+        with _ur.urlopen(req, timeout=90) as resp:
+            verdict = _json.loads(resp.read()).get("response", "")
+        print(f"[QA] Visual check: {verdict[:200]}")
+        passed = "PASS" in verdict.upper() and "FAIL" not in verdict.upper()
+        if passed:
+            print("[QA] ✅ Brand-compliant — proceeding to publish")
+        else:
+            print("[QA] ⚠️  Brand violation flagged — consider re-rendering or manual review")
+        return passed
+    except Exception as e:
+        print(f"[QA] Error ({type(e).__name__}) — skipping QA, proceeding")
+        return False
+
+
 def save_metadata(name: str, script: str, prompt: str, angle: str,
                   video_path: Optional[Path], day_info: dict):
     """Save production metadata for archive."""
@@ -447,6 +502,10 @@ def main():
                    help="Video duration in seconds (default: 6)")
     p.add_argument("--name", default=None,
                    help="Custom output name (default: auto-generated)")
+    p.add_argument("--skip-qa", action="store_true",
+                   help="Skip PixelRAG visual QA before publishing")
+    p.add_argument("--force-publish", action="store_true",
+                   help="Publish even if visual QA fails")
     args = p.parse_args()
 
     # 1. Content Ideation
@@ -489,6 +548,16 @@ def main():
             name=name,
             duration=args.duration,
         )
+
+    # 2b. PixelRAG visual QA — catch brand violations before they hit IG
+    qa_passed = True
+    if video_path and not args.skip_qa:
+        print("\n── Visual QA (PixelRAG frame check) ──")
+        qa_passed = visual_qa(video_path, name)
+        if not qa_passed and not args.force_publish:
+            print("[QA] ❌ FAIL — skipping publish. Re-run with --force-publish to override.")
+            save_metadata(name, script, video_prompt, angle["name"], video_path, day_info)
+            return
 
     # 3. Publish
     print("\n── Publishing ──")

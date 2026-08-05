@@ -1,6 +1,6 @@
 {
  "client_name": "Vartanyan Lyudmila",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -42,10 +42,10 @@
    "menu_date": "2026-07-24",
    "day_code": "F",
    "shift": "2",
-   "salad": "Свкл",
-   "soup": "Гриб",
+   "salad": "Свекла",
+   "soup": "Грибной суп",
    "main": "S",
-   "side": "MP"
+   "side": "Пюре"
   }
  ]
 }

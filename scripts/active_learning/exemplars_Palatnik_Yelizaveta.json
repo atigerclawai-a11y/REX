@@ -1,6 +1,6 @@
 {
  "client_name": "Palatnik Yelizaveta",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -43,8 +43,8 @@
    "day_code": "F",
    "shift": "1",
    "salad": "Сало",
-   "soup": "Кур",
-   "main": "Бл. твор",
+   "soup": "Куриный суп",
+   "main": "Блины с творогом",
    "side": ""
   }
  ]

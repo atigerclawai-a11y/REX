@@ -1,6 +1,6 @@
 {
  "client_name": "Leykina Margatita",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-08-04",
@@ -16,8 +16,8 @@
    "day_code": "T",
    "shift": "2",
    "salad": "Сало",
-   "soup": "Горох",
-   "main": "Вар.Кар",
+   "soup": "Гороховый суп",
+   "main": "Вареники с картошкой",
    "side": ""
   },
   {
@@ -25,27 +25,27 @@
    "day_code": "TH",
    "shift": "2",
    "salad": "Сало",
-   "soup": "Горох",
+   "soup": "Гороховый суп",
    "main": "Чалахач",
-   "side": "FF"
+   "side": "Картошка фри"
   },
   {
    "menu_date": "2026-07-09",
    "day_code": "TH",
    "shift": "2",
    "salad": "Сало",
-   "soup": "Горох",
-   "main": "Вар.Кар",
+   "soup": "Гороховый суп",
+   "main": "Вареники с картошкой",
    "side": ""
   },
   {
    "menu_date": "2026-07-02",
    "day_code": "TH",
    "shift": "2",
-   "salad": "Вин",
+   "salad": "Винегрет",
    "soup": "Б",
-   "main": "Св. отбив",
-   "side": "MP"
+   "main": "Свиная отбивная",
+   "side": "Пюре"
   }
  ]
 }

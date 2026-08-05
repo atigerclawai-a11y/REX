@@ -1,6 +1,6 @@
 {
  "client_name": "Kramer Sofya",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-08-06",
@@ -42,10 +42,10 @@
    "menu_date": "2026-07-23",
    "day_code": "TH",
    "shift": "1",
-   "salad": "капуста",
+   "salad": "Квашеная капуста",
    "soup": "Б",
-   "main": "табака",
-   "side": "Гр"
+   "main": "Цыпленок табака",
+   "side": "Гречка"
   }
  ]
 }

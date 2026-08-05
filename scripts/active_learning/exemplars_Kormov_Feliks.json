@@ -1,51 +1,51 @@
 {
  "client_name": "Kormov Feliks",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-07-22",
    "day_code": "W",
    "shift": "2",
-   "salad": "Вин",
-   "soup": "Горох",
+   "salad": "Винегрет",
+   "soup": "Гороховый суп",
    "main": "Поперечка",
-   "side": "Гр"
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-15",
    "day_code": "W",
    "shift": "2",
-   "salad": "Вин",
-   "soup": "Горох",
+   "salad": "Винегрет",
+   "soup": "Гороховый суп",
    "main": "Поперечка",
-   "side": "Гр"
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-08",
    "day_code": "W",
    "shift": "2",
-   "salad": "Вин",
-   "soup": "Горох",
+   "salad": "Винегрет",
+   "soup": "Гороховый суп",
    "main": "Поперечка",
-   "side": "Гр"
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-01",
    "day_code": "W",
    "shift": "2",
-   "salad": "Вин",
-   "soup": "Горох",
+   "salad": "Винегрет",
+   "soup": "Гороховый суп",
    "main": "Поперечка",
-   "side": "Гр"
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-01",
    "day_code": "W",
    "shift": "1",
-   "salad": "Вин",
-   "soup": "Горох",
+   "salad": "Винегрет",
+   "soup": "Гороховый суп",
    "main": "Поперечка",
-   "side": "Гр"
+   "side": "Гречка"
   }
  ]
 }

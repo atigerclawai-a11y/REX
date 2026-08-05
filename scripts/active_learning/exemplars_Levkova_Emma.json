@@ -1,6 +1,6 @@
 {
  "client_name": "Levkova Emma",
- "updated": "2026-08-04T13:00",
+ "updated": "2026-08-04T20:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -33,19 +33,19 @@
    "menu_date": "2026-07-24",
    "day_code": "F",
    "shift": "2",
-   "salad": "Вин",
+   "salad": "Винегрет",
    "soup": "Б",
-   "main": "Шницель",
-   "side": "Гр"
+   "main": "Шницель куриный",
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-22",
    "day_code": "W",
    "shift": "2",
-   "salad": "баклаж",
+   "salad": "Салат из баклажан",
    "soup": "Б",
    "main": "Терияки",
-   "side": "Гр"
+   "side": "Гречка"
   }
  ]
 }
