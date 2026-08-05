@@ -1,13 +1,13 @@
 {
  "client_name": "Magalnik Malvina",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-04",
    "day_code": "T",
    "shift": "1",
    "salad": "Селедка",
-   "soup": null,
+   "soup": "Борщ зеленый",
    "main": "Вареники с картошкой",
    "side": "Тушеная капуста"
   },

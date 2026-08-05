@@ -1,6 +1,6 @@
 {
  "client_name": "Ignatovskaia Tamara",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-06",
@@ -9,15 +9,15 @@
    "salad": "Квашеная капуста",
    "soup": "Гороховый суп",
    "main": "Шницель куриный",
-   "side": null
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-08-05",
    "day_code": "W",
    "shift": "1",
-   "salad": null,
+   "salad": "Свекла",
    "soup": "Куриный суп",
-   "main": null,
+   "main": "Салмон",
    "side": "Гречка"
   },
   {
@@ -25,7 +25,7 @@
    "day_code": "T",
    "shift": "1",
    "salad": "Свекла",
-   "soup": null,
+   "soup": "Гороховый суп",
    "main": "Салмон",
    "side": "Паста"
   },

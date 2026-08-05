@@ -1,6 +1,6 @@
 {
  "client_name": "Shtaygman Yelena",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -33,10 +33,10 @@
    "menu_date": "2026-08-03",
    "day_code": "M",
    "shift": "1",
-   "salad": null,
+   "salad": "Винегрет",
    "soup": "Грибной суп",
-   "main": null,
-   "side": null
+   "main": "Цыпленок табака",
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-31",

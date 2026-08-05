@@ -1,22 +1,22 @@
 {
  "client_name": "Ratner Alla",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
    "shift": "2",
-   "salad": null,
+   "salad": "Оливье",
    "soup": "Овощной суп",
-   "main": null,
-   "side": null
+   "main": "Котлеты куриные",
+   "side": "Картошка фри"
   },
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "2",
    "salad": "Оливье",
-   "soup": null,
+   "soup": "Куриный суп",
    "main": "Котлеты куриные",
    "side": "Картошка фри"
   },

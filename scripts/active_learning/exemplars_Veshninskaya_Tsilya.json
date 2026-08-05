@@ -1,6 +1,6 @@
 {
  "client_name": "Veshninskaya Tsilya",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -9,7 +9,7 @@
    "salad": "Свекла",
    "soup": "Харчо",
    "main": "Котлеты куриные",
-   "side": null
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-08-05",
@@ -25,9 +25,9 @@
    "day_code": "M",
    "shift": "2",
    "salad": "Винегрет",
-   "soup": null,
-   "main": null,
-   "side": null
+   "soup": "Куриный суп",
+   "main": "Оливье",
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-26",

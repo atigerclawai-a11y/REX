@@ -1,11 +1,11 @@
 {
  "client_name": "Breytman Polina",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
-   "shift": "2",
+   "shift": "1",
    "salad": "Оливье",
    "soup": "Борщ красный",
    "main": "Чалахач",
@@ -15,10 +15,10 @@
    "menu_date": "2026-08-03",
    "day_code": "M",
    "shift": "1",
-   "salad": "",
-   "soup": "",
+   "salad": "Оливье",
+   "soup": "Борщ красный",
    "main": "Цыпленок табака",
-   "side": ""
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-30",

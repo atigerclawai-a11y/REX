@@ -1,6 +1,6 @@
 {
  "client_name": "Tokar Polina",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-06",
@@ -18,15 +18,15 @@
    "salad": "Свекла",
    "soup": "Борщ зеленый",
    "main": "Баса с помидорами",
-   "side": null
+   "side": "Картошка фри"
   },
   {
    "menu_date": "2026-08-03",
    "day_code": "M",
    "shift": "1",
-   "salad": null,
-   "soup": null,
-   "main": null,
+   "salad": "Винегрет",
+   "soup": "Борщ зеленый",
+   "main": "Баса с помидорами",
    "side": "Картошка фри"
   },
   {

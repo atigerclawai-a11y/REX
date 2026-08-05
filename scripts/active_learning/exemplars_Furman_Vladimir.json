@@ -1,11 +1,20 @@
 {
  "client_name": "Furman Vladimir",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
    "shift": "2",
+   "salad": "Оливье",
+   "soup": "Борщ зеленый",
+   "main": "Цыпленок табака",
+   "side": "Тушеная капуста"
+  },
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "1",
    "salad": "Оливье",
    "soup": "Борщ зеленый",
    "main": "Цыпленок табака",
@@ -31,15 +40,6 @@
   },
   {
    "menu_date": "2026-07-17",
-   "day_code": "F",
-   "shift": "2",
-   "salad": "Оливье",
-   "soup": "Грибной суп",
-   "main": "Жульен",
-   "side": "Тушеная капуста"
-  },
-  {
-   "menu_date": "2026-07-10",
    "day_code": "F",
    "shift": "2",
    "salad": "Оливье",

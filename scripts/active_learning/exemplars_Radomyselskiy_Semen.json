@@ -1,6 +1,6 @@
 {
  "client_name": "Radomyselskiy Semen",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -9,7 +9,7 @@
    "salad": "Винегрет",
    "soup": "Куриный суп",
    "main": "Блины с творогом",
-   "side": null
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-08-05",
@@ -27,7 +27,7 @@
    "salad": "Сало",
    "soup": "Куриный суп",
    "main": "Блины с мясом",
-   "side": null
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-31",

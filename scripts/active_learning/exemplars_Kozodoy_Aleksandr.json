@@ -1,6 +1,6 @@
 {
  "client_name": "Kozodoy Aleksandr",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-05",
@@ -9,7 +9,7 @@
    "salad": "Свекла",
    "soup": "Гороховый суп",
    "main": "Чебуреки",
-   "side": null
+   "side": "Картошка фри"
   },
   {
    "menu_date": "2026-07-29",

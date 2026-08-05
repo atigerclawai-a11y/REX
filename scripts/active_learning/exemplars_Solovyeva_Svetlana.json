@@ -1,12 +1,12 @@
 {
  "client_name": "Solovyeva Svetlana",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "2",
-   "salad": null,
+   "salad": "Квашеная капуста",
    "soup": "Борщ красный",
    "main": "Гуляш",
    "side": "Гречка"
@@ -15,10 +15,10 @@
    "menu_date": "2026-08-04",
    "day_code": "T",
    "shift": "2",
-   "salad": null,
+   "salad": "Квашеная капуста",
    "soup": "Гороховый суп",
    "main": "Голубцы",
-   "side": null
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-30",

@@ -1,6 +1,6 @@
 {
  "client_name": "Zaripova Svetlana",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-06",
@@ -9,7 +9,7 @@
    "salad": "Салат Днестр",
    "soup": "Борщ зеленый",
    "main": "Чалахач",
-   "side": null
+   "side": "Паста"
   },
   {
    "menu_date": "2026-08-04",
@@ -18,7 +18,7 @@
    "salad": "Квашеная капуста",
    "soup": "Борщ зеленый",
    "main": "Чалахач",
-   "side": null
+   "side": "Паста"
   },
   {
    "menu_date": "2026-07-31",

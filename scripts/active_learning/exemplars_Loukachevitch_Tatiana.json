@@ -1,6 +1,6 @@
 {
  "client_name": "Loukachevitch Tatiana",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-06",
@@ -15,10 +15,10 @@
    "menu_date": "2026-08-05",
    "day_code": "W",
    "shift": "1",
-   "salad": null,
-   "soup": null,
+   "salad": "Винегрет",
+   "soup": "Борщ зеленый",
    "main": "Чебуреки",
-   "side": null
+   "side": "Паста"
   },
   {
    "menu_date": "2026-08-04",
@@ -27,7 +27,7 @@
    "salad": "Винегрет",
    "soup": "Борщ зеленый",
    "main": "Чебуреки",
-   "side": null
+   "side": "Паста"
   },
   {
    "menu_date": "2026-07-30",

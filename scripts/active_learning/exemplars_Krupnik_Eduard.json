@@ -1,6 +1,6 @@
 {
  "client_name": "Krupnik Eduard",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-06",
@@ -15,9 +15,9 @@
    "menu_date": "2026-08-05",
    "day_code": "W",
    "shift": "1",
-   "salad": null,
-   "soup": null,
-   "main": null,
+   "salad": "Винегрет",
+   "soup": "Куриный суп",
+   "main": "Салмон",
    "side": "Пюре"
   },
   {
@@ -27,7 +27,7 @@
    "salad": "Винегрет",
    "soup": "Куриный суп",
    "main": "Салмон",
-   "side": null
+   "side": "Тушеная капуста"
   },
   {
    "menu_date": "2026-07-30",

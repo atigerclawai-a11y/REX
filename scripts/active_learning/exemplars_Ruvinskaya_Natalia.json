@@ -1,13 +1,13 @@
 {
  "client_name": "Ruvinskaya Natalia",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
    "shift": "2",
-   "salad": "",
-   "soup": "",
+   "salad": "Свекла",
+   "soup": "Борщ красный",
    "main": "Шницель куриный",
    "side": "Стручковая фасоль"
   },
@@ -24,10 +24,10 @@
    "menu_date": "2026-08-03",
    "day_code": "M",
    "shift": "2",
-   "salad": "",
-   "soup": "",
-   "main": "",
-   "side": ""
+   "salad": "Свекла",
+   "soup": "Борщ красный",
+   "main": "Салмон",
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-31",

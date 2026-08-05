@@ -1,6 +1,6 @@
 {
  "client_name": "Bogat Svetlana",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -9,7 +9,7 @@
    "salad": "Свекла",
    "soup": "Куриный суп",
    "main": "Пельмени",
-   "side": null
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-08-05",

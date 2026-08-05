@@ -1,6 +1,6 @@
 {
  "client_name": "Safonova Tatyana",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -15,9 +15,9 @@
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "1",
-   "salad": null,
-   "soup": null,
-   "main": null,
+   "salad": "Винегрет",
+   "soup": "Борщ красный",
+   "main": "Салмон",
    "side": "Паста"
   },
   {
@@ -27,7 +27,7 @@
    "salad": "Винегрет",
    "soup": "Борщ красный",
    "main": "Салмон",
-   "side": null
+   "side": "Картошка фри"
   },
   {
    "menu_date": "2026-08-03",

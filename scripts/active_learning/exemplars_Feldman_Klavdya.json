@@ -1,7 +1,16 @@
 {
  "client_name": "Feldman Klavdya",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Селедка",
+   "soup": "Борщ зеленый",
+   "main": "Блины с творогом",
+   "side": "Тушеная капуста"
+  },
   {
    "menu_date": "2026-08-04",
    "day_code": "T",
@@ -36,15 +45,6 @@
    "salad": "Сало",
    "soup": "Б",
    "main": "Баса с помидорами",
-   "side": "Картошка фри"
-  },
-  {
-   "menu_date": "2026-07-07",
-   "day_code": "T",
-   "shift": "2",
-   "salad": "Сало",
-   "soup": "Харчо",
-   "main": "S",
    "side": "Картошка фри"
   }
  ]

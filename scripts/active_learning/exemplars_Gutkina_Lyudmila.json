@@ -1,13 +1,13 @@
 {
  "client_name": "Gutkina Lyudmila",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
    "shift": "2",
-   "salad": "",
-   "soup": "",
+   "salad": "Винегрет",
+   "soup": "Борщ красный",
    "main": "Чалахач",
    "side": "Тушеная капуста"
   },
@@ -24,8 +24,8 @@
    "menu_date": "2026-08-03",
    "day_code": "M",
    "shift": "2",
-   "salad": "",
-   "soup": "",
+   "salad": "Винегрет",
+   "soup": "Борщ красный",
    "main": "Жульен",
    "side": "Тушеная капуста"
   },

@@ -1,13 +1,13 @@
 {
  "client_name": "Brikker Ella",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "1",
-   "salad": "",
-   "soup": "",
+   "salad": "Салат весенний",
+   "soup": "Овощной суп",
    "main": "Чалахач",
    "side": "Пюре"
   },
@@ -24,10 +24,10 @@
    "menu_date": "2026-08-03",
    "day_code": "M",
    "shift": "1",
-   "salad": "",
-   "soup": "",
-   "main": "",
-   "side": ""
+   "salad": "Салат весенний",
+   "soup": "Овощной суп",
+   "main": "Чалахач",
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-07-30",

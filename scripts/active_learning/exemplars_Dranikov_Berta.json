@@ -1,13 +1,13 @@
 {
  "client_name": "Dranikov Berta",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
    "shift": "2",
-   "salad": "",
-   "soup": "",
+   "salad": "Селедка",
+   "soup": "Борщ зеленый",
    "main": "Чалахач",
    "side": "Тушеная капуста"
   },
@@ -15,10 +15,10 @@
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "1",
-   "salad": "",
-   "soup": "",
-   "main": "",
-   "side": ""
+   "salad": "Селедка",
+   "soup": "Борщ зеленый",
+   "main": "Салмон",
+   "side": "Паста"
   },
   {
    "menu_date": "2026-08-05",
@@ -33,9 +33,9 @@
    "menu_date": "2026-08-03",
    "day_code": "M",
    "shift": "1",
-   "salad": "",
-   "soup": "",
-   "main": "",
+   "salad": "Селедка",
+   "soup": "Борщ зеленый",
+   "main": "Салмон",
    "side": "Картошка фри"
   },
   {

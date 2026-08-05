@@ -1,33 +1,33 @@
 {
  "client_name": "Chepizhko Raya",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
    "shift": "2",
-   "salad": "",
-   "soup": "",
+   "salad": "Квашеная капуста",
+   "soup": "Гороховый суп",
    "main": "Салмон",
-   "side": ""
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "1",
-   "salad": "",
-   "soup": "",
-   "main": "",
-   "side": ""
+   "salad": "Квашеная капуста",
+   "soup": "Гороховый суп",
+   "main": "Голубцы",
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-08-03",
    "day_code": "M",
    "shift": "1",
-   "salad": "",
-   "soup": "",
+   "salad": "Квашеная капуста",
+   "soup": "Грибной суп",
    "main": "Чебуреки",
-   "side": ""
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-31",

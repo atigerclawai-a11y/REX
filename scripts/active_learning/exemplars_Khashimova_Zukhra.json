@@ -1,6 +1,6 @@
 {
  "client_name": "Khashimova Zukhra",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -15,9 +15,9 @@
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "1",
-   "salad": null,
-   "soup": null,
-   "main": null,
+   "salad": "Квашеная капуста",
+   "soup": "Борщ красный",
+   "main": "Баса с помидорами",
    "side": "Паста"
   },
   {
@@ -27,15 +27,15 @@
    "salad": "Квашеная капуста",
    "soup": "Борщ красный",
    "main": "Баса с помидорами",
-   "side": null
+   "side": "Паста"
   },
   {
    "menu_date": "2026-08-04",
    "day_code": "T",
    "shift": "1",
-   "salad": null,
-   "soup": null,
-   "main": null,
+   "salad": "Квашеная капуста",
+   "soup": "Борщ красный",
+   "main": "Баса с помидорами",
    "side": "Паста"
   },
   {
@@ -45,7 +45,7 @@
    "salad": "Квашеная капуста",
    "soup": "Борщ красный",
    "main": "Баса с помидорами",
-   "side": null
+   "side": "Гречка"
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "client_name": "Shuksta Asya",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -8,15 +8,15 @@
    "shift": "1",
    "salad": "Салат Днестр",
    "soup": "Гороховый суп",
-   "main": null,
-   "side": null
+   "main": "Салмон",
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "1",
-   "salad": null,
-   "soup": null,
+   "salad": "Сало",
+   "soup": "Борщ красный",
    "main": "Салмон",
    "side": "Пюре"
   },

@@ -1,24 +1,24 @@
 {
  "client_name": "Maglakelidze Mzia",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
    "shift": "2",
-   "salad": "",
-   "soup": "",
-   "main": "",
-   "side": ""
+   "salad": "Сало",
+   "soup": "Борщ красный",
+   "main": "Котлеты куриные",
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "2",
-   "salad": "",
-   "soup": "",
+   "salad": "Сало",
+   "soup": "Борщ красный",
    "main": "Котлеты куриные",
-   "side": ""
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-08-05",
@@ -33,10 +33,10 @@
    "menu_date": "2026-08-03",
    "day_code": "M",
    "shift": "2",
-   "salad": "",
-   "soup": "",
+   "salad": "Сало",
+   "soup": "Борщ красный",
    "main": "Котлеты куриные",
-   "side": ""
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-07-30",

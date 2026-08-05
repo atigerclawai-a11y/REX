@@ -1,6 +1,6 @@
 {
  "client_name": "Belotserkovsky Klavdya",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -18,7 +18,7 @@
    "salad": "Винегрет",
    "soup": "Гороховый суп",
    "main": "Котлеты куриные",
-   "side": null
+   "side": "Стручковая фасоль"
   },
   {
    "menu_date": "2026-07-31",

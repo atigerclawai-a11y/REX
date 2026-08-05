@@ -1,6 +1,6 @@
 {
  "client_name": "Bass Khana",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-05",
@@ -16,9 +16,9 @@
    "day_code": "M",
    "shift": "2",
    "salad": "Свекла",
-   "soup": "",
+   "soup": "Куриный суп",
    "main": "Чебуреки",
-   "side": ""
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-07-29",

@@ -1,6 +1,6 @@
 {
  "client_name": "Avakyan Valentina",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -27,7 +27,7 @@
    "salad": "Винегрет",
    "soup": "Борщ красный",
    "main": "Куриные крылышки",
-   "side": null
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-08-03",
@@ -35,8 +35,8 @@
    "shift": "1",
    "salad": "Винегрет",
    "soup": "Борщ красный",
-   "main": null,
-   "side": null
+   "main": "Салмон",
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-07-31",

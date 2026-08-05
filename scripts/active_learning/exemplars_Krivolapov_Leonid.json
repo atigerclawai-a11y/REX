@@ -1,15 +1,15 @@
 {
  "client_name": "Krivolapov Leonid",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
    "shift": "1",
-   "salad": "",
-   "soup": "",
-   "main": "",
-   "side": ""
+   "salad": "Сало",
+   "soup": "Овощной суп",
+   "main": "Салмон",
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-08-05",
@@ -24,10 +24,10 @@
    "menu_date": "2026-08-03",
    "day_code": "M",
    "shift": "1",
-   "salad": "",
-   "soup": "",
-   "main": "",
-   "side": ""
+   "salad": "Сало",
+   "soup": "Овощной суп",
+   "main": "Салмон",
+   "side": "Пюре"
   },
   {
    "menu_date": "2026-07-31",

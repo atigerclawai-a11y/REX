@@ -1,13 +1,13 @@
 {
  "client_name": "Zhirova Inna",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
    "day_code": "F",
    "shift": "2",
    "salad": "Селедка",
-   "soup": null,
+   "soup": "Куриный суп",
    "main": "Салмон",
    "side": "Пюре"
   },
@@ -16,7 +16,7 @@
    "day_code": "W",
    "shift": "2",
    "salad": "Салат Днестр",
-   "soup": null,
+   "soup": "Куриный суп",
    "main": "Куриные крылышки",
    "side": "Пюре"
   },

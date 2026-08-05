@@ -1,13 +1,13 @@
 {
  "client_name": "Finkelman Galina",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "2",
-   "salad": "",
-   "soup": "",
+   "salad": "Салат Днестр",
+   "soup": "Грибной суп",
    "main": "Поперечка",
    "side": "Тушеная капуста"
   },
@@ -15,8 +15,8 @@
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "1",
-   "salad": "",
-   "soup": "",
+   "salad": "Салат Днестр",
+   "soup": "Грибной суп",
    "main": "Цыпленок табака",
    "side": "Гречка"
   },
@@ -24,8 +24,8 @@
    "menu_date": "2026-08-03",
    "day_code": "M",
    "shift": "1",
-   "salad": "",
-   "soup": "",
+   "salad": "Салат Днестр",
+   "soup": "Грибной суп",
    "main": "Цыпленок табака",
    "side": "Гречка"
   },

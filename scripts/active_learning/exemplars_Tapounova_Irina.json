@@ -1,6 +1,6 @@
 {
  "client_name": "Tapounova Irina",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -9,7 +9,7 @@
    "salad": "Сало",
    "soup": "Харчо",
    "main": "Голубцы",
-   "side": null
+   "side": "Картошка"
   },
   {
    "menu_date": "2026-08-05",
@@ -18,7 +18,7 @@
    "salad": "Винегрет",
    "soup": "Борщ зеленый",
    "main": "Блины с мясом",
-   "side": null
+   "side": "Картошка"
   },
   {
    "menu_date": "2026-07-31",

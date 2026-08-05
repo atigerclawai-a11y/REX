@@ -1,22 +1,31 @@
 {
  "client_name": "Elbert Milla",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
+  {
+   "menu_date": "2026-08-06",
+   "day_code": "TH",
+   "shift": "1",
+   "salad": "Квашеная капуста",
+   "soup": "Харчо",
+   "main": "Котлеты куриные",
+   "side": "Паста"
+  },
   {
    "menu_date": "2026-08-05",
    "day_code": "W",
    "shift": "2",
    "salad": "Свекла",
-   "soup": null,
+   "soup": "Харчо",
    "main": "Котлеты куриные",
-   "side": null
+   "side": "Паста"
   },
   {
    "menu_date": "2026-08-04",
    "day_code": "T",
    "shift": "2",
    "salad": "Селедка",
-   "soup": null,
+   "soup": "Харчо",
    "main": "Котлеты куриные",
    "side": "Паста"
   },
@@ -25,7 +34,7 @@
    "day_code": "M",
    "shift": "1",
    "salad": "Сало",
-   "soup": null,
+   "soup": "Харчо",
    "main": "Поперечка",
    "side": "Паста"
   },
@@ -36,15 +45,6 @@
    "salad": "Квашеная капуста",
    "soup": "Харчо",
    "main": "Котлеты куриные",
-   "side": "Паста"
-  },
-  {
-   "menu_date": "2026-07-27",
-   "day_code": "M",
-   "shift": "2",
-   "salad": "Квашеная капуста",
-   "soup": "Харчо",
-   "main": "Поперечка",
    "side": "Паста"
   }
  ]

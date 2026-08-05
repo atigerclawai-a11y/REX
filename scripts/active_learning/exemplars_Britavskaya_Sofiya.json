@@ -1,6 +1,6 @@
 {
  "client_name": "Britavskaya Sofiya",
- "updated": "2026-08-04T23:30",
+ "updated": "2026-08-05T00:00",
  "orders": [
   {
    "menu_date": "2026-08-07",
@@ -8,15 +8,15 @@
    "shift": "1",
    "salad": "Салат из баклажан",
    "soup": "Грибной суп",
-   "main": null,
-   "side": null
+   "main": "Цыпленок табака",
+   "side": "Гречка"
   },
   {
    "menu_date": "2026-08-06",
    "day_code": "TH",
    "shift": "1",
-   "salad": null,
-   "soup": null,
+   "salad": "Салат Днестр",
+   "soup": "Борщ красный",
    "main": "Цыпленок табака",
    "side": "Гречка"
   },
@@ -27,7 +27,7 @@
    "salad": "Салат Днестр",
    "soup": "Борщ красный",
    "main": "Пельмени",
-   "side": null
+   "side": "Картошка фри"
   },
   {
    "menu_date": "2026-08-03",
