@@ -56,3 +56,6 @@ QUARANTINE_*/
 RECOVERY_SNAPSHOT*/
 CC_session_snapshots/
 _training_tmp/
+google_credentials.json
+*.key
+*.pem
