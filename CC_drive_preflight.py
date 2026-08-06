@@ -205,61 +205,18 @@ def _read_menu(
 
 # ── Carecenta roster (KATO DECREE 2026-07-27) ─────────────────────────────────
 def _carecenta_roster(date_str: str) -> Tuple[List[Dict[str, str]], List[Dict[str, str]]]:
-    """Attendance roster from Carecenta (ghs_schedule.db) — THE source of truth.
-    Kato 2026-07-27: "the clients with schedules in carecenta are attendees."
-    Replaces the Drive sign-in sheet, which staff carry forward WITHOUT updating.
-    Returns ([{'name': auth_tracker_name}...], [...]) for S1/S2 using the same
-    canonical-name matching as the rest of the pipeline (Carecenta 'First Last'
-    + embedded client IDs stripped → auth_tracker 'Last First')."""
-    import re as _re, difflib as _difflib
-    from datetime import date as _date, datetime as _dt
-    SCHED_DB = Path.home() / "Desktop/REX/signin_lists/ghs_schedule.db"
-    AM = {"9AM-1PM", "9AM-2PM", "10AM-2PM", "MORNING", "9AM-1:15PM"}
-    PM = {"1:15PM-5:15PM", "2PM-6PM", "2PM-8PM", "AFTERNOON", "EVENING", "1PM-5PM", "1:15PM-5PM"}
-    FD = {"9AM-5PM", "9AM-9PM"}
-    dt = _dt.strptime(date_str, "%Y-%m-%d").date()
-    today = _date.today()
-    week_number = 30 + ((dt - today).days // 7)  # current Carecenta week = 30
-    carecenta_dow = (dt.weekday() + 1) % 7       # Carecenta is Sunday-first
-    if not SCHED_DB.exists():
-        print("  ⚠  ghs_schedule.db missing — falling back to Drive roster")
-        return [], []
-    conn = sqlite3.connect(str(SCHED_DB))
-    def _pull(slots):
-        slot_csv = "','".join(sorted(slots))
-        q = ("SELECT DISTINCT c.first_name || ' ' || c.last_name FROM schedule s "
-             "JOIN clients c ON s.client_id=c.id WHERE s.day_of_week=? AND s.week_number=? "
-             "AND s.time_slot IN ('" + slot_csv + "') "
-             "AND (s.is_cancelled IS NULL OR s.is_cancelled=0) AND c.status='ACTIVE'")
-        return {_re.sub(r"\b\d{5,}\b", "", r[0]).strip() for r in conn.execute(q, (carecenta_dow, week_number))}
-    s1 = _pull(AM) | _pull(FD)
-    s2 = _pull(PM) | _pull(FD)
-    # map to auth_tracker canonical names (sorted-token + difflib)
-    out1, out2 = [], []
-    if AUTH_DB_PATH.exists():
-        a = sqlite3.connect(str(AUTH_DB_PATH))
-        auth_names = [r[0] for r in a.execute("SELECT name FROM clients WHERE active=1")]
-        a.close()
-        def key(n): return " ".join(sorted(n.lower().replace("-", " ").split()))
-        by_key = {}
-        for n in auth_names: by_key.setdefault(key(n), n)
-        def match(nm):
-            k = key(nm)
-            if k in by_key: return by_key[k]
-            m = _difflib.get_close_matches(k, list(by_key), n=1, cutoff=0.80)
-            return by_key[m[0]] if m else None
-        unmatched = []
-        for nm in sorted(s1):
-            mn = match(nm)
-            (out1.append({"name": mn}) if mn else unmatched.append(nm))
-        for nm in sorted(s2):
-            mn = match(nm)
-            (out2.append({"name": mn}) if mn else unmatched.append(nm))
-        if unmatched:
-            print(f"  ⚠  {len(unmatched)} Carecenta names not in auth_tracker: {unmatched[:8]}")
-    conn.close()
-    print(f"  📋 Carecenta roster (week {week_number}, dow {carecenta_dow}): S1={len(out1)} S2={len(out2)}")
-    return out1, out2
+    """Attendance roster — RETIRED 2026-08-05 (Kato directive).
+    ⛔ NO-OP. Previously read ghs_schedule.db (a retired snapshot DB last written
+    2026-08-02) and produced STALE numbers (Thu showed 118/49 while live
+    Carecenta = 88/61) every time the 20:00 Daily Package cron ran the preflight.
+    The week-number heuristic (30 + (dt-today)//7) picked the wrong week and the
+    zero-then-set in _sync_attendance silently overwrote verified attendance.
+    Attendance truth now lives ONLY in auth_tracker.db day_*_actual, set by the
+    definitive LIVE-Carecenta syncs (sync_tuesday_morning.py, sync_wednesday_definitive.py,
+    sync_thu_fri_definitive.py). DO NOT re-enable without Kato sign-off + a live
+    Carecenta scrape replacing the retired DB."""
+    print("  ⛔ _carecenta_roster DISABLED (ghs_schedule.db retired 2026-08-05, Kato law) — returning empty roster; attendance LEFT UNTOUCHED")
+    return [], []
 
 
 def _sync_attendance(
