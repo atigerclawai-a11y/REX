@@ -42,11 +42,11 @@
     },
     "distribution": {
       "ok": true,
-      "output": "galyuk Zelda, Fedorova Olga\n  \u2705 Shift 2: 49 clients \u2192 distribution_shift2_2026-08-06.pdf\n     \u26a0\ufe0f  NO MENU: Kormov Feliks\n\n============================================================\n Generated 2 file(s)\n \u26a0\ufe0f  5 clients flagged with NO MENU\n============================================================"
+      "output": "n Bella, Chebotareva Galina, Dovgalyuk Zelda, Fedorova Olga\n  \u2705 Shift 2: 49 clients \u2192 distribution_shift2_2026-08-06.pdf\n\n============================================================\n Generated 2 file(s)\n \u26a0\ufe0f  4 clients flagged with NO MENU\n============================================================"
     },
     "kitchen": {
       "ok": true,
-      "output": "============================================================\n \u041a\u0423\u0425\u041d\u042f \u2014 2026-08-07\n============================================================\n  \u2705 /Users/mainsobhelper/Documents/goj files/output_docs/Kitchen_Fri_Aug07.pdf (168 \u0447\u0435\u043b.)\n============================================================"
+      "output": "============================================================\n \u041a\u0423\u0425\u041d\u042f \u2014 2026-08-07\n============================================================\n  \u2705 /Users/mainsobhelper/Documents/goj files/output_docs/Kitchen_Fri_Aug07.pdf (199 \u0447\u0435\u043b.)\n============================================================"
     },
     "auth_check": {
       "ok": true,

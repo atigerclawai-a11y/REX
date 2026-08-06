@@ -458,7 +458,7 @@ def job_signin_driver_sheets():
     generated_files = []
     try:
         result = subprocess.run(
-            [py_bin, str(generator), "--day", next_day_name, "--mode", "signin"],
+            [py_bin, str(generator), "--day", next_day_name, "--mode", "signin", "--skip-preflight"],
             capture_output=True, text=True, cwd=str(DASHBOARD_DIR), timeout=120
         )
         log.info(f"signin generator stdout: {result.stdout[-500:]}")
@@ -470,7 +470,7 @@ def job_signin_driver_sheets():
     # Run driver generator
     try:
         result = subprocess.run(
-            [py_bin, str(generator), "--day", next_day_name, "--mode", "drivers"],
+            [py_bin, str(generator), "--day", next_day_name, "--mode", "drivers", "--skip-preflight"],
             capture_output=True, text=True, cwd=str(DASHBOARD_DIR), timeout=120
         )
         log.info(f"drivers generator stdout: {result.stdout[-500:]}")
